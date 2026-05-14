@@ -88,8 +88,6 @@ const createTextIcon = (text: string) => {
 };
 
 export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, setSelectedMP: (mp: any) => void}) => {
-  const center: [number, number] = [56.1304, -106.3468];
-  
   const bounds: LatLngBoundsExpression = [
     [10.0, -180.00], 
     [89.0, -20.00]   
