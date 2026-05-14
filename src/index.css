@@ -1,0 +1,92 @@
+:root {
+  /* Color Palette - Neutral */
+  --bg-color: #121212;
+  --bg-panel: rgba(30, 30, 30, 0.7);
+  --bg-card: rgba(45, 45, 45, 0.7);
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent-color: #888888;
+  --accent-glow: rgba(136, 136, 136, 0.3);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --hover-color: rgba(255, 255, 255, 0.08);
+  
+  /* Political Parties (Standard Canadian Colors) */
+  --party-liberal: #d71920;
+  --party-conservative: #1a4782;
+  --party-ndp: #f37021;
+  --party-bloc: #33b2cc;
+  --party-green: #3d9b35;
+  --party-independent: #808080;
+
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: var(--text-primary);
+  background-color: var(--bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-color);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(255, 255, 255, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(255, 255, 255, 0.03) 0px, transparent 50%);
+  overflow: hidden;
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: var(--bg-panel);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Leaflet Overrides for Dark Mode */
+.leaflet-container {
+  background: #0a0e17 !important;
+}
+.leaflet-control-zoom {
+  border: 1px solid var(--border-color) !important;
+  background: var(--bg-panel) !important;
+  backdrop-filter: blur(8px) !important;
+}
+.leaflet-control-zoom a {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+.leaflet-control-zoom a:hover {
+  background: var(--hover-color) !important;
+}

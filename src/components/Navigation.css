@@ -1,0 +1,47 @@
+.main-nav {
+  /* margin and layout controlled by App.css to ensure global consistency */
+}
+
+.nav-logo {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  padding-left: 8px;
+}
+
+.logo-text {
+  color: white;
+}
+
+.logo-text.accent {
+  color: var(--accent-color);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.nav-link.active {
+  background: var(--accent-glow);
+  color: white;
+  border-left: 3px solid var(--accent-color);
+}
