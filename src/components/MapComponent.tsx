@@ -124,7 +124,8 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
       'elgin middlesex london': 'elgin st thomas london south',
       'red deer mountain view': 'ponoka didsbury',
       'algoma manitoulin kapuskasing': 'brampton chinguacousy park',
-      'avignon la mitis matane matapedia': 'les pays den haut'
+      'avignon la mitis matane matapedia': 'les pays den haut',
+      'st johns south mount pearl': 'cape spear'
     };
 
     const pairs: {r: string, p: any, score: number}[] = [];
@@ -169,13 +170,15 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
     Edmonton: { targetLat: 44, targetLon: -114, scale: 10, center: [-113.5, 53.5] },
     Calgary: { targetLat: 37, targetLon: -114, scale: 10, center: [-114.0, 51.0] },
     Winnipeg: { targetLat: 42, targetLon: -97, scale: 10, center: [-97.1, 49.8] },
-    Toronto: { targetLat: 30, targetLon: -82, scale: 9, center: [-79.4, 43.7] },
-    Ottawa: { targetLat: 33, targetLon: -72, scale: 9, center: [-75.7, 45.4] },
-    Montreal: { targetLat: 36, targetLon: -62, scale: 9, center: [-73.6, 45.5] },
-    Halifax: { targetLat: 39, targetLon: -52, scale: 10, center: [-63.6, 44.6] }
+    Toronto: { targetLat: 32, targetLon: -84, scale: 9, center: [-79.4, 43.7] },
+    Ottawa: { targetLat: 34, targetLon: -74, scale: 9, center: [-75.7, 45.4] },
+    Montreal: { targetLat: 36, targetLon: -64, scale: 9, center: [-73.6, 45.5] },
+    'Quebec City': { targetLat: 38, targetLon: -54, scale: 9, center: [-71.2, 46.8] },
+    Halifax: { targetLat: 40, targetLon: -44, scale: 10, center: [-63.6, 44.6] }
   });
 
   const [insetTops, setInsetTops] = useState<Record<string, number>>({});
+  const [insetBottoms, setInsetBottoms] = useState<Record<string, number>>({});
 
   const ridingsGeojson = useMemo(() => {
     const baseFeatures = baseRidingsData.features.filter((f: any) => !f.properties.isInset);
@@ -183,6 +186,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
     const newFeatures: any[] = [];
     
     const tops: Record<string, number> = {};
+    const bottoms: Record<string, number> = {};
     data.features.forEach((f: any) => {
       if (!f.geometry || !f.geometry.coordinates) return;
       let minX=180, maxX=-180, minY=90, maxY=-90;
@@ -207,7 +211,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
         if (cityName === 'Toronto') {
           inBounds = Math.abs(cx - config.center[0]) < 0.6 && Math.abs(cy - config.center[1]) < 0.6;
           const name = f.properties.name.toLowerCase();
-          if (name.includes('st. catharines') || name.includes('niagara')) {
+          if (name.includes('st. catharines') || name.includes('niagara') || name.includes('barrie') || name.includes('ajax') || name.includes('whitby') || name.includes('oshawa')) {
             inBounds = false;
           }
         }
@@ -219,11 +223,13 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
           clone.properties.insetScale = config.scale;
           
           let maxTransformedY = -90;
+          let minTransformedY = 90;
           const transform = (coords: any) => {
             if (typeof coords[0] === 'number') {
                coords[0] = config.targetLon + (coords[0] - config.center[0]) * config.scale;
                coords[1] = config.targetLat + (coords[1] - config.center[1]) * config.scale;
                if (coords[1] > maxTransformedY) maxTransformedY = coords[1];
+               if (coords[1] < minTransformedY) minTransformedY = coords[1];
             } else {
                coords.forEach(transform);
             }
@@ -233,12 +239,18 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
           if (!tops[cityName] || maxTransformedY > tops[cityName]) {
              tops[cityName] = maxTransformedY;
           }
+          if (!bottoms[cityName] || minTransformedY < bottoms[cityName]) {
+             bottoms[cityName] = minTransformedY;
+          }
           
           newFeatures.push(clone);
         }
       });
     });
-    setTimeout(() => setInsetTops(tops), 0);
+    setTimeout(() => {
+      setInsetTops(tops);
+      setInsetBottoms(bottoms);
+    }, 0);
     
     data.features.push(...newFeatures);
     return data as any;
@@ -373,29 +385,77 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
       zoomend: (e) => setZoom(e.target.getZoom()),
     });
 
-    if (zoom <= 4) return null;
+    if (zoom <= 3.5) {
+      return (
+         <Marker 
+           position={[20, -100]} 
+           icon={L.divIcon({
+             className: 'inset-tooltip-marker',
+             html: `<div style="font-size: 4em; color: rgba(255,255,255,0.3); font-weight: 800; letter-spacing: 0.4em; text-transform: uppercase; white-space: nowrap; text-align: center; margin-left: -50%;">CITIES</div>`,
+             iconSize: [0, 0],
+             iconAnchor: [0, 0]
+           })} 
+         />
+      );
+    }
 
     return (
       <>
-        {Object.entries(insetConfigs).map(([cityName, config]) => (
-           <Marker 
-             key={cityName} 
-             // We place the marker exactly at the top edge. 
-             // Adding a small geographic offset (e.g. 0.2 degrees) so it sits slightly above the polygon geographically.
-             position={[insetTops[cityName] ? insetTops[cityName] + 0.2 : config.targetLat + 1, config.targetLon]} 
-             icon={createTextIcon(cityName)} 
-           />
-        ))}
+        {Object.entries(insetConfigs).map(([cityName, config]) => {
+           const isBottom = cityName === 'Ottawa' || cityName === 'Quebec City';
+           const posLat = isBottom 
+             ? (insetBottoms[cityName] ? insetBottoms[cityName] - 2.5 : config.targetLat - 3.5)
+             : (insetTops[cityName] ? insetTops[cityName] + 0.3 : config.targetLat + 1.2);
+
+           return (
+             <Marker 
+               key={cityName} 
+               position={[posLat, config.targetLon]} 
+               icon={createTextIcon(cityName)} 
+             />
+           );
+        })}
       </>
     );
   };
 
+  const MapResizer = () => {
+    const map = useMap();
+    useEffect(() => {
+      let timeout: any;
+      const onResize = () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          map.invalidateSize();
+          const isMobile = window.innerWidth < 1024;
+          map.fitBounds([
+            [41.6751, -141.0], 
+            [isMobile ? 68.0 : 83.1106, -52.6]
+          ], { animate: false });
+        }, 300);
+      };
+
+      window.addEventListener('resize', onResize);
+      return () => {
+        window.removeEventListener('resize', onResize);
+        clearTimeout(timeout);
+      };
+    }, [map]);
+    return null;
+  };
+
+  // Safe initial bounds for Canada
+  const isMobileInitial = typeof window !== 'undefined' && window.innerWidth < 1024;
+  const canadaBounds: LatLngBoundsExpression = [
+    [41.6751, -141.0], 
+    [isMobileInitial ? 68.0 : 83.1106, -52.6]
+  ];
+
   return (
     <div className="map-container" style={{ background: '#0f172a' }}>
       <MapContainer 
-        center={center} 
-        zoom={4} 
-        minZoom={3}
+        bounds={canadaBounds}
+        minZoom={2}
         maxBounds={bounds}
         maxBoundsViscosity={0.2}
         bounceAtZoomLimits={false}
@@ -404,6 +464,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
         zoomControl={false}
       >
         <ZoomControl position="bottomright" />
+        <MapResizer />
         
         <GeoJSON 
           ref={geoJsonRef}

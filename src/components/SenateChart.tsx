@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import senateSeatingData from '../data/senate_seating.json';
 
 const getSenateColor = (color: string) => {
@@ -39,10 +39,29 @@ const generateMockSenatorName = (index: number) => {
 export const SenateChart = () => {
   const [hoveredSeat, setHoveredSeat] = useState<number | null>(null);
 
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    const resizeObserver = new ResizeObserver(entries => {
+      for (let entry of entries) {
+        const { width, height } = entry.contentRect;
+        const scaleX = width / 250;
+        const scaleY = height / 640;
+        setScale(Math.min(scaleX, scaleY, 1));
+      }
+    });
+    if (containerRef.current) {
+      resizeObserver.observe(containerRef.current);
+    }
+    return () => resizeObserver.disconnect();
+  }, []);
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', height: '100%', padding: '20px' }}>
-      <div style={{ position: 'relative', width: '230px', height: '600px' }}>
-        <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
+    <div ref={containerRef} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', flex: 1, minHeight: '100%', overflow: 'hidden' }}>
+      <div style={{ width: 0, height: 0, position: 'relative' }}>
+        <div style={{ position: 'absolute', width: '230px', height: '600px', left: '-115px', top: '-300px', transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
+          <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
           {senateSeatingData.map((seat: any, index: number) => {
             const isHovered = hoveredSeat === index;
             const fill = getSenateColor(seat.color);
@@ -107,7 +126,8 @@ export const SenateChart = () => {
             </div>
           </div>
         )}
+        </div>
       </div>
     </div>
   );
-};;
+};

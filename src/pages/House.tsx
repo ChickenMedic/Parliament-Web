@@ -32,12 +32,12 @@ export const House = () => {
   const [highlightRole, setHighlightRole] = useState<string>('');
   
   return (
-    <div className="page-container glass-panel" style={{ overflow: 'hidden', padding: '20px', display: 'flex', flexDirection: 'column' }}>
+    <div className="page-container glass-panel" style={{ padding: '20px', display: 'flex', flexDirection: 'column' }}>
       
-      <div style={{ display: 'flex', flex: 1, overflow: 'hidden', width: '100%', maxWidth: '1600px', margin: '0 auto', gap: '20px' }}>
+      <div className="house-layout">
         
         {/* Left Sidebar (MP Details) */}
-        <div style={{ width: '320px', display: 'flex', flexDirection: 'column', gap: '20px', overflowY: 'auto', justifyContent: 'center' }}>
+        <div className="house-sidebar">
           {selectedMP && activeTab === 'Commons' && (
             <div style={{ background: 'rgba(0,0,0,0.3)', padding: '24px', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.1)', display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <h3 style={{ margin: 0, fontSize: '18px', color: 'white', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '12px' }}>Member Profile</h3>
@@ -102,15 +102,14 @@ export const House = () => {
             </div>
           </div>
 
-          <div style={{ position: 'relative', width: '100%', flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            {/* Speaker has been moved into SeatingChart */}
-
+          <div className="seating-chart-container" style={{ position: 'relative', width: '100%', flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'stretch' }}>
+            
             {activeTab === 'Commons' ? <SeatingChart selectedMP={selectedMP} setSelectedMP={setSelectedMP || (() => {})} highlightProvince={highlightProvince} highlightRole={highlightRole} /> : <SenateChart />}
           </div>
         </div>
 
         {/* Right Sidebar (Legend) */}
-        <div style={{ width: '320px', display: 'flex', flexDirection: 'column', gap: '20px', overflowY: 'auto', justifyContent: 'center' }}>
+        <div className="house-sidebar">
           
           <div style={{ background: 'rgba(0,0,0,0.3)', padding: '24px', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.1)' }}>
              <h3 style={{ margin: '0 0 12px 0', fontSize: '14px', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', letterSpacing: '1px' }}>Legend</h3>

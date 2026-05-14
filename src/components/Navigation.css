@@ -2,11 +2,25 @@
   /* margin and layout controlled by App.css to ensure global consistency */
 }
 
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
 .nav-logo {
   font-size: 28px;
   font-weight: 800;
-  margin-bottom: 40px;
   padding-left: 8px;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
 }
 
 .logo-text {
@@ -44,4 +58,29 @@
   background: var(--accent-glow);
   color: white;
   border-left: 3px solid var(--accent-color);
+}
+
+@media (max-width: 1024px) {
+  .nav-header {
+    margin-bottom: 0;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+  }
+  
+  .nav-links {
+    display: none;
+    margin-top: 20px;
+    animation: fadeIn 0.2s ease;
+  }
+  
+  .nav-links.open {
+    display: flex;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 }

@@ -242,12 +242,14 @@ export const Sidebar = ({ selectedMP, setSelectedMP }: { selectedMP: any, setSel
                   style={{ position: 'relative', zIndex: 1, borderColor: isSelected ? 'white' : 'transparent', objectPosition: 'center 10%' }}
                 />
                 
-                <div className="politician-info" style={{ position: 'relative', zIndex: 1, textShadow: isSelected ? '0 1px 3px rgba(0,0,0,0.8)' : 'none', padding: '4px 0' }}>
-                  <div className="politician-name" style={{ color: 'white' }}>{p.name}</div>
-                  <div className="politician-riding" style={{ color: isSelected ? '#eee' : 'var(--text-secondary)' }}>{p.current_riding.name.en}, {p.current_riding.province}</div>
-                  <div className="politician-party" style={{ color: isSelected ? 'white' : color, fontWeight: 'bold' }}>{party}</div>
+                <div className="politician-info" style={{ position: 'relative', zIndex: 1, textShadow: isSelected ? '0 1px 3px rgba(0,0,0,0.8)' : 'none', padding: '0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'nowrap', gap: '12px' }}>
+                    <div className="politician-name" style={{ color: 'white', margin: 0, lineHeight: '1.1' }}>{p.name}</div>
+                    <div className="politician-party" style={{ color: isSelected ? 'white' : color, fontWeight: 'bold', whiteSpace: 'nowrap' }}>{party}</div>
+                  </div>
+                  <div className="politician-riding" style={{ color: isSelected ? '#eee' : 'var(--text-secondary)', margin: 0 }}>{p.current_riding.name.en}, {p.current_riding.province}</div>
                   {p.role && !p.role.includes('MP for') && (
-                    <div style={{ marginTop: '8px', fontSize: '13px', color: isSelected ? 'white' : 'var(--accent-color)' }}>
+                    <div style={{ fontSize: '13px', color: isSelected ? 'white' : 'var(--accent-color)' }}>
                       {p.role}
                     </div>
                   )}

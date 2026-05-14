@@ -41,6 +41,74 @@
   height: 100%;
 }
 
+@media (max-width: 1024px) {
+  .app-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .main-nav {
+    width: auto;
+    height: auto;
+    margin: 20px 20px 0 20px;
+  }
+
+  .dashboard-container {
+    flex-direction: column;
+    height: auto;
+    margin: 20px;
+  }
+
+  .sidebar-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sidebar-header {
+    padding: 16px 12px;
+  }
+
+  .politician-list {
+    max-height: 500px;
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .politician-card {
+    padding: 4px 10px;
+    min-height: auto;
+    gap: 10px;
+  }
+  
+  .politician-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+  }
+
+  .politician-name {
+    font-size: 18px;
+  }
+
+  .politician-riding {
+    font-size: 11px;
+    opacity: 0.8;
+  }
+
+  .politician-party {
+    font-size: 16px;
+  }
+
+  .map-container {
+    flex: none;
+    width: 100%;
+    height: 90vh;
+    min-height: 600px;
+  }
+}
+
 /* Sidebar Component */
 .sidebar {
   border-radius: 16px;
@@ -113,7 +181,7 @@
 
 /* Politician Card */
 .politician-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 12px;
   padding: 24px 20px;
@@ -128,7 +196,7 @@
 }
 
 .politician-card:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.12);
   transform: translateY(-2px);
   border-color: rgba(255, 255, 255, 0.15);
 }

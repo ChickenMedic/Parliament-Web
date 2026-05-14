@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect, useRef } from 'react';
 import seatingData from '../data/seating.json';
 import politiciansData from '../data/politicians.json';
 import rolesMap from '../data/roles.json';
@@ -71,10 +71,29 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
   const [hoveredSeat, setHoveredSeat] = useState<number | null>(null);
   const speakerMP = politiciansData.objects.find((p: any) => p.name === 'Francis Scarpaleggia');
 
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(0.85);
+
+  useEffect(() => {
+    const resizeObserver = new ResizeObserver(entries => {
+      for (let entry of entries) {
+        const { width, height } = entry.contentRect;
+        const scaleX = width / 380; // Added some padding margin
+        const scaleY = height / 1000;
+        setScale(Math.min(scaleX, scaleY, 1));
+      }
+    });
+    if (containerRef.current) {
+      resizeObserver.observe(containerRef.current);
+    }
+    return () => resizeObserver.disconnect();
+  }, []);
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%' }}>
-      <div style={{ position: 'relative', width: '356px', height: '958px', transform: 'scale(0.85)', transformOrigin: 'center' }}>
-        <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
+    <div ref={containerRef} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', flex: 1, minHeight: '100%', overflow: 'hidden' }}>
+      <div style={{ width: 0, height: 0, position: 'relative' }}>
+        <div style={{ position: 'absolute', width: '356px', height: '958px', left: '-178px', top: '-479px', transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
+          <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
           
           {/* Speaker */}
           <div style={{ position: 'absolute', top: '10px', width: '100%', display: 'flex', justifyContent: 'center', zIndex: 10, pointerEvents: 'none' }}>
@@ -189,6 +208,7 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
             </div>
           </div>
         )}
+        </div>
       </div>
     </div>
   );

@@ -88,3 +88,48 @@
 .vote-btn:hover {
   background: #2563eb;
 }
+
+.house-layout {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.house-sidebar {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .page-container {
+    margin: 20px;
+    height: auto;
+    overflow-y: visible;
+  }
+  
+  .house-layout {
+    flex-direction: column !important;
+    overflow-y: visible !important;
+  }
+  
+  .house-sidebar {
+    width: 100% !important;
+    overflow-y: visible !important;
+  }
+
+  .seating-chart-container {
+    height: 450px !important;
+    min-height: 450px !important;
+    flex: none !important;
+    margin: 40px 0;
+    width: 100%;
+  }
+}
