@@ -128,7 +128,22 @@ export const Sidebar = ({ selectedMP, setSelectedMP }: { selectedMP: any, setSel
       const safeUrl = selectedMP.url.replace(/\W+/g, '-');
       const element = document.getElementById(`mp-${safeUrl}`);
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        if (window.innerWidth >= 1024) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+          const listContainer = element.closest('.politician-list');
+          if (listContainer) {
+            const listRect = listContainer.getBoundingClientRect();
+            const elementRect = element.getBoundingClientRect();
+            const relativeTop = elementRect.top - listRect.top;
+            const scrollPos = listContainer.scrollTop + relativeTop - (listContainer.clientHeight / 2) + (elementRect.height / 2);
+            
+            listContainer.scrollTo({
+              top: scrollPos,
+              behavior: 'smooth'
+            });
+          }
+        }
       }
     }
   }, [selectedMP]);
@@ -242,17 +257,18 @@ export const Sidebar = ({ selectedMP, setSelectedMP }: { selectedMP: any, setSel
                   style={{ position: 'relative', zIndex: 1, borderColor: isSelected ? 'white' : 'transparent', objectPosition: 'center 10%' }}
                 />
                 
-                <div className="politician-info" style={{ position: 'relative', zIndex: 1, textShadow: isSelected ? '0 1px 3px rgba(0,0,0,0.8)' : 'none', padding: '0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'nowrap', gap: '12px' }}>
-                    <div className="politician-name" style={{ color: 'white', margin: 0, lineHeight: '1.1' }}>{p.name}</div>
-                    <div className="politician-party" style={{ color: isSelected ? 'white' : color, fontWeight: 'bold', whiteSpace: 'nowrap' }}>{party}</div>
-                  </div>
+                <div className="politician-info" style={{ position: 'relative', zIndex: 1, flex: 1, textShadow: isSelected ? '0 1px 3px rgba(0,0,0,0.8)' : 'none', padding: '0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                  <div className="politician-name" style={{ color: 'white', margin: 0, lineHeight: '1.1' }}>{p.name}</div>
                   <div className="politician-riding" style={{ color: isSelected ? '#eee' : 'var(--text-secondary)', margin: 0 }}>{p.current_riding.name.en}, {p.current_riding.province}</div>
                   {p.role && !p.role.includes('MP for') && (
-                    <div style={{ fontSize: '13px', color: isSelected ? 'white' : 'var(--accent-color)' }}>
+                    <div className="politician-role" style={{ fontSize: '13px', color: isSelected ? 'white' : 'var(--accent-color)' }}>
                       {p.role}
                     </div>
                   )}
+                </div>
+
+                <div className="politician-party" style={{ position: 'relative', zIndex: 1, color: isSelected ? 'white' : color, fontWeight: 'bold', whiteSpace: 'nowrap', textAlign: 'right' }}>
+                  {party}
                 </div>
               </div>
             );

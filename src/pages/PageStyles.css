@@ -110,7 +110,8 @@
 
 @media (max-width: 1024px) {
   .page-container {
-    margin: 20px;
+    margin: 10px;
+    padding: 12px;
     height: auto;
     overflow-y: visible;
   }
