@@ -1,0 +1,110 @@
+[
+  {
+    "id": "SCANDAL-01",
+    "title": "ArriveCAN App Procurement Controversy",
+    "party": "Liberal",
+    "status": "Under Investigation",
+    "severity": "Critical",
+    "description": "A federal mobile application built during the pandemic whose budget ballooned from $80,000 to over $60 million. Auditor General audits highlighted conflicts of interest, missing documentation, and excessive consultant reliance.",
+    "keyFigures": ["Mark Carney", "Dominic LeBlanc"],
+    "timeline": [
+      { "date": "Nov 2020", "event": "ArriveCAN app launched for mandatory border health reporting." },
+      { "date": "Oct 2022", "event": "Media reports disclose high outsourcing costs and subcontractor fees." },
+      { "date": "Feb 2024", "event": "Auditor General releases report outlining a 'glaring disregard' for basic contracting procedures." },
+      { "date": "Ongoing", "event": "RCMP investigation and parliamentary committee hearings on procurement misconduct." }
+    ],
+    "votes": 1245
+  },
+  {
+    "id": "SCANDAL-02",
+    "title": "Foreign Interference Public Inquiry",
+    "party": "Liberal",
+    "status": "Public Inquiry",
+    "severity": "Critical",
+    "description": "A national public inquiry led by Justice Marie-Josée Hogue examining allegations of foreign state actors (primarily China) interfering in the 2019 and 2021 Canadian federal elections.",
+    "keyFigures": ["Mark Carney", "Dominic LeBlanc", "Pierre Poilievre"],
+    "timeline": [
+      { "date": "Mar 2023", "event": "Special Rapporteur appointed to investigate election interference allegations." },
+      { "date": "Sep 2023", "event": "Hogue Commission formally established after opposition pressure." },
+      { "date": "May 2024", "event": "Interim report confirms foreign interference took place but did not alter overall election outcomes." },
+      { "date": "Ongoing", "event": "Phase 2 hearings focus on policy recommendations and institutional defenses." }
+    ],
+    "votes": 982
+  },
+  {
+    "id": "SCANDAL-03",
+    "title": "Sustainable Development Technology Canada Audits",
+    "party": "Liberal",
+    "status": "Audited",
+    "severity": "High",
+    "description": "Auditor General investigations found that the green tech funding agency approved over $330 million in projects that breached conflict-of-interest guidelines or funding eligibility rules.",
+    "keyFigures": ["François-Philippe Champagne"],
+    "timeline": [
+      { "date": "Nov 2023", "event": "Whistleblower reports raise concerns over conflict of interest in funding approvals." },
+      { "date": "Jun 2024", "event": "Auditor General report outlines 96 instances of conflict-of-interest policy breaches." },
+      { "date": "Ongoing", "event": "Board restructured, funding suspended, and oversight transferred to the National Research Council." }
+    ],
+    "votes": 530
+  },
+  {
+    "id": "SCANDAL-04",
+    "title": "Freedom Convoy 2022 Endorsements",
+    "party": "Conservative",
+    "status": "Resolved",
+    "severity": "High",
+    "description": "Criticism and political backlash over prominent Conservative MPs publicly meeting with, supporting, and endorsing the leaders of the 2022 truck convoy protests that blockaded Ottawa.",
+    "keyFigures": ["Pierre Poilievre", "Melissa Lantsman", "Michael Cooper"],
+    "timeline": [
+      { "date": "Jan 2022", "event": "Convoy blockades streets in downtown Ottawa." },
+      { "date": "Feb 2022", "event": "Opposition MPs meet with protesters; Emergencies Act is invoked." },
+      { "date": "Feb 2023", "event": "Public Order Emergency Commission rules invocation of the Act was justified, noting political polarization." },
+      { "date": "Ongoing", "event": "Ongoing debate and legal appeals over the limits of protest and emergency powers." }
+    ],
+    "votes": 765
+  },
+  {
+    "id": "SCANDAL-05",
+    "title": "Leadership Election Expense Audits",
+    "party": "Conservative",
+    "status": "Active Debate",
+    "severity": "Medium",
+    "description": "Elections Canada compliance reviews and internal party friction regarding leadership campaign spending limits, corporate donations, and expense declarations from recent leadership races.",
+    "keyFigures": ["Pierre Poilievre", "Roman Baber"],
+    "timeline": [
+      { "date": "Sep 2022", "event": "CPC leadership vote concludes." },
+      { "date": "Jun 2023", "event": "Elections Canada reviews campaign expenditure audits." },
+      { "date": "Ongoing", "event": "Ongoing debate and audit reconciliation processes." }
+    ],
+    "votes": 341
+  },
+  {
+    "id": "SCANDAL-06",
+    "title": "Supply and Confidence Agreement Backlash",
+    "party": "NDP",
+    "status": "Resolved",
+    "severity": "Medium",
+    "description": "Criticism from political opponents that the NDP's formal deal to prop up the Liberal minority government in exchange for dentalcare and pharmacare was an undemocratic coalition.",
+    "keyFigures": ["Avi Lewis", "Mark Carney"],
+    "timeline": [
+      { "date": "Mar 2022", "event": "Liberals and NDP sign a formal Supply and Confidence Agreement." },
+      { "date": "Mar 2024", "event": "Pharmacare framework passed, fulfilling a key NDP condition." },
+      { "date": "Sep 2024", "event": "NDP leader terminates the formal agreement early, shifting to case-by-case votes." }
+    ],
+    "votes": 412
+  },
+  {
+    "id": "SCANDAL-07",
+    "title": "Old Age Security (OAS) Pension Leverage",
+    "party": "Bloc Québécois",
+    "status": "Active Debate",
+    "severity": "Medium",
+    "description": "Political debate over the Bloc Québécois leveraging their balance-of-power status in the minority parliament to demand the government pass Bill C-319 to increase seniors pensions, facing criticism over fiscal costs.",
+    "keyFigures": ["Yves-François Blanchet"],
+    "timeline": [
+      { "date": "Oct 2024", "event": "Bloc sets a deadline for the government to approve the pension hike." },
+      { "date": "Nov 2024", "event": "Deadline passes without government compliance; confidence debates triggered." },
+      { "date": "Ongoing", "event": "Legislative negotiations on senior benefits continue." }
+    ],
+    "votes": 289
+  }
+]

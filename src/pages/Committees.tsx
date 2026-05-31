@@ -19,8 +19,8 @@ const COMMITTEES_DATA: Committee[] = [
     name: 'Standing Committee on Finance',
     desc: 'Mandated to study and report on all matters relating to the mandate, management and operation of the Department of Finance and the Canada Revenue Agency.',
     chairName: 'Peter Fonseca',
-    viceChairs: ['Jasraj Singh Hallan', 'Gabriel Ste-Marie'],
-    members: ['Terry Beech', 'Yvan Baker', 'Adam Chambers', 'Kelly McCauley', 'Daniel Mazier', 'Heather McPherson', 'Sukh Dhaliwal'],
+    viceChairs: ['Jasraj Hallan', 'Gabriel Ste-Marie'],
+    members: ['Terry Beech', 'Yvan Baker', 'Adam Chambers', 'Kelly McCauley', 'Dan Mazier', 'Heather McPherson', 'Sukh Dhaliwal'],
     studies: [
       'Pre-budget Consultations 2026',
       'Study of Inflationary Pressures and Interest Rates',
@@ -34,7 +34,7 @@ const COMMITTEES_DATA: Committee[] = [
     desc: 'Oversees the work of Health Canada, Public Health Agency of Canada, and CIHR to study issues related to healthcare systems and health regulations.',
     chairName: 'Sean Casey',
     viceChairs: ['Stephen Ellis', 'Don Davies'],
-    members: ['Mark Holland', 'Todd Doherty', 'Stephen Fuhr', 'Hedy Fry', 'Robert Morrison', 'Jenna Sudds', 'Leah Gazan'],
+    members: ['Mark Holland', 'Todd Doherty', 'Stephen Fuhr', 'Hedy Fry', 'Rob Morrison', 'Jenna Sudds', 'Leah Gazan'],
     studies: [
       'Evaluation of the National Pharmacare Rollout',
       'Emergency Room Wait Times and Healthcare Staffing Crisis',
@@ -48,7 +48,7 @@ const COMMITTEES_DATA: Committee[] = [
     desc: 'Studies bills, spending, and policies of Global Affairs Canada and monitors international development assistance programs.',
     chairName: 'Ali Ehsassi',
     viceChairs: ['Michael Chong', 'Simon-Pierre Savard-Tremblay'],
-    members: ['Mélanie Joly', 'Garrett Genuis', 'Taleeb Noormohamed', 'Wayne Long', 'John Barlow', 'Ziad Aboultaif', 'Heather McPherson'],
+    members: ['Mélanie Joly', 'Garnett Genuis', 'Taleeb Noormohamed', 'Wayne Long', 'John Barlow', 'Ziad Aboultaif', 'Heather McPherson'],
     studies: [
       'Canada\'s Indo-Pacific Strategy Implementation',
       'Arctic Sovereignty, Security, and Relations with Circumpolar Nations',
@@ -64,7 +64,7 @@ const COMMITTEES_DATA: Committee[] = [
     viceChairs: ['James Bezan', 'Christine Normandin'],
     members: ['Bill Blair', 'Alex Ruff', 'Pat Kelly', 'Terry Duguid', 'Serge Cormier', 'Marie-France Lalonde', 'Lindsay Mathyssen'],
     studies: [
-      'Military Recruitment and Retention Retention Strategies',
+      'Military Recruitment and Retention Strategies',
       'Procurement of Surface Combatant and F-35 Fighter Jets',
       'Cybersecurity Capabilities of the Canadian Armed Forces'
     ],
@@ -81,6 +81,62 @@ const COMMITTEES_DATA: Committee[] = [
       'Review of the Auditor General\'s Report on the ArriveCAN App',
       'Federal Information Technology Procurement Regulations',
       'Oversight of Defense Procurement Project Costing'
+    ],
+    partySeats: { 'Conservative': 5, 'Liberal': 4, 'Bloc': 1, 'NDP': 1 }
+  },
+  {
+    id: 'ENVI',
+    name: 'Standing Committee on Environment and Sustainable Development',
+    desc: 'Mandated to study and report on matters relating to the environment, sustainable development, climate change, and environmental enforcement.',
+    chairName: 'Sophie Chatel',
+    viceChairs: ['Gérard Deltell', 'Don Davies'],
+    members: ['Steven Guilbeault', 'Patrick Weiler', 'Francis Scarpaleggia', 'Patrick Bonin', 'Gord Johns', 'Leah Gazan', 'Marilyn Gladu'],
+    studies: [
+      'Evaluating the Federal Carbon Pricing Mechanism',
+      'Biodiversity and Ecosystem Protection in National Parks',
+      'Impacts of Plastics Pollution on Canadian Waterways'
+    ],
+    partySeats: { 'Liberal': 5, 'Conservative': 4, 'Bloc': 1, 'NDP': 1 }
+  },
+  {
+    id: 'JUST',
+    name: 'Standing Committee on Justice and Human Rights',
+    desc: 'Mandated to oversee the Department of Justice, federal courts, criminal law, and human rights issues.',
+    chairName: 'Lena Metlege Diab',
+    viceChairs: ['Frank Caputo', 'Luc Thériault'],
+    members: ['Sameer Zuberi', 'Anju Dhillon', 'Michael Cooper', 'Jenny Kwan', 'Lori Idlout', 'Chris Bittle', 'Dan Albas'],
+    studies: [
+      'Review of Sentencing and Bail Reform Legislation',
+      'Access to Justice and Legal Aid Funding',
+      'Human Rights Protections in Federal Penitentiaries'
+    ],
+    partySeats: { 'Liberal': 5, 'Conservative': 4, 'Bloc': 1, 'NDP': 1 }
+  },
+  {
+    id: 'RNNR',
+    name: 'Standing Committee on Natural Resources',
+    desc: 'Mandated to study and report on matters relating to the mandate, management, and operation of the Department of Natural Resources.',
+    chairName: 'Kody Blois',
+    viceChairs: ['Shannon Stubbs', 'Mario Simard'],
+    members: ['Terry Beech', 'Greg McLean', 'Peter Fonseca', 'Viviane Lapointe', 'Heather McPherson', 'Alex Ruff', 'Mona Fortier'],
+    studies: [
+      'Transitioning to Clean Energy Infrastructure',
+      'Critical Minerals and Supply Chain Security',
+      'Sustainable Forestry Management Practices in Western Canada'
+    ],
+    partySeats: { 'Liberal': 5, 'Conservative': 4, 'Bloc': 1, 'NDP': 1 }
+  },
+  {
+    id: 'ETHI',
+    name: 'Standing Committee on Access to Information, Privacy and Ethics',
+    desc: 'Reviews access to information, privacy commissioner reports, and conflict of interest issues involving public office holders.',
+    chairName: 'Pat Kelly',
+    viceChairs: ['Mona Fortier', 'Alexis Brunelle-Duceppe'],
+    members: ['Michael Barrett', 'Iqra Khalid', 'Gord Johns', 'Yasir Naqvi', 'Tom Kmiec', 'Serge Cormier', 'John Williamson'],
+    studies: [
+      'Investigation into Federal Government Contracting and Conflict of Interest Guidelines',
+      'Impact of Generative AI on Privacy Rights of Canadian Citizens',
+      'Review of the Conflict of Interest Act Compliance Standards'
     ],
     partySeats: { 'Conservative': 5, 'Liberal': 4, 'Bloc': 1, 'NDP': 1 }
   }
@@ -156,7 +212,7 @@ export const Committees = () => {
 
       <div style={{ display: 'flex', gap: '24px', flex: 1, minHeight: 0 }}>
         {/* Left Side: Committee List Selector */}
-        <div style={{ width: '260px', display: 'flex', flexDirection: 'column', gap: '10px', flexShrink: 0 }}>
+        <div style={{ width: '260px', display: 'flex', flexDirection: 'column', gap: '10px', flexShrink: 0, overflowY: 'auto' }}>
           {COMMITTEES_DATA.map(c => (
             <button
               key={c.id}

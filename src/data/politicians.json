@@ -153,7 +153,7 @@
       "twitter": "GarnettGenuis"
     },
     {
-      "name": "Amanpreet S. Gill",
+      "name": "Amanpreet Gill",
       "url": "/politicians/amanpreet-gill/",
       "current_party": {
         "short_name": {
@@ -210,7 +210,7 @@
       "twitter": null
     },
     {
-      "name": "Jasraj Singh Hallan",
+      "name": "Jasraj Hallan",
       "url": "/politicians/jasraj-singh-hallan/",
       "current_party": {
         "short_name": {
@@ -381,7 +381,7 @@
       "twitter": null
     },
     {
-      "name": "Shuv Majumdar",
+      "name": "Shuvaloy Majumdar",
       "url": "/politicians/shuv-majumdar/",
       "current_party": {
         "short_name": {
@@ -552,7 +552,7 @@
       "twitter": "PierrePoilievre"
     },
     {
-      "name": "Michelle Rempel",
+      "name": "Michelle Rempel Garner",
       "url": "/politicians/michelle-rempel/",
       "current_party": {
         "short_name": {
@@ -2205,7 +2205,7 @@
       "twitter": null
     },
     {
-      "name": "Jessica Fancy-Landry",
+      "name": "Jessica Fancy",
       "url": "/politicians/jessica-fancy-landry/",
       "current_party": {
         "short_name": {
@@ -2604,7 +2604,7 @@
       "twitter": null
     },
     {
-      "name": "Jim Belanger",
+      "name": "Jim Bélanger",
       "url": "/politicians/jim-belanger/",
       "current_party": {
         "short_name": {
@@ -2715,7 +2715,7 @@
       "image": "/media/polpics/mark-carney.jpg",
       "voice": null,
       "email": "mark.carney@parl.gc.ca",
-      "twitter": null
+      "twitter": "MarkCarney"
     },
     {
       "name": "Bardish Chagger",
@@ -3668,7 +3668,7 @@
       "twitter": null
     },
     {
-      "name": "Viviane LaPointe",
+      "name": "Viviane Lapointe",
       "url": "/politicians/viviane-lapointe/",
       "current_party": {
         "short_name": {
@@ -4105,7 +4105,7 @@
       "twitter": null
     },
     {
-      "name": "Rob Oliphant",
+      "name": "Robert Oliphant",
       "url": "/politicians/rob-oliphant/",
       "current_party": {
         "short_name": {
@@ -4333,7 +4333,7 @@
       "twitter": "kyleseeback"
     },
     {
-      "name": "Judy Sgro",
+      "name": "Judy A. Sgro",
       "url": "/politicians/judy-sgro/",
       "current_party": {
         "short_name": {
@@ -4732,7 +4732,7 @@
       "twitter": null
     },
     {
-      "name": "Bobby Morrissey",
+      "name": "Robert Morrissey",
       "url": "/politicians/bobby-morrissey/",
       "current_party": {
         "short_name": {
@@ -4837,7 +4837,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Mégantic—L’Érable—Lotbinière"
+          "en": "Mégantic—L'Érable—Lotbinière"
         }
       },
       "image": "/media/polpics/luc-berthold_OGKDLrw.jpg",
@@ -5207,7 +5207,7 @@
       "twitter": "GregFergus"
     },
     {
-      "name": "Rhéal Fortin",
+      "name": "Rhéal Éloi Fortin",
       "url": "/politicians/rheal-fortin/",
       "current_party": {
         "short_name": {
@@ -5663,7 +5663,7 @@
       "twitter": null
     },
     {
-      "name": "Éric Lefebvre",
+      "name": "Eric Lefebvre",
       "url": "/politicians/eric-lefebvre/",
       "current_party": {
         "short_name": {
@@ -5796,7 +5796,7 @@
       "twitter": null
     },
     {
-      "name": "Alexandra Mendes",
+      "name": "Alexandra Mendès",
       "url": "/politicians/alexandra-mendes/",
       "current_party": {
         "short_name": {
@@ -5882,7 +5882,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Mont-Saint-Bruno—L’Acadie"
+          "en": "Mont-Saint-Bruno—L'Acadie"
         }
       },
       "image": "/media/polpics/bienvenu-olivier-ntumba.jpg",
@@ -6028,7 +6028,7 @@
       "url": "/politicians/simon-pierre-savard-tremblay/",
       "current_party": {
         "short_name": {
-          "en": "Bloc"
+          "en": "Independent"
         }
       },
       "current_riding": {
