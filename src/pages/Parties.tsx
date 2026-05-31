@@ -47,6 +47,23 @@ export const Parties = () => {
   const [feedHandle, setFeedHandle] = useState<string | null>(PARTY_FEEDS['Liberal'].handle);
   const [feedUser, setFeedUser] = useState<string>(PARTY_FEEDS['Liberal'].user);
 
+  const selectedMPDetails = useMemo(() => {
+    if (feedUser === 'Avi Lewis') {
+      return {
+        image: PARTY_FEEDS['NDP'].avatar,
+        riding: 'N/A (Party Leader Outside House)'
+      };
+    }
+    const found = politicians.find(p => p.name === feedUser);
+    return found ? {
+      image: `https://openparliament.ca${found.image}`,
+      riding: found.current_riding.name.en
+    } : {
+      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}`,
+      riding: ''
+    };
+  }, [feedUser, politicians]);
+
   // Sync feed with activeTab change
   useEffect(() => {
     setFeedHandle(PARTY_FEEDS[activeTab].handle);
@@ -138,19 +155,70 @@ export const Parties = () => {
             
             {feedHandle ? (
               <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '12px', minHeight: 0 }}>
-                <div style={{ flex: 1, overflowY: 'auto', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)', padding: '12px' }} key={feedHandle}>
+                <div style={{ flex: 1, overflowY: 'hidden', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }} key={feedHandle}>
                   <a 
                     className="twitter-timeline" 
                     data-theme="dark"
                     data-chrome="noheader nofooter noborders transparent"
                     href={`https://twitter.com/${feedHandle}?ref_src=twsrc%5Etfw`}
+                    style={{ textDecoration: 'none', height: '100%', display: 'block' }}
                   >
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', color: 'rgba(255,255,255,0.5)', gap: '12px', padding: '40px 20px', textAlign: 'center' }}>
-                      <div style={{ fontSize: '24px', animation: 'spin 2s linear infinite' }}>⏳</div>
-                      <div>Loading live feed for @{feedHandle}...</div>
-                      <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.3)', marginTop: '8px' }}>
-                        If the timeline does not load, verify your browser tracking/ad-block settings.
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      height: '100%',
+                      boxSizing: 'border-box',
+                      color: 'white',
+                      textAlign: 'center',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      gap: '16px',
+                      padding: '24px'
+                    }}>
+                      {/* Avatar */}
+                      <img 
+                        src={selectedMPDetails.image} 
+                        alt={feedUser}
+                        style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover', border: `3px solid ${activeColor}` }}
+                        onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}` }}
+                      />
+                      
+                      <div>
+                        <h4 style={{ margin: '0 0 4px 0', fontSize: '18px', color: 'white', fontWeight: 'bold' }}>{feedUser}</h4>
+                        <div style={{ fontSize: '13px', color: activeColor, fontWeight: 'bold' }}>@{feedHandle}</div>
+                        {selectedMPDetails.riding && (
+                          <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', marginTop: '4px' }}>
+                            {selectedMPDetails.riding}
+                          </div>
+                        )}
                       </div>
+                      
+                      <div style={{
+                        background: 'rgba(255,255,255,0.03)',
+                        border: '1px solid rgba(255,255,255,0.06)',
+                        padding: '12px',
+                        borderRadius: '8px',
+                        fontSize: '11px',
+                        color: 'rgba(255,255,255,0.5)',
+                        lineHeight: '1.4',
+                        maxWidth: '260px'
+                      }}>
+                        ℹ️ External timeline widgets may be blocked by your browser's default tracking protection. Click below to open profile.
+                      </div>
+                      
+                      <span
+                        style={{
+                          background: activeColor,
+                          color: 'white',
+                          padding: '8px 16px',
+                          borderRadius: '6px',
+                          fontSize: '12px',
+                          fontWeight: 'bold',
+                          display: 'inline-block'
+                        }}
+                      >
+                        Open X Profile ↗
+                      </span>
                     </div>
                   </a>
                 </div>

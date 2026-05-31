@@ -420,6 +420,16 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
   const MapResizer = () => {
     const map = useMap();
     useEffect(() => {
+      // Force centering and size recalculation on initial load
+      const initTimeout = setTimeout(() => {
+        map.invalidateSize();
+        const isMobile = window.innerWidth < 1024;
+        map.fitBounds([
+          [41.6751, -141.0], 
+          [isMobile ? 68.0 : 83.1106, -52.6]
+        ], { animate: false });
+      }, 250);
+
       let timeout: any;
       const onResize = () => {
         clearTimeout(timeout);
@@ -436,6 +446,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
       window.addEventListener('resize', onResize);
       return () => {
         window.removeEventListener('resize', onResize);
+        clearTimeout(initTimeout);
         clearTimeout(timeout);
       };
     }, [map]);
