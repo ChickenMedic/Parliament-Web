@@ -92,21 +92,124 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
   return (
     <div ref={containerRef} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', flex: 1, minHeight: '100%', overflow: 'hidden' }}>
       <div style={{ width: 0, height: 0, position: 'relative' }}>
-        <div style={{ position: 'absolute', width: '356px', height: '958px', left: '-178px', top: '-479px', transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
-          <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
-          
-          {/* Speaker */}
-          <div style={{ position: 'absolute', top: '10px', width: '100%', display: 'flex', justifyContent: 'center', zIndex: 10, pointerEvents: 'none' }}>
-            <div 
-              style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer', pointerEvents: 'auto', transition: 'transform 0.2s' }}
-              onClick={() => setSelectedMP(speakerMP)}
-              onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
-              onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-            >
-              <div style={{ width: '20px', height: '20px', background: selectedMP?.url === speakerMP?.url ? '#fff' : '#ffd700', borderRadius: '4px', border: '1px solid #fff', boxShadow: selectedMP?.url === speakerMP?.url ? '0 0 15px #fff' : '0 0 10px rgba(255, 215, 0, 0.4)', marginBottom: '4px' }}></div>
-              <strong style={{ fontSize: '11px', opacity: 0.8, color: 'white' }}>Speaker</strong>
+          <div style={{ position: 'absolute', width: '356px', height: '958px', left: '-178px', top: '-479px', transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
+            {/* Left/Right Side Annotations */}
+            <div style={{
+              position: 'absolute',
+              left: '-60px',
+              top: '80px',
+              bottom: '40px',
+              width: '20px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              pointerEvents: 'none',
+              zIndex: 5
+            }}>
+              <div style={{
+                transform: 'rotate(-90deg)',
+                color: 'rgba(255, 255, 255, 0.4)',
+                fontSize: '11px',
+                fontWeight: 'bold',
+                letterSpacing: '3px',
+                whiteSpace: 'nowrap',
+                textTransform: 'uppercase',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px'
+              }}>
+                <span style={{ fontSize: '14px' }}>←</span> Left Side (Government Benches)
+              </div>
             </div>
-          </div>
+
+            <div style={{
+              position: 'absolute',
+              right: '-60px',
+              top: '80px',
+              bottom: '40px',
+              width: '20px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              pointerEvents: 'none',
+              zIndex: 5
+            }}>
+              <div style={{
+                transform: 'rotate(90deg)',
+                color: 'rgba(255, 255, 255, 0.4)',
+                fontSize: '11px',
+                fontWeight: 'bold',
+                letterSpacing: '3px',
+                whiteSpace: 'nowrap',
+                textTransform: 'uppercase',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px'
+              }}>
+                Right Side (Opposition Benches) <span style={{ fontSize: '14px' }}>→</span>
+              </div>
+            </div>
+
+            {/* Row Number Annotations on Benches margins */}
+            {[
+              { label: 'R1', y: 4 + 10 + 50 },
+              { label: 'R2', y: 61 + 10 + 50 },
+              { label: 'R3', y: 118 + 10 + 50 },
+              { label: 'R4', y: 199 + 10 + 50 },
+              { label: 'R5', y: 256 + 10 + 50 },
+              { label: 'R6', y: 313 + 10 + 50 },
+              { label: 'R7', y: 370 + 10 + 50 },
+              { label: 'R8', y: 427 + 10 + 50 },
+              { label: 'R9', y: 484 + 10 + 50 },
+              { label: 'R10', y: 541 + 10 + 50 },
+              { label: 'R11', y: 598 + 10 + 50 },
+              { label: 'R12', y: 655 + 10 + 50 },
+              { label: 'R13', y: 712 + 10 + 50 },
+              { label: 'R14', y: 769 + 10 + 50 },
+              { label: 'R15', y: 826 + 10 + 50 },
+              { label: 'R16', y: 883 + 10 + 50 },
+            ].map((row, rIdx) => (
+              <div key={rIdx} style={{ pointerEvents: 'none' }}>
+                {/* Left Side Row Label */}
+                <div style={{
+                  position: 'absolute',
+                  left: '-24px',
+                  top: row.y - 8,
+                  fontSize: '9px',
+                  fontWeight: 'bold',
+                  color: 'rgba(255,255,255,0.35)',
+                  width: '20px',
+                  textAlign: 'right'
+                }}>{row.label}</div>
+                
+                {/* Right Side Row Label */}
+                <div style={{
+                  position: 'absolute',
+                  right: '-24px',
+                  top: row.y - 8,
+                  fontSize: '9px',
+                  fontWeight: 'bold',
+                  color: 'rgba(255,255,255,0.35)',
+                  width: '20px',
+                  textAlign: 'left'
+                }}>{row.label}</div>
+              </div>
+            ))}
+
+            <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
+            
+            {/* Speaker */}
+            <div style={{ position: 'absolute', top: '10px', width: '100%', display: 'flex', justifyContent: 'center', zIndex: 10, pointerEvents: 'none' }}>
+              <div 
+                style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer', pointerEvents: 'auto', transition: 'transform 0.2s' }}
+                onClick={() => setSelectedMP(speakerMP)}
+                onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
+                onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+              >
+                <div style={{ width: '20px', height: '20px', background: selectedMP?.url === speakerMP?.url ? '#fff' : '#ffd700', borderRadius: '4px', border: '1px solid #fff', boxShadow: selectedMP?.url === speakerMP?.url ? '0 0 15px #fff' : '0 0 10px rgba(255, 215, 0, 0.4)', marginBottom: '4px' }}></div>
+                <strong style={{ fontSize: '11px', opacity: 0.8, color: 'white' }}>Speaker</strong>
+              </div>
+            </div>
 
                 {seatsWithMPs.map((seat) => {
                   const isSelected = selectedMP && seat.mp && selectedMP.name === seat.mp.name;
@@ -195,7 +298,7 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
               <img 
                 src={`https://openparliament.ca${seatsWithMPs[hoveredSeat].mp.image}`} 
                 alt="" 
-                style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center 10%', border: `2px solid ${getPartyColor(seatsWithMPs[hoveredSeat].mp.current_party.short_name.en)}` }} 
+                style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(seatsWithMPs[hoveredSeat].mp.current_party.short_name.en)}` }} 
                 onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(seatsWithMPs[hoveredSeat].mp.name)}`} 
               />
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>

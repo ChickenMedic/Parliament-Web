@@ -1,5 +1,6 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import senateSeatingData from '../data/senate_seating.json';
+import senatorsData from '../data/senators.json';
 
 const getSenateColor = (color: string) => {
   // Map SVG colors to nicer hex codes or keep them
@@ -26,21 +27,45 @@ const getSenateGroupName = (color: string) => {
   if (color === '#386b87') return 'Canadian Senators Group';
   if (color === 'silver') return 'Non-affiliated';
   if (color === 'white') return 'Vacant';
-  return 'Speaker / Clerk';
+  return 'Speaker / Clerk / Officer';
 };
 
-const generateMockSenatorName = (index: number) => {
-  const firstNames = ['Marc', 'Raymonde', 'Peter', 'Yuen', 'Dennis', 'Chantal', 'Percy', 'Rose-May', 'René', 'David', 'Jane', 'Paul', 'Linda', 'Robert', 'Mary'];
-  const lastNames = ['Gold', 'Saint-Germain', 'Harder', 'Pau', 'Dawson', 'Petitclerc', 'Downe', 'Poirier', 'Cormier', 'Wells', 'Smith', 'Tremblay', 'MacDonald', 'Gagnon', 'Wilson'];
-  const first = firstNames[index % firstNames.length];
-  const last = lastNames[(index * 3) % lastNames.length];
-  return `Hon. ${first} ${last}`;
-};
 export const SenateChart = () => {
   const [hoveredSeat, setHoveredSeat] = useState<number | null>(null);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
+
+  const seatsWithSenators = useMemo(() => {
+    const senatorsByColor: Record<string, any[]> = {};
+    senatorsData.forEach(senator => {
+      const col = senator.color;
+      if (!senatorsByColor[col]) senatorsByColor[col] = [];
+      senatorsByColor[col].push(senator);
+    });
+
+    return senateSeatingData.map((seat: any, index: number) => {
+      let assignedSenator = null;
+      const col = seat.color;
+      if (senatorsByColor[col] && senatorsByColor[col].length > 0) {
+        assignedSenator = senatorsByColor[col].shift();
+      } else {
+        assignedSenator = {
+          name: seat.color === 'white' ? 'Vacant Seat' : `Senator ${index + 1}`,
+          group: getSenateGroupName(seat.color),
+          province: 'N/A',
+          appointedBy: 'N/A',
+          appointedDate: 'N/A'
+        };
+      }
+      return {
+        ...seat,
+        id: index,
+        senator: assignedSenator
+      };
+    });
+  }, []);
+
 
   useEffect(() => {
     const resizeObserver = new ResizeObserver(entries => {
@@ -99,7 +124,7 @@ export const SenateChart = () => {
         </div>
 
         {/* HTML Hover Tooltip Overlay */}
-        {hoveredSeat !== null && (
+        {hoveredSeat !== null && seatsWithSenators[hoveredSeat] && (
           <div style={{
             position: 'absolute',
             left: 230 - (senateSeatingData[hoveredSeat].y - 50) - 18 + 9, // rotatedX + 9
@@ -113,15 +138,21 @@ export const SenateChart = () => {
             pointerEvents: 'none',
             zIndex: 1000,
             boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
-            minWidth: '200px'
+            minWidth: '220px'
           }}>
-            <div style={{ fontWeight: 'bold', color: 'white', marginBottom: '4px', textAlign: 'center' }}>
-              {senateSeatingData[hoveredSeat].color === 'white' ? 'Vacant Seat' : generateMockSenatorName(hoveredSeat)}
+            <div style={{ fontWeight: 'bold', color: 'white', marginBottom: '4px', textAlign: 'center', fontSize: '13px' }}>
+              {seatsWithSenators[hoveredSeat].senator.name}
             </div>
-            <div style={{ fontSize: '12px', color: getSenateColor(senateSeatingData[hoveredSeat].color), fontWeight: 'bold', textAlign: 'center', marginBottom: '4px' }}>
-              {getSenateGroupName(senateSeatingData[hoveredSeat].color)}
+            <div style={{ fontSize: '11px', color: getSenateColor(senateSeatingData[hoveredSeat].color), fontWeight: 'bold', textAlign: 'center', marginBottom: '6px' }}>
+              {seatsWithSenators[hoveredSeat].senator.group}
             </div>
-            <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', textAlign: 'center' }}>
+            {seatsWithSenators[hoveredSeat].senator.province !== 'N/A' && (
+              <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.7)', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '2px', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '6px' }}>
+                <div><strong>Province:</strong> {seatsWithSenators[hoveredSeat].senator.province}</div>
+                <div><strong>Appointed by:</strong> {seatsWithSenators[hoveredSeat].senator.appointedBy} ({seatsWithSenators[hoveredSeat].senator.appointedDate})</div>
+              </div>
+            )}
+            <div style={{ fontSize: '9px', color: 'rgba(255,255,255,0.4)', textAlign: 'center', marginTop: '6px' }}>
               Seat {hoveredSeat + 1}
             </div>
           </div>

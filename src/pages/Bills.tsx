@@ -1,27 +1,160 @@
 import './PageStyles.css';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
+import { Search } from 'lucide-react';
 
-const MOCK_BILLS = [
-  { id: 'C-11', title: 'Online Streaming Act', desc: 'A bill to amend the Broadcasting Act to bring online streaming services under the regulatory authority of the CRTC.', lib: 'Strongly Support: Levels playing field, protects culture.', con: 'Strongly Oppose: Concerns over censorship and regulation.', ndp: 'Support with Amendments: Demanded protection for small creators.' },
-  { id: 'C-21', title: 'Firearms Act', desc: 'Legislation introducing a national freeze on handguns, increasing maximum penalties, and "red flag" laws.', lib: 'Strongly Support: Action against urban gun violence.', con: 'Strongly Oppose: Penalizes lawful owners instead of gangs.', ndp: 'Support with Caution: Required Indigenous hunting protections.' },
-  { id: 'C-69', title: 'Budget Implementation Act', desc: 'Enacts measures announced in the 2024 Budget, including changes to capital gains tax and housing initiatives.', lib: 'Support: Ensures fairness and funds critical housing programs.', con: 'Oppose: Job-killing tax hikes that hurt small businesses.', ndp: 'Support: Agrees with making the wealthy pay their fair share.' }
+interface Bill {
+  id: string;
+  title: string;
+  desc: string;
+  status: 'In Progress' | 'Passed' | 'Passed (Royal Assent)';
+  category: 'Environment' | 'Social' | 'Finance' | 'Labor' | 'Safety';
+  lib: string;
+  con: string;
+  ndp: string;
+  bloc: string;
+  aiBreakdown: string;
+}
+
+const BILLS_DATA: Bill[] = [
+  {
+    id: 'C-11',
+    title: 'Online Streaming Act',
+    desc: 'Amends the Broadcasting Act to bring global online streaming platforms (like Netflix, YouTube, Spotify) under the regulatory oversight of the CRTC, requiring them to contribute to Canadian cultural content.',
+    status: 'Passed (Royal Assent)',
+    category: 'Social',
+    lib: 'Strongly Support: Levels the playing field for domestic broadcasters, funds Canadian artists, and protects local culture.',
+    con: 'Strongly Oppose: Heavy-handed internet regulation that risks censorship, hurts user-generated creators, and limits consumer choice.',
+    ndp: 'Support with Amendments: Backed the bill after securing changes to protect small, independent digital creators from CRTC red tape.',
+    bloc: 'Strongly Support: Essential to protect French-language programming and cultural sovereignty in Quebec against global tech giants.',
+    aiBreakdown: 'Bill C-11 modernizes Canada\'s broadcasting regime by extending CRTC oversight to commercial streaming platforms. Key consequences include mandatory funding contributions for Canadian programming and content discoverability algorithms. Critics focus on potential overreach on user-generated content, while proponents emphasize cultural preservation.'
+  },
+  {
+    id: 'C-21',
+    title: 'Firearms Act Amendment',
+    desc: 'Introduces a national freeze on handguns, targets gun smuggling at the border, creates a "red flag" law to remove firearms from domestic abuse situations, and bans certain semi-automatic firearms.',
+    status: 'Passed (Royal Assent)',
+    category: 'Safety',
+    lib: 'Strongly Support: Urgent and necessary action to address gun violence in urban centers and keep military-style firearms off streets.',
+    con: 'Strongly Oppose: Penalizes law-abiding sports shooters and hunters while failing to address gang smuggling across the US border.',
+    ndp: 'Support with Caution: Voted in favor after obtaining amendments protecting Indigenous hunting rights and traditional practices.',
+    bloc: 'Support: Backs tighter gun controls, but criticized federal communication gaps during the classification amendment process.',
+    aiBreakdown: 'Bill C-21 imposes a freeze on the import, sale, and transfer of handguns alongside expanding wiretapping and border controls to stop illegal smuggling. Major debates revolve around whether the definition of restricted firearms unfairly includes common hunting rifles used by rural and Indigenous communities.'
+  },
+  {
+    id: 'C-58',
+    title: 'Anti-Scab Workers Act',
+    desc: 'Prohibits federally regulated employers (such as telecommunications, air transport, and banking) from hiring replacement workers (scabs) during strikes or lockouts.',
+    status: 'In Progress',
+    category: 'Labor',
+    lib: 'Support: Protects the integrity of collective bargaining and fosters constructive relations between employers and unionized workers.',
+    con: 'Oppose with Caution: Warns it could extend strike durations, lead to service disruptions for critical infrastructure, and increase inflation.',
+    ndp: 'Strongly Support: A historic victory for labor rights and a key pillar of the NDP\'s legislative demands to support working families.',
+    bloc: 'Strongly Support: Aligns federal law with similar anti-scab legislation that has successfully governed Quebec labor relations for decades.',
+    aiBreakdown: 'Bill C-58 bans replacement workers in federal sectors during disputes, carrying heavy fines for violations. Expected impact is a shift in negotiation leverage toward unions, though business groups argue it may disrupt services like rail transport and supply chains.'
+  },
+  {
+    id: 'C-63',
+    title: 'Online Harms Act',
+    desc: 'Creates a Digital Safety Commission to regulate social media platforms, forcing them to minimize exposure to hate speech, cyberbullying, child exploitation, and non-consensual sharing of intimate images.',
+    status: 'In Progress',
+    category: 'Safety',
+    lib: 'Strongly Support: Vital legislation to protect children from online predators, tackle digital hate, and hold big tech companies accountable.',
+    con: 'Strongly Oppose: Threatens free expression, introduces draconian speech penalties, and creates a massive, unaccountable bureaucracy.',
+    ndp: 'Support in Principle: Agrees with safeguarding kids, but raising flags over privacy rights and potential overreach of digital takedown mandates.',
+    bloc: 'Support with Amendments: Agrees with target areas, but insists that the bill must respect Quebec\'s jurisdictional control over education and civil law.',
+    aiBreakdown: 'Bill C-63 establishes a regulatory framework for social media platforms with strict safety duties. The controversy centers on amendments to the Criminal Code that introduce steep life-imprisonment penalties for advocating genocide and pre-emptive peace bonds for hate speech concerns.'
+  },
+  {
+    id: 'C-69',
+    title: 'Budget Implementation Act 2024',
+    desc: 'Enacts the federal budget measures, including an increase to the capital gains tax inclusion rate, major funding allocations for affordable housing, and national school food programs.',
+    status: 'Passed',
+    category: 'Finance',
+    lib: 'Support: Raises revenue from the wealthiest individuals to invest in housing, healthcare, and cost-of-living relief for Gen Z and Millennials.',
+    con: 'Strongly Oppose: Inflationary spending that drives interest rates higher, paired with a job-killing tax hike that stifles business investment.',
+    ndp: 'Support: Voted to pass in exchange for the inclusion of dental care expansions, school food funding, and tenant protection measures.',
+    bloc: 'Oppose: Rejects the bill due to federal interference in provincial jurisdictions (e.g., direct housing funding to Quebec municipalities).',
+    aiBreakdown: 'Bill C-69 implements Budget 2024. Most controversially, it raises the capital gains tax inclusion rate from 50% to 66% for individuals on gains over $250k. It also launches the Canadian Renters\' Bill of Rights and a federal school food program.'
+  },
+  {
+    id: 'C-50',
+    title: 'Canadian Sustainable Jobs Act',
+    desc: 'Establishes an advisory body and administrative framework to help energy sector workers transition to clean energy, net-zero emissions, and sustainable employment.',
+    status: 'Passed (Royal Assent)',
+    category: 'Environment',
+    lib: 'Support: Ensures workers are not left behind in the global clean energy transition, opening up thousands of high-paying jobs.',
+    con: 'Strongly Oppose: A central-planning framework designed to phase out Canada\'s world-class oil and gas sector, putting thousands out of work.',
+    ndp: 'Support with Amendments: Successfully secured strong requirements for trade union representation on the advisory council and labor standards.',
+    bloc: 'Support in Principle: Backs the shift to clean energy but demands that Quebec retain full sovereignty over training funds and economic planning.',
+    aiBreakdown: 'Bill C-50 creates a Sustainable Jobs Partnership Council and requires a 5-year action plan for worker retraining. It aims to buffer workers in oil-producing regions (AB, SK) as global markets shift, though critics call it a disguised "Just Transition" targeting resources.'
+  },
+  {
+    id: 'C-35',
+    title: 'Early Learning and Child Care Act',
+    desc: 'Formally enshrines the federal commitment to long-term funding for the national $10-a-day child care system, aiming to guarantee access and fair wages.',
+    status: 'Passed (Royal Assent)',
+    category: 'Social',
+    lib: 'Strongly Support: Enshrines a transformative program that saves families thousands of dollars annually and boosts women\'s workforce participation.',
+    con: 'Support with Caveats: Voted in favor but criticized the lack of support for private daycares and home-based operators, warning of long waiting lists.',
+    ndp: 'Strongly Support: A major progressive milestone that guarantees child care worker wage grids and ensures child care is treated as a public good.',
+    bloc: 'Support: Voted in favor as the bill includes full financial compensation for Quebec, respecting its pre-existing, successful child care system.',
+    aiBreakdown: 'Bill C-35 legislates the long-term federal funding structure for the $10-a-day childcare agreements signed with all provinces. It prioritizes funding for public and non-profit childcare centers, which opponents argue limits parents\' flexibility.'
+  },
+  {
+    id: 'C-233',
+    title: 'Keira\'s Law (Domestic Violence Training)',
+    desc: 'Requires judges to undergo training on domestic violence, coercive control, and sexual assault law before presiding over family court custody cases.',
+    status: 'Passed (Royal Assent)',
+    category: 'Safety',
+    lib: 'Strongly Support: Vital modernization of judicial training to protect children and prevent family court system failures.',
+    con: 'Strongly Support: Co-sponsored and championed as a common-sense measure to safeguard vulnerable children from abusers.',
+    ndp: 'Strongly Support: Critical protection that listens to survivors and addresses systemic bias against victims in the family law system.',
+    bloc: 'Strongly Support: Bipartisan consensus to protect children and prevent custody tragedies, respecting provincial court operations.',
+    aiBreakdown: 'Bill C-233 amends the Judges Act to ensure judicial education includes courses on the dynamics of domestic violence and coercive control. The bill was named in memory of Keira Kagan, who died during a court-ordered visitation with her father.'
+  }
 ];
 
 export const Bills = () => {
   const [aiEngine, setAiEngine] = useState('Gemini Advanced');
-  const [selectedBill, setSelectedBill] = useState<any>(null);
+  const [selectedBill, setSelectedBill] = useState<Bill | null>(null);
+  
+  const [search, setSearch] = useState('');
+  const [statusFilter, setStatusFilter] = useState<'All' | 'In Progress' | 'Passed' | 'Passed (Royal Assent)'>('All');
+
+  const filteredBills = useMemo(() => {
+    const q = search.toLowerCase();
+    return BILLS_DATA.filter(bill => {
+      const matchSearch = bill.id.toLowerCase().includes(q) || 
+                          bill.title.toLowerCase().includes(q) ||
+                          bill.desc.toLowerCase().includes(q);
+      const matchStatus = statusFilter === 'All' || bill.status === statusFilter;
+      return matchSearch && matchStatus;
+    });
+  }, [search, statusFilter]);
 
   if (selectedBill) {
     return (
-      <div className="page-container glass-panel">
-        <button onClick={() => setSelectedBill(null)} style={{ background: 'transparent', color: 'var(--accent-color)', border: 'none', cursor: 'pointer', marginBottom: '24px', textAlign: 'left', fontWeight: 'bold' }}>
+      <div className="page-container glass-panel" style={{ overflowY: 'auto' }}>
+        <button 
+          onClick={() => setSelectedBill(null)} 
+          style={{ background: 'transparent', color: 'var(--accent-color)', border: 'none', cursor: 'pointer', marginBottom: '24px', textAlign: 'left', fontWeight: 'bold', fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px' }}
+        >
           &larr; Back to all Bills
         </button>
-        <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '20px' }}>
           <div>
-            <h1>{selectedBill.id}: {selectedBill.title}</h1>
-            <p style={{ color: 'var(--text-secondary)' }}>Status: Second Reading in the House of Commons</p>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <span style={{ background: selectedBill.status.includes('Passed') ? 'rgba(16, 185, 129, 0.2)' : 'rgba(245, 158, 11, 0.2)', color: selectedBill.status.includes('Passed') ? '#10b981' : '#f59e0b', fontSize: '11px', fontWeight: 'bold', padding: '3px 8px', borderRadius: '4px', textTransform: 'uppercase' }}>
+                {selectedBill.status}
+              </span>
+              <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                Category: {selectedBill.category}
+              </span>
+            </div>
+            <h1 style={{ fontSize: '28px', margin: '8px 0 0 0', color: 'white' }}>{selectedBill.id}: {selectedBill.title}</h1>
           </div>
+          
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <span style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>AI Distiller:</span>
             <select 
@@ -37,33 +170,43 @@ export const Bills = () => {
           </div>
         </div>
         
-        <div style={{ display: 'flex', gap: '32px', marginTop: '24px' }}>
-          <div style={{ flex: 2, background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
-            <h3 style={{ marginBottom: '16px', color: 'var(--accent-color)' }}>AI Summary ({aiEngine})</h3>
-            <p style={{ lineHeight: '1.7', color: 'rgba(255,255,255,0.9)', fontSize: '15px' }}>
-              Based on the analysis by {aiEngine}, {selectedBill.id} proposes significant legislative changes. {selectedBill.desc} The bill aims to modernize existing frameworks, but has drawn varying reactions. Supporters argue it is a necessary update for the digital age, closing regulatory loopholes. Critics, however, suggest it may overreach and stifle innovation or lawful ownership. 
-              <br/><br/>
-              <strong>Key Provisions:</strong>
-              <ul style={{ paddingLeft: '20px', marginTop: '12px' }}>
-                <li style={{ marginBottom: '8px' }}>Establishes new regulatory oversight parameters.</li>
-                <li style={{ marginBottom: '8px' }}>Introduces compliance mechanisms and potential penalties.</li>
-                <li style={{ marginBottom: '8px' }}>Mandates reporting structures for relevant entities.</li>
-              </ul>
-            </p>
+        <div style={{ display: 'flex', gap: '32px', marginTop: '24px', flexWrap: 'wrap' }}>
+          {/* Left panel: Bill description & AI summary */}
+          <div style={{ flex: 2, minWidth: '320px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            <div style={{ background: 'rgba(255,255,255,0.02)', padding: '20px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
+              <h3 style={{ margin: '0 0 8px 0', color: 'white', fontSize: '15px' }}>Official Summary</h3>
+              <p style={{ lineHeight: '1.6', color: 'rgba(255,255,255,0.85)', fontSize: '14px', margin: 0 }}>{selectedBill.desc}</p>
+            </div>
+
+            <div style={{ background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <h3 style={{ margin: '0 0 12px 0', color: 'var(--accent-color)', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '16px' }}>
+                <span>✨</span> AI Analysis & Distillation ({aiEngine})
+              </h3>
+              <p style={{ lineHeight: '1.7', color: 'rgba(255,255,255,0.9)', fontSize: '14.5px', margin: 0 }}>
+                {selectedBill.aiBreakdown}
+              </p>
+            </div>
           </div>
-          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            <h3 style={{ marginBottom: '8px' }}>Party Positions</h3>
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '16px', borderRadius: '8px', borderLeft: '4px solid var(--party-liberal)' }}>
-              <strong style={{ color: 'var(--party-liberal)', display: 'block', marginBottom: '4px' }}>Liberal</strong>
-              <span style={{ fontSize: '14px' }}>{selectedBill.lib}</span>
+
+          {/* Right panel: Party stances */}
+          <div style={{ flex: 1.2, minWidth: '280px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <h3 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)' }}>Party Stances</h3>
+            
+            <div style={{ background: 'rgba(255,255,255,0.04)', padding: '16px', borderRadius: '8px', borderLeft: '4px solid var(--party-liberal)' }}>
+              <strong style={{ color: 'var(--party-liberal)', display: 'block', marginBottom: '6px', fontSize: '13px', textTransform: 'uppercase' }}>Liberal Party</strong>
+              <span style={{ fontSize: '13.5px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.4' }}>{selectedBill.lib}</span>
             </div>
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '16px', borderRadius: '8px', borderLeft: '4px solid var(--party-conservative)' }}>
-              <strong style={{ color: 'var(--party-conservative)', display: 'block', marginBottom: '4px' }}>Conservative</strong>
-              <span style={{ fontSize: '14px' }}>{selectedBill.con}</span>
+            <div style={{ background: 'rgba(255,255,255,0.04)', padding: '16px', borderRadius: '8px', borderLeft: '4px solid var(--party-conservative)' }}>
+              <strong style={{ color: 'var(--party-conservative)', display: 'block', marginBottom: '6px', fontSize: '13px', textTransform: 'uppercase' }}>Conservative Party</strong>
+              <span style={{ fontSize: '13.5px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.4' }}>{selectedBill.con}</span>
             </div>
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '16px', borderRadius: '8px', borderLeft: '4px solid var(--party-ndp)' }}>
-              <strong style={{ color: 'var(--party-ndp)', display: 'block', marginBottom: '4px' }}>NDP</strong>
-              <span style={{ fontSize: '14px' }}>{selectedBill.ndp}</span>
+            <div style={{ background: 'rgba(255,255,255,0.04)', padding: '16px', borderRadius: '8px', borderLeft: '4px solid var(--party-ndp)' }}>
+              <strong style={{ color: 'var(--party-ndp)', display: 'block', marginBottom: '6px', fontSize: '13px', textTransform: 'uppercase' }}>New Democratic Party</strong>
+              <span style={{ fontSize: '13.5px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.4' }}>{selectedBill.ndp}</span>
+            </div>
+            <div style={{ background: 'rgba(255,255,255,0.04)', padding: '16px', borderRadius: '8px', borderLeft: '4px solid var(--party-bloc)' }}>
+              <strong style={{ color: 'var(--party-bloc)', display: 'block', marginBottom: '6px', fontSize: '13px', textTransform: 'uppercase' }}>Bloc Québécois</strong>
+              <span style={{ fontSize: '13.5px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.4' }}>{selectedBill.bloc}</span>
             </div>
           </div>
         </div>
@@ -72,40 +215,81 @@ export const Bills = () => {
   }
 
   return (
-    <div className="page-container glass-panel">
-      <div className="page-header">
-        <h1>Legislative Bills</h1>
-        <p>Track bills currently moving through Parliament, read high-level summaries, and see party opinions.</p>
+    <div className="page-container glass-panel" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+      <div className="page-header" style={{ marginBottom: '24px' }}>
+        <h1>Legislative Bills Tracker</h1>
+        <p>Track bills currently moving through Parliament, review non-partisan AI summaries, and analyze party-by-party positions.</p>
+        
+        {/* Controls: Search and filter */}
+        <div style={{ display: 'flex', gap: '12px', marginTop: '20px', alignItems: 'center', flexWrap: 'wrap' }}>
+          <div className="search-box" style={{ flex: 1, minWidth: '240px' }}>
+            <Search className="search-icon" size={18} />
+            <input 
+              type="text" 
+              className="search-input" 
+              placeholder="Search bills by ID, title, or keywords..." 
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+          </div>
+          
+          <div style={{ display: 'flex', gap: '6px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
+            {(['All', 'In Progress', 'Passed', 'Passed (Royal Assent)'] as const).map(status => (
+              <button
+                key={status}
+                onClick={() => setStatusFilter(status)}
+                style={{
+                  padding: '8px 14px',
+                  background: statusFilter === status ? 'rgba(255,255,255,0.1)' : 'transparent',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '6px',
+                  cursor: 'pointer',
+                  fontSize: '13px',
+                  fontWeight: statusFilter === status ? 'bold' : 'normal',
+                  transition: 'all 0.2s'
+                }}
+              >
+                {status}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
       
-      <div className="placeholder-content">
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px' }}>
-          {MOCK_BILLS.map(bill => (
-            <div key={bill.id} className="bill-card" style={{ display: 'flex', flexDirection: 'column', padding: '24px' }}>
+      <div style={{ flex: 1, overflowY: 'auto', paddingRight: '4px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '20px' }}>
+          {filteredBills.map(bill => (
+            <div key={bill.id} className="bill-card" style={{ display: 'flex', flexDirection: 'column', padding: '20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '12px' }}>
               <div style={{ flex: 1 }}>
-                <h3 style={{ fontSize: '20px', marginBottom: '8px' }}>{bill.id}: {bill.title}</h3>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.5', marginBottom: '20px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
+                  <span style={{ fontSize: '13px', fontWeight: 'bold', color: 'rgba(255,255,255,0.4)' }}>{bill.id}</span>
+                  <span style={{ background: bill.status.includes('Passed') ? 'rgba(16, 185, 129, 0.15)' : 'rgba(245, 158, 11, 0.15)', color: bill.status.includes('Passed') ? '#10b981' : '#f59e0b', fontSize: '9px', fontWeight: 'bold', padding: '2px 6px', borderRadius: '4px', textTransform: 'uppercase' }}>
+                    {bill.status}
+                  </span>
+                </div>
+                <h3 style={{ fontSize: '18px', margin: '0 0 10px 0', color: 'white', lineHeight: '1.3' }}>{bill.title}</h3>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '13px', lineHeight: '1.45', marginBottom: '16px', display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                   {bill.desc}
                 </p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                  <div style={{ background: 'rgba(255,255,255,0.05)', padding: '12px', borderRadius: '8px' }}>
-                    <strong style={{ color: 'var(--party-liberal)', display: 'block', marginBottom: '4px' }}>Liberal</strong>
-                    <span style={{ fontSize: '13px' }}>{bill.lib}</span>
-                  </div>
-                  <div style={{ background: 'rgba(255,255,255,0.05)', padding: '12px', borderRadius: '8px' }}>
-                    <strong style={{ color: 'var(--party-conservative)', display: 'block', marginBottom: '4px' }}>Conservative</strong>
-                    <span style={{ fontSize: '13px' }}>{bill.con}</span>
-                  </div>
-                  <div style={{ background: 'rgba(255,255,255,0.05)', padding: '12px', borderRadius: '8px' }}>
-                    <strong style={{ color: 'var(--party-ndp)', display: 'block', marginBottom: '4px' }}>NDP</strong>
-                    <span style={{ fontSize: '13px' }}>{bill.ndp}</span>
-                  </div>
+                <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', marginTop: '12px' }}>
+                  <span style={{ background: 'rgba(215, 25, 32, 0.1)', color: 'var(--party-liberal)', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>LPC Stance</span>
+                  <span style={{ background: 'rgba(26, 71, 130, 0.1)', color: 'var(--party-conservative)', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>CPC Stance</span>
+                  <span style={{ background: 'rgba(243, 112, 33, 0.1)', color: 'var(--party-ndp)', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>NDP Stance</span>
+                  <span style={{ background: 'rgba(51, 178, 204, 0.1)', color: 'var(--party-bloc)', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>BQ Stance</span>
                 </div>
               </div>
-              <button className="vote-btn" onClick={() => setSelectedBill(bill)} style={{ width: '100%', marginTop: '24px', padding: '10px' }}>Learn More</button>
+              <button className="vote-btn" onClick={() => setSelectedBill(bill)} style={{ width: '100%', marginTop: '20px', padding: '10px', background: 'var(--accent-color)' }}>
+                View Full Stance & AI Analysis
+              </button>
             </div>
           ))}
         </div>
+        {filteredBills.length === 0 && (
+          <div style={{ textAlign: 'center', padding: '40px', color: 'var(--text-secondary)' }}>
+            No bills found matching your search.
+          </div>
+        )}
       </div>
     </div>
   );

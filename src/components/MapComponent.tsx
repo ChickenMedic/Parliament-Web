@@ -309,7 +309,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
           <h3 style="margin: 0 0 8px 0; font-size: 16px; color: white;">${feature.properties.name}</h3>
           
           <div style="display: flex; gap: 12px; align-items: center; background-color: ${hexToRgba(getPartyColor(party), 0.15)}; padding: 12px; margin: 0 -16px; border-top: 1px solid ${getPartyColor(party)}40; border-bottom: 1px solid ${getPartyColor(party)}40;">
-            <img src="https://openparliament.ca${mp.image}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}&background=random&color=fff'" style="width: 48px; height: 48px; border-radius: 16px; object-fit: cover; object-position: center 10%; border: 2px solid ${getPartyColor(party)};" />
+            <img src="https://openparliament.ca${mp.image}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}&background=random&color=fff'" style="width: 48px; height: 48px; border-radius: 16px; object-fit: cover; object-position: center top; border: 2px solid ${getPartyColor(party)};" />
             <div>
               <strong style="font-size: 15px; color: white;">${mp.name}</strong><br/>
               <span style="color: ${getPartyColor(party)}; font-weight: bold; font-size: 13px;">${party}</span>
@@ -388,8 +388,8 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
          <Marker 
            position={[20, -100]} 
            icon={L.divIcon({
-             className: 'inset-tooltip-marker',
-             html: `<div style="font-size: 4em; color: rgba(255,255,255,0.3); font-weight: 800; letter-spacing: 0.4em; text-transform: uppercase; white-space: nowrap; text-align: center; margin-left: -50%;">CITIES</div>`,
+             className: 'cities-header-marker',
+             html: `<div style="font-size: 4em; color: rgba(255,255,255,0.15); font-weight: 800; letter-spacing: 0.4em; text-transform: uppercase; white-space: nowrap; text-align: center; margin-left: -50%; transform: translate(-50%, -50%); position: absolute; pointer-events: none;">CITIES</div>`,
              iconSize: [0, 0],
              iconAnchor: [0, 0]
            })} 

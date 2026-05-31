@@ -399,20 +399,24 @@
 }
 
 .inset-tooltip-marker div {
-  background: transparent;
-  color: rgba(255,255,255,0.5);
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 6px 12px;
+  border-radius: 20px;
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 4px;
+  font-size: 11px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   text-align: center;
   white-space: nowrap;
   pointer-events: none;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   position: absolute;
-  transform-origin: bottom center;
-  left: -100px; /* arbitrary wide bounding box to allow centering */
-  width: 200px;
-  bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 0;
+  top: 0;
 }

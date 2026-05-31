@@ -254,21 +254,18 @@ export const Sidebar = ({ selectedMP, setSelectedMP }: { selectedMP: any, setSel
                     const target = e.target as HTMLImageElement;
                     target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&background=random`;
                   }}
-                  style={{ position: 'relative', zIndex: 1, borderColor: isSelected ? 'white' : 'transparent', objectPosition: 'center 10%' }}
+                  style={{ position: 'relative', zIndex: 1, borderColor: isSelected ? 'white' : 'transparent', objectPosition: 'center top' }}
                 />
                 
-                <div className="politician-info" style={{ position: 'relative', zIndex: 1, flex: 1, textShadow: isSelected ? '0 1px 3px rgba(0,0,0,0.8)' : 'none', padding: '0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <div className="politician-name" style={{ color: 'white', margin: 0, lineHeight: '1.1' }}>{p.name}</div>
-                  <div className="politician-riding" style={{ color: isSelected ? '#eee' : 'var(--text-secondary)', margin: 0 }}>{p.current_riding.name.en}, {p.current_riding.province}</div>
+                <div className="politician-info" style={{ position: 'relative', zIndex: 1, flex: 1, textShadow: isSelected ? '0 1px 3px rgba(0,0,0,0.8)' : 'none', padding: '0', display: 'flex', flexDirection: 'column', gap: '4px', minWidth: 0 }}>
+                  <div className="politician-name" style={{ color: 'white', margin: 0, lineHeight: '1.2', fontWeight: 600, fontSize: '16px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{p.name}</div>
+                  <div className="politician-party" style={{ color: isSelected ? 'white' : color, fontWeight: '700', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>{party}</div>
+                  <div className="politician-riding" style={{ color: isSelected ? '#eee' : 'var(--text-secondary)', margin: 0, fontSize: '13px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{p.current_riding.name.en}, {p.current_riding.province}</div>
                   {p.role && !p.role.includes('MP for') && (
-                    <div className="politician-role" style={{ fontSize: '13px', color: isSelected ? 'white' : 'var(--accent-color)' }}>
+                    <div className="politician-role" style={{ fontSize: '12px', color: isSelected ? 'white' : 'var(--accent-color)', fontWeight: 500, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                       {p.role}
                     </div>
                   )}
-                </div>
-
-                <div className="politician-party" style={{ position: 'relative', zIndex: 1, color: isSelected ? 'white' : color, fontWeight: 'bold', whiteSpace: 'nowrap', textAlign: 'right' }}>
-                  {party}
                 </div>
               </div>
             );
