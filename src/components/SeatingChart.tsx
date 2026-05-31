@@ -96,7 +96,7 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
             {/* Left/Right Side Annotations */}
             <div style={{
               position: 'absolute',
-              left: '-60px',
+              left: '-110px',
               top: '80px',
               bottom: '40px',
               width: '20px',
@@ -108,23 +108,23 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
             }}>
               <div style={{
                 transform: 'rotate(-90deg)',
-                color: 'rgba(255, 255, 255, 0.4)',
-                fontSize: '11px',
+                color: 'rgba(255, 255, 255, 0.25)',
+                fontSize: '36px',
                 fontWeight: 'bold',
-                letterSpacing: '3px',
+                letterSpacing: '6px',
                 whiteSpace: 'nowrap',
                 textTransform: 'uppercase',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '8px'
               }}>
-                <span style={{ fontSize: '14px' }}>←</span> Left Side (Government Benches)
+                Government
               </div>
             </div>
 
             <div style={{
               position: 'absolute',
-              right: '-60px',
+              right: '-110px',
               top: '80px',
               bottom: '40px',
               width: '20px',
@@ -136,17 +136,17 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
             }}>
               <div style={{
                 transform: 'rotate(90deg)',
-                color: 'rgba(255, 255, 255, 0.4)',
-                fontSize: '11px',
+                color: 'rgba(255, 255, 255, 0.25)',
+                fontSize: '36px',
                 fontWeight: 'bold',
-                letterSpacing: '3px',
+                letterSpacing: '6px',
                 whiteSpace: 'nowrap',
                 textTransform: 'uppercase',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '8px'
               }}>
-                Right Side (Opposition Benches) <span style={{ fontSize: '14px' }}>→</span>
+                Opposition
               </div>
             </div>
 
@@ -155,19 +155,19 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
               { label: 'R1', y: 4 + 10 + 50 },
               { label: 'R2', y: 61 + 10 + 50 },
               { label: 'R3', y: 118 + 10 + 50 },
-              { label: 'R4', y: 199 + 10 + 50 },
-              { label: 'R5', y: 256 + 10 + 50 },
-              { label: 'R6', y: 313 + 10 + 50 },
-              { label: 'R7', y: 370 + 10 + 50 },
-              { label: 'R8', y: 427 + 10 + 50 },
-              { label: 'R9', y: 484 + 10 + 50 },
-              { label: 'R10', y: 541 + 10 + 50 },
-              { label: 'R11', y: 598 + 10 + 50 },
-              { label: 'R12', y: 655 + 10 + 50 },
-              { label: 'R13', y: 712 + 10 + 50 },
-              { label: 'R14', y: 769 + 10 + 50 },
-              { label: 'R15', y: 826 + 10 + 50 },
-              { label: 'R16', y: 883 + 10 + 50 },
+              { label: 'R4', y: 175 + 10 + 50 },
+              { label: 'R5', y: 232 + 10 + 50 },
+              { label: 'R6', y: 289 + 10 + 50 },
+              { label: 'R7', y: 346 + 10 + 50 },
+              { label: 'R8', y: 403 + 10 + 50 },
+              { label: 'R9', y: 460 + 10 + 50 },
+              { label: 'R10', y: 517 + 10 + 50 },
+              { label: 'R11', y: 574 + 10 + 50 },
+              { label: 'R12', y: 631 + 10 + 50 },
+              { label: 'R13', y: 688 + 10 + 50 },
+              { label: 'R14', y: 745 + 10 + 50 },
+              { label: 'R15', y: 802 + 10 + 50 },
+              { label: 'R16', y: 859 + 10 + 50 },
             ].map((row, rIdx) => (
               <div key={rIdx} style={{ pointerEvents: 'none' }}>
                 {/* Left Side Row Label */}

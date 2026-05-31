@@ -2,6 +2,13 @@ import './PageStyles.css';
 import { useState, useMemo } from 'react';
 import { Search } from 'lucide-react';
 
+interface BillComment {
+  id: string;
+  author: string;
+  date: string;
+  content: string;
+}
+
 interface Bill {
   id: string;
   title: string;
@@ -13,6 +20,7 @@ interface Bill {
   ndp: string;
   bloc: string;
   aiBreakdown: string;
+  comments?: BillComment[];
 }
 
 const BILLS_DATA: Bill[] = [
@@ -121,6 +129,44 @@ export const Bills = () => {
   const [search, setSearch] = useState('');
   const [statusFilter, setStatusFilter] = useState<'All' | 'In Progress' | 'Passed' | 'Passed (Royal Assent)'>('All');
 
+  // Pre-populated comment database for debate
+  const [billComments, setBillComments] = useState<Record<string, BillComment[]>>({
+    'C-11': [
+      { id: 'c11-1', author: 'Frustrated Creator', date: 'May 28, 2026', content: 'As an independent YouTuber, CRTC regulation terrifies me. The discoverability algorithm rules are going to bury independent content creators in favor of traditional media networks.' },
+      { id: 'c11-2', author: 'Union Artiste', date: 'May 29, 2026', content: 'Our artists have been starved of funding for years because tech giants pay zero taxes while profiting off our content. C-11 is a crucial lifeline!' }
+    ],
+    'C-21': [
+      { id: 'c21-1', author: 'Skeptic Urbanite', date: 'May 29, 2026', content: 'Handgun freezes do not solve the illegal gun trade. If you do not lock down the borders, the street supply stays the same.' },
+      { id: 'c21-2', author: 'Safety First', date: 'May 30, 2026', content: 'Coercive control and domestic abuse situations are highly lethal when firearms are in the house. Keiras Law and C-21 are critical safeguards.' }
+    ],
+    'C-58': [
+      { id: 'c58-1', author: 'Labour Union Rep', date: 'May 30, 2026', content: 'For decades, employers have prolonged strikes by hiring replacement workers. This bill levels the field.' },
+      { id: 'c58-2', author: 'Transit User', date: 'May 31, 2026', content: 'Anti-scab laws sound good until a strike halts the rail system for weeks, shutting down passenger service and ruining food supply chains.' }
+    ],
+    'C-63': [
+      { id: 'c63-1', author: 'FreeSpeechCan', date: 'May 28, 2026', content: 'The online harms bill goes way too far. Lifetime imprisonment options for speech acts is insane and opens the door to political censorship.' },
+      { id: 'c63-2', author: 'Worried Parent', date: 'May 29, 2026', content: 'Our kids are being targeted by online predators and algorithmically fed toxic content. Tech giants won’t self-regulate, so we need government mandates.' }
+    ],
+    'C-69': [
+      { id: 'c69-1', author: 'Startup Founder', date: 'May 27, 2026', content: 'Raising the capital gains inclusion rate makes Canada uncompetitive. Why would investors put money into Canadian startups if they get taxed at 66% on exit?' },
+      { id: 'c69-2', author: 'Tenant Union', date: 'May 29, 2026', content: 'The Renters Bill of Rights is a step in the right direction. We need history tracking on rent prices so landlords cannot price gouge.' }
+    ],
+    'C-50': [
+      { id: 'c50-1', author: 'Energy Worker AB', date: 'May 28, 2026', content: 'A "Sustainable Jobs Act" is a polite way of saying they are winding down my career. We need transitions that protect our wages, not just retraining programs.' },
+      { id: 'c50-2', author: 'GreenTransition Now', date: 'May 30, 2026', content: 'Excellent step forward. Oil is a finite boom-bust commodity. Helping workers transition to geothermal and hydrogen keeps them employed long-term.' }
+    ],
+    'C-35': [
+      { id: 'c35-1', author: 'Working Mom BC', date: 'May 29, 2026', content: 'The $10-a-day childcare saved my household over $1,200 a month. Making this a permanent legislative funding model is huge.' },
+      { id: 'c35-2', author: 'Waitlist Survivor', date: 'May 30, 2026', content: 'Great in theory, but the waitlist in Toronto is 2 years long. If you don’t support private and home-care providers, you create a massive shortage.' }
+    ],
+    'C-233': [
+      { id: 'c233-1', author: 'Family Advocate', date: 'May 29, 2026', content: 'Keira Kagan should be alive today. Judges must understand coercive control so they stop ordering custody shares to abusive spouses.' }
+    ]
+  });
+
+  const [newAuthor, setNewAuthor] = useState('');
+  const [newText, setNewText] = useState('');
+
   const filteredBills = useMemo(() => {
     const q = search.toLowerCase();
     return BILLS_DATA.filter(bill => {
@@ -132,7 +178,29 @@ export const Bills = () => {
     });
   }, [search, statusFilter]);
 
+  const handleCommentSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!selectedBill || !newAuthor.trim() || !newText.trim()) return;
+
+    const newComment: BillComment = {
+      id: `${selectedBill.id}-${Date.now()}`,
+      author: newAuthor.trim(),
+      date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
+      content: newText.trim()
+    };
+
+    setBillComments(prev => ({
+      ...prev,
+      [selectedBill.id]: [newComment, ...(prev[selectedBill.id] || [])]
+    }));
+
+    setNewAuthor('');
+    setNewText('');
+  };
+
   if (selectedBill) {
+    const commentsList = billComments[selectedBill.id] || [];
+
     return (
       <div className="page-container glass-panel" style={{ overflowY: 'auto' }}>
         <button 
@@ -210,6 +278,62 @@ export const Bills = () => {
             </div>
           </div>
         </div>
+
+        {/* Public Debate & Comments */}
+        <div className="glass-panel" style={{ padding: '24px', borderRadius: '12px', background: 'rgba(255,255,255,0.02)', display: 'flex', flexDirection: 'column', gap: '20px', marginTop: '32px', border: '1px solid rgba(255,255,255,0.08)' }}>
+          <h3 style={{ margin: 0, color: 'white', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '16px' }}>
+            💬 Public Debate Feed ({commentsList.length} Comments)
+          </h3>
+          <p style={{ margin: 0, fontSize: '12.5px', color: 'var(--text-secondary)' }}>
+            Discuss and debate this bill. All viewpoints are welcome, but please remain respectful and abide by community guidelines.
+          </p>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', maxHeight: '350px', overflowY: 'auto', background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '16px', border: '1px solid rgba(255,255,255,0.05)' }}>
+            {commentsList.length === 0 ? (
+              <div style={{ padding: '24px', textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontSize: '13px' }}>
+                No debate comments yet. Share your thoughts on Bill {selectedBill.id}!
+              </div>
+            ) : (
+              commentsList.map(c => (
+                <div key={c.id} style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '12px 16px', borderRadius: '8px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <strong style={{ fontSize: '12.5px', color: 'white' }}>{c.author}</strong>
+                    <span style={{ fontSize: '10.5px', color: 'rgba(255,255,255,0.4)' }}>{c.date}</span>
+                  </div>
+                  <div style={{ fontSize: '13.5px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.45' }}>{c.content}</div>
+                </div>
+              ))
+            )}
+          </div>
+
+          <form onSubmit={handleCommentSubmit} style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+            <input 
+              type="text" 
+              placeholder="Your Name / Handle" 
+              value={newAuthor}
+              onChange={(e) => setNewAuthor(e.target.value)}
+              required
+              style={{ flex: '1', minWidth: '150px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '6px', padding: '12px', color: 'white', fontSize: '13px' }}
+            />
+            <input 
+              type="text" 
+              placeholder={`Share your stance on ${selectedBill.id} (${selectedBill.title})...`} 
+              value={newText}
+              onChange={(e) => setNewText(e.target.value)}
+              required
+              style={{ flex: '3', minWidth: '250px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '6px', padding: '12px', color: 'white', fontSize: '13px' }}
+            />
+            <button 
+              type="submit" 
+              style={{ background: 'var(--accent-color)', color: 'white', border: 'none', borderRadius: '6px', padding: '12px 24px', cursor: 'pointer', fontWeight: 'bold', fontSize: '13px', transition: 'all 0.2s' }}
+              onMouseOver={(e) => e.currentTarget.style.filter = 'brightness(1.2)'}
+              onMouseOut={(e) => e.currentTarget.style.filter = 'none'}
+            >
+              Post Stance
+            </button>
+          </form>
+        </div>
+
       </div>
     );
   }
