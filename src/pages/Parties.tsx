@@ -21,33 +21,41 @@ const PARTY_FEEDS: Record<string, { user: string, handle: string, avatar: string
   'Liberal': {
     user: 'Liberal Party',
     handle: 'liberal_party',
-    avatar: 'https://pbs.twimg.com/profile_images/1547743122115993601/J09sNn3o_400x400.png'
+    avatar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Liberal_Party_of_Canada_%282025%29.svg/512px-Liberal_Party_of_Canada_%282025%29.svg.png'
   },
   'Conservative': {
     user: 'Conservative Party',
     handle: 'CPC_HQ',
-    avatar: 'https://pbs.twimg.com/profile_images/1691456910794502144/f9PqfMke_400x400.jpg'
+    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Conservative_Party_of_Canada_logo.svg/512px-Conservative_Party_of_Canada_logo.svg.png'
   },
   'NDP': {
     user: 'Canada\'s NDP',
     handle: 'NDP',
-    avatar: 'https://pbs.twimg.com/profile_images/1425145783300808705/x0_X-5pY_400x400.jpg'
+    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/07/New_Democratic_Party_logo_%282025%29.svg/512px-New_Democratic_Party_logo_%282025%29.svg.png'
   },
   'Bloc Québécois': {
     user: 'Bloc Québécois',
     handle: 'BlocQuebecois',
-    avatar: 'https://pbs.twimg.com/profile_images/1557022295624101889/5hH_Y82q_400x400.jpg'
+    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Bloc_Qu%C3%A9b%C3%A9cois_logo.svg/512px-Bloc_Qu%C3%A9b%C3%A9cois_logo.svg.png'
   },
   'Green Party': {
     user: 'Green Party of Canada',
     handle: 'CanadianGreens',
-    avatar: 'https://pbs.twimg.com/profile_images/1426915152330694665/iR7pW4-I_400x400.jpg'
+    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Green_Party_of_Canada_Logo.svg/512px-Green_Party_of_Canada_Logo.svg.png'
   },
   'Independent': {
     user: 'House of Commons',
     handle: 'OurCommons',
-    avatar: 'https://pbs.twimg.com/profile_images/1381665672153247747/hRIn_rM0_400x400.jpg'
+    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Coat_of_arms_of_Canada.svg/512px-Coat_of_arms_of_Canada.svg.png'
   }
+};
+
+const PARTY_LEADERS: Record<string, { name: string, title: string, xHandle: string }> = {
+  'Liberal': { name: 'Mark Carney', title: 'Leader of the Liberal Party & Prime Minister', xHandle: 'MarkJCarney' },
+  'Conservative': { name: 'Pierre Poilievre', title: 'Leader of the Conservative Party & Official Opposition', xHandle: 'PierrePoilievre' },
+  'NDP': { name: 'Avi Lewis', title: 'Leader of the New Democratic Party', xHandle: 'avilewis' },
+  'Bloc Québécois': { name: 'Yves-François Blanchet', title: 'Leader of the Bloc Québécois', xHandle: 'yfblanchet' },
+  'Green Party': { name: 'Elizabeth May', title: 'Leader of the Green Party', xHandle: 'ElizabethMay' },
 };
 
 
@@ -56,7 +64,7 @@ export const Parties = () => {
   const [cabinetFilter, setCabinetFilter] = useState('');
   const politicians = politiciansData.objects as any[];
 
-  const tabs = ['Liberal', 'Conservative', 'NDP', 'Bloc Québécois', 'Green Party', 'Independent'];
+  const tabs = ['Bloc Québécois', 'Conservative', 'Green Party', 'Independent', 'Liberal', 'NDP'];
 
   const [feedHandle, setFeedHandle] = useState<string | null>(PARTY_FEEDS['Liberal'].handle);
   const [feedUser, setFeedUser] = useState<string>(PARTY_FEEDS['Liberal'].user);
@@ -89,6 +97,10 @@ export const Parties = () => {
       } else if (cabinetFilter === 'Shadow Cabinet') {
         return targetParty === 'Conservative' && role && role.includes('Shadow Minister');
       }
+      
+      const leader = PARTY_LEADERS[activeTab];
+      if (leader && p.name === leader.name) return false;
+
       return true;
     });
   }, [activeTab, cabinetFilter, politicians]);
@@ -140,10 +152,6 @@ export const Parties = () => {
             {feedHandle ? (
               <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '12px', minHeight: 0 }}>
                 <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', background: 'rgba(0,0,0,0.15)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-                  <div style={{ padding: '8px 12px', background: 'rgba(255,255,255,0.03)', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '11px', color: 'rgba(255,255,255,0.4)', textAlign: 'left', fontWeight: 'bold' }}>
-                    ⚡ Native Cached Feed (Adblock-Resistant)
-                  </div>
-                  
                   {tweetsData[feedHandle] && tweetsData[feedHandle].length > 0 ? (
                     tweetsData[feedHandle].map((t: any, idx: number) => (
                       <div key={t.id || idx} style={{ padding: '16px', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', gap: '12px', textAlign: 'left' }}>
@@ -163,10 +171,18 @@ export const Parties = () => {
                             </span>
                           </div>
                           
-                          <p style={{ margin: '6px 0 10px 0', fontSize: '13px', color: 'rgba(255,255,255,0.9)', lineHeight: '1.45', whiteSpace: 'pre-line' }}>
-                            {t.content.split(' ').map((word: string, wIdx: number) => {
-                              if (word.startsWith('#') || word.startsWith('@') || word.startsWith('http')) {
-                                return <span key={wIdx} style={{ color: '#1d9bf0', fontWeight: 'bold' }}>{word} </span>;
+                          <p style={{ margin: '6px 0 10px 0', fontSize: '13px', color: 'rgba(255,255,255,0.9)', lineHeight: '1.45', whiteSpace: 'pre-line', wordBreak: 'break-word' }}>
+                            {t.content.split(/\s+/).map((word: string, wIdx: number) => {
+                              if (word.startsWith('http')) {
+                                return <a key={wIdx} href={word} target="_blank" rel="noopener noreferrer" style={{ color: '#1d9bf0', fontWeight: 'bold', textDecoration: 'none' }}>{word} </a>;
+                              }
+                              if (word.startsWith('@')) {
+                                const cleanWord = word.replace(/[^a-zA-Z0-9_@]/g, '');
+                                return <span key={wIdx}><a href={`https://x.com/${cleanWord.substring(1)}`} target="_blank" rel="noopener noreferrer" style={{ color: '#1d9bf0', fontWeight: 'bold', textDecoration: 'none' }}>{cleanWord}</a>{word.substring(cleanWord.length)} </span>;
+                              }
+                              if (word.startsWith('#')) {
+                                const cleanWord = word.replace(/[^a-zA-Z0-9_#]/g, '');
+                                return <span key={wIdx}><a href={`https://x.com/hashtag/${cleanWord.substring(1)}`} target="_blank" rel="noopener noreferrer" style={{ color: '#1d9bf0', fontWeight: 'bold', textDecoration: 'none' }}>{cleanWord}</a>{word.substring(cleanWord.length)} </span>;
                               }
                               return word + ' ';
                             })}
@@ -282,50 +298,60 @@ export const Parties = () => {
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '16px', overflowY: 'auto', paddingRight: '8px', alignContent: 'start' }}>
-            {/* Avi Lewis NDP Leader Special Card */}
-            {activeTab === 'NDP' && cabinetFilter === '' && (
-              <div 
-                className="mp-card"
-                style={{ 
-                  gridColumn: '1 / -1', 
-                  background: 'rgba(243, 112, 33, 0.08)', 
-                  borderLeft: `3px solid ${activeColor}`,
-                  padding: '16px', 
-                  borderRadius: '10px', 
-                  display: 'flex', 
-                  gap: '16px', 
-                  alignItems: 'center',
-                  marginBottom: '4px'
-                }}
-              >
-                <img 
-                  src={PARTY_FEEDS['NDP'].avatar} 
-                  alt="Avi Lewis" 
-                  style={{ width: '50px', height: '50px', borderRadius: '50%', border: '2px solid #f37021' }} 
-                />
-                <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                    <h4 style={{ margin: 0, color: 'white', fontSize: '15px' }}>Avi Lewis</h4>
-                    <a 
-                      href="https://x.com/AviLewis" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      style={{ textDecoration: 'none', fontSize: '10px', background: 'rgba(29, 155, 240, 0.15)', border: '1px solid rgba(29, 155, 240, 0.3)', color: '#1d9bf0', padding: '4px 8px', borderRadius: '4px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '4px', transition: 'all 0.2s' }}
-                      onMouseEnter={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.25)')}
-                      onMouseLeave={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.15)')}
-                    >
-                      X Profile ↗
-                    </a>
-                  </div>
-                  <div style={{ fontSize: '12px', color: '#f37021', fontWeight: 'bold', textTransform: 'uppercase', marginTop: '2px' }}>
-                    Leader of the New Democratic Party
-                  </div>
-                  <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '4px' }}>
-                    * Leader outside of Parliament (not an elected MP in the current session)
+            {/* Generic Leader Special Card */}
+            {PARTY_LEADERS[activeTab] && cabinetFilter === '' && (() => {
+              const leader = PARTY_LEADERS[activeTab];
+              const leaderMpDetails = politicians.find(p => p.name === leader.name);
+              
+              return (
+                <div 
+                  className="mp-card"
+                  style={{ 
+                    gridColumn: '1 / -1', 
+                    background: `${activeColor}15`, 
+                    borderLeft: `3px solid ${activeColor}`,
+                    padding: '16px', 
+                    borderRadius: '10px', 
+                    display: 'flex', 
+                    gap: '16px', 
+                    alignItems: 'center',
+                    marginBottom: '4px'
+                  }}
+                >
+                  <img 
+                    src={leaderMpDetails ? `https://openparliament.ca${leaderMpDetails.image}` : PARTY_FEEDS[activeTab]?.avatar} 
+                    alt={leader.name} 
+                    style={{ width: '50px', height: '50px', borderRadius: '50%', border: `2px solid ${activeColor}`, objectFit: 'cover' }} 
+                    onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=random` }}
+                  />
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                      <h4 style={{ margin: 0, color: 'white', fontSize: '15px' }}>{leader.name}</h4>
+                      {leader.xHandle && (
+                        <a 
+                          href={`https://x.com/${leader.xHandle}`} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          style={{ textDecoration: 'none', fontSize: '10px', background: 'rgba(29, 155, 240, 0.15)', border: '1px solid rgba(29, 155, 240, 0.3)', color: '#1d9bf0', padding: '4px 8px', borderRadius: '4px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '4px', transition: 'all 0.2s' }}
+                          onMouseEnter={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.25)')}
+                          onMouseLeave={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.15)')}
+                        >
+                          X Profile ↗
+                        </a>
+                      )}
+                    </div>
+                    <div style={{ fontSize: '12px', color: activeColor, fontWeight: 'bold', textTransform: 'uppercase', marginTop: '2px' }}>
+                      {leader.title}
+                    </div>
+                    {!leaderMpDetails && (
+                      <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '4px' }}>
+                        * Leader outside of Parliament (not an elected MP in the current session)
+                      </div>
+                    )}
                   </div>
                 </div>
-              </div>
-            )}
+              );
+            })()}
 
             {filteredMPs.map(p => {
                const role = (rolesData as Record<string, string>)[p.name] || 'Member of Parliament';
