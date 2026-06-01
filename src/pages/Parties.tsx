@@ -62,6 +62,7 @@ const PARTY_LEADERS: Record<string, { name: string, title: string, xHandle: stri
 export const Parties = () => {
   const [activeTab, setActiveTab] = useState('Liberal');
   const [cabinetFilter, setCabinetFilter] = useState('');
+  const [sortOrder, setSortOrder] = useState<'A-Z' | 'Z-A'>('A-Z');
   const politicians = politiciansData.objects as any[];
 
   const tabs = ['Bloc Québécois', 'Conservative', 'Green Party', 'Independent', 'Liberal', 'NDP'];
@@ -102,8 +103,12 @@ export const Parties = () => {
       if (leader && p.name === leader.name) return false;
 
       return true;
+    }).sort((a, b) => {
+      const aLast = a.name.split(' ').pop() || '';
+      const bLast = b.name.split(' ').pop() || '';
+      return sortOrder === 'A-Z' ? aLast.localeCompare(bLast) : bLast.localeCompare(aLast);
     });
-  }, [activeTab, cabinetFilter, politicians]);
+  }, [activeTab, cabinetFilter, sortOrder, politicians]);
 
   const activeColor = getPartyColor(activeTab);
 
@@ -271,7 +276,22 @@ export const Parties = () => {
         <div style={{ flex: '2', display: 'flex', flexDirection: 'column', background: 'rgba(255,255,255,0.02)', borderRadius: '12px', padding: '24px', minHeight: 0 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px', flexShrink: 0 }}>
             <h3>Members of Parliament ({filteredMPs.length})</h3>
-            <div style={{ display: 'flex', gap: '8px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
+            <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+              <div style={{ display: 'flex', gap: '8px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <button 
+                  onClick={() => setSortOrder('A-Z')}
+                  style={{ padding: '6px 12px', background: sortOrder === 'A-Z' ? 'rgba(255,255,255,0.1)' : 'transparent', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '13px', transition: 'all 0.2s' }}
+                >
+                  A-Z
+                </button>
+                <button 
+                  onClick={() => setSortOrder('Z-A')}
+                  style={{ padding: '6px 12px', background: sortOrder === 'Z-A' ? 'rgba(255,255,255,0.1)' : 'transparent', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '13px', transition: 'all 0.2s' }}
+                >
+                  Z-A
+                </button>
+              </div>
+              <div style={{ display: 'flex', gap: '8px', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
               <button 
                 onClick={() => setCabinetFilter('')}
                 style={{ padding: '6px 12px', background: cabinetFilter === '' ? 'rgba(255,255,255,0.1)' : 'transparent', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '13px', transition: 'all 0.2s' }}
@@ -294,15 +314,20 @@ export const Parties = () => {
                   Shadow Cabinet
                 </button>
               )}
+              </div>
             </div>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '16px', overflowY: 'auto', paddingRight: '8px', alignContent: 'start' }}>
             {/* Generic Leader Special Card */}
-            {PARTY_LEADERS[activeTab] && cabinetFilter === '' && (() => {
+            {PARTY_LEADERS[activeTab] && (() => {
               const leader = PARTY_LEADERS[activeTab];
               const leaderMpDetails = politicians.find(p => p.name === leader.name);
               
+              const leaderImage = leaderMpDetails 
+                ? `https://openparliament.ca${leaderMpDetails.image}` 
+                : (leader.name === 'Avi Lewis' ? '/Avi_Lewis.jpg' : PARTY_FEEDS[activeTab]?.avatar);
+
               return (
                 <div 
                   className="mp-card"
@@ -319,9 +344,9 @@ export const Parties = () => {
                   }}
                 >
                   <img 
-                    src={leaderMpDetails ? `https://openparliament.ca${leaderMpDetails.image}` : PARTY_FEEDS[activeTab]?.avatar} 
+                    src={leaderImage} 
                     alt={leader.name} 
-                    style={{ width: '50px', height: '50px', borderRadius: '50%', border: `2px solid ${activeColor}`, objectFit: 'cover' }} 
+                    style={{ width: '50px', height: '50px', borderRadius: '50%', border: `2px solid ${activeColor}`, objectFit: 'cover', objectPosition: 'center 10%' }} 
                     onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=random` }}
                   />
                   <div style={{ flex: 1 }}>
@@ -365,7 +390,7 @@ export const Parties = () => {
                 >
                    <img 
                      src={`https://openparliament.ca${p.image}`} 
-                     style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover' }} 
+                     style={{ width: 45, height: 60, borderRadius: '5px', objectFit: 'cover', objectPosition: 'center 10%' }} 
                      onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&background=random` }} 
                    />
                    <div style={{ minWidth: 0, flex: 1, display: 'flex', flexDirection: 'column', gap: '2px' }}>
