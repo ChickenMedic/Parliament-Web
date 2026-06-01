@@ -16,24 +16,34 @@ const getPartyColor = (party: string) => {
 
 const PARTY_FEEDS: Record<string, { user: string, handle: string, avatar: string }> = {
   'Liberal': {
-    user: 'Mark Carney',
-    handle: 'MarkCarney',
-    avatar: 'https://openparliament.ca/media/polpics/mark-carney.jpg'
+    user: 'Liberal Party',
+    handle: 'liberal_party',
+    avatar: 'https://pbs.twimg.com/profile_images/1547743122115993601/J09sNn3o_400x400.png'
   },
   'Conservative': {
-    user: 'Pierre Poilievre',
-    handle: 'PierrePoilievre',
-    avatar: 'https://openparliament.ca/media/polpics/pierre-poilievre_e9wj39K.jpg'
+    user: 'Conservative Party',
+    handle: 'CPC_HQ',
+    avatar: 'https://pbs.twimg.com/profile_images/1691456910794502144/f9PqfMke_400x400.jpg'
   },
   'NDP': {
-    user: 'Avi Lewis',
-    handle: 'AviLewis',
-    avatar: 'https://ui-avatars.com/api/?name=Avi+Lewis&background=f37021&color=fff'
+    user: 'Canada\'s NDP',
+    handle: 'NDP',
+    avatar: 'https://pbs.twimg.com/profile_images/1425145783300808705/x0_X-5pY_400x400.jpg'
   },
   'Bloc Québécois': {
-    user: 'Yves-François Blanchet',
-    handle: 'yfblanchet',
-    avatar: 'https://openparliament.ca/media/polpics/yves-francois-blanchet_pf19klv.jpg'
+    user: 'Bloc Québécois',
+    handle: 'BlocQuebecois',
+    avatar: 'https://pbs.twimg.com/profile_images/1557022295624101889/5hH_Y82q_400x400.jpg'
+  },
+  'Green Party': {
+    user: 'Green Party of Canada',
+    handle: 'CanadianGreens',
+    avatar: 'https://pbs.twimg.com/profile_images/1426915152330694665/iR7pW4-I_400x400.jpg'
+  },
+  'Independent': {
+    user: 'House of Commons',
+    handle: 'OurCommons',
+    avatar: 'https://pbs.twimg.com/profile_images/1381665672153247747/hRIn_rM0_400x400.jpg'
   }
 };
 
@@ -43,27 +53,12 @@ export const Parties = () => {
   const [cabinetFilter, setCabinetFilter] = useState('');
   const politicians = politiciansData.objects as any[];
 
-  const tabs = ['Liberal', 'Conservative', 'NDP', 'Bloc Québécois'];
+  const tabs = ['Liberal', 'Conservative', 'NDP', 'Bloc Québécois', 'Green Party', 'Independent'];
 
   const [feedHandle, setFeedHandle] = useState<string | null>(PARTY_FEEDS['Liberal'].handle);
   const [feedUser, setFeedUser] = useState<string>(PARTY_FEEDS['Liberal'].user);
 
-  const selectedMPDetails = useMemo(() => {
-    if (feedUser === 'Avi Lewis') {
-      return {
-        image: PARTY_FEEDS['NDP'].avatar,
-        riding: 'N/A (Party Leader Outside House)'
-      };
-    }
-    const found = politicians.find(p => p.name === feedUser);
-    return found ? {
-      image: `https://openparliament.ca${found.image}`,
-      riding: found.current_riding.name.en
-    } : {
-      image: `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}`,
-      riding: ''
-    };
-  }, [feedUser, politicians]);
+
 
   // Sync feed with activeTab change
   useEffect(() => {
@@ -100,9 +95,15 @@ export const Parties = () => {
 
   const filteredMPs = useMemo(() => {
     return politicians.filter(p => {
-      // Normalize 'Bloc Québécois' to 'Bloc' for MP data matching
-      const targetParty = activeTab === 'Bloc Québécois' ? 'Bloc' : activeTab;
-      if (p.current_party.short_name.en !== targetParty) return false;
+      // Normalize 'Bloc Québécois' to 'Bloc' for MP data matching, similar for Green/Independents
+      const targetParty = activeTab === 'Bloc Québécois' ? 'Bloc' : 
+                          activeTab === 'Green Party' ? 'Green' : activeTab;
+      
+      if (targetParty === 'Independent') {
+        if (p.current_party.short_name.en !== 'Independent' && p.current_party.short_name.en !== 'No Affiliation') return false;
+      } else {
+        if (p.current_party.short_name.en !== targetParty) return false;
+      }
       
       const role = (rolesData as Record<string, string>)[p.name];
       if (cabinetFilter === 'Cabinet') {
@@ -180,9 +181,8 @@ export const Parties = () => {
                         gap: '16px',
                         padding: '24px'
                       }}>
-                        {/* Avatar */}
                         <img 
-                          src={selectedMPDetails.image} 
+                          src={PARTY_FEEDS[activeTab]?.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}`} 
                           alt={feedUser}
                           style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover', border: `3px solid ${activeColor}` }}
                           onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}` }}
@@ -191,11 +191,9 @@ export const Parties = () => {
                         <div>
                           <h4 style={{ margin: '0 0 4px 0', fontSize: '18px', color: 'white', fontWeight: 'bold' }}>{feedUser}</h4>
                           <div style={{ fontSize: '13px', color: activeColor, fontWeight: 'bold' }}>@{feedHandle}</div>
-                          {selectedMPDetails.riding && (
-                            <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', marginTop: '4px' }}>
-                              {selectedMPDetails.riding}
-                            </div>
-                          )}
+                          <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', marginTop: '4px' }}>
+                            Official Party Feed
+                          </div>
                         </div>
                         
                         <div style={{
@@ -321,10 +319,10 @@ export const Parties = () => {
             {/* Avi Lewis NDP Leader Special Card */}
             {activeTab === 'NDP' && cabinetFilter === '' && (
               <div 
-                className={`mp-card ${feedUser === 'Avi Lewis' ? 'selected' : ''}`}
+                className="mp-card"
                 style={{ 
                   gridColumn: '1 / -1', 
-                  background: feedUser === 'Avi Lewis' ? 'rgba(243, 112, 33, 0.15)' : 'rgba(243, 112, 33, 0.08)', 
+                  background: 'rgba(243, 112, 33, 0.08)', 
                   borderLeft: `3px solid ${activeColor}`,
                   padding: '16px', 
                   borderRadius: '10px', 
@@ -332,10 +330,6 @@ export const Parties = () => {
                   gap: '16px', 
                   alignItems: 'center',
                   marginBottom: '4px'
-                }}
-                onClick={() => {
-                  setFeedHandle(PARTY_FEEDS['NDP'].handle);
-                  setFeedUser(PARTY_FEEDS['NDP'].user);
                 }}
               >
                 <img 
@@ -346,9 +340,16 @@ export const Parties = () => {
                 <div style={{ flex: 1 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                     <h4 style={{ margin: 0, color: 'white', fontSize: '15px' }}>Avi Lewis</h4>
-                    <span style={{ fontSize: '10px', background: 'rgba(76, 175, 80, 0.15)', border: '1px solid rgba(76, 175, 80, 0.3)', color: '#81c784', padding: '2px 6px', borderRadius: '4px', fontWeight: 'bold' }}>
-                      X Active
-                    </span>
+                    <a 
+                      href="https://x.com/AviLewis" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: 'none', fontSize: '10px', background: 'rgba(29, 155, 240, 0.15)', border: '1px solid rgba(29, 155, 240, 0.3)', color: '#1d9bf0', padding: '4px 8px', borderRadius: '4px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '4px', transition: 'all 0.2s' }}
+                      onMouseEnter={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.25)')}
+                      onMouseLeave={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.15)')}
+                    >
+                      X Profile ↗
+                    </a>
                   </div>
                   <div style={{ fontSize: '12px', color: '#f37021', fontWeight: 'bold', textTransform: 'uppercase', marginTop: '2px' }}>
                     Leader of the New Democratic Party
@@ -362,17 +363,12 @@ export const Parties = () => {
 
             {filteredMPs.map(p => {
                const role = (rolesData as Record<string, string>)[p.name] || 'Member of Parliament';
-               const isSelected = p.name === feedUser;
                return (
                 <div 
                   key={p.url} 
-                  className={`mp-card ${isSelected ? 'selected' : ''}`}
+                  className="mp-card"
                   style={{ 
-                    borderLeft: isSelected ? `3px solid ${activeColor}` : '3px solid transparent'
-                  }}
-                  onClick={() => {
-                    setFeedHandle(p.twitter);
-                    setFeedUser(p.name);
+                    borderLeft: '3px solid transparent'
                   }}
                 >
                    <img 
@@ -386,11 +382,18 @@ export const Parties = () => {
                          {p.name}
                        </div>
                        {p.twitter ? (
-                         <span style={{ fontSize: '9px', background: 'rgba(76, 175, 80, 0.15)', border: '1px solid rgba(76, 175, 80, 0.3)', color: '#81c784', padding: '1px 4px', borderRadius: '4px', fontWeight: 'bold', flexShrink: 0 }}>
-                           X Active
-                         </span>
+                         <a 
+                           href={`https://x.com/${p.twitter}`} 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           style={{ textDecoration: 'none', fontSize: '9px', background: 'rgba(29, 155, 240, 0.15)', border: '1px solid rgba(29, 155, 240, 0.3)', color: '#1d9bf0', padding: '2px 6px', borderRadius: '4px', fontWeight: 'bold', flexShrink: 0, transition: 'all 0.2s', display: 'flex', alignItems: 'center', gap: '2px' }}
+                           onMouseEnter={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.25)')}
+                           onMouseLeave={(e) => (e.currentTarget.style.background = 'rgba(29, 155, 240, 0.15)')}
+                         >
+                           X Profile ↗
+                         </a>
                        ) : (
-                         <span style={{ fontSize: '9px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: 'rgba(255,255,255,0.4)', padding: '1px 4px', borderRadius: '4px', flexShrink: 0 }}>
+                         <span style={{ fontSize: '9px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: 'rgba(255,255,255,0.4)', padding: '2px 6px', borderRadius: '4px', flexShrink: 0 }}>
                            No X
                          </span>
                        )}
