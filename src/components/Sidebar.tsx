@@ -123,6 +123,10 @@ export const Sidebar = ({ selectedMP, setSelectedMP }: { selectedMP: any, setSel
       }
 
       return matchSearch && matchProvince && matchParty && matchCabinet;
+    }).sort((a, b) => {
+      const aLast = a.name.split(' ').pop() || '';
+      const bLast = b.name.split(' ').pop() || '';
+      return aLast.localeCompare(bLast);
     });
   }, [search, provinceFilter, partyFilter, cabinetFilter, politicians]);
 

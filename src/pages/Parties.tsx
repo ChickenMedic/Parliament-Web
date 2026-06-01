@@ -21,32 +21,32 @@ const PARTY_FEEDS: Record<string, { user: string, handle: string, avatar: string
   'Liberal': {
     user: 'Liberal Party',
     handle: 'liberal_party',
-    avatar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Liberal_Party_of_Canada_%282025%29.svg/512px-Liberal_Party_of_Canada_%282025%29.svg.png'
+    avatar: '/Liberals.jpg'
   },
   'Conservative': {
     user: 'Conservative Party',
     handle: 'CPC_HQ',
-    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Conservative_Party_of_Canada_logo.svg/512px-Conservative_Party_of_Canada_logo.svg.png'
+    avatar: '/Conservatives.jpg'
   },
   'NDP': {
     user: 'Canada\'s NDP',
     handle: 'NDP',
-    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/07/New_Democratic_Party_logo_%282025%29.svg/512px-New_Democratic_Party_logo_%282025%29.svg.png'
+    avatar: '/NDP.png'
   },
   'Bloc Québécois': {
     user: 'Bloc Québécois',
     handle: 'BlocQuebecois',
-    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Bloc_Qu%C3%A9b%C3%A9cois_logo.svg/512px-Bloc_Qu%C3%A9b%C3%A9cois_logo.svg.png'
+    avatar: '/Bloc.jpg'
   },
   'Green Party': {
     user: 'Green Party of Canada',
     handle: 'CanadianGreens',
-    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Green_Party_of_Canada_Logo.svg/512px-Green_Party_of_Canada_Logo.svg.png'
+    avatar: '/GreenParty.jpg'
   },
   'Independent': {
     user: 'House of Commons',
     handle: 'OurCommons',
-    avatar: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Coat_of_arms_of_Canada.svg/512px-Coat_of_arms_of_Canada.svg.png'
+    avatar: '/HouseOfCommons.jpg'
   }
 };
 
@@ -346,7 +346,7 @@ export const Parties = () => {
                   <img 
                     src={leaderImage} 
                     alt={leader.name} 
-                    style={{ width: '50px', height: '50px', borderRadius: '50%', border: `2px solid ${activeColor}`, objectFit: 'cover', objectPosition: 'center 10%' }} 
+                    style={{ width: 45, height: 60, borderRadius: '5px', border: `2px solid ${activeColor}`, objectFit: 'cover', objectPosition: 'center 10%' }} 
                     onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=random` }}
                   />
                   <div style={{ flex: 1 }}>

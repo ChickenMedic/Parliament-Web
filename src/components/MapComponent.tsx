@@ -87,6 +87,37 @@ const createTextIcon = (text: string) => {
   });
 };
 
+const MapResizer = () => {
+  const map = useMap();
+  useEffect(() => {
+    // Force centering and size recalculation on initial load
+    const initTimeout = setTimeout(() => {
+      map.invalidateSize();
+      const isMobile = window.innerWidth < 1024;
+      map.fitBounds([
+        [41.6751, -141.0], 
+        [isMobile ? 68.0 : 83.1106, -52.6]
+      ], { animate: false });
+    }, 250);
+
+    let timeout: any;
+    const onResize = () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        map.invalidateSize();
+      }, 300);
+    };
+
+    window.addEventListener('resize', onResize);
+    return () => {
+      window.removeEventListener('resize', onResize);
+      clearTimeout(initTimeout);
+      clearTimeout(timeout);
+    };
+  }, [map]);
+  return null;
+};
+
 export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, setSelectedMP: (mp: any) => void}) => {
   const bounds: LatLngBoundsExpression = [
     [10.0, -180.00], 
@@ -417,41 +448,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
     );
   };
 
-  const MapResizer = () => {
-    const map = useMap();
-    useEffect(() => {
-      // Force centering and size recalculation on initial load
-      const initTimeout = setTimeout(() => {
-        map.invalidateSize();
-        const isMobile = window.innerWidth < 1024;
-        map.fitBounds([
-          [41.6751, -141.0], 
-          [isMobile ? 68.0 : 83.1106, -52.6]
-        ], { animate: false });
-      }, 250);
 
-      let timeout: any;
-      const onResize = () => {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => {
-          map.invalidateSize();
-          const isMobile = window.innerWidth < 1024;
-          map.fitBounds([
-            [41.6751, -141.0], 
-            [isMobile ? 68.0 : 83.1106, -52.6]
-          ], { animate: false });
-        }, 300);
-      };
-
-      window.addEventListener('resize', onResize);
-      return () => {
-        window.removeEventListener('resize', onResize);
-        clearTimeout(initTimeout);
-        clearTimeout(timeout);
-      };
-    }, [map]);
-    return null;
-  };
 
   // Safe initial bounds for Canada
   const isMobileInitial = typeof window !== 'undefined' && window.innerWidth < 1024;
