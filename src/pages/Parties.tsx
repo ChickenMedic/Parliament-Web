@@ -1,7 +1,10 @@
 import { useState, useMemo, useEffect } from 'react';
 import politiciansData from '../data/politicians.json';
 import rolesData from '../data/roles.json';
+import tweetsDataRaw from '../data/tweets.json';
 import './PageStyles.css';
+
+const tweetsData = tweetsDataRaw as Record<string, any[]>;
 
 const getPartyColor = (party: string) => {
   switch (party.toLowerCase()) {
@@ -66,32 +69,7 @@ export const Parties = () => {
     setFeedUser(PARTY_FEEDS[activeTab].user);
   }, [activeTab]);
 
-  // Load and refresh Twitter widgets on feed target change
-  useEffect(() => {
-    if (!feedHandle) return;
-    
-    const scriptId = 'twitter-wjs';
-    let script = document.getElementById(scriptId) as HTMLScriptElement;
-    
-    if (!script) {
-      script = document.createElement('script');
-      script.id = scriptId;
-      script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
-      script.setAttribute('async', 'true');
-      script.setAttribute('charset', 'utf-8');
-      document.body.appendChild(script);
-    }
 
-    // Give DOM time to update
-    const timer = setTimeout(() => {
-      const twttr = (window as any).twttr;
-      if (twttr && twttr.widgets) {
-        twttr.widgets.load();
-      }
-    }, 100);
-
-    return () => clearTimeout(timer);
-  }, [feedHandle]);
 
   const filteredMPs = useMemo(() => {
     return politicians.filter(p => {
@@ -161,70 +139,58 @@ export const Parties = () => {
               
             {feedHandle ? (
               <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '12px', minHeight: 0 }}>
-                  <div style={{ flex: 1, overflowY: 'hidden', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }} key={feedHandle}>
-                    <a 
-                      className="twitter-timeline" 
-                      data-theme="dark"
-                      data-chrome="noheader nofooter noborders transparent"
-                      href={`https://twitter.com/${feedHandle}?ref_src=twsrc%5Etfw`}
-                      style={{ textDecoration: 'none', height: '100%', display: 'block' }}
-                    >
-                      <div style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        height: '100%',
-                        boxSizing: 'border-box',
-                        color: 'white',
-                        textAlign: 'center',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        gap: '16px',
-                        padding: '24px'
-                      }}>
+                <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', background: 'rgba(0,0,0,0.15)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
+                  <div style={{ padding: '8px 12px', background: 'rgba(255,255,255,0.03)', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '11px', color: 'rgba(255,255,255,0.4)', textAlign: 'left', fontWeight: 'bold' }}>
+                    ⚡ Native Cached Feed (Adblock-Resistant)
+                  </div>
+                  
+                  {tweetsData[feedHandle] && tweetsData[feedHandle].length > 0 ? (
+                    tweetsData[feedHandle].map((t: any, idx: number) => (
+                      <div key={t.id || idx} style={{ padding: '16px', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', gap: '12px', textAlign: 'left' }}>
                         <img 
                           src={PARTY_FEEDS[activeTab]?.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}`} 
-                          alt={feedUser}
-                          style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover', border: `3px solid ${activeColor}` }}
+                          alt="" 
+                          style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
                           onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}` }}
                         />
-                        
-                        <div>
-                          <h4 style={{ margin: '0 0 4px 0', fontSize: '18px', color: 'white', fontWeight: 'bold' }}>{feedUser}</h4>
-                          <div style={{ fontSize: '13px', color: activeColor, fontWeight: 'bold' }}>@{feedHandle}</div>
-                          <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', marginTop: '4px' }}>
-                            Official Party Feed
+                        <div style={{ minWidth: 0, flex: 1 }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+                            <strong style={{ color: 'white', fontSize: '13px' }}>{feedUser}</strong>
+                            <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12px' }}>@{feedHandle}</span>
+                            <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '12px' }}>·</span>
+                            <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12px' }}>
+                              {new Date(t.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                            </span>
                           </div>
+                          
+                          <p style={{ margin: '6px 0 10px 0', fontSize: '13px', color: 'rgba(255,255,255,0.9)', lineHeight: '1.45', whiteSpace: 'pre-line' }}>
+                            {t.content.split(' ').map((word: string, wIdx: number) => {
+                              if (word.startsWith('#') || word.startsWith('@') || word.startsWith('http')) {
+                                return <span key={wIdx} style={{ color: '#1d9bf0', fontWeight: 'bold' }}>{word} </span>;
+                              }
+                              return word + ' ';
+                            })}
+                          </p>
+                          
+                          {t.metrics && (
+                            <div style={{ display: 'flex', gap: '20px', color: 'rgba(255,255,255,0.4)', fontSize: '11px', marginTop: '8px' }}>
+                              <span>💬 {t.metrics.reply_count}</span>
+                              <span>🔁 {t.metrics.retweet_count}</span>
+                              <span>❤️ {t.metrics.like_count}</span>
+                              <span>📊 {t.metrics.impression_count}</span>
+                            </div>
+                          )}
                         </div>
-                        
-                        <div style={{
-                          background: 'rgba(255,255,255,0.03)',
-                          border: '1px solid rgba(255,255,255,0.06)',
-                          padding: '12px',
-                          borderRadius: '8px',
-                          fontSize: '11px',
-                          color: 'rgba(255,255,255,0.5)',
-                          lineHeight: '1.4',
-                          maxWidth: '260px'
-                        }}>
-                          ℹ️ External timeline widgets may be blocked by your browser's default tracking protection. Click below to open profile.
-                        </div>
-                        
-                        <span
-                          style={{
-                            background: activeColor,
-                            color: 'white',
-                            padding: '8px 16px',
-                            borderRadius: '6px',
-                            fontSize: '12px',
-                            fontWeight: 'bold',
-                            display: 'inline-block'
-                          }}
-                        >
-                          Open X Profile ↗
-                        </span>
                       </div>
-                    </a>
-                  </div>
+                    ))
+                  ) : (
+                    <div style={{ padding: '32px', textAlign: 'center', color: 'rgba(255,255,255,0.5)', fontSize: '13px' }}>
+                      <p>Waiting for script to fetch posts for @{feedHandle}...</p>
+                      <p style={{ fontSize: '11px', marginTop: '8px' }}>Run <code style={{ background: 'rgba(0,0,0,0.3)', padding: '2px 4px', borderRadius: '4px' }}>npm run fetch-tweets</code> to populate data.</p>
+                    </div>
+                  )}
+                </div>
+
                 <a
                   href={`https://x.com/${feedHandle}`}
                   target="_blank"
