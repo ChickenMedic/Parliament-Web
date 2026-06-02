@@ -20,6 +20,8 @@ interface Bill {
   ndp: string;
   bloc: string;
   aiBreakdown: string;
+  link?: string;
+  text_link?: string;
   comments?: BillComment[];
 }
 
@@ -29,7 +31,6 @@ const BILLS_DATA: Bill[] = billsData as Bill[];
 
 
 export const Bills = () => {
-  const [aiEngine, setAiEngine] = useState('Gemini Advanced');
   const [selectedBill, setSelectedBill] = useState<Bill | null>(null);
   
   const [search, setSearch] = useState('');
@@ -130,17 +131,16 @@ export const Bills = () => {
           </div>
           
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <span style={{ fontSize: '13px', color: 'var(--text-secondary)' }}>AI Distiller:</span>
-            <select 
-              value={aiEngine} 
-              onChange={(e) => setAiEngine(e.target.value)}
-              className="custom-select"
-              style={{ padding: '8px 12px', background: 'rgba(0,0,0,0.4)', border: '1px solid rgba(255,255,255,0.2)', color: 'white', borderRadius: '8px', cursor: 'pointer', outline: 'none', appearance: 'none' }}
-            >
-              <option>Gemini Advanced</option>
-              <option>ChatGPT 4o</option>
-              <option>Claude 3.5 Sonnet</option>
-            </select>
+            {selectedBill.text_link && (
+              <a href={selectedBill.text_link} target="_blank" rel="noopener noreferrer" style={{ padding: '8px 16px', background: 'rgba(255,255,255,0.1)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.2)' }}>
+                View Full Text
+              </a>
+            )}
+            {selectedBill.link && (
+              <a href={selectedBill.link} target="_blank" rel="noopener noreferrer" style={{ padding: '8px 16px', background: 'var(--accent-color)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold' }}>
+                LEGISinfo Page
+              </a>
+            )}
           </div>
         </div>
         
@@ -154,7 +154,7 @@ export const Bills = () => {
 
             <div style={{ background: 'rgba(255,255,255,0.03)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
               <h3 style={{ margin: '0 0 12px 0', color: 'var(--accent-color)', display: 'flex', alignItems: 'center', gap: '8px', fontSize: '16px' }}>
-                <span>✨</span> AI Analysis & Distillation ({aiEngine})
+                <span>✨</span> AI Analysis & Distillation (Gemini)
               </h3>
               <p style={{ lineHeight: '1.7', color: 'rgba(255,255,255,0.9)', fontSize: '14.5px', margin: 0 }}>
                 {selectedBill.aiBreakdown}

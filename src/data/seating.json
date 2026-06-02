@@ -14,8 +14,8 @@
   {
     "x": 769,
     "y": 27.0002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 745,
@@ -26,14 +26,14 @@
   {
     "x": 688,
     "y": 3.92896,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 769,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 712,
@@ -44,14 +44,14 @@
   {
     "x": 802,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 655,
     "y": 3.92898,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#f37021",
+    "party": "NDP"
   },
   {
     "x": 745,
@@ -62,44 +62,44 @@
   {
     "x": 883,
     "y": 119.00002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 826,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 688,
     "y": 27.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 859,
     "y": 119.00002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 769,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 631,
     "y": 4.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 802,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 712,
@@ -116,32 +116,32 @@
   {
     "x": 826,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 655,
     "y": 27.0002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#f37021",
+    "party": "NDP"
   },
   {
     "x": 769,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 688,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#3d9b35",
+    "party": "Green"
   },
   {
     "x": 802,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 712,
@@ -158,38 +158,38 @@
   {
     "x": 598,
     "y": 4.00021,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 631,
     "y": 27.0002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 769,
     "y": 119.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 655,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 688,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#f37021",
+    "party": "NDP"
   },
   {
     "x": 883,
     "y": 217.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 745,
@@ -206,38 +206,38 @@
   {
     "x": 859,
     "y": 217.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 574,
     "y": 4.00021,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 631,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 688,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#f37021",
+    "party": "NDP"
   },
   {
     "x": 598,
     "y": 27.0002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 655,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 712,
@@ -248,92 +248,92 @@
   {
     "x": 826,
     "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 802,
     "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 826,
     "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 688,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#f37021",
+    "party": "NDP"
   },
   {
     "x": 631,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 655,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 802,
     "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 573.90143,
     "y": 27.0002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 598,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 769,
     "y": 217.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 802,
     "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 655,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 631,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 541,
     "y": 4.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 769,
     "y": 240.00017,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 745,
@@ -344,14 +344,14 @@
   {
     "x": 598,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 769,
     "y": 263.00006,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 745,
@@ -362,14 +362,14 @@
   {
     "x": 573.80292,
     "y": 50.04364,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 631,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 712,
@@ -380,8 +380,8 @@
   {
     "x": 769,
     "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 745,
@@ -392,14 +392,14 @@
   {
     "x": 598,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 769.23358,
     "y": 309.46292,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#808080",
+    "party": "Independent"
   },
   {
     "x": 712,
@@ -410,8 +410,8 @@
   {
     "x": 541,
     "y": 27.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 745,
@@ -428,8 +428,8 @@
   {
     "x": 574,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 712,
@@ -446,8 +446,8 @@
   {
     "x": 517,
     "y": 4.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 688,
@@ -458,8 +458,8 @@
   {
     "x": 598,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 744.8576,
@@ -482,8 +482,8 @@
   {
     "x": 574,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 655,
@@ -494,8 +494,8 @@
   {
     "x": 541,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 712,
@@ -524,8 +524,8 @@
   {
     "x": 574,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 688,
@@ -548,8 +548,8 @@
   {
     "x": 517,
     "y": 27.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 655,
@@ -560,8 +560,8 @@
   {
     "x": 541,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 688,
@@ -596,14 +596,14 @@
   {
     "x": 541,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 517,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 655,
@@ -644,8 +644,8 @@
   {
     "x": 541,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 630.97247,
@@ -656,8 +656,8 @@
   {
     "x": 517,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 598,
@@ -674,8 +674,8 @@
   {
     "x": 484,
     "y": 4.0002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 598,
@@ -692,8 +692,8 @@
   {
     "x": 517,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 598,
@@ -716,8 +716,8 @@
   {
     "x": 517,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 574,
@@ -728,8 +728,8 @@
   {
     "x": 484,
     "y": 27.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 574,
@@ -758,8 +758,8 @@
   {
     "x": 484,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 541,
@@ -782,8 +782,8 @@
   {
     "x": 484,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 517,
@@ -806,8 +806,8 @@
   {
     "x": 484,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 517,
@@ -824,8 +824,8 @@
   {
     "x": 484,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 517,
@@ -842,14 +842,14 @@
   {
     "x": 460,
     "y": 4.0002,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 460,
     "y": 27.00018,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 484,
@@ -866,8 +866,8 @@
   {
     "x": 460,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 484,
@@ -890,8 +890,8 @@
   {
     "x": 460,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 484,
@@ -902,14 +902,14 @@
   {
     "x": 460,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 460,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 460,
@@ -986,14 +986,14 @@
   {
     "x": 427,
     "y": 119.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 427,
     "y": 96.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 403,
@@ -1004,8 +1004,8 @@
   {
     "x": 427,
     "y": 73.00008,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 403,
@@ -1028,8 +1028,8 @@
   {
     "x": 427,
     "y": 50.00007,
-    "color": "#d71920",
-    "party": "Liberal"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 403,
@@ -1046,194 +1046,194 @@
   {
     "x": 427,
     "y": 27.0002,
-    "color": "#f37021",
-    "party": "NDP"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 427,
-    "y": 4.00021,
-    "color": "#f37021",
-    "party": "NDP"
-  },
-  {
-    "x": 370,
-    "y": 332.00015,
-    "color": "#f37021",
-    "party": "NDP"
-  },
-  {
-    "x": 370,
-    "y": 309.00015,
-    "color": "#f37021",
-    "party": "NDP"
-  },
-  {
-    "x": 403,
-    "y": 119.00008,
-    "color": "#f37021",
-    "party": "NDP"
-  },
-  {
-    "x": 370,
-    "y": 286.00015,
-    "color": "#3d9b35",
-    "party": "Green Party"
-  },
-  {
-    "x": 370,
-    "y": 263.00015,
-    "color": "#808080",
-    "party": "Independent"
-  },
-  {
-    "x": 403,
-    "y": 96.00008,
-    "color": "#808080",
-    "party": "Independent"
-  },
-  {
-    "x": 370,
-    "y": 240.00027,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 370,
-    "y": 217.00029,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 403,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 403,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 240.00027,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 217.00029,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 403,
-    "y": 27.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 370,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 289,
-    "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 289,
-    "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 370,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 240.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 289,
-    "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 403,
     "y": 4.00021,
     "color": "#1a4782",
     "party": "Conservative"
   },
   {
+    "x": 370,
+    "y": 332.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 370,
+    "y": 309.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 403,
+    "y": 119.00008,
+    "color": "#1a4782",
+    "party": "Conservative"
+  },
+  {
+    "x": 370,
+    "y": 286.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 370,
+    "y": 263.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 403,
+    "y": 96.00008,
+    "color": "#1a4782",
+    "party": "Conservative"
+  },
+  {
+    "x": 370,
+    "y": 240.00027,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 346,
+    "y": 332.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 370,
+    "y": 217.00029,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 403,
+    "y": 73.00008,
+    "color": "#1a4782",
+    "party": "Conservative"
+  },
+  {
+    "x": 346,
+    "y": 309.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 346,
+    "y": 286.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 346,
+    "y": 263.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 403,
+    "y": 50.00007,
+    "color": "#1a4782",
+    "party": "Conservative"
+  },
+  {
+    "x": 346,
+    "y": 240.00027,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
     "x": 313,
-    "y": 217.00026,
+    "y": 332.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 346,
+    "y": 217.00029,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 313,
+    "y": 309.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 403,
+    "y": 27.0002,
+    "color": "#1a4782",
+    "party": "Conservative"
+  },
+  {
+    "x": 313,
+    "y": 286.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 370,
+    "y": 119.00008,
     "color": "#1a4782",
     "party": "Conservative"
   },
   {
     "x": 289,
+    "y": 332.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 313,
     "y": 263.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 289,
+    "y": 309.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 370,
+    "y": 96.00008,
     "color": "#1a4782",
     "party": "Conservative"
+  },
+  {
+    "x": 313,
+    "y": 240.00026,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 289,
+    "y": 286.00015,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 403,
+    "y": 4.00021,
+    "color": "#1a4782",
+    "party": "Conservative"
+  },
+  {
+    "x": 313,
+    "y": 217.00026,
+    "color": "#d71920",
+    "party": "Liberal"
+  },
+  {
+    "x": 289,
+    "y": 263.00015,
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 370,
@@ -1244,8 +1244,8 @@
   {
     "x": 256,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 346,
@@ -1256,32 +1256,32 @@
   {
     "x": 289,
     "y": 240.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 256,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 256,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 289,
     "y": 217.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 232,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 370,
@@ -1298,32 +1298,32 @@
   {
     "x": 232,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 256,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 232,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 256,
     "y": 240.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 199,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 346,
@@ -1334,8 +1334,8 @@
   {
     "x": 232,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 370,
@@ -1346,14 +1346,14 @@
   {
     "x": 256,
     "y": 217.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 199,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 313,
@@ -1364,26 +1364,26 @@
   {
     "x": 175,
     "y": 332.00006,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 232,
     "y": 240.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 199,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 175,
     "y": 309.00006,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 346,
@@ -1394,8 +1394,8 @@
   {
     "x": 232,
     "y": 217.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 313,
@@ -1406,20 +1406,20 @@
   {
     "x": 199,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 175,
     "y": 286.00006,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 142,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 289,
@@ -1430,8 +1430,8 @@
   {
     "x": 199,
     "y": 240.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 370,
@@ -1442,20 +1442,20 @@
   {
     "x": 142,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 175,
     "y": 263.00006,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 118,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 313,
@@ -1466,14 +1466,14 @@
   {
     "x": 199,
     "y": 217.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 142,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 346,
@@ -1484,14 +1484,14 @@
   {
     "x": 175,
     "y": 240.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 118,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 289,
@@ -1502,26 +1502,26 @@
   {
     "x": 85,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 142,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 118,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 175,
     "y": 217.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 256,
@@ -1532,8 +1532,8 @@
   {
     "x": 85,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 313,
@@ -1544,20 +1544,20 @@
   {
     "x": 61,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 141.91214,
     "y": 240.05026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 118,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 289,
@@ -1568,32 +1568,32 @@
   {
     "x": 85,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 61,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 142,
     "y": 217.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 118,
     "y": 240.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 28,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 346,
@@ -1616,32 +1616,32 @@
   {
     "x": 85,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 61,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 28,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 4,
     "y": 332.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 118,
     "y": 217.00026,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 289,
@@ -1658,26 +1658,26 @@
   {
     "x": 61,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 85,
     "y": 240.00023,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 4,
     "y": 309.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 28,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 232,
@@ -1700,44 +1700,44 @@
   {
     "x": 61,
     "y": 240.00023,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 85,
     "y": 217.00023,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 4,
     "y": 286.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 28,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 61,
     "y": 217.00023,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 4,
     "y": 263.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 28,
     "y": 240.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 175,
@@ -1778,8 +1778,8 @@
   {
     "x": 4,
     "y": 240.00017,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "color": "#d71920",
+    "party": "Liberal"
   },
   {
     "x": 175,
@@ -1934,145 +1934,145 @@
   {
     "x": 175,
     "y": 27.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 118,
     "y": 50.00007,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 61,
     "y": 73.00015,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 4,
     "y": 96.00009,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 199,
     "y": 4.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 142,
     "y": 27.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 85.07574,
     "y": 49.84893,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 28,
     "y": 73.00009,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 4,
     "y": 73.00009,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 61.07574,
     "y": 49.84901,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 118,
     "y": 27.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 175,
     "y": 4.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 28.07573,
     "y": 49.84895,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 85,
     "y": 27.00015,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 4.07574,
     "y": 49.84895,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 142,
     "y": 4.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 61.07574,
     "y": 27.26795,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 118,
     "y": 4.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 28.07573,
     "y": 27.26789,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 4,
     "y": 27.00015,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 85,
     "y": 4.00015,
-    "color": "#33b2cc",
-    "party": "Bloc Qu&#xE9;b&#xE9;cois"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 61,
     "y": 4.00015,
-    "color": "#808080",
-    "party": "Independent"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 28,
     "y": 4.0002,
-    "color": "#808080",
-    "party": "Independent"
+    "color": "#1a4782",
+    "party": "Conservative"
   },
   {
     "x": 4,
     "y": 4.00017,
-    "color": "#808080",
-    "party": "Independent"
+    "color": "#1a4782",
+    "party": "Conservative"
   }
 ]

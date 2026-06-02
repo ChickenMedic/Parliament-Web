@@ -1,0 +1,39 @@
+== PARLIAMENT SEATING MAP ==
+Edit the letters inside the brackets to reassign parties.
+L=Liberal, C=Conservative, N=NDP, B=Bloc, G=Green, I=Independent
+Format: [L] represents 1 seat. Row 1 starts at the top (near Speaker).
+Do not alter the brackets or line structure.
+
+Row 01:   [L] [L] [L] [L] [L]                       |  [C] [C] [C] [C] [C]
+Row 02:   [L] [L] [L] [L] [L]                       |  [C] [C] [C] [C] [C]
+Row 03:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 04:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 05:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 06:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 07:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 08:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 09:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 10:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 11:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 12:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 13:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 14:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 15:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 16:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 17:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 18:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 19:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 20:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 21:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 22:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 23:   [L] [L] [L] [L] [L] [L]                   |  [C] [C] [C] [C] [C] [C]
+Row 24:   [L] [L] [L] [L] [L] [L] [L]               |  [C] [C] [C] [C] [N] [N]
+Row 25:   [L] [L] [L] [L] [L] [L] [L]               |  [N] [N] [N] [G] [I] [I]
+Row 26:   [L] [L] [L] [L] [L] [L]                   |  [L] [L] [L] [L] [L] [L]
+Row 27:   [L] [L]                                   |  
+Row 28:   [L] [L] [L] [L]                           |  [L] [L] [L] [L] [L] [L]
+Row 29:   [I] [I] [I] [I] [I]                       |  [I] [I] [I] [I] [I]
+Row 30:   [I] [I] [I]                               |  [I] [I] [I]
+Row 31:   [I] [I]                                   |  [I] [I]
+Row 32:   [I]                                       |  [I]
+Row 33:   [I]                                       |  [I]

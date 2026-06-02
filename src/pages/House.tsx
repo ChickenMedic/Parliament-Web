@@ -43,7 +43,7 @@ export const House = () => {
               <h3 style={{ margin: 0, fontSize: '18px', color: 'white', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '12px' }}>Member Profile</h3>
               
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
-                <img src={`https://openparliament.ca${selectedMP.image}`} alt={selectedMP.name} style={{ width: '120px', height: '120px', borderRadius: '16px', objectFit: 'cover', objectPosition: 'center top', border: `3px solid ${getPartyColor(selectedMP.current_party.short_name.en)}`, boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }} onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(selectedMP.name)}`} />
+                <img src={`https://openparliament.ca${selectedMP.image}`} alt={selectedMP.name} style={{ width: '120px', height: '160px', borderRadius: '16px', objectFit: 'cover', objectPosition: 'center top', border: `3px solid ${getPartyColor(selectedMP.current_party.short_name.en)}`, boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }} onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(selectedMP.name)}`} />
                 <div style={{ textAlign: 'center' }}>
                   <div style={{ fontWeight: 'bold', fontSize: '20px', color: 'white' }}>{selectedMP.name}</div>
                   <div style={{ fontSize: '14px', color: getPartyColor(selectedMP.current_party.short_name.en), fontWeight: 'bold', marginTop: '4px' }}>{selectedMP.current_party.short_name.en}</div>
@@ -64,19 +64,33 @@ export const House = () => {
               </div>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <div style={{ fontSize: '11px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '4px' }}>Contact</div>
-                <div style={{ fontSize: '13px', color: 'var(--accent-color)', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ color: 'var(--text-secondary)', width: '40px' }}>Email:</span> {selectedMP.email || 'N/A'}
-                </div>
-                <div style={{ fontSize: '13px', color: 'var(--accent-color)', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ color: 'var(--text-secondary)', width: '40px' }}>Phone:</span> {selectedMP.voice || 'N/A'}
-                </div>
-                <div style={{ fontSize: '13px', color: 'var(--accent-color)', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span style={{ color: 'var(--text-secondary)', width: '40px' }}>X:</span> {selectedMP.twitter ? `@${selectedMP.twitter}` : 'N/A'}
-                </div>
-              </div>
+                <a 
+                  href={`mailto:${selectedMP.email}`}
+                  style={{ width: '100%', boxSizing: 'border-box', textAlign: 'center', padding: '12px', background: '#eab308', color: 'black', textDecoration: 'none', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}
+                >
+                  Email MP
+                </a>
+                
+                {selectedMP.voice && (
+                  <a 
+                    href={`tel:${selectedMP.voice.split(' ')[0]}`}
+                    style={{ width: '100%', boxSizing: 'border-box', textAlign: 'center', padding: '12px', background: '#3b82f6', color: 'white', textDecoration: 'none', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}
+                  >
+                    📞 {selectedMP.voice}
+                  </a>
+                )}
 
-              <button style={{ width: '100%', marginTop: '8px', padding: '12px', background: 'var(--accent-color)', color: 'white', border: 'none', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}>View Full Profile</button>
+                {selectedMP.twitter && (
+                  <a 
+                    href={`https://x.com/${selectedMP.twitter}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ width: '100%', boxSizing: 'border-box', textAlign: 'center', padding: '12px', background: '#000000', color: 'white', textDecoration: 'none', border: '1px solid #333', borderRadius: '8px', cursor: 'pointer', fontWeight: 'bold' }}
+                  >
+                    X @{selectedMP.twitter}
+                  </a>
+                )}
+              </div>
             </div>
           )}
         </div>

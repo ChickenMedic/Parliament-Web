@@ -8,6 +8,7 @@ import { Bills } from './pages/Bills';
 import { Committees } from './pages/Committees';
 import { Parties } from './pages/Parties';
 import { Scandals } from './pages/Scandals';
+import { PrimeMinister } from './pages/PrimeMinister';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/bills" element={<Bills />} />
           <Route path="/committees" element={<Committees />} />
           <Route path="/scandals" element={<Scandals />} />
+          <Route path="/pm" element={<PrimeMinister />} />
         </Routes>
       </div>
     </Router>
