@@ -9,6 +9,7 @@ import { Committees } from './pages/Committees';
 import { Parties } from './pages/Parties';
 import { Scandals } from './pages/Scandals';
 import { PrimeMinister } from './pages/PrimeMinister';
+import { OppositionLeader } from './pages/OppositionLeader';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/committees" element={<Committees />} />
           <Route path="/scandals" element={<Scandals />} />
           <Route path="/pm" element={<PrimeMinister />} />
+          <Route path="/opposition-leader" element={<OppositionLeader />} />
         </Routes>
       </div>
     </Router>

@@ -26,6 +26,10 @@ export const Navigation: React.FC = () => {
           <Users size={20} />
           <span>Prime Minister</span>
         </NavLink>
+        <NavLink to="/opposition-leader" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+          <Users size={20} />
+          <span>Opposition Leader</span>
+        </NavLink>
         <NavLink to="/house" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
           <Users size={20} />
           <span>House of Commons</span>

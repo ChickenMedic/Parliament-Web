@@ -12,8 +12,18 @@ xml_data = req.read()
 root = ET.fromstring(xml_data)
 
 bills = []
-for bill in root.findall('Bill')[:50]: # limit to top 50
+count = 0
+for bill in root.findall('Bill'):
     b_id = bill.find('BillNumberFormatted').text if bill.find('BillNumberFormatted') is not None else "Unknown"
+    
+    # We only want House of Commons bills (C-) and perhaps a few Senate (S-) for flavor
+    if not b_id.startswith('C-') and not b_id.startswith('S-'):
+        continue
+
+    # Let's heavily bias towards C- bills
+    if b_id.startswith('S-') and count > 10:
+        continue
+
     title_el = bill.find('LongTitleEn')
     title = title_el.text if title_el is not None else ""
     
@@ -25,10 +35,9 @@ for bill in root.findall('Bill')[:50]: # limit to top 50
         
     status_el = bill.find('LatestCompletedMajorStageName')
     status = status_el.text if status_el is not None else "In Progress"
-    if "Royal Assent" in status:
+    if "Royal Assent" in status or status == "Passed":
         status = "Passed (Royal Assent)"
         
-    # Calculate an importance score for sorting (e.g. Government bills C-1 to C-200 are usually important)
     is_gov = False
     importance = 0
     if b_id.startswith('C-') or b_id.startswith('S-'):
@@ -37,8 +46,12 @@ for bill in root.findall('Bill')[:50]: # limit to top 50
             num = int(num_part)
             if b_id.startswith('C-') and num < 200:
                 is_gov = True
-                importance = 100 - num # lower number = more important
+                importance = 200 - num # lower number = more important
     
+    # Increase importance for Passed bills so we see them
+    if status == "Passed (Royal Assent)":
+        importance += 100
+
     parl_num = bill.find('ParliamentNumber').text
     sess_num = bill.find('SessionNumber').text
     link = f"https://www.parl.ca/legisinfo/en/bill/{parl_num}-{sess_num}/{b_id.lower().replace('-', '')}"
@@ -52,7 +65,7 @@ for bill in root.findall('Bill')[:50]: # limit to top 50
     bills.append({
         "id": b_id,
         "title": actual_title,
-        "desc": title, # Use long title as desc
+        "desc": title,
         "status": status,
         "category": "Social" if not is_gov else "Government",
         "lib": "N/A",
@@ -64,8 +77,11 @@ for bill in root.findall('Bill')[:50]: # limit to top 50
         "text_link": text_link,
         "importance": importance
     })
+    
+    count += 1
+    if count >= 80: # Load up to 80 bills
+        break
 
-# Sort by importance descending
 bills.sort(key=lambda x: x['importance'], reverse=True)
 
 with open(r'g:\8-wall-project\Parliament-Website\src\data\bills.json', 'w', encoding='utf-8') as f:

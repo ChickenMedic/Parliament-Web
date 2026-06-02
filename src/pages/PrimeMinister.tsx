@@ -11,7 +11,7 @@ export const PrimeMinister = () => {
           <img 
             src="/Mark_Carney.jpg" 
             alt="Prime Minister Mark Carney" 
-            style={{ width: '160px', height: '160px', borderRadius: '50%', objectFit: 'cover', border: '4px solid #d71920', marginBottom: '16px', boxShadow: '0 8px 24px rgba(215, 25, 32, 0.4)' }} 
+            style={{ width: '120px', height: '160px', borderRadius: '12px', objectFit: 'cover', border: '4px solid #d71920', marginBottom: '16px', boxShadow: '0 8px 24px rgba(215, 25, 32, 0.4)' }} 
             onError={(e) => (e.target as any).src = "https://ui-avatars.com/api/?name=Mark+Carney"}
           />
           <h1 style={{ margin: '0 0 8px 0', fontSize: '28px', color: 'white' }}>The Right Honourable Mark Carney</h1>

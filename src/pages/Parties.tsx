@@ -318,7 +318,7 @@ export const Parties = () => {
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '16px', overflowY: 'auto', paddingRight: '8px', alignContent: 'start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '16px', overflowY: 'auto', paddingRight: '8px', alignContent: 'start' }}>
             {/* Generic Leader Special Card */}
             {PARTY_LEADERS[activeTab] && (() => {
               const leader = PARTY_LEADERS[activeTab];
@@ -393,11 +393,11 @@ export const Parties = () => {
                      style={{ width: 45, height: 60, borderRadius: '5px', objectFit: 'cover', objectPosition: 'center 10%' }} 
                      onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&background=random` }} 
                    />
-                   <div style={{ minWidth: 0, flex: 1, display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                     <div style={{ display: 'flex', justifyContent: 'space-between', gap: '8px', alignItems: 'center' }}>
-                       <div style={{ fontWeight: 'bold', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', color: 'white', flex: 1 }}>
-                         {p.name}
-                       </div>
+                     <div style={{ minWidth: 0, flex: 1, display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                       <div style={{ display: 'flex', justifyContent: 'space-between', gap: '8px', alignItems: 'flex-start' }}>
+                         <div style={{ fontWeight: 'bold', color: 'white', flex: 1, lineHeight: '1.2' }}>
+                           {p.name}
+                         </div>
                        {p.twitter ? (
                          <a 
                            href={`https://x.com/${p.twitter}`} 
@@ -415,10 +415,10 @@ export const Parties = () => {
                          </span>
                        )}
                      </div>
-                     <div style={{ fontSize: '12px', color: 'var(--text-secondary)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                     <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
                        {p.current_riding.name.en}
                      </div>
-                     <div style={{ fontSize: '11px', color: activeColor, fontWeight: '500', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                     <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', lineHeight: '1.3' }}>
                        {role}
                      </div>
                    </div>
