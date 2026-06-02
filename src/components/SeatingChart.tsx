@@ -151,36 +151,50 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
             </div>
 
             {/* Row Number Annotations on Benches margins */}
-            {[...Array(32)].map((_, rIdx) => {
-              const y = 80 + rIdx * 27; // 27px spacing per row
-              return (
+            {[
+              { label: 'R1', y: 4 + 10 + 50 },
+              { label: 'R2', y: 61 + 10 + 50 },
+              { label: 'R3', y: 118 + 10 + 50 },
+              { label: 'R4', y: 175 + 10 + 50 },
+              { label: 'R5', y: 232 + 10 + 50 },
+              { label: 'R6', y: 289 + 10 + 50 },
+              { label: 'R7', y: 346 + 10 + 50 },
+              { label: 'R8', y: 403 + 10 + 50 },
+              { label: 'R9', y: 460 + 10 + 50 },
+              { label: 'R10', y: 517 + 10 + 50 },
+              { label: 'R11', y: 574 + 10 + 50 },
+              { label: 'R12', y: 631 + 10 + 50 },
+              { label: 'R13', y: 688 + 10 + 50 },
+              { label: 'R14', y: 745 + 10 + 50 },
+              { label: 'R15', y: 802 + 10 + 50 },
+              { label: 'R16', y: 859 + 10 + 50 },
+            ].map((row, rIdx) => (
               <div key={rIdx} style={{ pointerEvents: 'none' }}>
                 {/* Left Side Row Label */}
                 <div style={{
                   position: 'absolute',
-                  left: '0px',
-                  top: y - 2,
+                  left: '-24px',
+                  top: row.y - 8,
                   fontSize: '9px',
                   fontWeight: 'bold',
                   color: 'rgba(255,255,255,0.35)',
                   width: '20px',
                   textAlign: 'right'
-                }}>R{rIdx + 1}</div>
+                }}>{row.label}</div>
                 
                 {/* Right Side Row Label */}
                 <div style={{
                   position: 'absolute',
-                  right: '0px',
-                  top: y - 2,
+                  right: '-24px',
+                  top: row.y - 8,
                   fontSize: '9px',
                   fontWeight: 'bold',
                   color: 'rgba(255,255,255,0.35)',
                   width: '20px',
                   textAlign: 'left'
-                }}>R{rIdx + 1}</div>
+                }}>{row.label}</div>
               </div>
-              );
-            })}
+            ))}
 
             <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
             
@@ -230,27 +244,19 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                   
                   const fill = seat.mp ? getPartyColor(seat.mp.current_party.short_name.en) : '#444';
                   
-                  // Calculate strictly from grid coordinates
-                  // 12 columns, 6 on left, 6 on right with center aisle
-                  const seatWidth = 22;
-                  const seatHeight = 22;
-                  const rowHeight = 27;
-                  const aisleWidth = 40;
-                  const startX = 30; // padding from left numbers
-                  const startY = 80;
-
-                  const posX = startX + seat.x * seatWidth + (seat.x >= 6 ? aisleWidth : 0);
-                  const posY = startY + seat.y * rowHeight;
+                  // Apply 90-degree mathematical rotation natively to coords
+                  const rotatedX = 356 - seat.y - 20;
+                  const rotatedY = seat.x + 50;
 
                   return (
                     <div
                       key={seat.id}
                       style={{
                         position: 'absolute',
-                        left: posX,
-                        top: posY,
-                        width: `${seatWidth - 4}px`,
-                        height: `${seatHeight - 4}px`,
+                        left: rotatedX,
+                        top: rotatedY,
+                        width: '20px',
+                        height: '21px',
                         backgroundColor: fill,
                         borderRadius: '4px',
                         opacity: opacity,
@@ -274,30 +280,17 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                 </div>
 
         {/* HTML Hover Tooltip Overlay */}
-        {hoveredSeat !== null && (hoveredSeat === 'SPEAKER' ? speakerMP : seatsWithMPs[hoveredSeat as number]?.mp) && (() => {
+        {hoveredSeat !== null && (() => {
           const isSpeaker = hoveredSeat === 'SPEAKER';
+          const seatData = isSpeaker ? null : seatingData[hoveredSeat as number];
           const mp = isSpeaker ? speakerMP : seatsWithMPs[hoveredSeat as number]?.mp;
-          if (!mp) return null;
+          // If neither MP nor a valid seat (though seat should always exist if hoveredSeat is number), return null
+          if (!isSpeaker && !seatData) return null;
           
-          let left = 0;
-          let top = 0;
-          
-          if (isSpeaker) {
-            left = 356 / 2;
-            top = 50;
-          } else {
-            const seat = seatingData[hoveredSeat as number];
-            const seatWidth = 22;
-            const rowHeight = 27;
-            const aisleWidth = 40;
-            const startX = 30;
-            const startY = 80;
-            
-            left = startX + seat.x * seatWidth + (seat.x >= 6 ? aisleWidth : 0) + 10;
-            top = startY + seat.y * rowHeight - 10;
-          }
-          
-          const transform = top < 150 ? 'translate(-50%, 20px)' : 'translate(-50%, -100%)';
+          const seatY = isSpeaker ? 0 : seatingData[hoveredSeat as number].x;
+          const left = isSpeaker ? (356 / 2) : (356 - seatingData[hoveredSeat as number].y - 20) + 10;
+          const top = isSpeaker ? 50 : seatY + 50 - 10;
+          const transform = (seatY + 50) < 150 ? 'translate(-50%, 20px)' : 'translate(-50%, -100%)';
 
           return (
             <div style={{
@@ -315,20 +308,32 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
               boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
               minWidth: '200px'
             }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
-                <img 
-                  src={`https://openparliament.ca${mp.image}`} 
-                  alt="" 
-                  style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(mp.current_party.short_name.en)}` }} 
-                  onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}`} 
-                />
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                  <div style={{ fontWeight: 'bold', color: 'white' }}>{mp.name}</div>
-                  <div style={{ fontSize: '12px', color: getPartyColor(mp.current_party.short_name.en), fontWeight: 'bold' }}>{mp.current_party.short_name.en}</div>
-                </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
+                {mp ? (
+                  <>
+                    <img 
+                      src={`https://openparliament.ca${mp.image}`} 
+                      alt="" 
+                      style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(mp.current_party.short_name.en)}` }} 
+                      onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}`} 
+                    />
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                      <div style={{ fontWeight: 'bold', color: 'white' }}>{mp.name}</div>
+                      <div style={{ fontSize: '12px', color: getPartyColor(mp.current_party.short_name.en), fontWeight: 'bold' }}>{mp.current_party.short_name.en}</div>
+                    </div>
+                  </>
+                ) : (
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                    <div style={{ fontWeight: 'bold', color: 'white' }}>Empty Seat</div>
+                    <div style={{ fontSize: '12px', color: '#888' }}>Unassigned</div>
+                  </div>
+                )}
               </div>
-              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '6px', textAlign: 'left' }}>
-                {mp.current_riding.name.en}
+              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '6px', textAlign: 'left', display: 'flex', justifyContent: 'space-between' }}>
+                <span>{mp ? mp.current_riding.name.en : 'No Riding'}</span>
+                <span style={{ fontWeight: 'bold', color: 'var(--accent-color)', background: 'rgba(255,255,255,0.1)', padding: '2px 6px', borderRadius: '4px' }}>
+                  {isSpeaker ? 'Speaker' : `Seat ID: ${hoveredSeat}`}
+                </span>
               </div>
             </div>
           );

@@ -22,6 +22,14 @@ export const Navigation: React.FC = () => {
           <LayoutDashboard size={20} />
           <span>Overview Map</span>
         </NavLink>
+        <NavLink to="/house" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+          <Users size={20} />
+          <span>House of Commons</span>
+        </NavLink>
+        <NavLink to="/parties" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+          <Users size={20} />
+          <span>Parties</span>
+        </NavLink>
         <NavLink to="/pm" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
           <Users size={20} />
           <span>Prime Minister</span>
@@ -30,18 +38,6 @@ export const Navigation: React.FC = () => {
           <Users size={20} />
           <span>Opposition Leader</span>
         </NavLink>
-        <NavLink to="/house" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Users size={20} />
-          <span>House of Commons</span>
-        </NavLink>
-        <NavLink to="/bills" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <FileText size={20} />
-          <span>Bills</span>
-        </NavLink>
-        <NavLink to="/parties" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Users size={20} />
-          <span>Parties</span>
-        </NavLink>
         <NavLink to="/committees" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
           <Users size={20} />
           <span>Committees</span>
@@ -49,6 +45,10 @@ export const Navigation: React.FC = () => {
         <NavLink to="/scandals" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
           <AlertTriangle size={20} />
           <span>Scandals</span>
+        </NavLink>
+        <NavLink to="/bills" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+          <FileText size={20} />
+          <span>Bills</span>
         </NavLink>
       </div>
     </nav>
