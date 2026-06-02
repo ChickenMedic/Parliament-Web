@@ -261,7 +261,7 @@ export const Sidebar = ({ selectedMP, setSelectedMP }: { selectedMP: any, setSel
                     const target = e.target as HTMLImageElement;
                     target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&background=random`;
                   }}
-                  style={{ position: 'relative', zIndex: 1, borderColor: isSelected ? 'white' : 'transparent', objectPosition: 'center top' }}
+                  style={{ position: 'relative', zIndex: 1, borderColor: isSelected ? 'white' : 'transparent', objectFit: 'cover', objectPosition: 'center top', width: '60px', height: '110px', borderRadius: '5px' }}
                 />
                 
                 <div className="politician-info" style={{ position: 'relative', zIndex: 1, flex: 1, textShadow: isSelected ? '0 1px 3px rgba(0,0,0,0.8)' : 'none', padding: '0', display: 'flex', flexDirection: 'column', gap: '4px', minWidth: 0 }}>
@@ -274,7 +274,7 @@ export const Sidebar = ({ selectedMP, setSelectedMP }: { selectedMP: any, setSel
                     </div>
                   )}
 
-                  <div className="politician-contact" style={{ display: 'flex', gap: '12px', marginTop: '2px', alignItems: 'center' }}>
+                  <div className="politician-contact" style={{ display: 'flex', gap: '12px', marginTop: '2px', alignItems: 'center', pointerEvents: 'auto', position: 'relative', zIndex: 10 }}>
                     {p.twitter && (
                       <a href={`https://x.com/${p.twitter}`} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()} style={{ color: isSelected ? 'white' : 'var(--text-secondary)', display: 'flex', alignItems: 'center', transition: 'color 0.2s' }} title="X (Twitter)" onMouseOver={(e) => e.currentTarget.style.color = 'var(--accent-color)'} onMouseOut={(e) => e.currentTarget.style.color = isSelected ? 'white' : 'var(--text-secondary)'}>
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>

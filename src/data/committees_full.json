@@ -1,0 +1,500 @@
+[
+  {
+    "id": "Home",
+    "name": "List of Committees and Overview",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Home",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "Meetings",
+    "name": "Meetings",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Meetings",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "Work",
+    "name": "Studies, Activities and Reports",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Work",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "Participate",
+    "name": "Participate",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "Participate#attend",
+    "name": "Attend Meetings",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate#attend",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "Participate#participate",
+    "name": "Current Consultations",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate#participate",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "Participate",
+    "name": "How to Submit a Brief and Appear",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "ContactUs",
+    "name": "Contact a Committee",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/ContactUs",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "AMAD",
+    "name": "AMAD\nMedical Assistance in Dying",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/AMAD",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "BCAN",
+    "name": "BCAN\nExercise of Powers Under the Building Canada Act",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/BCAN",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "BILI",
+    "name": "BILI\nLibrary of Parliament",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/BILI",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "REGS",
+    "name": "REGS\nScrutiny of Regulations",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/REGS",
+    "desc": "Committee details and mandate information not yet fully processed.",
+    "chairName": "TBD",
+    "viceChairs": [],
+    "members": [],
+    "studies": [],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "FINA",
+    "name": "FINA Committee",
+    "url": "",
+    "desc": "Mandated to study and report on all matters relating to the mandate, management and operation of the Department of Finance and the Canada Revenue Agency.",
+    "chairName": "Peter Fonseca",
+    "viceChairs": [
+      "Jasraj Hallan",
+      "Gabriel Ste-Marie"
+    ],
+    "members": [
+      "Terry Beech",
+      "Yvan Baker",
+      "Adam Chambers",
+      "Kelly McCauley",
+      "Dan Mazier",
+      "Heather McPherson",
+      "Sukh Dhaliwal"
+    ],
+    "studies": [
+      {
+        "title": "Pre-budget Consultations 2026",
+        "topic": "Reviewing public submissions, municipal requests...",
+        "meetingDate": "June 4, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "HESA",
+    "name": "HESA Committee",
+    "url": "",
+    "desc": "Oversees the work of Health Canada, Public Health Agency of Canada, and CIHR to study issues related to healthcare systems and health regulations.",
+    "chairName": "Sean Casey",
+    "viceChairs": [
+      "Stephen Ellis",
+      "Don Davies"
+    ],
+    "members": [
+      "Mark Holland",
+      "Todd Doherty",
+      "Stephen Fuhr",
+      "Hedy Fry",
+      "Rob Morrison",
+      "Jenna Sudds",
+      "Leah Gazan"
+    ],
+    "studies": [
+      {
+        "title": "Evaluation of the National Pharmacare Rollout",
+        "topic": "Assessing pharmaceutical coverage benchmarks...",
+        "meetingDate": "June 5, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "NDP": 1,
+      "Bloc": 1
+    }
+  },
+  {
+    "id": "FAAE",
+    "name": "FAAE Committee",
+    "url": "",
+    "desc": "Studies bills, spending, and policies of Global Affairs Canada and monitors international development assistance programs.",
+    "chairName": "Ali Ehsassi",
+    "viceChairs": [
+      "Michael Chong",
+      "Simon-Pierre Savard-Tremblay"
+    ],
+    "members": [
+      "M\u00e9lanie Joly",
+      "Garnett Genuis",
+      "Taleeb Noormohamed",
+      "Wayne Long",
+      "John Barlow",
+      "Ziad Aboultaif",
+      "Heather McPherson"
+    ],
+    "studies": [
+      {
+        "title": "Canada's Indo-Pacific Strategy Implementation",
+        "topic": "Assessing trade expansion incentives...",
+        "meetingDate": "June 8, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "NDDN",
+    "name": "NDDN Committee",
+    "url": "",
+    "desc": "Focuses on the Department of National Defence and the Canadian Armed Forces, reviewing operations, defense policy, and military equipment.",
+    "chairName": "John McKay",
+    "viceChairs": [
+      "James Bezan",
+      "Christine Normandin"
+    ],
+    "members": [
+      "Bill Blair",
+      "Alex Ruff",
+      "Pat Kelly",
+      "Terry Duguid",
+      "Serge Cormier",
+      "Marie-France Lalonde",
+      "Lindsay Mathyssen"
+    ],
+    "studies": [
+      {
+        "title": "Military Recruitment and Retention Strategies",
+        "topic": "Addressing service member culture complaints...",
+        "meetingDate": "June 9, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "PACP",
+    "name": "PACP Committee",
+    "url": "",
+    "desc": "The House oversight committee, chaired by an Opposition member, that reviews the reports of the Auditor General of Canada to ensure government accountability.",
+    "chairName": "John Williamson",
+    "viceChairs": [
+      "Jean-Yves Duclos",
+      "Nathalie Sinclair-Desgagn\u00e9"
+    ],
+    "members": [
+      "Kelly Block",
+      "Blake Richards",
+      "Kody Blois",
+      "Peter Fragiskatos",
+      "Sonia Sidhu",
+      "Brad Vis",
+      "Jenny Kwan"
+    ],
+    "studies": [
+      {
+        "title": "Review of the Auditor General's Report on the ArriveCAN App",
+        "topic": "Investigating third-party subcontractor fees...",
+        "meetingDate": "June 3, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Conservative": 5,
+      "Liberal": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "ENVI",
+    "name": "ENVI Committee",
+    "url": "",
+    "desc": "Mandated to study and report on matters relating to the environment, sustainable development, climate change, and environmental enforcement.",
+    "chairName": "Sophie Chatel",
+    "viceChairs": [
+      "G\u00e9rard Deltell",
+      "Don Davies"
+    ],
+    "members": [
+      "Steven Guilbeault",
+      "Patrick Weiler",
+      "Francis Scarpaleggia",
+      "Patrick Bonin",
+      "Gord Johns",
+      "Leah Gazan",
+      "Marilyn Gladu"
+    ],
+    "studies": [
+      {
+        "title": "Evaluating the Federal Carbon Pricing Mechanism",
+        "topic": "Analyzing industrial emission outputs...",
+        "meetingDate": "June 4, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "JUST",
+    "name": "JUST Committee",
+    "url": "",
+    "desc": "Mandated to oversee the Department of Justice, federal courts, criminal law, and human rights issues.",
+    "chairName": "Lena Metlege Diab",
+    "viceChairs": [
+      "Frank Caputo",
+      "Luc Th\u00e9riault"
+    ],
+    "members": [
+      "Sameer Zuberi",
+      "Anju Dhillon",
+      "Michael Cooper",
+      "Jenny Kwan",
+      "Lori Idlout",
+      "Chris Bittle",
+      "Dan Albas"
+    ],
+    "studies": [
+      {
+        "title": "Review of Sentencing and Bail Reform Legislation",
+        "topic": "Assessing violent crime recidivism statistics...",
+        "meetingDate": "June 5, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "RNNR",
+    "name": "RNNR Committee",
+    "url": "",
+    "desc": "Mandated to study and report on matters relating to the mandate, management, and operation of the Department of Natural Resources.",
+    "chairName": "Kody Blois",
+    "viceChairs": [
+      "Shannon Stubbs",
+      "Mario Simard"
+    ],
+    "members": [
+      "Terry Beech",
+      "Greg McLean",
+      "Peter Fonseca",
+      "Viviane Lapointe",
+      "Heather McPherson",
+      "Alex Ruff",
+      "Mona Fortier"
+    ],
+    "studies": [
+      {
+        "title": "Transitioning to Clean Energy Infrastructure",
+        "topic": "Evaluating federal grid connection incentives...",
+        "meetingDate": "June 8, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Liberal": 5,
+      "Conservative": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  },
+  {
+    "id": "ETHI",
+    "name": "ETHI Committee",
+    "url": "",
+    "desc": "Reviews access to information, privacy commissioner reports, and conflict of interest issues involving public office holders.",
+    "chairName": "Pat Kelly",
+    "viceChairs": [
+      "Mona Fortier",
+      "Alexis Brunelle-Duceppe"
+    ],
+    "members": [
+      "Michael Barrett",
+      "Iqra Khalid",
+      "Gord Johns",
+      "Yasir Naqvi",
+      "Tom Kmiec",
+      "Serge Cormier",
+      "John Williamson"
+    ],
+    "studies": [
+      {
+        "title": "Investigation into Federal Government Contracting and Conflict of Interest Guidelines",
+        "topic": "Auditing procurement relationships...",
+        "meetingDate": "June 3, 2026",
+        "youtubeUrl": ""
+      }
+    ],
+    "partySeats": {
+      "Conservative": 5,
+      "Liberal": 4,
+      "Bloc": 1,
+      "NDP": 1
+    }
+  }
+]

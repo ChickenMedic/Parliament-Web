@@ -23,104 +23,10 @@ interface Bill {
   comments?: BillComment[];
 }
 
-const BILLS_DATA: Bill[] = [
-  {
-    id: 'C-11',
-    title: 'Online Streaming Act',
-    desc: 'Amends the Broadcasting Act to bring global online streaming platforms (like Netflix, YouTube, Spotify) under the regulatory oversight of the CRTC, requiring them to contribute to Canadian cultural content.',
-    status: 'Passed (Royal Assent)',
-    category: 'Social',
-    lib: 'Strongly Support: Levels the playing field for domestic broadcasters, funds Canadian artists, and protects local culture.',
-    con: 'Strongly Oppose: Heavy-handed internet regulation that risks censorship, hurts user-generated creators, and limits consumer choice.',
-    ndp: 'Support with Amendments: Backed the bill after securing changes to protect small, independent digital creators from CRTC red tape.',
-    bloc: 'Strongly Support: Essential to protect French-language programming and cultural sovereignty in Quebec against global tech giants.',
-    aiBreakdown: 'Bill C-11 modernizes Canada\'s broadcasting regime by extending CRTC oversight to commercial streaming platforms. Key consequences include mandatory funding contributions for Canadian programming and content discoverability algorithms. Critics focus on potential overreach on user-generated content, while proponents emphasize cultural preservation.'
-  },
-  {
-    id: 'C-21',
-    title: 'Firearms Act Amendment',
-    desc: 'Introduces a national freeze on handguns, targets gun smuggling at the border, creates a "red flag" law to remove firearms from domestic abuse situations, and bans certain semi-automatic firearms.',
-    status: 'Passed (Royal Assent)',
-    category: 'Safety',
-    lib: 'Strongly Support: Urgent and necessary action to address gun violence in urban centers and keep military-style firearms off streets.',
-    con: 'Strongly Oppose: Penalizes law-abiding sports shooters and hunters while failing to address gang smuggling across the US border.',
-    ndp: 'Support with Caution: Voted in favor after obtaining amendments protecting Indigenous hunting rights and traditional practices.',
-    bloc: 'Support: Backs tighter gun controls, but criticized federal communication gaps during the classification amendment process.',
-    aiBreakdown: 'Bill C-21 imposes a freeze on the import, sale, and transfer of handguns alongside expanding wiretapping and border controls to stop illegal smuggling. Major debates revolve around whether the definition of restricted firearms unfairly includes common hunting rifles used by rural and Indigenous communities.'
-  },
-  {
-    id: 'C-58',
-    title: 'Anti-Scab Workers Act',
-    desc: 'Prohibits federally regulated employers (such as telecommunications, air transport, and banking) from hiring replacement workers (scabs) during strikes or lockouts.',
-    status: 'In Progress',
-    category: 'Labor',
-    lib: 'Support: Protects the integrity of collective bargaining and fosters constructive relations between employers and unionized workers.',
-    con: 'Oppose with Caution: Warns it could extend strike durations, lead to service disruptions for critical infrastructure, and increase inflation.',
-    ndp: 'Strongly Support: A historic victory for labor rights and a key pillar of the NDP\'s legislative demands to support working families.',
-    bloc: 'Strongly Support: Aligns federal law with similar anti-scab legislation that has successfully governed Quebec labor relations for decades.',
-    aiBreakdown: 'Bill C-58 bans replacement workers in federal sectors during disputes, carrying heavy fines for violations. Expected impact is a shift in negotiation leverage toward unions, though business groups argue it may disrupt services like rail transport and supply chains.'
-  },
-  {
-    id: 'C-63',
-    title: 'Online Harms Act',
-    desc: 'Creates a Digital Safety Commission to regulate social media platforms, forcing them to minimize exposure to hate speech, cyberbullying, child exploitation, and non-consensual sharing of intimate images.',
-    status: 'In Progress',
-    category: 'Safety',
-    lib: 'Strongly Support: Vital legislation to protect children from online predators, tackle digital hate, and hold big tech companies accountable.',
-    con: 'Strongly Oppose: Threatens free expression, introduces draconian speech penalties, and creates a massive, unaccountable bureaucracy.',
-    ndp: 'Support in Principle: Agrees with safeguarding kids, but raising flags over privacy rights and potential overreach of digital takedown mandates.',
-    bloc: 'Support with Amendments: Agrees with target areas, but insists that the bill must respect Quebec\'s jurisdictional control over education and civil law.',
-    aiBreakdown: 'Bill C-63 establishes a regulatory framework for social media platforms with strict safety duties. The controversy centers on amendments to the Criminal Code that introduce steep life-imprisonment penalties for advocating genocide and pre-emptive peace bonds for hate speech concerns.'
-  },
-  {
-    id: 'C-69',
-    title: 'Budget Implementation Act 2024',
-    desc: 'Enacts the federal budget measures, including an increase to the capital gains tax inclusion rate, major funding allocations for affordable housing, and national school food programs.',
-    status: 'Passed',
-    category: 'Finance',
-    lib: 'Support: Raises revenue from the wealthiest individuals to invest in housing, healthcare, and cost-of-living relief for Gen Z and Millennials.',
-    con: 'Strongly Oppose: Inflationary spending that drives interest rates higher, paired with a job-killing tax hike that stifles business investment.',
-    ndp: 'Support: Voted to pass in exchange for the inclusion of dental care expansions, school food funding, and tenant protection measures.',
-    bloc: 'Oppose: Rejects the bill due to federal interference in provincial jurisdictions (e.g., direct housing funding to Quebec municipalities).',
-    aiBreakdown: 'Bill C-69 implements Budget 2024. Most controversially, it raises the capital gains tax inclusion rate from 50% to 66% for individuals on gains over $250k. It also launches the Canadian Renters\' Bill of Rights and a federal school food program.'
-  },
-  {
-    id: 'C-50',
-    title: 'Canadian Sustainable Jobs Act',
-    desc: 'Establishes an advisory body and administrative framework to help energy sector workers transition to clean energy, net-zero emissions, and sustainable employment.',
-    status: 'Passed (Royal Assent)',
-    category: 'Environment',
-    lib: 'Support: Ensures workers are not left behind in the global clean energy transition, opening up thousands of high-paying jobs.',
-    con: 'Strongly Oppose: A central-planning framework designed to phase out Canada\'s world-class oil and gas sector, putting thousands out of work.',
-    ndp: 'Support with Amendments: Successfully secured strong requirements for trade union representation on the advisory council and labor standards.',
-    bloc: 'Support in Principle: Backs the shift to clean energy but demands that Quebec retain full sovereignty over training funds and economic planning.',
-    aiBreakdown: 'Bill C-50 creates a Sustainable Jobs Partnership Council and requires a 5-year action plan for worker retraining. It aims to buffer workers in oil-producing regions (AB, SK) as global markets shift, though critics call it a disguised "Just Transition" targeting resources.'
-  },
-  {
-    id: 'C-35',
-    title: 'Early Learning and Child Care Act',
-    desc: 'Formally enshrines the federal commitment to long-term funding for the national $10-a-day child care system, aiming to guarantee access and fair wages.',
-    status: 'Passed (Royal Assent)',
-    category: 'Social',
-    lib: 'Strongly Support: Enshrines a transformative program that saves families thousands of dollars annually and boosts women\'s workforce participation.',
-    con: 'Support with Caveats: Voted in favor but criticized the lack of support for private daycares and home-based operators, warning of long waiting lists.',
-    ndp: 'Strongly Support: A major progressive milestone that guarantees child care worker wage grids and ensures child care is treated as a public good.',
-    bloc: 'Support: Voted in favor as the bill includes full financial compensation for Quebec, respecting its pre-existing, successful child care system.',
-    aiBreakdown: 'Bill C-35 legislates the long-term federal funding structure for the $10-a-day childcare agreements signed with all provinces. It prioritizes funding for public and non-profit childcare centers, which opponents argue limits parents\' flexibility.'
-  },
-  {
-    id: 'C-233',
-    title: 'Keira\'s Law (Domestic Violence Training)',
-    desc: 'Requires judges to undergo training on domestic violence, coercive control, and sexual assault law before presiding over family court custody cases.',
-    status: 'Passed (Royal Assent)',
-    category: 'Safety',
-    lib: 'Strongly Support: Vital modernization of judicial training to protect children and prevent family court system failures.',
-    con: 'Strongly Support: Co-sponsored and championed as a common-sense measure to safeguard vulnerable children from abusers.',
-    ndp: 'Strongly Support: Critical protection that listens to survivors and addresses systemic bias against victims in the family law system.',
-    bloc: 'Strongly Support: Bipartisan consensus to protect children and prevent custody tragedies, respecting provincial court operations.',
-    aiBreakdown: 'Bill C-233 amends the Judges Act to ensure judicial education includes courses on the dynamics of domestic violence and coercive control. The bill was named in memory of Keira Kagan, who died during a court-ordered visitation with her father.'
-  }
-];
+import billsData from '../data/bills.json';
+
+const BILLS_DATA: Bill[] = billsData as Bill[];
+
 
 export const Bills = () => {
   const [aiEngine, setAiEngine] = useState('Gemini Advanced');

@@ -68,7 +68,7 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
     });
   }, []);
 
-  const [hoveredSeat, setHoveredSeat] = useState<number | null>(null);
+  const [hoveredSeat, setHoveredSeat] = useState<number | string | null>(null);
   const speakerMP = politiciansData.objects.find((p: any) => p.name === 'Francis Scarpaleggia');
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -205,6 +205,8 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                 onClick={() => setSelectedMP(speakerMP)}
                 onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
                 onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+                onMouseEnter={() => setHoveredSeat('SPEAKER')}
+                onMouseLeave={() => setHoveredSeat(null)}
               >
                 <div style={{ width: '20px', height: '20px', background: selectedMP?.url === speakerMP?.url ? '#fff' : '#ffd700', borderRadius: '4px', border: '1px solid #fff', boxShadow: selectedMP?.url === speakerMP?.url ? '0 0 15px #fff' : '0 0 10px rgba(255, 215, 0, 0.4)', marginBottom: '4px' }}></div>
                 <strong style={{ fontSize: '11px', opacity: 0.8, color: 'white' }}>Speaker</strong>
@@ -278,39 +280,50 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                 </div>
 
         {/* HTML Hover Tooltip Overlay */}
-        {hoveredSeat !== null && seatsWithMPs[hoveredSeat]?.mp && (
-          <div style={{
-            position: 'absolute',
-            left: (356 - seatingData[hoveredSeat].y - 20) + 10, // rotatedX + 10
-            top: seatingData[hoveredSeat].x + 50 - 10,               // rotatedY - 10
-            transform: 'translate(-50%, -100%)',
-            background: 'rgba(20,25,35,0.95)',
-            backdropFilter: 'blur(10px)',
-            border: '1px solid rgba(255,255,255,0.2)',
-            padding: '12px',
-            borderRadius: '8px',
-            pointerEvents: 'none',
-            zIndex: 1000,
-            boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
-            minWidth: '200px'
-          }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
-              <img 
-                src={`https://openparliament.ca${seatsWithMPs[hoveredSeat].mp.image}`} 
-                alt="" 
-                style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(seatsWithMPs[hoveredSeat].mp.current_party.short_name.en)}` }} 
-                onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(seatsWithMPs[hoveredSeat].mp.name)}`} 
-              />
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                <div style={{ fontWeight: 'bold', color: 'white' }}>{seatsWithMPs[hoveredSeat].mp.name}</div>
-                <div style={{ fontSize: '12px', color: getPartyColor(seatsWithMPs[hoveredSeat].mp.current_party.short_name.en), fontWeight: 'bold' }}>{seatsWithMPs[hoveredSeat].mp.current_party.short_name.en}</div>
+        {hoveredSeat !== null && (hoveredSeat === 'SPEAKER' ? speakerMP : seatsWithMPs[hoveredSeat as number]?.mp) && (() => {
+          const isSpeaker = hoveredSeat === 'SPEAKER';
+          const mp = isSpeaker ? speakerMP : seatsWithMPs[hoveredSeat as number]?.mp;
+          if (!mp) return null;
+          
+          const seatY = isSpeaker ? 0 : seatingData[hoveredSeat as number].x;
+          const left = isSpeaker ? (356 / 2) : (356 - seatingData[hoveredSeat as number].y - 20) + 10;
+          const top = isSpeaker ? 50 : seatY + 50 - 10;
+          const transform = (seatY + 50) < 150 ? 'translate(-50%, 20px)' : 'translate(-50%, -100%)';
+
+          return (
+            <div style={{
+              position: 'absolute',
+              left,
+              top,
+              transform,
+              background: 'rgba(20,25,35,0.95)',
+              backdropFilter: 'blur(10px)',
+              border: '1px solid rgba(255,255,255,0.2)',
+              padding: '12px',
+              borderRadius: '8px',
+              pointerEvents: 'none',
+              zIndex: 1000,
+              boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
+              minWidth: '200px'
+            }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
+                <img 
+                  src={`https://openparliament.ca${mp.image}`} 
+                  alt="" 
+                  style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(mp.current_party.short_name.en)}` }} 
+                  onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}`} 
+                />
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                  <div style={{ fontWeight: 'bold', color: 'white' }}>{mp.name}</div>
+                  <div style={{ fontSize: '12px', color: getPartyColor(mp.current_party.short_name.en), fontWeight: 'bold' }}>{mp.current_party.short_name.en}</div>
+                </div>
+              </div>
+              <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '6px', textAlign: 'left' }}>
+                {mp.current_riding.name.en}
               </div>
             </div>
-            <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.7)', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '6px', textAlign: 'left' }}>
-              {seatsWithMPs[hoveredSeat].mp.current_riding.name.en}
-            </div>
-          </div>
-        )}
+          );
+        })()}
         </div>
       </div>
     </div>

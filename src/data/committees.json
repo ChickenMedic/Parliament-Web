@@ -1,0 +1,62 @@
+[
+  {
+    "name": "List of Committees and Overview",
+    "abbr": "Home",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Home"
+  },
+  {
+    "name": "Meetings",
+    "abbr": "Meetings",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Meetings"
+  },
+  {
+    "name": "Studies, Activities and Reports",
+    "abbr": "Work",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Work"
+  },
+  {
+    "name": "Participate",
+    "abbr": "Participate",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate"
+  },
+  {
+    "name": "Attend Meetings",
+    "abbr": "Participate#attend",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate#attend"
+  },
+  {
+    "name": "Current Consultations",
+    "abbr": "Participate#participate",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate#participate"
+  },
+  {
+    "name": "How to Submit a Brief and Appear",
+    "abbr": "Participate",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate"
+  },
+  {
+    "name": "Contact a Committee",
+    "abbr": "ContactUs",
+    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/ContactUs"
+  },
+  {
+    "name": "AMAD\nMedical Assistance in Dying",
+    "abbr": "AMAD",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/AMAD"
+  },
+  {
+    "name": "BCAN\nExercise of Powers Under the Building Canada Act",
+    "abbr": "BCAN",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/BCAN"
+  },
+  {
+    "name": "BILI\nLibrary of Parliament",
+    "abbr": "BILI",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/BILI"
+  },
+  {
+    "name": "REGS\nScrutiny of Regulations",
+    "abbr": "REGS",
+    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/REGS"
+  }
+]
