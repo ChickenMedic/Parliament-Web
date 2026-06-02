@@ -318,7 +318,7 @@ export const Parties = () => {
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '16px', overflowY: 'auto', paddingRight: '8px', alignContent: 'start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', overflowY: 'auto', paddingRight: '8px', alignContent: 'start' }}>
             {/* Generic Leader Special Card */}
             {PARTY_LEADERS[activeTab] && (() => {
               const leader = PARTY_LEADERS[activeTab];
