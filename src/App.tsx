@@ -5,6 +5,7 @@ import { Navigation } from './components/Navigation';
 import { Dashboard } from './pages/Dashboard';
 import { House } from './pages/House';
 import { Bills } from './pages/Bills';
+import { BillsIndex } from './pages/BillsIndex';
 import { Committees } from './pages/Committees';
 import { Parties } from './pages/Parties';
 import { Scandals } from './pages/Scandals';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/house" element={<House />} />
           <Route path="/parties" element={<Parties />} />
           <Route path="/bills" element={<Bills />} />
+          <Route path="/bills-debug" element={<BillsIndex />} />
           <Route path="/committees" element={<Committees />} />
           <Route path="/scandals" element={<Scandals />} />
           <Route path="/pm" element={<PrimeMinister />} />

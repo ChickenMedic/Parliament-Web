@@ -1,0 +1,16 @@
+{
+  "members": [
+    {
+      "name": "Mark Carney",
+      "travel": 12000,
+      "office": 45000,
+      "staff": 150000
+    },
+    {
+      "name": "Francis Scarpaleggia",
+      "travel": 8000,
+      "office": 30000,
+      "staff": 140000
+    }
+  ]
+}

@@ -2,8 +2,16 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import json
 import ssl
+import os
+import time
 
 ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+
+bills_text_dir = r'g:\8-wall-project\Parliament-Website\src\data\bills_text'
+os.makedirs(bills_text_dir, exist_ok=True)
+
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
@@ -44,7 +52,7 @@ for bill in root.findall('Bill'):
         num_part = b_id.split('-')[1]
         if num_part.isdigit():
             num = int(num_part)
-            if b_id.startswith('C-') and num < 200:
+            if num < 200:
                 is_gov = True
                 importance = 200 - num # lower number = more important
     
@@ -61,6 +69,26 @@ for bill in root.findall('Bill'):
     sponsor = sponsor_el.text if sponsor_el is not None else "Unknown"
     
     ai_breakdown = f"Bill {b_id} ({actual_title}) was introduced by {sponsor}. The current status is: {status}. Read the full text or summary using the links."
+
+    bill_type = "Government" if is_gov else "Private"
+    xml_fetched = False
+    
+    # Try versions 4 down to 1
+    for version in [4, 3, 2, 1]:
+        xml_text_link = f"https://www.parl.ca/Content/Bills/{parl_num}{sess_num}/{bill_type}/{b_id}/{b_id}_{version}/{b_id}_E.xml"
+        try:
+            xml_req = urllib.request.Request(xml_text_link, headers={'User-Agent': 'Mozilla/5.0'})
+            xml_bill_data = urllib.request.urlopen(xml_req, context=ctx).read()
+            bill_path = os.path.join(bills_text_dir, f"{b_id.upper()}.xml")
+            with open(bill_path, 'wb') as f:
+                f.write(xml_bill_data)
+            xml_fetched = True
+            break
+        except Exception as e:
+            time.sleep(0.1)
+            
+    if not xml_fetched:
+        print(f"Failed to fetch XML for {b_id} on all versions")
 
     bills.append({
         "id": b_id,
@@ -79,7 +107,9 @@ for bill in root.findall('Bill'):
     })
     
     count += 1
-    if count >= 80: # Load up to 80 bills
+    # We remove the break completely to fetch all bills, but for safety in this script let's just let it run.
+    # To avoid taking 2 hours, we will cap at 200.
+    if count >= 200:
         break
 
 bills.sort(key=lambda x: x['importance'], reverse=True)

@@ -1,7 +1,10 @@
 import './PageStyles.css';
-
+import politiciansData from '../data/politicians.json';
 
 export const PrimeMinister = () => {
+  const pmData = politiciansData.objects.find((p: any) => p.name === 'Mark Carney');
+  const pmImage = pmData ? `https://openparliament.ca${pmData.image}` : "https://ui-avatars.com/api/?name=Mark+Carney";
+
   return (
     <div className="page-container glass-panel" style={{ display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
       
@@ -9,7 +12,7 @@ export const PrimeMinister = () => {
         {/* Header Profile Section */}
         <div style={{ flex: '1', minWidth: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', background: 'rgba(255,255,255,0.02)', padding: '32px', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.1)', textAlign: 'center' }}>
           <img 
-            src="/Mark_Carney.jpg" 
+            src={pmImage} 
             alt="Prime Minister Mark Carney" 
             style={{ width: '120px', height: '160px', borderRadius: '12px', objectFit: 'cover', border: '4px solid #d71920', marginBottom: '16px', boxShadow: '0 8px 24px rgba(215, 25, 32, 0.4)' }} 
             onError={(e) => (e.target as any).src = "https://ui-avatars.com/api/?name=Mark+Carney"}

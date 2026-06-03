@@ -28,7 +28,7 @@
 }
 
 .logo-text.accent {
-  color: var(--accent-color);
+  color: #FF0000; /* Canada flag red */
 }
 
 .nav-links {

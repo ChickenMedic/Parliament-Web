@@ -50,6 +50,14 @@ export const Navigation: React.FC = () => {
           <FileText size={20} />
           <span>Bills</span>
         </NavLink>
+        
+        {/* Debug Links */}
+        <div style={{ marginTop: 'auto', paddingTop: '32px' }}>
+          <NavLink to="/bills-debug" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} style={{ opacity: 0.5, fontSize: '12px' }}>
+            <FileText size={14} />
+            <span>XML Index (Debug)</span>
+          </NavLink>
+        </div>
       </div>
     </nav>
   );
