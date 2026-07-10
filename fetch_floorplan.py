@@ -19,6 +19,7 @@ draws him as its own marker.
 import html
 import json
 import re
+import unicodedata
 import urllib.request
 
 URL = 'https://www.ourcommons.ca/members/en/floorplan'
@@ -93,22 +94,46 @@ def coordinates(row, col):
     return CHAIR_START + col * CHAIR_PITCH, y
 
 
-def build_alias_map(names, roster):
-    """ourcommons spells out middle names ("David J. McGuinty"); openparliament doesn't."""
+"""ourcommons and openparliament disagree about a handful of names in ways no rule
+catches: nicknames, a married surname, a hyphenation. Each surname below is unique
+in the roster, so the mapping is unambiguous. Maps ourcommons -> openparliament."""
+ALIASES = {
+    'Shuvaloy Majumdar': 'Shuv Majumdar',
+    'Michelle Rempel Garner': 'Michelle Rempel',
+    'Robert Oliphant': 'Rob Oliphant',
+    'Robert Morrissey': 'Bobby Morrissey',
+    'Jessica Fancy': 'Jessica Fancy-Landry',
+}
+
+
+def normalize(name):
+    """Fold accents, case, and middle initials: the two sources differ on all three."""
+    decomposed = unicodedata.normalize('NFKD', name)
+    stripped = ''.join(c for c in decomposed if not unicodedata.combining(c))
+    return ' '.join(stripped.lower().replace('.', ' ').split())
+
+
+def build_resolver(roster):
+    """-> f(ourcommons name) -> openparliament name, or None."""
+    exact = {normalize(r): r for r in roster}
     by_ends = {}
     for r in roster:
-        parts = r.split()
+        parts = normalize(r).split()
         by_ends.setdefault((parts[0], parts[-1]), []).append(r)
 
-    aliases = {}
-    for name in names:
+    def resolve(name):
         if name in roster:
-            continue
-        parts = name.split()
+            return name
+        if name in ALIASES:
+            return ALIASES[name]
+        key = normalize(name)
+        if key in exact:
+            return exact[key]
+        parts = key.split()
         candidates = by_ends.get((parts[0], parts[-1]), [])
-        if len(candidates) == 1:
-            aliases[name] = candidates[0]
-    return aliases
+        return candidates[0] if len(candidates) == 1 else None
+
+    return resolve
 
 
 def main():
@@ -120,14 +145,15 @@ def main():
 
     occupied = [(r, c, cell) for r, row in enumerate(grid)
                 for c, cell in enumerate(row) if cell]
-    aliases = build_alias_map([c['name'] for _, _, c in occupied], roster)
+    resolve = build_resolver(roster)
 
     seats = []
     unmatched = []
     for row, col, cell in occupied:
-        name = aliases.get(cell['name'], cell['name'])
-        if name not in roster:
+        name = resolve(cell['name'])
+        if name is None:
             unmatched.append(cell['name'])
+            name = cell['name']
         party, colour = PARTY_BY_COLOUR.get(cell['colour'], INDEPENDENT)
         x, y = coordinates(row, col)
         seats.append({

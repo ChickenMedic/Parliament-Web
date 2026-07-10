@@ -17,7 +17,7 @@
       "image": "/media/polpics/ziad-aboultaif_3dcSavL.jpg",
       "voice": "613-992-0946",
       "email": "ziad.aboultaif@parl.gc.ca",
-      "twitter": "mpziad"
+      "twitter": "ziad_aboultaif"
     },
     {
       "name": "Burton Bailey",
@@ -112,7 +112,7 @@
       "image": "/media/polpics/michael-cooper_hEG4Qm0.jpg",
       "voice": "613-996-4722",
       "email": "michael.cooper@parl.gc.ca",
-      "twitter": "MichaelCooperMP"
+      "twitter": "Cooper4SAE"
     },
     {
       "name": "Kerry Diotte",
@@ -153,7 +153,7 @@
       "twitter": "GarnettGenuis"
     },
     {
-      "name": "Amanpreet Gill",
+      "name": "Amanpreet S. Gill",
       "url": "/politicians/amanpreet-gill/",
       "current_party": {
         "short_name": {
@@ -169,7 +169,7 @@
       "image": "/media/polpics/amanpreet-gill.jpg",
       "voice": "613-995-3477",
       "email": "amanpreetsingh.gill@parl.gc.ca",
-      "twitter": "AmanpreetSGill"
+      "twitter": null
     },
     {
       "name": "Dalwinder Gill",
@@ -210,7 +210,7 @@
       "twitter": "LailaGoodridge"
     },
     {
-      "name": "Jasraj Hallan",
+      "name": "Jasraj Singh Hallan",
       "url": "/politicians/jasraj-singh-hallan/",
       "current_party": {
         "short_name": {
@@ -225,8 +225,8 @@
       },
       "image": "/media/polpics/jasraj-singh-hallan_oHJa6Xn.jpg",
       "voice": "613-947-4566",
-      "email": "JasrajSingh.Hallan@parl.gc.ca",
-      "twitter": "jasrajshallan"
+      "email": "Jasraj.Hallan@parl.gc.ca",
+      "twitter": null
     },
     {
       "name": "Corey Hogan",
@@ -381,7 +381,7 @@
       "twitter": "Jagsharan_Mahal"
     },
     {
-      "name": "Shuvaloy Majumdar",
+      "name": "Shuv Majumdar",
       "url": "/politicians/shuv-majumdar/",
       "current_party": {
         "short_name": {
@@ -552,7 +552,7 @@
       "twitter": "PierrePoilievre"
     },
     {
-      "name": "Michelle Rempel Garner",
+      "name": "Michelle Rempel",
       "url": "/politicians/michelle-rempel/",
       "current_party": {
         "short_name": {
@@ -1483,25 +1483,6 @@
       "twitter": "PatrickBWeiler"
     },
     {
-      "name": "Jonathan Wilkinson",
-      "url": "/politicians/jonathan-wilkinson/",
-      "current_party": {
-        "short_name": {
-          "en": "Liberal"
-        }
-      },
-      "current_riding": {
-        "province": "BC",
-        "name": {
-          "en": "North Vancouver—Capilano"
-        }
-      },
-      "image": "/media/polpics/jonathan-wilkinson_tnVEKwg.jpg",
-      "voice": "613-995-1225",
-      "email": "jonathan.wilkinson@parl.gc.ca",
-      "twitter": "JonathanWNV"
-    },
-    {
       "name": "Bob Zimmer",
       "url": "/politicians/bob-zimmer/",
       "current_party": {
@@ -1898,7 +1879,7 @@
       "image": "/media/polpics/wayne-long_DERDGZn.jpg",
       "voice": "613-947-2700",
       "email": "wayne.long@parl.gc.ca",
-      "twitter": null
+      "twitter": "WayneLongSJ"
     },
     {
       "name": "Rob Moore",
@@ -2205,7 +2186,7 @@
       "twitter": "LenaMetlegeDiab"
     },
     {
-      "name": "Jessica Fancy",
+      "name": "Jessica Fancy-Landry",
       "url": "/politicians/jessica-fancy-landry/",
       "current_party": {
         "short_name": {
@@ -2604,7 +2585,7 @@
       "twitter": "DolyBegum"
     },
     {
-      "name": "Jim Bélanger",
+      "name": "Jim Belanger",
       "url": "/politicians/jim-belanger/",
       "current_party": {
         "short_name": {
@@ -2620,7 +2601,7 @@
       "image": "/media/polpics/jim-belanger.jpg",
       "voice": "613-995-9107",
       "email": "jim.belanger@parl.gc.ca",
-      "twitter": "MPJimBelanger"
+      "twitter": null
     },
     {
       "name": "Chris Bittle",
@@ -3095,7 +3076,7 @@
       "image": "/media/polpics/nathaniel-erskine-smith_qQzFybM.jpg",
       "voice": "613-992-2115",
       "email": "nathaniel.erskine-smith@parl.gc.ca",
-      "twitter": "NateForOntario"
+      "twitter": "beynate"
     },
     {
       "name": "Bruce Fanjoy",
@@ -3250,25 +3231,6 @@
       "twitter": "MarkGerretsen"
     },
     {
-      "name": "Harb Gill",
-      "url": "/politicians/harb-gill/",
-      "current_party": {
-        "short_name": {
-          "en": "Conservative"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Windsor West"
-        }
-      },
-      "image": "/media/polpics/harb-gill.jpg",
-      "voice": "613-996-1541",
-      "email": "harb.gill@parl.gc.ca",
-      "twitter": "HarbGill"
-    },
-    {
       "name": "Amarjeet Gill",
       "url": "/politicians/amarjeet-gill/",
       "current_party": {
@@ -3286,6 +3248,25 @@
       "voice": "613-992-0778",
       "email": "amarjeet.gill@parl.gc.ca",
       "twitter": "AmarjeetGill"
+    },
+    {
+      "name": "Harb Gill",
+      "url": "/politicians/harb-gill/",
+      "current_party": {
+        "short_name": {
+          "en": "Conservative"
+        }
+      },
+      "current_riding": {
+        "province": "ON",
+        "name": {
+          "en": "Windsor West"
+        }
+      },
+      "image": "/media/polpics/harb-gill.jpg",
+      "voice": "613-996-1541",
+      "email": "harb.gill@parl.gc.ca",
+      "twitter": "HarbGill"
     },
     {
       "name": "Marilyn Gladu",
@@ -3668,7 +3649,7 @@
       "twitter": "MelissaLantsman"
     },
     {
-      "name": "Viviane Lapointe",
+      "name": "Viviane LaPointe",
       "url": "/politicians/viviane-lapointe/",
       "current_party": {
         "short_name": {
@@ -3684,7 +3665,7 @@
       "image": "/media/polpics/viviane-lapointe_o9tfeLb.jpg",
       "voice": "613-996-8962",
       "email": "viviane.lapointe@parl.gc.ca",
-      "twitter": "VivianeLapointe"
+      "twitter": null
     },
     {
       "name": "Philip Lawrence",
@@ -3725,25 +3706,6 @@
       "twitter": "AndrewLawton"
     },
     {
-      "name": "Chris Lewis",
-      "url": "/politicians/chris-lewis/",
-      "current_party": {
-        "short_name": {
-          "en": "Conservative"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Essex"
-        }
-      },
-      "image": "/media/polpics/chris-lewis_GFtokmf.jpg",
-      "voice": "613-992-1812",
-      "email": "Chris.Lewis@parl.gc.ca",
-      "twitter": "ChrisLewisEssex"
-    },
-    {
       "name": "Leslyn Lewis",
       "url": "/politicians/leslyn-lewis/",
       "current_party": {
@@ -3761,6 +3723,25 @@
       "voice": "613-996-4974",
       "email": "leslyn.lewis@parl.gc.ca",
       "twitter": "LeslynLewis"
+    },
+    {
+      "name": "Chris Lewis",
+      "url": "/politicians/chris-lewis/",
+      "current_party": {
+        "short_name": {
+          "en": "Conservative"
+        }
+      },
+      "current_riding": {
+        "province": "ON",
+        "name": {
+          "en": "Essex"
+        }
+      },
+      "image": "/media/polpics/chris-lewis_GFtokmf.jpg",
+      "voice": "613-992-1812",
+      "email": "Chris.Lewis@parl.gc.ca",
+      "twitter": "ChrisLewisEssex"
     },
     {
       "name": "Ben Lobb",
@@ -4105,7 +4086,7 @@
       "twitter": "RunChiNguyenRun"
     },
     {
-      "name": "Robert Oliphant",
+      "name": "Rob Oliphant",
       "url": "/politicians/rob-oliphant/",
       "current_party": {
         "short_name": {
@@ -4333,7 +4314,7 @@
       "twitter": "kyleseeback"
     },
     {
-      "name": "Judy A. Sgro",
+      "name": "Judy Sgro",
       "url": "/politicians/judy-sgro/",
       "current_party": {
         "short_name": {
@@ -4732,7 +4713,7 @@
       "twitter": null
     },
     {
-      "name": "Robert Morrissey",
+      "name": "Bobby Morrissey",
       "url": "/politicians/bobby-morrissey/",
       "current_party": {
         "short_name": {
@@ -4837,7 +4818,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Mégantic—L'Érable—Lotbinière"
+          "en": "Mégantic—L’Érable—Lotbinière"
         }
       },
       "image": "/media/polpics/luc-berthold_OGKDLrw.jpg",
@@ -5207,7 +5188,7 @@
       "twitter": "GregFergus"
     },
     {
-      "name": "Rhéal Éloi Fortin",
+      "name": "Rhéal Fortin",
       "url": "/politicians/rheal-fortin/",
       "current_party": {
         "short_name": {
@@ -5663,7 +5644,7 @@
       "twitter": null
     },
     {
-      "name": "Eric Lefebvre",
+      "name": "Éric Lefebvre",
       "url": "/politicians/eric-lefebvre/",
       "current_party": {
         "short_name": {
@@ -5679,7 +5660,7 @@
       "image": "/media/polpics/eric-lefebvre.jpg",
       "voice": "613-995-1554",
       "email": "eric.lefebvre@parl.gc.ca",
-      "twitter": "EricLefebvrePCC"
+      "twitter": null
     },
     {
       "name": "Carlos Leitão",
@@ -5796,7 +5777,7 @@
       "twitter": null
     },
     {
-      "name": "Alexandra Mendès",
+      "name": "Alexandra Mendes",
       "url": "/politicians/alexandra-mendes/",
       "current_party": {
         "short_name": {
@@ -5812,7 +5793,7 @@
       "image": "/media/polpics/alexandra-mendes_kUJSfth.jpg",
       "voice": "613-995-9301",
       "email": "alexandra.mendes@parl.gc.ca",
-      "twitter": null
+      "twitter": "AlexandraBrStL"
     },
     {
       "name": "Marjorie Michel",
@@ -5882,7 +5863,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Mont-Saint-Bruno—L'Acadie"
+          "en": "Mont-Saint-Bruno—L’Acadie"
         }
       },
       "image": "/media/polpics/bienvenu-olivier-ntumba.jpg",
@@ -6022,25 +6003,6 @@
       "voice": "613-995-6108",
       "email": "abdelhaq.sari@parl.gc.ca",
       "twitter": "sari_ab"
-    },
-    {
-      "name": "Simon-Pierre Savard-Tremblay",
-      "url": "/politicians/simon-pierre-savard-tremblay/",
-      "current_party": {
-        "short_name": {
-          "en": "Independent"
-        }
-      },
-      "current_riding": {
-        "province": "QC",
-        "name": {
-          "en": "Saint-Hyacinthe—Bagot—Acton"
-        }
-      },
-      "image": "/media/polpics/simon-pierre-savard-tremblay_N9KIVTB.jpg",
-      "voice": "613-996-4585",
-      "email": "Simon-Pierre.Savard-Tremblay@parl.gc.ca",
-      "twitter": "SPSTremblay"
     },
     {
       "name": "Francis Scarpaleggia",
