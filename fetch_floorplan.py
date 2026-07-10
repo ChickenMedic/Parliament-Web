@@ -45,11 +45,15 @@ PARTY_BY_COLOUR = {
     '#427730': ('Green', '#3d9b35'),
 }
 INDEPENDENT = ('Independent', '#808080')
+VACANT = ('Vacant', '#c0c0c0')
 
 CELL = re.compile(r'<div class="floorplan-col">')
 BUTTON = re.compile(r'<button class="([^"]*)"')
+UNOCCUPIED = re.compile(r'<div class="floorplan-cell unoccupied"')
 ARIA = re.compile(r'aria-label="([^"]*)"')
 BGCOLOR = re.compile(r'background-color:\s*(#[0-9A-Fa-f]{6})')
+
+VACANT_CELL = {'name': None}      # sentinel for an empty desk
 
 
 def fetch(url):
@@ -71,7 +75,10 @@ def parse_grid(page):
         for col in cols:
             button = BUTTON.search(col)
             if not button or 'floorplan-cell' not in button.group(1):
-                row.append(None)          # aisle, Table, or vacant desk
+                # An empty desk is `floorplan-cell unoccupied`. A bare `floorplan-cell`
+                # is not a desk at all -- the Table of the House at the near end of a
+                # bench, or the wall at the far end -- and is left undrawn.
+                row.append(VACANT_CELL if UNOCCUPIED.search(col) else None)
                 continue
             classes = ' '.join(button.group(1).split())
             colour = BGCOLOR.search(col)
@@ -143,38 +150,46 @@ def main():
     with open(POLITICIANS, encoding='utf-8') as f:
         roster = {p['name'] for p in json.load(f)['objects']}
 
-    occupied = [(r, c, cell) for r, row in enumerate(grid)
-                for c, cell in enumerate(row) if cell]
     resolve = build_resolver(roster)
 
     seats = []
     unmatched = []
-    for row, col, cell in occupied:
-        name = resolve(cell['name'])
-        if name is None:
-            unmatched.append(cell['name'])
-            name = cell['name']
-        party, colour = PARTY_BY_COLOUR.get(cell['colour'], INDEPENDENT)
-        x, y = coordinates(row, col)
-        seats.append({
-            'x': x,
-            'y': y,
-            'color': colour,
-            'party': party,
-            'seatNumber': len(seats),
-            'name': name,
-            'benchRow': row,
-            'chairCol': col,
-            'cabinet': cell['cabinet'],
-            'pm': cell['pm'],
-        })
+    for row, cells in enumerate(grid):
+        for col, cell in enumerate(cells):
+            if cell is None:
+                continue                      # not a desk; nothing to draw
+            x, y = coordinates(row, col)
+
+            if cell['name'] is None:
+                seats.append({
+                    'x': x, 'y': y,
+                    'color': VACANT[1], 'party': VACANT[0],
+                    'seatNumber': len(seats), 'name': None,
+                    'benchRow': row, 'chairCol': col,
+                    'cabinet': False, 'pm': False,
+                })
+                continue
+
+            name = resolve(cell['name'])
+            if name is None:
+                unmatched.append(cell['name'])
+                name = cell['name']
+            party, colour = PARTY_BY_COLOUR.get(cell['colour'], INDEPENDENT)
+            seats.append({
+                'x': x, 'y': y,
+                'color': colour, 'party': party,
+                'seatNumber': len(seats), 'name': name,
+                'benchRow': row, 'chairCol': col,
+                'cabinet': cell['cabinet'], 'pm': cell['pm'],
+            })
 
     if unmatched:
         raise SystemExit(f'{len(unmatched)} floorplan names absent from politicians.json: {unmatched}')
 
-    seated = {s['name'] for s in seats}
-    print(f'{len(seats)} desks | cabinet {sum(s["cabinet"] for s in seats)} '
-          f'| pm {sum(s["pm"] for s in seats)}')
+    seated = {s['name'] for s in seats if s['name']}
+    vacant = sum(1 for s in seats if s['name'] is None)
+    print(f'{len(seats)} desks ({len(seated)} occupied, {vacant} vacant) '
+          f'| cabinet {sum(s["cabinet"] for s in seats)} | pm {sum(s["pm"] for s in seats)}')
     print('roster members with no desk on the official plan:',
           sorted(roster - seated))
 

@@ -136,6 +136,10 @@ export const House = () => {
                      <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.8)' }}>{party}</span>
                    </div>
                  ))}
+                 <div key="vacant" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                   <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#c0c0c0', boxShadow: 'inset 0 1px 2px rgba(255,255,255,0.3)' }} />
+                   <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.8)' }}>Vacant seat</span>
+                 </div>
                  <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', margin: '4px 0' }} />
                  {[
                    { label: 'Cabinet minister', dot: 'rgba(255,255,255,0.9)', ring: 'transparent' },

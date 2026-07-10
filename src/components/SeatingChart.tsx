@@ -18,7 +18,8 @@ interface MP {
 interface Seat {
   x: number;
   y: number;
-  name: string;
+  /** null on a desk the floorplan marks unoccupied. */
+  name: string | null;
   party: string;
   color: string;
   seatNumber?: number;
@@ -39,6 +40,7 @@ const roles = rolesMap as Record<string, string>;
 const SPEAKER_NAME = 'Francis Scarpaleggia';
 const SPEAKER_MARKER_ID = 'SPEAKER';
 const SPEAKER_GOLD = '#ffd700';
+const VACANT_SEAT = '#c0c0c0';
 
 // Chart geometry. Seat coords in seating.json are stored unrotated; the chamber
 // is drawn rotated 90° so the Speaker is at the top. Kept in step with fetch_floorplan.py.
@@ -81,8 +83,7 @@ const matchesHighlightRole = (seat: { cabinet: boolean; pm: boolean; mp: MP | nu
 };
 
 export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, highlightRole }: { selectedMP: MP | null, setSelectedMP: (mp: MP | null) => void, highlightProvince?: string, highlightRole?: string }) => {
-  // Every seat names its occupant. A seat can still resolve to no MP if the data
-  // is regenerated mid-Parliament (a vacancy between by-elections); those render grey.
+  // Desks the floorplan marks unoccupied have no name and render as vacant.
   const seatsWithMPs = useMemo(() => {
     const mpsByName = new Map(
       politicians.map((p) => [p.name, { ...p, role: roles[p.name] }])
@@ -91,7 +92,7 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
     return seats.map((seat, index) => ({
       ...seat,
       id: seat.seatNumber ?? index,
-      mp: mpsByName.get(seat.name) ?? null,
+      mp: seat.name ? mpsByName.get(seat.name) ?? null : null,
     }));
   }, []);
 
@@ -191,7 +192,7 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                   if (isSelected || isHovered) opacity = 1;
                   else if (highlightProvince || highlightRole) opacity = isHighlighted ? 1 : 0.1;
 
-                  const fill = seat.mp ? getPartyColor(seat.mp.current_party.short_name.en) : '#444';
+                  const fill = seat.mp ? getPartyColor(seat.mp.current_party.short_name.en) : VACANT_SEAT;
 
                   return (
                     <div
