@@ -129,12 +129,27 @@ export const House = () => {
              <h3 style={{ margin: '0 0 12px 0', fontSize: '14px', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', letterSpacing: '1px' }}>Legend</h3>
              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                {activeTab === 'Commons' ? (
-                 ['Liberal', 'Conservative', 'Bloc', 'NDP', 'Green', 'Independent'].map(party => (
+                 <>
+                 {['Liberal', 'Conservative', 'Bloc', 'NDP', 'Green', 'Independent'].map(party => (
                    <div key={party} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                      <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: getPartyColor(party), boxShadow: 'inset 0 1px 2px rgba(255,255,255,0.3)' }} />
                      <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.8)' }}>{party}</span>
                    </div>
-                 ))
+                 ))}
+                 <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', margin: '4px 0' }} />
+                 {[
+                   { label: 'Cabinet minister', dot: 'rgba(255,255,255,0.9)', ring: 'transparent' },
+                   { label: 'Prime Minister', dot: '#ffd700', ring: '#ffd700' },
+                   { label: 'Speaker', dot: '#ffd700', ring: '#fff', filled: true },
+                 ].map(({ label, dot, ring, filled }) => (
+                   <div key={label} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                     <div style={{ width: '12px', height: '12px', borderRadius: '3px', background: filled ? dot : '#555', border: `1.5px solid ${ring}`, boxSizing: 'border-box', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                       {!filled && <div style={{ width: '4px', height: '4px', borderRadius: '50%', background: dot }} />}
+                     </div>
+                     <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.8)' }}>{label}</span>
+                   </div>
+                 ))}
+                 </>
                ) : (
                  SENATE_GROUPS.map(group => (
                    <div key={group.name} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>

@@ -3,6 +3,54 @@ import seatingData from '../data/seating.json';
 import politiciansData from '../data/politicians.json';
 import rolesMap from '../data/roles.json';
 
+interface MP {
+  name: string;
+  url: string;
+  image?: string;
+  email?: string;
+  voice?: string;
+  twitter?: string;
+  role?: string;
+  current_party: { short_name: { en: string } };
+  current_riding: { province: string; name: { en: string } };
+}
+
+interface Seat {
+  x: number;
+  y: number;
+  name: string;
+  party: string;
+  color: string;
+  seatNumber?: number;
+  benchRow: number;
+  chairCol: number;
+  cabinet: boolean;
+  pm: boolean;
+}
+
+const politicians = politiciansData.objects as MP[];
+const seats = seatingData as Seat[];
+const roles = rolesMap as Record<string, string>;
+
+/**
+ * The Speaker presides from the chair at the head of the chamber, not from a bench
+ * desk, so he has no row in seating.json and is drawn as his own marker.
+ */
+const SPEAKER_NAME = 'Francis Scarpaleggia';
+const SPEAKER_MARKER_ID = 'SPEAKER';
+const SPEAKER_GOLD = '#ffd700';
+
+// Chart geometry. Seat coords in seating.json are stored unrotated; the chamber
+// is drawn rotated 90° so the Speaker is at the top. Kept in step with fetch_floorplan.py.
+const CHART_WIDTH = 356;
+const CHART_HEIGHT = 958;
+const SEAT_WIDTH = 20;
+const SEAT_HEIGHT = 21;
+const SEAT_TOP_OFFSET = 50;
+
+const seatLeft = (seat: Seat) => CHART_WIDTH - seat.y - SEAT_WIDTH;
+const seatTop = (seat: Seat) => seat.x + SEAT_TOP_OFFSET;
+
 const getPartyColor = (party: string) => {
   switch (party.toLowerCase()) {
     case 'liberal': return '#d71920';
@@ -16,67 +64,49 @@ const getPartyColor = (party: string) => {
   }
 };
 
-const normalizeParty = (partyEn: string) => {
-  if (partyEn.includes('Liberal')) return 'Liberal';
-  if (partyEn.includes('Conservative')) return 'Conservative';
-  if (partyEn.includes('NDP') || partyEn.includes('New Democratic')) return 'NDP';
-  if (partyEn.includes('Bloc')) return 'Bloc';
-  if (partyEn.includes('Green')) return 'Green';
-  return 'Independent';
+const speakerMP = politicians.find((p) => p.name === SPEAKER_NAME);
+
+/**
+ * Cabinet membership comes from the floorplan itself, which flags ministers' desks.
+ * Matching on the role string misses the thirteen ministers whose titles never say
+ * "minister" — the President of the Treasury Board and the twelve Secretaries of State.
+ */
+const matchesHighlightRole = (seat: { cabinet: boolean; pm: boolean; mp: MP | null }, highlightRole: string) => {
+  if (highlightRole === 'Cabinet') return seat.cabinet || seat.pm;
+  if (highlightRole === 'Shadow Cabinet') {
+    const role = seat.mp?.role?.toLowerCase();
+    return Boolean(role && (role.includes('critic') || role.includes('shadow')));
+  }
+  return true;
 };
 
-export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, highlightRole }: { selectedMP: any, setSelectedMP: (mp: any) => void, highlightProvince?: string, highlightRole?: string }) => {
-  // Map MPs to seats based on party
+export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, highlightRole }: { selectedMP: MP | null, setSelectedMP: (mp: MP | null) => void, highlightProvince?: string, highlightRole?: string }) => {
+  // Every seat names its occupant. A seat can still resolve to no MP if the data
+  // is regenerated mid-Parliament (a vacancy between by-elections); those render grey.
   const seatsWithMPs = useMemo(() => {
-    const mpsByParty: Record<string, any[]> = {
-      'Liberal': [],
-      'Conservative': [],
-      'NDP': [],
-      'Bloc': [],
-      'Green': [],
-      'Independent': [],
-      'Unknown': []
-    };
+    const mpsByName = new Map(
+      politicians.map((p) => [p.name, { ...p, role: roles[p.name] }])
+    );
 
-    const politiciansWithRoles = politiciansData.objects.map((p: any) => ({
-      ...p,
-      role: (rolesMap as any)[p.name] || undefined
+    return seats.map((seat, index) => ({
+      ...seat,
+      id: seat.seatNumber ?? index,
+      mp: mpsByName.get(seat.name) ?? null,
     }));
-
-    politiciansWithRoles.forEach(mp => {
-      const party = normalizeParty(mp.current_party.short_name.en);
-      if (mpsByParty[party]) {
-        mpsByParty[party].push(mp);
-      } else {
-        mpsByParty['Independent'].push(mp);
-      }
-    });
-
-    return seatingData.map((seat: any, index: number) => {
-      let assignedMP = null;
-      if (mpsByParty[seat.party] && mpsByParty[seat.party].length > 0) {
-        assignedMP = mpsByParty[seat.party].shift();
-      } else if (mpsByParty['Independent'].length > 0) {
-        assignedMP = mpsByParty['Independent'].shift();
-      }
-      
-      return {
-        ...seat,
-        id: index,
-        mp: assignedMP
-      };
-    });
   }, []);
 
   const [hoveredSeat, setHoveredSeat] = useState<number | string | null>(null);
-  const speakerMP = politiciansData.objects.find((p: any) => p.name === 'Francis Scarpaleggia');
+  const hoveredSeatData = useMemo(
+    () => seatsWithMPs.find((seat) => seat.id === hoveredSeat) ?? null,
+    [seatsWithMPs, hoveredSeat]
+  );
 
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(0.85);
 
   useEffect(() => {
     const resizeObserver = new ResizeObserver(entries => {
-      for (let entry of entries) {
+      for (const entry of entries) {
         const { width, height } = entry.contentRect;
         const scaleX = width / 380; // Added some padding margin
         const scaleY = height / 1000;
@@ -92,123 +122,54 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
   return (
     <div ref={containerRef} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', flex: 1, minHeight: '100%', overflow: 'hidden' }}>
       <div style={{ width: 0, height: 0, position: 'relative' }}>
-          <div style={{ position: 'absolute', width: '356px', height: '958px', left: '-178px', top: '-479px', transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
+          <div style={{ position: 'absolute', width: `${CHART_WIDTH}px`, height: `${CHART_HEIGHT}px`, left: `${-CHART_WIDTH / 2}px`, top: `${-CHART_HEIGHT / 2}px`, transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
             {/* Left/Right Side Annotations */}
-            <div style={{
-              position: 'absolute',
-              left: '-110px',
-              top: '80px',
-              bottom: '40px',
-              width: '20px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              pointerEvents: 'none',
-              zIndex: 5
-            }}>
-              <div style={{
-                transform: 'rotate(-90deg)',
-                color: 'rgba(255, 255, 255, 0.25)',
-                fontSize: '36px',
-                fontWeight: 'bold',
-                letterSpacing: '6px',
-                whiteSpace: 'nowrap',
-                textTransform: 'uppercase',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}>
-                Government
-              </div>
-            </div>
-
-            <div style={{
-              position: 'absolute',
-              right: '-110px',
-              top: '80px',
-              bottom: '40px',
-              width: '20px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              pointerEvents: 'none',
-              zIndex: 5
-            }}>
-              <div style={{
-                transform: 'rotate(90deg)',
-                color: 'rgba(255, 255, 255, 0.25)',
-                fontSize: '36px',
-                fontWeight: 'bold',
-                letterSpacing: '6px',
-                whiteSpace: 'nowrap',
-                textTransform: 'uppercase',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}>
-                Opposition
-              </div>
-            </div>
-
-            {/* Row Number Annotations on Benches margins */}
             {[
-              { label: 'R1', y: 4 + 10 + 50 },
-              { label: 'R2', y: 61 + 10 + 50 },
-              { label: 'R3', y: 118 + 10 + 50 },
-              { label: 'R4', y: 175 + 10 + 50 },
-              { label: 'R5', y: 232 + 10 + 50 },
-              { label: 'R6', y: 289 + 10 + 50 },
-              { label: 'R7', y: 346 + 10 + 50 },
-              { label: 'R8', y: 403 + 10 + 50 },
-              { label: 'R9', y: 460 + 10 + 50 },
-              { label: 'R10', y: 517 + 10 + 50 },
-              { label: 'R11', y: 574 + 10 + 50 },
-              { label: 'R12', y: 631 + 10 + 50 },
-              { label: 'R13', y: 688 + 10 + 50 },
-              { label: 'R14', y: 745 + 10 + 50 },
-              { label: 'R15', y: 802 + 10 + 50 },
-              { label: 'R16', y: 859 + 10 + 50 },
-            ].map((row, rIdx) => (
-              <div key={rIdx} style={{ pointerEvents: 'none' }}>
-                {/* Left Side Row Label */}
+              { label: 'Government', side: 'left' as const, rotation: -90 },
+              { label: 'Opposition', side: 'right' as const, rotation: 90 },
+            ].map(({ label, side, rotation }) => (
+              <div key={label} style={{
+                position: 'absolute',
+                [side]: '-110px',
+                top: '80px',
+                bottom: '40px',
+                width: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                pointerEvents: 'none',
+                zIndex: 5
+              }}>
                 <div style={{
-                  position: 'absolute',
-                  left: '-24px',
-                  top: row.y - 8,
-                  fontSize: '9px',
+                  transform: `rotate(${rotation}deg)`,
+                  color: 'rgba(255, 255, 255, 0.25)',
+                  fontSize: '36px',
                   fontWeight: 'bold',
-                  color: 'rgba(255,255,255,0.35)',
-                  width: '20px',
-                  textAlign: 'right'
-                }}>{row.label}</div>
-                
-                {/* Right Side Row Label */}
-                <div style={{
-                  position: 'absolute',
-                  right: '-24px',
-                  top: row.y - 8,
-                  fontSize: '9px',
-                  fontWeight: 'bold',
-                  color: 'rgba(255,255,255,0.35)',
-                  width: '20px',
-                  textAlign: 'left'
-                }}>{row.label}</div>
+                  letterSpacing: '6px',
+                  whiteSpace: 'nowrap',
+                  textTransform: 'uppercase',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px'
+                }}>
+                  {label}
+                </div>
               </div>
             ))}
 
             <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
-            
+
             {/* Speaker */}
             <div style={{ position: 'absolute', top: '10px', width: '100%', display: 'flex', justifyContent: 'center', zIndex: 10, pointerEvents: 'none' }}>
-              <div 
+              <div
                 style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer', pointerEvents: 'auto', transition: 'transform 0.2s' }}
-                onClick={() => setSelectedMP(speakerMP)}
+                onClick={() => speakerMP && setSelectedMP(speakerMP)}
                 onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
                 onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-                onMouseEnter={() => setHoveredSeat('SPEAKER')}
+                onMouseEnter={() => setHoveredSeat(SPEAKER_MARKER_ID)}
                 onMouseLeave={() => setHoveredSeat(null)}
               >
-                <div style={{ width: '20px', height: '20px', background: selectedMP?.url === speakerMP?.url ? '#fff' : '#ffd700', borderRadius: '4px', border: '1px solid #fff', boxShadow: selectedMP?.url === speakerMP?.url ? '0 0 15px #fff' : '0 0 10px rgba(255, 215, 0, 0.4)', marginBottom: '4px' }}></div>
+                <div style={{ width: '20px', height: '20px', background: selectedMP?.url === speakerMP?.url ? '#fff' : SPEAKER_GOLD, borderRadius: '4px', border: '2px solid #fff', boxSizing: 'border-box', boxShadow: selectedMP?.url === speakerMP?.url ? '0 0 15px #fff' : '0 0 10px rgba(255, 215, 0, 0.4)', marginBottom: '4px' }}></div>
                 <strong style={{ fontSize: '11px', opacity: 0.8, color: 'white' }}>Speaker</strong>
               </div>
             </div>
@@ -216,52 +177,46 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                 {seatsWithMPs.map((seat) => {
                   const isSelected = selectedMP && seat.mp && selectedMP.name === seat.mp.name;
                   const isHovered = hoveredSeat === seat.id;
-                  
+
                   let isHighlighted = true;
                   if (highlightProvince || highlightRole) {
-                    if (seat.mp) {
-                      let matchesProv = true;
-                      let matchesRole = true;
-                      if (highlightProvince) {
-                        matchesProv = seat.mp.current_riding.province === highlightProvince;
-                      }
-                      if (highlightRole) {
-                        if (highlightRole === 'Cabinet') {
-                           matchesRole = seat.mp.role && seat.mp.role.toLowerCase().includes('minister') && !seat.mp.role.toLowerCase().includes('shadow') && !seat.mp.role.toLowerCase().includes('critic');
-                        } else if (highlightRole === 'Shadow Cabinet') {
-                           matchesRole = seat.mp.role && (seat.mp.role.toLowerCase().includes('critic') || seat.mp.role.toLowerCase().includes('shadow'));
-                        }
-                      }
-                      isHighlighted = matchesProv && matchesRole;
-                    } else {
-                      isHighlighted = false;
-                    }
+                    isHighlighted = Boolean(
+                      seat.mp &&
+                      (!highlightProvince || seat.mp.current_riding.province === highlightProvince) &&
+                      (!highlightRole || matchesHighlightRole(seat, highlightRole))
+                    );
                   }
 
                   let opacity = 0.7;
                   if (isSelected || isHovered) opacity = 1;
                   else if (highlightProvince || highlightRole) opacity = isHighlighted ? 1 : 0.1;
-                  
+
                   const fill = seat.mp ? getPartyColor(seat.mp.current_party.short_name.en) : '#444';
-                  
-                  // Apply 90-degree mathematical rotation natively to coords
-                  const rotatedX = 356 - seat.y - 20;
-                  const rotatedY = seat.x + 50;
 
                   return (
                     <div
                       key={seat.id}
                       style={{
                         position: 'absolute',
-                        left: rotatedX,
-                        top: rotatedY,
-                        width: '20px',
-                        height: '21px',
+                        left: seatLeft(seat),
+                        top: seatTop(seat),
+                        width: `${SEAT_WIDTH}px`,
+                        height: `${SEAT_HEIGHT}px`,
                         backgroundColor: fill,
                         borderRadius: '4px',
                         opacity: opacity,
-                        border: isSelected ? '2px solid white' : (isHovered ? '2px solid rgba(255,255,255,0.5)' : 'none'),
+                        border: isSelected
+                          ? '2px solid white'
+                          : isHovered
+                            ? '2px solid rgba(255,255,255,0.5)'
+                            : seat.pm
+                              ? `2px solid ${SPEAKER_GOLD}`
+                              : 'none',
+                        boxShadow: seat.pm && !isSelected ? '0 0 8px rgba(255, 215, 0, 0.6)' : 'none',
                         boxSizing: 'border-box',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
                         cursor: seat.mp ? 'pointer' : 'default',
                         transition: 'all 0.2s ease',
                         transform: isHovered ? 'scale(1.2)' : 'scale(1)',
@@ -274,23 +229,32 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                           setSelectedMP(seat.mp);
                         }
                       }}
-                    />
+                    >
+                      {(seat.cabinet || seat.pm) && (
+                        <div style={{
+                          width: '6px',
+                          height: '6px',
+                          borderRadius: '50%',
+                          background: seat.pm ? SPEAKER_GOLD : 'rgba(255,255,255,0.9)',
+                          pointerEvents: 'none'
+                        }} />
+                      )}
+                    </div>
                   );
                 })}
                 </div>
 
         {/* HTML Hover Tooltip Overlay */}
         {hoveredSeat !== null && (() => {
-          const isSpeaker = hoveredSeat === 'SPEAKER';
-          const seatData = isSpeaker ? null : seatingData[hoveredSeat as number];
-          const mp = isSpeaker ? speakerMP : seatsWithMPs[hoveredSeat as number]?.mp;
-          // If neither MP nor a valid seat (though seat should always exist if hoveredSeat is number), return null
-          if (!isSpeaker && !seatData) return null;
-          
-          const seatY = isSpeaker ? 0 : seatingData[hoveredSeat as number].x;
-          const left = isSpeaker ? (356 / 2) : (356 - seatingData[hoveredSeat as number].y - 20) + 10;
-          const top = isSpeaker ? 50 : seatY + 50 - 10;
-          const transform = (seatY + 50) < 150 ? 'translate(-50%, 20px)' : 'translate(-50%, -100%)';
+          const isSpeaker = hoveredSeat === SPEAKER_MARKER_ID;
+          if (!isSpeaker && !hoveredSeatData) return null;
+
+          const mp = isSpeaker ? speakerMP : hoveredSeatData!.mp;
+          // Anchor at the seat's top edge; flip the tooltip below it near the chamber head.
+          const anchorY = isSpeaker ? SEAT_TOP_OFFSET : seatTop(hoveredSeatData!);
+          const left = isSpeaker ? CHART_WIDTH / 2 : seatLeft(hoveredSeatData!) + SEAT_WIDTH / 2;
+          const top = isSpeaker ? SEAT_TOP_OFFSET : anchorY - 10;
+          const transform = anchorY < 150 ? 'translate(-50%, 20px)' : 'translate(-50%, -100%)';
 
           return (
             <div style={{
@@ -311,11 +275,11 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
                 {mp ? (
                   <>
-                    <img 
-                      src={`https://openparliament.ca${mp.image}`} 
-                      alt="" 
-                      style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(mp.current_party.short_name.en)}` }} 
-                      onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}`} 
+                    <img
+                      src={`https://openparliament.ca${mp.image}`}
+                      alt=""
+                      style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(mp.current_party.short_name.en)}` }}
+                      onError={(e) => (e.currentTarget.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}`)}
                     />
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                       <div style={{ fontWeight: 'bold', color: 'white' }}>{mp.name}</div>

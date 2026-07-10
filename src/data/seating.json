@@ -1,2078 +1,4058 @@
 [
   {
-    "x": 745,
-    "y": 4.00021,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
+    "x": 14,
+    "y": 4,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 0,
+    "name": "Alexandra Mend\u00e8s",
+    "benchRow": 0,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 712,
-    "y": 4.00017,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 769,
-    "y": 27.0002,
-    "color": "#f37021",
-    "party": "NDP"
-  },
-  {
-    "x": 745,
-    "y": 27.0002,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 688,
-    "y": 3.92896,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 769,
-    "y": 50.00007,
-    "color": "#f37021",
-    "party": "NDP"
-  },
-  {
-    "x": 712,
-    "y": 27.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 802,
-    "y": 73.00008,
-    "color": "#808080",
-    "party": "Independent"
-  },
-  {
-    "x": 655,
-    "y": 3.92898,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 745,
-    "y": 50.00007,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 883,
-    "y": 119.00002,
-    "color": "url(#hatched-grey)",
-    "party": "Unoccupied"
-  },
-  {
-    "x": 826,
-    "y": 96.00008,
-    "color": "url(#hatched-grey)",
-    "party": "Unoccupied"
-  },
-  {
-    "x": 688,
-    "y": 27.00018,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 859,
-    "y": 119.00002,
-    "color": "url(#hatched-grey)",
-    "party": "Unoccupied"
-  },
-  {
-    "x": 769,
-    "y": 73.00008,
-    "color": "#f37021",
-    "party": "NDP"
-  },
-  {
-    "x": 631,
-    "y": 4.00018,
+    "x": 42,
+    "y": 4,
     "color": "#1a4782",
-    "party": "Conservative"
+    "party": "Conservative",
+    "seatNumber": 1,
+    "name": "Tom Kmiec",
+    "benchRow": 0,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 802,
-    "y": 96.00008,
+    "x": 70,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 2,
+    "name": "John Nater",
+    "benchRow": 0,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 3,
+    "name": "Michael Guglielmin",
+    "benchRow": 0,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 4,
+    "name": "Aaron Gunn",
+    "benchRow": 0,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 5,
+    "name": "Kurt Holman",
+    "benchRow": 0,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 6,
+    "name": "Grant Jackson",
+    "benchRow": 0,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 7,
+    "name": "Jeff Kibble",
+    "benchRow": 0,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 8,
+    "name": "Rhonda Kirkland",
+    "benchRow": 0,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 9,
+    "name": "Helena Konanz",
+    "benchRow": 0,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 10,
+    "name": "Tamara Kronis",
+    "benchRow": 0,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 11,
+    "name": "Ned Kuruc",
+    "benchRow": 0,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 12,
+    "name": "Alex Ruff",
+    "benchRow": 0,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 13,
+    "name": "Andrew Lawton",
+    "benchRow": 0,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 14,
+    "name": "Jagsharan Singh Mahal",
+    "benchRow": 0,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 15,
+    "name": "Jacob Mantle",
+    "benchRow": 0,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 16,
+    "name": "David McKenzie",
+    "benchRow": 0,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 17,
+    "name": "Colin Reynolds",
+    "benchRow": 0,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 18,
+    "name": "Jonathan Rowe",
+    "benchRow": 0,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 19,
+    "name": "William Stevenson",
+    "benchRow": 0,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 574,
+    "y": 4,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 20,
+    "name": "Matt Strauss",
+    "benchRow": 0,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 4,
     "color": "#3d9b35",
-    "party": "Green"
+    "party": "Green",
+    "seatNumber": 21,
+    "name": "Elizabeth May",
+    "benchRow": 0,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 712,
-    "y": 50.00007,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 745,
-    "y": 73.00008,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 826,
-    "y": 119.00008,
+    "x": 686,
+    "y": 4,
     "color": "#808080",
-    "party": "Independent"
+    "party": "Independent",
+    "seatNumber": 22,
+    "name": "Alexandre Boulerice",
+    "benchRow": 0,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 655,
-    "y": 27.0002,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 769,
-    "y": 96.00008,
+    "x": 714,
+    "y": 4,
     "color": "#f37021",
-    "party": "NDP"
+    "party": "NDP",
+    "seatNumber": 23,
+    "name": "Leah Gazan",
+    "benchRow": 0,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 688,
-    "y": 50.00007,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 802,
-    "y": 119.00008,
+    "x": 742,
+    "y": 4,
     "color": "#f37021",
-    "party": "NDP"
+    "party": "NDP",
+    "seatNumber": 24,
+    "name": "Gord Johns",
+    "benchRow": 0,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 712,
-    "y": 73.00008,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 745,
-    "y": 96.00008,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 598,
-    "y": 4.00021,
+    "x": 14,
+    "y": 27,
     "color": "#1a4782",
-    "party": "Conservative"
+    "party": "Conservative",
+    "seatNumber": 25,
+    "name": "Chris Lewis",
+    "benchRow": 1,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 27.0002,
+    "x": 42,
+    "y": 27,
     "color": "#1a4782",
-    "party": "Conservative"
+    "party": "Conservative",
+    "seatNumber": 26,
+    "name": "Jeremy Patzer",
+    "benchRow": 1,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 769,
-    "y": 119.00015,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
-  },
-  {
-    "x": 655,
-    "y": 50.00007,
+    "x": 70,
+    "y": 27,
     "color": "#1a4782",
-    "party": "Conservative"
+    "party": "Conservative",
+    "seatNumber": 27,
+    "name": "Jason Groleau",
+    "benchRow": 1,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 688,
-    "y": 73.00008,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
+    "x": 98,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 28,
+    "name": "Jamil Jivani",
+    "benchRow": 1,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 883,
-    "y": 217.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "x": 126,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 29,
+    "name": "Scott Anderson",
+    "benchRow": 1,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 745,
-    "y": 119.00008,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
+    "x": 154,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 30,
+    "name": "Carol Anstey",
+    "benchRow": 1,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 712,
-    "y": 96.00008,
-    "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
+    "x": 182,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 31,
+    "name": "Chak Au",
+    "benchRow": 1,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 859,
-    "y": 217.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "x": 210,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 32,
+    "name": "Roman Baber",
+    "benchRow": 1,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 33,
+    "name": "Burton Bailey",
+    "benchRow": 1,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 34,
+    "name": "Jim B\u00e9langer",
+    "benchRow": 1,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 35,
+    "name": "David Bexte",
+    "benchRow": 1,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 36,
+    "name": "Steven Bonk",
+    "benchRow": 1,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 37,
+    "name": "Kathy Borrelli",
+    "benchRow": 1,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 38,
+    "name": "Sandra Cobena",
+    "benchRow": 1,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 39,
+    "name": "Connie Cody",
+    "benchRow": 1,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 40,
+    "name": "Fred Davies",
+    "benchRow": 1,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 41,
+    "name": "Mike Dawson",
+    "benchRow": 1,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 42,
+    "name": "Kelly DeRidder",
+    "benchRow": 1,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 43,
+    "name": "Amanpreet Gill",
+    "benchRow": 1,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 44,
+    "name": "Amarjeet Gill",
+    "benchRow": 1,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
   },
   {
     "x": 574,
-    "y": 4.00021,
+    "y": 27,
     "color": "#1a4782",
-    "party": "Conservative"
+    "party": "Conservative",
+    "seatNumber": 45,
+    "name": "Dalwinder Gill",
+    "benchRow": 1,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 50.00007,
+    "x": 602,
+    "y": 27,
     "color": "#1a4782",
-    "party": "Conservative"
+    "party": "Conservative",
+    "seatNumber": 46,
+    "name": "Harb Gill",
+    "benchRow": 1,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 688,
-    "y": 96.00008,
+    "x": 630,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 47,
+    "name": "Sukhman Gill",
+    "benchRow": 1,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 27,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 48,
+    "name": "Branden Leslie",
+    "benchRow": 1,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 27,
+    "color": "#f37021",
+    "party": "NDP",
+    "seatNumber": 49,
+    "name": "Jenny Kwan",
+    "benchRow": 1,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 27,
+    "color": "#f37021",
+    "party": "NDP",
+    "seatNumber": 50,
+    "name": "Don Davies",
+    "benchRow": 1,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 27,
+    "color": "#f37021",
+    "party": "NDP",
+    "seatNumber": 51,
+    "name": "Heather McPherson",
+    "benchRow": 1,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 14,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 52,
+    "name": "Rob Morrison",
+    "benchRow": 2,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 42,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 53,
+    "name": "Mel Arnold",
+    "benchRow": 2,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 70,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 54,
+    "name": "Ga\u00e9tan Malette",
+    "benchRow": 2,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 55,
+    "name": "Eric Lefebvre",
+    "benchRow": 2,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 56,
+    "name": "Cheryl Gallant",
+    "benchRow": 2,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 57,
+    "name": "Scott Reid",
+    "benchRow": 2,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 58,
+    "name": "Randy Hoback",
+    "benchRow": 2,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 59,
+    "name": "Dean Allison",
+    "benchRow": 2,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 60,
+    "name": "Arnold Viersen",
+    "benchRow": 2,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 61,
+    "name": "Kerry Diotte",
+    "benchRow": 2,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 62,
+    "name": "John Williamson",
+    "benchRow": 2,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 63,
+    "name": "Ted Falk",
+    "benchRow": 2,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 64,
+    "name": "Dave Epp",
+    "benchRow": 2,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 65,
+    "name": "Kelly McCauley",
+    "benchRow": 2,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 66,
+    "name": "Costas Menegakis",
+    "benchRow": 2,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 67,
+    "name": "Cathay Wagantall",
+    "benchRow": 2,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 68,
+    "name": "Tamara Jansen",
+    "benchRow": 2,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 69,
+    "name": "Ziad Aboultaif",
+    "benchRow": 2,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 70,
+    "name": "Glen Motz",
+    "benchRow": 2,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 71,
+    "name": "Marc Dalton",
+    "benchRow": 2,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 574,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 72,
+    "name": "Terry Dowdall",
+    "benchRow": 2,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 602,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 73,
+    "name": "Michael Kram",
+    "benchRow": 2,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 630,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 74,
+    "name": "Greg McLean",
+    "benchRow": 2,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 50,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 75,
+    "name": "Fraser Tolmie",
+    "benchRow": 2,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 50,
     "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 76,
+    "name": "Louis Plamondon",
+    "benchRow": 2,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 27.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 655,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 712,
-    "y": 119.00008,
+    "x": 714,
+    "y": 50,
     "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 77,
+    "name": "Xavier Barsalou-Duval",
+    "benchRow": 2,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 50,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 78,
+    "name": "Maxime Blanchette-Joncas",
+    "benchRow": 2,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 50,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 79,
+    "name": "S\u00e9bastien Lemire",
+    "benchRow": 2,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 14,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 80,
+    "name": "Tako Van Popta",
+    "benchRow": 3,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 42,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 81,
+    "name": "Pat Kelly",
+    "benchRow": 3,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 70,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 82,
+    "name": "Bernard G\u00e9n\u00e9reux",
+    "benchRow": 3,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 83,
+    "name": "Jacques Gourde",
+    "benchRow": 3,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 84,
+    "name": "Brad Vis",
+    "benchRow": 3,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 85,
+    "name": "Corey Tochor",
+    "benchRow": 3,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 86,
+    "name": "Warren Steinley",
+    "benchRow": 3,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 87,
+    "name": "Bob Zimmer",
+    "benchRow": 3,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 88,
+    "name": "Ben Lobb",
+    "benchRow": 3,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 89,
+    "name": "Tony Baldinelli",
+    "benchRow": 3,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 90,
+    "name": "Scot Davidson",
+    "benchRow": 3,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 91,
+    "name": "Eric Melillo",
+    "benchRow": 3,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 92,
+    "name": "Blaine Calkins",
+    "benchRow": 3,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 93,
+    "name": "Brad Redekopp",
+    "benchRow": 3,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 94,
+    "name": "Dan Muys",
+    "benchRow": 3,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 95,
+    "name": "Kevin Waugh",
+    "benchRow": 3,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 96,
+    "name": "Lianne Rood",
+    "benchRow": 3,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 97,
+    "name": "Vincent Ho",
+    "benchRow": 3,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 98,
+    "name": "Rosemarie Falk",
+    "benchRow": 3,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 99,
+    "name": "Gabriel Hardy",
+    "benchRow": 3,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 574,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 100,
+    "name": "Shuvaloy Majumdar",
+    "benchRow": 3,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 602,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 101,
+    "name": "Laila Goodridge",
+    "benchRow": 3,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 630,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 102,
+    "name": "Doug Shipley",
+    "benchRow": 3,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 73,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 103,
+    "name": "Richard Bragdon",
+    "benchRow": 3,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 73,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 104,
+    "name": "Mario Beaulieu",
+    "benchRow": 3,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 73,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 105,
+    "name": "Gabriel Ste-Marie",
+    "benchRow": 3,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 73,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 106,
+    "name": "Andr\u00e9anne Larouche",
+    "benchRow": 3,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 73,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 107,
+    "name": "Claude DeBellefeuille",
+    "benchRow": 3,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 798,
+    "y": 73,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 108,
+    "name": "Marie-H\u00e9l\u00e8ne Gaudreau",
+    "benchRow": 3,
+    "chairCol": 28,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 14,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 109,
+    "name": "Mike Lake",
+    "benchRow": 4,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 42,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 110,
+    "name": "Frank Caputo",
+    "benchRow": 4,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 70,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 111,
+    "name": "Blake Richards",
+    "benchRow": 4,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 112,
+    "name": "Scott Aitchison",
+    "benchRow": 4,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 113,
+    "name": "Clifford Small",
+    "benchRow": 4,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 114,
+    "name": "Dan Mazier",
+    "benchRow": 4,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 115,
+    "name": "Mark Strahl",
+    "benchRow": 4,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 116,
+    "name": "Garnett Genuis",
+    "benchRow": 4,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 117,
+    "name": "John Brassard",
+    "benchRow": 4,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 118,
+    "name": "Rob Moore",
+    "benchRow": 4,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 119,
+    "name": "Luc Berthold",
+    "benchRow": 4,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 120,
+    "name": "Eric Duncan",
+    "benchRow": 4,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 121,
+    "name": "Chris Warkentin",
+    "benchRow": 4,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 122,
+    "name": "Shelby Kramp-Neuman",
+    "benchRow": 4,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 123,
+    "name": "Arpan Khanna",
+    "benchRow": 4,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 124,
+    "name": "Anna Roberts",
+    "benchRow": 4,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 125,
+    "name": "Billy Morin",
+    "benchRow": 4,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 126,
+    "name": "Ellis Ross",
+    "benchRow": 4,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 127,
+    "name": "Dominique Vien",
+    "benchRow": 4,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 128,
+    "name": "Jo\u00ebl Godin",
+    "benchRow": 4,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 602,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 129,
+    "name": "Michelle Rempel Garner",
+    "benchRow": 4,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 630,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 130,
+    "name": "Michael Cooper",
+    "benchRow": 4,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 131,
+    "name": "Dane Lloyd",
+    "benchRow": 4,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 96,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 132,
+    "name": "Philip Lawrence",
+    "benchRow": 4,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 96,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 133,
+    "name": "Martin Champoux",
+    "benchRow": 4,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 96,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 134,
+    "name": "Yves Perron",
+    "benchRow": 4,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 96,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 135,
+    "name": "Alexis Desch\u00eanes",
+    "benchRow": 4,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 798,
+    "y": 96,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 136,
+    "name": "Maril\u00e8ne Gill",
+    "benchRow": 4,
+    "chairCol": 28,
+    "cabinet": false,
+    "pm": false
   },
   {
     "x": 826,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
+    "y": 96,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 137,
+    "name": "Patrick Bonin",
+    "benchRow": 4,
+    "chairCol": 29,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 802,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
+    "x": 70,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 138,
+    "name": "Todd Doherty",
+    "benchRow": 5,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 139,
+    "name": "Jamie Schmale",
+    "benchRow": 5,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 140,
+    "name": "Larry Brock",
+    "benchRow": 5,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 141,
+    "name": "James Bezan",
+    "benchRow": 5,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 142,
+    "name": "Kelly Block",
+    "benchRow": 5,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 143,
+    "name": "Rachael Thomas",
+    "benchRow": 5,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 144,
+    "name": "G\u00e9rard Deltell",
+    "benchRow": 5,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 145,
+    "name": "Pierre Paul-Hus",
+    "benchRow": 5,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 146,
+    "name": "Andrew Scheer",
+    "benchRow": 5,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 147,
+    "name": "Tim Uppal",
+    "benchRow": 5,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 148,
+    "name": "Pierre Poilievre",
+    "benchRow": 5,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 149,
+    "name": "Melissa Lantsman",
+    "benchRow": 5,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 150,
+    "name": "Jasraj Hallan",
+    "benchRow": 5,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 151,
+    "name": "Leslyn Lewis",
+    "benchRow": 5,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 152,
+    "name": "Raquel Dancho",
+    "benchRow": 5,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 153,
+    "name": "Michael Chong",
+    "benchRow": 5,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 154,
+    "name": "Stephanie Kusie",
+    "benchRow": 5,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 155,
+    "name": "Shannon Stubbs",
+    "benchRow": 5,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 574,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 156,
+    "name": "John Barlow",
+    "benchRow": 5,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 602,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 157,
+    "name": "Kyle Seeback",
+    "benchRow": 5,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 630,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 158,
+    "name": "Michael Barrett",
+    "benchRow": 5,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 159,
+    "name": "Adam Chambers",
+    "benchRow": 5,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 119,
+    "color": "#1a4782",
+    "party": "Conservative",
+    "seatNumber": 160,
+    "name": "Dan Albas",
+    "benchRow": 5,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 119,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 161,
+    "name": "Jean-Denis Garon",
+    "benchRow": 5,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 119,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 162,
+    "name": "Yves-Fran\u00e7ois Blanchet",
+    "benchRow": 5,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 119,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 163,
+    "name": "Christine Normandin",
+    "benchRow": 5,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 798,
+    "y": 119,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 164,
+    "name": "Alexis Brunelle-Duceppe",
+    "benchRow": 5,
+    "chairCol": 28,
+    "cabinet": false,
+    "pm": false
   },
   {
     "x": 826,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 688,
-    "y": 119.00008,
+    "y": 119,
     "color": "#33b2cc",
-    "party": "Bloc Qu\u00e9b\u00e9cois"
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 165,
+    "name": "Mario Simard",
+    "benchRow": 5,
+    "chairCol": 29,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "x": 854,
+    "y": 119,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 166,
+    "name": "Rh\u00e9al \u00c9loi Fortin",
+    "benchRow": 5,
+    "chairCol": 30,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 655,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "x": 882,
+    "y": 119,
+    "color": "#33b2cc",
+    "party": "Bloc Qu\u00e9b\u00e9cois",
+    "seatNumber": 167,
+    "name": "Luc Th\u00e9riault",
+    "benchRow": 5,
+    "chairCol": 31,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 802,
-    "y": 240.00026,
+    "x": 70,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 168,
+    "name": "Shafqat Ali",
+    "benchRow": 6,
+    "chairCol": 2,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 573.90143,
-    "y": 27.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 598,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 769,
-    "y": 217.00015,
+    "x": 98,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 169,
+    "name": "Lena Metlege Diab",
+    "benchRow": 6,
+    "chairCol": 3,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 802,
-    "y": 263.00015,
+    "x": 126,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 170,
+    "name": "Heath MacDonald",
+    "benchRow": 6,
+    "chairCol": 4,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 655,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 631,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 541,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 769,
-    "y": 240.00017,
+    "x": 154,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 171,
+    "name": "David McGuinty",
+    "benchRow": 6,
+    "chairCol": 5,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 745,
-    "y": 217.00015,
+    "x": 182,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 172,
+    "name": "Jo\u00ebl Lightbound",
+    "benchRow": 6,
+    "chairCol": 6,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 769,
-    "y": 263.00006,
+    "x": 210,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 173,
+    "name": "Gregor Robertson",
+    "benchRow": 6,
+    "chairCol": 7,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 745,
-    "y": 240.00017,
+    "x": 238,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 174,
+    "name": "Julie Dabrusin",
+    "benchRow": 6,
+    "chairCol": 8,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 573.80292,
-    "y": 50.04364,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 631,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 712,
-    "y": 217.00024,
+    "x": 266,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 175,
+    "name": "Dominic LeBlanc",
+    "benchRow": 6,
+    "chairCol": 9,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 769,
-    "y": 286.00015,
+    "x": 294,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 176,
+    "name": "M\u00e9lanie Joly",
+    "benchRow": 6,
+    "chairCol": 10,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 745,
-    "y": 263.00006,
+    "x": 322,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 177,
+    "name": "Steven MacKinnon",
+    "benchRow": 6,
+    "chairCol": 11,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 769.23358,
-    "y": 309.46292,
+    "x": 350,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 178,
+    "name": "Mark Carney",
+    "benchRow": 6,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": true
   },
   {
-    "x": 712,
-    "y": 240.00026,
+    "x": 378,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 179,
+    "name": "Fran\u00e7ois-Philippe Champagne",
+    "benchRow": 6,
+    "chairCol": 13,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 541,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 745,
-    "y": 286.00015,
+    "x": 406,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 180,
+    "name": "Joanne Thompson",
+    "benchRow": 6,
+    "chairCol": 14,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 688,
-    "y": 217.00024,
+    "x": 434,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 181,
+    "name": "Tim Hodgson",
+    "benchRow": 6,
+    "chairCol": 15,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 574,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 712,
-    "y": 263.00015,
+    "x": 462,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 182,
+    "name": "Gary Anandasangaree",
+    "benchRow": 6,
+    "chairCol": 16,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 744.86108,
-    "y": 309.39877,
+    "x": 490,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 183,
+    "name": "Patty Hajdu",
+    "benchRow": 6,
+    "chairCol": 17,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 517,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 688,
-    "y": 240.00026,
+    "x": 518,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 184,
+    "name": "Marjorie Michel",
+    "benchRow": 6,
+    "chairCol": 18,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 744.8576,
-    "y": 332.00015,
+    "x": 546,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 712,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 688,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 574,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 655,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 541,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 712,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 688,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 655,
-    "y": 240.00027,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 712,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 185,
+    "name": "Sean Fraser",
+    "benchRow": 6,
+    "chairCol": 19,
+    "cabinet": true,
+    "pm": false
   },
   {
     "x": 574,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 688,
-    "y": 309.00015,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 186,
+    "name": "Marc Miller",
+    "benchRow": 6,
+    "chairCol": 20,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 688,
-    "y": 309.00015,
+    "x": 602,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 187,
+    "name": "Maninder Sidhu",
+    "benchRow": 6,
+    "chairCol": 21,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 217.00026,
+    "x": 630,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 188,
+    "name": "Eleanor Olszewski",
+    "benchRow": 6,
+    "chairCol": 22,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 517,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 655,
-    "y": 263.00015,
+    "x": 658,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 189,
+    "name": "Evan Solomon",
+    "benchRow": 6,
+    "chairCol": 23,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 541,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 688,
-    "y": 332.00015,
+    "x": 686,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 190,
+    "name": "Rechie Valdez",
+    "benchRow": 6,
+    "chairCol": 24,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 240.00027,
+    "x": 714,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 191,
+    "name": "Jean-Yves Duclos",
+    "benchRow": 6,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 655,
-    "y": 286.00015,
+    "x": 742,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 192,
+    "name": "Ahmed Hussen",
+    "benchRow": 6,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 263.00015,
+    "x": 770,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 193,
+    "name": "Karina Gould",
+    "benchRow": 6,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 655,
-    "y": 309.00015,
+    "x": 798,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 194,
+    "name": "Ginette Petitpas Taylor",
+    "benchRow": 6,
+    "chairCol": 28,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 541,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 517,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 655,
-    "y": 332.00015,
+    "x": 854,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 195,
+    "name": "Bardish Chagger",
+    "benchRow": 6,
+    "chairCol": 30,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 655,
-    "y": 332.00015,
+    "x": 882,
+    "y": 217,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 196,
+    "name": "Steven Guilbeault",
+    "benchRow": 6,
+    "chairCol": 31,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 217.00029,
+    "x": 14,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 197,
+    "name": "Hedy Fry",
+    "benchRow": 7,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 286.00015,
+    "x": 42,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 198,
+    "name": "Helena Jaczek",
+    "benchRow": 7,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 631,
-    "y": 309.00015,
+    "x": 70,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 199,
+    "name": "Tom Osborne",
+    "benchRow": 7,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 240.00027,
+    "x": 98,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 200,
+    "name": "Peter Fragiskatos",
+    "benchRow": 7,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 541,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 630.97247,
-    "y": 331.98541,
+    "x": 126,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 201,
+    "name": "Stephen Fuhr",
+    "benchRow": 7,
+    "chairCol": 4,
+    "cabinet": true,
+    "pm": false
   },
   {
-    "x": 517,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 598,
-    "y": 263.00015,
+    "x": 154,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 202,
+    "name": "Adam van Koeverden",
+    "benchRow": 7,
+    "chairCol": 5,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 203,
+    "name": "Anna Gainey",
+    "benchRow": 7,
+    "chairCol": 6,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 204,
+    "name": "Nathalie Provost",
+    "benchRow": 7,
+    "chairCol": 7,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 205,
+    "name": "Ruby Sahota",
+    "benchRow": 7,
+    "chairCol": 8,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 206,
+    "name": "Buckley Belanger",
+    "benchRow": 7,
+    "chairCol": 9,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 207,
+    "name": "Jill McKnight",
+    "benchRow": 7,
+    "chairCol": 10,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 208,
+    "name": "Rebecca Chartrand",
+    "benchRow": 7,
+    "chairCol": 11,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 209,
+    "name": "Mark Gerretsen",
+    "benchRow": 7,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 210,
+    "name": "Anita Anand",
+    "benchRow": 7,
+    "chairCol": 13,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 211,
+    "name": "Rebecca Alty",
+    "benchRow": 7,
+    "chairCol": 14,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 212,
+    "name": "Mandy Gull-Masty",
+    "benchRow": 7,
+    "chairCol": 15,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 213,
+    "name": "Randeep Sarai",
+    "benchRow": 7,
+    "chairCol": 16,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 214,
+    "name": "Stephanie McLean",
+    "benchRow": 7,
+    "chairCol": 17,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 215,
+    "name": "Wayne Long",
+    "benchRow": 7,
+    "chairCol": 18,
+    "cabinet": true,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 216,
+    "name": "John Zerucelli",
+    "benchRow": 7,
+    "chairCol": 19,
+    "cabinet": true,
+    "pm": false
   },
   {
     "x": 574,
-    "y": 217.00029,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 217,
+    "name": "Madeleine Chenette",
+    "benchRow": 7,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 484,
-    "y": 4.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "x": 602,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 218,
+    "name": "Patricia Lattanzio",
+    "benchRow": 7,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 286.00015,
+    "x": 630,
+    "y": 240,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 219,
+    "name": "Yasir Naqvi",
+    "benchRow": 7,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 220,
+    "name": "Anthony Housefather",
+    "benchRow": 7,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 221,
+    "name": "Taleeb Noormohamed",
+    "benchRow": 7,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 222,
+    "name": "Marie-Gabrielle M\u00e9nard",
+    "benchRow": 7,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 223,
+    "name": "Terry Beech",
+    "benchRow": 7,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 224,
+    "name": "Judy A. Sgro",
+    "benchRow": 7,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 798,
+    "y": 240,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 225,
+    "name": "Terry Duguid",
+    "benchRow": 7,
+    "chairCol": 28,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 14,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 226,
+    "name": "Darren Fisher",
+    "benchRow": 8,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 42,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 227,
+    "name": "Sukh Dhaliwal",
+    "benchRow": 8,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 70,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 228,
+    "name": "Chris Bittle",
+    "benchRow": 8,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 229,
+    "name": "Shaun Chen",
+    "benchRow": 8,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 230,
+    "name": "Sophie Chatel",
+    "benchRow": 8,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 231,
+    "name": "Sherry Romanado",
+    "benchRow": 8,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 232,
+    "name": "Tim Louis",
+    "benchRow": 8,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 233,
+    "name": "Ali Ehsassi",
+    "benchRow": 8,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 234,
+    "name": "Wade Grant",
+    "benchRow": 8,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 235,
+    "name": "Carlos Leit\u00e3o",
+    "benchRow": 8,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 236,
+    "name": "Karim Bardeesy",
+    "benchRow": 8,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 237,
+    "name": "Arielle Kayabaga",
+    "benchRow": 8,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 238,
+    "name": "Kevin Lamoureux",
+    "benchRow": 8,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 239,
+    "name": "\u00c9lisabeth Bri\u00e8re",
+    "benchRow": 8,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 240,
+    "name": "Ryan Turnbull",
+    "benchRow": 8,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 241,
+    "name": "Mike Kelloway",
+    "benchRow": 8,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 242,
+    "name": "Claude Guay",
+    "benchRow": 8,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 243,
+    "name": "Corey Hogan",
+    "benchRow": 8,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 244,
+    "name": "Annie Koutrakis",
+    "benchRow": 8,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 245,
+    "name": "Maggie Chi",
+    "benchRow": 8,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
   },
   {
     "x": 574,
-    "y": 240.00027,
+    "y": 263,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 246,
+    "name": "David Myles",
+    "benchRow": 8,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 517,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "x": 602,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 247,
+    "name": "Serge Cormier",
+    "benchRow": 8,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 598,
-    "y": 309.00015,
+    "x": 630,
+    "y": 263,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 248,
+    "name": "Anju Dhillon",
+    "benchRow": 8,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 249,
+    "name": "Julie Dzerowicz",
+    "benchRow": 8,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 250,
+    "name": "Fay\u00e7al El-Khoury",
+    "benchRow": 8,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 251,
+    "name": "Greg Fergus",
+    "benchRow": 8,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 252,
+    "name": "Peter Fonseca",
+    "benchRow": 8,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 253,
+    "name": "Marilyn Gladu",
+    "benchRow": 8,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 798,
+    "y": 263,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 254,
+    "name": "Angelo Iacono",
+    "benchRow": 8,
+    "chairCol": 28,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 14,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 255,
+    "name": "Matt Jeneroux",
+    "benchRow": 9,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 42,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 256,
+    "name": "Iqra Khalid",
+    "benchRow": 9,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 70,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 257,
+    "name": "St\u00e9phane Lauzon",
+    "benchRow": 9,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 258,
+    "name": "James Maloney",
+    "benchRow": 9,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 259,
+    "name": "Jenna Sudds",
+    "benchRow": 9,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 260,
+    "name": "Caroline Desrochers",
+    "benchRow": 9,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 261,
+    "name": "Jennifer McKelvie",
+    "benchRow": 9,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 262,
+    "name": "Vince Gasparro",
+    "benchRow": 9,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 263,
+    "name": "Brendan Hanley",
+    "benchRow": 9,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 264,
+    "name": "Pauline Rochefort",
+    "benchRow": 9,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 265,
+    "name": "Sean Casey",
+    "benchRow": 9,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 266,
+    "name": "Kody Blois",
+    "benchRow": 9,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 267,
+    "name": "Rachel Bendayan",
+    "benchRow": 9,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 268,
+    "name": "Mona Fortier",
+    "benchRow": 9,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 269,
+    "name": "Robert Oliphant",
+    "benchRow": 9,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 270,
+    "name": "Jaime Battiste",
+    "benchRow": 9,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 271,
+    "name": "Ernie Klassen",
+    "benchRow": 9,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 272,
+    "name": "Ginette Lavack",
+    "benchRow": 9,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 273,
+    "name": "Jacques Ramsay",
+    "benchRow": 9,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 274,
+    "name": "Leslie Church",
+    "benchRow": 9,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
   },
   {
     "x": 574,
-    "y": 263.00015,
+    "y": 286,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 275,
+    "name": "Ron McKinnon",
+    "benchRow": 9,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 597.97247,
-    "y": 331.98541,
+    "x": 602,
+    "y": 286,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 276,
+    "name": "Robert Morrissey",
+    "benchRow": 9,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 517,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "x": 630,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 277,
+    "name": "Peter Schiefke",
+    "benchRow": 9,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 278,
+    "name": "Terry Sheehan",
+    "benchRow": 9,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 279,
+    "name": "Sonia Sidhu",
+    "benchRow": 9,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 280,
+    "name": "Anita Vandenbeld",
+    "benchRow": 9,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 281,
+    "name": "Salma Zahid",
+    "benchRow": 9,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 286,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 282,
+    "name": "Emmanuella Lambropoulos",
+    "benchRow": 9,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 14,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 283,
+    "name": "Jean Yip",
+    "benchRow": 10,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 42,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 284,
+    "name": "Yvan Baker",
+    "benchRow": 10,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 70,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 285,
+    "name": "Chris d'Entremont",
+    "benchRow": 10,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 286,
+    "name": "Marie-France Lalonde",
+    "benchRow": 10,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 287,
+    "name": "Marcus Powlowski",
+    "benchRow": 10,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 288,
+    "name": "Patrick Weiler",
+    "benchRow": 10,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 289,
+    "name": "Sameer Zuberi",
+    "benchRow": 10,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 290,
+    "name": "Doug Eyolfson",
+    "benchRow": 10,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 291,
+    "name": "Linda Lapointe",
+    "benchRow": 10,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 292,
+    "name": "Parm Bains",
+    "benchRow": 10,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 293,
+    "name": "Michael Coteau",
+    "benchRow": 10,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 294,
+    "name": "Iqwinder Gaheer",
+    "benchRow": 10,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 295,
+    "name": "Lisa Hepfner",
+    "benchRow": 10,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 296,
+    "name": "Lori Idlout",
+    "benchRow": 10,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 297,
+    "name": "Viviane Lapointe",
+    "benchRow": 10,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 298,
+    "name": "Charles Sousa",
+    "benchRow": 10,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 299,
+    "name": "Ben Carr",
+    "benchRow": 10,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 300,
+    "name": "Sima Acan",
+    "benchRow": 10,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 301,
+    "name": "Fares Al Soud",
+    "benchRow": 10,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 302,
+    "name": "Tatiana Auguste",
+    "benchRow": 10,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
   },
   {
     "x": 574,
-    "y": 286.00015,
+    "y": 309,
     "color": "#d71920",
-    "party": "Liberal"
+    "party": "Liberal",
+    "seatNumber": 303,
+    "name": "Wade Chang",
+    "benchRow": 10,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
   },
   {
-    "x": 484,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "x": 602,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 304,
+    "name": "Braedon Clark",
+    "benchRow": 10,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 630,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 305,
+    "name": "Paul Connors",
+    "benchRow": 10,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 306,
+    "name": "Marianne Dandurand",
+    "benchRow": 10,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 307,
+    "name": "John-Paul Danko",
+    "benchRow": 10,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 308,
+    "name": "Guillaume Desch\u00eanes-Th\u00e9riault",
+    "benchRow": 10,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 309,
+    "name": "Philip Earle",
+    "benchRow": 10,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 770,
+    "y": 309,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 310,
+    "name": "Jessica Fancy",
+    "benchRow": 10,
+    "chairCol": 27,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 14,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 311,
+    "name": "Bruce Fanjoy",
+    "benchRow": 11,
+    "chairCol": 0,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 42,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 312,
+    "name": "Will Greaves",
+    "benchRow": 11,
+    "chairCol": 1,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 70,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 313,
+    "name": "Emma Harrison",
+    "benchRow": 11,
+    "chairCol": 2,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 98,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 314,
+    "name": "Alana Hirtle",
+    "benchRow": 11,
+    "chairCol": 3,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 126,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 315,
+    "name": "Natilien Joseph",
+    "benchRow": 11,
+    "chairCol": 4,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 154,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 316,
+    "name": "Steeve Lavoie",
+    "benchRow": 11,
+    "chairCol": 5,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 182,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 317,
+    "name": "Michael Ma",
+    "benchRow": 11,
+    "chairCol": 6,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 210,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 318,
+    "name": "Kent MacDonald",
+    "benchRow": 11,
+    "chairCol": 7,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 238,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 319,
+    "name": "Chris Malette",
+    "benchRow": 11,
+    "chairCol": 8,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 266,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 320,
+    "name": "Shannon Miedema",
+    "benchRow": 11,
+    "chairCol": 9,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 294,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 321,
+    "name": "Giovanna Mingarelli",
+    "benchRow": 11,
+    "chairCol": 10,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 322,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 322,
+    "name": "Juanita Nathan",
+    "benchRow": 11,
+    "chairCol": 11,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 350,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 323,
+    "name": "Chi Nguyen",
+    "benchRow": 11,
+    "chairCol": 12,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 378,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 324,
+    "name": "Bienvenu-Olivier Ntumba",
+    "benchRow": 11,
+    "chairCol": 13,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 406,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 325,
+    "name": "Dominique O'Rourke",
+    "benchRow": 11,
+    "chairCol": 14,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 434,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 326,
+    "name": "Aslam Rana",
+    "benchRow": 11,
+    "chairCol": 15,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 462,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 327,
+    "name": "Zoe Royer",
+    "benchRow": 11,
+    "chairCol": 16,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 490,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 328,
+    "name": "Gurbux Saini",
+    "benchRow": 11,
+    "chairCol": 17,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 518,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 329,
+    "name": "Abdelhaq Sari",
+    "benchRow": 11,
+    "chairCol": 18,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 546,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 330,
+    "name": "Jake Sawatzky",
+    "benchRow": 11,
+    "chairCol": 19,
+    "cabinet": false,
+    "pm": false
   },
   {
     "x": 574,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 541,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 574,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 541,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 484,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 541,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 541,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 541,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 484,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 517,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 541,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 517,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 484,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 517,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 517,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 484,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 517,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 517,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 4.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 460,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 484,
-    "y": 217.00027,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 484,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 484,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 484,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 484,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 484,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 460,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 460,
-    "y": 217.00027,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 460,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 240.00027,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 217.00029,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 427,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 403,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 403,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 403,
-    "y": 240.00027,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 217.00029,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 427,
-    "y": 27.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 427,
-    "y": 4.00021,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 370,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 370,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 370,
-    "y": 240.00027,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 217.00029,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 240.00027,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 313,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 217.00029,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 313,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 27.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 289,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 313,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 403,
-    "y": 4.00021,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 256,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 289,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 256,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 256,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 232,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 346,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 232,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 256,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 232,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 256,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 199,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 232,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 27.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 256,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 199,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 313,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 175,
-    "y": 332.00006,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 232,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 199,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 175,
-    "y": 309.00006,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 232,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 313,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 175,
-    "y": 286.00006,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 142,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 370,
-    "y": 4.00021,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 142,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 175,
-    "y": 263.00006,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 118,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 313,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 142,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 27.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 175,
-    "y": 240.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 118,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 142,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 118,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 175,
-    "y": 217.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 256,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 313,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 141.91214,
-    "y": 240.05026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 118,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 61,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 142,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 118,
-    "y": 240.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 28,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 346,
-    "y": 4.00021,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 256,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 232,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 61,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 28,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 4,
-    "y": 332.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 118,
-    "y": 217.00026,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 289,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 85,
-    "y": 240.00023,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 4,
-    "y": 309.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 28,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 232,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 256,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61,
-    "y": 240.00023,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 85,
-    "y": 217.00023,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 4,
-    "y": 286.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 28,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 61,
-    "y": 217.00023,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 4,
-    "y": 263.00015,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 28,
-    "y": 240.0002,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 175,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 232,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 289,
-    "y": 27.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 256.03165,
-    "y": 50.04163,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 313,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 4,
-    "y": 240.00017,
-    "color": "#d71920",
-    "party": "Liberal"
-  },
-  {
-    "x": 175,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 142,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 231.9561,
-    "y": 50.08676,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 118,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 256,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 289,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 142,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 175,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 118,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 232,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61,
-    "y": 119.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 142,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 175,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 256,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 118,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61,
-    "y": 96.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 142,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 232,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 73.00008,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 28,
-    "y": 96.00009,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 175,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 118,
-    "y": 50.00007,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61,
-    "y": 73.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 4,
-    "y": 96.00009,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 199,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 142,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85.07574,
-    "y": 49.84893,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 28,
-    "y": 73.00009,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 4,
-    "y": 73.00009,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61.07574,
-    "y": 49.84901,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 118,
-    "y": 27.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 175,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 28.07573,
-    "y": 49.84895,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 27.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 4.07574,
-    "y": 49.84895,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 142,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61.07574,
-    "y": 27.26795,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 118,
-    "y": 4.00018,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 28.07573,
-    "y": 27.26789,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 4,
-    "y": 27.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 85,
-    "y": 4.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 61,
-    "y": 4.00015,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 28,
-    "y": 4.0002,
-    "color": "#1a4782",
-    "party": "Conservative"
-  },
-  {
-    "x": 4,
-    "y": 4.00017,
-    "color": "#1a4782",
-    "party": "Conservative"
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 331,
+    "name": "Amandeep Sodhi",
+    "benchRow": 11,
+    "chairCol": 20,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 602,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 332,
+    "name": "Eric St-Pierre",
+    "benchRow": 11,
+    "chairCol": 21,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 630,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 333,
+    "name": "Kristina Tesser Derksen",
+    "benchRow": 11,
+    "chairCol": 22,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 658,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 334,
+    "name": "Louis Villeneuve",
+    "benchRow": 11,
+    "chairCol": 23,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 686,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 335,
+    "name": "Tim Watchorn",
+    "benchRow": 11,
+    "chairCol": 24,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 714,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 336,
+    "name": "Doly Begum",
+    "benchRow": 11,
+    "chairCol": 25,
+    "cabinet": false,
+    "pm": false
+  },
+  {
+    "x": 742,
+    "y": 332,
+    "color": "#d71920",
+    "party": "Liberal",
+    "seatNumber": 337,
+    "name": "Danielle Martin",
+    "benchRow": 11,
+    "chairCol": 26,
+    "cabinet": false,
+    "pm": false
   }
 ]
