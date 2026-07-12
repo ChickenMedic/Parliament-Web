@@ -1,115 +1,842 @@
 [
-  { "name": "Hon. Raymonde Saint-Germain", "group": "Independent Senators Group", "color": "#845b87", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Yuen Pau Woo", "group": "Independent Senators Group", "color": "#845b87", "province": "BC", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Bernadette Clement", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Stanley Kutcher", "group": "Independent Senators Group", "color": "#845b87", "province": "NS", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Tony Loffreda", "group": "Independent Senators Group", "color": "#845b87", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2019" },
-  { "name": "Hon. Hassan Yussuff", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Rosemary Moodie", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Ratna Omidvar", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Frances Lankin", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Donna Dasko", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Colin Deacon", "group": "Independent Senators Group", "color": "#845b87", "province": "NS", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Chantal Petitclerc", "group": "Independent Senators Group", "color": "#845b87", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Gwen Boniface", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Lucie Moncion", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. René Cormier", "group": "Independent Senators Group", "color": "#845b87", "province": "NB", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Éric Forest", "group": "Independent Senators Group", "color": "#845b87", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Mary Coyle", "group": "Independent Senators Group", "color": "#845b87", "province": "NS", "appointedBy": "Justin Trudeau", "appointedDate": "2017" },
-  { "name": "Hon. Gigi Osler", "group": "Independent Senators Group", "color": "#845b87", "province": "MB", "appointedBy": "Justin Trudeau", "appointedDate": "2022" },
-  { "name": "Hon. Paul Prosper", "group": "Independent Senators Group", "color": "#845b87", "province": "NS", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-  { "name": "Hon. Judy White", "group": "Independent Senators Group", "color": "#845b87", "province": "NL", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-  { "name": "Hon. Michèle Audette", "group": "Independent Senators Group", "color": "#845b87", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Clément Gignac", "group": "Independent Senators Group", "color": "#845b87", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Amina Gerba", "group": "Independent Senators Group", "color": "#845b87", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Karen Sorensen", "group": "Independent Senators Group", "color": "#845b87", "province": "AB", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Marty Deacon", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Paula Simons", "group": "Independent Senators Group", "color": "#845b87", "province": "AB", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Patti LaBoucane-Benson", "group": "Independent Senators Group", "color": "#845b87", "province": "AB", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Peter Boehm", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Robert Black", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Martha Deacon", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Mohamed-Iqbal Ravalia", "group": "Independent Senators Group", "color": "#845b87", "province": "NL", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. David M. Arnot", "group": "Independent Senators Group", "color": "#845b87", "province": "SK", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Sharon Burey", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2022" },
-  { "name": "Hon. Andrew Cardozo", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2022" },
-  { "name": "Hon. Rebecca Patterson", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2022" },
-  { "name": "Hon. Iris Petten", "group": "Independent Senators Group", "color": "#845b87", "province": "NL", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-  { "name": "Hon. Joan Kingston", "group": "Independent Senators Group", "color": "#845b87", "province": "NB", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-  { "name": "Hon. John M. McNair", "group": "Independent Senators Group", "color": "#845b87", "province": "NB", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-  { "name": "Hon. Margo Greenwood", "group": "Independent Senators Group", "color": "#845b87", "province": "BC", "appointedBy": "Justin Trudeau", "appointedDate": "2022" },
-  { "name": "Hon. Paul Prosper", "group": "Independent Senators Group", "color": "#845b87", "province": "NS", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-  { "name": "Hon. Jane MacAdam", "group": "Independent Senators Group", "color": "#845b87", "province": "PE", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-  { "name": "Hon. Krista Outhwaite", "group": "Independent Senators Group", "color": "#845b87", "province": "ON", "appointedBy": "Justin Trudeau", "appointedDate": "2024" },
-
-  { "name": "Hon. Donald Plett", "group": "Conservative Party", "color": "#6495ed", "province": "MB", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. Leo Housakos", "group": "Conservative Party", "color": "#6495ed", "province": "QC", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. Claude Carignan", "group": "Conservative Party", "color": "#6495ed", "province": "QC", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. Denise Batters", "group": "Conservative Party", "color": "#6495ed", "province": "SK", "appointedBy": "Stephen Harper", "appointedDate": "2013" },
-  { "name": "Hon. Michael L. MacDonald", "group": "Conservative Party", "color": "#6495ed", "province": "NS", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. David Wells", "group": "Conservative Party", "color": "#6495ed", "province": "NL", "appointedBy": "Stephen Harper", "appointedDate": "2013" },
-  { "name": "Hon. Rose-May Poirier", "group": "Conservative Party", "color": "#6495ed", "province": "NB", "appointedBy": "Stephen Harper", "appointedDate": "2010" },
-  { "name": "Hon. Salma Ataullahjan", "group": "Conservative Party", "color": "#6495ed", "province": "ON", "appointedBy": "Stephen Harper", "appointedDate": "2010" },
-  { "name": "Hon. Victor Oh", "group": "Conservative Party", "color": "#6495ed", "province": "ON", "appointedBy": "Stephen Harper", "appointedDate": "2013" },
-  { "name": "Hon. Elizabeth Marshall", "group": "Conservative Party", "color": "#6495ed", "province": "NL", "appointedBy": "Stephen Harper", "appointedDate": "2010" },
-  { "name": "Hon. Fabian Manning", "group": "Conservative Party", "color": "#6495ed", "province": "NL", "appointedBy": "Stephen Harper", "appointedDate": "2011" },
-  { "name": "Hon. Yonah Martin", "group": "Conservative Party", "color": "#6495ed", "province": "BC", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. Cory Bernier", "group": "Conservative Party", "color": "#6495ed", "province": "QC", "appointedBy": "Stephen Harper", "appointedDate": "2015" },
-
-  { "name": "Hon. Scott Tannas", "group": "Canadian Senators Group", "color": "#386b87", "province": "AB", "appointedBy": "Stephen Harper", "appointedDate": "2013" },
-
-  { "name": "Hon. Jane Cordy", "group": "Progressive Senate Group", "color": "#386b67", "province": "NS", "appointedBy": "Jean Chrétien", "appointedDate": "2000" },
-  { "name": "Hon. Percy Downe", "group": "Progressive Senate Group", "color": "#386b67", "province": "PE", "appointedBy": "Jean Chrétien", "appointedDate": "2003" },
-  { "name": "Hon. Marty Klyne", "group": "Progressive Senate Group", "color": "#386b67", "province": "SK", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Sandra Lovelace Nicholas", "group": "Progressive Senate Group", "color": "#386b67", "province": "NB", "appointedBy": "Paul Martin", "appointedDate": "2005" },
-  { "name": "Hon. Brian Francis", "group": "Progressive Senate Group", "color": "#386b67", "province": "PE", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Margaret Dawn Anderson", "group": "Progressive Senate Group", "color": "#386b67", "province": "NT", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Wanda Thomas Bernard", "group": "Progressive Senate Group", "color": "#386b67", "province": "NS", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Pierre J. Dalphond", "group": "Progressive Senate Group", "color": "#386b67", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2018" },
-  { "name": "Hon. Mobina Jaffer", "group": "Progressive Senate Group", "color": "#386b67", "province": "BC", "appointedBy": "Jean Chrétien", "appointedDate": "2001" },
-  { "name": "Hon. Dennis Dawson", "group": "Progressive Senate Group", "color": "#386b67", "province": "QC", "appointedBy": "Paul Martin", "appointedDate": "2005" },
-  { "name": "Hon. Terry Mercer", "group": "Progressive Senate Group", "color": "#386b67", "province": "NS", "appointedBy": "Jean Chrétien", "appointedDate": "2003" },
-  { "name": "Hon. Patricia Bovey", "group": "Progressive Senate Group", "color": "#386b67", "province": "MB", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Serge Joyal", "group": "Progressive Senate Group", "color": "#386b67", "province": "QC", "appointedBy": "Jean Chrétien", "appointedDate": "1997" },
-  { "name": "Hon. Jim Munson", "group": "Progressive Senate Group", "color": "#386b67", "province": "ON", "appointedBy": "Jean Chrétien", "appointedDate": "2003" },
-  { "name": "Hon. Loffreda Anthony", "group": "Progressive Senate Group", "color": "#386b67", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2019" },
-  { "name": "Hon. Clement Gignac", "group": "Progressive Senate Group", "color": "#386b67", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2021" },
-  { "name": "Hon. Mary Robinson", "group": "Progressive Senate Group", "color": "#386b67", "province": "PE", "appointedBy": "Justin Trudeau", "appointedDate": "2024" },
-  { "name": "Hon. Judy White", "group": "Progressive Senate Group", "color": "#386b67", "province": "NL", "appointedBy": "Justin Trudeau", "appointedDate": "2023" },
-
-  { "name": "Hon. Marc Gold", "group": "Government Representative (Non-affiliated)", "color": "silver", "province": "QC", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Raymonde Gagné", "group": "Speaker of the Senate (Non-affiliated)", "color": "silver", "province": "MB", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Diane Bellemare", "group": "Non-affiliated", "color": "silver", "province": "QC", "appointedBy": "Stephen Harper", "appointedDate": "2012" },
-  { "name": "Hon. Dan Christmas", "group": "Non-affiliated", "color": "silver", "province": "NS", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Hon. Stephen Greene", "group": "Non-affiliated", "color": "silver", "province": "NS", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. Michael Duffy", "group": "Non-affiliated", "color": "silver", "province": "PE", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. Pamela Wallin", "group": "Non-affiliated", "color": "silver", "province": "SK", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-  { "name": "Hon. Patrick Brazeau", "group": "Non-affiliated", "color": "silver", "province": "QC", "appointedBy": "Stephen Harper", "appointedDate": "2009" },
-
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Vacant Seat", "group": "Vacant", "color": "white", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-
-  { "name": "Hon. Raymonde Gagné (Speaker)", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "MB", "appointedBy": "Justin Trudeau", "appointedDate": "2016" },
-  { "name": "Gerald Lafreniere (Clerk)", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Usher of the Black Rod", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Senate Page", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Senate Page", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Senate Page", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Senate Page", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Clerk Assistant", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Law Clerk & Parliamentary Counsel", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Table Officer", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Table Officer", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Table Officer", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Table Officer", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Table Officer", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Table Officer", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" },
-  { "name": "Table Officer", "group": "Speaker / Clerk / Officers", "color": "#5b081d", "province": "N/A", "appointedBy": "N/A", "appointedDate": "N/A" }
+ {
+  "name": "Pierrette Ringuette",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NB",
+  "appointedBy": "Jean Chrétien",
+  "appointedDate": "2002"
+ },
+ {
+  "name": "Percy Downe",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "PE",
+  "appointedBy": "Jean Chrétien",
+  "appointedDate": "2003"
+ },
+ {
+  "name": "Michael L. MacDonald",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "NS",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2009"
+ },
+ {
+  "name": "Yonah Martin",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "BC",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2009"
+ },
+ {
+  "name": "Pamela Wallin",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "SK",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2009"
+ },
+ {
+  "name": "Patrick Brazeau",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "QC (Repentigny)",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2009"
+ },
+ {
+  "name": "Leo Housakos",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "QC (Wellington)",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2009"
+ },
+ {
+  "name": "Claude Carignan",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "QC (Mille Isles)",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2009"
+ },
+ {
+  "name": "Rose-May Poirier",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "NB",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2010"
+ },
+ {
+  "name": "Salma Ataullahjan",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "ON",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2010"
+ },
+ {
+  "name": "Fabian Manning",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "NL",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2011"
+ },
+ {
+  "name": "Josée Verner",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "QC (Montarville)",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2011"
+ },
+ {
+  "name": "Denise Batters",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "SK",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2013"
+ },
+ {
+  "name": "David Wells",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "NL",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2013"
+ },
+ {
+  "name": "Scott Tannas",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "AB",
+  "appointedBy": "Stephen Harper",
+  "appointedDate": "2013"
+ },
+ {
+  "name": "Peter Harder",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Raymonde Gagné",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "MB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Chantal Petitclerc",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (Grandville)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Wanda Thomas Bernard",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "René Cormier",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Tony Dean",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Marilou McPhedran",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "MB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Lucie Moncion",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Kim Pate",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Yuen Pau Woo",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "BC",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Éric Forest",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (Gulf)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Raymonde Saint-Germain",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (De la Vallière)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Rosa Galvez",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (Bedford)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2016"
+ },
+ {
+  "name": "Mary Coyle",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2017"
+ },
+ {
+  "name": "Mary Jane McCallum",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "MB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2017"
+ },
+ {
+  "name": "Robert Black",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Marty Deacon",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Yvonne Boyer",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Mohamed-Iqbal Ravalia",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NL",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Pierre Dalphond",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (De Lorimier)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Donna Dasko",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Colin Deacon",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Julie Miville-Dechêne",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "QC (Inkerman)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Bev Busson",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "BC",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Marty Klyne",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "SK",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Peter Boehm",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Patti LaBoucane-Benson",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "AB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Paula Simons",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "AB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Brian Francis",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "PE",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Dawn Anderson",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "NT",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Pat Duncan",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "YT",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Stan Kutcher",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Rosemary Moodie",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2018"
+ },
+ {
+  "name": "Tony Loffreda",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (Shawinegan)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2019"
+ },
+ {
+  "name": "Bernadette Clement",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "Jim Quinn",
+  "group": "Conservative",
+  "color": "#1a4782",
+  "province": "NB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "Hassan Yussuff",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "David Arnot",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "SK",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "Michèle Audette",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "QC (De Salaberry)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "Amina Gerba",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "QC (Rigaud)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "Clément Gignac",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "QC (Kennebec)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "Karen Sorensen",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "AB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2021"
+ },
+ {
+  "name": "Flordeliz (Gigi) Osler",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "MB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2022"
+ },
+ {
+  "name": "Margo Greenwood",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "BC",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2022"
+ },
+ {
+  "name": "Sharon Burey",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2022"
+ },
+ {
+  "name": "Andrew Cardozo",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2022"
+ },
+ {
+  "name": "Rebecca Patterson",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2022"
+ },
+ {
+  "name": "Jane MacAdam",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "PE",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Iris Petten",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "NL",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Paul (PJ) Prosper",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Judy White",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "NL",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Réjean Aucoin",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Rodger Cuzner",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Joan Kingston",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "John McNair",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Krista Ross",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "NB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Marnie McBean",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Paulette Senior",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Toni Varone",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2023"
+ },
+ {
+  "name": "Mary Robinson",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "PE",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Mohammad Al Zaibak",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Manuelle Oudar",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (La Salle)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Victor Boudreau",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Charles Adler",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "MB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Tracy Muggli",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "SK",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Daryl Fridhandler",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "AB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Kristopher Wells",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "AB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Pierre Moreau",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "QC (The Laurentides)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Suze Youance",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (Lauzon)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Nancy Karetak-Lindell",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NU",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Allister Surette",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2024"
+ },
+ {
+  "name": "Baltej Dhillon",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "BC",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Martine Hébert",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "QC (Victoria)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Todd Lewis",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "SK",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Danièle Henkel",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "QC (Alma)",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Duncan Wilson",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "BC",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Dawn Arnold",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "NB",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Katherine Hay",
+  "group": "Progressive Senate Group",
+  "color": "#e83e8c",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Tony Ince",
+  "group": "Canadian Senators Group",
+  "color": "#6f42c1",
+  "province": "NS",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Farah Mohamed",
+  "group": "Independent Senators Group",
+  "color": "#4a90e2",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Sandra Pupatello",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "ON",
+  "appointedBy": "Trudeau, J.",
+  "appointedDate": "2025"
+ },
+ {
+  "name": "Richard Martel",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "QC",
+  "appointedBy": "Mark Carney",
+  "appointedDate": "2026"
+ },
+ {
+  "name": "Rodney Ouellette",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "NB",
+  "appointedBy": "Mark Carney",
+  "appointedDate": "2026"
+ },
+ {
+  "name": "Thomas Pitfield",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "QC",
+  "appointedBy": "Mark Carney",
+  "appointedDate": "2026"
+ },
+ {
+  "name": "Geeta Tucker",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "MB",
+  "appointedBy": "Mark Carney",
+  "appointedDate": "2026"
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ }
 ]

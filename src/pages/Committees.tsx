@@ -2,27 +2,22 @@ import { useState, useMemo } from 'react';
 import './PageStyles.css';
 import politiciansData from '../data/politicians.json';
 
-interface CommitteeStudy {
-  title: string;
-  topic: string;
-  meetingDate: string;
-  youtubeUrl: string;
-}
-
 interface Committee {
   id: string;
   name: string;
   desc: string;
+  url: string;
+  workUrl: string;
   chairName: string;
   viceChairs: string[];
   members: string[];
-  studies: CommitteeStudy[];
+  parties: Record<string, string>;
   partySeats: Record<string, number>;
 }
 
 import committeesFull from '../data/committees_full.json';
 
-const COMMITTEES_DATA: Committee[] = committeesFull as Committee[];
+const COMMITTEES_DATA: Committee[] = committeesFull as unknown as Committee[];
 
 const getPartyColor = (party: string) => {
   switch (party.toLowerCase()) {
@@ -31,6 +26,7 @@ const getPartyColor = (party: string) => {
     case 'ndp': return '#f37021';
     case 'bloc québécois':
     case 'bloc': return '#33b2cc';
+    case 'green party':
     case 'green': return '#3d9b35';
     default: return '#808080';
   }
@@ -47,39 +43,8 @@ export const Committees = () => {
   const [selectedId, setSelectedId] = useState('FINA');
   const politicians = politiciansData.objects as any[];
 
-  // Local comments state, initialized with realistic contributions
-  const [comments, setComments] = useState<Record<string, UserComment[]>>({
-    'FINA': [
-      { id: 'fina-1', author: 'Darren K.', date: 'May 28, 2026', content: 'Pre-budget consultations need to address the rising cost of childcare. Subsidies are great, but waitlists are too long.' },
-      { id: 'fina-2', author: 'Sarah M.', date: 'May 30, 2026', content: 'Inflation is hitting seniors hard. We need to look at increasing the GIS threshold.' },
-      { id: 'fina-3', author: 'James R.', date: 'May 31, 2026', content: 'We need mortgage reform immediately. Floating rates are crushing middle class homeowners.' }
-    ],
-    'HESA': [
-      { id: 'hesa-1', author: 'Dr. Evelyn R.', date: 'May 29, 2026', content: 'The nursing shortage cannot be fixed without provincial agreements on overtime pay and credentials verification.' },
-      { id: 'hesa-2', author: 'Mark T.', date: 'May 30, 2026', content: 'Pharmacare rollout is too slow. Only covering diabetes and contraceptives is a drop in the bucket.' }
-    ],
-    'FAAE': [
-      { id: 'faae-1', author: 'Aris V.', date: 'May 27, 2026', content: 'Arctic Sovereignty is going to be the major geopolitical issue of the next decade. Glad to see they are auditing military capability up North.' }
-    ],
-    'NDDN': [
-      { id: 'nddn-1', author: 'Captain G. (Ret.)', date: 'May 29, 2026', content: 'The F-35 purchase has been delayed for fifteen years under various governments. Just build the base hangers and finalize delivery.' }
-    ],
-    'PACP': [
-      { id: 'pacp-1', author: 'Taxpayer Advocate', date: 'May 26, 2026', content: 'The ArriveCAN app is a symptom of a much larger problem. Government IT consulting procurement is a complete black box.' }
-    ],
-    'ENVI': [
-      { id: 'envi-1', author: 'Chloe S.', date: 'May 30, 2026', content: 'Microplastics in the Great Lakes should be treated with the same urgency as carbon pricing. The ecosystem damage is irreversible.' }
-    ],
-    'JUST': [
-      { id: 'just-1', author: 'Legal Aid Counsel', date: 'May 28, 2026', content: 'Court backlogs are causing active Charter violations because suspects are waiting years for their day in court.' }
-    ],
-    'RNNR': [
-      { id: 'rnnr-1', author: 'Gilles P.', date: 'May 29, 2026', content: 'We cannot talk about critical mineral supply chains without building the road infrastructure into the Ring of Fire.' }
-    ],
-    'ETHI': [
-      { id: 'ethi-1', author: 'Transparency Coalition', date: 'May 29, 2026', content: 'Conflict of interest laws must have teeth. A fine of $500 for failing to report a gift is an absolute joke.' }
-    ]
-  });
+  // Local-only comments; starts empty (no seeded content).
+  const [comments, setComments] = useState<Record<string, UserComment[]>>({});
 
   const [newAuthor, setNewAuthor] = useState('');
   const [newText, setNewText] = useState('');
@@ -92,8 +57,18 @@ export const Committees = () => {
     return comments[selectedId] || [];
   }, [comments, selectedId]);
 
+  // Names on ourcommons.ca and openparliament.ca can differ slightly
+  // ("Jasraj Hallan" vs "Jasraj Singh Hallan"), so fall back to a
+  // token-subset match when the exact name misses.
   const findMP = (name: string) => {
-    return politicians.find(p => p.name.toLowerCase().trim() === name.toLowerCase().trim()) || null;
+    const target = name.toLowerCase().trim();
+    const exact = politicians.find(p => p.name.toLowerCase().trim() === target);
+    if (exact) return exact;
+    const tokens = new Set(target.split(/\s+/));
+    return politicians.find(p => {
+      const ptokens = (p.name.toLowerCase() as string).split(/\s+/);
+      return ptokens.every(t => tokens.has(t)) || [...tokens].every(t => ptokens.includes(t));
+    }) || null;
   };
 
   const handleCommentSubmit = (e: React.FormEvent) => {
@@ -118,7 +93,10 @@ export const Committees = () => {
 
   const renderMPCard = (name: string, role: string) => {
     const mp = findMP(name);
-    const party = mp ? mp.current_party.short_name.en : 'Independent';
+    // The scraped roster carries the authoritative party; MP lookup is only
+    // used for the photo.
+    const party = selectedCommittee.parties?.[name]
+      || (mp ? mp.current_party.short_name.en : 'Independent');
     const color = getPartyColor(party);
     
     return (
@@ -205,7 +183,8 @@ export const Committees = () => {
               <div style={{ fontSize: '11px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)', marginBottom: '8px' }}>Committee Seat Distribution</div>
               <div style={{ display: 'flex', height: '18px', borderRadius: '9px', overflow: 'hidden', width: '100%', background: 'rgba(255,255,255,0.1)' }}>
                 {Object.entries(selectedCommittee.partySeats).map(([party, seats]) => {
-                  const percent = (seats / 11) * 100;
+                  const total = Object.values(selectedCommittee.partySeats).reduce((a, b) => a + b, 0);
+                  const percent = (seats / total) * 100;
                   return (
                     <div 
                       key={party} 
@@ -246,77 +225,25 @@ export const Committees = () => {
               </div>
             </div>
 
-            {/* Current Studies Panel */}
+            {/* Official resources */}
             <div style={{ flex: 1.5, minWidth: '320px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-              <h3 style={{ margin: 0, fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-secondary)', letterSpacing: '1px' }}>Active Committee Studies</h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-                {selectedCommittee.studies.map((study, idx) => (
-                  <div 
-                    key={idx} 
-                    style={{ 
-                      background: 'rgba(255,255,255,0.03)', 
-                      border: '1px solid rgba(255,255,255,0.08)', 
-                      padding: '18px', 
-                      borderRadius: '12px',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '10px',
-                      transition: 'transform 0.2s, border-color 0.2s',
-                      boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = 'translateY(-2px)';
-                      e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = 'translateY(0)';
-                      e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)';
-                    }}
-                  >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                      <span style={{ fontSize: '9px', fontWeight: 'bold', background: 'rgba(76, 175, 80, 0.15)', border: '1px solid rgba(76, 175, 80, 0.3)', color: '#81c784', padding: '2px 6px', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Active Investigation</span>
-                      <span style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', fontWeight: 'bold' }}>Study #{idx + 1}</span>
-                    </div>
-                    
-                    <h4 style={{ margin: 0, fontSize: '15px', color: 'white', fontWeight: 'bold', lineHeight: '1.3' }}>{study.title}</h4>
-                    <p style={{ margin: 0, fontSize: '12px', color: 'rgba(255,255,255,0.65)', lineHeight: '1.5' }}>{study.topic}</p>
-                    
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '10px', marginTop: '4px', flexWrap: 'wrap', gap: '8px' }}>
-                      <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.5)' }}>
-                        📅 Next Hearing: <strong style={{ color: 'white' }}>{study.meetingDate}</strong>
-                      </div>
-                      <a 
-                        href={study.youtubeUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                          fontSize: '11px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '6px',
-                          color: '#ff4d4d',
-                          textDecoration: 'none',
-                          background: 'rgba(255, 77, 77, 0.1)',
-                          border: '1px solid rgba(255, 77, 77, 0.25)',
-                          padding: '4px 10px',
-                          borderRadius: '6px',
-                          fontWeight: 'bold',
-                          transition: 'all 0.2s'
-                        }}
-                        onMouseOver={(e) => {
-                          e.currentTarget.style.background = 'rgba(255, 77, 77, 0.25)';
-                          e.currentTarget.style.color = '#ff6666';
-                        }}
-                        onMouseOut={(e) => {
-                          e.currentTarget.style.background = 'rgba(255, 77, 77, 0.1)';
-                          e.currentTarget.style.color = '#ff4d4d';
-                        }}
-                      >
-                        🎥 Watch Broadcast ↗
-                      </a>
-                    </div>
-                  </div>
-                ))}
+              <h3 style={{ margin: 0, fontSize: '14px', textTransform: 'uppercase', color: 'var(--text-secondary)', letterSpacing: '1px' }}>Current Work</h3>
+              <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)', padding: '18px', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <p style={{ margin: 0, fontSize: '13px', color: 'rgba(255,255,255,0.7)', lineHeight: '1.5' }}>
+                  Studies, activities, and reports for this committee are published on the official
+                  House of Commons committee site, along with meeting schedules and webcasts.
+                </p>
+                <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+                  <a href={selectedCommittee.workUrl} target="_blank" rel="noopener noreferrer" style={{ fontSize: '12px', padding: '8px 14px', background: 'var(--accent-color)', color: 'white', textDecoration: 'none', borderRadius: '6px', fontWeight: 'bold' }}>
+                    Studies &amp; Reports ↗
+                  </a>
+                  <a href={`https://www.ourcommons.ca/committees/en/${selectedCommittee.id}/Meetings`} target="_blank" rel="noopener noreferrer" style={{ fontSize: '12px', padding: '8px 14px', background: 'rgba(255,255,255,0.08)', color: 'white', textDecoration: 'none', borderRadius: '6px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.15)' }}>
+                    Meetings ↗
+                  </a>
+                  <a href={selectedCommittee.url} target="_blank" rel="noopener noreferrer" style={{ fontSize: '12px', padding: '8px 14px', background: 'rgba(255,255,255,0.08)', color: 'white', textDecoration: 'none', borderRadius: '6px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.15)' }}>
+                    Committee Home ↗
+                  </a>
+                </div>
               </div>
             </div>
 

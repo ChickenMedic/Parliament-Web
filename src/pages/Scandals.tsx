@@ -55,32 +55,7 @@ export const Scandals = () => {
   const [successMsg, setSuccessMsg] = useState('');
 
   // Scandal comments state
-  const [scandalComments, setScandalComments] = useState<Record<string, ScandalComment[]>>({
-    'SCANDAL-01': [
-      { id: 'sc1-1', author: 'Arthur P.', date: 'May 28, 2026', content: "The Auditor General’s report was devastating. How does a company with two employees get a $20M contract without competition?" },
-      { id: 'sc1-2', author: 'Elise B.', date: 'May 29, 2026', content: "This is what happens when public services are hollowed out and replaced with high-priced consultants." }
-    ],
-    'SCANDAL-02': [
-      { id: 'sc2-1', author: 'Geoff H.', date: 'May 29, 2026', content: "The Hogue Commission needs to release the names of the MPs who allegedly collaborated with foreign governments." },
-      { id: 'sc2-2', author: 'T. MacLean', date: 'May 30, 2026', content: "Election security is non-partisan. We need to lock down our social networks and secure party nomination rules." }
-    ],
-    'SCANDAL-03': [
-      { id: 'sc3-1', author: 'Marie-Eve L.', date: 'May 28, 2026', content: "SDTC green slush fund was audited multiple times and they still approved millions to companies owned by board members. Absolute failure of oversight." }
-    ],
-    'SCANDAL-04': [
-      { id: 'sc4-1', author: 'Ottawa_Resident', date: 'May 29, 2026', content: "The convoy blockade was an illegal occupation of our capital city. MPs who endorsed the blockade were irresponsible." },
-      { id: 'sc4-2', author: 'LegalScholar', date: 'May 30, 2026', content: "The Emergencies Act invocation was ruled justified, but the standard for invoking it should be extremely high." }
-    ],
-    'SCANDAL-05': [
-      { id: 'sc5-1', author: 'PolSciStudent', date: 'May 29, 2026', content: "Elections Canada audits need to be faster. Releasing audits two years after a vote is useless." }
-    ],
-    'SCANDAL-06': [
-      { id: 'sc6-1', author: 'L. Dupont', date: 'May 29, 2026', content: "Dental care and pharmacare were long overdue. The NDP got concrete wins for ordinary Canadians." }
-    ],
-    'SCANDAL-07': [
-      { id: 'sc7-1', author: 'FiscalWatcher', date: 'May 29, 2026', content: "Increasing pension benefits for seniors is great, but doing it by threatening non-confidence votes during inflation is risky policy." }
-    ]
-  });
+  const [scandalComments, setScandalComments] = useState<Record<string, ScandalComment[]>>({});
 
   // Citizen Policy Reform Suggestions
   const [policies, setPolicies] = useState([

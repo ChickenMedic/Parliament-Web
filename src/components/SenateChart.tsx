@@ -1,79 +1,68 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
-import senateSeatingData from '../data/senate_seating.json';
 import senatorsData from '../data/senators.json';
 
-const getSenateColor = (color: string) => {
-  // Map SVG colors to nicer hex codes or keep them
-  // #5b081d -> Speaker/Clerk
-  // #845b87 -> Independent Senators Group (ISG)
-  // #6495ed -> Conservative
-  // #386b87 -> Canadian Senators Group (CSG)
-  // silver -> Non-affiliated
-  // white -> Vacant
-  // #386b67 -> Progressive Senate Group (PSG)
-  if (color === '#845b87') return '#4a90e2'; // ISG
-  if (color === '#6495ed') return '#1a4782'; // Conservative
-  if (color === '#386b67') return '#e83e8c'; // PSG
-  if (color === '#386b87') return '#6f42c1'; // CSG
-  if (color === 'silver') return '#808080'; // Non-affiliated
-  if (color === 'white') return '#222222'; // Vacant
-  return color; // Speaker defaults
-};
+interface Senator {
+  name: string;
+  group: string;
+  color: string;
+  province: string;
+  appointedBy: string;
+  appointedDate: string;
+}
 
-const getSenateGroupName = (color: string) => {
-  if (color === '#845b87') return 'Independent Senators Group';
-  if (color === '#6495ed') return 'Conservative';
-  if (color === '#386b67') return 'Progressive Senate Group';
-  if (color === '#386b87') return 'Canadian Senators Group';
-  if (color === 'silver') return 'Non-affiliated';
-  if (color === 'white') return 'Vacant';
-  return 'Speaker / Clerk / Officer';
+// Order in which groups are seated (Conservatives on the Speaker's left,
+// matching their role as opposition; the independent groups fill the rest).
+const GROUP_ORDER = [
+  'Conservative',
+  'Canadian Senators Group',
+  'Progressive Senate Group',
+  'Independent Senators Group',
+  'Non-affiliated',
+  'Vacant',
+];
+
+const CHART_W = 230;
+const CHART_H = 600;
+const SEAT = 16;
+
+/** Generated Senate chamber: two banks of desks facing each other across the
+ * centre aisle, Speaker's chair at the head. One desk per senator (105). */
+const buildSeats = (senators: Senator[]) => {
+  const sorted = [...senators].sort(
+    (a, b) => GROUP_ORDER.indexOf(a.group) - GROUP_ORDER.indexOf(b.group),
+  );
+
+  // 3 columns per side, 18 rows: 54 desks per side, 108 slots for 105 entries.
+  const positions: { x: number; y: number }[] = [];
+  const rows = 18;
+  const rowPitch = 29;
+  const colPitch = 25;
+  const topMargin = 60;
+  for (let side = 0; side < 2; side++) {
+    for (let col = 0; col < 3; col++) {
+      for (let row = 0; row < rows; row++) {
+        const x = side === 0 ? 14 + col * colPitch : CHART_W - 14 - SEAT - col * colPitch;
+        positions.push({ x, y: topMargin + row * rowPitch });
+      }
+    }
+  }
+
+  // Left bank (side 0) first: Conservatives and CSG; then right bank.
+  return sorted.map((senator, i) => ({ ...positions[i], senator, id: i }));
 };
 
 export const SenateChart = () => {
   const [hoveredSeat, setHoveredSeat] = useState<number | null>(null);
-
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
 
-  const seatsWithSenators = useMemo(() => {
-    const senatorsByColor: Record<string, any[]> = {};
-    senatorsData.forEach(senator => {
-      const col = senator.color;
-      if (!senatorsByColor[col]) senatorsByColor[col] = [];
-      senatorsByColor[col].push(senator);
-    });
-
-    return senateSeatingData.map((seat: any, index: number) => {
-      let assignedSenator = null;
-      const col = seat.color;
-      if (senatorsByColor[col] && senatorsByColor[col].length > 0) {
-        assignedSenator = senatorsByColor[col].shift();
-      } else {
-        assignedSenator = {
-          name: seat.color === 'white' ? 'Vacant Seat' : `Senator ${index + 1}`,
-          group: getSenateGroupName(seat.color),
-          province: 'N/A',
-          appointedBy: 'N/A',
-          appointedDate: 'N/A'
-        };
-      }
-      return {
-        ...seat,
-        id: index,
-        senator: assignedSenator
-      };
-    });
-  }, []);
-
+  const seats = useMemo(() => buildSeats(senatorsData as Senator[]), []);
 
   useEffect(() => {
     const resizeObserver = new ResizeObserver(entries => {
-      for (let entry of entries) {
+      for (const entry of entries) {
         const { width, height } = entry.contentRect;
-        const scaleX = width / 250;
-        const scaleY = height / 640;
-        setScale(Math.min(scaleX, scaleY, 1));
+        setScale(Math.min(width / (CHART_W + 20), height / (CHART_H + 40), 1));
       }
     });
     if (containerRef.current) {
@@ -82,81 +71,82 @@ export const SenateChart = () => {
     return () => resizeObserver.disconnect();
   }, []);
 
+  const hovered = hoveredSeat !== null ? seats[hoveredSeat] : null;
+
   return (
     <div ref={containerRef} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', flex: 1, minHeight: '100%', overflow: 'hidden' }}>
       <div style={{ width: 0, height: 0, position: 'relative' }}>
-        <div style={{ position: 'absolute', width: '230px', height: '600px', left: '-115px', top: '-300px', transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
+        <div style={{ position: 'absolute', width: `${CHART_W}px`, height: `${CHART_H}px`, left: `${-CHART_W / 2}px`, top: `${-CHART_H / 2}px`, transform: `scale(${scale})`, transformOrigin: 'center', transition: 'transform 0.1s ease-out' }}>
           <div style={{ position: 'absolute', width: '100%', height: '100%', filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.5))' }}>
-          {senateSeatingData.map((seat: any, index: number) => {
-            const isHovered = hoveredSeat === index;
-            const fill = getSenateColor(seat.color);
-            
-            // viewBox="-80 50 600 230"
-            const norm_x = seat.x + 80;
-            const norm_y = seat.y - 50;
-            const rotatedX = 230 - norm_y - 18;
-            const rotatedY = norm_x;
-            
-            return (
-              <div
-                key={index}
-                style={{
-                  position: 'absolute',
-                  left: rotatedX,
-                  top: rotatedY,
-                  width: '18px',
-                  height: '18px',
-                  backgroundColor: fill,
-                  borderRadius: '4px',
-                  opacity: isHovered ? 1 : 0.8,
-                  border: isHovered ? '2px solid white' : 'none',
-                  boxSizing: 'border-box',
-                  cursor: 'pointer',
-                  transition: 'all 0.2s ease',
-                  transform: isHovered ? 'scale(1.2)' : 'scale(1)',
-                  zIndex: isHovered ? 10 : 1
-                }}
-                onMouseEnter={() => setHoveredSeat(index)}
-                onMouseLeave={() => setHoveredSeat(null)}
-              />
-            );
-          })}
-        </div>
+            {/* Speaker's chair */}
+            <div
+              title="Speaker of the Senate"
+              style={{ position: 'absolute', left: `${CHART_W / 2 - 14}px`, top: '14px', width: '28px', height: '20px', background: '#5b081d', border: '1.5px solid #d4af37', borderRadius: '4px' }}
+            />
+            <div style={{ position: 'absolute', left: 0, right: 0, top: '38px', textAlign: 'center', fontSize: '8px', letterSpacing: '1px', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase' }}>
+              Speaker
+            </div>
 
-        {/* HTML Hover Tooltip Overlay */}
-        {hoveredSeat !== null && seatsWithSenators[hoveredSeat] && (
-          <div style={{
-            position: 'absolute',
-            left: 230 - (senateSeatingData[hoveredSeat].y - 50) - 18 + 9, // rotatedX + 9
-            top: senateSeatingData[hoveredSeat].x + 80 - 10,              // rotatedY - 10
-            transform: 'translate(-50%, -100%)',
-            background: 'rgba(20,25,35,0.95)',
-            backdropFilter: 'blur(10px)',
-            border: '1px solid rgba(255,255,255,0.2)',
-            padding: '12px',
-            borderRadius: '8px',
-            pointerEvents: 'none',
-            zIndex: 1000,
-            boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
-            minWidth: '220px'
-          }}>
-            <div style={{ fontWeight: 'bold', color: 'white', marginBottom: '4px', textAlign: 'center', fontSize: '13px' }}>
-              {seatsWithSenators[hoveredSeat].senator.name}
-            </div>
-            <div style={{ fontSize: '11px', color: getSenateColor(senateSeatingData[hoveredSeat].color), fontWeight: 'bold', textAlign: 'center', marginBottom: '6px' }}>
-              {seatsWithSenators[hoveredSeat].senator.group}
-            </div>
-            {seatsWithSenators[hoveredSeat].senator.province !== 'N/A' && (
-              <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.7)', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '2px', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '6px' }}>
-                <div><strong>Province:</strong> {seatsWithSenators[hoveredSeat].senator.province}</div>
-                <div><strong>Appointed by:</strong> {seatsWithSenators[hoveredSeat].senator.appointedBy} ({seatsWithSenators[hoveredSeat].senator.appointedDate})</div>
-              </div>
-            )}
-            <div style={{ fontSize: '9px', color: 'rgba(255,255,255,0.4)', textAlign: 'center', marginTop: '6px' }}>
-              Seat {hoveredSeat + 1}
-            </div>
+            {seats.map(seat => {
+              const isHovered = hoveredSeat === seat.id;
+              return (
+                <div
+                  key={seat.id}
+                  style={{
+                    position: 'absolute',
+                    left: seat.x,
+                    top: seat.y,
+                    width: `${SEAT}px`,
+                    height: `${SEAT}px`,
+                    backgroundColor: seat.senator.color,
+                    borderRadius: '4px',
+                    opacity: isHovered ? 1 : seat.senator.group === 'Vacant' ? 0.5 : 0.85,
+                    border: isHovered ? '2px solid white' : 'none',
+                    boxSizing: 'border-box',
+                    cursor: 'pointer',
+                    transition: 'all 0.15s ease',
+                    transform: isHovered ? 'scale(1.25)' : 'scale(1)',
+                    zIndex: isHovered ? 10 : 1,
+                  }}
+                  onMouseEnter={() => setHoveredSeat(seat.id)}
+                  onMouseLeave={() => setHoveredSeat(null)}
+                />
+              );
+            })}
           </div>
-        )}
+
+          {hovered && (
+            <div style={{
+              position: 'absolute',
+              left: hovered.x + SEAT / 2,
+              top: hovered.y - 10,
+              transform: 'translate(-50%, -100%)',
+              background: 'rgba(20,25,35,0.95)',
+              backdropFilter: 'blur(10px)',
+              border: '1px solid rgba(255,255,255,0.2)',
+              padding: '12px',
+              borderRadius: '8px',
+              pointerEvents: 'none',
+              zIndex: 1000,
+              boxShadow: '0 8px 20px rgba(0,0,0,0.4)',
+              minWidth: '220px',
+            }}>
+              <div style={{ fontWeight: 'bold', color: 'white', marginBottom: '4px', textAlign: 'center', fontSize: '13px' }}>
+                {hovered.senator.name}
+              </div>
+              <div style={{ fontSize: '11px', color: hovered.senator.color, fontWeight: 'bold', textAlign: 'center', marginBottom: '6px' }}>
+                {hovered.senator.group}
+              </div>
+              {hovered.senator.province && (
+                <div style={{ fontSize: '10px', color: 'rgba(255,255,255,0.7)', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '2px', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '6px' }}>
+                  <div><strong>Province:</strong> {hovered.senator.province}</div>
+                  {hovered.senator.appointedBy && (
+                    <div><strong>Appointed by:</strong> {hovered.senator.appointedBy} ({hovered.senator.appointedDate})</div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>

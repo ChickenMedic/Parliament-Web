@@ -1,0 +1,78 @@
+{
+  "pm": {
+    "name": "Mark Carney",
+    "honorific": "The Right Honourable",
+    "title": "Prime Minister of Canada",
+    "party": "Liberal",
+    "riding": "Nepean, ON",
+    "leaderSince": "March 14, 2025",
+    "bio": "Prime Minister since March 14, 2025 and MP for Nepean since the April 2025 general election. Before entering politics he served as Governor of the Bank of Canada (2008–2013) and Governor of the Bank of England (2013–2020), and as UN Special Envoy on Climate Action and Finance.",
+    "ratings": [
+      {
+        "pollster": "Angus Reid Institute",
+        "value": "55%",
+        "metric": "Approve of the Prime Minister",
+        "detail": "Third consecutive decline since the February 2026 peak",
+        "date": "June 11, 2026",
+        "url": "https://angusreid.org/federal-politics-canadians-cooling-on-carney-as-gap-narrows-between-liberals-and-cpc/",
+        "tone": "positive"
+      },
+      {
+        "pollster": "Léger",
+        "value": "57%",
+        "metric": "Satisfied with the federal government",
+        "detail": "Up 3 points from June 1; 36% dissatisfied",
+        "date": "June 22, 2026",
+        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
+        "tone": "positive"
+      },
+      {
+        "pollster": "Nanos Research",
+        "value": "50.8%",
+        "metric": "Preferred Prime Minister",
+        "detail": "4-week rolling average; Poilievre at 23.7%",
+        "date": "Week ending July 3, 2026",
+        "url": "https://nanos.co/category/political-tracking/",
+        "tone": "positive"
+      }
+    ]
+  },
+  "opposition": {
+    "name": "Pierre Poilievre",
+    "honorific": "The Honourable",
+    "title": "Leader of the Official Opposition",
+    "party": "Conservative",
+    "riding": "Battle River—Crowfoot, AB",
+    "leaderSince": "September 10, 2022",
+    "bio": "Leader of the Conservative Party since September 2022 and Leader of the Official Opposition. First elected to the House of Commons in 2004, he returned to Parliament as MP for Battle River—Crowfoot through an August 2025 by-election after two decades representing Carleton.",
+    "ratings": [
+      {
+        "pollster": "Abacus Data",
+        "value": "38%",
+        "metric": "Positive impression",
+        "detail": "43% negative — net −5",
+        "date": "June 25 – July 2, 2026",
+        "url": "https://abacusdata.ca/federal-liberal-lead-holds-steady/",
+        "tone": "neutral"
+      },
+      {
+        "pollster": "Léger",
+        "value": "37%",
+        "metric": "Favourable opinion",
+        "detail": "50% unfavourable",
+        "date": "Late June 2026",
+        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
+        "tone": "neutral"
+      },
+      {
+        "pollster": "Nanos Research",
+        "value": "23.7%",
+        "metric": "Preferred Prime Minister",
+        "detail": "4-week rolling average; Carney at 50.8%",
+        "date": "Week ending July 3, 2026",
+        "url": "https://nanos.co/category/political-tracking/",
+        "tone": "neutral"
+      }
+    ]
+  }
+}

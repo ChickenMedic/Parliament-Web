@@ -1,500 +1,664 @@
 [
-  {
-    "id": "Home",
-    "name": "List of Committees and Overview",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Home",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
+ {
+  "id": "FINA",
+  "name": "Standing Committee on Finance",
+  "desc": "Studies the mandate, management and operation of the Department of Finance and the Canada Revenue Agency, including pre-budget consultations.",
+  "url": "https://www.ourcommons.ca/committees/en/FINA",
+  "workUrl": "https://www.ourcommons.ca/committees/en/FINA/Work",
+  "chairName": "Karina Gould",
+  "viceChairs": [
+   "Jasraj Hallan",
+   "Jean-Denis Garon"
+  ],
+  "members": [
+   "Sandra Cobena",
+   "Pat Kelly",
+   "Steeve Lavoie",
+   "Eric Lefebvre",
+   "Carlos Leitão",
+   "Kent MacDonald",
+   "Danielle Martin",
+   "Jake Sawatzky",
+   "Ryan Turnbull"
+  ],
+  "parties": {
+   "Karina Gould": "Liberal",
+   "Jasraj Hallan": "Conservative",
+   "Jean-Denis Garon": "Bloc Québécois",
+   "Sandra Cobena": "Conservative",
+   "Pat Kelly": "Conservative",
+   "Steeve Lavoie": "Liberal",
+   "Eric Lefebvre": "Conservative",
+   "Carlos Leitão": "Liberal",
+   "Kent MacDonald": "Liberal",
+   "Danielle Martin": "Liberal",
+   "Jake Sawatzky": "Liberal",
+   "Ryan Turnbull": "Liberal"
   },
-  {
-    "id": "Meetings",
-    "name": "Meetings",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Meetings",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "Work",
-    "name": "Studies, Activities and Reports",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Work",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "Participate",
-    "name": "Participate",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "Participate#attend",
-    "name": "Attend Meetings",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate#attend",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "Participate#participate",
-    "name": "Current Consultations",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate#participate",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "Participate",
-    "name": "How to Submit a Brief and Appear",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/Participate",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "ContactUs",
-    "name": "Contact a Committee",
-    "url": "https://www.ourcommons.ca//www.ourcommons.ca/Committees/en/ContactUs",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "AMAD",
-    "name": "AMAD\nMedical Assistance in Dying",
-    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/AMAD",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "BCAN",
-    "name": "BCAN\nExercise of Powers Under the Building Canada Act",
-    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/BCAN",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "BILI",
-    "name": "BILI\nLibrary of Parliament",
-    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/BILI",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "REGS",
-    "name": "REGS\nScrutiny of Regulations",
-    "url": "https://www.ourcommons.ca//www.parl.ca/Committees/en/REGS",
-    "desc": "Committee details and mandate information not yet fully processed.",
-    "chairName": "TBD",
-    "viceChairs": [],
-    "members": [],
-    "studies": [],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "FINA",
-    "name": "FINA Committee",
-    "url": "",
-    "desc": "Mandated to study and report on all matters relating to the mandate, management and operation of the Department of Finance and the Canada Revenue Agency.",
-    "chairName": "Peter Fonseca",
-    "viceChairs": [
-      "Jasraj Hallan",
-      "Gabriel Ste-Marie"
-    ],
-    "members": [
-      "Terry Beech",
-      "Yvan Baker",
-      "Adam Chambers",
-      "Kelly McCauley",
-      "Dan Mazier",
-      "Heather McPherson",
-      "Sukh Dhaliwal"
-    ],
-    "studies": [
-      {
-        "title": "Pre-budget Consultations 2026",
-        "topic": "Reviewing public submissions, municipal requests...",
-        "meetingDate": "June 4, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "HESA",
-    "name": "HESA Committee",
-    "url": "",
-    "desc": "Oversees the work of Health Canada, Public Health Agency of Canada, and CIHR to study issues related to healthcare systems and health regulations.",
-    "chairName": "Sean Casey",
-    "viceChairs": [
-      "Stephen Ellis",
-      "Don Davies"
-    ],
-    "members": [
-      "Mark Holland",
-      "Todd Doherty",
-      "Stephen Fuhr",
-      "Hedy Fry",
-      "Rob Morrison",
-      "Jenna Sudds",
-      "Leah Gazan"
-    ],
-    "studies": [
-      {
-        "title": "Evaluation of the National Pharmacare Rollout",
-        "topic": "Assessing pharmaceutical coverage benchmarks...",
-        "meetingDate": "June 5, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "NDP": 1,
-      "Bloc": 1
-    }
-  },
-  {
-    "id": "FAAE",
-    "name": "FAAE Committee",
-    "url": "",
-    "desc": "Studies bills, spending, and policies of Global Affairs Canada and monitors international development assistance programs.",
-    "chairName": "Ali Ehsassi",
-    "viceChairs": [
-      "Michael Chong",
-      "Simon-Pierre Savard-Tremblay"
-    ],
-    "members": [
-      "M\u00e9lanie Joly",
-      "Garnett Genuis",
-      "Taleeb Noormohamed",
-      "Wayne Long",
-      "John Barlow",
-      "Ziad Aboultaif",
-      "Heather McPherson"
-    ],
-    "studies": [
-      {
-        "title": "Canada's Indo-Pacific Strategy Implementation",
-        "topic": "Assessing trade expansion incentives...",
-        "meetingDate": "June 8, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "NDDN",
-    "name": "NDDN Committee",
-    "url": "",
-    "desc": "Focuses on the Department of National Defence and the Canadian Armed Forces, reviewing operations, defense policy, and military equipment.",
-    "chairName": "John McKay",
-    "viceChairs": [
-      "James Bezan",
-      "Christine Normandin"
-    ],
-    "members": [
-      "Bill Blair",
-      "Alex Ruff",
-      "Pat Kelly",
-      "Terry Duguid",
-      "Serge Cormier",
-      "Marie-France Lalonde",
-      "Lindsay Mathyssen"
-    ],
-    "studies": [
-      {
-        "title": "Military Recruitment and Retention Strategies",
-        "topic": "Addressing service member culture complaints...",
-        "meetingDate": "June 9, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "PACP",
-    "name": "PACP Committee",
-    "url": "",
-    "desc": "The House oversight committee, chaired by an Opposition member, that reviews the reports of the Auditor General of Canada to ensure government accountability.",
-    "chairName": "John Williamson",
-    "viceChairs": [
-      "Jean-Yves Duclos",
-      "Nathalie Sinclair-Desgagn\u00e9"
-    ],
-    "members": [
-      "Kelly Block",
-      "Blake Richards",
-      "Kody Blois",
-      "Peter Fragiskatos",
-      "Sonia Sidhu",
-      "Brad Vis",
-      "Jenny Kwan"
-    ],
-    "studies": [
-      {
-        "title": "Review of the Auditor General's Report on the ArriveCAN App",
-        "topic": "Investigating third-party subcontractor fees...",
-        "meetingDate": "June 3, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Conservative": 5,
-      "Liberal": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "ENVI",
-    "name": "ENVI Committee",
-    "url": "",
-    "desc": "Mandated to study and report on matters relating to the environment, sustainable development, climate change, and environmental enforcement.",
-    "chairName": "Sophie Chatel",
-    "viceChairs": [
-      "G\u00e9rard Deltell",
-      "Don Davies"
-    ],
-    "members": [
-      "Steven Guilbeault",
-      "Patrick Weiler",
-      "Francis Scarpaleggia",
-      "Patrick Bonin",
-      "Gord Johns",
-      "Leah Gazan",
-      "Marilyn Gladu"
-    ],
-    "studies": [
-      {
-        "title": "Evaluating the Federal Carbon Pricing Mechanism",
-        "topic": "Analyzing industrial emission outputs...",
-        "meetingDate": "June 4, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "JUST",
-    "name": "JUST Committee",
-    "url": "",
-    "desc": "Mandated to oversee the Department of Justice, federal courts, criminal law, and human rights issues.",
-    "chairName": "Lena Metlege Diab",
-    "viceChairs": [
-      "Frank Caputo",
-      "Luc Th\u00e9riault"
-    ],
-    "members": [
-      "Sameer Zuberi",
-      "Anju Dhillon",
-      "Michael Cooper",
-      "Jenny Kwan",
-      "Lori Idlout",
-      "Chris Bittle",
-      "Dan Albas"
-    ],
-    "studies": [
-      {
-        "title": "Review of Sentencing and Bail Reform Legislation",
-        "topic": "Assessing violent crime recidivism statistics...",
-        "meetingDate": "June 5, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "RNNR",
-    "name": "RNNR Committee",
-    "url": "",
-    "desc": "Mandated to study and report on matters relating to the mandate, management, and operation of the Department of Natural Resources.",
-    "chairName": "Kody Blois",
-    "viceChairs": [
-      "Shannon Stubbs",
-      "Mario Simard"
-    ],
-    "members": [
-      "Terry Beech",
-      "Greg McLean",
-      "Peter Fonseca",
-      "Viviane Lapointe",
-      "Heather McPherson",
-      "Alex Ruff",
-      "Mona Fortier"
-    ],
-    "studies": [
-      {
-        "title": "Transitioning to Clean Energy Infrastructure",
-        "topic": "Evaluating federal grid connection incentives...",
-        "meetingDate": "June 8, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Liberal": 5,
-      "Conservative": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
-  },
-  {
-    "id": "ETHI",
-    "name": "ETHI Committee",
-    "url": "",
-    "desc": "Reviews access to information, privacy commissioner reports, and conflict of interest issues involving public office holders.",
-    "chairName": "Pat Kelly",
-    "viceChairs": [
-      "Mona Fortier",
-      "Alexis Brunelle-Duceppe"
-    ],
-    "members": [
-      "Michael Barrett",
-      "Iqra Khalid",
-      "Gord Johns",
-      "Yasir Naqvi",
-      "Tom Kmiec",
-      "Serge Cormier",
-      "John Williamson"
-    ],
-    "studies": [
-      {
-        "title": "Investigation into Federal Government Contracting and Conflict of Interest Guidelines",
-        "topic": "Auditing procurement relationships...",
-        "meetingDate": "June 3, 2026",
-        "youtubeUrl": ""
-      }
-    ],
-    "partySeats": {
-      "Conservative": 5,
-      "Liberal": 4,
-      "Bloc": 1,
-      "NDP": 1
-    }
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
   }
+ },
+ {
+  "id": "HESA",
+  "name": "Standing Committee on Health",
+  "desc": "Oversees Health Canada, the Public Health Agency of Canada, and CIHR, studying healthcare systems and health regulation.",
+  "url": "https://www.ourcommons.ca/committees/en/HESA",
+  "workUrl": "https://www.ourcommons.ca/committees/en/HESA/Work",
+  "chairName": "Sukh Dhaliwal",
+  "viceChairs": [
+   "Dan Mazier",
+   "Maxime Blanchette-Joncas"
+  ],
+  "members": [
+   "Burton Bailey",
+   "Maggie Chi",
+   "Doug Eyolfson",
+   "Helena Jaczek",
+   "Helena Konanz",
+   "Aslam Rana",
+   "Jake Sawatzky",
+   "Sonia Sidhu",
+   "Matt Strauss"
+  ],
+  "parties": {
+   "Sukh Dhaliwal": "Liberal",
+   "Dan Mazier": "Conservative",
+   "Maxime Blanchette-Joncas": "Bloc Québécois",
+   "Burton Bailey": "Conservative",
+   "Maggie Chi": "Liberal",
+   "Doug Eyolfson": "Liberal",
+   "Helena Jaczek": "Liberal",
+   "Helena Konanz": "Conservative",
+   "Aslam Rana": "Liberal",
+   "Jake Sawatzky": "Liberal",
+   "Sonia Sidhu": "Liberal",
+   "Matt Strauss": "Conservative"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "FAAE",
+  "name": "Standing Committee on Foreign Affairs and International Development",
+  "desc": "Studies the policies and spending of Global Affairs Canada and monitors international development assistance.",
+  "url": "https://www.ourcommons.ca/committees/en/FAAE",
+  "workUrl": "https://www.ourcommons.ca/committees/en/FAAE/Work",
+  "chairName": "Ahmed Hussen",
+  "viceChairs": [
+   "Michael D. Chong",
+   "Alexis Brunelle-Duceppe"
+  ],
+  "members": [
+   "Ziad Aboultaif",
+   "Braedon Clark",
+   "Mona Fortier",
+   "Steven Guilbeault",
+   "Shelby Kramp-Neuman",
+   "Robert Oliphant",
+   "Lianne Rood",
+   "Abdelhaq Sari",
+   "Anita Vandenbeld"
+  ],
+  "parties": {
+   "Ahmed Hussen": "Liberal",
+   "Michael D. Chong": "Conservative",
+   "Alexis Brunelle-Duceppe": "Bloc Québécois",
+   "Ziad Aboultaif": "Conservative",
+   "Braedon Clark": "Liberal",
+   "Mona Fortier": "Liberal",
+   "Steven Guilbeault": "Liberal",
+   "Shelby Kramp-Neuman": "Conservative",
+   "Robert Oliphant": "Liberal",
+   "Lianne Rood": "Conservative",
+   "Abdelhaq Sari": "Liberal",
+   "Anita Vandenbeld": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "NDDN",
+  "name": "Standing Committee on National Defence",
+  "desc": "Reviews the Department of National Defence and the Canadian Armed Forces: operations, defence policy, and procurement.",
+  "url": "https://www.ourcommons.ca/committees/en/NDDN",
+  "workUrl": "https://www.ourcommons.ca/committees/en/NDDN/Work",
+  "chairName": "Charles Sousa",
+  "viceChairs": [
+   "James Bezan",
+   "Christine Normandin"
+  ],
+  "members": [
+   "Scott Anderson",
+   "Philip Earle",
+   "Cheryl Gallant",
+   "Lori Idlout",
+   "Jeff Kibble",
+   "Viviane Lapointe",
+   "Chris Malette",
+   "Sherry Romanado",
+   "Tim Watchorn"
+  ],
+  "parties": {
+   "Charles Sousa": "Liberal",
+   "James Bezan": "Conservative",
+   "Christine Normandin": "Bloc Québécois",
+   "Scott Anderson": "Conservative",
+   "Philip Earle": "Liberal",
+   "Cheryl Gallant": "Conservative",
+   "Lori Idlout": "Liberal",
+   "Jeff Kibble": "Conservative",
+   "Viviane Lapointe": "Liberal",
+   "Chris Malette": "Liberal",
+   "Sherry Romanado": "Liberal",
+   "Tim Watchorn": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "PACP",
+  "name": "Standing Committee on Public Accounts",
+  "desc": "The House oversight committee, chaired by an Opposition member, that reviews the Auditor General’s reports.",
+  "url": "https://www.ourcommons.ca/committees/en/PACP",
+  "workUrl": "https://www.ourcommons.ca/committees/en/PACP/Work",
+  "chairName": "John Williamson",
+  "viceChairs": [
+   "Jean Yip",
+   "Sébastien Lemire"
+  ],
+  "members": [
+   "Gérard Deltell",
+   "Ned Kuruc",
+   "Stephanie Kusie",
+   "Michael Ma",
+   "Ron McKinnon",
+   "Tom Osborne",
+   "Kristina Tesser Derksen"
+  ],
+  "parties": {
+   "John Williamson": "Conservative",
+   "Jean Yip": "Liberal",
+   "Sébastien Lemire": "Bloc Québécois",
+   "Gérard Deltell": "Conservative",
+   "Ned Kuruc": "Conservative",
+   "Stephanie Kusie": "Conservative",
+   "Michael Ma": "Liberal",
+   "Ron McKinnon": "Liberal",
+   "Tom Osborne": "Liberal",
+   "Kristina Tesser Derksen": "Liberal"
+  },
+  "partySeats": {
+   "Conservative": 4,
+   "Liberal": 5,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "ENVI",
+  "name": "Standing Committee on Environment and Sustainable Development",
+  "desc": "Studies matters relating to the environment, sustainable development, and climate change.",
+  "url": "https://www.ourcommons.ca/committees/en/ENVI",
+  "workUrl": "https://www.ourcommons.ca/committees/en/ENVI/Work",
+  "chairName": "Shannon Miedema",
+  "viceChairs": [
+   "Ellis Ross",
+   "Patrick Bonin"
+  ],
+  "members": [
+   "Carol Anstey",
+   "David Bexte",
+   "Bruce Fanjoy",
+   "Wade Grant",
+   "Will Greaves",
+   "Branden Leslie",
+   "Chris Malette",
+   "Eric St-Pierre",
+   "Tim Watchorn"
+  ],
+  "parties": {
+   "Shannon Miedema": "Liberal",
+   "Ellis Ross": "Conservative",
+   "Patrick Bonin": "Bloc Québécois",
+   "Carol Anstey": "Conservative",
+   "David Bexte": "Conservative",
+   "Bruce Fanjoy": "Liberal",
+   "Wade Grant": "Liberal",
+   "Will Greaves": "Liberal",
+   "Branden Leslie": "Conservative",
+   "Chris Malette": "Liberal",
+   "Eric St-Pierre": "Liberal",
+   "Tim Watchorn": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "JUST",
+  "name": "Standing Committee on Justice and Human Rights",
+  "desc": "Oversees the Department of Justice, federal courts, criminal law, and human-rights issues.",
+  "url": "https://www.ourcommons.ca/committees/en/JUST",
+  "workUrl": "https://www.ourcommons.ca/committees/en/JUST/Work",
+  "chairName": "Iqra Khalid",
+  "viceChairs": [
+   "Larry Brock",
+   "Rhéal Éloi Fortin"
+  ],
+  "members": [
+   "Roman Baber",
+   "Doly Begum",
+   "Anju Dhillon",
+   "Amarjeet Gill",
+   "Marilyn Gladu",
+   "Anthony Housefather",
+   "Patricia Lattanzio",
+   "Andrew Lawton",
+   "James Maloney"
+  ],
+  "parties": {
+   "Iqra Khalid": "Liberal",
+   "Larry Brock": "Conservative",
+   "Rhéal Éloi Fortin": "Bloc Québécois",
+   "Roman Baber": "Conservative",
+   "Doly Begum": "Liberal",
+   "Anju Dhillon": "Liberal",
+   "Amarjeet Gill": "Conservative",
+   "Marilyn Gladu": "Liberal",
+   "Anthony Housefather": "Liberal",
+   "Patricia Lattanzio": "Liberal",
+   "Andrew Lawton": "Conservative",
+   "James Maloney": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "RNNR",
+  "name": "Standing Committee on Natural Resources",
+  "desc": "Studies the mandate, management, and operation of the Department of Natural Resources.",
+  "url": "https://www.ourcommons.ca/committees/en/RNNR",
+  "workUrl": "https://www.ourcommons.ca/committees/en/RNNR/Work",
+  "chairName": "Terry Duguid",
+  "viceChairs": [
+   "Shannon Stubbs",
+   "Mario Simard"
+  ],
+  "members": [
+   "John-Paul Danko",
+   "Claude Guay",
+   "Corey Hogan",
+   "Gaétan Malette",
+   "Jennifer McKelvie",
+   "Gurbux Saini",
+   "Eric St-Pierre",
+   "Corey Tochor"
+  ],
+  "parties": {
+   "Terry Duguid": "Liberal",
+   "Shannon Stubbs": "Conservative",
+   "Mario Simard": "Bloc Québécois",
+   "John-Paul Danko": "Liberal",
+   "Claude Guay": "Liberal",
+   "Corey Hogan": "Liberal",
+   "Gaétan Malette": "Conservative",
+   "Jennifer McKelvie": "Liberal",
+   "Gurbux Saini": "Liberal",
+   "Eric St-Pierre": "Liberal",
+   "Corey Tochor": "Conservative"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 3,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "ETHI",
+  "name": "Standing Committee on Access to Information, Privacy and Ethics",
+  "desc": "Reviews access to information, privacy, and conflict-of-interest issues involving public office holders.",
+  "url": "https://www.ourcommons.ca/committees/en/ETHI",
+  "workUrl": "https://www.ourcommons.ca/committees/en/ETHI/Work",
+  "chairName": "John Brassard",
+  "viceChairs": [
+   "Linda Lapointe",
+   "Luc Thériault"
+  ],
+  "members": [
+   "Fares Al Soud",
+   "Michael Barrett",
+   "Bardish Chagger",
+   "Wade Chang",
+   "Leslie Church",
+   "Michael Cooper",
+   "Gabriel Hardy"
+  ],
+  "parties": {
+   "John Brassard": "Conservative",
+   "Linda Lapointe": "Liberal",
+   "Luc Thériault": "Bloc Québécois",
+   "Fares Al Soud": "Liberal",
+   "Michael Barrett": "Conservative",
+   "Bardish Chagger": "Liberal",
+   "Wade Chang": "Liberal",
+   "Leslie Church": "Liberal",
+   "Michael Cooper": "Conservative",
+   "Gabriel Hardy": "Conservative"
+  },
+  "partySeats": {
+   "Conservative": 4,
+   "Liberal": 5,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "AGRI",
+  "name": "Standing Committee on Agriculture and Agri-Food",
+  "desc": "Studies agriculture and agri-food policy, food supply chains, and support programs for producers.",
+  "url": "https://www.ourcommons.ca/committees/en/AGRI",
+  "workUrl": "https://www.ourcommons.ca/committees/en/AGRI/Work",
+  "chairName": "Michael Coteau",
+  "viceChairs": [
+   "John Barlow",
+   "Sébastien Lemire"
+  ],
+  "members": [
+   "Richard Bragdon",
+   "Sophie Chatel",
+   "Paul Connors",
+   "Marianne Dandurand",
+   "Dave Epp",
+   "Jacques Gourde",
+   "Emma Harrison",
+   "Kent MacDonald",
+   "Giovanna Mingarelli"
+  ],
+  "parties": {
+   "Michael Coteau": "Liberal",
+   "John Barlow": "Conservative",
+   "Sébastien Lemire": "Bloc Québécois",
+   "Richard Bragdon": "Conservative",
+   "Sophie Chatel": "Liberal",
+   "Paul Connors": "Liberal",
+   "Marianne Dandurand": "Liberal",
+   "Dave Epp": "Conservative",
+   "Jacques Gourde": "Conservative",
+   "Emma Harrison": "Liberal",
+   "Kent MacDonald": "Liberal",
+   "Giovanna Mingarelli": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "CIMM",
+  "name": "Standing Committee on Citizenship and Immigration",
+  "desc": "Oversees Immigration, Refugees and Citizenship Canada, studying immigration levels, processing, and settlement.",
+  "url": "https://www.ourcommons.ca/committees/en/CIMM",
+  "workUrl": "https://www.ourcommons.ca/committees/en/CIMM/Work",
+  "chairName": "Julie Dzerowicz",
+  "viceChairs": [
+   "Michelle Rempel Garner",
+   "Alexis Deschênes"
+  ],
+  "members": [
+   "Wade Chang",
+   "Fred Davies",
+   "Peter Fragiskatos",
+   "Matt Jeneroux",
+   "Natilien Joseph",
+   "Costas Menegakis",
+   "Brad Redekopp",
+   "Amandeep Sodhi",
+   "Sameer Zuberi"
+  ],
+  "parties": {
+   "Julie Dzerowicz": "Liberal",
+   "Michelle Rempel Garner": "Conservative",
+   "Alexis Deschênes": "Bloc Québécois",
+   "Wade Chang": "Liberal",
+   "Fred Davies": "Conservative",
+   "Peter Fragiskatos": "Liberal",
+   "Matt Jeneroux": "Liberal",
+   "Natilien Joseph": "Liberal",
+   "Costas Menegakis": "Conservative",
+   "Brad Redekopp": "Conservative",
+   "Amandeep Sodhi": "Liberal",
+   "Sameer Zuberi": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "INDU",
+  "name": "Standing Committee on Industry and Technology",
+  "desc": "Studies industry, science and technology policy, including competition, spectrum, and research funding.",
+  "url": "https://www.ourcommons.ca/committees/en/INDU",
+  "workUrl": "https://www.ourcommons.ca/committees/en/INDU/Work",
+  "chairName": "Ben Carr",
+  "viceChairs": [
+   "Raquel Dancho",
+   "Gabriel Ste-Marie"
+  ],
+  "members": [
+   "Parm Bains",
+   "Karim Bardeesy",
+   "Doly Begum",
+   "Kathy Borrelli",
+   "Ted Falk",
+   "Michael Guglielmin",
+   "Michael Ma",
+   "Bienvenu-Olivier Ntumba",
+   "Dominique O'Rourke"
+  ],
+  "parties": {
+   "Ben Carr": "Liberal",
+   "Raquel Dancho": "Conservative",
+   "Gabriel Ste-Marie": "Bloc Québécois",
+   "Parm Bains": "Liberal",
+   "Karim Bardeesy": "Liberal",
+   "Doly Begum": "Liberal",
+   "Kathy Borrelli": "Conservative",
+   "Ted Falk": "Conservative",
+   "Michael Guglielmin": "Conservative",
+   "Michael Ma": "Liberal",
+   "Bienvenu-Olivier Ntumba": "Liberal",
+   "Dominique O'Rourke": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "SECU",
+  "name": "Standing Committee on Public Safety and National Security",
+  "desc": "Oversees Public Safety Canada, the RCMP, CBSA, and CSIS, studying national security and policing.",
+  "url": "https://www.ourcommons.ca/committees/en/SECU",
+  "workUrl": "https://www.ourcommons.ca/committees/en/SECU/Work",
+  "chairName": "Jean-Yves Duclos",
+  "viceChairs": [
+   "Frank Caputo",
+   "Claude DeBellefeuille"
+  ],
+  "members": [
+   "Sima Acan",
+   "Chak Au",
+   "Marianne Dandurand",
+   "Anthony Housefather",
+   "Rhonda Kirkland",
+   "Dane Lloyd",
+   "Marcus Powlowski",
+   "Jacques Ramsay",
+   "Amandeep Sodhi"
+  ],
+  "parties": {
+   "Jean-Yves Duclos": "Liberal",
+   "Frank Caputo": "Conservative",
+   "Claude DeBellefeuille": "Bloc Québécois",
+   "Sima Acan": "Liberal",
+   "Chak Au": "Conservative",
+   "Marianne Dandurand": "Liberal",
+   "Anthony Housefather": "Liberal",
+   "Rhonda Kirkland": "Conservative",
+   "Dane Lloyd": "Conservative",
+   "Marcus Powlowski": "Liberal",
+   "Jacques Ramsay": "Liberal",
+   "Amandeep Sodhi": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "TRAN",
+  "name": "Standing Committee on Transport, Infrastructure and Communities",
+  "desc": "Studies transport and infrastructure policy, including rail, marine, air, and communities.",
+  "url": "https://www.ourcommons.ca/committees/en/TRAN",
+  "workUrl": "https://www.ourcommons.ca/committees/en/TRAN/Work",
+  "chairName": "Peter Schiefke",
+  "viceChairs": [
+   "Dan Albas",
+   "Xavier Barsalou-Duval"
+  ],
+  "members": [
+   "Jessica Fancy",
+   "Angelo Iacono",
+   "Mike Kelloway",
+   "Stéphane Lauzon",
+   "Philip Lawrence",
+   "Leslyn Lewis",
+   "Dan Muys",
+   "Chi Nguyen",
+   "Dominique O'Rourke"
+  ],
+  "parties": {
+   "Peter Schiefke": "Liberal",
+   "Dan Albas": "Conservative",
+   "Xavier Barsalou-Duval": "Bloc Québécois",
+   "Jessica Fancy": "Liberal",
+   "Angelo Iacono": "Liberal",
+   "Mike Kelloway": "Liberal",
+   "Stéphane Lauzon": "Liberal",
+   "Philip Lawrence": "Conservative",
+   "Leslyn Lewis": "Conservative",
+   "Dan Muys": "Conservative",
+   "Chi Nguyen": "Liberal",
+   "Dominique O'Rourke": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "HUMA",
+  "name": "Standing Committee on Human Resources, Skills and Social Development and the Status of Persons with Disabilities",
+  "desc": "Studies employment, workforce development, income security, and housing programs.",
+  "url": "https://www.ourcommons.ca/committees/en/HUMA",
+  "workUrl": "https://www.ourcommons.ca/committees/en/HUMA/Work",
+  "chairName": "Robert Morrissey",
+  "viceChairs": [
+   "Rosemarie Falk",
+   "Andréanne Larouche"
+  ],
+  "members": [
+   "Caroline Desrochers",
+   "Garnett Genuis",
+   "Laila Goodridge",
+   "Emma Harrison",
+   "Natilien Joseph",
+   "Annie Koutrakis",
+   "Colin Reynolds",
+   "Gurbux Saini",
+   "Louis Villeneuve"
+  ],
+  "parties": {
+   "Robert Morrissey": "Liberal",
+   "Rosemarie Falk": "Conservative",
+   "Andréanne Larouche": "Bloc Québécois",
+   "Caroline Desrochers": "Liberal",
+   "Garnett Genuis": "Conservative",
+   "Laila Goodridge": "Conservative",
+   "Emma Harrison": "Liberal",
+   "Natilien Joseph": "Liberal",
+   "Annie Koutrakis": "Liberal",
+   "Colin Reynolds": "Conservative",
+   "Gurbux Saini": "Liberal",
+   "Louis Villeneuve": "Liberal"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ },
+ {
+  "id": "CHPC",
+  "name": "Standing Committee on Canadian Heritage",
+  "desc": "Oversees Canadian Heritage: broadcasting, arts, sport, and official languages in culture.",
+  "url": "https://www.ourcommons.ca/committees/en/CHPC",
+  "workUrl": "https://www.ourcommons.ca/committees/en/CHPC/Work",
+  "chairName": "Lisa Hepfner",
+  "viceChairs": [
+   "Rachael Thomas",
+   "Martin Champoux"
+  ],
+  "members": [
+   "Fares Al Soud",
+   "Tatiana Auguste",
+   "Kerry Diotte",
+   "Bernard Généreux",
+   "Alana Hirtle",
+   "David Myles",
+   "Bienvenu-Olivier Ntumba",
+   "Zoe Royer",
+   "Kevin Waugh"
+  ],
+  "parties": {
+   "Lisa Hepfner": "Liberal",
+   "Rachael Thomas": "Conservative",
+   "Martin Champoux": "Bloc Québécois",
+   "Fares Al Soud": "Liberal",
+   "Tatiana Auguste": "Liberal",
+   "Kerry Diotte": "Conservative",
+   "Bernard Généreux": "Conservative",
+   "Alana Hirtle": "Liberal",
+   "David Myles": "Liberal",
+   "Bienvenu-Olivier Ntumba": "Liberal",
+   "Zoe Royer": "Liberal",
+   "Kevin Waugh": "Conservative"
+  },
+  "partySeats": {
+   "Liberal": 7,
+   "Conservative": 4,
+   "Bloc": 1
+  }
+ }
 ]

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './PageStyles.css';
 import { SeatingChart } from '../components/SeatingChart';
 import { SenateChart } from '../components/SenateChart';
+import senatorsData from '../data/senators.json';
 
 const getPartyColor = (party: string) => {
   switch (party.toLowerCase()) {
@@ -14,14 +15,17 @@ const getPartyColor = (party: string) => {
   }
 };
 
-const SENATE_GROUPS = [
-  { name: 'Independent Senators Group', color: '#4a90e2', count: 39 },
-  { name: 'Conservative', color: '#1a4782', count: 13 },
-  { name: 'Progressive Senate Group', color: '#e83e8c', count: 13 },
-  { name: 'Canadian Senators Group', color: '#6f42c1', count: 17 },
-  { name: 'Non-affiliated', color: '#808080', count: 11 },
-  { name: 'Vacancies', color: '#222222', count: 12 },
-];
+// Legend derived from senators.json so it always matches the chart.
+const SENATE_GROUPS = (() => {
+  const counts: Record<string, { color: string; count: number }> = {};
+  (senatorsData as { group: string; color: string }[]).forEach(s => {
+    if (!counts[s.group]) counts[s.group] = { color: s.color, count: 0 };
+    counts[s.group].count += 1;
+  });
+  return Object.entries(counts)
+    .map(([name, { color, count }]) => ({ name, color, count }))
+    .sort((a, b) => b.count - a.count);
+})();
 
 
 
@@ -158,7 +162,7 @@ export const House = () => {
                  SENATE_GROUPS.map(group => (
                    <div key={group.name} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                      <div style={{ width: '12px', height: '12px', borderRadius: '50%', background: group.color, boxShadow: 'inset 0 1px 2px rgba(255,255,255,0.3)' }} />
-                     <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.8)' }}>{group.name}</span>
+                     <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.8)' }}>{group.name} ({group.count})</span>
                    </div>
                  ))
                )}
