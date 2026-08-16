@@ -1,0 +1,63 @@
+name: Update site data
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # daily, 10:00 UTC (~6am ET)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: npm ci
+      - run: pip install -r requirements.txt
+
+      # Each fetch continues on error so one flaky upstream doesn't block the rest.
+      - name: Fetch party tweets
+        continue-on-error: true
+        env:
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        run: node fetch-tweets.js
+
+      - name: Fetch leader news
+        continue-on-error: true
+        run: python fetch_leader_news.py
+
+      - name: Fetch bills
+        continue-on-error: true
+        run: python fetch_bills.py
+
+      - name: Fetch committees
+        continue-on-error: true
+        run: python fetch_committees.py
+
+      - name: Fetch senators
+        continue-on-error: true
+        run: python fetch_senators.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data twitter_user_ids.json
+          if git diff --cached --quiet; then
+            echo "No data changes today."
+          else
+            git commit -m "Refresh site data"
+            git push
+          fi

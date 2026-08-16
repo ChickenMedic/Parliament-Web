@@ -1,0 +1,48 @@
+name: Editorial updates (PR for review)
+
+on:
+  schedule:
+    - cron: '0 11 * * 0'   # weekly, Sundays 11:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Propose scandal updates
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python update_scandals.py
+
+      - name: Propose leader rating updates
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python update_ratings.py
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/editorial-updates
+          title: 'Weekly scandals & leader ratings update'
+          commit-message: Propose scandals and ratings updates
+          body: |
+            Automated weekly proposals from news headlines (scandals) and
+            pollster web search (leader ratings).
+
+            **Verify every claim and source URL before merging** — merging to
+            master publishes to parliamentweb.com via Amplify.
