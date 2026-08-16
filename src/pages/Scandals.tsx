@@ -24,15 +24,22 @@ const getSeverityColor = (severity: string) => {
   }
 };
 
-interface ScandalComment {
+interface Scandal {
   id: string;
-  author: string;
-  date: string;
-  content: string;
+  title: string;
+  party: string;
+  status: string;
+  severity: string;
+  description: string;
+  keyFigures: string[];
+  timeline: { date: string; event: string }[];
+  votes: number;
+  latestDevelopments?: string;
+  developmentsAsOf?: string;
 }
 
 export const Scandals = () => {
-  const [scandals, setScandals] = useState(initialScandals);
+  const [scandals, setScandals] = useState<Scandal[]>(initialScandals as Scandal[]);
   const [search, setSearch] = useState('');
   const [selectedParty, setSelectedParty] = useState('All');
   const [selectedStatus, setSelectedStatus] = useState('All');
@@ -53,9 +60,6 @@ export const Scandals = () => {
   const [newKeyFigures, setNewKeyFigures] = useState(''); // Reused as Sponsor MP when tipType is policy
   const [newTimelineEvent, setNewTimelineEvent] = useState(''); // Reused as Submitted By when tipType is policy
   const [successMsg, setSuccessMsg] = useState('');
-
-  // Scandal comments state
-  const [scandalComments, setScandalComments] = useState<Record<string, ScandalComment[]>>({});
 
   // Citizen Policy Reform Suggestions
   const [policies, setPolicies] = useState([
@@ -93,15 +97,6 @@ export const Scandals = () => {
 
   const findMP = (name: string) => {
     return (politiciansData.objects as any[]).find(p => p.name.toLowerCase().trim() === name.toLowerCase().trim()) || null;
-  };
-
-  const handleVote = (id: string) => {
-    setScandals(prev => prev.map(s => {
-      if (s.id === id) {
-        return { ...s, votes: s.votes + 1 };
-      }
-      return s;
-    }));
   };
 
   const handlePolicyUpvote = (id: string) => {
@@ -518,31 +513,6 @@ export const Scandals = () => {
                       </div>
 
                       <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }} onClick={e => e.stopPropagation()}>
-                        {/* Votes Meter */}
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.05)', padding: '6px 12px', borderRadius: '8px' }}>
-                          <span style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>Concern Level</span>
-                          <span style={{ fontSize: '16px', fontWeight: 'bold', color: 'white', margin: '2px 0' }}>{s.votes}</span>
-                          <button 
-                            onClick={() => handleVote(s.id)}
-                            style={{
-                              background: 'rgba(239, 68, 68, 0.15)',
-                              color: '#f87171',
-                              border: 'none',
-                              padding: '2px 8px',
-                              borderRadius: '4px',
-                              cursor: 'pointer',
-                              fontSize: '10px',
-                              fontWeight: 'bold',
-                              marginTop: '2px',
-                              transition: 'all 0.1s'
-                            }}
-                            onMouseOver={e=>e.currentTarget.style.background='rgba(239, 68, 68, 0.3)'}
-                            onMouseOut={e=>e.currentTarget.style.background='rgba(239, 68, 68, 0.15)'}
-                          >
-                            ▲ Flag Concern
-                          </button>
-                        </div>
-                        
                         {/* Expand Arrow */}
                         <span 
                           onClick={() => setExpandedId(isExpanded ? null : s.id)}
@@ -561,6 +531,15 @@ export const Scandals = () => {
                           
                           {/* Left: Desc, Figures & Severity Bar */}
                           <div style={{ flex: 1.5, minWidth: '300px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                            {s.latestDevelopments && (
+                              <div style={{ background: 'rgba(96,165,250,0.06)', border: '1px solid rgba(96,165,250,0.2)', borderRadius: '8px', padding: '14px 16px' }}>
+                                <h4 style={{ margin: '0 0 6px 0', fontSize: '13px', color: '#93c5fd', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                                  What's Happening Now
+                                  {s.developmentsAsOf && <span style={{ color: 'rgba(255,255,255,0.35)', fontWeight: 'normal', textTransform: 'none', letterSpacing: 0 }}> — as of {s.developmentsAsOf}</span>}
+                                </h4>
+                                <p style={{ margin: 0, fontSize: '13.5px', color: 'rgba(255,255,255,0.88)', lineHeight: '1.55' }}>{s.latestDevelopments}</p>
+                              </div>
+                            )}
                             <div>
                               <h4 style={{ margin: '0 0 6px 0', fontSize: '13px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Summary Case Description</h4>
                               <p style={{ margin: 0, fontSize: '13.5px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.5' }}>{s.description}</p>
@@ -661,75 +640,6 @@ export const Scandals = () => {
 
                           </div>
 
-                        </div>
-
-                        {/* Scandal Comment Board */}
-                        <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', marginTop: '24px', paddingTop: '20px' }}>
-                          <h4 style={{ margin: '0 0 12px 0', fontSize: '13px', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>Public Comments & Discussion</h4>
-                          
-                          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', maxHeight: '180px', overflowY: 'auto', background: 'rgba(0,0,0,0.2)', borderRadius: '6px', padding: '12px', border: '1px solid rgba(255,255,255,0.03)', marginBottom: '12px' }}>
-                            {((scandalComments[s.id] || [])).length === 0 ? (
-                              <div style={{ padding: '12px', textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontSize: '12px' }}>
-                                No comments posted yet. Add your input to this case file.
-                              </div>
-                            ) : (
-                              (scandalComments[s.id] || []).map(c => (
-                                <div key={c.id} style={{ background: 'rgba(255,255,255,0.01)', border: '1px solid rgba(255,255,255,0.03)', padding: '8px 12px', borderRadius: '6px', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                    <strong style={{ fontSize: '12px', color: 'white' }}>{c.author}</strong>
-                                    <span style={{ fontSize: '10px', color: 'rgba(255,255,255,0.35)' }}>{c.date}</span>
-                                  </div>
-                                  <div style={{ fontSize: '12.5px', color: 'rgba(255,255,255,0.8)', lineHeight: '1.4' }}>{c.content}</div>
-                                </div>
-                              ))
-                            )}
-                          </div>
-
-                          {/* Post comment form */}
-                          <form 
-                            onSubmit={(e) => {
-                              e.preventDefault();
-                              const auth = (e.currentTarget.elements.namedItem('author') as HTMLInputElement).value;
-                              const txt = (e.currentTarget.elements.namedItem('content') as HTMLInputElement).value;
-                              if (!auth.trim() || !txt.trim()) return;
-                              
-                              const newComment = {
-                                id: `${s.id}-${Date.now()}`,
-                                author: auth.trim(),
-                                date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-                                content: txt.trim()
-                              };
-                              
-                              setScandalComments(prev => ({
-                                ...prev,
-                                [s.id]: [newComment, ...(prev[s.id] || [])]
-                              }));
-                              
-                              e.currentTarget.reset();
-                            }}
-                            style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}
-                          >
-                            <input 
-                              name="author"
-                              type="text" 
-                              placeholder="Your Name" 
-                              required
-                              style={{ flex: '1', minWidth: '120px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '6px', padding: '8px 12px', color: 'white', fontSize: '12px' }}
-                            />
-                            <input 
-                              name="content"
-                              type="text" 
-                              placeholder="Add comment to case file..." 
-                              required
-                              style={{ flex: '3', minWidth: '200px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: '6px', padding: '8px 12px', color: 'white', fontSize: '12px' }}
-                            />
-                            <button 
-                              type="submit" 
-                              style={{ background: 'var(--accent-color)', color: 'white', border: 'none', borderRadius: '6px', padding: '8px 16px', cursor: 'pointer', fontWeight: 'bold', fontSize: '12px' }}
-                            >
-                              Send
-                            </button>
-                          </form>
                         </div>
 
                       </div>
