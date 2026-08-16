@@ -2,6 +2,16 @@ import './PageStyles.css';
 import { useState, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import billsData from '../data/bills.json';
+import billSummariesData from '../data/bill_summaries.json';
+
+interface BillSummary {
+  overview: string;
+  deepDive: { heading: string; body: string }[];
+  hadFullText: boolean;
+  generated: string;
+}
+
+const BILL_SUMMARIES = billSummariesData as unknown as Record<string, BillSummary>;
 
 interface BillStage {
   key: string;
@@ -54,7 +64,7 @@ interface Bill {
   votes: BillVote[];
   media: MediaItem[];
   link: string;
-  text_link: string;
+  text_link: string | null;
 }
 
 const BILLS_DATA = billsData as unknown as Bill[];
@@ -136,37 +146,12 @@ const StageTracker = ({ bill, compact }: { bill: Bill; compact?: boolean }) => {
   );
 };
 
-interface BillComment {
-  id: string;
-  author: string;
-  date: string;
-  content: string;
-}
-
 export const Bills = () => {
   const [selectedBill, setSelectedBill] = useState<Bill | null>(null);
   const [search, setSearch] = useState('');
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('All');
   const [typeFilter, setTypeFilter] = useState<'All' | 'Government' | 'Private / Senate'>('Government');
-
-  // Local-only debate feed; starts empty (no seeded comments).
-  const [billComments, setBillComments] = useState<Record<string, BillComment[]>>({});
-  const [newAuthor, setNewAuthor] = useState('');
-  const [newText, setNewText] = useState('');
-
-  const handleCommentSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!selectedBill || !newAuthor.trim() || !newText.trim()) return;
-    const newComment: BillComment = {
-      id: `${selectedBill.id}-${Date.now()}`,
-      author: newAuthor.trim(),
-      date: new Date().toLocaleDateString('en-CA', { month: 'short', day: 'numeric', year: 'numeric' }),
-      content: newText.trim(),
-    };
-    setBillComments(prev => ({ ...prev, [selectedBill.id]: [newComment, ...(prev[selectedBill.id] || [])] }));
-    setNewAuthor('');
-    setNewText('');
-  };
+  const [showDeepDive, setShowDeepDive] = useState(false);
 
   const filteredBills = useMemo(() => {
     const q = search.toLowerCase();
@@ -221,14 +206,56 @@ export const Bills = () => {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <a href={selectedBill.text_link} target="_blank" rel="noopener noreferrer" style={{ padding: '8px 16px', background: 'rgba(255,255,255,0.1)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.2)' }}>
-              View Full Text
-            </a>
+            {selectedBill.text_link ? (
+              <a href={selectedBill.text_link} target="_blank" rel="noopener noreferrer" style={{ padding: '8px 16px', background: 'rgba(255,255,255,0.1)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.2)' }}>
+                View Full Text
+              </a>
+            ) : (
+              <span
+                title="The text of this bill has not been published by Parliament yet."
+                style={{ padding: '8px 16px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.3)', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.08)', cursor: 'not-allowed' }}
+              >
+                Text Not Yet Published
+              </span>
+            )}
             <a href={selectedBill.link} target="_blank" rel="noopener noreferrer" style={{ padding: '8px 16px', background: 'var(--accent-color)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold' }}>
               LEGISinfo Page
             </a>
           </div>
         </div>
+
+        {/* Plain-language summary */}
+        {BILL_SUMMARIES[selectedBill.id] && (
+          <div style={{ background: 'rgba(96,165,250,0.05)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(96,165,250,0.15)', marginTop: '24px' }}>
+            <h3 style={{ margin: '0 0 10px 0', color: 'white', fontSize: '15px' }}>What This Bill Does</h3>
+            <p style={{ margin: 0, fontSize: '14px', color: 'rgba(255,255,255,0.85)', lineHeight: 1.65 }}>
+              {BILL_SUMMARIES[selectedBill.id].overview}
+            </p>
+            {BILL_SUMMARIES[selectedBill.id].deepDive.length > 0 && (
+              <>
+                <button
+                  onClick={() => setShowDeepDive(!showDeepDive)}
+                  style={{ marginTop: '14px', background: 'transparent', border: '1px solid rgba(96,165,250,0.4)', color: '#60a5fa', padding: '7px 14px', borderRadius: '6px', cursor: 'pointer', fontSize: '12.5px', fontWeight: 'bold' }}
+                >
+                  {showDeepDive ? 'Hide Executive Summary ▲' : 'Read the Executive Summary ▼'}
+                </button>
+                {showDeepDive && (
+                  <div style={{ marginTop: '18px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                    {BILL_SUMMARIES[selectedBill.id].deepDive.map((section, i) => (
+                      <div key={i}>
+                        <h4 style={{ margin: '0 0 6px 0', fontSize: '13px', color: '#93c5fd', textTransform: 'uppercase', letterSpacing: '0.5px' }}>{section.heading}</h4>
+                        <p style={{ margin: 0, fontSize: '13.5px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6, whiteSpace: 'pre-line' }}>{section.body}</p>
+                      </div>
+                    ))}
+                    <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.35)' }}>
+                      AI-generated plain-language summary based on the {BILL_SUMMARIES[selectedBill.id].hadFullText ? 'published bill text' : 'bill title (full text not yet published)'} — verify against the official text.
+                    </div>
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+        )}
 
         {/* Progress through Parliament */}
         <div style={{ background: 'rgba(255,255,255,0.02)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', marginTop: '24px' }}>
@@ -323,50 +350,6 @@ export const Bills = () => {
           </div>
         </div>
 
-        {/* Public debate feed (stored locally in this browser session) */}
-        <div style={{ padding: '24px', borderRadius: '12px', background: 'rgba(255,255,255,0.02)', display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '32px', border: '1px solid rgba(255,255,255,0.08)' }}>
-          <h3 style={{ margin: 0, color: 'white', fontSize: '16px' }}>
-            💬 Public Debate Feed ({(billComments[selectedBill.id] || []).length} Comments)
-          </h3>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', maxHeight: '300px', overflowY: 'auto' }}>
-            {(billComments[selectedBill.id] || []).length === 0 ? (
-              <div style={{ padding: '18px', textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontSize: '13px' }}>
-                No comments yet. Share your thoughts on Bill {selectedBill.id}.
-              </div>
-            ) : (
-              (billComments[selectedBill.id] || []).map(c => (
-                <div key={c.id} style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '12px 16px', borderRadius: '8px' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '4px' }}>
-                    <strong style={{ fontSize: '12.5px', color: 'white' }}>{c.author}</strong>
-                    <span style={{ fontSize: '10.5px', color: 'rgba(255,255,255,0.4)' }}>{c.date}</span>
-                  </div>
-                  <div style={{ fontSize: '13.5px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.45' }}>{c.content}</div>
-                </div>
-              ))
-            )}
-          </div>
-          <form onSubmit={handleCommentSubmit} style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-            <input
-              type="text"
-              placeholder="Your Name / Handle"
-              value={newAuthor}
-              onChange={(e) => setNewAuthor(e.target.value)}
-              required
-              style={{ flex: '1', minWidth: '150px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '6px', padding: '12px', color: 'white', fontSize: '13px' }}
-            />
-            <input
-              type="text"
-              placeholder={`Share your stance on ${selectedBill.id}...`}
-              value={newText}
-              onChange={(e) => setNewText(e.target.value)}
-              required
-              style={{ flex: '3', minWidth: '250px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '6px', padding: '12px', color: 'white', fontSize: '13px' }}
-            />
-            <button type="submit" style={{ background: 'var(--accent-color)', color: 'white', border: 'none', borderRadius: '6px', padding: '12px 24px', cursor: 'pointer', fontWeight: 'bold', fontSize: '13px' }}>
-              Post
-            </button>
-          </form>
-        </div>
       </div>
     );
   }
@@ -453,7 +436,7 @@ export const Bills = () => {
                     <span style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.6)', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>{bill.category.toUpperCase()}</span>
                   </div>
                 </div>
-                <button className="vote-btn" onClick={() => setSelectedBill(bill)} style={{ width: '100%', marginTop: '16px', padding: '10px', background: 'var(--accent-color)' }}>
+                <button className="vote-btn" onClick={() => { setSelectedBill(bill); setShowDeepDive(false); }} style={{ width: '100%', marginTop: '16px', padding: '10px', background: 'var(--accent-color)' }}>
                   View Progress, Votes &amp; Coverage
                 </button>
               </div>

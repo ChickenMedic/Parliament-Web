@@ -295,7 +295,17 @@ def main():
         bill_type = b.get('BillDocumentTypeNameEn') or ''
         is_gov = 'Government' in bill_type
 
-        slug = num.lower().replace('-', '')
+        # DocumentViewer and LEGISinfo URLs need the hyphenated form ("c-2");
+        # the unhyphenated form 404s or redirects to a generic overview page.
+        slug = num.lower()
+
+        # Publications list which text versions exist; empty = nothing to read
+        # yet, so the UI greys out the "View Full Text" button (text_link null).
+        pubs = detail.get('Publications') or []
+        text_link = None
+        if pubs:
+            stage_slug = (pubs[-1].get('PublicationTypeNameEn') or 'First Reading').lower().replace(' ', '-')
+            text_link = f'https://www.parl.ca/DocumentViewer/en/{SESSION}/bill/{slug}/{stage_slug}'
         bills.append({
             'id': num,
             'title': title,
@@ -314,7 +324,7 @@ def main():
             'votes': vote_summaries.get(num, []),
             'media': [],
             'link': f'https://www.parl.ca/legisinfo/en/bill/{SESSION}/{slug}',
-            'text_link': f'https://www.parl.ca/DocumentViewer/en/{SESSION}/bill/{slug}/first-reading',
+            'text_link': text_link,
         })
 
     # Sort: government bills first by number, then private members' bills.
