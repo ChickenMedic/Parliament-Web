@@ -168,14 +168,6 @@
   "appointedDate": "2016"
  },
  {
-  "name": "Marilou McPhedran",
-  "group": "Non-affiliated",
-  "color": "#808080",
-  "province": "MB",
-  "appointedBy": "Trudeau, J.",
-  "appointedDate": "2016"
- },
- {
   "name": "Lucie Moncion",
   "group": "Independent Senators Group",
   "color": "#4a90e2",
@@ -364,14 +356,6 @@
   "group": "Non-affiliated",
   "color": "#808080",
   "province": "YT",
-  "appointedBy": "Trudeau, J.",
-  "appointedDate": "2018"
- },
- {
-  "name": "Stan Kutcher",
-  "group": "Independent Senators Group",
-  "color": "#4a90e2",
-  "province": "NS",
   "appointedBy": "Trudeau, J.",
   "appointedDate": "2018"
  },
@@ -600,14 +584,6 @@
   "appointedDate": "2024"
  },
  {
-  "name": "Mohammad Al Zaibak",
-  "group": "Canadian Senators Group",
-  "color": "#6f42c1",
-  "province": "ON",
-  "appointedBy": "Trudeau, J.",
-  "appointedDate": "2024"
- },
- {
   "name": "Manuelle Oudar",
   "group": "Independent Senators Group",
   "color": "#4a90e2",
@@ -704,14 +680,6 @@
   "appointedDate": "2025"
  },
  {
-  "name": "Todd Lewis",
-  "group": "Canadian Senators Group",
-  "color": "#6f42c1",
-  "province": "SK",
-  "appointedBy": "Trudeau, J.",
-  "appointedDate": "2025"
- },
- {
   "name": "Danièle Henkel",
   "group": "Progressive Senate Group",
   "color": "#e83e8c",
@@ -771,7 +739,7 @@
   "name": "Richard Martel",
   "group": "Non-affiliated",
   "color": "#808080",
-  "province": "QC",
+  "province": "QC (Rougemont)",
   "appointedBy": "Mark Carney",
   "appointedDate": "2026"
  },
@@ -798,6 +766,38 @@
   "province": "MB",
   "appointedBy": "Mark Carney",
   "appointedDate": "2026"
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
  },
  {
   "name": "Vacant Seat",
