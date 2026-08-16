@@ -34,6 +34,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python update_ratings.py
 
+      - name: Generate summaries for new bills
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python update_bill_summaries.py
+
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -41,8 +47,9 @@ jobs:
           title: 'Weekly scandals & leader ratings update'
           commit-message: Propose scandals and ratings updates
           body: |
-            Automated weekly proposals from news headlines (scandals) and
-            pollster web search (leader ratings).
+            Automated weekly proposals: scandal updates from news headlines,
+            leader ratings from pollster web search, and plain-language
+            summaries for bills that don't have one yet.
 
             **Verify every claim and source URL before merging** — merging to
             master publishes to parliamentweb.com via Amplify.

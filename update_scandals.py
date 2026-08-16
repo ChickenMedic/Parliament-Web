@@ -16,6 +16,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import date
 
 import anthropic
 
@@ -79,9 +80,12 @@ SCHEMA = {
                         },
                     },
                     "votes": {"type": "integer"},
+                    "latestDevelopments": {"type": "string"},
+                    "developmentsAsOf": {"type": "string"},
                 },
                 "required": ["id", "title", "party", "status", "severity",
-                             "description", "keyFigures", "timeline", "votes"],
+                             "description", "keyFigures", "timeline", "votes",
+                             "latestDevelopments", "developmentsAsOf"],
                 "additionalProperties": False,
             },
         }
@@ -104,7 +108,14 @@ show a major federal political controversy covered by multiple outlets that is \
 not already in the list. Minor gaffes or provincial stories do not qualify.
 - Keep descriptions and events neutral, factual, and allegation-aware (say \
 "alleged" where nothing is proven). No editorializing.
-- If nothing warrants a change, return the data exactly as given.
+- For EVERY entry, write "latestDevelopments": 2-4 sentences answering "what \
+is happening with this right now?" — is it before the courts, under active \
+investigation, awaiting a report, effectively resolved, or dormant with no \
+recent news? Base it on the headlines; if the headlines show nothing recent, \
+say the story has gone quiet and give the last known state. Set \
+"developmentsAsOf" to {today}.
+- Apart from latestDevelopments/developmentsAsOf, if nothing warrants a \
+change, return the data exactly as given.
 
 CURRENT DATA:
 {data}
@@ -146,6 +157,7 @@ def main():
             "content": PROMPT.format(
                 data=json.dumps(scandals, indent=1, ensure_ascii=False),
                 headlines=json.dumps(headlines, indent=1, ensure_ascii=False),
+                today=date.today().strftime('%b %d, %Y'),
             ),
         }],
     )
