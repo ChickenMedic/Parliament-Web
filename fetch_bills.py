@@ -58,6 +58,16 @@ def fetch_legisinfo_bills():
     return data
 
 
+def fetch_bill_detail(slug):
+    """Per-bill JSON. The list endpoint stopped populating sponsor and
+    latest-event fields (mid-2026); they are only in the detail payload."""
+    try:
+        b = get_json(f'https://www.parl.ca/legisinfo/en/bill/{SESSION}/{slug}/json')
+        return b[0] if isinstance(b, list) else b
+    except Exception:
+        return {}
+
+
 # The seven major milestones a bill passes on its way to becoming law.
 # For Senate bills the two chambers are swapped when rendering; the data
 # stores the raw dates and the UI orders them by originating chamber.
@@ -255,11 +265,17 @@ def main():
     positions, vote_summaries = fetch_party_positions(votes)
 
     bills = []
-    for b in raw:
-        num = b['BillNumberFormatted']
+    for i, b in enumerate(raw):
+        num = b['NumberCode']
         # Skip the two ceremonial pro forma bills; they never advance.
         if num in ('C-1', 'S-1'):
             continue
+
+        # Sponsor and latest-event fields only live in the per-bill payload now.
+        detail = fetch_bill_detail(num.lower())
+        if (i + 1) % 25 == 0:
+            print(f'  bill details {i + 1}/{len(raw)}')
+        time.sleep(0.2)
         long_title = (b.get('LongTitleEn') or '').strip()
         short_title = (b.get('ShortTitleEn') or '').strip()
         title = short_title or long_title
@@ -271,10 +287,12 @@ def main():
         if num.startswith('S-'):
             stages = stages[3:6] + stages[0:3] + stages[6:]
 
-        sponsor = (b.get('SponsorEn') or '').strip() or None
+        sponsor_name = (detail.get('SponsorPersonName') or '').strip()
+        honorific = (detail.get('SponsorPersonShortHonorific') or '').strip()
+        sponsor = f'{honorific} {sponsor_name}'.strip() or None if sponsor_name else None
         sponsor_party = sponsor_party_of(sponsor)
 
-        bill_type = b.get('BillTypeEn') or ''
+        bill_type = b.get('BillDocumentTypeNameEn') or ''
         is_gov = 'Government' in bill_type
 
         slug = num.lower().replace('-', '')
@@ -282,15 +300,15 @@ def main():
             'id': num,
             'title': title,
             'longTitle': long_title,
-            'status': b.get('CurrentStatusEn') or 'Unknown',
-            'receivedRoyalAssent': bool(b.get('ReceivedRoyalAssentDateTime')),
+            'status': b.get('StatusNameEn') or 'Unknown',
+            'receivedRoyalAssent': bool(b.get('ReceivedRoyalAssentDateTime') or b.get('ReceivedRoyalAssent')),
             'type': 'Government Bill' if is_gov else 'Private Member’s Bill' if num.startswith('C-') else 'Senate Public Bill',
             'originatingChamber': 'Senate' if num.startswith('S-') else 'House of Commons',
             'category': categorize(short_title + ' ' + long_title),
             'sponsor': sponsor,
             'sponsorParty': sponsor_party,
-            'latestActivity': b.get('LatestActivityEn'),
-            'latestActivityDate': clean_date(b.get('LatestActivityDateTime')),
+            'latestActivity': detail.get('LatestBillEventTypeNameEn'),
+            'latestActivityDate': clean_date(detail.get('LatestBillEventDateTime')),
             'stages': stages,
             'partyPositions': positions.get(num),
             'votes': vote_summaries.get(num, []),
