@@ -1,16 +1,68 @@
 {
   "liberal_party": [
     {
+      "id": "2089772123426332967",
+      "content": "RT @MarkJCarney: More than 20,000 jobs. More clean power. A stronger, more resilient economy.\n\nWe’re making the largest clean energy investment in North American history. https://t.co/fwmjKBo3cQ",
+      "date": "2026-08-18T17:51:14.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 237,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 309
+      }
+    },
+    {
+      "id": "2089772114093953348",
+      "content": "RT @timhodgsonmt: Making clean energy history 🇨🇦 https://t.co/QjSZHv1xOw",
+      "date": "2026-08-18T17:51:12.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 408,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 27
+      }
+    },
+    {
+      "id": "2089772101280362556",
+      "content": "RT @PattyHajdu: When tariffs threaten Canadian workers’ livelihoods and communities, the federal government is responding quickly and decisively to ensure workers have the supports they need. https://t.co/2x4A43E2qR",
+      "date": "2026-08-18T17:51:09.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 386,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 3
+      }
+    },
+    {
+      "id": "2089744329006846145",
+      "content": "‼️ Don’t forget!\n\nIf you live in Chicoutimi–Le Fjord, North Vancouver—Capilano, or Beaches—East York, advance polls are this weekend!\n\nMake your plan to vote today! https://t.co/CH0EDo6f9u. https://t.co/aU7nS32CUt",
+      "date": "2026-08-18T16:00:48.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9693,
+        "like_count": 159,
+        "quote_count": 8,
+        "reply_count": 128,
+        "retweet_count": 47
+      }
+    },
+    {
       "id": "2089453953280790853",
       "content": "NEW: The largest clean energy investment in North American history.\n\nThis agreement will create good jobs, supply clean, affordable energy to meet growing demand, and build a stronger, more independent Canada. https://t.co/FqE3sSUZyJ",
       "date": "2026-08-17T20:46:57.000Z",
       "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 16074,
-        "like_count": 428,
-        "quote_count": 12,
-        "reply_count": 411,
-        "retweet_count": 104
+        "bookmark_count": 20,
+        "impression_count": 84633,
+        "like_count": 706,
+        "quote_count": 25,
+        "reply_count": 634,
+        "retweet_count": 167
       }
     },
     {
@@ -19,11 +71,11 @@
       "date": "2026-08-17T18:19:35.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 246,
+        "impression_count": 268,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 641
+        "retweet_count": 854
       }
     },
     {
@@ -32,7 +84,7 @@
       "date": "2026-08-17T18:19:30.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 389,
+        "impression_count": 432,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -45,11 +97,11 @@
       "date": "2026-08-16T14:29:22.000Z",
       "metrics": {
         "bookmark_count": 9,
-        "impression_count": 37418,
-        "like_count": 532,
+        "impression_count": 38203,
+        "like_count": 533,
         "quote_count": 38,
-        "reply_count": 524,
-        "retweet_count": 127
+        "reply_count": 523,
+        "retweet_count": 129
       }
     },
     {
@@ -58,10 +110,10 @@
       "date": "2026-08-15T19:19:31.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 11865,
+        "impression_count": 11992,
         "like_count": 251,
         "quote_count": 6,
-        "reply_count": 157,
+        "reply_count": 158,
         "retweet_count": 72
       }
     },
@@ -71,78 +123,39 @@
       "date": "2026-08-15T15:11:28.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 321,
+        "impression_count": 323,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 306
       }
-    },
-    {
-      "id": "2088644439962960251",
-      "content": "On National #AcadianDay, we celebrate the vibrant culture and history of the Acadian people, and recognize the vital role they continue to play in shaping Canada. https://t.co/oArONg7014",
-      "date": "2026-08-15T15:10:14.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 9904,
-        "like_count": 222,
-        "quote_count": 7,
-        "reply_count": 58,
-        "retweet_count": 57
-      }
-    },
-    {
-      "id": "2088375834088292522",
-      "content": "There’s an important by-election happening in North Vancouver–Capilano.\n\nBraeden Caley is ready to build the North Shore strong, and build Canada strong. https://t.co/J7vrnRIzoG",
-      "date": "2026-08-14T21:22:53.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 15756,
-        "like_count": 178,
-        "quote_count": 12,
-        "reply_count": 213,
-        "retweet_count": 42
-      }
-    },
-    {
-      "id": "2088337497466065162",
-      "content": "RT @EleanorO_MP: As the global trade landscape changes, Canada is building a stronger, more resilient economy. 🇨🇦\n\nWe’re supporting Canadian workers and businesses, strengthening industries here at home, and diversifying our trade partnerships around the world.\n\nTogether, we’re building Canada https://t.co/foPLCDaZLP",
-      "date": "2026-08-14T18:50:33.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 538,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 5
-      }
-    },
-    {
-      "id": "2088336731544187213",
-      "content": "RT @MarkJCarney: Thousands of good Canadian jobs. Stronger supply chains. Better access to global markets. \n\nThis is what building Canada strong looks like. https://t.co/Rhfvq7WpXQ",
-      "date": "2026-08-14T18:47:30.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 296,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 317
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2089849644637405445",
+      "content": "RT @PierrePoilievre: We're cheering for the Prime Minister to deliver the good deal he promised Canadian workers.\n\nLet's turn Canada's leverage into results. https://t.co/TvNeB9i6LX",
+      "date": "2026-08-18T22:59:17.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 183,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 127
+      }
+    },
     {
       "id": "2089349896151224414",
       "content": "RT @PierrePoilievre: BREAKING: Liberal inflation jumps to 3%, with food inflation rising even higher than the Bank of Canada target—again.\n\nCarney Liberals keep punishing working Canadians with bigger debt, higher taxes, and more inflation.\n\nSign to remove all taxes on gas and groceries and make life",
       "date": "2026-08-17T13:53:28.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 187,
+        "impression_count": 200,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 585
+        "retweet_count": 698
       }
     },
     {
@@ -151,11 +164,11 @@
       "date": "2026-08-16T17:53:32.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 213,
+        "impression_count": 219,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 636
+        "retweet_count": 782
       }
     },
     {
@@ -164,11 +177,11 @@
       "date": "2026-08-15T16:41:54.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 222,
+        "impression_count": 225,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 579
+        "retweet_count": 577
       }
     },
     {
@@ -177,11 +190,11 @@
       "date": "2026-08-14T19:27:38.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 223,
+        "impression_count": 225,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 358
+        "retweet_count": 359
       }
     },
     {
@@ -190,7 +203,7 @@
       "date": "2026-08-14T12:40:22.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 212,
+        "impression_count": 214,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -203,11 +216,11 @@
       "date": "2026-08-13T12:56:32.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 218,
+        "impression_count": 220,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 804
+        "retweet_count": 803
       }
     },
     {
@@ -233,7 +246,7 @@
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 374
+        "retweet_count": 373
       }
     },
     {
@@ -246,31 +259,57 @@
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 703
-      }
-    },
-    {
-      "id": "2085820419886473291",
-      "content": "RT @PierrePoilievre: The Carney Liberals are planning to hike the gas tax back up on Labour Day.\n\nConservatives are pressuring them to stop their gas tax hike, and leave more money in your pocket.\n\nSign here if you agree: https://t.co/n5sYnbfWBD https://t.co/LLbLkaUVON",
-      "date": "2026-08-07T20:08:35.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 220,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 550
+        "retweet_count": 702
       }
     }
   ],
   "NDP": [
+    {
+      "id": "2089808909506854929",
+      "content": "North Vancouver—Capilano residents need a champion who will fight to make life more affordable and protect our climate.\n\n🌿 Help send Stephen Tweedale to Ottawa: https://t.co/xzdfHhS4WT https://t.co/PXvtW4Ilw4",
+      "date": "2026-08-18T20:17:25.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1563,
+        "like_count": 30,
+        "quote_count": 1,
+        "reply_count": 1,
+        "retweet_count": 10
+      }
+    },
+    {
+      "id": "2089803428889501857",
+      "content": "Beaches—East York: Are you ready to elect a New Democrat who will put Toronto first?\n\n🤝Sign up to be a part of Shannon's campaign now: https://t.co/ex68c1rz0j https://t.co/XGMVVkSqBa",
+      "date": "2026-08-18T19:55:38.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1869,
+        "like_count": 52,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 14
+      }
+    },
+    {
+      "id": "2089802081016389881",
+      "content": "RT @DonDavies: As Canada burns, the federal government is expanding new fossil fuel projects that accelerate climate change. Yet the Carney government is using taxpayer dollars to mislead Canadians on their climate policy. (1/3) https://t.co/2dcjxcFZob",
+      "date": "2026-08-18T19:50:17.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 91,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 32
+      }
+    },
     {
       "id": "2089368951084183752",
       "content": "D'un bout à l'autre du pays, les Canadiens et Canadiennes expriment le même avis : nous ne voulons pas de centres de données d'IA qui font grimper nos factures d'énergie, consomment nos ressources en eau et nuisent à nos collectivités.\n\nC'est pourquoi Avi Lewis et le NPD https://t.co/wdVqu4sVPU",
       "date": "2026-08-17T15:09:11.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1720,
+        "impression_count": 1886,
         "like_count": 20,
         "quote_count": 0,
         "reply_count": 1,
@@ -282,12 +321,12 @@
       "content": "We're hearing the same thing from Canadians from coast to coast: we don't want AI data centres that increase our energy bills, suck up our water, and hurt our communities.\n\nThat's why Avi Lewis and the NDP are calling for stronger regulations and a pause on new AI data centres https://t.co/5xq4XBRm1n",
       "date": "2026-08-17T15:08:23.000Z",
       "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 4720,
-        "like_count": 180,
-        "quote_count": 6,
+        "bookmark_count": 7,
+        "impression_count": 6447,
+        "like_count": 210,
+        "quote_count": 7,
         "reply_count": 14,
-        "retweet_count": 55
+        "retweet_count": 74
       }
     },
     {
@@ -296,7 +335,7 @@
       "date": "2026-08-16T01:16:38.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 133,
+        "impression_count": 134,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -309,7 +348,7 @@
       "date": "2026-08-15T15:03:30.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3303,
+        "impression_count": 3342,
         "like_count": 31,
         "quote_count": 0,
         "reply_count": 1,
@@ -321,8 +360,8 @@
       "content": "We're gearing up to help Stephen win in North Vancouver—Capilano!\n\nWe've got a full lineup of virtual phonebanks coming up led by incredible organizers from BC and beyond including: Don Davies, Heather McPherson, Libby Davies, and Peter Julian.\n\nWhether you've made calls before https://t.co/6OFAF73EvU",
       "date": "2026-08-14T21:59:19.000Z",
       "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 3933,
+        "bookmark_count": 1,
+        "impression_count": 3978,
         "like_count": 35,
         "quote_count": 2,
         "reply_count": 2,
@@ -335,7 +374,7 @@
       "date": "2026-08-14T21:49:49.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 3785,
+        "impression_count": 3822,
         "like_count": 35,
         "quote_count": 1,
         "reply_count": 4,
@@ -348,50 +387,11 @@
       "date": "2026-08-11T23:53:49.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2435,
+        "impression_count": 2452,
         "like_count": 17,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 7
-      }
-    },
-    {
-      "id": "2087282241441599497",
-      "content": "Join Avi Lewis and New Democrats from across Saskatchewan for a virtual rally next Tuesday for the Yorkton—Melville NDP!\n\nHelp us organize and hit the ground running in the riding, as we prepare for a by-election some time in the coming months.\n\nRSVP now: https://t.co/oMt2yxHJze https://t.co/sUkVKQb6tX",
-      "date": "2026-08-11T20:57:20.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 9064,
-        "like_count": 55,
-        "quote_count": 3,
-        "reply_count": 4,
-        "retweet_count": 10
-      }
-    },
-    {
-      "id": "2087203437213827157",
-      "content": "It's clear who the Liberals are putting first.\n\nCanadians deserve better than a government that is focused on helping the fossil fuel industry rake in more profits.\n\nAvi Lewis and the NDP are fighting for a Green New Deal — a plan that will deliver climate action, lower costs and https://t.co/rNDEyh877o",
-      "date": "2026-08-11T15:44:12.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 4775,
-        "like_count": 149,
-        "quote_count": 6,
-        "reply_count": 18,
-        "retweet_count": 59
-      }
-    },
-    {
-      "id": "2086936420850287098",
-      "content": "Vancouver, meet your NDP candidate for North Vancouver—Capilano!\n\nStephen is proud to have called North Van home for more than 25 years. He brings decades of experience in hospitality and the arts to his work with NDP MLA Susie Chant where he assists and advocates full-time for https://t.co/2JTa2VZp9q",
-      "date": "2026-08-10T22:03:10.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 5203,
-        "like_count": 77,
-        "quote_count": 1,
-        "reply_count": 5,
-        "retweet_count": 19
       }
     }
   ],
@@ -402,9 +402,9 @@
       "date": "2026-08-15T12:00:03.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1445,
-        "like_count": 28,
-        "quote_count": 1,
+        "impression_count": 1608,
+        "like_count": 29,
+        "quote_count": 2,
         "reply_count": 5,
         "retweet_count": 8
       }
@@ -415,7 +415,7 @@
       "date": "2026-08-09T17:59:04.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1408,
+        "impression_count": 1424,
         "like_count": 22,
         "quote_count": 1,
         "reply_count": 8,
@@ -480,7 +480,7 @@
       "date": "2026-07-24T12:01:53.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3675,
+        "impression_count": 3686,
         "like_count": 45,
         "quote_count": 1,
         "reply_count": 9,
@@ -493,7 +493,7 @@
       "date": "2026-07-23T12:56:37.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1426,
+        "impression_count": 1432,
         "like_count": 33,
         "quote_count": 0,
         "reply_count": 3,
@@ -506,7 +506,7 @@
       "date": "2026-07-22T12:45:11.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 18390,
+        "impression_count": 18397,
         "like_count": 143,
         "quote_count": 12,
         "reply_count": 56,
@@ -519,7 +519,7 @@
       "date": "2026-07-17T19:00:01.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1793,
+        "impression_count": 1796,
         "like_count": 14,
         "quote_count": 1,
         "reply_count": 3,
@@ -529,12 +529,25 @@
   ],
   "CanadianGreens": [
     {
+      "id": "2089726071537107346",
+      "content": "Read our statement on the passing of former Green Party Leader Joan Russow https://t.co/ciS9uq2f10",
+      "date": "2026-08-18T14:48:15.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2303,
+        "like_count": 14,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 4
+      }
+    },
+    {
       "id": "2087988457465336175",
       "content": "Is this enough to protect your home?\n\nOttawa is giving $34 million for climate adaptation projects. But they’re also pouring billions into the fossil fuel sector.\n\nCanadians deserve a government that stops the flow of money to the cause of this crisis. https://t.co/o2D47FUpFP",
       "date": "2026-08-13T19:43:35.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1958,
+        "impression_count": 1982,
         "like_count": 24,
         "quote_count": 1,
         "reply_count": 5,
@@ -547,7 +560,7 @@
       "date": "2026-08-10T14:40:30.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 4940,
+        "impression_count": 4950,
         "like_count": 46,
         "quote_count": 5,
         "reply_count": 35,
@@ -560,7 +573,7 @@
       "date": "2026-08-07T15:58:27.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 5608,
+        "impression_count": 5614,
         "like_count": 36,
         "quote_count": 1,
         "reply_count": 11,
@@ -573,7 +586,7 @@
       "date": "2026-08-06T16:33:53.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 4858,
+        "impression_count": 4863,
         "like_count": 51,
         "quote_count": 7,
         "reply_count": 11,
@@ -586,7 +599,7 @@
       "date": "2026-08-06T16:20:20.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2267,
+        "impression_count": 2271,
         "like_count": 18,
         "quote_count": 1,
         "reply_count": 1,
@@ -599,7 +612,7 @@
       "date": "2026-08-05T13:16:48.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 9875,
+        "impression_count": 9880,
         "like_count": 59,
         "quote_count": 11,
         "reply_count": 8,
@@ -612,7 +625,7 @@
       "date": "2026-08-01T14:00:01.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 2023,
+        "impression_count": 2027,
         "like_count": 26,
         "quote_count": 2,
         "reply_count": 4,
@@ -625,7 +638,7 @@
       "date": "2026-07-31T14:18:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 3184,
+        "impression_count": 3187,
         "like_count": 21,
         "quote_count": 2,
         "reply_count": 2,
@@ -638,35 +651,35 @@
       "date": "2026-07-29T18:00:00.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1654,
+        "impression_count": 1658,
         "like_count": 19,
         "quote_count": 1,
         "reply_count": 5,
         "retweet_count": 15
       }
-    },
-    {
-      "id": "2081741399855448161",
-      "content": "Big Oil likes to claim it’s being punished and held back. In reality, it’s being bankrolled. Between 2022 and 2024, Canadian public finance poured 19 times more into oil and gas than renewable energy. Big Oil’s so-called punishment looks a lot like a blank cheque. https://t.co/cO1HOnQln9",
-      "date": "2026-07-27T14:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 2493,
-        "like_count": 42,
-        "quote_count": 0,
-        "reply_count": 3,
-        "retweet_count": 29
-      }
     }
   ],
   "OurCommons": [
+    {
+      "id": "2089698961229529354",
+      "content": "Good things come in pairs! 👯 Check out the “First Rhapsody for Two Carillonneurs” by the first Dominion Carillonneur, Percival Price. This rendition is performed by former Dominion Carillonneur Gordon Slater and guest artist Daniel Zlatin: https://t.co/rFbE2TcNy1 https://t.co/0Bp3aQQWaq",
+      "date": "2026-08-18T13:00:31.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 599,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
     {
       "id": "2088264532732850344",
       "content": "How many hats can you find in this photo? Style has certainly changed from the 17th Parliament. \n\nIn 1930, there were 245 Members of Parliament, with the Honourable George Black serving as Speaker of the House of Commons (1930–1935). https://t.co/0qKs7Yh8L1",
       "date": "2026-08-14T14:00:37.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 784,
+        "impression_count": 812,
         "like_count": 4,
         "quote_count": 0,
         "reply_count": 1,
@@ -679,7 +692,7 @@
       "date": "2026-08-13T14:00:36.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 925,
+        "impression_count": 944,
         "like_count": 8,
         "quote_count": 0,
         "reply_count": 1,
@@ -692,7 +705,7 @@
       "date": "2026-08-11T13:00:29.000Z",
       "metrics": {
         "bookmark_count": 8,
-        "impression_count": 18347,
+        "impression_count": 18367,
         "like_count": 72,
         "quote_count": 4,
         "reply_count": 2,
@@ -705,7 +718,7 @@
       "date": "2026-08-06T14:00:38.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 7723,
+        "impression_count": 7729,
         "like_count": 34,
         "quote_count": 2,
         "reply_count": 2,
@@ -718,7 +731,7 @@
       "date": "2026-08-05T13:00:04.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 1219,
+        "impression_count": 1221,
         "like_count": 33,
         "quote_count": 1,
         "reply_count": 2,
@@ -731,7 +744,7 @@
       "date": "2026-08-04T18:00:15.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1032,
+        "impression_count": 1033,
         "like_count": 11,
         "quote_count": 0,
         "reply_count": 0,
@@ -744,7 +757,7 @@
       "date": "2026-08-04T13:00:33.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 845,
+        "impression_count": 846,
         "like_count": 1,
         "quote_count": 0,
         "reply_count": 0,
@@ -757,7 +770,7 @@
       "date": "2026-08-01T16:34:51.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 234,
+        "impression_count": 235,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 0,
@@ -770,21 +783,8 @@
       "date": "2026-08-01T16:33:44.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1003,
+        "impression_count": 1004,
         "like_count": 7,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2083246768200823079",
-      "content": "During the summer months, Members of Parliament can be found in their constituency offices. There, they help Canadians navigate government institutions and connect them with the resources they need.\n\nFind your MP: https://t.co/JDGrOCjodW https://t.co/YgIM6lKXtC",
-      "date": "2026-07-31T17:41:49.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 519,
-        "like_count": 1,
         "quote_count": 0,
         "reply_count": 1,
         "retweet_count": 2
