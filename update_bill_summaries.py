@@ -82,16 +82,24 @@ Type: {btype} | Sponsor: {sponsor} | Status: {status}
 
 {text_section}
 
+{media_section}
+
 Return:
 - "overview": ONE paragraph (3-5 sentences) saying what the bill does and why \
 it matters, in plain language.
 - "deepDive": 3-5 sections, each with a short "heading" and a "body" of 1-2 \
 paragraphs, forming an executive summary. Good headings: "What the bill \
 does", "Key provisions", "Who it affects", "Context". Base everything \
-strictly on the material above — never invent provisions. If only the title \
-is available, keep it brief and note that the analysis is based on the \
-title pending publication of the bill text. Stay neutral: describe, don't \
-advocate.
+strictly on the material above — never invent provisions. Stay neutral: \
+describe, don't advocate.
+
+If the FULL TEXT is available, base the summary on it and treat headlines \
+only as context. If the text has NOT been published, write instead about \
+what the bill is REPORTED or expected to contain, drawing on the headlines \
+and the title: hedge every claim ("reporting suggests", "is expected to"), \
+attribute claims to coverage rather than to the bill, include a "What we \
+don't know yet" section, and never present speculation as enacted text. The \
+site labels these summaries as speculative.
 """
 
 
@@ -99,6 +107,10 @@ def summarize(client, bill):
     text = fetch_bill_text(bill['id'])
     text_section = (f'FULL TEXT (may be truncated):\n{text}' if text
                     else 'The bill text has not been published yet.')
+    media = bill.get('media') or []
+    media_section = ('NEWS HEADLINES ABOUT THIS BILL:\n' + '\n'.join(
+        f"- {m['title']} ({m.get('source') or 'News'}, {m.get('date', '')})"
+        for m in media[:10]) if media else 'No news headlines found for this bill.')
     response = client.beta.messages.create(
         model=MODEL,
         max_tokens=4000,
@@ -111,6 +123,7 @@ def summarize(client, bill):
                 id=bill['id'], title=bill['title'], long_title=bill['longTitle'],
                 btype=bill['type'], sponsor=bill['sponsor'] or 'Unknown',
                 status=bill['status'], text_section=text_section,
+                media_section=media_section,
             ),
         }],
     )

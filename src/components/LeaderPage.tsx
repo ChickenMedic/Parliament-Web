@@ -58,7 +58,8 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
           <img
             src={image}
             alt={`${leader.title} ${leader.name}`}
-            style={{ width: '120px', height: '160px', borderRadius: '12px', objectFit: 'cover', objectPosition: 'center top', border: `4px solid ${color}`, marginBottom: '16px', boxShadow: `0 8px 24px ${color}66` }}
+            className="politician-photo"
+            style={{ width: '120px', borderRadius: '12px', border: `4px solid ${color}`, marginBottom: '16px', boxShadow: `0 8px 24px ${color}66` }}
             onError={(e) => ((e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}`)}
           />
           <h1 style={{ margin: '0 0 8px 0', fontSize: '28px', color: 'white' }}>{leader.honorific} {leader.name}</h1>

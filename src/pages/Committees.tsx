@@ -119,7 +119,8 @@ export const Committees = () => {
         <img 
           src={mp && mp.image ? `https://openparliament.ca${mp.image}` : `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random`} 
           alt={name} 
-          style={{ width: '44px', height: '44px', borderRadius: '50%', objectFit: 'cover', objectPosition: 'center top', border: `1.5px solid ${color}` }}
+          className="politician-photo"
+          style={{ width: '40px', borderRadius: '8px', border: `1.5px solid ${color}` }}
           onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random` }}
         />
         <div style={{ minWidth: 0, flex: 1 }}>

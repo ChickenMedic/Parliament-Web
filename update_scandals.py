@@ -102,7 +102,9 @@ Update the data with these rules:
 - Preserve every existing entry, its id, and its votes count. Never delete entries.
 - Only make a change when the headlines clearly support it: append new timeline \
 entries (date format like "Aug 2026"), update a "status", or refine an \
-"Ongoing" timeline row into a dated one.
+"Ongoing" timeline row into a dated one. The site ranks scandals by their most \
+recent DATED timeline entry, so whenever headlines show a real development, \
+record it as a dated row rather than leaving an undated "Ongoing" placeholder.
 - Add a NEW scandal entry (next sequential id, votes 0) only if the headlines \
 show a major federal political controversy covered by multiple outlets that is \
 not already in the list. Minor gaffes or provincial stories do not qualify.

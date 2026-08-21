@@ -3,6 +3,7 @@ import { useState, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import billsData from '../data/bills.json';
 import billSummariesData from '../data/bill_summaries.json';
+import politiciansData from '../data/politicians.json';
 
 interface BillSummary {
   overview: string;
@@ -104,39 +105,63 @@ const voteBadge = (vote: string) =>
 const fmtDate = (d: string | null) =>
   d ? new Date(d + 'T00:00:00').toLocaleDateString('en-CA', { year: 'numeric', month: 'short', day: 'numeric' }) : null;
 
+// Fraction of legislative stages completed — used to rank actionable bills.
+const progressOf = (b: Bill) => {
+  const done = b.stages.filter(s => s.date).length;
+  return b.stages.length > 0 ? done / b.stages.length : 0;
+};
+
+const findSponsorMP = (name: string | null) => {
+  if (!name) return null;
+  const clean = name.replace(/^(Hon\.|Rt\. Hon\.|Sen\.)\s+/i, '').toLowerCase().trim();
+  return (politiciansData.objects as any[]).find(p => p.name.toLowerCase().trim() === clean) || null;
+};
+
 /** Horizontal stepper showing how far along the legislative process a bill is. */
 const StageTracker = ({ bill, compact }: { bill: Bill; compact?: boolean }) => {
   const bucket = statusBucket(bill);
   // A stage is "reached" if it has a date; the current stage is inferred from status text.
   const lastDone = bill.stages.reduce((acc, s, i) => (s.date ? i : acc), -1);
+  const currentIdx = bucket === 'Active' ? lastDone + 1 : -1;
+  // Colour of the connector arriving at stage i. Both half-segments around a
+  // gap use this, so a line never switches colour mid-span: green into a
+  // completed stage, amber into the current one, muted otherwise.
+  const segColor = (i: number) => {
+    if (i <= 0 || i >= bill.stages.length) return 'transparent';
+    if (bill.stages[i].date) return '#10b981';
+    if (i === currentIdx) return '#f59e0b';
+    return bucket === 'Defeated' ? 'rgba(239,68,68,0.35)' : 'rgba(255,255,255,0.12)';
+  };
+  const dotSize = compact ? 12 : 18;
   return (
     <div style={{ display: 'flex', alignItems: compact ? 'center' : 'flex-start', gap: '2px', width: '100%' }}>
       {bill.stages.map((s, i) => {
         const done = s.date !== null;
-        const isCurrent = !done && i === lastDone + 1 && bucket === 'Active';
-        const color = done ? '#10b981' : isCurrent ? '#f59e0b' : bucket === 'Defeated' ? 'rgba(239,68,68,0.35)' : 'rgba(255,255,255,0.15)';
+        const isCurrent = i === currentIdx;
         return (
-          <div key={s.key} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px', minWidth: 0 }}>
+          <div key={s.key} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', minWidth: 0 }}>
             <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-              <div style={{ flex: 1, height: '2px', background: i === 0 ? 'transparent' : color }} />
+              <div style={{ flex: 1, height: '3px', background: segColor(i) }} />
               <div
                 title={`${s.label}${s.date ? ` — ${fmtDate(s.date)}` : ''}`}
                 style={{
-                  width: compact ? '10px' : '14px',
-                  height: compact ? '10px' : '14px',
+                  width: `${dotSize}px`,
+                  height: `${dotSize}px`,
                   borderRadius: '50%',
                   background: done ? '#10b981' : isCurrent ? '#f59e0b' : 'rgba(255,255,255,0.12)',
-                  border: isCurrent ? '2px solid #f59e0b' : '2px solid transparent',
+                  border: isCurrent ? '2px solid #fbbf24' : '2px solid transparent',
+                  boxShadow: isCurrent ? '0 0 8px rgba(245,158,11,0.6)' : 'none',
                   boxSizing: 'border-box',
                   flexShrink: 0,
                 }}
               />
-              <div style={{ flex: 1, height: '2px', background: i === bill.stages.length - 1 ? 'transparent' : (bill.stages[i + 1].date ? '#10b981' : 'rgba(255,255,255,0.12)') }} />
+              <div style={{ flex: 1, height: '3px', background: segColor(i + 1) }} />
             </div>
             {!compact && (
-              <div style={{ fontSize: '10px', textAlign: 'center', color: done || isCurrent ? 'rgba(255,255,255,0.85)' : 'rgba(255,255,255,0.35)', lineHeight: 1.25 }}>
+              <div style={{ fontSize: '12px', textAlign: 'center', color: done || isCurrent ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.4)', fontWeight: isCurrent ? 'bold' : 'normal', lineHeight: 1.3 }}>
                 {s.label}
-                {s.date && <div style={{ color: 'rgba(255,255,255,0.45)' }}>{fmtDate(s.date)}</div>}
+                {s.date && <div style={{ color: 'rgba(255,255,255,0.5)', fontSize: '11px', fontWeight: 'normal' }}>{fmtDate(s.date)}</div>}
+                {isCurrent && <div style={{ color: '#f59e0b', fontSize: '11px' }}>Current stage</div>}
               </div>
             )}
           </div>
@@ -145,6 +170,20 @@ const StageTracker = ({ bill, compact }: { bill: Bill; compact?: boolean }) => {
     </div>
   );
 };
+
+/** Loud banner for bills whose official text Parliament has not released. */
+const TextNotReleasedBanner = () => (
+  <div style={{ background: 'rgba(245,158,11,0.08)', border: '1.5px solid rgba(245,158,11,0.45)', borderRadius: '12px', padding: '20px 24px', marginTop: '24px', display: 'flex', gap: '18px', alignItems: 'center' }}>
+    <span style={{ fontSize: '32px' }}>📄</span>
+    <div>
+      <h3 style={{ margin: '0 0 4px 0', color: '#fbbf24', fontSize: '18px' }}>The text of this bill has not been released yet</h3>
+      <p style={{ margin: 0, fontSize: '14px', color: 'rgba(255,255,255,0.75)', lineHeight: 1.55 }}>
+        Parliament has not published the official wording. Until first-reading text appears on parl.ca,
+        anything reported about its contents is provisional.
+      </p>
+    </div>
+  </div>
+);
 
 export const Bills = () => {
   const [selectedBill, setSelectedBill] = useState<Bill | null>(null);
@@ -155,6 +194,7 @@ export const Bills = () => {
 
   const filteredBills = useMemo(() => {
     const q = search.toLowerCase();
+    const bucketOrder = { Active: 0, Passed: 1, Defeated: 2 };
     return BILLS_DATA.filter(bill => {
       const matchSearch =
         bill.id.toLowerCase().includes(q) ||
@@ -166,6 +206,14 @@ export const Bills = () => {
         typeFilter === 'All' ||
         (typeFilter === 'Government' ? bill.type === 'Government Bill' : bill.type !== 'Government Bill');
       return matchSearch && matchStatus && matchType;
+    }).sort((a, b) => {
+      // Active bills first, furthest-along first: those are the ones where
+      // contacting your MP can still change the outcome.
+      const bucketDiff = bucketOrder[statusBucket(a)] - bucketOrder[statusBucket(b)];
+      if (bucketDiff !== 0) return bucketDiff;
+      const progressDiff = progressOf(b) - progressOf(a);
+      if (progressDiff !== 0) return progressDiff;
+      return (b.latestActivityDate || '').localeCompare(a.latestActivityDate || '');
     });
   }, [search, statusFilter, typeFilter]);
 
@@ -173,82 +221,114 @@ export const Bills = () => {
     const bucket = statusBucket(selectedBill);
     const style = bucketStyle[bucket];
     const positions = selectedBill.partyPositions;
+    const summary = BILL_SUMMARIES[selectedBill.id];
+    const speculative = summary && !summary.hadFullText;
+    const sponsorMP = findSponsorMP(selectedBill.sponsor);
 
     return (
       <div className="page-container glass-panel" style={{ overflowY: 'auto' }}>
         <button
           onClick={() => setSelectedBill(null)}
-          style={{ background: 'transparent', color: 'var(--accent-color)', border: 'none', cursor: 'pointer', marginBottom: '24px', textAlign: 'left', fontWeight: 'bold', fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px' }}
+          style={{ background: 'transparent', color: 'var(--accent-color)', border: 'none', cursor: 'pointer', marginBottom: '24px', textAlign: 'left', fontWeight: 'bold', fontSize: '15px', display: 'flex', alignItems: 'center', gap: '6px' }}
         >
           &larr; Back to all Bills
         </button>
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '20px' }}>
+        {/* ── 1. Identity: what bill is this and where does it stand ── */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '24px' }}>
           <div style={{ minWidth: '280px', flex: 1 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
-              <span style={{ background: style.bg, color: style.fg, fontSize: '11px', fontWeight: 'bold', padding: '3px 8px', borderRadius: '4px', textTransform: 'uppercase' }}>
+              <span style={{ background: style.bg, color: style.fg, fontSize: '12px', fontWeight: 'bold', padding: '4px 10px', borderRadius: '4px', textTransform: 'uppercase' }}>
                 {selectedBill.status}
               </span>
-              <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 {selectedBill.type} • {selectedBill.category}
               </span>
             </div>
-            <h1 style={{ fontSize: '28px', margin: '8px 0 0 0', color: 'white' }}>{selectedBill.id}: {selectedBill.title}</h1>
+            <h1 style={{ fontSize: '34px', margin: '10px 0 0 0', color: 'white', lineHeight: 1.2 }}>{selectedBill.id}: {selectedBill.title}</h1>
             {selectedBill.title !== selectedBill.longTitle && (
-              <p style={{ margin: '8px 0 0 0', color: 'rgba(255,255,255,0.6)', fontSize: '14px', lineHeight: 1.5 }}>{selectedBill.longTitle}</p>
+              <p style={{ margin: '10px 0 0 0', color: 'rgba(255,255,255,0.6)', fontSize: '15px', lineHeight: 1.5 }}>{selectedBill.longTitle}</p>
             )}
             {selectedBill.sponsor && (
-              <div style={{ marginTop: '10px', fontSize: '13px', color: 'rgba(255,255,255,0.7)' }}>
-                Sponsor: <strong style={{ color: sponsorColor(selectedBill.sponsorParty) }}>{selectedBill.sponsor}</strong>
-                {selectedBill.sponsorParty && selectedBill.sponsorParty !== 'Senator' && ` (${selectedBill.sponsorParty})`}
+              <div style={{ marginTop: '14px', display: 'flex', alignItems: 'center', gap: '10px', fontSize: '14px', color: 'rgba(255,255,255,0.7)' }}>
+                {sponsorMP && (
+                  <img
+                    src={`https://openparliament.ca${sponsorMP.image}`}
+                    alt=""
+                    className="politician-photo"
+                    style={{ width: '34px', borderRadius: '6px', border: `2px solid ${sponsorColor(selectedBill.sponsorParty)}` }}
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                  />
+                )}
+                <span>
+                  Sponsor: <strong style={{ color: sponsorColor(selectedBill.sponsorParty) }}>{selectedBill.sponsor}</strong>
+                  {selectedBill.sponsorParty && selectedBill.sponsorParty !== 'Senator' && ` (${selectedBill.sponsorParty})`}
+                </span>
               </div>
             )}
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            {selectedBill.text_link ? (
-              <a href={selectedBill.text_link} target="_blank" rel="noopener noreferrer" style={{ padding: '8px 16px', background: 'rgba(255,255,255,0.1)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.2)' }}>
+            {selectedBill.text_link && (
+              <a href={selectedBill.text_link} target="_blank" rel="noopener noreferrer" style={{ padding: '10px 18px', background: 'rgba(255,255,255,0.1)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.2)' }}>
                 View Full Text
               </a>
-            ) : (
-              <span
-                title="The text of this bill has not been published by Parliament yet."
-                style={{ padding: '8px 16px', background: 'rgba(255,255,255,0.03)', color: 'rgba(255,255,255,0.3)', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold', border: '1px solid rgba(255,255,255,0.08)', cursor: 'not-allowed' }}
-              >
-                Text Not Yet Published
-              </span>
             )}
-            <a href={selectedBill.link} target="_blank" rel="noopener noreferrer" style={{ padding: '8px 16px', background: 'var(--accent-color)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold' }}>
+            <a href={selectedBill.link} target="_blank" rel="noopener noreferrer" style={{ padding: '10px 18px', background: 'var(--accent-color)', color: 'white', textDecoration: 'none', borderRadius: '8px', fontSize: '14px', fontWeight: 'bold' }}>
               LEGISinfo Page
             </a>
           </div>
         </div>
 
-        {/* Plain-language summary */}
-        {BILL_SUMMARIES[selectedBill.id] && (
-          <div style={{ background: 'rgba(96,165,250,0.05)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(96,165,250,0.15)', marginTop: '24px' }}>
-            <h3 style={{ margin: '0 0 10px 0', color: 'white', fontSize: '15px' }}>What This Bill Does</h3>
-            <p style={{ margin: 0, fontSize: '14px', color: 'rgba(255,255,255,0.85)', lineHeight: 1.65 }}>
-              {BILL_SUMMARIES[selectedBill.id].overview}
+        {/* ── 2. If the official text isn't out, say so loudly ── */}
+        {!selectedBill.text_link && <TextNotReleasedBanner />}
+
+        {/* ── 3. What it does (or is reported to do) ── */}
+        {summary && (
+          <div style={{
+            background: speculative ? 'rgba(245,158,11,0.05)' : 'rgba(96,165,250,0.05)',
+            padding: '24px',
+            borderRadius: '12px',
+            border: speculative ? '1.5px dashed rgba(245,158,11,0.5)' : '1px solid rgba(96,165,250,0.15)',
+            marginTop: '24px',
+          }}>
+            {speculative ? (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap', marginBottom: '12px' }}>
+                <h3 style={{ margin: 0, color: '#fbbf24', fontSize: '18px' }}>What This Bill Might Do</h3>
+                <span style={{ background: 'rgba(245,158,11,0.2)', border: '1px solid rgba(245,158,11,0.5)', color: '#fbbf24', fontSize: '11px', fontWeight: 'bold', padding: '3px 10px', borderRadius: '10px', letterSpacing: '0.5px' }}>
+                  ⚠ SPECULATIVE — TEXT NOT PUBLISHED
+                </span>
+              </div>
+            ) : (
+              <h3 style={{ margin: '0 0 12px 0', color: 'white', fontSize: '18px' }}>What This Bill Does</h3>
+            )}
+            {speculative && (
+              <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: 'rgba(255,255,255,0.55)', lineHeight: 1.5 }}>
+                This description is based on news reporting, statements, and the bill's title — not on official
+                text, which Parliament has not released. Treat it as informed speculation that may change.
+              </p>
+            )}
+            <p style={{ margin: 0, fontSize: '15px', color: 'rgba(255,255,255,0.88)', lineHeight: 1.65 }}>
+              {summary.overview}
             </p>
-            {BILL_SUMMARIES[selectedBill.id].deepDive.length > 0 && (
+            {summary.deepDive.length > 0 && (
               <>
                 <button
                   onClick={() => setShowDeepDive(!showDeepDive)}
-                  style={{ marginTop: '14px', background: 'transparent', border: '1px solid rgba(96,165,250,0.4)', color: '#60a5fa', padding: '7px 14px', borderRadius: '6px', cursor: 'pointer', fontSize: '12.5px', fontWeight: 'bold' }}
+                  style={{ marginTop: '16px', background: 'transparent', border: `1px solid ${speculative ? 'rgba(245,158,11,0.4)' : 'rgba(96,165,250,0.4)'}`, color: speculative ? '#fbbf24' : '#60a5fa', padding: '8px 16px', borderRadius: '6px', cursor: 'pointer', fontSize: '13.5px', fontWeight: 'bold' }}
                 >
                   {showDeepDive ? 'Hide Executive Summary ▲' : 'Read the Executive Summary ▼'}
                 </button>
                 {showDeepDive && (
                   <div style={{ marginTop: '18px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                    {BILL_SUMMARIES[selectedBill.id].deepDive.map((section, i) => (
+                    {summary.deepDive.map((section, i) => (
                       <div key={i}>
-                        <h4 style={{ margin: '0 0 6px 0', fontSize: '13px', color: '#93c5fd', textTransform: 'uppercase', letterSpacing: '0.5px' }}>{section.heading}</h4>
-                        <p style={{ margin: 0, fontSize: '13.5px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.6, whiteSpace: 'pre-line' }}>{section.body}</p>
+                        <h4 style={{ margin: '0 0 6px 0', fontSize: '14px', color: speculative ? '#fbbf24' : '#93c5fd', textTransform: 'uppercase', letterSpacing: '0.5px' }}>{section.heading}</h4>
+                        <p style={{ margin: 0, fontSize: '14.5px', color: 'rgba(255,255,255,0.82)', lineHeight: 1.6, whiteSpace: 'pre-line' }}>{section.body}</p>
                       </div>
                     ))}
-                    <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.35)' }}>
-                      AI-generated plain-language summary based on the {BILL_SUMMARIES[selectedBill.id].hadFullText ? 'published bill text' : 'bill title (full text not yet published)'} — verify against the official text.
+                    <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.4)' }}>
+                      AI-generated plain-language summary based on {summary.hadFullText ? 'the published bill text' : 'reporting and the bill title (full text not yet published)'} — verify against the official text.
                     </div>
                   </div>
                 )}
@@ -257,24 +337,29 @@ export const Bills = () => {
           </div>
         )}
 
-        {/* Progress through Parliament */}
+        {/* ── 4. Where it is in the process ── */}
         <div style={{ background: 'rgba(255,255,255,0.02)', padding: '24px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', marginTop: '24px' }}>
-          <h3 style={{ margin: '0 0 6px 0', color: 'white', fontSize: '15px' }}>Progress through Parliament</h3>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: '8px', marginBottom: '6px' }}>
+            <h3 style={{ margin: 0, color: 'white', fontSize: '18px' }}>Progress through Parliament</h3>
+            <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)' }}>
+              {selectedBill.stages.filter(s => s.date).length} of {selectedBill.stages.length} stages complete
+            </span>
+          </div>
           {selectedBill.latestActivity && (
-            <p style={{ margin: '0 0 18px 0', fontSize: '13px', color: 'rgba(255,255,255,0.55)' }}>
-              Latest activity: {selectedBill.latestActivity}
+            <p style={{ margin: '0 0 20px 0', fontSize: '14px', color: 'rgba(255,255,255,0.6)' }}>
+              Latest activity: {selectedBill.latestActivity}{selectedBill.latestActivityDate ? ` — ${fmtDate(selectedBill.latestActivityDate)}` : ''}
             </p>
           )}
           <StageTracker bill={selectedBill} />
         </div>
 
+        {/* ── 5. How the parties line up, and what the press says ── */}
         <div style={{ display: 'flex', gap: '32px', marginTop: '24px', flexWrap: 'wrap' }}>
-          {/* Left: party positions from recorded votes */}
           <div style={{ flex: 1.2, minWidth: '300px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            <h3 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)' }}>Party Positions</h3>
+            <h3 style={{ margin: '0 0 4px 0', fontSize: '15px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)' }}>Party Positions</h3>
             {positions ? (
               <>
-                <p style={{ margin: 0, fontSize: '12.5px', color: 'rgba(255,255,255,0.55)', lineHeight: 1.5 }}>
+                <p style={{ margin: 0, fontSize: '13.5px', color: 'rgba(255,255,255,0.55)', lineHeight: 1.5 }}>
                   From the recorded division on {fmtDate(positions.voteDate)}: “{positions.basedOn}” ({positions.voteResult}).{' '}
                   <a href={positions.voteUrl} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-color)' }}>Full vote breakdown ↗</a>
                 </p>
@@ -284,14 +369,14 @@ export const Bills = () => {
                   return (
                     <div key={party} style={{ background: 'rgba(255,255,255,0.04)', padding: '14px 16px', borderRadius: '8px', borderLeft: `4px solid ${meta.color}`, display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '12px' }}>
                       <div>
-                        <strong style={{ color: meta.color, display: 'block', fontSize: '13px', textTransform: 'uppercase' }}>{meta.label}</strong>
+                        <strong style={{ color: meta.color, display: 'block', fontSize: '14px', textTransform: 'uppercase' }}>{meta.label}</strong>
                         {pos.disagreement > 0 && (
-                          <span style={{ fontSize: '11.5px', color: 'rgba(255,255,255,0.5)' }}>
+                          <span style={{ fontSize: '12.5px', color: 'rgba(255,255,255,0.5)' }}>
                             {Math.round(pos.disagreement * 100)}% of caucus broke ranks
                           </span>
                         )}
                       </div>
-                      <span style={{ background: badge.bg, color: badge.fg, fontSize: '11px', fontWeight: 'bold', padding: '4px 10px', borderRadius: '4px', whiteSpace: 'nowrap' }}>
+                      <span style={{ background: badge.bg, color: badge.fg, fontSize: '12px', fontWeight: 'bold', padding: '4px 10px', borderRadius: '4px', whiteSpace: 'nowrap' }}>
                         {badge.text}
                       </span>
                     </div>
@@ -299,7 +384,7 @@ export const Bills = () => {
                 })}
               </>
             ) : (
-              <div style={{ background: 'rgba(255,255,255,0.03)', padding: '18px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.06)', fontSize: '13.5px', color: 'rgba(255,255,255,0.6)', lineHeight: 1.6 }}>
+              <div style={{ background: 'rgba(255,255,255,0.03)', padding: '18px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.06)', fontSize: '14.5px', color: 'rgba(255,255,255,0.6)', lineHeight: 1.6 }}>
                 No recorded division on this bill yet, so official party positions aren’t available.
                 Positions appear here automatically once the House holds a standing vote.
               </div>
@@ -307,10 +392,10 @@ export const Bills = () => {
 
             {selectedBill.votes.length > 0 && (
               <div style={{ marginTop: '8px' }}>
-                <h3 style={{ margin: '0 0 10px 0', fontSize: '14px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)' }}>Recorded Votes</h3>
+                <h3 style={{ margin: '0 0 10px 0', fontSize: '15px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)' }}>Recorded Votes</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                   {selectedBill.votes.slice().reverse().map(v => (
-                    <div key={v.number} style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '10px 14px', borderRadius: '8px', fontSize: '12.5px' }}>
+                    <div key={v.number} style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '10px 14px', borderRadius: '8px', fontSize: '13.5px' }}>
                       <div style={{ color: 'rgba(255,255,255,0.85)', marginBottom: '4px', lineHeight: 1.4 }}>{v.description}</div>
                       <div style={{ color: 'rgba(255,255,255,0.5)' }}>
                         {fmtDate(v.date)} • <span style={{ color: v.result === 'Passed' ? '#10b981' : '#ef4444', fontWeight: 'bold' }}>{v.result}</span> — {v.yea} yea / {v.nay} nay
@@ -322,25 +407,24 @@ export const Bills = () => {
             )}
           </div>
 
-          {/* Right: media coverage */}
           <div style={{ flex: 1, minWidth: '300px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-            <h3 style={{ margin: '0 0 4px 0', fontSize: '14px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)' }}>Media Coverage</h3>
+            <h3 style={{ margin: '0 0 4px 0', fontSize: '15px', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-secondary)' }}>Media Coverage</h3>
             {selectedBill.media.length > 0 ? (
               selectedBill.media.map((m, i) => (
                 <a key={i} href={m.link} target="_blank" rel="noopener noreferrer" style={{ display: 'block', textDecoration: 'none', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '14px 16px', borderRadius: '8px' }}>
-                  <div style={{ fontSize: '11px', color: 'var(--accent-color)', fontWeight: 'bold', marginBottom: '4px' }}>
+                  <div style={{ fontSize: '12px', color: 'var(--accent-color)', fontWeight: 'bold', marginBottom: '4px' }}>
                     {m.source || 'News'}
                     {m.date && <span style={{ color: 'rgba(255,255,255,0.4)', fontWeight: 'normal' }}> • {new Date(m.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'short', day: 'numeric' })}</span>}
                   </div>
-                  <div style={{ fontSize: '13.5px', color: 'white', lineHeight: 1.45 }}>{m.title}</div>
+                  <div style={{ fontSize: '14.5px', color: 'white', lineHeight: 1.45 }}>{m.title}</div>
                 </a>
               ))
             ) : (
-              <div style={{ background: 'rgba(255,255,255,0.03)', padding: '18px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.06)', fontSize: '13.5px', color: 'rgba(255,255,255,0.6)' }}>
+              <div style={{ background: 'rgba(255,255,255,0.03)', padding: '18px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.06)', fontSize: '14.5px', color: 'rgba(255,255,255,0.6)' }}>
                 No recent coverage found for this bill.
               </div>
             )}
-            <div style={{ fontSize: '11.5px', color: 'rgba(255,255,255,0.35)', lineHeight: 1.5 }}>
+            <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.35)', lineHeight: 1.5 }}>
               Headlines aggregated from Canadian outlets via Google News. Search more:{' '}
               <a href={`https://www.cbc.ca/search?q=${encodeURIComponent('Bill ' + selectedBill.id)}`} target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255,255,255,0.55)' }}>CBC</a>,{' '}
               <a href={`https://www.ctvnews.ca/search?q=${encodeURIComponent('Bill ' + selectedBill.id)}`} target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255,255,255,0.55)' }}>CTV</a>,{' '}
@@ -358,7 +442,7 @@ export const Bills = () => {
     <div className="page-container glass-panel" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       <div className="page-header" style={{ marginBottom: '24px' }}>
         <h1>Legislative Bills Tracker</h1>
-        <p>The current docket of the 45th Parliament: where each bill sits in the legislative process, how the parties voted, and what the press is saying. Data from LEGISinfo and openparliament.ca.</p>
+        <p>The current docket of the 45th Parliament, ordered by how close each bill is to becoming law — the furthest-along active bills are the ones your MP can still influence. Data from LEGISinfo and openparliament.ca.</p>
 
         <div style={{ display: 'flex', gap: '12px', marginTop: '20px', alignItems: 'center', flexWrap: 'wrap' }}>
           <div className="search-box" style={{ flex: 1, minWidth: '240px' }}>
@@ -377,7 +461,7 @@ export const Bills = () => {
               <button
                 key={status}
                 onClick={() => setStatusFilter(status)}
-                style={{ padding: '8px 14px', background: statusFilter === status ? 'rgba(255,255,255,0.1)' : 'transparent', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '13px', fontWeight: statusFilter === status ? 'bold' : 'normal', transition: 'all 0.2s' }}
+                style={{ padding: '8px 14px', background: statusFilter === status ? 'rgba(255,255,255,0.1)' : 'transparent', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '14px', fontWeight: statusFilter === status ? 'bold' : 'normal', transition: 'all 0.2s' }}
               >
                 {status}
               </button>
@@ -389,7 +473,7 @@ export const Bills = () => {
               <button
                 key={t}
                 onClick={() => setTypeFilter(t)}
-                style={{ padding: '8px 14px', background: typeFilter === t ? 'rgba(255,255,255,0.1)' : 'transparent', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '13px', fontWeight: typeFilter === t ? 'bold' : 'normal', transition: 'all 0.2s' }}
+                style={{ padding: '8px 14px', background: typeFilter === t ? 'rgba(255,255,255,0.1)' : 'transparent', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', fontSize: '14px', fontWeight: typeFilter === t ? 'bold' : 'normal', transition: 'all 0.2s' }}
               >
                 {t}
               </button>
@@ -399,44 +483,53 @@ export const Bills = () => {
       </div>
 
       <div style={{ flex: 1, overflowY: 'auto', paddingRight: '4px' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '20px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: '20px' }}>
           {filteredBills.map(bill => {
             const bucket = statusBucket(bill);
             const style = bucketStyle[bucket];
+            const donePct = Math.round(progressOf(bill) * 100);
             return (
               <div key={bill.id} className="bill-card" style={{ display: 'flex', flexDirection: 'column', padding: '20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '12px' }}>
                 <div style={{ flex: 1 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', gap: '8px' }}>
-                    <span style={{ fontSize: '13px', fontWeight: 'bold', color: 'rgba(255,255,255,0.4)' }}>{bill.id}</span>
-                    <span style={{ background: style.bg, color: style.fg, fontSize: '9px', fontWeight: 'bold', padding: '2px 6px', borderRadius: '4px', textTransform: 'uppercase', textAlign: 'right' }}>
+                    <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgba(255,255,255,0.5)' }}>{bill.id}</span>
+                    <span style={{ background: style.bg, color: style.fg, fontSize: '11px', fontWeight: 'bold', padding: '3px 8px', borderRadius: '4px', textTransform: 'uppercase', textAlign: 'right' }}>
                       {bill.status}
                     </span>
                   </div>
-                  <h3 style={{ fontSize: '17px', margin: '0 0 8px 0', color: 'white', lineHeight: '1.3' }}>{bill.title}</h3>
+                  <h3 style={{ fontSize: '18px', margin: '0 0 8px 0', color: 'white', lineHeight: '1.3' }}>{bill.title}</h3>
                   {bill.sponsor && (
-                    <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)', marginBottom: '10px' }}>
+                    <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginBottom: '10px' }}>
                       {bill.type} • <span style={{ color: sponsorColor(bill.sponsorParty) }}>{bill.sponsor}</span>
+                    </div>
+                  )}
+                  {!bill.text_link && (
+                    <div style={{ background: 'rgba(245,158,11,0.12)', border: '1px solid rgba(245,158,11,0.45)', color: '#fbbf24', padding: '8px 12px', borderRadius: '8px', fontSize: '13px', fontWeight: 'bold', marginBottom: '4px' }}>
+                      📄 Bill text not released yet
                     </div>
                   )}
                   <div style={{ margin: '14px 0 4px 0' }}>
                     <StageTracker bill={bill} compact />
                   </div>
+                  <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.45)', marginTop: '6px' }}>
+                    {donePct}% of stages complete
+                  </div>
                   {bill.latestActivity && (
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '12px', lineHeight: '1.45', margin: '10px 0 0 0', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                    <p style={{ color: 'var(--text-secondary)', fontSize: '13px', lineHeight: '1.45', margin: '10px 0 0 0', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                       {bill.latestActivity}
                     </p>
                   )}
                   <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', marginTop: '12px' }}>
                     {bill.partyPositions && (
-                      <span style={{ background: 'rgba(16,185,129,0.1)', color: '#10b981', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>PARTY VOTES</span>
+                      <span style={{ background: 'rgba(16,185,129,0.1)', color: '#10b981', padding: '3px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>PARTY VOTES</span>
                     )}
                     {bill.media.length > 0 && (
-                      <span style={{ background: 'rgba(96,165,250,0.1)', color: '#60a5fa', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>MEDIA ({bill.media.length})</span>
+                      <span style={{ background: 'rgba(96,165,250,0.1)', color: '#60a5fa', padding: '3px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>MEDIA ({bill.media.length})</span>
                     )}
-                    <span style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.6)', padding: '2px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold' }}>{bill.category.toUpperCase()}</span>
+                    <span style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.6)', padding: '3px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>{bill.category.toUpperCase()}</span>
                   </div>
                 </div>
-                <button className="vote-btn" onClick={() => { setSelectedBill(bill); setShowDeepDive(false); }} style={{ width: '100%', marginTop: '16px', padding: '10px', background: 'var(--accent-color)' }}>
+                <button className="vote-btn" onClick={() => { setSelectedBill(bill); setShowDeepDive(false); }} style={{ width: '100%', marginTop: '16px', padding: '11px', fontSize: '14px', background: 'var(--accent-color)' }}>
                   View Progress, Votes &amp; Coverage
                 </button>
               </div>

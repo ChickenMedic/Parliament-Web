@@ -47,7 +47,7 @@ export const House = () => {
               <h3 style={{ margin: 0, fontSize: '18px', color: 'white', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '12px' }}>Member Profile</h3>
               
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
-                <img src={`https://openparliament.ca${selectedMP.image}`} alt={selectedMP.name} style={{ width: '120px', height: '160px', borderRadius: '16px', objectFit: 'cover', objectPosition: 'center top', border: `3px solid ${getPartyColor(selectedMP.current_party.short_name.en)}`, boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }} onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(selectedMP.name)}`} />
+                <img src={`https://openparliament.ca${selectedMP.image}`} alt={selectedMP.name} className="politician-photo" style={{ width: '120px', borderRadius: '16px', border: `3px solid ${getPartyColor(selectedMP.current_party.short_name.en)}`, boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }} onError={(e) => (e.target as any).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(selectedMP.name)}`} />
                 <div style={{ textAlign: 'center' }}>
                   <div style={{ fontWeight: 'bold', fontSize: '20px', color: 'white' }}>{selectedMP.name}</div>
                   <div style={{ fontSize: '14px', color: getPartyColor(selectedMP.current_party.short_name.en), fontWeight: 'bold', marginTop: '4px' }}>{selectedMP.current_party.short_name.en}</div>

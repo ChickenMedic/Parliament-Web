@@ -279,7 +279,8 @@ export const SeatingChart = ({ selectedMP, setSelectedMP, highlightProvince, hig
                     <img
                       src={`https://openparliament.ca${mp.image}`}
                       alt=""
-                      style={{ width: '44px', height: '44px', borderRadius: '8px', objectFit: 'cover', objectPosition: 'center top', border: `2px solid ${getPartyColor(mp.current_party.short_name.en)}` }}
+                      className="politician-photo"
+                      style={{ width: '40px', borderRadius: '8px', border: `2px solid ${getPartyColor(mp.current_party.short_name.en)}` }}
                       onError={(e) => (e.currentTarget.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}`)}
                     />
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>

@@ -24,6 +24,32 @@ const getSeverityColor = (severity: string) => {
   }
 };
 
+// Timeline dates look like "Feb 2024"; undated rows ("Ongoing") don't count
+// as developments, so stories only rank as fresh when something new happened.
+const parseTimelineDate = (d: string): number | null => {
+  const t = Date.parse(`1 ${d}`);
+  return isNaN(t) ? null : t;
+};
+
+const lastDevelopmentTime = (s: { timeline: { date: string }[] }): number | null => {
+  let latest: number | null = null;
+  for (const step of s.timeline) {
+    const t = parseTimelineDate(step.date);
+    if (t !== null && (latest === null || t > latest)) latest = t;
+  }
+  return latest;
+};
+
+const recencyInfo = (s: { timeline: { date: string }[] }) => {
+  const t = lastDevelopmentTime(s);
+  if (t === null) return { label: 'No dated developments', color: 'rgba(255,255,255,0.4)' };
+  const when = new Date(t).toLocaleDateString('en-CA', { month: 'short', year: 'numeric' });
+  const months = (Date.now() - t) / (1000 * 60 * 60 * 24 * 30.4);
+  if (months <= 3) return { label: `In the news — ${when}`, color: '#34d399' };
+  if (months <= 12) return { label: `Last development ${when}`, color: '#f59e0b' };
+  return { label: `Quiet since ${when}`, color: 'rgba(255,255,255,0.4)' };
+};
+
 interface Scandal {
   id: string;
   title: string;
@@ -175,8 +201,13 @@ export const Scandals = () => {
       
       const matchParty = selectedParty === 'All' || s.party.toLowerCase() === selectedParty.toLowerCase();
       const matchStatus = selectedStatus === 'All' || s.status.toLowerCase() === selectedStatus.toLowerCase();
-      
+
       return matchSearch && matchParty && matchStatus;
+    }).sort((a, b) => {
+      // Most recently developing stories first; undated-only stories last.
+      const ta = lastDevelopmentTime(a) ?? 0;
+      const tb = lastDevelopmentTime(b) ?? 0;
+      return tb - ta;
     });
   }, [scandals, search, selectedParty, selectedStatus]);
 
@@ -469,6 +500,7 @@ export const Scandals = () => {
                 const isExpanded = expandedId === s.id;
                 const pColor = getPartyColor(s.party);
                 const sevColor = getSeverityColor(s.severity);
+                const recency = recencyInfo(s);
 
                 return (
                   <div 
@@ -508,8 +540,14 @@ export const Scandals = () => {
                           <span style={{ color: sevColor, fontSize: '11px', fontWeight: 'bold', letterSpacing: '0.5px' }}>
                             ● {s.severity} Severity
                           </span>
+                          <span style={{ border: `1px solid ${recency.color}55`, color: recency.color, padding: '2px 8px', borderRadius: '10px', fontSize: '10.5px', fontWeight: 'bold' }}>
+                            {recency.label}
+                          </span>
                         </div>
                         <h3 style={{ margin: 0, color: 'white', fontSize: '18px' }}>{s.title}</h3>
+                        <p style={{ margin: 0, fontSize: '13px', color: 'rgba(255,255,255,0.55)', lineHeight: 1.45, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                          {s.latestDevelopments || s.description}
+                        </p>
                       </div>
 
                       <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }} onClick={e => e.stopPropagation()}>
@@ -586,9 +624,10 @@ export const Scandals = () => {
                                       {mp ? (
                                         <>
                                           <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: '3px', background: getPartyColor(mp.current_party.short_name.en) }} />
-                                          <img 
-                                            src={`https://openparliament.ca${mp.image}`} 
-                                            style={{ width: '28px', height: '28px', borderRadius: '50%', objectFit: 'cover' }}
+                                          <img
+                                            src={`https://openparliament.ca${mp.image}`}
+                                            className="politician-photo"
+                                            style={{ width: '30px', borderRadius: '6px' }}
                                             onError={e=>(e.target as HTMLImageElement).src=`https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=random`}
                                           />
                                           <div style={{ minWidth: 0 }}>
@@ -701,9 +740,10 @@ export const Scandals = () => {
                       <div style={{ display: 'flex', alignItems: 'center', gap: '6px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '6px', padding: '4px 8px' }}>
                         {mp ? (
                           <>
-                            <img 
-                              src={`https://openparliament.ca${mp.image}`} 
-                              style={{ width: '18px', height: '18px', borderRadius: '50%', objectFit: 'cover' }}
+                            <img
+                              src={`https://openparliament.ca${mp.image}`}
+                              className="politician-photo"
+                              style={{ width: '20px', borderRadius: '4px' }}
                               onError={e=>(e.target as HTMLImageElement).src=`https://ui-avatars.com/api/?name=${encodeURIComponent(p.sponsorMP)}&background=random`}
                             />
                             <strong style={{ color: 'white' }}>{p.sponsorMP}</strong>

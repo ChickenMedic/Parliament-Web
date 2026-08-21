@@ -340,7 +340,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
           <h3 style="margin: 0 0 8px 0; font-size: 16px; color: white;">${feature.properties.name}</h3>
           
           <div style="display: flex; gap: 12px; align-items: center; background-color: ${hexToRgba(getPartyColor(party), 0.15)}; padding: 12px; margin: 0 -16px; border-top: 1px solid ${getPartyColor(party)}40; border-bottom: 1px solid ${getPartyColor(party)}40;">
-            <img src="https://openparliament.ca${mp.image}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}&background=random&color=fff'" style="width: 48px; height: 48px; border-radius: 16px; object-fit: cover; object-position: center top; border: 2px solid ${getPartyColor(party)};" />
+            <img src="https://openparliament.ca${mp.image}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(mp.name)}&background=random&color=fff'" style="width: 48px; aspect-ratio: 8 / 11; border-radius: 10px; object-fit: cover; object-position: center 10%; border: 2px solid ${getPartyColor(party)};" />
             <div>
               <strong style="font-size: 15px; color: white;">${mp.name}</strong><br/>
               <span style="color: ${getPartyColor(party)}; font-weight: bold; font-size: 13px;">${party}</span>
