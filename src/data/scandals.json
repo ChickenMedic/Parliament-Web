@@ -6,30 +6,89 @@
     "status": "Under Investigation",
     "severity": "Critical",
     "description": "A federal mobile application built during the pandemic whose budget ballooned from $80,000 to over $60 million. Auditor General audits highlighted conflicts of interest, missing documentation, and excessive consultant reliance.",
-    "keyFigures": ["Mark Carney", "Dominic LeBlanc"],
-    "timeline": [
-      { "date": "Nov 2020", "event": "ArriveCAN app launched for mandatory border health reporting." },
-      { "date": "Oct 2022", "event": "Media reports disclose high outsourcing costs and subcontractor fees." },
-      { "date": "Feb 2024", "event": "Auditor General releases report outlining a 'glaring disregard' for basic contracting procedures." },
-      { "date": "Ongoing", "event": "RCMP investigation and parliamentary committee hearings on procurement misconduct." }
+    "keyFigures": [
+      "Mark Carney",
+      "Dominic LeBlanc"
     ],
-    "votes": 1245
+    "timeline": [
+      {
+        "date": "Nov 2020",
+        "event": "ArriveCAN app launched for mandatory border health reporting."
+      },
+      {
+        "date": "Oct 2022",
+        "event": "Media reports disclose high outsourcing costs and subcontractor fees."
+      },
+      {
+        "date": "Feb 2024",
+        "event": "Auditor General releases report outlining a 'glaring disregard' for basic contracting procedures, noting the total cost was 'impossible to determine' due to poor record-keeping."
+      },
+      {
+        "date": "Jun 2025",
+        "event": "A company that worked on ArriveCAN is barred from federal contracts for seven years; a further Auditor General report finds contracts awarded to the firm did not follow the rules."
+      },
+      {
+        "date": "Apr 2026",
+        "event": "Federal Court rules against two senior public servants tied to ArriveCAN procurement in a challenge related to their cases."
+      },
+      {
+        "date": "Jun 2026",
+        "event": "A federal public servant is cleared of an allegation of improperly deleting ArriveCAN records."
+      },
+      {
+        "date": "Ongoing",
+        "event": "RCMP investigation and parliamentary committee hearings on procurement misconduct."
+      }
+    ],
+    "votes": 1245,
+    "latestDevelopments": "The file remains active through the courts and administrative processes rather than new audits: a Federal Court ruling in April 2026 went against two senior public servants connected to the procurement, and in June 2026 another federal bureaucrat was cleared over an alleged improper deletion of ArriveCAN records. A contractor tied to the app was barred from federal contracts for seven years in June 2025, alongside a further Auditor General finding that its contracts breached the rules. RCMP work and procurement-reform follow-up continue, with no charges reported in the latest coverage.",
+    "developmentsAsOf": "Aug 21, 2026"
   },
   {
     "id": "SCANDAL-02",
     "title": "Foreign Interference Public Inquiry",
     "party": "Liberal",
-    "status": "Public Inquiry",
+    "status": "Implementation Phase",
     "severity": "Critical",
     "description": "A national public inquiry led by Justice Marie-Josée Hogue examining allegations of foreign state actors (primarily China) interfering in the 2019 and 2021 Canadian federal elections.",
-    "keyFigures": ["Mark Carney", "Dominic LeBlanc", "Pierre Poilievre"],
-    "timeline": [
-      { "date": "Mar 2023", "event": "Special Rapporteur appointed to investigate election interference allegations." },
-      { "date": "Sep 2023", "event": "Hogue Commission formally established after opposition pressure." },
-      { "date": "May 2024", "event": "Interim report confirms foreign interference took place but did not alter overall election outcomes." },
-      { "date": "Ongoing", "event": "Phase 2 hearings focus on policy recommendations and institutional defenses." }
+    "keyFigures": [
+      "Mark Carney",
+      "Dominic LeBlanc",
+      "Pierre Poilievre"
     ],
-    "votes": 982
+    "timeline": [
+      {
+        "date": "Mar 2023",
+        "event": "Special Rapporteur appointed to investigate election interference allegations."
+      },
+      {
+        "date": "Sep 2023",
+        "event": "Hogue Commission formally established after opposition pressure."
+      },
+      {
+        "date": "May 2024",
+        "event": "Interim report confirms foreign interference took place but did not alter overall election outcomes."
+      },
+      {
+        "date": "Mar 2026",
+        "event": "Reporting notes that political party nomination and leadership races flagged as vulnerable by the inquiry have not led to rule changes in several parties."
+      },
+      {
+        "date": "Jul 2026",
+        "event": "Government confirms the long-delayed foreign influence transparency registry will come into force in early August."
+      },
+      {
+        "date": "Aug 2026",
+        "event": "Registry takes effect; the foreign influence transparency commissioner states the new office alone will not prevent foreign interference."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Phase 2 hearings focus on policy recommendations and institutional defenses."
+      }
+    ],
+    "votes": 982,
+    "latestDevelopments": "Attention has shifted from hearings to implementation of the inquiry's recommendations. The foreign influence transparency registry came into force in early August 2026 after repeated delays, and the new commissioner has publicly cautioned that the office by itself will not stop foreign interference. Commentators and some outlets continue to press for further measures, including calls for a separate inquiry into a collapsed interference-related case, but no new commission has been announced.",
+    "developmentsAsOf": "Aug 21, 2026"
   },
   {
     "id": "SCANDAL-03",
@@ -38,13 +97,38 @@
     "status": "Audited",
     "severity": "High",
     "description": "Auditor General investigations found that the green tech funding agency approved over $330 million in projects that breached conflict-of-interest guidelines or funding eligibility rules.",
-    "keyFigures": ["François-Philippe Champagne"],
-    "timeline": [
-      { "date": "Nov 2023", "event": "Whistleblower reports raise concerns over conflict of interest in funding approvals." },
-      { "date": "Jun 2024", "event": "Auditor General report outlines 96 instances of conflict-of-interest policy breaches." },
-      { "date": "Ongoing", "event": "Board restructured, funding suspended, and oversight transferred to the National Research Council." }
+    "keyFigures": [
+      "François-Philippe Champagne"
     ],
-    "votes": 530
+    "timeline": [
+      {
+        "date": "Nov 2023",
+        "event": "Whistleblower reports raise concerns over conflict of interest in funding approvals."
+      },
+      {
+        "date": "Jun 2024",
+        "event": "Auditor General report outlines 96 instances of conflict-of-interest policy breaches."
+      },
+      {
+        "date": "Sep 2024",
+        "event": "Commons committee calls for a second, more in-depth audit of the agency."
+      },
+      {
+        "date": "Mar 2025",
+        "event": "Funding resumes under the National Research Council's IRAP program, with applications set to open in fiscal 2025-26."
+      },
+      {
+        "date": "May 2026",
+        "event": "Reporting describes the relaunched green technology funding program as significantly smaller than the former agency."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Board restructured, funding suspended, and oversight transferred to the National Research Council."
+      }
+    ],
+    "votes": 530,
+    "latestDevelopments": "The controversy is largely in a post-audit wind-down phase. Funding restarted in 2025 through the National Research Council's IRAP program, and May 2026 reporting characterizes the relaunched greentech program as a much smaller successor to the former agency. No new audit findings, charges or committee proceedings have surfaced in recent headlines, so the story is comparatively quiet.",
+    "developmentsAsOf": "Aug 21, 2026"
   },
   {
     "id": "SCANDAL-04",
@@ -53,14 +137,40 @@
     "status": "Resolved",
     "severity": "High",
     "description": "Criticism and political backlash over prominent Conservative MPs publicly meeting with, supporting, and endorsing the leaders of the 2022 truck convoy protests that blockaded Ottawa.",
-    "keyFigures": ["Pierre Poilievre", "Melissa Lantsman", "Michael Cooper"],
-    "timeline": [
-      { "date": "Jan 2022", "event": "Convoy blockades streets in downtown Ottawa." },
-      { "date": "Feb 2022", "event": "Opposition MPs meet with protesters; Emergencies Act is invoked." },
-      { "date": "Feb 2023", "event": "Public Order Emergency Commission rules invocation of the Act was justified, noting political polarization." },
-      { "date": "Ongoing", "event": "Ongoing debate and legal appeals over the limits of protest and emergency powers." }
+    "keyFigures": [
+      "Pierre Poilievre",
+      "Melissa Lantsman",
+      "Michael Cooper"
     ],
-    "votes": 765
+    "timeline": [
+      {
+        "date": "Jan 2022",
+        "event": "Convoy blockades streets in downtown Ottawa."
+      },
+      {
+        "date": "Feb 2022",
+        "event": "Opposition MPs meet with protesters; Emergencies Act is invoked."
+      },
+      {
+        "date": "Feb 2023",
+        "event": "Public Order Emergency Commission rules invocation of the Act was justified, noting political polarization."
+      },
+      {
+        "date": "Jan 2026",
+        "event": "Federal Court of Appeal issues its decision in the litigation over the 2022 Emergencies Act invocation; the Canadian Civil Liberties Association describes the ruling as a victory."
+      },
+      {
+        "date": "Mar 2026",
+        "event": "Polling four years after the protest finds Canadians remain divided over the convoy."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Ongoing debate and legal appeals over the limits of protest and emergency powers."
+      }
+    ],
+    "votes": 765,
+    "latestDevelopments": "The political controversy over MPs' endorsements is effectively settled, but the underlying legal question is not. A Federal Court of Appeal decision in January 2026 on the legality of the 2022 Emergencies Act invocation was hailed as a win by the Canadian Civil Liberties Association, and further appeal remains possible. Polling in March 2026 shows public opinion is still split, though no new parliamentary process is under way.",
+    "developmentsAsOf": "Aug 21, 2026"
   },
   {
     "id": "SCANDAL-05",
@@ -69,13 +179,27 @@
     "status": "Active Debate",
     "severity": "Medium",
     "description": "Elections Canada compliance reviews and internal party friction regarding leadership campaign spending limits, corporate donations, and expense declarations from recent leadership races.",
-    "keyFigures": ["Pierre Poilievre", "Roman Baber"],
-    "timeline": [
-      { "date": "Sep 2022", "event": "CPC leadership vote concludes." },
-      { "date": "Jun 2023", "event": "Elections Canada reviews campaign expenditure audits." },
-      { "date": "Ongoing", "event": "Ongoing debate and audit reconciliation processes." }
+    "keyFigures": [
+      "Pierre Poilievre",
+      "Roman Baber"
     ],
-    "votes": 341
+    "timeline": [
+      {
+        "date": "Sep 2022",
+        "event": "CPC leadership vote concludes."
+      },
+      {
+        "date": "Jun 2023",
+        "event": "Elections Canada reviews campaign expenditure audits."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Ongoing debate and audit reconciliation processes."
+      }
+    ],
+    "votes": 341,
+    "latestDevelopments": "There is no recent news specific to the leadership campaign expense audits, which appear to have gone quiet with reconciliation handled administratively by Elections Canada. Coverage in mid-2026 has instead focused on the Conservative Party's routine annual financial returns, which showed roughly $85 million in revenue and a $14-million deficit for 2025 and election-year spending nearly double that of the Liberals. No regulator has announced findings of wrongdoing in connection with the leadership races.",
+    "developmentsAsOf": "Aug 21, 2026"
   },
   {
     "id": "SCANDAL-06",
@@ -84,13 +208,27 @@
     "status": "Resolved",
     "severity": "Medium",
     "description": "Criticism from political opponents that the NDP's formal deal to prop up the Liberal minority government in exchange for dentalcare and pharmacare was an undemocratic coalition.",
-    "keyFigures": ["Avi Lewis", "Mark Carney"],
-    "timeline": [
-      { "date": "Mar 2022", "event": "Liberals and NDP sign a formal Supply and Confidence Agreement." },
-      { "date": "Mar 2024", "event": "Pharmacare framework passed, fulfilling a key NDP condition." },
-      { "date": "Sep 2024", "event": "NDP leader terminates the formal agreement early, shifting to case-by-case votes." }
+    "keyFigures": [
+      "Avi Lewis",
+      "Mark Carney"
     ],
-    "votes": 412
+    "timeline": [
+      {
+        "date": "Mar 2022",
+        "event": "Liberals and NDP sign a formal Supply and Confidence Agreement."
+      },
+      {
+        "date": "Mar 2024",
+        "event": "Pharmacare framework passed, fulfilling a key NDP condition."
+      },
+      {
+        "date": "Sep 2024",
+        "event": "NDP leader terminates the formal agreement early, shifting to case-by-case votes."
+      }
+    ],
+    "votes": 412,
+    "latestDevelopments": "This dispute is dormant. The agreement ended in September 2024 and no recent headlines address it; current coverage referencing 'supply' and 'confidence' concerns unrelated matters such as supply management in Canada-U.S. trade talks. The dental and pharmacare programs created under the deal remain in place, and the political argument over the arrangement has faded from national coverage.",
+    "developmentsAsOf": "Aug 21, 2026"
   },
   {
     "id": "SCANDAL-07",
@@ -99,12 +237,58 @@
     "status": "Active Debate",
     "severity": "Medium",
     "description": "Political debate over the Bloc Québécois leveraging their balance-of-power status in the minority parliament to demand the government pass Bill C-319 to increase seniors pensions, facing criticism over fiscal costs.",
-    "keyFigures": ["Yves-François Blanchet"],
-    "timeline": [
-      { "date": "Oct 2024", "event": "Bloc sets a deadline for the government to approve the pension hike." },
-      { "date": "Nov 2024", "event": "Deadline passes without government compliance; confidence debates triggered." },
-      { "date": "Ongoing", "event": "Legislative negotiations on senior benefits continue." }
+    "keyFigures": [
+      "Yves-François Blanchet"
     ],
-    "votes": 289
+    "timeline": [
+      {
+        "date": "Oct 2024",
+        "event": "Bloc sets a deadline for the government to approve the pension hike."
+      },
+      {
+        "date": "Nov 2024",
+        "event": "Deadline passes without government compliance; confidence debates triggered."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Legislative negotiations on senior benefits continue."
+      }
+    ],
+    "votes": 289,
+    "latestDevelopments": "The confrontation over Bill C-319 has gone quiet, with no recent headlines about Bloc ultimatums or new confidence votes tied to seniors' benefits. Coverage in mid-2026 is limited to routine reporting on Old Age Security payment dates and indexed increases, with maximum monthly amounts rising to roughly $752 and $827 depending on age bracket. The last known state is that the Bloc's demanded across-the-board increase for seniors aged 65 to 74 was not enacted.",
+    "developmentsAsOf": "Aug 21, 2026"
+  },
+  {
+    "id": "SCANDAL-08",
+    "title": "Alto Rail Project and Ministerial Conflict-of-Interest Questions",
+    "party": "Liberal",
+    "status": "Under Committee Review",
+    "severity": "Medium",
+    "description": "Opposition MPs have alleged potential conflicts of interest involving a cabinet minister's connections to the Alto high-speed rail project, and have raised questions about Prime Minister Mark Carney's prior private-sector ties. Nothing has been proven, and the matters have been pursued primarily through the House ethics committee and calls for an ethics commissioner investigation.",
+    "keyFigures": [
+      "Mark Carney",
+      "François-Philippe Champagne"
+    ],
+    "timeline": [
+      {
+        "date": "Sep 2025",
+        "event": "House ethics committee orders a study of the Conflict of Interest Act."
+      },
+      {
+        "date": "Oct 2025",
+        "event": "MPs vote to summon the Prime Minister's chief of staff, the Clerk of the Privy Council and Brookfield officials to testify; reporting notes scrutiny of Carney's former business ties."
+      },
+      {
+        "date": "Apr 2026",
+        "event": "Conservatives call for an investigation into a minister's connection to the Alto rail project; the Prime Minister defends the minister."
+      },
+      {
+        "date": "Apr 2026",
+        "event": "Conservatives allege Minister Champagne is avoiding a committee study of the Alto rail connection."
+      }
+    ],
+    "votes": 0,
+    "latestDevelopments": "The matter is being handled at the House ethics committee rather than by any court or police investigation, and no finding of wrongdoing has been made. Conservatives called in April 2026 for a probe of the minister's link to the Alto rail project and accused him of avoiding committee appearances, while the Prime Minister defended him. The committee's broader review of the Conflict of Interest Act, including testimony sought from senior officials, remains the main venue; there has been little new coverage since the spring.",
+    "developmentsAsOf": "Aug 21, 2026"
   }
 ]
