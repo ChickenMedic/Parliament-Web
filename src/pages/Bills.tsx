@@ -111,6 +111,16 @@ const progressOf = (b: Bill) => {
   return b.stages.length > 0 ? done / b.stages.length : 0;
 };
 
+// LEGISinfo status strings are long and shouty; condense to the current stage.
+const shortStatus = (b: Bill): string => {
+  if (b.receivedRoyalAssent) return 'Royal Assent';
+  if (/defeated|not proceeded/i.test(b.status)) return 'Defeated';
+  const lastDone = b.stages.reduce((acc, s, i) => (s.date ? i : acc), -1);
+  const current = b.stages[lastDone + 1];
+  if (current) return current.label.replace(' (House)', ' · House').replace(' (Senate)', ' · Senate');
+  return b.status;
+};
+
 const findSponsorMP = (name: string | null) => {
   if (!name) return null;
   const clean = name.replace(/^(Hon\.|Rt\. Hon\.|Sen\.)\s+/i, '').toLowerCase().trim();
@@ -237,17 +247,18 @@ export const Bills = () => {
         {/* ── 1. Identity: what bill is this and where does it stand ── */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '24px' }}>
           <div style={{ minWidth: '280px', flex: 1 }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
-              <span style={{ background: style.bg, color: style.fg, fontSize: '12px', fontWeight: 'bold', padding: '4px 10px', borderRadius: '4px', textTransform: 'uppercase' }}>
-                {selectedBill.status}
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: '14px', flexWrap: 'wrap' }}>
+              <h1 style={{ fontSize: '44px', fontWeight: 800, margin: 0, color: 'white', lineHeight: 1 }}>{selectedBill.id}</h1>
+              <span style={{ background: style.bg, color: style.fg, fontSize: '13px', fontWeight: 'bold', padding: '5px 12px', borderRadius: '6px', whiteSpace: 'nowrap' }}>
+                {shortStatus(selectedBill)}
               </span>
-              <span style={{ fontSize: '13px', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                 {selectedBill.type} • {selectedBill.category}
               </span>
             </div>
-            <h1 style={{ fontSize: '34px', margin: '10px 0 0 0', color: 'white', lineHeight: 1.2 }}>{selectedBill.id}: {selectedBill.title}</h1>
+            <h2 style={{ fontSize: '21px', fontWeight: 600, margin: '12px 0 0 0', color: 'rgba(255,255,255,0.92)', lineHeight: 1.3 }}>{selectedBill.title}</h2>
             {selectedBill.title !== selectedBill.longTitle && (
-              <p style={{ margin: '10px 0 0 0', color: 'rgba(255,255,255,0.6)', fontSize: '15px', lineHeight: 1.5 }}>{selectedBill.longTitle}</p>
+              <p style={{ margin: '8px 0 0 0', color: 'rgba(255,255,255,0.55)', fontSize: '14px', lineHeight: 1.5 }}>{selectedBill.longTitle}</p>
             )}
             {selectedBill.sponsor && (
               <div style={{ marginTop: '14px', display: 'flex', alignItems: 'center', gap: '10px', fontSize: '14px', color: 'rgba(255,255,255,0.7)' }}>
@@ -487,19 +498,18 @@ export const Bills = () => {
           {filteredBills.map(bill => {
             const bucket = statusBucket(bill);
             const style = bucketStyle[bucket];
-            const donePct = Math.round(progressOf(bill) * 100);
             return (
               <div key={bill.id} className="bill-card" style={{ display: 'flex', flexDirection: 'column', padding: '20px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '12px' }}>
                 <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px', gap: '8px' }}>
-                    <span style={{ fontSize: '15px', fontWeight: 'bold', color: 'rgba(255,255,255,0.5)' }}>{bill.id}</span>
-                    <span style={{ background: style.bg, color: style.fg, fontSize: '11px', fontWeight: 'bold', padding: '3px 8px', borderRadius: '4px', textTransform: 'uppercase', textAlign: 'right' }}>
-                      {bill.status}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '10px', gap: '10px' }}>
+                    <span style={{ fontSize: '26px', fontWeight: 800, color: 'white', lineHeight: 1 }}>{bill.id}</span>
+                    <span style={{ background: style.bg, color: style.fg, fontSize: '11.5px', fontWeight: 'bold', padding: '4px 10px', borderRadius: '6px', whiteSpace: 'nowrap' }}>
+                      {shortStatus(bill)}
                     </span>
                   </div>
-                  <h3 style={{ fontSize: '18px', margin: '0 0 8px 0', color: 'white', lineHeight: '1.3' }}>{bill.title}</h3>
+                  <h3 title={bill.title} style={{ fontSize: '15.5px', fontWeight: 600, margin: '0 0 6px 0', color: 'rgba(255,255,255,0.92)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{bill.title}</h3>
                   {bill.sponsor && (
-                    <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginBottom: '10px' }}>
+                    <div style={{ fontSize: '12.5px', color: 'rgba(255,255,255,0.5)', marginBottom: '10px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                       {bill.type} • <span style={{ color: sponsorColor(bill.sponsorParty) }}>{bill.sponsor}</span>
                     </div>
                   )}
@@ -511,14 +521,6 @@ export const Bills = () => {
                   <div style={{ margin: '14px 0 4px 0' }}>
                     <StageTracker bill={bill} compact />
                   </div>
-                  <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.45)', marginTop: '6px' }}>
-                    {donePct}% of stages complete
-                  </div>
-                  {bill.latestActivity && (
-                    <p style={{ color: 'var(--text-secondary)', fontSize: '13px', lineHeight: '1.45', margin: '10px 0 0 0', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
-                      {bill.latestActivity}
-                    </p>
-                  )}
                   <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', marginTop: '12px' }}>
                     {bill.partyPositions && (
                       <span style={{ background: 'rgba(16,185,129,0.1)', color: '#10b981', padding: '3px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>PARTY VOTES</span>

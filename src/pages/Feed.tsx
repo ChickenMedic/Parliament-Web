@@ -17,7 +17,11 @@ interface FeedMeta {
   party?: string;
   role?: string;
   avatar?: string;
+  /** General-news outlets mix in sports/culture; only show their political posts. */
+  curate?: boolean;
 }
+
+const POLITICAL_KEYWORDS = /\b(parliament|ottawa|carney|poilievre|blanchet|avi lewis|elizabeth may|liberal|conservative|ndp|bloc|green party|minister|ministry|federal|senate|senator|mp|mps|bill|legislation|budget|tariff|trade|election|byelection|government|policy|riding|caucus|throne|commons|premier|governor general|cabinet|opposition|deficit|tax|immigration|defence|nato|sovereignty)\b/i;
 const feeds = feedsRaw as unknown as Record<string, FeedMeta>;
 
 const getPartyColor = (party?: string) => {
@@ -83,6 +87,7 @@ export const Feed = () => {
       for (const tweet of tweets) {
         const time = new Date(tweet.date).getTime();
         if (isNaN(time) || time < cutoff) continue;
+        if (meta.curate && !POLITICAL_KEYWORDS.test(tweet.content)) continue;
         result.push({
           tweet, handle, time,
           name: meta.name,
@@ -106,8 +111,8 @@ export const Feed = () => {
           tweet, handle, time,
           name: mp.name,
           subtitle: `MP for ${mp.current_riding.name.en}`,
-          avatar: `https://openparliament.ca${mp.image}`,
-          avatarShape: 'portrait',
+          avatar: profiles[handle]?.image || `https://openparliament.ca${mp.image}`,
+          avatarShape: 'circle',
           kind: 'mp',
           party,
         });
