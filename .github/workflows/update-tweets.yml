@@ -1,0 +1,44 @@
+name: Update X feeds
+
+on:
+  schedule:
+    - cron: '15 */2 * * *'   # every 2 hours; curated feeds only (MP sweep is daily)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-push
+  cancel-in-progress: false
+
+jobs:
+  tweets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch curated X feeds
+        env:
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        run: node fetch-tweets.js
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data twitter_user_ids.json
+          if git diff --cached --quiet; then
+            echo "No new posts."
+          else
+            git commit -m "Refresh X feeds"
+            git pull --rebase origin master
+            git push
+          fi

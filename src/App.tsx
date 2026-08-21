@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { Navigation } from './components/Navigation';
+import { Feed } from './pages/Feed';
 import { Dashboard } from './pages/Dashboard';
 import { House } from './pages/House';
 import { Bills } from './pages/Bills';
@@ -18,7 +19,8 @@ function App() {
       <div className="app-container">
         <Navigation />
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<Feed />} />
+          <Route path="/map" element={<Dashboard />} />
           <Route path="/house" element={<House />} />
           <Route path="/parties" element={<Parties />} />
           <Route path="/bills" element={<Bills />} />

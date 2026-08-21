@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect } from 'react';
 import politiciansData from '../data/politicians.json';
 import rolesData from '../data/roles.json';
 import tweetsDataRaw from '../data/tweets.json';
+import { TweetCard } from '../components/TweetCard';
 import './PageStyles.css';
 
 const tweetsData = tweetsDataRaw as Record<string, any[]>;
@@ -159,50 +160,13 @@ export const Parties = () => {
                 <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', background: 'rgba(0,0,0,0.15)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
                   {tweetsData[feedHandle] && tweetsData[feedHandle].length > 0 ? (
                     tweetsData[feedHandle].map((t: any, idx: number) => (
-                      <div key={t.id || idx} style={{ padding: '16px', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', gap: '12px', textAlign: 'left' }}>
-                        <img 
-                          src={PARTY_FEEDS[activeTab]?.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}`} 
-                          alt="" 
-                          style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
-                          onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}` }}
-                        />
-                        <div style={{ minWidth: 0, flex: 1 }}>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
-                            <strong style={{ color: 'white', fontSize: '13px' }}>{feedUser}</strong>
-                            <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12px' }}>@{feedHandle}</span>
-                            <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '12px' }}>·</span>
-                            <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12px' }}>
-                              {new Date(t.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
-                            </span>
-                          </div>
-                          
-                          <p style={{ margin: '6px 0 10px 0', fontSize: '13px', color: 'rgba(255,255,255,0.9)', lineHeight: '1.45', whiteSpace: 'pre-line', wordBreak: 'break-word' }}>
-                            {t.content.split(/\s+/).map((word: string, wIdx: number) => {
-                              if (word.startsWith('http')) {
-                                return <a key={wIdx} href={word} target="_blank" rel="noopener noreferrer" style={{ color: '#1d9bf0', fontWeight: 'bold', textDecoration: 'none' }}>{word} </a>;
-                              }
-                              if (word.startsWith('@')) {
-                                const cleanWord = word.replace(/[^a-zA-Z0-9_@]/g, '');
-                                return <span key={wIdx}><a href={`https://x.com/${cleanWord.substring(1)}`} target="_blank" rel="noopener noreferrer" style={{ color: '#1d9bf0', fontWeight: 'bold', textDecoration: 'none' }}>{cleanWord}</a>{word.substring(cleanWord.length)} </span>;
-                              }
-                              if (word.startsWith('#')) {
-                                const cleanWord = word.replace(/[^a-zA-Z0-9_#]/g, '');
-                                return <span key={wIdx}><a href={`https://x.com/hashtag/${cleanWord.substring(1)}`} target="_blank" rel="noopener noreferrer" style={{ color: '#1d9bf0', fontWeight: 'bold', textDecoration: 'none' }}>{cleanWord}</a>{word.substring(cleanWord.length)} </span>;
-                              }
-                              return word + ' ';
-                            })}
-                          </p>
-                          
-                          {t.metrics && (
-                            <div style={{ display: 'flex', gap: '20px', color: 'rgba(255,255,255,0.4)', fontSize: '11px', marginTop: '8px' }}>
-                              <span>💬 {t.metrics.reply_count}</span>
-                              <span>🔁 {t.metrics.retweet_count}</span>
-                              <span>❤️ {t.metrics.like_count}</span>
-                              <span>📊 {t.metrics.impression_count}</span>
-                            </div>
-                          )}
-                        </div>
-                      </div>
+                      <TweetCard
+                        key={t.id || idx}
+                        tweet={t}
+                        name={feedUser}
+                        handle={feedHandle}
+                        avatar={PARTY_FEEDS[activeTab]?.avatar || `https://ui-avatars.com/api/?name=${encodeURIComponent(feedUser)}`}
+                      />
                     ))
                   ) : (
                     <div style={{ padding: '32px', textAlign: 'center', color: 'rgba(255,255,255,0.5)', fontSize: '13px' }}>
@@ -343,10 +307,11 @@ export const Parties = () => {
                     marginBottom: '4px'
                   }}
                 >
-                  <img 
-                    src={leaderImage} 
-                    alt={leader.name} 
-                    style={{ width: 45, height: 60, borderRadius: '5px', border: `2px solid ${activeColor}`, objectFit: 'cover', objectPosition: 'center 10%' }} 
+                  <img
+                    src={leaderImage}
+                    alt={leader.name}
+                    className="politician-photo"
+                    style={{ width: 45, borderRadius: '5px', border: `2px solid ${activeColor}` }}
                     onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}&background=random` }}
                   />
                   <div style={{ flex: 1 }}>
@@ -388,9 +353,10 @@ export const Parties = () => {
                     borderLeft: '3px solid transparent'
                   }}
                 >
-                   <img 
-                     src={`https://openparliament.ca${p.image}`} 
-                     style={{ width: 45, height: 60, borderRadius: '5px', objectFit: 'cover', objectPosition: 'center 10%' }} 
+                   <img
+                     src={`https://openparliament.ca${p.image}`}
+                     className="politician-photo"
+                     style={{ width: 45, borderRadius: '5px' }}
                      onError={(e) => { (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}&background=random` }} 
                    />
                      <div style={{ minWidth: 0, flex: 1, display: 'flex', flexDirection: 'column', gap: '2px' }}>

@@ -21,19 +21,19 @@ if (!BEARER_TOKEN || BEARER_TOKEN === 'your_bearer_token_here') {
 
 const client = new TwitterApi(BEARER_TOKEN);
 
-// The official party handles we want to fetch
-const TARGET_HANDLES = [
-  'liberal_party',
-  'CPC_HQ',
-  'NDP',
-  'BlocQuebecois',
-  'CanadianGreens',
-  'OurCommons'
-];
-
+const FEEDS_PATH = path.join(__dirname, 'src', 'data', 'feeds.json');
+const POLITICIANS_PATH = path.join(__dirname, 'src', 'data', 'politicians.json');
 const OUTPUT_PATH = path.join(__dirname, 'src', 'data', 'tweets.json');
+const MP_OUTPUT_PATH = path.join(__dirname, 'src', 'data', 'mp_tweets.json');
+const PROFILES_PATH = path.join(__dirname, 'src', 'data', 'x_profiles.json');
 // User IDs are stable; caching them avoids paying for a lookup on every run.
 const ID_CACHE_PATH = path.join(__dirname, 'twitter_user_ids.json');
+
+// The frequent (every-2-hours) run only covers the curated feeds in feeds.json.
+// The daily run passes --mps to also sweep every MP with a known X handle.
+const INCLUDE_MPS = process.argv.includes('--mps');
+// MP posts older than this are not shown on the site, so don't keep them.
+const MP_MAX_AGE_DAYS = 90;
 
 function loadJson(file, fallback) {
   try {
@@ -43,12 +43,54 @@ function loadJson(file, fallback) {
   }
 }
 
-async function resolveUserId(handle, idCache) {
-  if (idCache[handle]) return idCache[handle];
-  const user = await client.v2.userByUsername(handle);
-  if (!user.data) return null;
-  idCache[handle] = user.data.id;
-  return user.data.id;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// X rate-limit windows are 15 minutes. Wait one window out at most, with a
+// global budget so a long MP sweep can't stall the job for hours.
+let rateLimitWaitBudgetMs = 45 * 60 * 1000;
+async function withRateLimit(fn) {
+  try {
+    return await fn();
+  } catch (err) {
+    if (err.code !== 429) throw err;
+    const resetMs = err.rateLimit?.reset
+      ? Math.max(err.rateLimit.reset * 1000 - Date.now(), 5000)
+      : 15 * 60 * 1000;
+    if (resetMs > rateLimitWaitBudgetMs) throw err;
+    rateLimitWaitBudgetMs -= resetMs;
+    console.warn(`⏳ 429 rate-limited; waiting ${Math.ceil(resetMs / 1000)}s for the window to reset...`);
+    await sleep(resetMs + 2000);
+    return fn();
+  }
+}
+
+// Look up ids + profile images for any handles we haven't seen before, in
+// bulk (100 per request) so a full MP sweep costs a handful of lookups.
+async function resolveUsers(handles, idCache, profiles) {
+  const missing = handles.filter(h => !idCache[h] || !profiles[h]);
+  for (let i = 0; i < missing.length; i += 100) {
+    const chunk = missing.slice(i, i + 100);
+    try {
+      const res = await withRateLimit(() =>
+        client.v2.usersByUsernames(chunk, { 'user.fields': ['profile_image_url', 'name'] })
+      );
+      for (const u of res.data || []) {
+        // Response usernames are canonically cased; match back case-insensitively.
+        const handle = chunk.find(h => h.toLowerCase() === u.username.toLowerCase());
+        if (!handle) continue;
+        idCache[handle] = u.id;
+        profiles[handle] = {
+          name: u.name,
+          image: u.profile_image_url ? u.profile_image_url.replace('_normal', '_400x400') : null,
+        };
+      }
+      for (const e of res.errors || []) {
+        console.warn(`⚠️ Could not resolve @${e.value || '?'}: ${e.detail || e.title}`);
+      }
+    } catch (err) {
+      console.error(`❌ Bulk user lookup failed (${chunk.length} handles): ${err.message}`);
+    }
+  }
 }
 
 // Retweet text comes back truncated ("RT @x: ..."); rebuild it from the
@@ -68,65 +110,117 @@ function expandRetweet(tweet, timeline) {
   }
 }
 
-async function fetchTweets() {
-  console.log("🚀 Starting Twitter/X feed fetch...");
-  const tweetsData = loadJson(OUTPUT_PATH, {});
-  const idCache = loadJson(ID_CACHE_PATH, {});
-  let failures = 0;
-
-  for (const handle of TARGET_HANDLES) {
-    try {
-      const userId = await resolveUserId(handle, idCache);
-      if (!userId) {
-        console.error(`⚠️ Could not find user @${handle}`);
-        failures++;
-        continue;
-      }
-
-      const timeline = await client.v2.userTimeline(userId, {
-        max_results: 15,
+// Returns an array of simplified tweets, or null on failure.
+async function fetchTimeline(handle, userId, { maxResults, keep }) {
+  try {
+    const timeline = await withRateLimit(() =>
+      client.v2.userTimeline(userId, {
+        max_results: maxResults,
         exclude: ['replies'],
         'tweet.fields': ['created_at', 'public_metrics', 'referenced_tweets'],
         expansions: ['referenced_tweets.id'],
+      })
+    );
+
+    const fetchedTweets = [];
+    for (const tweet of timeline) {
+      fetchedTweets.push({
+        id: tweet.id,
+        content: expandRetweet(tweet, timeline),
+        date: tweet.created_at,
+        metrics: tweet.public_metrics,
       });
+      if (fetchedTweets.length >= keep) break;
+    }
+    return fetchedTweets;
+  } catch (err) {
+    if (err.code === 403) {
+      console.error(`🚨 403 Forbidden for @${handle}: this token's access level can't read timelines.`);
+    } else if (err.code === 429) {
+      console.error(`🚨 429 rate-limited on @${handle} (wait budget exhausted); keeping previous data.`);
+    } else {
+      console.error(`❌ Error fetching @${handle}: ${err.message}`);
+    }
+    return null;
+  }
+}
 
-      const fetchedTweets = [];
-      for (const tweet of timeline) {
-        fetchedTweets.push({
-          id: tweet.id,
-          content: expandRetweet(tweet, timeline),
-          date: tweet.created_at,
-          metrics: tweet.public_metrics,
-        });
-        if (fetchedTweets.length >= 10) break;
-      }
+async function fetchTweets() {
+  console.log(`🚀 Starting X feed fetch (${INCLUDE_MPS ? 'curated feeds + MP sweep' : 'curated feeds only'})...`);
+  const feeds = loadJson(FEEDS_PATH, {});
+  const tweetsData = loadJson(OUTPUT_PATH, {});
+  const mpTweets = loadJson(MP_OUTPUT_PATH, {});
+  const profiles = loadJson(PROFILES_PATH, {});
+  const idCache = loadJson(ID_CACHE_PATH, {});
 
-      if (fetchedTweets.length > 0) {
-        tweetsData[handle] = fetchedTweets;
-        console.log(`✅ Fetched ${fetchedTweets.length} posts for @${handle}`);
-      } else {
-        // Keep whatever we had rather than blanking the feed.
-        console.warn(`⚠️ No posts returned for @${handle}; keeping previous data`);
-      }
-    } catch (err) {
+  const mainHandles = Object.keys(feeds);
+  const politicians = loadJson(POLITICIANS_PATH, { objects: [] }).objects;
+  const mpHandles = INCLUDE_MPS
+    ? politicians
+        .map(p => p.twitter)
+        .filter(Boolean)
+        .filter(h => !mainHandles.some(m => m.toLowerCase() === h.toLowerCase()))
+    : [];
+
+  await resolveUsers([...mainHandles, ...mpHandles], idCache, profiles);
+
+  let failures = 0;
+  for (const handle of mainHandles) {
+    if (!idCache[handle]) {
+      console.error(`⚠️ No user id for @${handle}; skipping`);
       failures++;
-      if (err.code === 403) {
-        console.error(`🚨 403 Forbidden for @${handle}: this token's access level can't read timelines.`);
-        console.error(`Check your plan at https://developer.x.com — keeping previous data for this handle.`);
-      } else if (err.code === 429) {
-        console.error(`🚨 429 rate-limited on @${handle}; keeping previous data.`);
-      } else {
-        console.error(`❌ Error fetching @${handle}:`, err.message);
-      }
+      continue;
+    }
+    const fetched = await fetchTimeline(handle, idCache[handle], { maxResults: 15, keep: 10 });
+    if (fetched && fetched.length > 0) {
+      tweetsData[handle] = fetched;
+      console.log(`✅ Fetched ${fetched.length} posts for @${handle}`);
+    } else {
+      // Keep whatever we had rather than blanking the feed.
+      failures += fetched === null ? 1 : 0;
+      console.warn(`⚠️ No posts for @${handle}; keeping previous data`);
     }
   }
 
+  // Drop handles that were removed from feeds.json.
+  for (const handle of Object.keys(tweetsData)) {
+    if (!mainHandles.includes(handle)) delete tweetsData[handle];
+  }
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(tweetsData, null, 2));
+
+  if (INCLUDE_MPS) {
+    const cutoff = Date.now() - MP_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+    let active = 0, done = 0;
+    for (const handle of mpHandles) {
+      done++;
+      if (!idCache[handle]) continue;
+      const fetched = await fetchTimeline(handle, idCache[handle], { maxResults: 5, keep: 5 });
+      if (fetched === null) continue; // transient failure: keep previous data
+      const recent = fetched.filter(t => t.date && new Date(t.date).getTime() >= cutoff);
+      if (recent.length > 0) {
+        mpTweets[handle] = recent;
+        active++;
+      } else {
+        // Inactive for 3+ months: the site shouldn't show them at all.
+        delete mpTweets[handle];
+      }
+      if (done % 25 === 0) console.log(`   ...MP sweep ${done}/${mpHandles.length} (${active} active)`);
+      await sleep(400);
+    }
+    const validMp = new Set(mpHandles);
+    for (const handle of Object.keys(mpTweets)) {
+      if (!validMp.has(handle)) delete mpTweets[handle];
+    }
+    fs.writeFileSync(MP_OUTPUT_PATH, JSON.stringify(mpTweets, null, 2));
+    console.log(`✅ MP sweep complete: ${active} of ${mpHandles.length} MPs posted in the last ${MP_MAX_AGE_DAYS} days`);
+  }
+
+  fs.writeFileSync(PROFILES_PATH, JSON.stringify(profiles, null, 2));
   fs.writeFileSync(ID_CACHE_PATH, JSON.stringify(idCache, null, 2));
   console.log(`\n🎉 Done. Saved feed data to ${OUTPUT_PATH} (${failures} handle failures)`);
 
   // Fail the run only if nothing succeeded, so CI notices a dead token.
-  if (failures >= TARGET_HANDLES.length) process.exit(1);
+  if (failures >= mainHandles.length) process.exit(1);
 }
 
 fetchTweets();

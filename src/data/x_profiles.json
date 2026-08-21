@@ -1,0 +1,1282 @@
+{
+  "liberal_party": {
+    "name": "Liberal Party",
+    "image": "https://pbs.twimg.com/profile_images/2061435961477636098/xoK0M512_400x400.jpg"
+  },
+  "CPC_HQ": {
+    "name": "Conservative Party",
+    "image": "https://pbs.twimg.com/profile_images/1699838689747075072/Rr2891pZ_400x400.jpg"
+  },
+  "NDP": {
+    "name": "NDP",
+    "image": "https://pbs.twimg.com/profile_images/2077076944483745792/uvyWmtdJ_400x400.jpg"
+  },
+  "BlocQuebecois": {
+    "name": "Bloc Québécois",
+    "image": "https://pbs.twimg.com/profile_images/2015566261481050112/Ehvw37yX_400x400.jpg"
+  },
+  "CanadianGreens": {
+    "name": "Green Party of Canada",
+    "image": "https://pbs.twimg.com/profile_images/1891867953127215104/70btPgvP_400x400.jpg"
+  },
+  "OurCommons": {
+    "name": "House of Commons",
+    "image": "https://pbs.twimg.com/profile_images/862436576940490758/cQzc_dPe_400x400.jpg"
+  },
+  "MarkJCarney": {
+    "name": "Mark Carney",
+    "image": "https://pbs.twimg.com/profile_images/1881439600113012736/4Htx60in_400x400.jpg"
+  },
+  "PierrePoilievre": {
+    "name": "Pierre Poilievre",
+    "image": "https://pbs.twimg.com/profile_images/2027277432420712448/aCzretuo_400x400.jpg"
+  },
+  "avilewis": {
+    "name": "Avi Lewis",
+    "image": "https://pbs.twimg.com/profile_images/2038309506573348865/1h7Lf_CO_400x400.jpg"
+  },
+  "yfblanchet": {
+    "name": "Yves-F. Blanchet 🎗⚜️",
+    "image": "https://pbs.twimg.com/profile_images/2051272723058290688/Zzi1VGgS_400x400.jpg"
+  },
+  "ElizabethMay": {
+    "name": "Elizabeth May",
+    "image": "https://pbs.twimg.com/profile_images/539819887707709441/jbUkuD5E_400x400.jpeg"
+  },
+  "CBCPolitics": {
+    "name": "CBC Politics",
+    "image": "https://pbs.twimg.com/profile_images/1098719904470126592/7sjQbicP_400x400.png"
+  },
+  "CTVNews": {
+    "name": "CTV News",
+    "image": "https://pbs.twimg.com/profile_images/1113055141761073153/9gjeEtmz_400x400.png"
+  },
+  "globalnews": {
+    "name": "Globalnews.ca",
+    "image": "https://pbs.twimg.com/profile_images/1580227290952335360/Ew3OQkOi_400x400.jpg"
+  },
+  "nationalpost": {
+    "name": "National Post",
+    "image": "https://pbs.twimg.com/profile_images/877014191273517056/mv9ErfX-_400x400.jpg"
+  },
+  "TorontoStar": {
+    "name": "Toronto Star",
+    "image": "https://pbs.twimg.com/profile_images/1595539639070236679/ymslpOak_400x400.jpg"
+  },
+  "acoyne": {
+    "name": "Andrew Coyne 🇺🇦🇮🇱🇬🇪🇲🇩",
+    "image": "https://pbs.twimg.com/profile_images/1000044672746598400/wH__1klC_400x400.jpg"
+  },
+  "ChantalHbert": {
+    "name": "chantal hébert",
+    "image": "https://pbs.twimg.com/profile_images/908631250986029056/z2eJn4-X_400x400.jpg"
+  },
+  "AlthiaRaj": {
+    "name": "Althia Raj",
+    "image": "https://pbs.twimg.com/profile_images/863185413455970305/M8zDHXQH_400x400.jpg"
+  },
+  "InklessPW": {
+    "name": "Not Inkless",
+    "image": "https://pbs.twimg.com/profile_images/1588883762124935168/ccZ9cFyl_400x400.jpg"
+  },
+  "DavidColetto": {
+    "name": "David Coletto",
+    "image": "https://pbs.twimg.com/profile_images/2056770120026857472/rVKaQiwT_400x400.jpg"
+  },
+  "338Canada": {
+    "name": "Philippe J. Fournier",
+    "image": "https://pbs.twimg.com/profile_images/1395358067970220035/qSvvH-kA_400x400.jpg"
+  },
+  "brianlilley": {
+    "name": "Brian Lilley",
+    "image": "https://pbs.twimg.com/profile_images/697594817501622274/m8sYa-jL_400x400.jpg"
+  },
+  "BurtonBaileyRD": {
+    "name": "Burton Bailey",
+    "image": "https://pbs.twimg.com/profile_images/1899174570692927488/aTqA9AIV_400x400.jpg"
+  },
+  "JohnBarlowMP": {
+    "name": "John Barlow",
+    "image": "https://pbs.twimg.com/profile_images/1932533625334972416/zNNg9Oca_400x400.jpg"
+  },
+  "DavidBexte": {
+    "name": "David Bexte",
+    "image": "https://pbs.twimg.com/profile_images/1861490132668555266/IaGH7B1d_400x400.jpg"
+  },
+  "BlaineFCalkins": {
+    "name": "Blaine Calkins",
+    "image": "https://pbs.twimg.com/profile_images/2016974806088892417/j1HG5ZrQ_400x400.jpg"
+  },
+  "Cooper4SAE": {
+    "name": "Michael Cooper, MP",
+    "image": "https://pbs.twimg.com/profile_images/1731018351894544384/KiLR2Mdl_400x400.jpg"
+  },
+  "KerryDiotte": {
+    "name": "KerryDiotte",
+    "image": "https://pbs.twimg.com/profile_images/2031369567717486592/ntUCeCs6_400x400.jpg"
+  },
+  "GarnettGenuis": {
+    "name": "Garnett Genuis",
+    "image": "https://pbs.twimg.com/profile_images/1950951082617679872/ZeMUZGBt_400x400.png"
+  },
+  "LailaGoodridge": {
+    "name": "Laila Goodridge",
+    "image": "https://pbs.twimg.com/profile_images/1898079400685342720/ZRldr1it_400x400.jpg"
+  },
+  "coreyhoganyyc": {
+    "name": "Corey Hogan 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1910418771518316544/IZBDkPh5_400x400.jpg"
+  },
+  "jeneroux": {
+    "name": "Matt Jeneroux",
+    "image": "https://pbs.twimg.com/profile_images/1696173483829374977/YGkl2T8-_400x400.jpg"
+  },
+  "PatKelly_MP": {
+    "name": "Pat Kelly",
+    "image": "https://pbs.twimg.com/profile_images/1460395608527626246/hyOV2UDf_400x400.jpg"
+  },
+  "tomkmiec": {
+    "name": "Tom Kmiec",
+    "image": "https://pbs.twimg.com/profile_images/1925197792521097216/HOZZNi5y_400x400.jpg"
+  },
+  "StephanieKusie": {
+    "name": "Stephanie Kusie",
+    "image": "https://pbs.twimg.com/profile_images/1944782885975687168/mPVDbrax_400x400.jpg"
+  },
+  "MikeLakeMP": {
+    "name": "Mike Lake",
+    "image": "https://pbs.twimg.com/profile_images/795022640041771008/Z-J93fWE_400x400.jpg"
+  },
+  "DaneLloydMP": {
+    "name": "Dane Lloyd",
+    "image": "https://pbs.twimg.com/profile_images/1200213959275687938/-mWsEPs1_400x400.jpg"
+  },
+  "Jagsharan_Mahal": {
+    "name": "Jagsharan Singh Mahal",
+    "image": "https://pbs.twimg.com/profile_images/1902200986049142784/mNtrC3ay_400x400.jpg"
+  },
+  "KellyMcCauleyMP": {
+    "name": "Kelly McCauley, MP",
+    "image": "https://pbs.twimg.com/profile_images/1533825123618373632/SGC0VuWI_400x400.jpg"
+  },
+  "DMcKenzieCPC": {
+    "name": "David McKenzie",
+    "image": "https://pbs.twimg.com/profile_images/1996344440236163072/RXbyUKUG_400x400.jpg"
+  },
+  "GregMcLeanYYC": {
+    "name": "Greg McLean",
+    "image": "https://pbs.twimg.com/profile_images/1434745692900118529/LIA0090z_400x400.jpg"
+  },
+  "HMcPhersonNDP": {
+    "name": "Heather McPherson",
+    "image": "https://pbs.twimg.com/profile_images/1972421936799006720/wbe4a3UC_400x400.jpg"
+  },
+  "billymorinECN": {
+    "name": "Chief Billy Morin",
+    "image": "https://pbs.twimg.com/profile_images/2049616857657716736/mz2x2vs6_400x400.jpg"
+  },
+  "GlenMotz": {
+    "name": "Glen Motz",
+    "image": "https://pbs.twimg.com/profile_images/1555333325392429063/vnzs-5UL_400x400.jpg"
+  },
+  "EleanorO_MP": {
+    "name": "Eleanor Olszewski (Ol-SHEV-skee) 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1901354165848408064/p2Kej8Xf_400x400.jpg"
+  },
+  "MichelleRempel": {
+    "name": "Michelle Rempel Garner",
+    "image": "https://pbs.twimg.com/profile_images/1600326351608844288/54aNZDZH_400x400.jpg"
+  },
+  "BlakeRichardsMP": {
+    "name": "🇨🇦 Blake Richards 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1730421737190244354/hlCqPSW__400x400.jpg"
+  },
+  "Will_Stevenson": {
+    "name": "William Stevenson",
+    "image": "https://pbs.twimg.com/profile_images/1929961895148048384/qoSsTJqg_400x400.jpg"
+  },
+  "ShannonStubbsMP": {
+    "name": "Shannon Stubbs",
+    "image": "https://pbs.twimg.com/profile_images/2065434128204357632/tTABgEBx_400x400.jpg"
+  },
+  "RachaelThomasAB": {
+    "name": "Rachael Thomas",
+    "image": "https://pbs.twimg.com/profile_images/1904252466507694080/G1JglO0G_400x400.jpg"
+  },
+  "TimUppal": {
+    "name": "Tim S. Uppal",
+    "image": "https://pbs.twimg.com/profile_images/1926114311140720640/Ddj7mJtG_400x400.jpg"
+  },
+  "ArnoldViersen": {
+    "name": "Arnold Viersen, MP",
+    "image": "https://pbs.twimg.com/profile_images/1037720050323607552/xyOZMRr0_400x400.jpg"
+  },
+  "chriswarkentin": {
+    "name": "Chris Warkentin",
+    "image": "https://pbs.twimg.com/profile_images/1946230742062600193/9CsSMt7I_400x400.jpg"
+  },
+  "DanAlbas": {
+    "name": "Dan Albas",
+    "image": "https://pbs.twimg.com/profile_images/1968998026183159809/o5K2LssM_400x400.jpg"
+  },
+  "ScottAndersonMP": {
+    "name": "Scott Anderson",
+    "image": "https://pbs.twimg.com/profile_images/1981084776397168640/oJpwnZzM_400x400.jpg"
+  },
+  "MelArnoldMP": {
+    "name": "Mel Arnold MP",
+    "image": "https://pbs.twimg.com/profile_images/931583349109469189/hZsLQr1S_400x400.jpg"
+  },
+  "ChakAuRichmond": {
+    "name": "Chak Au",
+    "image": "https://pbs.twimg.com/profile_images/1909094256616275968/Y6Ye5-DA_400x400.jpg"
+  },
+  "pbainsy": {
+    "name": "Parm Bains 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1877545203634171904/9HjFr5l8_400x400.jpg"
+  },
+  "terrybeech": {
+    "name": "Terry Beech 黃志峰",
+    "image": "https://pbs.twimg.com/profile_images/1643658423513546752/s2MRqIof_400x400.jpg"
+  },
+  "FrankCaputoKTN": {
+    "name": "Frank Caputo",
+    "image": "https://pbs.twimg.com/profile_images/1366448330566369283/wvTXgmbd_400x400.jpg"
+  },
+  "MarcDalton": {
+    "name": "Marc Dalton, MP",
+    "image": "https://pbs.twimg.com/profile_images/1505594422460919811/KfeMw632_400x400.jpg"
+  },
+  "DonDavies": {
+    "name": "Don Davies",
+    "image": "https://pbs.twimg.com/profile_images/1179236471439548417/ZIXuW4bB_400x400.jpg"
+  },
+  "sukhdhaliwal": {
+    "name": "Sukh Dhaliwal",
+    "image": "https://pbs.twimg.com/profile_images/1932939558758260736/HPWBaWmZ_400x400.jpg"
+  },
+  "ToddDohertyMP": {
+    "name": "Todd Doherty",
+    "image": "https://pbs.twimg.com/profile_images/798314775277142018/Ddy-0-xs_400x400.jpg"
+  },
+  "HedyFry": {
+    "name": "Dr. Hedy Fry",
+    "image": "https://pbs.twimg.com/profile_images/2085113786311348224/7P7ZIVZJ_400x400.jpg"
+  },
+  "StephenFuhr": {
+    "name": "Stephen Fuhr",
+    "image": "https://pbs.twimg.com/profile_images/723835854746202112/WLmcAuTI_400x400.jpg"
+  },
+  "SukhmanGillASL": {
+    "name": "Sukhman Gill",
+    "image": "https://pbs.twimg.com/profile_images/1935815194447335424/OnPXp843_400x400.jpg"
+  },
+  "WadeGrant": {
+    "name": "Wade Grant",
+    "image": "https://pbs.twimg.com/profile_images/1783751812224622592/bFzi7RWD_400x400.jpg"
+  },
+  "WillWJGreaves": {
+    "name": "Will Greaves",
+    "image": "https://pbs.twimg.com/profile_images/1927496222945751042/SvHWWnnY_400x400.jpg"
+  },
+  "AaronGunn": {
+    "name": "Aaron Gunn",
+    "image": "https://pbs.twimg.com/profile_images/1935807344044134400/lPFdQLo8_400x400.jpg"
+  },
+  "TamaraJansenMP": {
+    "name": "Tamara Jansen",
+    "image": "https://pbs.twimg.com/profile_images/1968002265626583040/FvaGXSNY_400x400.jpg"
+  },
+  "GordJohns": {
+    "name": "Gord Johns",
+    "image": "https://pbs.twimg.com/profile_images/672093837012152321/zkLZCoQR_400x400.jpg"
+  },
+  "JeffKibbleCML": {
+    "name": "Jeff Kibble CML",
+    "image": "https://pbs.twimg.com/profile_images/2029250895158927360/HnHqYl-7_400x400.jpg"
+  },
+  "HelenaKonanz": {
+    "name": "Helena Konanz",
+    "image": "https://pbs.twimg.com/profile_images/1552819570485825536/_8OvT1IE_400x400.jpg"
+  },
+  "KronisTamara": {
+    "name": "Tamara Kronis 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1803470264912715780/279Hw4de_400x400.jpg"
+  },
+  "JennyKwanBC": {
+    "name": "Jenny Kwan",
+    "image": "https://pbs.twimg.com/profile_images/807726053208760321/bAQ16Yon_400x400.jpg"
+  },
+  "RonMcKinnonLib": {
+    "name": "Ron McKinnon",
+    "image": "https://pbs.twimg.com/profile_images/1192197548758319106/_ye_mb2O_400x400.jpg"
+  },
+  "JMcknightDelta": {
+    "name": "Jill McKnight",
+    "image": "https://pbs.twimg.com/profile_images/1915143796087779328/0p21UpMQ_400x400.jpg"
+  },
+  "robmorrisonmp": {
+    "name": "Rob Morrison",
+    "image": "https://pbs.twimg.com/profile_images/1305391119270772736/sC-LW9hK_400x400.jpg"
+  },
+  "Taleeb": {
+    "name": "Taleeb Noormohamed 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1822030920578162688/l_FCFI-P_400x400.jpg"
+  },
+  "gregorrobertson": {
+    "name": "Gregor Robertson",
+    "image": "https://pbs.twimg.com/profile_images/1942989420434526208/bo8tLFNH_400x400.jpg"
+  },
+  "ellisbross": {
+    "name": "Ellis Ross",
+    "image": "https://pbs.twimg.com/profile_images/1856400221586239489/H6iAt6Xo_400x400.jpg"
+  },
+  "ZoeRoyer": {
+    "name": "Zoë Royer",
+    "image": "https://pbs.twimg.com/profile_images/1406079175409033223/QEeJByG__400x400.jpg"
+  },
+  "gurbuxsainimp": {
+    "name": "Gurbux Saini",
+    "image": "https://pbs.twimg.com/profile_images/1933567482981146624/uaK2Cn3r_400x400.jpg"
+  },
+  "randeepssarai": {
+    "name": "Randeep S. Sarai",
+    "image": "https://pbs.twimg.com/profile_images/1427149383108153347/9u9m0uXg_400x400.jpg"
+  },
+  "markstrahl": {
+    "name": "Mark Strahl",
+    "image": "https://pbs.twimg.com/profile_images/2064069618550075392/ehkAOGbO_400x400.jpg"
+  },
+  "takovanpopta": {
+    "name": "Tako van Popta",
+    "image": "https://pbs.twimg.com/profile_images/1542518982573314049/ldG_4jFS_400x400.jpg"
+  },
+  "BradleyVis": {
+    "name": "Brad Vis",
+    "image": "https://pbs.twimg.com/profile_images/1225878929673572352/iRggTs93_400x400.jpg"
+  },
+  "PatrickBWeiler": {
+    "name": "Patrick Weiler",
+    "image": "https://pbs.twimg.com/profile_images/1932886737442705408/Iugjkaar_400x400.jpg"
+  },
+  "bobzimmermp": {
+    "name": "Bob Zimmer",
+    "image": "https://pbs.twimg.com/profile_images/2023974589962022912/BpBW3SP1_400x400.jpg"
+  },
+  "jamesbezan": {
+    "name": "James Bezan",
+    "image": "https://pbs.twimg.com/profile_images/1070776744565719041/w0hEAtJ2_400x400.jpg"
+  },
+  "BenCarrwpg": {
+    "name": "Ben Carr",
+    "image": "https://pbs.twimg.com/profile_images/1705303577516810240/AURyDe4w_400x400.jpg"
+  },
+  "ChartrandMP": {
+    "name": "Rebecca Chartrand",
+    "image": "https://pbs.twimg.com/profile_images/1970926204271181824/i2ueUpb0_400x400.jpg"
+  },
+  "RaquelDancho": {
+    "name": "Raquel Dancho",
+    "image": "https://pbs.twimg.com/profile_images/1427318882591727624/GDOwFKDO_400x400.jpg"
+  },
+  "TerryDuguid": {
+    "name": "Terry Duguid",
+    "image": "https://pbs.twimg.com/profile_images/1732851841682309121/EJXQZEZe_400x400.jpg"
+  },
+  "DougEyolfson": {
+    "name": "Dr. Doug Eyolfson",
+    "image": "https://pbs.twimg.com/profile_images/1419747715865481216/1dJRE8CM_400x400.jpg"
+  },
+  "LeahGazan": {
+    "name": "Leah ProudLakota (she/her)",
+    "image": "https://pbs.twimg.com/profile_images/1553179179289645062/VAs4tT8M_400x400.jpg"
+  },
+  "GrantJacksonMP": {
+    "name": "Grant Jackson",
+    "image": "https://pbs.twimg.com/profile_images/2039444600830799872/wvIBCQH6_400x400.jpg"
+  },
+  "Kevin_Lamoureux": {
+    "name": "Kevin Lamoureux",
+    "image": "https://pbs.twimg.com/profile_images/1388919301621485568/DDM6nrTY_400x400.jpg"
+  },
+  "GinetteLavack": {
+    "name": "Ginette Lavack",
+    "image": "https://pbs.twimg.com/profile_images/1892699053529448448/s71jxv4N_400x400.jpg"
+  },
+  "BrandenCPC": {
+    "name": "Branden Leslie",
+    "image": "https://pbs.twimg.com/profile_images/1612542092852559872/jT7GmqUR_400x400.jpg"
+  },
+  "DanMazierMP": {
+    "name": "Dan Mazier",
+    "image": "https://pbs.twimg.com/profile_images/2077436564561391616/bLrjfFbf_400x400.jpg"
+  },
+  "_Colin_Reynolds": {
+    "name": "Colin Reynolds",
+    "image": "https://pbs.twimg.com/profile_images/1988657474501582848/Zz4Cas-2_400x400.jpg"
+  },
+  "RichardBragdon": {
+    "name": "Richard Bragdon",
+    "image": "https://pbs.twimg.com/profile_images/626415128603443201/_Vu5hL2Z_400x400.jpg"
+  },
+  "sergecormierlib": {
+    "name": "Serge Cormier",
+    "image": "https://pbs.twimg.com/profile_images/632386011801198593/vWxTS5u-_400x400.png"
+  },
+  "guillaumedth": {
+    "name": "Guillaume Deschênes-Thériault",
+    "image": "https://pbs.twimg.com/profile_images/1603026686022385665/m2vnn99E_400x400.jpg"
+  },
+  "DLeBlancNB": {
+    "name": "Dominic LeBlanc",
+    "image": "https://pbs.twimg.com/profile_images/2039360001416810496/CefceIXU_400x400.jpg"
+  },
+  "WayneLongSJ": {
+    "name": "Wayne Long",
+    "image": "https://pbs.twimg.com/profile_images/1730414931160236032/ZDGOUsh7_400x400.jpg"
+  },
+  "RobMoore_CPC": {
+    "name": "Rob Moore",
+    "image": "https://pbs.twimg.com/profile_images/1828479826694422528/mSJjEbCp_400x400.jpg"
+  },
+  "mylesdavid": {
+    "name": "David Myles",
+    "image": "https://pbs.twimg.com/profile_images/1910784904960376833/CrQ8MBlM_400x400.jpg"
+  },
+  "GinettePT": {
+    "name": "Ginette Petitpas Taylor",
+    "image": "https://pbs.twimg.com/profile_images/1925539913920905216/O_T_eqaJ_400x400.jpg"
+  },
+  "JohnWilliamson_": {
+    "name": "John Williamson",
+    "image": "https://pbs.twimg.com/profile_images/1087921594708701184/4X9A6f9-_400x400.jpg"
+  },
+  "CarolAnsteyMP": {
+    "name": "Carol Anstey",
+    "image": "https://pbs.twimg.com/profile_images/1948011167210749954/21HvotmD_400x400.jpg"
+  },
+  "PhilipEarle": {
+    "name": "Philip Earle",
+    "image": "https://pbs.twimg.com/profile_images/1576216465442803712/NeCEO5Jy_400x400.jpg"
+  },
+  "TomOsborneMHA": {
+    "name": "Tom Osborne LIB",
+    "image": "https://pbs.twimg.com/profile_images/666391492059992066/qXS_1p_e_400x400.jpg"
+  },
+  "JonathanRowe_NL": {
+    "name": "Jonathan Rowe",
+    "image": "https://pbs.twimg.com/profile_images/1970244840169308161/TsdLii1e_400x400.jpg"
+  },
+  "CliffordSmallMP": {
+    "name": "Clifford Small",
+    "image": "https://pbs.twimg.com/profile_images/1837102166453948416/LtZ6n0e7_400x400.jpg"
+  },
+  "Joanne_NL": {
+    "name": "Joanne Thompson",
+    "image": "https://pbs.twimg.com/profile_images/1982829277335678976/crzQs3Os_400x400.jpg"
+  },
+  "JaimeBattiste": {
+    "name": "Jaime Battiste",
+    "image": "https://pbs.twimg.com/profile_images/1942271592995696640/BKUm17gl_400x400.jpg"
+  },
+  "KodyBloisNS": {
+    "name": "Kody Blois",
+    "image": "https://pbs.twimg.com/profile_images/1900379116462911488/ux_df4x7_400x400.jpg"
+  },
+  "Braedon_Clark": {
+    "name": "Braedon Clark",
+    "image": "https://pbs.twimg.com/profile_images/1931086819266879488/-5D2Xhqo_400x400.jpg"
+  },
+  "CdEntremontMP": {
+    "name": "Chris d'Entremont",
+    "image": "https://pbs.twimg.com/profile_images/1903964963196080128/rgj_812A_400x400.jpg"
+  },
+  "LenaMetlegeDiab": {
+    "name": "Lena Metlege Diab",
+    "image": "https://pbs.twimg.com/profile_images/1903930972254433280/cdG0bPWx_400x400.jpg"
+  },
+  "DarrenFisherNS": {
+    "name": "Darren Fisher",
+    "image": "https://pbs.twimg.com/profile_images/1750211131568697344/2UOKrT62_400x400.jpg"
+  },
+  "SeanFraserMP": {
+    "name": "Sean Fraser",
+    "image": "https://pbs.twimg.com/profile_images/1734682682838163456/yPhZrYtY_400x400.jpg"
+  },
+  "mikekelloway": {
+    "name": "Mike Kelloway",
+    "image": "https://pbs.twimg.com/profile_images/2009285405212884992/yEd1FKt3_400x400.jpg"
+  },
+  "HfxShan": {
+    "name": "Shannon Miedema",
+    "image": "https://pbs.twimg.com/profile_images/1998517438757912576/B8cu9gdy_400x400.jpg"
+  },
+  "RebeccaAltyNWT": {
+    "name": "Rebecca Alty",
+    "image": "https://pbs.twimg.com/profile_images/1934638058462236673/7WgB6Y4r_400x400.jpg"
+  },
+  "LoriIdlout": {
+    "name": "ᓘᕆ ᐃᓪᓚᐅᖅ Lori Idlout❄️",
+    "image": "https://pbs.twimg.com/profile_images/921773918909812739/EigKwgn4_400x400.jpg"
+  },
+  "SimaAcan": {
+    "name": "Sima Acan, MP for Oakville West",
+    "image": "https://pbs.twimg.com/profile_images/1862330258650730496/_cQQejIx_400x400.jpg"
+  },
+  "ScottAAitchison": {
+    "name": "Scott Aitchison",
+    "image": "https://pbs.twimg.com/profile_images/1903948537118724096/aFwEt91Y_400x400.jpg"
+  },
+  "DeanAllisonMP": {
+    "name": "Dean Allison",
+    "image": "https://pbs.twimg.com/profile_images/1866282964469833728/JB7k3o5P_400x400.jpg"
+  },
+  "AnitaAnandMP": {
+    "name": "Anita Anand",
+    "image": "https://pbs.twimg.com/profile_images/2084651406644957184/FW4VJyb1_400x400.jpg"
+  },
+  "gary_srp": {
+    "name": "Gary Anandasangaree",
+    "image": "https://pbs.twimg.com/profile_images/1917709983761760256/-omGNRS-_400x400.jpg"
+  },
+  "Roman_Baber": {
+    "name": "Roman Baber",
+    "image": "https://pbs.twimg.com/profile_images/1976307722023759873/hLf4hhWC_400x400.jpg"
+  },
+  "Yvan_Baker": {
+    "name": "Yvan Baker, MP 🇨🇦🇺🇦",
+    "image": "https://pbs.twimg.com/profile_images/1693396831726698496/9pluYNzk_400x400.jpg"
+  },
+  "Tony_Baldinelli": {
+    "name": "Tony Baldinelli",
+    "image": "https://pbs.twimg.com/profile_images/1220817764228784130/T9FFm5Tg_400x400.jpg"
+  },
+  "kbardeesy": {
+    "name": "Karim Bardeesy",
+    "image": "https://pbs.twimg.com/profile_images/1930714652226260992/1sQuXK5D_400x400.jpg"
+  },
+  "MikeBarrettON": {
+    "name": "Michael Barrett",
+    "image": "https://pbs.twimg.com/profile_images/2033723440130134016/oafkYTib_400x400.jpg"
+  },
+  "DolyBegum": {
+    "name": "Doly Begum",
+    "image": "https://pbs.twimg.com/profile_images/1723488943838994432/nIULKgkL_400x400.jpg"
+  },
+  "Chris_Bittle": {
+    "name": "Chris Bittle",
+    "image": "https://pbs.twimg.com/profile_images/1213984628303904769/Wboi0IFe_400x400.jpg"
+  },
+  "KathyBorrelliWT": {
+    "name": "KathyBorrelli, CPC Candidate 2021",
+    "image": "https://pbs.twimg.com/profile_images/1861652842928390144/Y1EAAot-_400x400.jpg"
+  },
+  "JohnBrassardCPC": {
+    "name": "John Brassard",
+    "image": "https://pbs.twimg.com/profile_images/1186724324704706560/oEZZqNNJ_400x400.jpg"
+  },
+  "LarryBrockMP": {
+    "name": "Larry Brock",
+    "image": "https://pbs.twimg.com/profile_images/1918020672652988416/tMQhx6lD_400x400.jpg"
+  },
+  "BardishKW": {
+    "name": "Bardish Chagger",
+    "image": "https://pbs.twimg.com/profile_images/795276806215626753/Y-7u6pti_400x400.jpg"
+  },
+  "adamchamb": {
+    "name": "Adam Chambers",
+    "image": "https://pbs.twimg.com/profile_images/1330712150327881734/JcbWR56z_400x400.jpg"
+  },
+  "Shaun_Chen": {
+    "name": "Shaun Chen",
+    "image": "https://pbs.twimg.com/profile_images/666923695990935552/Nub7U6Jp_400x400.jpg"
+  },
+  "maggiechidvn": {
+    "name": "Maggie Chi",
+    "image": "https://pbs.twimg.com/profile_images/1930826314346319872/qPdJlzBr_400x400.jpg"
+  },
+  "MichaelChongMP": {
+    "name": "Michael Chong 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/2013691760753426432/PlFLZ_uA_400x400.jpg"
+  },
+  "lesliechurch": {
+    "name": "Leslie Church 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1993701615056859136/5E07TzJm_400x400.jpg"
+  },
+  "SandraCobena_": {
+    "name": "SandraCobena",
+    "image": "https://pbs.twimg.com/profile_images/1935844641603010560/z4f9cooM_400x400.jpg"
+  },
+  "ConnieCodyMP": {
+    "name": "Connie Cody",
+    "image": "https://pbs.twimg.com/profile_images/2016701407907500032/HOGrAbTx_400x400.jpg"
+  },
+  "coteau": {
+    "name": "Michael Coteau",
+    "image": "https://pbs.twimg.com/profile_images/2081937075679399936/tXDyv8QI_400x400.jpg"
+  },
+  "juliedabrusin": {
+    "name": "Julie Dabrusin",
+    "image": "https://pbs.twimg.com/profile_images/1952838273778241536/6wkgSC_k_400x400.jpg"
+  },
+  "JohnPaulDanko": {
+    "name": "John-Paul Danko",
+    "image": "https://pbs.twimg.com/profile_images/1925483957094682624/C43ObmG1_400x400.jpg"
+  },
+  "ScotDavidsonMP": {
+    "name": "Scot Davidson",
+    "image": "https://pbs.twimg.com/profile_images/1896985269347274752/rDl_vK7B_400x400.jpg"
+  },
+  "freddaviescpc": {
+    "name": "Fred Davies, MP",
+    "image": "https://pbs.twimg.com/profile_images/1973708962298998784/IpSMyMBI_400x400.jpg"
+  },
+  "KellyDeRidderMP": {
+    "name": "Kelly DeRidder, MP",
+    "image": "https://pbs.twimg.com/profile_images/2052011623355686919/Gt0ebAlx_400x400.jpg"
+  },
+  "TerryDowdall": {
+    "name": "Terry Dowdall",
+    "image": "https://pbs.twimg.com/profile_images/1904255617973252096/dUet1nJ1_400x400.jpg"
+  },
+  "EricDuncanSDG": {
+    "name": "Eric Duncan",
+    "image": "https://pbs.twimg.com/profile_images/2020594945225084928/_z-spkdB_400x400.jpg"
+  },
+  "JulieDzerowicz": {
+    "name": "Julie Dzerowicz",
+    "image": "https://pbs.twimg.com/profile_images/1904257038835748864/PGgi1xzw_400x400.jpg"
+  },
+  "AliEhsassi": {
+    "name": "Ali Ehsassi",
+    "image": "https://pbs.twimg.com/profile_images/1209162018474876929/6PP6U9Bz_400x400.jpg"
+  },
+  "daveeppckl": {
+    "name": "Dave Epp",
+    "image": "https://pbs.twimg.com/profile_images/1942994122286972928/8yTDxLqy_400x400.jpg"
+  },
+  "beynate": {
+    "name": "Nate Erskine-Smith",
+    "image": "https://pbs.twimg.com/profile_images/2090109862600388608/dHGTI5zx_400x400.jpg"
+  },
+  "brucefanjoy": {
+    "name": "Bruce Fanjoy 🍁",
+    "image": "https://pbs.twimg.com/profile_images/1929947786016923648/1mR71dhf_400x400.jpg"
+  },
+  "PeterFonsecaMP": {
+    "name": "Peter Fonseca 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/961727180807004160/x_sLJgkh_400x400.jpg"
+  },
+  "MonaFortier": {
+    "name": "Mona Fortier 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1937551237353820160/XcoLKcaP_400x400.jpg"
+  },
+  "pfragiskatos": {
+    "name": "Peter Fragiskatos",
+    "image": "https://pbs.twimg.com/profile_images/1460278073081966598/f0SU39ck_400x400.jpg"
+  },
+  "IqwinderSGaheer": {
+    "name": "Iqwinder S. Gaheer",
+    "image": "https://pbs.twimg.com/profile_images/2087645916836532225/E1QgeGaO_400x400.jpg"
+  },
+  "cherylgallant": {
+    "name": "Cheryl Gallant",
+    "image": "https://pbs.twimg.com/profile_images/432570964400812033/cdCiGBIp_400x400.jpeg"
+  },
+  "vgasparro": {
+    "name": "Vince Gasparro",
+    "image": "https://pbs.twimg.com/profile_images/1777522747754639360/d7tQvpTx_400x400.jpg"
+  },
+  "MarkGerretsen": {
+    "name": "Mark Gerretsen 🇨🇦 🇺🇦",
+    "image": "https://pbs.twimg.com/profile_images/1937550665644912703/Brk_C-Md_400x400.jpg"
+  },
+  "AmarjeetGill": {
+    "name": "Amarjeet Gill",
+    "image": "https://pbs.twimg.com/profile_images/1993745970849263616/8vOiWV8Q_400x400.jpg"
+  },
+  "HarbGill": {
+    "name": "Harb Gill",
+    "image": "https://pbs.twimg.com/profile_images/1920219825474768896/yAnQcTbv_400x400.jpg"
+  },
+  "MarilynGladuSL": {
+    "name": "Marilyn Gladu",
+    "image": "https://pbs.twimg.com/profile_images/1544304803760807938/gqkJ5WHJ_400x400.jpg"
+  },
+  "karinagould": {
+    "name": "Karina Gould",
+    "image": "https://pbs.twimg.com/profile_images/1899551841488162816/UIy1eRP9_400x400.jpg"
+  },
+  "MikeGuglielmin": {
+    "name": "Michael Guglielmin",
+    "image": "https://pbs.twimg.com/profile_images/1785382142504992768/rrpv8TPF_400x400.jpg"
+  },
+  "PattyHajdu": {
+    "name": "Patty Hajdu",
+    "image": "https://pbs.twimg.com/profile_images/1724519755657179136/HA4eN4oE_400x400.jpg"
+  },
+  "lisahepfner": {
+    "name": "Lisa Hepfner",
+    "image": "https://pbs.twimg.com/profile_images/1903915617910214656/z1OusKq9_400x400.jpg"
+  },
+  "vincentneilho": {
+    "name": "Vincent Neil Ho",
+    "image": "https://pbs.twimg.com/profile_images/2035395517308600320/-OLJcX-p_400x400.jpg"
+  },
+  "timhodgsonmt": {
+    "name": "Tim Hodgson",
+    "image": "https://pbs.twimg.com/profile_images/1927557706002362368/EragsGdx_400x400.jpg"
+  },
+  "KurtHolmanMP": {
+    "name": "Kurt Holman MP",
+    "image": "https://pbs.twimg.com/profile_images/2057489141147762688/Jzu04529_400x400.jpg"
+  },
+  "HonAhmedHussen": {
+    "name": "Ahmed Hussen",
+    "image": "https://pbs.twimg.com/profile_images/1426965651395076104/Bq8ebHAj_400x400.jpg"
+  },
+  "HelenaJaczek": {
+    "name": "The Hon. Dr. Helena Jaczek",
+    "image": "https://pbs.twimg.com/profile_images/1427040524033269761/a35dLpBJ_400x400.jpg"
+  },
+  "jamiljivani": {
+    "name": "Jamil Jivani",
+    "image": "https://pbs.twimg.com/profile_images/1904174907526656000/bLYoudDt_400x400.jpg"
+  },
+  "KayabagaArielle": {
+    "name": "Arielle Kayabaga 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/2054442689945305088/_E-IFjiY_400x400.jpg"
+  },
+  "iamIqraKhalid": {
+    "name": "Iqra Khalid 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1903991767889858560/gRCkA9qy_400x400.jpg"
+  },
+  "ArpanKhanna": {
+    "name": "Arpan Khanna",
+    "image": "https://pbs.twimg.com/profile_images/2027917124602044416/HZcoIHIe_400x400.jpg"
+  },
+  "rhondaforoshawa": {
+    "name": "Rhonda Kirkland",
+    "image": "https://pbs.twimg.com/profile_images/1930334893428326400/Ep68pEKF_400x400.jpg"
+  },
+  "Shelby_Kramp": {
+    "name": "Shelby Kramp-Neuman MP",
+    "image": "https://pbs.twimg.com/profile_images/1933580131718557696/UvIctuOv_400x400.jpg"
+  },
+  "NedKurucMP": {
+    "name": "Ned Kuruc",
+    "image": "https://pbs.twimg.com/profile_images/2021391629844635648/hihCrVJp_400x400.jpg"
+  },
+  "mflalonde": {
+    "name": "Marie-France Lalonde",
+    "image": "https://pbs.twimg.com/profile_images/1923012307912683520/e2BvHLPs_400x400.jpg"
+  },
+  "MelissaLantsman": {
+    "name": "Melissa Lantsman",
+    "image": "https://pbs.twimg.com/profile_images/2058506040077963265/14lIHc07_400x400.jpg"
+  },
+  "PLawrenceCAN": {
+    "name": "Philip Lawrence",
+    "image": "https://pbs.twimg.com/profile_images/1902019649010544640/Jrc1t7fU_400x400.jpg"
+  },
+  "AndrewLawton": {
+    "name": "Andrew Lawton",
+    "image": "https://pbs.twimg.com/profile_images/1815193248899510272/TrQ0nud1_400x400.jpg"
+  },
+  "LeslynLewis": {
+    "name": "Dr. Leslyn Lewis",
+    "image": "https://pbs.twimg.com/profile_images/2018453785509556224/iqZfKoes_400x400.jpg"
+  },
+  "ChrisLewisEssex": {
+    "name": "Chris Lewis Essex",
+    "image": "https://pbs.twimg.com/profile_images/1903556655897337856/FTeLjFJu_400x400.jpg"
+  },
+  "BenLobbMP": {
+    "name": "Ben Lobb",
+    "image": "https://pbs.twimg.com/profile_images/730789087792275457/v3Djyn1n_400x400.jpg"
+  },
+  "TimLouisKitCon": {
+    "name": "Tim Louis 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/2010547661028356096/iGIvWAnz_400x400.jpg"
+  },
+  "votegaetan": {
+    "name": "Gaetan Malette",
+    "image": "https://pbs.twimg.com/profile_images/1755651259690856449/Sti4xBty_400x400.jpg"
+  },
+  "j_maloney": {
+    "name": "James Maloney 🇨🇦🇺🇦🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1715395241509855232/NHWAhLAf_400x400.jpg"
+  },
+  "jacobmantle": {
+    "name": "Jacob Mantle",
+    "image": "https://pbs.twimg.com/profile_images/1359252113658957824/mmBELaww_400x400.jpg"
+  },
+  "docdanielle": {
+    "name": "Danielle Martin",
+    "image": "https://pbs.twimg.com/profile_images/2009320955059863552/s9LksaL0_400x400.jpg"
+  },
+  "DavidMcGuinty": {
+    "name": "David McGuinty",
+    "image": "https://pbs.twimg.com/profile_images/1966247822107250689/_tfwVWXH_400x400.jpg"
+  },
+  "mckelvieAJAX": {
+    "name": "Jennifer McKelvie",
+    "image": "https://pbs.twimg.com/profile_images/1926097243335000064/vinTxgWJ_400x400.jpg"
+  },
+  "Eric_Melillo": {
+    "name": "Eric Melillo",
+    "image": "https://pbs.twimg.com/profile_images/1931376061914193920/JD_dGGwD_400x400.jpg"
+  },
+  "CostasMenegakis": {
+    "name": "Costas Menegakis MP",
+    "image": "https://pbs.twimg.com/profile_images/1885944025246564352/y9XeSUou_400x400.jpg"
+  },
+  "MingarelliG": {
+    "name": "Giovanna Mingarelli",
+    "image": "https://pbs.twimg.com/profile_images/1994497797207326720/7NzuJ6WA_400x400.jpg"
+  },
+  "DanMuysMP": {
+    "name": "Dan Muys, MP",
+    "image": "https://pbs.twimg.com/profile_images/1423014135009320965/E784T1OW_400x400.jpg"
+  },
+  "YasirNaqviCDN": {
+    "name": "Yasir Naqvi 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1901445383143698432/455T9A9o_400x400.jpg"
+  },
+  "JohnNaterMP": {
+    "name": "John Nater",
+    "image": "https://pbs.twimg.com/profile_images/1166153840875528192/EkQNJaoe_400x400.jpg"
+  },
+  "JuanitaNathan": {
+    "name": "Juanita Nathan",
+    "image": "https://pbs.twimg.com/profile_images/1605990482781290497/C5Pi9Xb3_400x400.jpg"
+  },
+  "RunChiNguyenRun": {
+    "name": "Chi Nguyen",
+    "image": "https://pbs.twimg.com/profile_images/1979697569295917057/Axuvzwfw_400x400.jpg"
+  },
+  "Rob_Oliphant": {
+    "name": "Rob Oliphant",
+    "image": "https://pbs.twimg.com/profile_images/1904214929256964096/DsQDeO2L_400x400.jpg"
+  },
+  "ORourke4Guelph": {
+    "name": "Dominique O'Rourke",
+    "image": "https://pbs.twimg.com/profile_images/1909658558817325056/aiAEtTz2_400x400.jpg"
+  },
+  "MarcusPowlowski": {
+    "name": "Marcus Powlowski",
+    "image": "https://pbs.twimg.com/profile_images/1426954103675097093/1A9BN8MG_400x400.jpg"
+  },
+  "EngAslamRana": {
+    "name": "Aslam Rana MP",
+    "image": "https://pbs.twimg.com/profile_images/2021271246776815616/QPyQ3lsf_400x400.jpg"
+  },
+  "ScottReidCPC": {
+    "name": "Scott Reid",
+    "image": "https://pbs.twimg.com/profile_images/705425935852564481/jXMthKYW_400x400.jpg"
+  },
+  "annarobertsmp": {
+    "name": "Anna Roberts",
+    "image": "https://pbs.twimg.com/profile_images/1948430602362822656/HUW_n1-x_400x400.jpg"
+  },
+  "MPRochefort": {
+    "name": "Pauline Rochefort",
+    "image": "https://pbs.twimg.com/profile_images/1904217904234823680/LbDmMf5R_400x400.jpg"
+  },
+  "Lianne_Rood": {
+    "name": "Lianne Rood, M.P. Middlesex-London",
+    "image": "https://pbs.twimg.com/profile_images/2008907957019312128/PPrkVSS4_400x400.jpg"
+  },
+  "AlexRuff17": {
+    "name": "Alex Ruff",
+    "image": "https://pbs.twimg.com/profile_images/1426201663363223555/-DmjoCSd_400x400.jpg"
+  },
+  "rubysahotalib": {
+    "name": "Ruby Sahota",
+    "image": "https://pbs.twimg.com/profile_images/1168661657536647168/HcbYlwUA_400x400.jpg"
+  },
+  "Jamie_Schmale": {
+    "name": "Jamie Schmale",
+    "image": "https://pbs.twimg.com/profile_images/1214563521997889536/QhBYsZhR_400x400.jpg"
+  },
+  "kyleseeback": {
+    "name": "kyleseeback",
+    "image": "https://pbs.twimg.com/profile_images/1717563602536726528/4OBU1CW4_400x400.jpg"
+  },
+  "TerrySheehanMP": {
+    "name": "Terry Sheehan",
+    "image": "https://pbs.twimg.com/profile_images/1931717390162681856/y-jWa1MG_400x400.jpg"
+  },
+  "DougShipleyBSOM": {
+    "name": "Doug Shipley",
+    "image": "https://pbs.twimg.com/profile_images/1900202971398373376/KaMdYuWW_400x400.jpg"
+  },
+  "MSidhuLiberal": {
+    "name": "Maninder Sidhu",
+    "image": "https://pbs.twimg.com/profile_images/1937885510413828096/FysqvfAi_400x400.jpg"
+  },
+  "SoniaLiberal": {
+    "name": "Sonia Sidhu",
+    "image": "https://pbs.twimg.com/profile_images/661252831337439232/EqxzNjvu_400x400.jpg"
+  },
+  "amansodhilib": {
+    "name": "Amandeep Sodhi",
+    "image": "https://pbs.twimg.com/profile_images/1904551775673147392/y6p3yfaw_400x400.jpg"
+  },
+  "EvanLSolomon": {
+    "name": "Evan Solomon",
+    "image": "https://pbs.twimg.com/profile_images/1938756616020430848/qWPhiD1C_400x400.jpg"
+  },
+  "SousaCharles": {
+    "name": "Charles Sousa",
+    "image": "https://pbs.twimg.com/profile_images/1669187592401702912/UE5fvQhS_400x400.jpg"
+  },
+  "strauss_matt": {
+    "name": "Matt Strauss",
+    "image": "https://pbs.twimg.com/profile_images/1897403382916112384/9jBiTjQr_400x400.jpg"
+  },
+  "KristinaTesserD": {
+    "name": "Kristina Tesser Derksen",
+    "image": "https://pbs.twimg.com/profile_images/1938618754692194304/F1TT0Brt_400x400.jpg"
+  },
+  "TurnbullWhitby": {
+    "name": "Ryan Turnbull 🇨🇦🇺🇦",
+    "image": "https://pbs.twimg.com/profile_images/1955785385583284230/QFCOrCd-_400x400.jpg"
+  },
+  "rechievaldez": {
+    "name": "Rechie Valdez",
+    "image": "https://pbs.twimg.com/profile_images/1948919310501527552/ebXD58WO_400x400.jpg"
+  },
+  "anitavandenbeld": {
+    "name": "Anita Vandenbeld",
+    "image": "https://pbs.twimg.com/profile_images/1464304196937789441/ATCZFe9Z_400x400.jpg"
+  },
+  "vankayak": {
+    "name": "Adam van Koeverden",
+    "image": "https://pbs.twimg.com/profile_images/2062007013370892288/t99jtcZn_400x400.jpg"
+  },
+  "JeanYip3": {
+    "name": "Jean Yip",
+    "image": "https://pbs.twimg.com/profile_images/1458142665158053893/0WVdJBgD_400x400.jpg"
+  },
+  "SalmaZahid15": {
+    "name": "Salma Zahid",
+    "image": "https://pbs.twimg.com/profile_images/1992082104973209600/4w02rWCz_400x400.jpg"
+  },
+  "JZerucelli": {
+    "name": "John Zerucelli",
+    "image": "https://pbs.twimg.com/profile_images/2031514139693297664/eqNlaevL_400x400.jpg"
+  },
+  "SeanCaseyLPC": {
+    "name": "Sean Casey",
+    "image": "https://pbs.twimg.com/profile_images/1938597279805444096/34KyGPkN_400x400.jpg"
+  },
+  "CornwallHeath": {
+    "name": "Heath MacDonald",
+    "image": "https://pbs.twimg.com/profile_images/2018773515336351744/QOwskVp1_400x400.jpg"
+  },
+  "MorrisseyEgmont": {
+    "name": "Robert Morrissey",
+    "image": "https://pbs.twimg.com/profile_images/511316131299069952/tgqtjZis_400x400.jpeg"
+  },
+  "XBarsalouDuval": {
+    "name": "XavierBarsalouDuval",
+    "image": "https://pbs.twimg.com/profile_images/1427295425145577473/bPiriHL4_400x400.jpg"
+  },
+  "Mario_Beaulieu": {
+    "name": "Mario Beaulieu",
+    "image": "https://pbs.twimg.com/profile_images/1622691110618365952/NORgMLFU_400x400.jpg"
+  },
+  "RachelBendayan": {
+    "name": "Rachel Bendayan",
+    "image": "https://pbs.twimg.com/profile_images/2044453667911151616/lmXb-ap__400x400.jpg"
+  },
+  "LucBerthold": {
+    "name": "Luc Berthold",
+    "image": "https://pbs.twimg.com/profile_images/1846721289995649024/650WQ1Jx_400x400.jpg"
+  },
+  "MBJDepute": {
+    "name": "Maxime Blanchette-Joncas",
+    "image": "https://pbs.twimg.com/profile_images/1939828499738476544/FWke1_H-_400x400.jpg"
+  },
+  "patbonin": {
+    "name": "Patrick Bonin",
+    "image": "https://pbs.twimg.com/profile_images/1903897478606340096/L1YLsZ1L_400x400.jpg"
+  },
+  "alexboulerice": {
+    "name": "Alexandre Boulerice",
+    "image": "https://pbs.twimg.com/profile_images/1158819156537618433/GNFylBw0_400x400.jpg"
+  },
+  "ElisabethBriere": {
+    "name": "Élisabeth Brière",
+    "image": "https://pbs.twimg.com/profile_images/1903847847771979776/ZwLVSdZH_400x400.jpg"
+  },
+  "Alduceppe": {
+    "name": "Alexis Brunelle-Duceppe",
+    "image": "https://pbs.twimg.com/profile_images/1508268299330764806/JeZq-sGe_400x400.jpg"
+  },
+  "FP_Champagne": {
+    "name": "François-Philippe Champagne (FPC) 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1699437470683635712/to70RiPH_400x400.jpg"
+  },
+  "martchampoux": {
+    "name": "Martin Champoux",
+    "image": "https://pbs.twimg.com/profile_images/1725256712850911232/uLWHIjae_400x400.jpg"
+  },
+  "SophieChatel1": {
+    "name": "Sophie Chatel",
+    "image": "https://pbs.twimg.com/profile_images/1917573926705594368/D2HmP_mA_400x400.jpg"
+  },
+  "MADandurand": {
+    "name": "Marianne Dandurand",
+    "image": "https://pbs.twimg.com/profile_images/1903821410331729920/nYsELphX_400x400.jpg"
+  },
+  "ClaudeDBF_bq": {
+    "name": "Claude DeBellefeuille",
+    "image": "https://pbs.twimg.com/profile_images/1173431082085171202/Vlg_pxnt_400x400.jpg"
+  },
+  "gerarddeltell": {
+    "name": "Gérard Deltell",
+    "image": "https://pbs.twimg.com/profile_images/2017607858674974720/tSidEHEz_400x400.jpg"
+  },
+  "AlexisDeschenes": {
+    "name": "Alexis Deschênes",
+    "image": "https://pbs.twimg.com/profile_images/1930062447324405760/tUPQLDLh_400x400.jpg"
+  },
+  "desrochersplc": {
+    "name": "Caroline Desrochers",
+    "image": "https://pbs.twimg.com/profile_images/1974731374947946496/vrS2TIy2_400x400.jpg"
+  },
+  "adhillonDLL": {
+    "name": "Anju Dhillon",
+    "image": "https://pbs.twimg.com/profile_images/1927059823159386112/iHQh5rv2_400x400.jpg"
+  },
+  "jyduclos": {
+    "name": "Jean-Yves Duclos",
+    "image": "https://pbs.twimg.com/profile_images/1904225610739933184/R4Ggy-Rj_400x400.jpg"
+  },
+  "F_ElKhoury": {
+    "name": "Fayçal El-Khoury 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1927374381325426688/hSABejbp_400x400.jpg"
+  },
+  "GregFergus": {
+    "name": "Greg Fergus",
+    "image": "https://pbs.twimg.com/profile_images/1496634134642450445/WW5ibmF8_400x400.jpg"
+  },
+  "RhealFortin": {
+    "name": "Rhéal Fortin",
+    "image": "https://pbs.twimg.com/profile_images/1632781888250060800/zgnx39TK_400x400.jpg"
+  },
+  "annamgainey": {
+    "name": "Anna Gainey",
+    "image": "https://pbs.twimg.com/profile_images/1920113872775565312/nA94nPQv_400x400.jpg"
+  },
+  "JeanDenisGaron1": {
+    "name": "Jean-Denis Garon ⚜️",
+    "image": "https://pbs.twimg.com/profile_images/1983922614415327233/5Gj-2DaR_400x400.jpg"
+  },
+  "MHGaudreauBQ": {
+    "name": "Marie-Hélène Gaudreau, députée",
+    "image": "https://pbs.twimg.com/profile_images/1570759863046754304/VNh10pwQ_400x400.jpg"
+  },
+  "GenereuxBernard": {
+    "name": "Bernard Genereux",
+    "image": "https://pbs.twimg.com/profile_images/1479138294663372808/r6siYz50_400x400.jpg"
+  },
+  "GillMarilene": {
+    "name": "Marilène Gill",
+    "image": "https://pbs.twimg.com/profile_images/1917991049840009216/MYlHAQwo_400x400.jpg"
+  },
+  "Joelgodinpjc": {
+    "name": "Joël Godin",
+    "image": "https://pbs.twimg.com/profile_images/1704558313990418432/CSfm_-FD_400x400.jpg"
+  },
+  "ClaudeGuay": {
+    "name": "Claude Guay, Eng., ICD.D",
+    "image": "https://pbs.twimg.com/profile_images/1930378615906078721/9LCytZB__400x400.jpg"
+  },
+  "s_guilbeault": {
+    "name": "Steven Guilbeault",
+    "image": "https://pbs.twimg.com/profile_images/1963956934953836544/rYiMWe5d_400x400.jpg"
+  },
+  "MandyGullMasty": {
+    "name": "Mandy Gull Masty",
+    "image": "https://pbs.twimg.com/profile_images/1906148078006018048/SZzD4E6H_400x400.jpg"
+  },
+  "Gab_Hardy": {
+    "name": "Gabriel Hardy",
+    "image": "https://pbs.twimg.com/profile_images/1935688969292804096/bIRTXlYA_400x400.jpg"
+  },
+  "AHousefather": {
+    "name": "Anthony Housefather",
+    "image": "https://pbs.twimg.com/profile_images/1903965973641576448/C8rsaWVb_400x400.jpg"
+  },
+  "IaconoMP": {
+    "name": "Angelo Iacono",
+    "image": "https://pbs.twimg.com/profile_images/1447979999827570708/f2ozYz4Q_400x400.jpg"
+  },
+  "melaniejoly": {
+    "name": "Mélanie Joly",
+    "image": "https://pbs.twimg.com/profile_images/1452811987688333313/5YVeY5JY_400x400.jpg"
+  },
+  "AnnieKoutrakis": {
+    "name": "Annie Koutrakis",
+    "image": "https://pbs.twimg.com/profile_images/1936464419967389696/k4YBO5Ke_400x400.jpg"
+  },
+  "emlambropoulos": {
+    "name": "E. Lambropoulos",
+    "image": "https://pbs.twimg.com/profile_images/1456236124725202948/w7MUTa7y_400x400.jpg"
+  },
+  "LapointeLinda": {
+    "name": "Linda Lapointe",
+    "image": "https://pbs.twimg.com/profile_images/1440661244482969611/h1BVKcY4_400x400.jpg"
+  },
+  "A_Larouche_Shef": {
+    "name": "Andréanne Larouche",
+    "image": "https://pbs.twimg.com/profile_images/1033935304330235904/eJvPpK0W_400x400.jpg"
+  },
+  "PatriciaLattan3": {
+    "name": "Patricia Lattanzio",
+    "image": "https://pbs.twimg.com/profile_images/1940849419328335872/BpeMqzGa_400x400.jpg"
+  },
+  "stephanelauzon5": {
+    "name": "Stéphane Lauzon 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1507352341212770309/INYP_XaG_400x400.jpg"
+  },
+  "CarlosJLeitao": {
+    "name": "Carlos J. Leitão",
+    "image": "https://pbs.twimg.com/profile_images/1975961426905772034/IN3OTKnx_400x400.jpg"
+  },
+  "seblemire": {
+    "name": "Sébastien Lemire",
+    "image": "https://pbs.twimg.com/profile_images/1466294730455666688/sIho_TJ8_400x400.jpg"
+  },
+  "JoelLightbound": {
+    "name": "Joël Lightbound",
+    "image": "https://pbs.twimg.com/profile_images/1479660323690983431/uC55HO5R_400x400.jpg"
+  },
+  "stevenmackinnon": {
+    "name": "Steven MacKinnon",
+    "image": "https://pbs.twimg.com/profile_images/2044207643661594624/OrEmtQGd_400x400.jpg"
+  },
+  "richardmartelpc": {
+    "name": "Richard Martel",
+    "image": "https://pbs.twimg.com/profile_images/1917611177313439745/Pcw5wtRo_400x400.jpg"
+  },
+  "MarcMillerVM": {
+    "name": "Marc Miller ᐅᑭᒫᐃᐧᐅᓃᐸᐄᐧᐤᐃᔨᐣ Mikotsikaa",
+    "image": "https://pbs.twimg.com/profile_images/1216047291691388928/I1s70WxO_400x400.jpg"
+  },
+  "ChristineNorm": {
+    "name": "Christine Normandin",
+    "image": "https://pbs.twimg.com/profile_images/1697341244714717184/TCLOvZo7_400x400.jpg"
+  },
+  "PierrePaulHus": {
+    "name": "Pierre Paul-Hus",
+    "image": "https://pbs.twimg.com/profile_images/1903788723306688512/x05IEpyn_400x400.jpg"
+  },
+  "yvesperronbq": {
+    "name": "Yves Perron",
+    "image": "https://pbs.twimg.com/profile_images/1590801588288888833/ogSKQOig_400x400.jpg"
+  },
+  "jacquesramsaypl": {
+    "name": "Jacques Ramsay",
+    "image": "https://pbs.twimg.com/profile_images/1906808100805337088/ABkinGlP_400x400.jpg"
+  },
+  "SherryRomanado": {
+    "name": "Sherry Romanado",
+    "image": "https://pbs.twimg.com/profile_images/1938622171242188800/ezYbVkmX_400x400.jpg"
+  },
+  "sari_ab": {
+    "name": "Abdelhaq Sari\\ Député fédéral du comté de Bourassa",
+    "image": "https://pbs.twimg.com/profile_images/1922445620003905536/P-RdQSmi_400x400.jpg"
+  },
+  "ScarpaleggiaLSL": {
+    "name": "Francis Scarpaleggia",
+    "image": "https://pbs.twimg.com/profile_images/692440262405177344/9fvpM3pE_400x400.jpg"
+  },
+  "PeterSchiefke": {
+    "name": "Peter Schiefke",
+    "image": "https://pbs.twimg.com/profile_images/1448685569433800704/BRZFtPlO_400x400.jpg"
+  },
+  "mariosimardbq": {
+    "name": "Mario Simard",
+    "image": "https://pbs.twimg.com/profile_images/1463916168453013516/3RQHAIXM_400x400.jpg"
+  },
+  "Gabriel_SMarie": {
+    "name": "Gabriel Ste-Marie",
+    "image": "https://pbs.twimg.com/profile_images/1427233039017463809/4C1JWnB1_400x400.jpg"
+  },
+  "ESPESP": {
+    "name": "Eric St-Pierre",
+    "image": "https://pbs.twimg.com/profile_images/1950994691677175808/gpwFIWA1_400x400.jpg"
+  },
+  "luctheriaultbq": {
+    "name": "Luc Thériault",
+    "image": "https://pbs.twimg.com/profile_images/1354854485407969281/qGAFRJke_400x400.jpg"
+  },
+  "louisvlleneuve": {
+    "name": "Louis Villeneuve",
+    "image": "https://pbs.twimg.com/profile_images/1257367844318318592/ZKhsYTL-_400x400.jpg"
+  },
+  "SameerZuberi": {
+    "name": "Sameer Zuberi 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1933204474828382208/04poD-v3_400x400.jpg"
+  },
+  "KellyBlockmp": {
+    "name": "Kelly Block MP",
+    "image": "https://pbs.twimg.com/profile_images/1857477580527407104/Uc3Er9zY_400x400.jpg"
+  },
+  "StevenBonkMP": {
+    "name": "Steven Bonk",
+    "image": "https://pbs.twimg.com/profile_images/1982572631191617537/Jl7_E2Xw_400x400.jpg"
+  },
+  "rosemarie_falk": {
+    "name": "Rosemarie Falk",
+    "image": "https://pbs.twimg.com/profile_images/1903876111345586176/2NHRki1L_400x400.jpg"
+  },
+  "MPRandyHoback": {
+    "name": "Randy Hoback",
+    "image": "https://pbs.twimg.com/profile_images/1944813131441586176/grhu9KR5_400x400.jpg"
+  },
+  "MichaelKramSK": {
+    "name": "Michael Kram 🇨🇦",
+    "image": "https://pbs.twimg.com/profile_images/1237944475982483456/3AZRB3dG_400x400.jpg"
+  },
+  "jeremy_patzer": {
+    "name": "Jeremy Patzer",
+    "image": "https://pbs.twimg.com/profile_images/1929568352764051456/uvZ23JfM_400x400.jpg"
+  },
+  "BradRedekopp": {
+    "name": "Brad Redekopp",
+    "image": "https://pbs.twimg.com/profile_images/1903875663339171840/CjqOxsTf_400x400.jpg"
+  },
+  "AndrewScheer": {
+    "name": "Andrew Scheer",
+    "image": "https://pbs.twimg.com/profile_images/1187874552145166336/noscjeU8_400x400.jpg"
+  },
+  "WarrenSteinley": {
+    "name": "Warren Steinley",
+    "image": "https://pbs.twimg.com/profile_images/1974169434836115456/3SsYxI5X_400x400.jpg"
+  },
+  "ctochor": {
+    "name": "Corey Tochor",
+    "image": "https://pbs.twimg.com/profile_images/1426981681643261961/XH9X0fra_400x400.jpg"
+  },
+  "FraserTolmie": {
+    "name": "Fraser Tolmie",
+    "image": "https://pbs.twimg.com/profile_images/1470888209173430280/uH2rbVzE_400x400.jpg"
+  },
+  "cathayw": {
+    "name": "Cathay Wagantall",
+    "image": "https://pbs.twimg.com/profile_images/1931076247372603392/P26ojl1w_400x400.jpg"
+  },
+  "KevinWaugh_CPC": {
+    "name": "Kevin Waugh",
+    "image": "https://pbs.twimg.com/profile_images/2002813781966020608/Iz3yr-L1_400x400.jpg"
+  },
+  "drbrendanhanley": {
+    "name": "Brendan Hanley, MP",
+    "image": "https://pbs.twimg.com/profile_images/1943364037930016769/f0qio0YT_400x400.jpg"
+  }
+}
