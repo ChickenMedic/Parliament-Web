@@ -10,7 +10,7 @@
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 145
+        "retweet_count": 151
       }
     },
     {
@@ -19,7 +19,7 @@
       "date": "2026-08-20T18:36:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 434,
+        "impression_count": 437,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -32,10 +32,10 @@
       "date": "2026-08-20T15:00:25.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 11670,
+        "impression_count": 11934,
         "like_count": 128,
         "quote_count": 4,
-        "reply_count": 100,
+        "reply_count": 105,
         "retweet_count": 33
       }
     },
@@ -45,7 +45,7 @@
       "date": "2026-08-19T19:30:09.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 263,
+        "impression_count": 264,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -58,7 +58,7 @@
       "date": "2026-08-19T19:29:56.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 485,
+        "impression_count": 486,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -71,7 +71,7 @@
       "date": "2026-08-19T14:35:08.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 12283,
+        "impression_count": 12302,
         "like_count": 457,
         "quote_count": 22,
         "reply_count": 389,
@@ -123,7 +123,7 @@
       "date": "2026-08-18T16:00:48.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 12108,
+        "impression_count": 12110,
         "like_count": 186,
         "quote_count": 10,
         "reply_count": 145,
@@ -270,7 +270,7 @@
       "date": "2026-08-20T19:09:32.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1472,
+        "impression_count": 1492,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 0,
@@ -283,11 +283,11 @@
       "date": "2026-08-20T19:04:49.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1853,
-        "like_count": 42,
+        "impression_count": 1877,
+        "like_count": 45,
         "quote_count": 0,
         "reply_count": 2,
-        "retweet_count": 8
+        "retweet_count": 9
       }
     },
     {
@@ -402,11 +402,11 @@
       "date": "2026-08-20T20:17:23.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 8422,
-        "like_count": 57,
+        "impression_count": 9134,
+        "like_count": 62,
         "quote_count": 6,
-        "reply_count": 68,
-        "retweet_count": 25
+        "reply_count": 73,
+        "retweet_count": 26
       }
     },
     {
@@ -415,7 +415,7 @@
       "date": "2026-08-15T12:00:03.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1662,
+        "impression_count": 1663,
         "like_count": 29,
         "quote_count": 2,
         "reply_count": 5,
@@ -534,7 +534,7 @@
       "date": "2026-08-19T19:46:59.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1376,
+        "impression_count": 1377,
         "like_count": 12,
         "quote_count": 0,
         "reply_count": 0,
@@ -547,7 +547,7 @@
       "date": "2026-08-18T14:48:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2478,
+        "impression_count": 2479,
         "like_count": 14,
         "quote_count": 0,
         "reply_count": 2,
@@ -666,7 +666,7 @@
       "date": "2026-08-20T18:01:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 503,
+        "impression_count": 510,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -679,7 +679,7 @@
       "date": "2026-08-20T14:00:35.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 503,
+        "impression_count": 506,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -705,7 +705,7 @@
       "date": "2026-08-19T14:43:35.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 867,
+        "impression_count": 868,
         "like_count": 7,
         "quote_count": 0,
         "reply_count": 2,
@@ -783,7 +783,7 @@
       "date": "2026-08-05T13:00:04.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 1231,
+        "impression_count": 1233,
         "like_count": 33,
         "quote_count": 1,
         "reply_count": 2,
@@ -798,11 +798,11 @@
       "date": "2026-08-20T21:12:30.000Z",
       "metrics": {
         "bookmark_count": 21,
-        "impression_count": 42340,
-        "like_count": 1036,
+        "impression_count": 43338,
+        "like_count": 1057,
         "quote_count": 15,
         "reply_count": 193,
-        "retweet_count": 220
+        "retweet_count": 225
       }
     },
     {
@@ -811,11 +811,11 @@
       "date": "2026-08-20T21:12:25.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 28059,
-        "like_count": 379,
+        "impression_count": 28775,
+        "like_count": 385,
         "quote_count": 4,
-        "reply_count": 48,
-        "retweet_count": 85
+        "reply_count": 51,
+        "retweet_count": 87
       }
     },
     {
@@ -824,11 +824,11 @@
       "date": "2026-08-20T17:14:51.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 32742,
-        "like_count": 776,
+        "impression_count": 33206,
+        "like_count": 800,
         "quote_count": 20,
-        "reply_count": 340,
-        "retweet_count": 145
+        "reply_count": 349,
+        "retweet_count": 151
       }
     },
     {
@@ -837,11 +837,11 @@
       "date": "2026-08-20T17:13:01.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 20749,
-        "like_count": 380,
+        "impression_count": 20960,
+        "like_count": 387,
         "quote_count": 6,
-        "reply_count": 81,
-        "retweet_count": 77
+        "reply_count": 88,
+        "retweet_count": 80
       }
     },
     {
@@ -849,12 +849,12 @@
       "content": "The Canada Child Benefit helps 6 million kids across Canada.\n\nToday, that payment lands in parents’ bank accounts — delivering more help with groceries, clothing, and the costs of raising a family. https://t.co/7ZTj7MibLm",
       "date": "2026-08-20T14:08:50.000Z",
       "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 63358,
-        "like_count": 806,
+        "bookmark_count": 8,
+        "impression_count": 64296,
+        "like_count": 819,
         "quote_count": 62,
-        "reply_count": 611,
-        "retweet_count": 170
+        "reply_count": 620,
+        "retweet_count": 174
       }
     },
     {
@@ -863,11 +863,11 @@
       "date": "2026-08-20T14:08:15.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 21450,
-        "like_count": 285,
+        "impression_count": 21613,
+        "like_count": 290,
         "quote_count": 6,
-        "reply_count": 84,
-        "retweet_count": 75
+        "reply_count": 85,
+        "retweet_count": 77
       }
     },
     {
@@ -876,8 +876,8 @@
       "date": "2026-08-20T00:00:19.000Z",
       "metrics": {
         "bookmark_count": 43,
-        "impression_count": 98867,
-        "like_count": 1466,
+        "impression_count": 99169,
+        "like_count": 1471,
         "quote_count": 29,
         "reply_count": 476,
         "retweet_count": 243
@@ -889,8 +889,8 @@
       "date": "2026-08-19T23:59:31.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 34051,
-        "like_count": 355,
+        "impression_count": 34116,
+        "like_count": 356,
         "quote_count": 4,
         "reply_count": 98,
         "retweet_count": 59
@@ -902,11 +902,11 @@
       "date": "2026-08-19T16:17:36.000Z",
       "metrics": {
         "bookmark_count": 75,
-        "impression_count": 232397,
-        "like_count": 2436,
+        "impression_count": 232654,
+        "like_count": 2439,
         "quote_count": 87,
         "reply_count": 657,
-        "retweet_count": 364
+        "retweet_count": 366
       }
     },
     {
@@ -915,8 +915,8 @@
       "date": "2026-08-19T16:17:09.000Z",
       "metrics": {
         "bookmark_count": 52,
-        "impression_count": 172113,
-        "like_count": 1797,
+        "impression_count": 172253,
+        "like_count": 1802,
         "quote_count": 27,
         "reply_count": 378,
         "retweet_count": 263
@@ -930,11 +930,11 @@
       "date": "2026-08-21T00:44:47.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 20467,
-        "like_count": 430,
-        "quote_count": 3,
-        "reply_count": 104,
-        "retweet_count": 50
+        "impression_count": 22154,
+        "like_count": 449,
+        "quote_count": 4,
+        "reply_count": 111,
+        "retweet_count": 56
       }
     },
     {
@@ -942,12 +942,12 @@
       "content": "Carney Liberals voted against the Conservative bill to end this outrageous practice of two-tier sentencing.\n\nHe violently sexually assaulted a woman. A judge cut his sentence because he faces deportation.\n\nHe should face every second of punishment, and then be deported: https://t.co/pr2vzvD9AV",
       "date": "2026-08-21T00:06:40.000Z",
       "metrics": {
-        "bookmark_count": 40,
-        "impression_count": 42310,
-        "like_count": 1886,
-        "quote_count": 10,
-        "reply_count": 59,
-        "retweet_count": 442
+        "bookmark_count": 42,
+        "impression_count": 44421,
+        "like_count": 2050,
+        "quote_count": 11,
+        "reply_count": 65,
+        "retweet_count": 480
       }
     },
     {
@@ -956,11 +956,11 @@
       "date": "2026-08-20T23:02:10.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 20730,
-        "like_count": 224,
+        "impression_count": 21662,
+        "like_count": 233,
         "quote_count": 0,
         "reply_count": 20,
-        "retweet_count": 38
+        "retweet_count": 39
       }
     },
     {
@@ -968,12 +968,12 @@
       "content": "Thank you to Crown Prince @PahlaviReza for discussing how Canada can protect our country from IRGC terrorists and stand with the Iranian people in their fight for a free and democratic Iran.\n\nCanada must expel terrorist regime operatives, protect our communities from threats and https://t.co/hc8oEz1p3G",
       "date": "2026-08-20T22:26:01.000Z",
       "metrics": {
-        "bookmark_count": 156,
-        "impression_count": 99390,
-        "like_count": 6541,
-        "quote_count": 78,
-        "reply_count": 547,
-        "retweet_count": 2202
+        "bookmark_count": 168,
+        "impression_count": 109133,
+        "like_count": 7210,
+        "quote_count": 95,
+        "reply_count": 583,
+        "retweet_count": 2452
       }
     },
     {
@@ -982,11 +982,11 @@
       "date": "2026-08-20T21:21:53.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 28224,
-        "like_count": 569,
+        "impression_count": 29542,
+        "like_count": 594,
         "quote_count": 4,
-        "reply_count": 84,
-        "retweet_count": 78
+        "reply_count": 85,
+        "retweet_count": 82
       }
     },
     {
@@ -994,12 +994,12 @@
       "content": "Protect your paycheque from Carney's Labour Day gas tax hike and join the Conservatives to save 25¢ a litre through to Canada Day 2027: https://t.co/n5sYnbfWBD https://t.co/iiO1Yn42UE",
       "date": "2026-08-20T17:41:04.000Z",
       "metrics": {
-        "bookmark_count": 16,
-        "impression_count": 49442,
-        "like_count": 1968,
+        "bookmark_count": 17,
+        "impression_count": 50334,
+        "like_count": 1987,
         "quote_count": 37,
-        "reply_count": 397,
-        "retweet_count": 389
+        "reply_count": 402,
+        "retweet_count": 394
       }
     },
     {
@@ -1008,11 +1008,11 @@
       "date": "2026-08-20T17:40:27.000Z",
       "metrics": {
         "bookmark_count": 11,
-        "impression_count": 36264,
-        "like_count": 956,
+        "impression_count": 37701,
+        "like_count": 966,
         "quote_count": 12,
         "reply_count": 93,
-        "retweet_count": 147
+        "retweet_count": 149
       }
     },
     {
@@ -1021,11 +1021,11 @@
       "date": "2026-08-20T16:06:06.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4222,
+        "impression_count": 4240,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 988
+        "retweet_count": 1020
       }
     },
     {
@@ -1033,12 +1033,12 @@
       "content": "It was a pleasure to speak with Crown Prince @PahlaviReza about the mission for a free and democratic Iran, returned to the Iranian people and free from the terror of the regime in Tehran.\n\nI shared with him the tremendous support I saw from Canada’s Persian community in https://t.co/HV5WMkDzHS",
       "date": "2026-08-20T14:51:02.000Z",
       "metrics": {
-        "bookmark_count": 431,
-        "impression_count": 558437,
-        "like_count": 16125,
-        "quote_count": 329,
-        "reply_count": 2251,
-        "retweet_count": 5982
+        "bookmark_count": 435,
+        "impression_count": 575990,
+        "like_count": 16436,
+        "quote_count": 336,
+        "reply_count": 2291,
+        "retweet_count": 6102
       }
     },
     {
@@ -1047,11 +1047,11 @@
       "date": "2026-08-20T12:58:31.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 40720,
-        "like_count": 860,
+        "impression_count": 41348,
+        "like_count": 867,
         "quote_count": 7,
-        "reply_count": 119,
-        "retweet_count": 102
+        "reply_count": 120,
+        "retweet_count": 103
       }
     }
   ],
@@ -1061,12 +1061,12 @@
       "content": "Our government talks about Canadian values on the world stage, but we need it to act with moral clarity when it matters.\n\nIt’s long past time to cancel the Canada-Israel free trade agreement, issue sanctions, and use every diplomatic tool at our disposal to rein in this rogue https://t.co/liLmhveF53",
       "date": "2026-08-20T23:47:38.000Z",
       "metrics": {
-        "bookmark_count": 37,
-        "impression_count": 23235,
-        "like_count": 1443,
+        "bookmark_count": 41,
+        "impression_count": 24665,
+        "like_count": 1563,
         "quote_count": 14,
-        "reply_count": 46,
-        "retweet_count": 381
+        "reply_count": 47,
+        "retweet_count": 403
       }
     },
     {
@@ -1075,7 +1075,7 @@
       "date": "2026-08-19T17:33:05.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 6586,
+        "impression_count": 6595,
         "like_count": 111,
         "quote_count": 3,
         "reply_count": 10,
@@ -1088,8 +1088,8 @@
       "date": "2026-08-19T17:32:47.000Z",
       "metrics": {
         "bookmark_count": 18,
-        "impression_count": 89166,
-        "like_count": 590,
+        "impression_count": 89628,
+        "like_count": 592,
         "quote_count": 29,
         "reply_count": 74,
         "retweet_count": 126
@@ -1101,7 +1101,7 @@
       "date": "2026-08-18T22:53:42.000Z",
       "metrics": {
         "bookmark_count": 13,
-        "impression_count": 9206,
+        "impression_count": 9209,
         "like_count": 513,
         "quote_count": 11,
         "reply_count": 25,
@@ -1127,7 +1127,7 @@
       "date": "2026-08-18T19:39:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 7615,
+        "impression_count": 7616,
         "like_count": 95,
         "quote_count": 0,
         "reply_count": 3,
@@ -1153,7 +1153,7 @@
       "date": "2026-08-15T23:07:40.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 9027,
+        "impression_count": 9028,
         "like_count": 261,
         "quote_count": 1,
         "reply_count": 3,
@@ -1194,7 +1194,7 @@
       "date": "2026-08-20T22:58:34.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 4271,
+        "impression_count": 4292,
         "like_count": 19,
         "quote_count": 0,
         "reply_count": 13,
@@ -1207,10 +1207,10 @@
       "date": "2026-08-20T20:50:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 10107,
+        "impression_count": 10625,
         "like_count": 60,
         "quote_count": 5,
-        "reply_count": 42,
+        "reply_count": 44,
         "retweet_count": 19
       }
     },
@@ -1220,8 +1220,8 @@
       "date": "2026-08-20T20:49:56.000Z",
       "metrics": {
         "bookmark_count": 9,
-        "impression_count": 18633,
-        "like_count": 178,
+        "impression_count": 19119,
+        "like_count": 181,
         "quote_count": 8,
         "reply_count": 39,
         "retweet_count": 35
@@ -1233,7 +1233,7 @@
       "date": "2026-08-20T12:12:33.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4478,
+        "impression_count": 4505,
         "like_count": 48,
         "quote_count": 2,
         "reply_count": 6,
@@ -1246,7 +1246,7 @@
       "date": "2026-08-19T19:06:20.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2388,
+        "impression_count": 2392,
         "like_count": 35,
         "quote_count": 1,
         "reply_count": 12,
@@ -1259,7 +1259,7 @@
       "date": "2026-08-19T16:37:38.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 4445,
+        "impression_count": 4449,
         "like_count": 53,
         "quote_count": 1,
         "reply_count": 12,
@@ -1272,7 +1272,7 @@
       "date": "2026-08-18T11:38:45.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1858,
+        "impression_count": 1859,
         "like_count": 37,
         "quote_count": 0,
         "reply_count": 2,
@@ -1458,7 +1458,7 @@
       "date": "2023-07-10T21:51:43.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 15269,
+        "impression_count": 15270,
         "like_count": 4,
         "quote_count": 0,
         "reply_count": 66,
@@ -1471,7 +1471,7 @@
       "date": "2023-06-09T21:32:37.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 50971,
+        "impression_count": 50972,
         "like_count": 106,
         "quote_count": 8,
         "reply_count": 67,
@@ -1497,7 +1497,7 @@
       "date": "2023-02-07T21:06:31.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 13894,
+        "impression_count": 13893,
         "like_count": 18,
         "quote_count": 2,
         "reply_count": 60,
@@ -1585,12 +1585,77 @@
   ],
   "CTVNews": [
     {
+      "id": "2090744533566808496",
+      "content": "More than 2,300 Mexicans sent to Guatemala and Honduras as Trump ramps up third-country deportations https://t.co/MMq0VmSe9C",
+      "date": "2026-08-21T10:15:15.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 931,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2090740998573830566",
+      "content": "Charter plane crash kills 8 near remote radar site in western Alaska, military says https://t.co/dqqNPh655L",
+      "date": "2026-08-21T10:01:12.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1299,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2090736993562956211",
+      "content": "Statistics and federal policy on crime have changed, but the politics remain the same https://t.co/GklSNGvwrz",
+      "date": "2026-08-21T09:45:17.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1630,
+        "like_count": 0,
+        "quote_count": 1,
+        "reply_count": 2,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2090733281742385288",
+      "content": "A question looms over Prince Harry’s return to the U.K. Can he rebuild his relationship with Prince William? https://t.co/Co8LKCeOXT",
+      "date": "2026-08-21T09:30:32.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1824,
+        "like_count": 4,
+        "quote_count": 1,
+        "reply_count": 4,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2090729447003414656",
+      "content": "National monument marking LGBTQ+ persecution opens this morning in Ottawa https://t.co/JZ0QzgYbut",
+      "date": "2026-08-21T09:15:18.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2941,
+        "like_count": 4,
+        "quote_count": 1,
+        "reply_count": 27,
+        "retweet_count": 0
+      }
+    },
+    {
       "id": "2090620257450742217",
       "content": "UN holds second informal poll for next leader https://t.co/eyFUoXhPso",
       "date": "2026-08-21T02:01:25.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 8113,
+        "impression_count": 8639,
         "like_count": 7,
         "quote_count": 0,
         "reply_count": 12,
@@ -1602,11 +1667,11 @@
       "content": "Canada, U.S. ‘very close’ to finalizing tariff deal as deadline approaches\n\nHere's everything that happened on Thursday https://t.co/jVjsSePfAG",
       "date": "2026-08-21T01:50:04.000Z",
       "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 13969,
-        "like_count": 72,
+        "bookmark_count": 4,
+        "impression_count": 14914,
+        "like_count": 76,
         "quote_count": 2,
-        "reply_count": 28,
+        "reply_count": 29,
         "retweet_count": 12
       }
     },
@@ -1615,11 +1680,11 @@
       "content": "‘Puff his chest out’: JD Vance says PM Carney tried to ‘out-tough’ Trump in trade negotiations https://t.co/A30oz8qkdU",
       "date": "2026-08-21T01:40:04.000Z",
       "metrics": {
-        "bookmark_count": 14,
-        "impression_count": 25829,
-        "like_count": 63,
-        "quote_count": 5,
-        "reply_count": 80,
+        "bookmark_count": 13,
+        "impression_count": 28193,
+        "like_count": 64,
+        "quote_count": 6,
+        "reply_count": 89,
         "retweet_count": 12
       }
     },
@@ -1629,10 +1694,10 @@
       "date": "2026-08-21T01:30:11.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 20622,
-        "like_count": 57,
-        "quote_count": 18,
-        "reply_count": 278,
+        "impression_count": 22536,
+        "like_count": 58,
+        "quote_count": 22,
+        "reply_count": 302,
         "retweet_count": 9
       }
     },
@@ -1642,76 +1707,11 @@
       "date": "2026-08-21T01:01:27.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 17271,
+        "impression_count": 18542,
         "like_count": 18,
         "quote_count": 1,
         "reply_count": 5,
         "retweet_count": 5
-      }
-    },
-    {
-      "id": "2090598829406015529",
-      "content": "#BREAKING: 1 dead after plane makes emergency landing in B.C. https://t.co/AXSWOATo78",
-      "date": "2026-08-21T00:36:17.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 28989,
-        "like_count": 28,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 7
-      }
-    },
-    {
-      "id": "2090590028653076526",
-      "content": "Pioneering cancer treatment saves python named Jodie Foster: U.K. zoo https://t.co/fHa19zXn4n",
-      "date": "2026-08-21T00:01:18.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 22094,
-        "like_count": 51,
-        "quote_count": 9,
-        "reply_count": 4,
-        "retweet_count": 9
-      }
-    },
-    {
-      "id": "2090582348089667731",
-      "content": "Reports: DEA joins investigation into Hayden Panettiere’s death https://t.co/Rd8tycGKmj",
-      "date": "2026-08-20T23:30:47.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 20474,
-        "like_count": 13,
-        "quote_count": 1,
-        "reply_count": 2,
-        "retweet_count": 4
-      }
-    },
-    {
-      "id": "2090577178467467313",
-      "content": "Panama Canal to reduce shipping over El Nino-fuelled drought https://t.co/mTxb8bJArR",
-      "date": "2026-08-20T23:10:15.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 9209,
-        "like_count": 6,
-        "quote_count": 2,
-        "reply_count": 0,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2090574912062726446",
-      "content": "Harvard agrees to US$53 million settlement over body parts stolen and sold by former morgue manager https://t.co/izEWDT4UVy",
-      "date": "2026-08-20T23:01:14.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 8741,
-        "like_count": 6,
-        "quote_count": 1,
-        "reply_count": 4,
-        "retweet_count": 4
       }
     }
   ],
@@ -1722,7 +1722,7 @@
       "date": "2026-08-20T23:05:59.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 5677,
+        "impression_count": 5816,
         "like_count": 6,
         "quote_count": 0,
         "reply_count": 2,
@@ -1735,7 +1735,7 @@
       "date": "2026-08-20T21:55:33.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 7161,
+        "impression_count": 7364,
         "like_count": 1,
         "quote_count": 0,
         "reply_count": 4,
@@ -1748,7 +1748,7 @@
       "date": "2026-08-20T21:40:39.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 6190,
+        "impression_count": 6281,
         "like_count": 5,
         "quote_count": 1,
         "reply_count": 16,
@@ -1761,7 +1761,7 @@
       "date": "2026-08-20T21:09:57.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 5977,
+        "impression_count": 6146,
         "like_count": 5,
         "quote_count": 0,
         "reply_count": 0,
@@ -1774,8 +1774,8 @@
       "date": "2026-08-20T20:25:20.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 6761,
-        "like_count": 3,
+        "impression_count": 7146,
+        "like_count": 4,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 1
@@ -1787,8 +1787,8 @@
       "date": "2026-08-20T19:40:01.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 21708,
-        "like_count": 20,
+        "impression_count": 22826,
+        "like_count": 21,
         "quote_count": 0,
         "reply_count": 1,
         "retweet_count": 3
@@ -1800,7 +1800,7 @@
       "date": "2026-08-20T18:57:12.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 5391,
+        "impression_count": 5465,
         "like_count": 5,
         "quote_count": 0,
         "reply_count": 7,
@@ -1813,8 +1813,8 @@
       "date": "2026-08-20T18:49:29.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 6585,
-        "like_count": 5,
+        "impression_count": 6661,
+        "like_count": 6,
         "quote_count": 0,
         "reply_count": 4,
         "retweet_count": 0
@@ -1826,7 +1826,7 @@
       "date": "2026-08-20T18:33:12.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 6095,
+        "impression_count": 6151,
         "like_count": 5,
         "quote_count": 0,
         "reply_count": 1,
@@ -1839,7 +1839,7 @@
       "date": "2026-08-20T18:15:17.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 9684,
+        "impression_count": 9843,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 0,
@@ -1854,8 +1854,8 @@
       "date": "2026-08-21T02:02:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 5759,
-        "like_count": 59,
+        "impression_count": 6156,
+        "like_count": 60,
         "quote_count": 0,
         "reply_count": 4,
         "retweet_count": 11
@@ -1867,7 +1867,7 @@
       "date": "2026-08-21T02:00:07.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3440,
+        "impression_count": 3582,
         "like_count": 1,
         "quote_count": 0,
         "reply_count": 0,
@@ -1880,10 +1880,10 @@
       "date": "2026-08-21T01:00:33.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 7313,
-        "like_count": 9,
+        "impression_count": 7763,
+        "like_count": 10,
         "quote_count": 1,
-        "reply_count": 11,
+        "reply_count": 12,
         "retweet_count": 4
       }
     },
@@ -1893,7 +1893,7 @@
       "date": "2026-08-21T00:30:30.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4234,
+        "impression_count": 4353,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 4,
@@ -1906,7 +1906,7 @@
       "date": "2026-08-21T00:06:02.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 3119,
+        "impression_count": 3190,
         "like_count": 9,
         "quote_count": 0,
         "reply_count": 0,
@@ -1919,7 +1919,7 @@
       "date": "2026-08-21T00:02:03.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4797,
+        "impression_count": 4957,
         "like_count": 8,
         "quote_count": 0,
         "reply_count": 7,
@@ -1932,7 +1932,7 @@
       "date": "2026-08-20T23:02:13.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 2917,
+        "impression_count": 2972,
         "like_count": 5,
         "quote_count": 0,
         "reply_count": 2,
@@ -1945,7 +1945,7 @@
       "date": "2026-08-20T23:00:14.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2966,
+        "impression_count": 3021,
         "like_count": 1,
         "quote_count": 0,
         "reply_count": 0,
@@ -1958,7 +1958,7 @@
       "date": "2026-08-20T22:30:11.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3538,
+        "impression_count": 3600,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 0,
@@ -1971,7 +1971,7 @@
       "date": "2026-08-20T22:00:36.000Z",
       "metrics": {
         "bookmark_count": 9,
-        "impression_count": 24409,
+        "impression_count": 25187,
         "like_count": 36,
         "quote_count": 2,
         "reply_count": 8,
@@ -1986,7 +1986,7 @@
       "date": "2026-08-20T20:01:23.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 124,
+        "impression_count": 125,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -1999,11 +1999,11 @@
       "date": "2026-08-20T20:01:10.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 110,
+        "impression_count": 111,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 55
+        "retweet_count": 56
       }
     },
     {
@@ -2012,11 +2012,11 @@
       "date": "2026-08-20T15:04:43.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 130,
+        "impression_count": 131,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 215
+        "retweet_count": 223
       }
     },
     {
@@ -2025,7 +2025,7 @@
       "date": "2026-08-20T15:04:41.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 115,
+        "impression_count": 116,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2038,11 +2038,11 @@
       "date": "2026-08-20T15:04:19.000Z",
       "metrics": {
         "bookmark_count": 22,
-        "impression_count": 66011,
-        "like_count": 360,
-        "quote_count": 27,
-        "reply_count": 176,
-        "retweet_count": 91
+        "impression_count": 66837,
+        "like_count": 365,
+        "quote_count": 28,
+        "reply_count": 177,
+        "retweet_count": 93
       }
     },
     {
@@ -2051,7 +2051,7 @@
       "date": "2026-08-20T14:57:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 132,
+        "impression_count": 133,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2064,11 +2064,11 @@
       "date": "2026-08-20T14:55:18.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 89,
+        "impression_count": 90,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 5982
+        "retweet_count": 6102
       }
     },
     {
@@ -2077,7 +2077,7 @@
       "date": "2026-08-20T14:54:13.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 124,
+        "impression_count": 125,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2118,11 +2118,11 @@
       "date": "2026-08-20T21:56:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 391,
+        "impression_count": 395,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 184
+        "retweet_count": 189
       }
     },
     {
@@ -2131,7 +2131,7 @@
       "date": "2026-08-20T21:56:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 359,
+        "impression_count": 364,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2144,11 +2144,11 @@
       "date": "2026-08-20T21:56:03.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 354,
+        "impression_count": 356,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 88
+        "retweet_count": 92
       }
     },
     {
@@ -2161,7 +2161,7 @@
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 91
+        "retweet_count": 93
       }
     },
     {
@@ -2183,7 +2183,7 @@
       "date": "2026-08-18T21:26:16.000Z",
       "metrics": {
         "bookmark_count": 28,
-        "impression_count": 79147,
+        "impression_count": 79194,
         "like_count": 1308,
         "quote_count": 13,
         "reply_count": 117,
@@ -2276,7 +2276,7 @@
       "date": "2026-08-09T18:08:34.000Z",
       "metrics": {
         "bookmark_count": 27,
-        "impression_count": 18717,
+        "impression_count": 18721,
         "like_count": 105,
         "quote_count": 3,
         "reply_count": 14,
@@ -2302,7 +2302,7 @@
       "date": "2026-08-08T14:30:04.000Z",
       "metrics": {
         "bookmark_count": 53,
-        "impression_count": 73669,
+        "impression_count": 73689,
         "like_count": 231,
         "quote_count": 14,
         "reply_count": 45,
@@ -2341,7 +2341,7 @@
       "date": "2026-06-25T12:00:02.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 5294,
+        "impression_count": 5295,
         "like_count": 53,
         "quote_count": 2,
         "reply_count": 11,
@@ -2408,8 +2408,8 @@
       "date": "2026-08-20T23:36:07.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 5972,
-        "like_count": 39,
+        "impression_count": 6170,
+        "like_count": 41,
         "quote_count": 2,
         "reply_count": 13,
         "retweet_count": 1
@@ -2421,7 +2421,7 @@
       "date": "2026-08-20T23:35:44.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 616,
+        "impression_count": 641,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2434,7 +2434,7 @@
       "date": "2026-08-20T22:45:56.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 78,
+        "impression_count": 79,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2447,11 +2447,11 @@
       "date": "2026-08-20T22:34:42.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 86,
+        "impression_count": 88,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 16
+        "retweet_count": 18
       }
     },
     {
@@ -2460,21 +2460,8 @@
       "date": "2026-08-20T22:00:02.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1554,
+        "impression_count": 1588,
         "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 3
-      }
-    },
-    {
-      "id": "2090544950555635844",
-      "content": "RT @DavidColetto: ICYMI: Canadians agree U.S. tariffs would hurt. They’re much less united on what Ottawa should do next.\n\nAnd 55% say Canada should prepare to move beyond CUSMA and become less reliant on the North American trading relationship.\n\nhttps://t.co/Imm7tATEkS https://t.co/zGifThRdky",
-      "date": "2026-08-20T21:02:11.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 0,
-        "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 3
@@ -2486,11 +2473,11 @@
       "date": "2026-08-20T20:47:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 58,
+        "impression_count": 60,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 91
+        "retweet_count": 93
       }
     },
     {
@@ -2499,9 +2486,22 @@
       "date": "2026-08-20T19:54:30.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 2272,
+        "impression_count": 2287,
         "like_count": 2,
         "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2090527370759581994",
+      "content": "Really excited to be part of this.\n\nThis Empire Nights event will take place at a pivotal moment: just days after a Quebec election in which the Parti Québécois is leading in the polls, and on the eve of an Alberta referendum amid heightened debate over foreign influence in",
+      "date": "2026-08-20T19:52:19.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2819,
+        "like_count": 3,
+        "quote_count": 1,
         "reply_count": 0,
         "retweet_count": 0
       }
@@ -2514,7 +2514,7 @@
       "date": "2026-08-19T17:18:18.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4570,
+        "impression_count": 4575,
         "like_count": 52,
         "quote_count": 4,
         "reply_count": 16,
@@ -2527,7 +2527,7 @@
       "date": "2026-08-19T14:56:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3144,
+        "impression_count": 3146,
         "like_count": 28,
         "quote_count": 2,
         "reply_count": 8,
@@ -2553,7 +2553,7 @@
       "date": "2026-08-18T12:40:39.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4191,
+        "impression_count": 4192,
         "like_count": 39,
         "quote_count": 1,
         "reply_count": 12,
@@ -2566,7 +2566,7 @@
       "date": "2026-08-18T11:31:35.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 19222,
+        "impression_count": 19223,
         "like_count": 132,
         "quote_count": 8,
         "reply_count": 20,
@@ -2605,7 +2605,7 @@
       "date": "2026-08-16T21:28:01.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 11902,
+        "impression_count": 11905,
         "like_count": 151,
         "quote_count": 8,
         "reply_count": 15,
@@ -2631,7 +2631,7 @@
       "date": "2026-08-16T17:48:37.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 24393,
+        "impression_count": 24395,
         "like_count": 49,
         "quote_count": 5,
         "reply_count": 20,
@@ -2645,9 +2645,9 @@
       "content": "Fascinating story from @KellyGerMalone from the CP D.C. Bureau.\nInteresting comments from Vance on Carney, Poilievre and Jivani.\nWould love to hear the audio. https://t.co/HP5SozwgUm",
       "date": "2026-08-21T02:21:07.000Z",
       "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 24046,
-        "like_count": 61,
+        "bookmark_count": 7,
+        "impression_count": 28743,
+        "like_count": 67,
         "quote_count": 1,
         "reply_count": 14,
         "retweet_count": 9
@@ -2658,12 +2658,12 @@
       "content": "The latest on the ongoing battle between Poilievre and Teneycke and what do we really know about the trade deal.\nNewsletter is out, read and subscribe...\nhttps://t.co/x18ve4OFGU https://t.co/a0rrxcPXIg",
       "date": "2026-08-20T22:02:48.000Z",
       "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 7326,
-        "like_count": 52,
+        "bookmark_count": 11,
+        "impression_count": 7586,
+        "like_count": 56,
         "quote_count": 0,
-        "reply_count": 96,
-        "retweet_count": 9
+        "reply_count": 99,
+        "retweet_count": 10
       }
     },
     {
@@ -2685,8 +2685,8 @@
       "date": "2026-08-20T00:54:25.000Z",
       "metrics": {
         "bookmark_count": 11,
-        "impression_count": 15610,
-        "like_count": 463,
+        "impression_count": 15636,
+        "like_count": 464,
         "quote_count": 2,
         "reply_count": 40,
         "retweet_count": 85
@@ -2698,7 +2698,7 @@
       "date": "2026-08-19T12:36:17.000Z",
       "metrics": {
         "bookmark_count": 27,
-        "impression_count": 53831,
+        "impression_count": 53871,
         "like_count": 1183,
         "quote_count": 38,
         "reply_count": 349,
@@ -2711,9 +2711,9 @@
       "date": "2026-08-19T10:48:50.000Z",
       "metrics": {
         "bookmark_count": 33,
-        "impression_count": 167649,
+        "impression_count": 167711,
         "like_count": 1232,
-        "quote_count": 25,
+        "quote_count": 26,
         "reply_count": 172,
         "retweet_count": 221
       }
@@ -2737,7 +2737,7 @@
       "date": "2026-08-19T02:22:43.000Z",
       "metrics": {
         "bookmark_count": 12,
-        "impression_count": 27080,
+        "impression_count": 27087,
         "like_count": 349,
         "quote_count": 7,
         "reply_count": 60,
