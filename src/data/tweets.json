@@ -6,11 +6,11 @@
       "date": "2026-08-21T17:55:14.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 206,
+        "impression_count": 227,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 207
+        "retweet_count": 248
       }
     },
     {
@@ -19,11 +19,11 @@
       "date": "2026-08-21T17:55:09.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 369,
+        "impression_count": 402,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 21
+        "retweet_count": 22
       }
     },
     {
@@ -32,10 +32,10 @@
       "date": "2026-08-21T15:30:36.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 7907,
-        "like_count": 40,
-        "quote_count": 7,
-        "reply_count": 49,
+        "impression_count": 9773,
+        "like_count": 41,
+        "quote_count": 8,
+        "reply_count": 53,
         "retweet_count": 26
       }
     },
@@ -45,11 +45,11 @@
       "date": "2026-08-20T18:36:52.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 284,
+        "impression_count": 285,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 178
+        "retweet_count": 181
       }
     },
     {
@@ -58,7 +58,7 @@
       "date": "2026-08-20T18:36:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 470,
+        "impression_count": 473,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -71,10 +71,10 @@
       "date": "2026-08-20T15:00:25.000Z",
       "metrics": {
         "bookmark_count": 4,
-        "impression_count": 14547,
+        "impression_count": 14641,
         "like_count": 134,
         "quote_count": 6,
-        "reply_count": 119,
+        "reply_count": 121,
         "retweet_count": 40
       }
     },
@@ -84,7 +84,7 @@
       "date": "2026-08-19T19:30:09.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 268,
+        "impression_count": 269,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -97,7 +97,7 @@
       "date": "2026-08-19T19:29:56.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 498,
+        "impression_count": 502,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -110,10 +110,10 @@
       "date": "2026-08-19T14:35:08.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 12465,
+        "impression_count": 12500,
         "like_count": 459,
         "quote_count": 22,
-        "reply_count": 395,
+        "reply_count": 396,
         "retweet_count": 120
       }
     },
@@ -138,11 +138,11 @@
       "date": "2026-08-21T21:59:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 103,
+        "impression_count": 154,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 61
+        "retweet_count": 100
       }
     },
     {
@@ -151,11 +151,11 @@
       "date": "2026-08-21T19:51:44.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 149,
+        "impression_count": 174,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 80
+        "retweet_count": 108
       }
     },
     {
@@ -164,11 +164,11 @@
       "date": "2026-08-21T17:35:26.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 159,
+        "impression_count": 174,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 1068
+        "retweet_count": 1142
       }
     },
     {
@@ -177,11 +177,11 @@
       "date": "2026-08-20T12:55:39.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 204,
+        "impression_count": 209,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 1556
+        "retweet_count": 1555
       }
     },
     {
@@ -207,7 +207,7 @@
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 701
+        "retweet_count": 702
       }
     },
     {
@@ -259,7 +259,7 @@
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 937
+        "retweet_count": 936
       }
     }
   ],
@@ -270,8 +270,8 @@
       "date": "2026-08-21T21:24:29.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 369,
-        "like_count": 2,
+        "impression_count": 616,
+        "like_count": 3,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 0
@@ -283,11 +283,11 @@
       "date": "2026-08-21T21:13:14.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 548,
-        "like_count": 8,
+        "impression_count": 900,
+        "like_count": 15,
         "quote_count": 0,
         "reply_count": 2,
-        "retweet_count": 0
+        "retweet_count": 4
       }
     },
     {
@@ -296,11 +296,11 @@
       "date": "2026-08-21T18:02:54.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 102,
+        "impression_count": 107,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 26
+        "retweet_count": 30
       }
     },
     {
@@ -309,7 +309,7 @@
       "date": "2026-08-20T19:09:32.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1771,
+        "impression_count": 1782,
         "like_count": 6,
         "quote_count": 0,
         "reply_count": 0,
@@ -322,7 +322,7 @@
       "date": "2026-08-20T19:04:49.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 2191,
+        "impression_count": 2201,
         "like_count": 48,
         "quote_count": 0,
         "reply_count": 3,
@@ -361,7 +361,7 @@
       "date": "2026-08-19T18:00:50.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1556,
+        "impression_count": 1560,
         "like_count": 9,
         "quote_count": 0,
         "reply_count": 1,
@@ -374,7 +374,7 @@
       "date": "2026-08-19T17:49:46.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 2503,
+        "impression_count": 2507,
         "like_count": 42,
         "quote_count": 0,
         "reply_count": 9,
@@ -387,7 +387,7 @@
       "date": "2026-08-18T20:17:25.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1940,
+        "impression_count": 1944,
         "like_count": 34,
         "quote_count": 1,
         "reply_count": 1,
@@ -402,11 +402,11 @@
       "date": "2026-08-21T21:42:20.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 42,
+        "impression_count": 55,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 4
+        "retweet_count": 5
       }
     },
     {
@@ -415,11 +415,11 @@
       "date": "2026-08-21T13:39:49.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1247,
-        "like_count": 24,
-        "quote_count": 2,
-        "reply_count": 27,
-        "retweet_count": 17
+        "impression_count": 1572,
+        "like_count": 32,
+        "quote_count": 3,
+        "reply_count": 39,
+        "retweet_count": 18
       }
     },
     {
@@ -428,8 +428,8 @@
       "date": "2026-08-20T20:17:23.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 13271,
-        "like_count": 72,
+        "impression_count": 13489,
+        "like_count": 73,
         "quote_count": 8,
         "reply_count": 94,
         "retweet_count": 37
@@ -441,7 +441,7 @@
       "date": "2026-08-15T12:00:03.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1691,
+        "impression_count": 1692,
         "like_count": 29,
         "quote_count": 2,
         "reply_count": 5,
@@ -519,7 +519,7 @@
       "date": "2026-07-24T12:01:53.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3721,
+        "impression_count": 3723,
         "like_count": 45,
         "quote_count": 1,
         "reply_count": 10,
@@ -534,11 +534,11 @@
       "date": "2026-08-21T19:47:54.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 567,
-        "like_count": 7,
+        "impression_count": 1009,
+        "like_count": 9,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 5
+        "retweet_count": 8
       }
     },
     {
@@ -547,11 +547,11 @@
       "date": "2026-08-19T19:46:59.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1397,
-        "like_count": 12,
+        "impression_count": 1570,
+        "like_count": 13,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 7
+        "retweet_count": 8
       }
     },
     {
@@ -560,11 +560,11 @@
       "date": "2026-08-18T14:48:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2513,
-        "like_count": 14,
+        "impression_count": 2693,
+        "like_count": 16,
         "quote_count": 0,
         "reply_count": 2,
-        "retweet_count": 6
+        "retweet_count": 7
       }
     },
     {
@@ -573,7 +573,7 @@
       "date": "2026-08-13T19:43:35.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2010,
+        "impression_count": 2012,
         "like_count": 24,
         "quote_count": 1,
         "reply_count": 5,
@@ -586,7 +586,7 @@
       "date": "2026-08-10T14:40:30.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 4967,
+        "impression_count": 4972,
         "like_count": 46,
         "quote_count": 5,
         "reply_count": 35,
@@ -599,7 +599,7 @@
       "date": "2026-08-07T15:58:27.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 5617,
+        "impression_count": 5620,
         "like_count": 36,
         "quote_count": 1,
         "reply_count": 11,
@@ -612,7 +612,7 @@
       "date": "2026-08-06T16:33:53.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 4872,
+        "impression_count": 4873,
         "like_count": 51,
         "quote_count": 7,
         "reply_count": 11,
@@ -625,7 +625,7 @@
       "date": "2026-08-06T16:20:20.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2272,
+        "impression_count": 2273,
         "like_count": 18,
         "quote_count": 1,
         "reply_count": 1,
@@ -638,7 +638,7 @@
       "date": "2026-08-05T13:16:48.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 9902,
+        "impression_count": 9904,
         "like_count": 59,
         "quote_count": 11,
         "reply_count": 8,
@@ -651,7 +651,7 @@
       "date": "2026-08-01T14:00:01.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 2031,
+        "impression_count": 2032,
         "like_count": 26,
         "quote_count": 2,
         "reply_count": 4,
@@ -666,7 +666,7 @@
       "date": "2026-08-20T18:01:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 604,
+        "impression_count": 610,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 2,
@@ -679,7 +679,7 @@
       "date": "2026-08-20T14:00:35.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 538,
+        "impression_count": 541,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -705,7 +705,7 @@
       "date": "2026-08-19T14:43:35.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 881,
+        "impression_count": 882,
         "like_count": 7,
         "quote_count": 0,
         "reply_count": 2,
@@ -718,7 +718,7 @@
       "date": "2026-08-18T13:00:31.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 712,
+        "impression_count": 716,
         "like_count": 1,
         "quote_count": 0,
         "reply_count": 0,
@@ -757,7 +757,7 @@
       "date": "2026-08-11T13:00:29.000Z",
       "metrics": {
         "bookmark_count": 8,
-        "impression_count": 18421,
+        "impression_count": 18429,
         "like_count": 72,
         "quote_count": 4,
         "reply_count": 2,
@@ -793,16 +793,68 @@
   ],
   "MarkJCarney": [
     {
+      "id": "2090958870394851498",
+      "content": "Thunderhead stands as a tribute to the lives, stories, and contributions of 2SLGBTQI+ people across Canada.\n\nIt’s reminder of the discrimination too many endured — and honours those who fought to build a country where everyone can live freely, safely, and with dignity. https://t.co/K6g9kwkqs0",
+      "date": "2026-08-22T00:26:57.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 25909,
+        "like_count": 241,
+        "quote_count": 2,
+        "reply_count": 140,
+        "retweet_count": 49
+      }
+    },
+    {
+      "id": "2090958618149446047",
+      "content": "Thunderhead est un hommage aux vies, aux histoires et aux contributions des personnes 2ELGBTQI+ à travers le Canada.\n\nC’est un rappel de la discrimination dont trop de personnes ont été victimes, qui rend hommage à celles et ceux qui se sont battus pour bâtir un pays où chacun https://t.co/2Rs7uDHGnJ",
+      "date": "2026-08-22T00:25:57.000Z",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 18815,
+        "like_count": 93,
+        "quote_count": 0,
+        "reply_count": 23,
+        "retweet_count": 20
+      }
+    },
+    {
+      "id": "2090932007358652484",
+      "content": "The attack at the Nanaksar Gurdwara in Edmonton this morning is appalling. My thoughts are with the two people who were injured and the wider community that is shaken by this terrible event.\n\nNo one should ever feel unsafe in their place of worship. I want to thank the Edmonton",
+      "date": "2026-08-21T22:40:12.000Z",
+      "metrics": {
+        "bookmark_count": 24,
+        "impression_count": 76991,
+        "like_count": 1108,
+        "quote_count": 14,
+        "reply_count": 211,
+        "retweet_count": 168
+      }
+    },
+    {
+      "id": "2090931822032982180",
+      "content": "L’attaque survenue au Gurdwara Nanaksar, à Edmonton, ce matin est consternante. Mes pensées accompagnent les deux blessés et toute la communauté, bouleversée par ce terrible événement.\n \nPersonne ne devrait se sentir en danger dans son lieu de culte. Je remercie le service de",
+      "date": "2026-08-21T22:39:28.000Z",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 31317,
+        "like_count": 377,
+        "quote_count": 1,
+        "reply_count": 39,
+        "retweet_count": 50
+      }
+    },
+    {
       "id": "2090912010221342724",
       "content": "We’re going to double the capacity of our grid by 2050 — to power Canada strong with clean, reliable, affordable electricity. https://t.co/FHVacRyBOA",
       "date": "2026-08-21T21:20:45.000Z",
       "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 16748,
-        "like_count": 430,
-        "quote_count": 9,
-        "reply_count": 150,
-        "retweet_count": 78
+        "bookmark_count": 8,
+        "impression_count": 30574,
+        "like_count": 788,
+        "quote_count": 28,
+        "reply_count": 346,
+        "retweet_count": 134
       }
     },
     {
@@ -810,12 +862,12 @@
       "content": "Nous allons doubler la capacité de notre réseau d’ici 2050, afin de bâtir un Canada fort alimenté par une électricité propre, abordable et fiable. https://t.co/jv59JdbmFp",
       "date": "2026-08-21T21:19:08.000Z",
       "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 12253,
-        "like_count": 180,
-        "quote_count": 2,
-        "reply_count": 46,
-        "retweet_count": 35
+        "bookmark_count": 3,
+        "impression_count": 20467,
+        "like_count": 301,
+        "quote_count": 12,
+        "reply_count": 115,
+        "retweet_count": 66
       }
     },
     {
@@ -823,12 +875,12 @@
       "content": "A strong Canada starts with strong communities.\n \nThrough the Build Communities Strong Fund we're building the hospitals, transit, parks, and local infrastructure that our growing communities need to thrive. https://t.co/0YZlIZyYFD",
       "date": "2026-08-21T18:26:33.000Z",
       "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 27828,
-        "like_count": 385,
-        "quote_count": 11,
-        "reply_count": 189,
-        "retweet_count": 79
+        "bookmark_count": 7,
+        "impression_count": 31949,
+        "like_count": 448,
+        "quote_count": 15,
+        "reply_count": 218,
+        "retweet_count": 97
       }
     },
     {
@@ -837,11 +889,11 @@
       "date": "2026-08-21T18:25:34.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 15561,
-        "like_count": 197,
-        "quote_count": 1,
-        "reply_count": 58,
-        "retweet_count": 47
+        "impression_count": 17388,
+        "like_count": 230,
+        "quote_count": 2,
+        "reply_count": 70,
+        "retweet_count": 56
       }
     },
     {
@@ -849,12 +901,12 @@
       "content": "Canada is building big again — hydro, transit, mines, and ports.\n \nThat’s why we launched Team Canada Strong. It’s our nationwide effort to recruit and train up to 100,000 Red Seal skilled trades workers that we need to build our strength at home. https://t.co/ePZkUY0LMP",
       "date": "2026-08-21T14:31:06.000Z",
       "metrics": {
-        "bookmark_count": 14,
-        "impression_count": 45057,
-        "like_count": 1296,
-        "quote_count": 30,
-        "reply_count": 449,
-        "retweet_count": 207
+        "bookmark_count": 16,
+        "impression_count": 51258,
+        "like_count": 1485,
+        "quote_count": 36,
+        "reply_count": 507,
+        "retweet_count": 248
       }
     },
     {
@@ -862,79 +914,53 @@
       "content": "Le Canada recommence à bâtir en grand : hydroélectricité, transports en commun, mines, ports.\n \nVoilà la raison d’être d’Une Équipe Canada forte, notre initiative pancanadienne pour recruter et former les quelque 100 000 travailleurs de métiers désignés Sceau rouge dont nous https://t.co/8yUvmOIY1B",
       "date": "2026-08-21T14:29:23.000Z",
       "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 46784,
-        "like_count": 601,
-        "quote_count": 9,
-        "reply_count": 169,
-        "retweet_count": 103
-      }
-    },
-    {
-      "id": "2090547545952919702",
-      "content": "Today, I spoke with President Sheinbaum. We discussed ongoing developments affecting North American trade.\n\nMore on our call:\nhttps://t.co/AIvsggyndW",
-      "date": "2026-08-20T21:12:30.000Z",
-      "metrics": {
-        "bookmark_count": 23,
-        "impression_count": 63429,
-        "like_count": 1362,
-        "quote_count": 22,
-        "reply_count": 266,
-        "retweet_count": 275
-      }
-    },
-    {
-      "id": "2090547525430177968",
-      "content": "Aujourd’hui, je me suis entretenu avec la présidente Sheinbaum. Nous avons discuté de la situation actuelle entourant le commerce en Amérique du Nord.\n\nPour plus de détails sur notre entretien :\nhttps://t.co/p2Jz2BFg0q",
-      "date": "2026-08-20T21:12:25.000Z",
-      "metrics": {
         "bookmark_count": 6,
-        "impression_count": 36102,
-        "like_count": 468,
-        "quote_count": 5,
-        "reply_count": 68,
-        "retweet_count": 108
-      }
-    },
-    {
-      "id": "2090487741402198376",
-      "content": "Our agreement with Québec and Newfoundland and Labrador will generate the clean energy we need to build the future we want and that our children deserve. https://t.co/9PVt682eOO",
-      "date": "2026-08-20T17:14:51.000Z",
-      "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 37830,
-        "like_count": 939,
-        "quote_count": 21,
-        "reply_count": 390,
-        "retweet_count": 178
-      }
-    },
-    {
-      "id": "2090487281471594502",
-      "content": "Notre entente avec le Québec et Terre-Neuve-et-Labrador nous permettra de produire l'énergie propre dont nous avons besoin pour bâtir l'avenir que nous voulons et que nos enfants méritent. https://t.co/2DnHRNVSsV",
-      "date": "2026-08-20T17:13:01.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 23209,
-        "like_count": 449,
-        "quote_count": 8,
-        "reply_count": 102,
-        "retweet_count": 92
+        "impression_count": 50769,
+        "like_count": 649,
+        "quote_count": 10,
+        "reply_count": 190,
+        "retweet_count": 118
       }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2090963774119248202",
+      "content": "L’attaque violente survenue au temple sikh d’Edmonton, qui a fait deux blessés, est horrible et mérite notre condamnation la plus ferme.\n\nToutes les personnes au Canada doivent pouvoir pratiquer leur religion dans la paix et la sécurité. L’auteur de cette attaque doit répondre",
+      "date": "2026-08-22T00:46:26.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 10600,
+        "like_count": 89,
+        "quote_count": 1,
+        "reply_count": 31,
+        "retweet_count": 12
+      }
+    },
+    {
+      "id": "2090963264570048807",
+      "content": "The violent attack at the Sikh Temple in Edmonton that left two people injured is horrifying and deserves our full condemnation.\n\nEveryone in Canada must be free to worship in peace and safety. The attacker must face the full force of the law, and authorities must get to the",
+      "date": "2026-08-22T00:44:25.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 12749,
+        "like_count": 154,
+        "quote_count": 1,
+        "reply_count": 22,
+        "retweet_count": 30
+      }
+    },
     {
       "id": "2090914727358579014",
       "content": "Born out of a fundraiser for Special Olympics, the @GretzkyPBC has evolved into a remarkable hub around one of Canada’s fastest-growing sports.\n\nWith @DanMuysMP, we were proud to join the community, competition, and generosity the club has fostered. https://t.co/WlaFfnQNyJ",
       "date": "2026-08-21T21:31:32.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 9247,
-        "like_count": 162,
+        "impression_count": 16047,
+        "like_count": 291,
         "quote_count": 1,
-        "reply_count": 18,
-        "retweet_count": 30
+        "reply_count": 47,
+        "retweet_count": 47
       }
     },
     {
@@ -943,11 +969,11 @@
       "date": "2026-08-21T20:42:08.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 11691,
-        "like_count": 304,
-        "quote_count": 3,
-        "reply_count": 28,
-        "retweet_count": 61
+        "impression_count": 17849,
+        "like_count": 446,
+        "quote_count": 4,
+        "reply_count": 38,
+        "retweet_count": 100
       }
     },
     {
@@ -956,11 +982,11 @@
       "date": "2026-08-21T20:39:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3006,
+        "impression_count": 3560,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 43
+        "retweet_count": 46
       }
     },
     {
@@ -969,11 +995,11 @@
       "date": "2026-08-21T20:19:43.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3211,
+        "impression_count": 3724,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 256
+        "retweet_count": 270
       }
     },
     {
@@ -982,11 +1008,11 @@
       "date": "2026-08-21T19:51:06.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 13325,
-        "like_count": 434,
+        "impression_count": 20165,
+        "like_count": 640,
         "quote_count": 3,
-        "reply_count": 52,
-        "retweet_count": 80
+        "reply_count": 63,
+        "retweet_count": 108
       }
     },
     {
@@ -995,11 +1021,11 @@
       "date": "2026-08-21T19:02:16.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3585,
+        "impression_count": 3988,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 9
+        "retweet_count": 10
       }
     },
     {
@@ -1008,11 +1034,11 @@
       "date": "2026-08-21T14:05:48.000Z",
       "metrics": {
         "bookmark_count": 8,
-        "impression_count": 26828,
-        "like_count": 413,
+        "impression_count": 33094,
+        "like_count": 435,
         "quote_count": 6,
         "reply_count": 80,
-        "retweet_count": 83
+        "retweet_count": 84
       }
     },
     {
@@ -1021,37 +1047,11 @@
       "date": "2026-08-21T00:44:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 43377,
-        "like_count": 846,
+        "impression_count": 45086,
+        "like_count": 862,
         "quote_count": 7,
-        "reply_count": 130,
-        "retweet_count": 138
-      }
-    },
-    {
-      "id": "2090591378270994855",
-      "content": "Carney Liberals voted against the Conservative bill to end this outrageous practice of two-tier sentencing.\n\nHe violently sexually assaulted a woman. A judge cut his sentence because he faces deportation.\n\nHe should face every second of punishment, and then be deported: https://t.co/pr2vzvD9AV",
-      "date": "2026-08-21T00:06:40.000Z",
-      "metrics": {
-        "bookmark_count": 78,
-        "impression_count": 80899,
-        "like_count": 4268,
-        "quote_count": 35,
-        "reply_count": 164,
-        "retweet_count": 1068
-      }
-    },
-    {
-      "id": "2090575145848971266",
-      "content": "With @ScotDavidsonMP at the Chantler Centre in Beeton, where their team helps youth with autism reach their full potential.\n\nThank you to Martina and the entire team for the difference you make in the lives of young people, their families, and the entire community. https://t.co/s6d4NSM9Xq",
-      "date": "2026-08-20T23:02:10.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 34177,
-        "like_count": 314,
-        "quote_count": 0,
-        "reply_count": 20,
-        "retweet_count": 49
+        "reply_count": 131,
+        "retweet_count": 140
       }
     }
   ],
@@ -1061,12 +1061,12 @@
       "content": "Justin Ling is right: “If Ottawa is getting ready to kill the Online News Act, it would complete the dismantling of Canada’s meagre effort to rein in Big Tech.”\n\nThe Tech oligarchs, the most powerful men in the world, are all lined up behind Trump. \n\nTheir attention-sucking https://t.co/114nqQ1b51",
       "date": "2026-08-21T14:46:13.000Z",
       "metrics": {
-        "bookmark_count": 40,
-        "impression_count": 35590,
-        "like_count": 653,
+        "bookmark_count": 46,
+        "impression_count": 52194,
+        "like_count": 693,
         "quote_count": 15,
-        "reply_count": 51,
-        "retweet_count": 199
+        "reply_count": 56,
+        "retweet_count": 215
       }
     },
     {
@@ -1074,12 +1074,12 @@
       "content": "Our government talks about Canadian values on the world stage, but we need it to act with moral clarity when it matters.\n\nIt’s long past time to cancel the Canada-Israel free trade agreement, issue sanctions, and use every diplomatic tool at our disposal to rein in this rogue https://t.co/liLmhveF53",
       "date": "2026-08-20T23:47:38.000Z",
       "metrics": {
-        "bookmark_count": 65,
-        "impression_count": 138167,
-        "like_count": 2565,
-        "quote_count": 25,
-        "reply_count": 87,
-        "retweet_count": 666
+        "bookmark_count": 75,
+        "impression_count": 147160,
+        "like_count": 2696,
+        "quote_count": 27,
+        "reply_count": 91,
+        "retweet_count": 715
       }
     },
     {
@@ -1088,7 +1088,7 @@
       "date": "2026-08-19T17:33:05.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 6834,
+        "impression_count": 6860,
         "like_count": 113,
         "quote_count": 3,
         "reply_count": 10,
@@ -1101,7 +1101,7 @@
       "date": "2026-08-19T17:32:47.000Z",
       "metrics": {
         "bookmark_count": 18,
-        "impression_count": 96536,
+        "impression_count": 97005,
         "like_count": 602,
         "quote_count": 30,
         "reply_count": 76,
@@ -1114,7 +1114,7 @@
       "date": "2026-08-18T22:53:42.000Z",
       "metrics": {
         "bookmark_count": 13,
-        "impression_count": 9320,
+        "impression_count": 9336,
         "like_count": 514,
         "quote_count": 11,
         "reply_count": 25,
@@ -1140,7 +1140,7 @@
       "date": "2026-08-18T19:39:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 7649,
+        "impression_count": 7658,
         "like_count": 95,
         "quote_count": 0,
         "reply_count": 3,
@@ -1166,7 +1166,7 @@
       "date": "2026-08-15T23:07:40.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 9055,
+        "impression_count": 9060,
         "like_count": 261,
         "quote_count": 1,
         "reply_count": 3,
@@ -1194,9 +1194,9 @@
       "date": "2026-08-21T16:05:46.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1149,
-        "like_count": 17,
-        "quote_count": 1,
+        "impression_count": 1287,
+        "like_count": 19,
+        "quote_count": 0,
         "reply_count": 4,
         "retweet_count": 11
       }
@@ -1207,7 +1207,7 @@
       "date": "2026-08-20T22:58:34.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 4474,
+        "impression_count": 4500,
         "like_count": 21,
         "quote_count": 0,
         "reply_count": 13,
@@ -1220,11 +1220,11 @@
       "date": "2026-08-20T20:50:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 15067,
-        "like_count": 91,
+        "impression_count": 15384,
+        "like_count": 96,
         "quote_count": 6,
-        "reply_count": 55,
-        "retweet_count": 27
+        "reply_count": 56,
+        "retweet_count": 29
       }
     },
     {
@@ -1233,11 +1233,11 @@
       "date": "2026-08-20T20:49:56.000Z",
       "metrics": {
         "bookmark_count": 10,
-        "impression_count": 23024,
-        "like_count": 219,
+        "impression_count": 23426,
+        "like_count": 227,
         "quote_count": 10,
-        "reply_count": 47,
-        "retweet_count": 45
+        "reply_count": 49,
+        "retweet_count": 49
       }
     },
     {
@@ -1246,7 +1246,7 @@
       "date": "2026-08-20T12:12:33.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4762,
+        "impression_count": 4792,
         "like_count": 53,
         "quote_count": 2,
         "reply_count": 7,
@@ -1259,7 +1259,7 @@
       "date": "2026-08-19T19:06:20.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2447,
+        "impression_count": 2458,
         "like_count": 35,
         "quote_count": 1,
         "reply_count": 12,
@@ -1272,7 +1272,7 @@
       "date": "2026-08-19T16:37:38.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 4500,
+        "impression_count": 4506,
         "like_count": 54,
         "quote_count": 1,
         "reply_count": 12,
@@ -1285,7 +1285,7 @@
       "date": "2026-08-18T11:38:45.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1880,
+        "impression_count": 1885,
         "like_count": 37,
         "quote_count": 0,
         "reply_count": 2,
@@ -1298,7 +1298,7 @@
       "date": "2026-08-18T10:49:21.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2486,
+        "impression_count": 2489,
         "like_count": 38,
         "quote_count": 0,
         "reply_count": 2,
@@ -1311,7 +1311,7 @@
       "date": "2026-08-17T20:07:24.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 3303,
+        "impression_count": 3306,
         "like_count": 74,
         "quote_count": 0,
         "reply_count": 5,
@@ -1320,6 +1320,45 @@
     }
   ],
   "ElizabethMay": [
+    {
+      "id": "2090969395531317273",
+      "content": "RT @CanadianGreens: Read our statement on the passing of former Green Party Leader Joan Russow https://t.co/ciS9uq2f10",
+      "date": "2026-08-22T01:08:46.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 29,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 7
+      }
+    },
+    {
+      "id": "2090969360143991282",
+      "content": "RT @CanadianGreens: Public safety is not an expense to trim. When governments hollow out public capacity, the consequences show up in evacuation centres, overwhelmed communities and lives put at greater risk. That is the real cost of these cuts. https://t.co/24coPk0dbG",
+      "date": "2026-08-22T01:08:38.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 25,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 8
+      }
+    },
+    {
+      "id": "2090969328414085296",
+      "content": "RT @CanadianGreens: Carney’s government wants to make endangered species protections optional when they get in the way of major projects. While Big Oil gets a shortcut, wildlife gets pushed closer to extinction. https://t.co/EhEONNlBGn",
+      "date": "2026-08-22T01:08:30.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 28,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 8
+      }
+    },
     {
       "id": "2089146090209865732",
       "content": "RT @JeremyAppel1025: NEW from me:\n\nChief Allan Adam of Athabasca Chiepwyan First Nation is joining the Union of B.C. Indian Chiefs in opposition to the new west coast pipeline.\n\n“If the B.C. chiefs say no, I respect what the B.C. chiefs want.\" https://t.co/BoH1Wg89Ct",
@@ -1410,45 +1449,6 @@
         "reply_count": 0,
         "retweet_count": 916
       }
-    },
-    {
-      "id": "2086608032306499646",
-      "content": "PM Carney told us he was \"good in a crisis.\"  BC in #wildfire #emergency. Carney?  on holiday in Italy until August 17.  At least that keeps him from announcing more pipelines in Canada. #notasadvertised.@CanadianGreens",
-      "date": "2026-08-10T00:18:16.000Z",
-      "metrics": {
-        "bookmark_count": 17,
-        "impression_count": 117798,
-        "like_count": 223,
-        "quote_count": 41,
-        "reply_count": 419,
-        "retweet_count": 54
-      }
-    },
-    {
-      "id": "2086581884990156880",
-      "content": "RT @JohnVaillant: @cnni https://t.co/hhsCxsvN2g",
-      "date": "2026-08-09T22:34:22.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 110,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2086300495338197269",
-      "content": "RT @LauraBabcock: “There is a treachery going on in Alberta! There’s also a cowardice!” \n\nDanielle Smith and her separatists cannot be trusted to play fair. @maxfawcett lead columnist for 🇨🇦 National Observer in Calgary joins me to discuss the danger on The OShow https://t.co/yak7UX5axe #Cndpoli https://t.co/2TX8pNfgVF",
-      "date": "2026-08-09T03:56:14.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 85,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 11
-      }
     }
   ],
   "CBCPolitics": [
@@ -1471,7 +1471,7 @@
       "date": "2023-06-09T21:32:37.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 50974,
+        "impression_count": 50975,
         "like_count": 106,
         "quote_count": 8,
         "reply_count": 67,
@@ -1484,7 +1484,7 @@
       "date": "2023-03-01T15:55:45.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 19571,
+        "impression_count": 19572,
         "like_count": 12,
         "quote_count": 6,
         "reply_count": 83,
@@ -1497,7 +1497,7 @@
       "date": "2023-02-07T21:06:31.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 13895,
+        "impression_count": 13896,
         "like_count": 18,
         "quote_count": 2,
         "reply_count": 60,
@@ -1585,16 +1585,55 @@
   ],
   "CTVNews": [
     {
+      "id": "2090959802427924889",
+      "content": "Outgoing White House press secretary Karoline Leavitt to join pro-Trump political group https://t.co/19NIRAdcNf",
+      "date": "2026-08-22T00:30:39.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 7526,
+        "like_count": 14,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 5
+      }
+    },
+    {
+      "id": "2090952443953619249",
+      "content": "Hayden Panettiere’s death has other child stars opening up https://t.co/cDeKSg4c86",
+      "date": "2026-08-22T00:01:25.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 11305,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 2
+      }
+    },
+    {
+      "id": "2090937351014957388",
+      "content": "Canada’s foreign homebuyer ban did little to cool housing: economist https://t.co/yxd2VpK6Zb",
+      "date": "2026-08-21T23:01:26.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 8649,
+        "like_count": 19,
+        "quote_count": 2,
+        "reply_count": 15,
+        "retweet_count": 5
+      }
+    },
+    {
       "id": "2090924457384657251",
       "content": "Meghan, Duchess of Sussex in talks to return to acting https://t.co/gfcuUTBCyo",
       "date": "2026-08-21T22:10:12.000Z",
       "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 2599,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 11,
-        "retweet_count": 0
+        "bookmark_count": 3,
+        "impression_count": 11805,
+        "like_count": 7,
+        "quote_count": 1,
+        "reply_count": 44,
+        "retweet_count": 2
       }
     },
     {
@@ -1603,11 +1642,11 @@
       "date": "2026-08-21T22:01:31.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2734,
-        "like_count": 4,
+        "impression_count": 6475,
+        "like_count": 7,
         "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2
+        "reply_count": 2,
+        "retweet_count": 4
       }
     },
     {
@@ -1616,11 +1655,11 @@
       "date": "2026-08-21T21:40:25.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4854,
-        "like_count": 0,
+        "impression_count": 11372,
+        "like_count": 2,
         "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 0
+        "reply_count": 2,
+        "retweet_count": 1
       }
     },
     {
@@ -1629,11 +1668,11 @@
       "date": "2026-08-21T21:10:13.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4001,
-        "like_count": 1,
+        "impression_count": 6200,
+        "like_count": 2,
         "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 1
+        "reply_count": 2,
+        "retweet_count": 2
       }
     },
     {
@@ -1641,12 +1680,12 @@
       "content": "Jivani's U.S. connections continue to create 'clap back' for Poilievre: strategist https://t.co/Csjf57Q37q",
       "date": "2026-08-21T21:01:20.000Z",
       "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 6434,
-        "like_count": 10,
-        "quote_count": 3,
-        "reply_count": 42,
-        "retweet_count": 1
+        "bookmark_count": 3,
+        "impression_count": 13252,
+        "like_count": 24,
+        "quote_count": 7,
+        "reply_count": 114,
+        "retweet_count": 3
       }
     },
     {
@@ -1655,10 +1694,10 @@
       "date": "2026-08-21T20:40:23.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4968,
-        "like_count": 7,
+        "impression_count": 7302,
+        "like_count": 9,
         "quote_count": 0,
-        "reply_count": 4,
+        "reply_count": 6,
         "retweet_count": 2
       }
     },
@@ -1667,65 +1706,39 @@
       "content": "Massachusetts woman sentenced for selling body parts stolen from Harvard morgue https://t.co/cFrc4QaAc4",
       "date": "2026-08-21T20:30:57.000Z",
       "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 5890,
-        "like_count": 7,
-        "quote_count": 1,
-        "reply_count": 4,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2090896852350603756",
-      "content": "‘Like a dog, you have to train them:’ Father charged with abusing infant, toddler https://t.co/8NRCCPtx2Y",
-      "date": "2026-08-21T20:20:31.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 12595,
-        "like_count": 14,
-        "quote_count": 3,
-        "reply_count": 9,
-        "retweet_count": 6
-      }
-    },
-    {
-      "id": "2090894290087989554",
-      "content": "Vance campaigns at the Ohio steel plant where his grandfather worked https://t.co/dipLNO5zH1",
-      "date": "2026-08-21T20:10:20.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 5372,
-        "like_count": 4,
-        "quote_count": 1,
-        "reply_count": 3,
-        "retweet_count": 1
-      }
-    },
-    {
-      "id": "2090892148786803050",
-      "content": "Philanthropist Nancy Kissinger, wife of former U.S. Secretary of State Henry Kissinger, dies at 92 https://t.co/8ENQJ0ANt3",
-      "date": "2026-08-21T20:01:49.000Z",
-      "metrics": {
         "bookmark_count": 1,
-        "impression_count": 6733,
-        "like_count": 6,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 1
+        "impression_count": 9022,
+        "like_count": 14,
+        "quote_count": 1,
+        "reply_count": 6,
+        "retweet_count": 2
       }
     }
   ],
   "globalnews": [
     {
+      "id": "2090963392672432310",
+      "content": "The Montreal Victoire's Walter Cup was supposed to be shipped to Alberta to spend the day with forward Dara Greig, said a person with knowledge of the plans on the condition of anonymity — but the trophy never arrived.\n\nhttps://t.co/fn2z6wMIA7",
+      "date": "2026-08-22T00:44:55.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2123,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 1
+      }
+    },
+    {
       "id": "2090917368491061321",
       "content": "\"I only make good deals,\" Trump added.\n\nhttps://t.co/IL5SLPM11Y",
       "date": "2026-08-21T21:42:02.000Z",
       "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 2416,
-        "like_count": 3,
+        "bookmark_count": 1,
+        "impression_count": 7277,
+        "like_count": 13,
         "quote_count": 0,
-        "reply_count": 4,
+        "reply_count": 7,
         "retweet_count": 1
       }
     },
@@ -1735,11 +1748,11 @@
       "date": "2026-08-21T20:23:33.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4353,
-        "like_count": 4,
+        "impression_count": 8607,
+        "like_count": 8,
         "quote_count": 0,
-        "reply_count": 4,
-        "retweet_count": 0
+        "reply_count": 6,
+        "retweet_count": 1
       }
     },
     {
@@ -1747,12 +1760,12 @@
       "content": "Two men were stabbed during prayers at a gurdwara on the outskirts of Edmonton — an incident that’s left Sikhs in Alberta worried for their safety.\n\nhttps://t.co/vhLPQOQQCg",
       "date": "2026-08-21T19:53:47.000Z",
       "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 7726,
-        "like_count": 16,
-        "quote_count": 9,
-        "reply_count": 6,
-        "retweet_count": 9
+        "bookmark_count": 3,
+        "impression_count": 18027,
+        "like_count": 61,
+        "quote_count": 11,
+        "reply_count": 15,
+        "retweet_count": 17
       }
     },
     {
@@ -1761,7 +1774,7 @@
       "date": "2026-08-21T19:45:50.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3056,
+        "impression_count": 4039,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 0,
@@ -1774,11 +1787,11 @@
       "date": "2026-08-21T19:37:05.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4431,
-        "like_count": 2,
+        "impression_count": 6974,
+        "like_count": 4,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 0
+        "retweet_count": 1
       }
     },
     {
@@ -1787,11 +1800,11 @@
       "date": "2026-08-21T18:18:58.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4655,
+        "impression_count": 6444,
         "like_count": 5,
         "quote_count": 0,
         "reply_count": 1,
-        "retweet_count": 0
+        "retweet_count": 1
       }
     },
     {
@@ -1800,7 +1813,7 @@
       "date": "2026-08-21T17:39:59.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4754,
+        "impression_count": 5969,
         "like_count": 3,
         "quote_count": 0,
         "reply_count": 3,
@@ -1813,11 +1826,11 @@
       "date": "2026-08-21T16:25:30.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 10818,
+        "impression_count": 13095,
         "like_count": 7,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 1
+        "retweet_count": 2
       }
     },
     {
@@ -1826,167 +1839,206 @@
       "date": "2026-08-21T16:09:01.000Z",
       "metrics": {
         "bookmark_count": 4,
-        "impression_count": 8541,
-        "like_count": 4,
+        "impression_count": 11070,
+        "like_count": 6,
         "quote_count": 0,
         "reply_count": 3,
-        "retweet_count": 1
-      }
-    },
-    {
-      "id": "2090816051550343599",
-      "content": "In a statement to Global News, the NTSB said that it has \"opened an investigation into Thursday's crash of a Cessna 441 airplane operated by Security Aviation as an air taxi flight.\"\n\nhttps://t.co/trJzCThEEh",
-      "date": "2026-08-21T14:59:26.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 5438,
-        "like_count": 3,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 1
+        "retweet_count": 2
       }
     }
   ],
   "nationalpost": [
+    {
+      "id": "2090967219626709113",
+      "content": "The Manitoba premier shows no class attacking Carney's tentative trade deal with Trump, writes Carson Jerema\nhttps://t.co/Lh7THyRfcA",
+      "date": "2026-08-22T01:00:08.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 2163,
+        "like_count": 33,
+        "quote_count": 1,
+        "reply_count": 12,
+        "retweet_count": 4
+      }
+    },
+    {
+      "id": "2090960152526532853",
+      "content": "Christopher Dummitt: DEI discrimination is now written into the basic fabric of our institutions, incentivizing its use\nhttps://t.co/DOSgboOYTe",
+      "date": "2026-08-22T00:32:03.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2362,
+        "like_count": 5,
+        "quote_count": 1,
+        "reply_count": 7,
+        "retweet_count": 3
+      }
+    },
+    {
+      "id": "2090952146476802392",
+      "content": "Chris Selley: On Canada-U.S. trade negotiations, what are we even doing? https://t.co/E7HIAIpMAG https://t.co/6SrjEJobJn",
+      "date": "2026-08-22T00:00:14.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2432,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2090952142299242613",
+      "content": "And it's going to come back to bite him, writes Terry Newman\nhttps://t.co/SVicNwCBFA",
+      "date": "2026-08-22T00:00:13.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 3668,
+        "like_count": 19,
+        "quote_count": 1,
+        "reply_count": 8,
+        "retweet_count": 4
+      }
+    },
+    {
+      "id": "2090950856459870626",
+      "content": "Wab Kinew just wants to watch the world burn, writes NP Comment Editor Carson Jerema.\n\n\"The Manitoba premier shows no class attacking Carney's tentative trade deal with Trump\" https://t.co/N3X5LZ8833 https://t.co/BNoQtEeJYi",
+      "date": "2026-08-21T23:55:06.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3137,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 13,
+        "retweet_count": 2
+      }
+    },
+    {
+      "id": "2090944568388682090",
+      "content": "Colby Cosh: It's hard for some to contend with the fact that two Liberal-appointed judges agreed that bike lanes aren't protected by the Charter\nhttps://t.co/CdXGvp5ZMU",
+      "date": "2026-08-21T23:30:07.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2271,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2090937077055500453",
+      "content": "Afternoon front page: Health care in crisis; fake maple syrup; more https://t.co/t0hfTlofuM https://t.co/QC60XxpC4h",
+      "date": "2026-08-21T23:00:21.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2195,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2090937037977276452",
+      "content": "Michel Maisonneuve: We need military bases, ports and transportation corridors to truly remain sovereign\nhttps://t.co/S4tvQ1XuEo",
+      "date": "2026-08-21T23:00:12.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2528,
+        "like_count": 13,
+        "quote_count": 1,
+        "reply_count": 3,
+        "retweet_count": 4
+      }
+    },
+    {
+      "id": "2090935751416422599",
+      "content": "Crown fails to get longer sentence for Ontario man who shot at intruders who shot his son.\n\nJustice Nathan Baker of the Ontario Court of Justice sentenced Munroe last August to two years less a day of house arrest and three years of probation https://t.co/DZcjmjHLvc https://t.co/zSNiOshiU6",
+      "date": "2026-08-21T22:55:05.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 4426,
+        "like_count": 3,
+        "quote_count": 3,
+        "reply_count": 17,
+        "retweet_count": 1
+      }
+    },
     {
       "id": "2090929474573308232",
       "content": "Mohamed Fahmy: Many of Lebanon's war-weary residents remain skeptical that the terrorist group can be brought to heel\nhttps://t.co/gusElUyQp7",
       "date": "2026-08-21T22:30:08.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 450,
+        "impression_count": 2871,
         "like_count": 0,
         "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2090922508442620375",
-      "content": "Opposition grows to anti-Israel motion to be heard by Montreal city council https://t.co/QVgNnoBRLD https://t.co/7jL8k2LXr1",
-      "date": "2026-08-21T22:02:28.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1319,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2090921941645283526",
-      "content": "Avi Benlolo: We now have a plethora of reports all saying the same thing. They're currently being studied in committee\nhttps://t.co/2Iy8gp17Kn",
-      "date": "2026-08-21T22:00:12.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1185,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2090914701869781339",
-      "content": "From our partners @financialpost: The loonie is rallying. Here's why top currency watchers don't think it will last https://t.co/YEzpIr8vRJ",
-      "date": "2026-08-21T21:31:26.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1937,
-        "like_count": 3,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2090899385907327423",
-      "content": "Five reasons no one saw Prince Harry’s return to the U.K. coming https://t.co/AC0NbuLVIQ https://t.co/xJKaaGQw7f",
-      "date": "2026-08-21T20:30:35.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 3001,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 12,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2090892306593227059",
-      "content": "Trudeau says Canadians must stay 'strong and united' in face of U.S. negotiations https://t.co/3PnOYthEeB https://t.co/H7BQxbLxxv",
-      "date": "2026-08-21T20:02:27.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 10258,
-        "like_count": 29,
-        "quote_count": 15,
-        "reply_count": 272,
-        "retweet_count": 6
-      }
-    },
-    {
-      "id": "2090892221516018163",
-      "content": "From our partners @financialpost: Canadian retail sales look set to fall after seven months of gains\nhttps://t.co/Bkw0PCO7ou",
-      "date": "2026-08-21T20:02:07.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 3337,
-        "like_count": 3,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2090882648176468296",
-      "content": "From our partners @drivingdotca: Tariff rates may be the headline issues, but when it comes to #CUSMA, like everything Trump touches, it’s complicated—David Booth explains: https://t.co/erYqclJovT",
-      "date": "2026-08-21T19:24:04.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 3054,
-        "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2090878298389668214",
-      "content": "From our partners @financialpost: Tentative trade deal proposes tariffs on Canadian steel producers exporting to the U.S., but not on U.S. steel producers shipping here, say sources https://t.co/ExRKxMrHSc",
-      "date": "2026-08-21T19:06:47.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 3600,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 4,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2090869089103212631",
-      "content": "Terry Newman: Carney hasn't prepared Canadians for trade concessions https://t.co/SVicNwCBFA https://t.co/5nBs1fN8r4",
-      "date": "2026-08-21T18:30:11.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 5532,
-        "like_count": 34,
-        "quote_count": 5,
-        "reply_count": 19,
-        "retweet_count": 13
+        "reply_count": 3,
+        "retweet_count": 1
       }
     }
   ],
   "acoyne": [
+    {
+      "id": "2090952380510519473",
+      "content": "RT @Acyn: Trump: We were a dumb, stupid country led by a very, very stupid person. https://t.co/eatncRxTym",
+      "date": "2026-08-22T00:01:10.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 98,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 67
+      }
+    },
+    {
+      "id": "2090951901764284609",
+      "content": "RT @TaylorLorenz: One of my favorite failed PETA social media campaigns https://t.co/V9SAy6bowy",
+      "date": "2026-08-21T23:59:16.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 103,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 7
+      }
+    },
+    {
+      "id": "2090950540905619966",
+      "content": "In which Rudyard Griffiths and I attempt to make sense of a trade agreement that may not even be an agreement, based on anonymous leaks that may or may not accurately reflect its alleged contents. https://t.co/0NsulmPLz2",
+      "date": "2026-08-21T23:53:51.000Z",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 6105,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 8,
+        "retweet_count": 3
+      }
+    },
+    {
+      "id": "2090946623341805803",
+      "content": "Pentagon Fires Editor and Publisher of Independent Military Publication \nhttps://t.co/AxQBGWxYZo via @NYTimes",
+      "date": "2026-08-21T23:38:17.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3360,
+        "like_count": 15,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 8
+      }
+    },
     {
       "id": "2090900779586511054",
       "content": "RT @Dred_Tory: Carney must hold together a loosely affiliated, squabbling group of statelets, each with its own interests and at least two of which are strongly US-aligned ideologically and culturally. A huge disadvantage. One key negotiation lever, the booze ban, isn't even in federal hands.",
       "date": "2026-08-21T20:36:07.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 90,
+        "impression_count": 115,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -1999,11 +2051,11 @@
       "date": "2026-08-21T20:35:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 83,
+        "impression_count": 106,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 4
+        "retweet_count": 6
       }
     },
     {
@@ -2012,11 +2064,11 @@
       "date": "2026-08-21T20:34:42.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 84,
+        "impression_count": 106,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 3463
+        "retweet_count": 5063
       }
     },
     {
@@ -2025,7 +2077,7 @@
       "date": "2026-08-21T20:34:19.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 95,
+        "impression_count": 118,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2038,8 +2090,8 @@
       "date": "2026-08-21T18:54:21.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 3348,
-        "like_count": 11,
+        "impression_count": 3818,
+        "like_count": 12,
         "quote_count": 0,
         "reply_count": 4,
         "retweet_count": 2
@@ -2051,78 +2103,39 @@
       "date": "2026-08-21T18:36:46.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 123,
+        "impression_count": 136,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 29
-      }
-    },
-    {
-      "id": "2090870000542195757",
-      "content": "RT @tleehumphrey: And here we go; those most reliant on media subsidies are already making the case that Carney had no choice but to #CACTUS &amp; his most reliable bag lickers like Coyne are even preparing CDN’s for additional concessions to be made. \n\nThe guy who got elected telling us he was the https://t.co/zyMiDIasX3",
-      "date": "2026-08-21T18:33:49.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 101,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 26
-      }
-    },
-    {
-      "id": "2090805848738058461",
-      "content": "https://t.co/andrUHahM4",
-      "date": "2026-08-21T14:18:54.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 7984,
-        "like_count": 7,
-        "quote_count": 0,
-        "reply_count": 17,
-        "retweet_count": 4
-      }
-    },
-    {
-      "id": "2090804808810742168",
-      "content": "What a mess…\n\nVance weighs in on Jivani trade advocacy and how Carney tried to 'out-tough' Trump https://t.co/bCUc1WRCD5",
-      "date": "2026-08-21T14:14:46.000Z",
-      "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 17604,
-        "like_count": 111,
-        "quote_count": 4,
-        "reply_count": 76,
-        "retweet_count": 20
-      }
-    },
-    {
-      "id": "2090760097311883689",
-      "content": "The thing is, this isn’t even predicated on Trump reneging on anything, though he most certainly will. This is the formal order of business, to which the government of Canada has already agreed.\nI say this not as criticism. That can come later, when we find out what the terms https://t.co/8qFnzMJsgV",
-      "date": "2026-08-21T11:17:06.000Z",
-      "metrics": {
-        "bookmark_count": 27,
-        "impression_count": 53741,
-        "like_count": 580,
-        "quote_count": 20,
-        "reply_count": 121,
-        "retweet_count": 153
+        "retweet_count": 36
       }
     }
   ],
   "ChantalHbert": [
+    {
+      "id": "2090942702800048569",
+      "content": "RT @sarobertson_: Chrystia Freeland: I think that is a bad outcome for Canada to have permanent tariffs on our steel, aluminum, cars, and car parts. But I think it's a bad outcome for the US as well.\n\nIt's really important for people to recognize that you can lose by winning if you've defined https://t.co/rOtSAIUa8G",
+      "date": "2026-08-21T23:22:42.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 271,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 145
+      }
+    },
     {
       "id": "2090917350430142923",
       "content": "RT @JeanMarcLeger1: L’élection québécoise se joue peut-être présentement à Washington.\n\nSi le fédéral cède sur la gestion de l’offre et ne protège pas les agriculteurs d’ici, cela pourrait changer la donne au Québec. https://t.co/ATQevnmi7z",
       "date": "2026-08-21T21:41:58.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 221,
+        "impression_count": 334,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 5
+        "retweet_count": 17
       }
     },
     {
@@ -2131,11 +2144,11 @@
       "date": "2026-08-21T18:54:41.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 336,
+        "impression_count": 391,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 38
+        "retweet_count": 45
       }
     },
     {
@@ -2144,11 +2157,11 @@
       "date": "2026-08-21T14:17:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 348,
+        "impression_count": 376,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 20
+        "retweet_count": 21
       }
     },
     {
@@ -2157,11 +2170,11 @@
       "date": "2026-08-20T21:56:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 470,
+        "impression_count": 476,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 250
+        "retweet_count": 259
       }
     },
     {
@@ -2170,7 +2183,7 @@
       "date": "2026-08-20T21:56:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 434,
+        "impression_count": 440,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2183,11 +2196,11 @@
       "date": "2026-08-20T21:56:03.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 425,
+        "impression_count": 430,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 109
+        "retweet_count": 110
       }
     },
     {
@@ -2196,7 +2209,7 @@
       "date": "2026-08-20T15:12:21.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 424,
+        "impression_count": 427,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2222,24 +2235,11 @@
       "date": "2026-08-18T21:26:16.000Z",
       "metrics": {
         "bookmark_count": 28,
-        "impression_count": 79938,
+        "impression_count": 80122,
         "like_count": 1314,
         "quote_count": 13,
         "reply_count": 116,
         "retweet_count": 221
-      }
-    },
-    {
-      "id": "2089440200682246223",
-      "content": "RT @jbsteinberg: This is actually correct. The tariffs that may be imposed on Wednesday affect 5% of our exports, and will raise the average US tariff on us by about 2.5 percentage points. The economic impact of the power deal is much larger. https://t.co/PZOrQ22gRd",
-      "date": "2026-08-17T19:52:18.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 509,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 122
       }
     }
   ],
@@ -2276,7 +2276,7 @@
       "date": "2026-08-09T18:08:34.000Z",
       "metrics": {
         "bookmark_count": 27,
-        "impression_count": 18744,
+        "impression_count": 18752,
         "like_count": 105,
         "quote_count": 3,
         "reply_count": 14,
@@ -2302,7 +2302,7 @@
       "date": "2026-08-08T14:30:04.000Z",
       "metrics": {
         "bookmark_count": 53,
-        "impression_count": 73757,
+        "impression_count": 73767,
         "like_count": 231,
         "quote_count": 14,
         "reply_count": 45,
@@ -2341,7 +2341,7 @@
       "date": "2026-06-25T12:00:02.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 5302,
+        "impression_count": 5303,
         "like_count": 53,
         "quote_count": 2,
         "reply_count": 11,
@@ -2377,6 +2377,97 @@
   ],
   "DavidColetto": [
     {
+      "id": "2090970187692478926",
+      "content": "RT @markramzyy: Sources tell @TorontoStar’s Justin Ling that Ottawa has told publishers to be ready for the death of the Online News Act as a concession in trade talks with Donald Trump https://t.co/qmmIsqnOFY",
+      "date": "2026-08-22T01:11:55.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 38,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 263
+      }
+    },
+    {
+      "id": "2090970138019315915",
+      "content": "RT @TheHillTimes: UNLOCKED | Most Canadians oppose dual-practice health care, survey finds, as Alberta defends controversial new law \n\nhttps://t.co/sguMyKgVjT https://t.co/3B1m9PvLsr",
+      "date": "2026-08-22T01:11:43.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 36,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 8
+      }
+    },
+    {
+      "id": "2090967747387941107",
+      "content": "RT @DavidColetto: “That feeling of betrayal, I don’t think has really left.”\n\nI spoke with CBC’s The National about the public opinion challenge facing Mark Carney as Canada gets closer to a possible deal with the U.S. There’s still very little appetite for making concessions to Donald Trump.",
+      "date": "2026-08-22T01:02:13.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2090964754764534159",
+      "content": "RT @DavidColetto: “Any deal with Trump is a ceasefire and not a peace treaty.”\n\nI joined CBC’s Front Burner to talk about the Canada-U.S. negotiations, what Canadians expect from Mark Carney, and why selling any deal at home may be as difficult as negotiating it.\n\nhttps://t.co/csPPbgoRmW",
+      "date": "2026-08-22T00:50:20.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 3
+      }
+    },
+    {
+      "id": "2090959640389636491",
+      "content": "A Canada-U.S. trade deal may be getting closer. Selling it to Canadians could be the harder part.\n\nI joined CBC’s The National to talk about why the details matter, the public’s resistance to concessions, and what could be one of Mark Carney’s biggest political tests yet.",
+      "date": "2026-08-22T00:30:01.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 938,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2090952676486033880",
+      "content": "RT @DavidColetto: Canadians aren’t giving up on public health care. They want it fixed.\n\n85% say universal care based on need, not income, is a core Canadian value. 80% believe the public system can meet Canadians’ needs with more investment.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/OLbnfBTmlx",
+      "date": "2026-08-22T00:02:20.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 4
+      }
+    },
+    {
+      "id": "2090937449627402701",
+      "content": "RT @DavidColetto: ICYMI: Despite plenty of political noise, Canada’s national political picture remains remarkably stable.\n\nLiberals lead by 7.\nGovernment approval holds at 52%.\nCarney’s net rating is +20.\nPoilievre’s has fallen to -11.\n\nOur latest federal poll:\nhttps://t.co/MiuSOw0OVn https://t.co/DDJIltwmZP",
+      "date": "2026-08-21T23:01:50.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 4
+      }
+    },
+    {
       "id": "2090924507825652130",
       "content": "RT @DavidColetto: New  poll: 53% of Canadians oppose Alberta’s Bill 11 after learning what it would do, compared with 33% who support it.\n\nConcerns focus on higher costs, unequal access and pressure on the public system.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/kFpGUFSIdZ",
       "date": "2026-08-21T22:10:24.000Z",
@@ -2390,42 +2481,16 @@
       }
     },
     {
-      "id": "2090922658200530982",
-      "content": "RT @DavidColetto: Canadians aren’t giving up on public health care. They want it fixed.\n\n85% say universal care based on need, not income, is a core Canadian value. 80% believe the public system can meet Canadians’ needs with more investment.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/OLbnfBTmlx",
-      "date": "2026-08-21T22:03:03.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 4
-      }
-    },
-    {
       "id": "2090906839705928156",
       "content": "“That feeling of betrayal, I don’t think has really left.”\n\nI spoke with CBC’s The National about the public opinion challenge facing Mark Carney as Canada gets closer to a possible deal with the U.S. There’s still very little appetite for making concessions to Donald Trump.",
       "date": "2026-08-21T21:00:12.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 630,
+        "impression_count": 1926,
         "like_count": 0,
         "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2090904342559961216",
-      "content": "RT @DavidColetto: “Any deal with Trump is a ceasefire and not a peace treaty.”\n\nI joined CBC’s Front Burner to talk about the Canada-U.S. negotiations, what Canadians expect from Mark Carney, and why selling any deal at home may be as difficult as negotiating it.\n\nhttps://t.co/csPPbgoRmW",
-      "date": "2026-08-21T20:50:17.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 3
+        "reply_count": 2,
+        "retweet_count": 1
       }
     },
     {
@@ -2434,76 +2499,11 @@
       "date": "2026-08-21T20:38:13.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 52,
+        "impression_count": 58,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 33
-      }
-    },
-    {
-      "id": "2090891703825912276",
-      "content": "Canadians aren’t giving up on public health care. They want it fixed.\n\n85% say universal care based on need, not income, is a core Canadian value. 80% believe the public system can meet Canadians’ needs with more investment.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/OLbnfBTmlx",
-      "date": "2026-08-21T20:00:03.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 545,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 4
-      }
-    },
-    {
-      "id": "2090884486427005353",
-      "content": "RT @DavidColetto: NEW POLL: Canadians are deeply worried about public health care.\n\n91% are concerned about its future. 63% say health care in their province is in crisis. But 85% still say universal care based on need, not income, is a core Canadian value.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/NiRfhYDlbI",
-      "date": "2026-08-21T19:31:22.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2090872816824643958",
-      "content": "“Any deal with Trump is a ceasefire and not a peace treaty.”\n\nI joined CBC’s Front Burner to talk about the Canada-U.S. negotiations, what Canadians expect from Mark Carney, and why selling any deal at home may be as difficult as negotiating it.\n\nhttps://t.co/csPPbgoRmW",
-      "date": "2026-08-21T18:45:00.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 978,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 3
-      }
-    },
-    {
-      "id": "2090865045903212796",
-      "content": "This is why people think politicians aren’t in it for them… https://t.co/W1I8ntJcs2",
-      "date": "2026-08-21T18:14:07.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 4916,
-        "like_count": 52,
-        "quote_count": 1,
-        "reply_count": 3,
-        "retweet_count": 7
-      }
-    },
-    {
-      "id": "2090862140630696152",
-      "content": "RT @DavidColetto: ICYMI: The national fundamentals continue to favour the Carney Liberals.\n\nThey lead the Conservatives 42% to 35%, government approval remains above 50%, and Carney continues to have a positive personal rating.\n\nBut the issue agenda is shifting and Quebec is becoming much more https://t.co/QiBmSJe46E",
-      "date": "2026-08-21T18:02:35.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2
+        "retweet_count": 34
       }
     }
   ],
@@ -2514,10 +2514,10 @@
       "date": "2026-08-19T17:18:18.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4725,
+        "impression_count": 4745,
         "like_count": 52,
         "quote_count": 4,
-        "reply_count": 16,
+        "reply_count": 17,
         "retweet_count": 19
       }
     },
@@ -2527,7 +2527,7 @@
       "date": "2026-08-19T14:56:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3265,
+        "impression_count": 3281,
         "like_count": 28,
         "quote_count": 3,
         "reply_count": 8,
@@ -2540,10 +2540,10 @@
       "date": "2026-08-18T17:53:42.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4754,
+        "impression_count": 4767,
         "like_count": 40,
         "quote_count": 1,
-        "reply_count": 5,
+        "reply_count": 6,
         "retweet_count": 7
       }
     },
@@ -2553,7 +2553,7 @@
       "date": "2026-08-18T12:40:39.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4236,
+        "impression_count": 4247,
         "like_count": 39,
         "quote_count": 1,
         "reply_count": 12,
@@ -2566,7 +2566,7 @@
       "date": "2026-08-18T11:31:35.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 19272,
+        "impression_count": 19283,
         "like_count": 132,
         "quote_count": 8,
         "reply_count": 20,
@@ -2579,7 +2579,7 @@
       "date": "2026-08-17T11:55:22.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 3803,
+        "impression_count": 3811,
         "like_count": 8,
         "quote_count": 0,
         "reply_count": 0,
@@ -2592,7 +2592,7 @@
       "date": "2026-08-17T09:58:25.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 6118,
+        "impression_count": 6124,
         "like_count": 88,
         "quote_count": 4,
         "reply_count": 5,
@@ -2605,7 +2605,7 @@
       "date": "2026-08-16T21:28:01.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 11923,
+        "impression_count": 11928,
         "like_count": 151,
         "quote_count": 8,
         "reply_count": 15,
@@ -2618,7 +2618,7 @@
       "date": "2026-08-16T17:55:54.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4054,
+        "impression_count": 4060,
         "like_count": 13,
         "quote_count": 3,
         "reply_count": 1,
@@ -2631,7 +2631,7 @@
       "date": "2026-08-16T17:48:37.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 24423,
+        "impression_count": 24430,
         "like_count": 49,
         "quote_count": 5,
         "reply_count": 20,
@@ -2641,16 +2641,94 @@
   ],
   "brianlilley": [
     {
+      "id": "2090962993542496726",
+      "content": "RT @TheTorontoSun: MCCAUGHEY: AOC is unfit to lead the U.S. https://t.co/pAehAlotxF https://t.co/uSflArblfB",
+      "date": "2026-08-22T00:43:20.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 259,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 3
+      }
+    },
+    {
+      "id": "2090960193173553550",
+      "content": "This was a really cheap shot by Cochrane who defends every CBC reporter when they are called out. https://t.co/muxIzQZIXl",
+      "date": "2026-08-22T00:32:12.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 12251,
+        "like_count": 151,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 16
+      }
+    },
+    {
+      "id": "2090960084234854517",
+      "content": "RT @KellyGerMalone: I’d love to not be dragged into this. I’m from Sask. Have worked my ass off in DC for 2+ years. Why are CBC scoops legit but my CP scoop is not. I don’t social media much so will delete this. But wow was disappointed to have it DM’d to me multiple times after hours @ USTR https://t.co/DSOX7X1kV6",
+      "date": "2026-08-22T00:31:46.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 254,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 27
+      }
+    },
+    {
+      "id": "2090940932573073468",
+      "content": "Carney's claim of no deal is better than a bad deal is being put to the test.\n\nPerhaps he improves things, and I hope he does.\n\nThat said, it looks like his rhetoric is about to catch up with him.\n\nThen the question is. How do voters react?",
+      "date": "2026-08-21T23:15:40.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 3294,
+        "like_count": 43,
+        "quote_count": 0,
+        "reply_count": 13,
+        "retweet_count": 5
+      }
+    },
+    {
+      "id": "2090940930144538752",
+      "content": "Lots of whispers from the Canadian side, nothing concrete.\nThis is the most detail that has been made public.\nAt this point, Carney, and by extension the rest of the country, has a tough choice.\nWhich do we choose?\n1. A bad deal\n2. A worse deal https://t.co/sAeifPz3eq",
+      "date": "2026-08-21T23:15:40.000Z",
+      "metrics": {
+        "bookmark_count": 10,
+        "impression_count": 37828,
+        "like_count": 125,
+        "quote_count": 3,
+        "reply_count": 28,
+        "retweet_count": 15
+      }
+    },
+    {
+      "id": "2090936114450137543",
+      "content": "Hey Gary, not everyone is an asshole. Some do put country first. \nTry it some time. https://t.co/PYnlKSJFLC",
+      "date": "2026-08-21T22:56:32.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 10305,
+        "like_count": 438,
+        "quote_count": 2,
+        "reply_count": 27,
+        "retweet_count": 30
+      }
+    },
+    {
       "id": "2090912984277164260",
       "content": "I really didn't. https://t.co/1dPK7uqrBm",
       "date": "2026-08-21T21:24:37.000Z",
       "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 7641,
-        "like_count": 121,
-        "quote_count": 1,
-        "reply_count": 21,
-        "retweet_count": 1
+        "bookmark_count": 6,
+        "impression_count": 24148,
+        "like_count": 408,
+        "quote_count": 3,
+        "reply_count": 49,
+        "retweet_count": 20
       }
     },
     {
@@ -2659,11 +2737,11 @@
       "date": "2026-08-21T21:13:16.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 261,
+        "impression_count": 346,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 73
+        "retweet_count": 152
       }
     },
     {
@@ -2672,7 +2750,7 @@
       "date": "2026-08-21T17:04:41.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 386,
+        "impression_count": 428,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2685,89 +2763,11 @@
       "date": "2026-08-21T17:03:09.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 9575,
-        "like_count": 51,
+        "impression_count": 11454,
+        "like_count": 58,
         "quote_count": 1,
-        "reply_count": 7,
+        "reply_count": 8,
         "retweet_count": 8
-      }
-    },
-    {
-      "id": "2090846533201629480",
-      "content": "Was always a bad strategy.\nTrump's tariff threat last month was an open-ice bodycheck on Carney's strategy that forced us to the table.\nUnfortunately, it also left us in a rather weak spot. https://t.co/fQBZsK5mG7",
-      "date": "2026-08-21T17:00:34.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 13326,
-        "like_count": 266,
-        "quote_count": 3,
-        "reply_count": 35,
-        "retweet_count": 26
-      }
-    },
-    {
-      "id": "2090845971194228790",
-      "content": "I know this to be true and I know that many more MPs than just Jivani went south.\nIt was always a smart move for Jivani to try and use his relationship with Vance to try and advance Canada's interests.\nSadly, too many in Canada's commentariat thought otherwise. https://t.co/4RAtuKSQzu",
-      "date": "2026-08-21T16:58:20.000Z",
-      "metrics": {
-        "bookmark_count": 18,
-        "impression_count": 46491,
-        "like_count": 1057,
-        "quote_count": 11,
-        "reply_count": 47,
-        "retweet_count": 176
-      }
-    },
-    {
-      "id": "2090843885111033952",
-      "content": "Far be it from me to defend Mark Carney…\nI don’t get the point of Wab Kinew saying Carney was close to begging premiers to put American booze back on the shelves. \nSpoke to various folks on the call, including premiers, none gave that description. \nJust Kinew. \nWhy? https://t.co/vXwDnKmZmo",
-      "date": "2026-08-21T16:50:02.000Z",
-      "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 28328,
-        "like_count": 536,
-        "quote_count": 25,
-        "reply_count": 391,
-        "retweet_count": 60
-      }
-    },
-    {
-      "id": "2090842926012043514",
-      "content": "I live in this ward. \nTasha is who we need on school council. https://t.co/8VqUOgnpju",
-      "date": "2026-08-21T16:46:14.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 6921,
-        "like_count": 91,
-        "quote_count": 0,
-        "reply_count": 7,
-        "retweet_count": 10
-      }
-    },
-    {
-      "id": "2090820740937404475",
-      "content": "Kinew told the other premiers on the call that he’d rather not have a deal, fighting with Trump is good for him. \n\nTell that to a laid off steel or auto worker. \n\nSome Canadians would rather fight Trump even if fellow Canadians suffer. \n\nMaybe this is a bad deal, we don’t know",
-      "date": "2026-08-21T15:18:04.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 20652,
-        "like_count": 710,
-        "quote_count": 5,
-        "reply_count": 54,
-        "retweet_count": 71
-      }
-    },
-    {
-      "id": "2090820738362020101",
-      "content": "Kinew’s rhetoric is putting the deal on the table, good or bad, in jeopardy, and is making today more difficult for Dominic LeBlanc in Washington. \n\n2. For Kinew, whose province isn’t hit as hard by tariffs as others, this is about domestic politics and his own personal polling.",
-      "date": "2026-08-21T15:18:04.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 18877,
-        "like_count": 492,
-        "quote_count": 1,
-        "reply_count": 9,
-        "retweet_count": 28
       }
     }
   ]
