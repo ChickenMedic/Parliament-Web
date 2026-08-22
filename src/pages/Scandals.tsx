@@ -546,7 +546,7 @@ export const Scandals = () => {
                         </div>
                         <h3 style={{ margin: 0, color: 'white', fontSize: '18px' }}>{s.title}</h3>
                         <p style={{ margin: 0, fontSize: '13px', color: 'rgba(255,255,255,0.55)', lineHeight: 1.45, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
-                          {s.latestDevelopments || s.description}
+                          {s.description}
                         </p>
                       </div>
 
