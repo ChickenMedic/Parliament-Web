@@ -62,10 +62,17 @@ COMMITTEES = {
 }
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, context=ctx, timeout=45) as r:
-        return r.read().decode('utf-8', errors='replace')
+def fetch(url, tries=3):
+    last = None
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, context=ctx, timeout=45) as r:
+                return r.read().decode('utf-8', errors='replace')
+        except Exception as e:
+            last = e
+            time.sleep(2 * (attempt + 1))
+    raise last
 
 
 def parse_members(html):
@@ -104,6 +111,14 @@ def parse_members(html):
 
 
 def main():
+    # Keep whatever we already have so a failed fetch never drops a committee
+    # from the site — stale data beats a missing committee.
+    try:
+        with open(OUT, encoding='utf-8') as f:
+            existing = {c['id']: c for c in json.load(f)}
+    except (OSError, ValueError):
+        existing = {}
+
     committees = []
     for cid, desc in COMMITTEES.items():
         url = f'https://www.ourcommons.ca/committees/en/{cid}/members'
@@ -111,13 +126,21 @@ def main():
             _, sections = parse_members(fetch(url))
         except Exception as e:
             print(f'  ! {cid} failed: {e}')
-            continue
+            sections = {}
         name = NAMES.get(cid, f'{cid} Committee')
 
         chair = sections.get('Chair', [])
         vice = sections.get('Vice-Chairs', [])
         members = sections.get('Members', [])
         everyone = chair + vice + members
+
+        if not everyone:
+            if cid in existing:
+                print(f'  ! {cid}: no roster scraped, keeping previous data')
+                committees.append(existing[cid])
+            else:
+                print(f'  ! {cid}: no roster scraped and no previous data, skipping')
+            continue
 
         party_seats = {}
         for _, party in everyone:
