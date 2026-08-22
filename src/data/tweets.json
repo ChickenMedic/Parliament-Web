@@ -6,11 +6,11 @@
       "date": "2026-08-21T17:55:14.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 227,
+        "impression_count": 230,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 248
+        "retweet_count": 253
       }
     },
     {
@@ -19,11 +19,11 @@
       "date": "2026-08-21T17:55:09.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 402,
+        "impression_count": 411,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 22
+        "retweet_count": 23
       }
     },
     {
@@ -32,10 +32,10 @@
       "date": "2026-08-21T15:30:36.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 9773,
-        "like_count": 41,
-        "quote_count": 8,
-        "reply_count": 53,
+        "impression_count": 10488,
+        "like_count": 43,
+        "quote_count": 9,
+        "reply_count": 56,
         "retweet_count": 26
       }
     },
@@ -58,7 +58,7 @@
       "date": "2026-08-20T18:36:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 473,
+        "impression_count": 476,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -71,7 +71,7 @@
       "date": "2026-08-20T15:00:25.000Z",
       "metrics": {
         "bookmark_count": 4,
-        "impression_count": 14641,
+        "impression_count": 14667,
         "like_count": 134,
         "quote_count": 6,
         "reply_count": 121,
@@ -97,7 +97,7 @@
       "date": "2026-08-19T19:29:56.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 502,
+        "impression_count": 503,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -110,7 +110,7 @@
       "date": "2026-08-19T14:35:08.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 12500,
+        "impression_count": 12505,
         "like_count": 459,
         "quote_count": 22,
         "reply_count": 396,
@@ -123,7 +123,7 @@
       "date": "2026-08-18T17:51:14.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 277,
+        "impression_count": 278,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -138,11 +138,11 @@
       "date": "2026-08-21T21:59:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 154,
+        "impression_count": 163,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 100
+        "retweet_count": 109
       }
     },
     {
@@ -151,11 +151,11 @@
       "date": "2026-08-21T19:51:44.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 174,
+        "impression_count": 179,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 108
+        "retweet_count": 119
       }
     },
     {
@@ -164,11 +164,11 @@
       "date": "2026-08-21T17:35:26.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 174,
+        "impression_count": 176,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 1142
+        "retweet_count": 1163
       }
     },
     {
@@ -181,7 +181,7 @@
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 1555
+        "retweet_count": 1556
       }
     },
     {
@@ -270,11 +270,11 @@
       "date": "2026-08-21T21:24:29.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 616,
-        "like_count": 3,
+        "impression_count": 691,
+        "like_count": 4,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 0
+        "retweet_count": 2
       }
     },
     {
@@ -283,7 +283,7 @@
       "date": "2026-08-21T21:13:14.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 900,
+        "impression_count": 984,
         "like_count": 15,
         "quote_count": 0,
         "reply_count": 2,
@@ -296,11 +296,11 @@
       "date": "2026-08-21T18:02:54.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 107,
+        "impression_count": 109,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 30
+        "retweet_count": 31
       }
     },
     {
@@ -309,7 +309,7 @@
       "date": "2026-08-20T19:09:32.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1782,
+        "impression_count": 1787,
         "like_count": 6,
         "quote_count": 0,
         "reply_count": 0,
@@ -322,7 +322,7 @@
       "date": "2026-08-20T19:04:49.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 2201,
+        "impression_count": 2206,
         "like_count": 48,
         "quote_count": 0,
         "reply_count": 3,
@@ -361,7 +361,7 @@
       "date": "2026-08-19T18:00:50.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1560,
+        "impression_count": 1563,
         "like_count": 9,
         "quote_count": 0,
         "reply_count": 1,
@@ -374,7 +374,7 @@
       "date": "2026-08-19T17:49:46.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 2507,
+        "impression_count": 2509,
         "like_count": 42,
         "quote_count": 0,
         "reply_count": 9,
@@ -387,7 +387,7 @@
       "date": "2026-08-18T20:17:25.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 1944,
+        "impression_count": 1945,
         "like_count": 34,
         "quote_count": 1,
         "reply_count": 1,
@@ -402,11 +402,11 @@
       "date": "2026-08-21T21:42:20.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 55,
+        "impression_count": 58,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 5
+        "retweet_count": 6
       }
     },
     {
@@ -415,10 +415,10 @@
       "date": "2026-08-21T13:39:49.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1572,
+        "impression_count": 1726,
         "like_count": 32,
         "quote_count": 3,
-        "reply_count": 39,
+        "reply_count": 43,
         "retweet_count": 18
       }
     },
@@ -428,10 +428,10 @@
       "date": "2026-08-20T20:17:23.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 13489,
+        "impression_count": 13550,
         "like_count": 73,
         "quote_count": 8,
-        "reply_count": 94,
+        "reply_count": 95,
         "retweet_count": 37
       }
     },
@@ -441,7 +441,7 @@
       "date": "2026-08-15T12:00:03.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1692,
+        "impression_count": 1694,
         "like_count": 29,
         "quote_count": 2,
         "reply_count": 5,
@@ -454,7 +454,7 @@
       "date": "2026-08-09T17:59:04.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1462,
+        "impression_count": 1464,
         "like_count": 22,
         "quote_count": 1,
         "reply_count": 8,
@@ -534,8 +534,8 @@
       "date": "2026-08-21T19:47:54.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1009,
-        "like_count": 9,
+        "impression_count": 1180,
+        "like_count": 10,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 8
@@ -547,7 +547,7 @@
       "date": "2026-08-19T19:46:59.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1570,
+        "impression_count": 1650,
         "like_count": 13,
         "quote_count": 0,
         "reply_count": 0,
@@ -560,7 +560,7 @@
       "date": "2026-08-18T14:48:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2693,
+        "impression_count": 2786,
         "like_count": 16,
         "quote_count": 0,
         "reply_count": 2,
@@ -638,7 +638,7 @@
       "date": "2026-08-05T13:16:48.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 9904,
+        "impression_count": 9906,
         "like_count": 59,
         "quote_count": 11,
         "reply_count": 8,
@@ -666,7 +666,7 @@
       "date": "2026-08-20T18:01:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 610,
+        "impression_count": 612,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 2,
@@ -679,7 +679,7 @@
       "date": "2026-08-20T14:00:35.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 541,
+        "impression_count": 542,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -797,12 +797,12 @@
       "content": "Thunderhead stands as a tribute to the lives, stories, and contributions of 2SLGBTQI+ people across Canada.\n\nIt’s reminder of the discrimination too many endured — and honours those who fought to build a country where everyone can live freely, safely, and with dignity. https://t.co/K6g9kwkqs0",
       "date": "2026-08-22T00:26:57.000Z",
       "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 25909,
-        "like_count": 241,
-        "quote_count": 2,
-        "reply_count": 140,
-        "retweet_count": 49
+        "bookmark_count": 7,
+        "impression_count": 36376,
+        "like_count": 318,
+        "quote_count": 7,
+        "reply_count": 227,
+        "retweet_count": 72
       }
     },
     {
@@ -810,12 +810,12 @@
       "content": "Thunderhead est un hommage aux vies, aux histoires et aux contributions des personnes 2ELGBTQI+ à travers le Canada.\n\nC’est un rappel de la discrimination dont trop de personnes ont été victimes, qui rend hommage à celles et ceux qui se sont battus pour bâtir un pays où chacun https://t.co/2Rs7uDHGnJ",
       "date": "2026-08-22T00:25:57.000Z",
       "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 18815,
-        "like_count": 93,
-        "quote_count": 0,
-        "reply_count": 23,
-        "retweet_count": 20
+        "bookmark_count": 6,
+        "impression_count": 24233,
+        "like_count": 120,
+        "quote_count": 1,
+        "reply_count": 37,
+        "retweet_count": 26
       }
     },
     {
@@ -823,12 +823,12 @@
       "content": "The attack at the Nanaksar Gurdwara in Edmonton this morning is appalling. My thoughts are with the two people who were injured and the wider community that is shaken by this terrible event.\n\nNo one should ever feel unsafe in their place of worship. I want to thank the Edmonton",
       "date": "2026-08-21T22:40:12.000Z",
       "metrics": {
-        "bookmark_count": 24,
-        "impression_count": 76991,
-        "like_count": 1108,
-        "quote_count": 14,
-        "reply_count": 211,
-        "retweet_count": 168
+        "bookmark_count": 30,
+        "impression_count": 99237,
+        "like_count": 1371,
+        "quote_count": 18,
+        "reply_count": 236,
+        "retweet_count": 210
       }
     },
     {
@@ -836,12 +836,12 @@
       "content": "L’attaque survenue au Gurdwara Nanaksar, à Edmonton, ce matin est consternante. Mes pensées accompagnent les deux blessés et toute la communauté, bouleversée par ce terrible événement.\n \nPersonne ne devrait se sentir en danger dans son lieu de culte. Je remercie le service de",
       "date": "2026-08-21T22:39:28.000Z",
       "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 31317,
-        "like_count": 377,
+        "bookmark_count": 7,
+        "impression_count": 36546,
+        "like_count": 457,
         "quote_count": 1,
-        "reply_count": 39,
-        "retweet_count": 50
+        "reply_count": 47,
+        "retweet_count": 57
       }
     },
     {
@@ -849,12 +849,12 @@
       "content": "We’re going to double the capacity of our grid by 2050 — to power Canada strong with clean, reliable, affordable electricity. https://t.co/FHVacRyBOA",
       "date": "2026-08-21T21:20:45.000Z",
       "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 30574,
-        "like_count": 788,
-        "quote_count": 28,
-        "reply_count": 346,
-        "retweet_count": 134
+        "bookmark_count": 9,
+        "impression_count": 33754,
+        "like_count": 881,
+        "quote_count": 36,
+        "reply_count": 389,
+        "retweet_count": 146
       }
     },
     {
@@ -862,12 +862,12 @@
       "content": "Nous allons doubler la capacité de notre réseau d’ici 2050, afin de bâtir un Canada fort alimenté par une électricité propre, abordable et fiable. https://t.co/jv59JdbmFp",
       "date": "2026-08-21T21:19:08.000Z",
       "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 20467,
-        "like_count": 301,
-        "quote_count": 12,
-        "reply_count": 115,
-        "retweet_count": 66
+        "bookmark_count": 4,
+        "impression_count": 26524,
+        "like_count": 331,
+        "quote_count": 13,
+        "reply_count": 127,
+        "retweet_count": 70
       }
     },
     {
@@ -876,11 +876,11 @@
       "date": "2026-08-21T18:26:33.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 31949,
-        "like_count": 448,
+        "impression_count": 33100,
+        "like_count": 466,
         "quote_count": 15,
-        "reply_count": 218,
-        "retweet_count": 97
+        "reply_count": 226,
+        "retweet_count": 100
       }
     },
     {
@@ -889,11 +889,11 @@
       "date": "2026-08-21T18:25:34.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 17388,
-        "like_count": 230,
+        "impression_count": 17903,
+        "like_count": 243,
         "quote_count": 2,
-        "reply_count": 70,
-        "retweet_count": 56
+        "reply_count": 74,
+        "retweet_count": 58
       }
     },
     {
@@ -902,11 +902,11 @@
       "date": "2026-08-21T14:31:06.000Z",
       "metrics": {
         "bookmark_count": 16,
-        "impression_count": 51258,
-        "like_count": 1485,
-        "quote_count": 36,
-        "reply_count": 507,
-        "retweet_count": 248
+        "impression_count": 53131,
+        "like_count": 1529,
+        "quote_count": 40,
+        "reply_count": 551,
+        "retweet_count": 253
       }
     },
     {
@@ -915,11 +915,11 @@
       "date": "2026-08-21T14:29:23.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 50769,
-        "like_count": 649,
+        "impression_count": 51846,
+        "like_count": 668,
         "quote_count": 10,
-        "reply_count": 190,
-        "retweet_count": 118
+        "reply_count": 193,
+        "retweet_count": 120
       }
     }
   ],
@@ -929,12 +929,12 @@
       "content": "L’attaque violente survenue au temple sikh d’Edmonton, qui a fait deux blessés, est horrible et mérite notre condamnation la plus ferme.\n\nToutes les personnes au Canada doivent pouvoir pratiquer leur religion dans la paix et la sécurité. L’auteur de cette attaque doit répondre",
       "date": "2026-08-22T00:46:26.000Z",
       "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 10600,
-        "like_count": 89,
+        "bookmark_count": 3,
+        "impression_count": 16632,
+        "like_count": 134,
         "quote_count": 1,
-        "reply_count": 31,
-        "retweet_count": 12
+        "reply_count": 52,
+        "retweet_count": 16
       }
     },
     {
@@ -942,12 +942,12 @@
       "content": "The violent attack at the Sikh Temple in Edmonton that left two people injured is horrifying and deserves our full condemnation.\n\nEveryone in Canada must be free to worship in peace and safety. The attacker must face the full force of the law, and authorities must get to the",
       "date": "2026-08-22T00:44:25.000Z",
       "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 12749,
-        "like_count": 154,
-        "quote_count": 1,
-        "reply_count": 22,
-        "retweet_count": 30
+        "bookmark_count": 10,
+        "impression_count": 28159,
+        "like_count": 297,
+        "quote_count": 5,
+        "reply_count": 81,
+        "retweet_count": 43
       }
     },
     {
@@ -956,11 +956,11 @@
       "date": "2026-08-21T21:31:32.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 16047,
-        "like_count": 291,
+        "impression_count": 20488,
+        "like_count": 322,
         "quote_count": 1,
         "reply_count": 47,
-        "retweet_count": 47
+        "retweet_count": 50
       }
     },
     {
@@ -969,11 +969,11 @@
       "date": "2026-08-21T20:42:08.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 17849,
-        "like_count": 446,
+        "impression_count": 20907,
+        "like_count": 486,
         "quote_count": 4,
-        "reply_count": 38,
-        "retweet_count": 100
+        "reply_count": 42,
+        "retweet_count": 109
       }
     },
     {
@@ -982,7 +982,7 @@
       "date": "2026-08-21T20:39:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3560,
+        "impression_count": 3695,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -995,11 +995,11 @@
       "date": "2026-08-21T20:19:43.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3724,
+        "impression_count": 3858,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 270
+        "retweet_count": 274
       }
     },
     {
@@ -1007,12 +1007,12 @@
       "content": "If you ate today, thank a farmer.\n\nFor four generations, the farmers at Hillside Gardens in Bradford have worked from dawn to dusk, growing the food that feeds families across Ontario and beyond.\n\nConservatives will keep fighting to scrap the Liberal industrial carbon tax off https://t.co/JiXy3uIg5I",
       "date": "2026-08-21T19:51:06.000Z",
       "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 20165,
-        "like_count": 640,
+        "bookmark_count": 2,
+        "impression_count": 23319,
+        "like_count": 715,
         "quote_count": 3,
-        "reply_count": 63,
-        "retweet_count": 108
+        "reply_count": 70,
+        "retweet_count": 119
       }
     },
     {
@@ -1021,7 +1021,7 @@
       "date": "2026-08-21T19:02:16.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3988,
+        "impression_count": 4102,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -1034,11 +1034,11 @@
       "date": "2026-08-21T14:05:48.000Z",
       "metrics": {
         "bookmark_count": 8,
-        "impression_count": 33094,
-        "like_count": 435,
+        "impression_count": 35263,
+        "like_count": 444,
         "quote_count": 6,
-        "reply_count": 80,
-        "retweet_count": 84
+        "reply_count": 81,
+        "retweet_count": 87
       }
     },
     {
@@ -1047,11 +1047,11 @@
       "date": "2026-08-21T00:44:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 45086,
-        "like_count": 862,
+        "impression_count": 45314,
+        "like_count": 865,
         "quote_count": 7,
         "reply_count": 131,
-        "retweet_count": 140
+        "retweet_count": 141
       }
     }
   ],
@@ -1061,12 +1061,12 @@
       "content": "Justin Ling is right: “If Ottawa is getting ready to kill the Online News Act, it would complete the dismantling of Canada’s meagre effort to rein in Big Tech.”\n\nThe Tech oligarchs, the most powerful men in the world, are all lined up behind Trump. \n\nTheir attention-sucking https://t.co/114nqQ1b51",
       "date": "2026-08-21T14:46:13.000Z",
       "metrics": {
-        "bookmark_count": 46,
-        "impression_count": 52194,
-        "like_count": 693,
+        "bookmark_count": 48,
+        "impression_count": 54399,
+        "like_count": 712,
         "quote_count": 15,
         "reply_count": 56,
-        "retweet_count": 215
+        "retweet_count": 222
       }
     },
     {
@@ -1075,11 +1075,11 @@
       "date": "2026-08-20T23:47:38.000Z",
       "metrics": {
         "bookmark_count": 75,
-        "impression_count": 147160,
-        "like_count": 2696,
+        "impression_count": 150369,
+        "like_count": 2739,
         "quote_count": 27,
-        "reply_count": 91,
-        "retweet_count": 715
+        "reply_count": 93,
+        "retweet_count": 726
       }
     },
     {
@@ -1088,7 +1088,7 @@
       "date": "2026-08-19T17:33:05.000Z",
       "metrics": {
         "bookmark_count": 5,
-        "impression_count": 6860,
+        "impression_count": 6870,
         "like_count": 113,
         "quote_count": 3,
         "reply_count": 10,
@@ -1101,7 +1101,7 @@
       "date": "2026-08-19T17:32:47.000Z",
       "metrics": {
         "bookmark_count": 18,
-        "impression_count": 97005,
+        "impression_count": 97152,
         "like_count": 602,
         "quote_count": 30,
         "reply_count": 76,
@@ -1114,7 +1114,7 @@
       "date": "2026-08-18T22:53:42.000Z",
       "metrics": {
         "bookmark_count": 13,
-        "impression_count": 9336,
+        "impression_count": 9338,
         "like_count": 514,
         "quote_count": 11,
         "reply_count": 25,
@@ -1140,7 +1140,7 @@
       "date": "2026-08-18T19:39:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 7658,
+        "impression_count": 7659,
         "like_count": 95,
         "quote_count": 0,
         "reply_count": 3,
@@ -1166,7 +1166,7 @@
       "date": "2026-08-15T23:07:40.000Z",
       "metrics": {
         "bookmark_count": 7,
-        "impression_count": 9060,
+        "impression_count": 9061,
         "like_count": 261,
         "quote_count": 1,
         "reply_count": 3,
@@ -1194,9 +1194,9 @@
       "date": "2026-08-21T16:05:46.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1287,
-        "like_count": 19,
-        "quote_count": 0,
+        "impression_count": 1320,
+        "like_count": 20,
+        "quote_count": 1,
         "reply_count": 4,
         "retweet_count": 11
       }
@@ -1207,7 +1207,7 @@
       "date": "2026-08-20T22:58:34.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 4500,
+        "impression_count": 4508,
         "like_count": 21,
         "quote_count": 0,
         "reply_count": 13,
@@ -1220,7 +1220,7 @@
       "date": "2026-08-20T20:50:47.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 15384,
+        "impression_count": 15470,
         "like_count": 96,
         "quote_count": 6,
         "reply_count": 56,
@@ -1233,8 +1233,8 @@
       "date": "2026-08-20T20:49:56.000Z",
       "metrics": {
         "bookmark_count": 10,
-        "impression_count": 23426,
-        "like_count": 227,
+        "impression_count": 23526,
+        "like_count": 228,
         "quote_count": 10,
         "reply_count": 49,
         "retweet_count": 49
@@ -1246,7 +1246,7 @@
       "date": "2026-08-20T12:12:33.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4792,
+        "impression_count": 4799,
         "like_count": 53,
         "quote_count": 2,
         "reply_count": 7,
@@ -1298,7 +1298,7 @@
       "date": "2026-08-18T10:49:21.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2489,
+        "impression_count": 2490,
         "like_count": 38,
         "quote_count": 0,
         "reply_count": 2,
@@ -1326,7 +1326,7 @@
       "date": "2026-08-22T01:08:46.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 29,
+        "impression_count": 41,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -1339,7 +1339,7 @@
       "date": "2026-08-22T01:08:38.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 25,
+        "impression_count": 37,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -1352,7 +1352,7 @@
       "date": "2026-08-22T01:08:30.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 28,
+        "impression_count": 42,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -1585,16 +1585,29 @@
   ],
   "CTVNews": [
     {
+      "id": "2090984850538824021",
+      "content": "Attorneys for Nolan Wells’ friends threaten to sue the Rev. Al Sharpton for defamation https://t.co/FYNjD5NCWf",
+      "date": "2026-08-22T02:10:11.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4107,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
       "id": "2090959802427924889",
       "content": "Outgoing White House press secretary Karoline Leavitt to join pro-Trump political group https://t.co/19NIRAdcNf",
       "date": "2026-08-22T00:30:39.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 7526,
-        "like_count": 14,
+        "impression_count": 12175,
+        "like_count": 24,
         "quote_count": 0,
-        "reply_count": 7,
-        "retweet_count": 5
+        "reply_count": 12,
+        "retweet_count": 6
       }
     },
     {
@@ -1603,8 +1616,8 @@
       "date": "2026-08-22T00:01:25.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 11305,
-        "like_count": 8,
+        "impression_count": 17233,
+        "like_count": 10,
         "quote_count": 0,
         "reply_count": 4,
         "retweet_count": 2
@@ -1616,10 +1629,10 @@
       "date": "2026-08-21T23:01:26.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 8649,
-        "like_count": 19,
+        "impression_count": 10448,
+        "like_count": 23,
         "quote_count": 2,
-        "reply_count": 15,
+        "reply_count": 16,
         "retweet_count": 5
       }
     },
@@ -1628,11 +1641,11 @@
       "content": "Meghan, Duchess of Sussex in talks to return to acting https://t.co/gfcuUTBCyo",
       "date": "2026-08-21T22:10:12.000Z",
       "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 11805,
-        "like_count": 7,
-        "quote_count": 1,
-        "reply_count": 44,
+        "bookmark_count": 4,
+        "impression_count": 14017,
+        "like_count": 12,
+        "quote_count": 2,
+        "reply_count": 46,
         "retweet_count": 2
       }
     },
@@ -1642,7 +1655,7 @@
       "date": "2026-08-21T22:01:31.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 6475,
+        "impression_count": 7117,
         "like_count": 7,
         "quote_count": 0,
         "reply_count": 2,
@@ -1655,7 +1668,7 @@
       "date": "2026-08-21T21:40:25.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 11372,
+        "impression_count": 13029,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 2,
@@ -1668,7 +1681,7 @@
       "date": "2026-08-21T21:10:13.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 6200,
+        "impression_count": 6682,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 2,
@@ -1681,10 +1694,10 @@
       "date": "2026-08-21T21:01:20.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 13252,
-        "like_count": 24,
+        "impression_count": 14721,
+        "like_count": 27,
         "quote_count": 7,
-        "reply_count": 114,
+        "reply_count": 128,
         "retweet_count": 3
       }
     },
@@ -1694,24 +1707,11 @@
       "date": "2026-08-21T20:40:23.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 7302,
-        "like_count": 9,
+        "impression_count": 7922,
+        "like_count": 10,
         "quote_count": 0,
-        "reply_count": 6,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2090899478739870040",
-      "content": "Massachusetts woman sentenced for selling body parts stolen from Harvard morgue https://t.co/cFrc4QaAc4",
-      "date": "2026-08-21T20:30:57.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 9022,
-        "like_count": 14,
-        "quote_count": 1,
-        "reply_count": 6,
-        "retweet_count": 2
+        "reply_count": 7,
+        "retweet_count": 3
       }
     }
   ],
@@ -1722,9 +1722,9 @@
       "date": "2026-08-22T00:44:55.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2123,
+        "impression_count": 3266,
         "like_count": 0,
-        "quote_count": 0,
+        "quote_count": 1,
         "reply_count": 3,
         "retweet_count": 1
       }
@@ -1735,10 +1735,10 @@
       "date": "2026-08-21T21:42:02.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 7277,
-        "like_count": 13,
+        "impression_count": 8293,
+        "like_count": 14,
         "quote_count": 0,
-        "reply_count": 7,
+        "reply_count": 6,
         "retweet_count": 1
       }
     },
@@ -1748,7 +1748,7 @@
       "date": "2026-08-21T20:23:33.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 8607,
+        "impression_count": 9697,
         "like_count": 8,
         "quote_count": 0,
         "reply_count": 6,
@@ -1760,12 +1760,12 @@
       "content": "Two men were stabbed during prayers at a gurdwara on the outskirts of Edmonton — an incident that’s left Sikhs in Alberta worried for their safety.\n\nhttps://t.co/vhLPQOQQCg",
       "date": "2026-08-21T19:53:47.000Z",
       "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 18027,
-        "like_count": 61,
+        "bookmark_count": 6,
+        "impression_count": 22677,
+        "like_count": 73,
         "quote_count": 11,
-        "reply_count": 15,
-        "retweet_count": 17
+        "reply_count": 17,
+        "retweet_count": 20
       }
     },
     {
@@ -1774,7 +1774,7 @@
       "date": "2026-08-21T19:45:50.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4039,
+        "impression_count": 4281,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 0,
@@ -1787,7 +1787,7 @@
       "date": "2026-08-21T19:37:05.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 6974,
+        "impression_count": 7815,
         "like_count": 4,
         "quote_count": 0,
         "reply_count": 0,
@@ -1800,7 +1800,7 @@
       "date": "2026-08-21T18:18:58.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 6444,
+        "impression_count": 7127,
         "like_count": 5,
         "quote_count": 0,
         "reply_count": 1,
@@ -1813,11 +1813,11 @@
       "date": "2026-08-21T17:39:59.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 5969,
+        "impression_count": 6310,
         "like_count": 3,
         "quote_count": 0,
         "reply_count": 3,
-        "retweet_count": 3
+        "retweet_count": 4
       }
     },
     {
@@ -1826,8 +1826,8 @@
       "date": "2026-08-21T16:25:30.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 13095,
-        "like_count": 7,
+        "impression_count": 13909,
+        "like_count": 8,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 2
@@ -1839,10 +1839,10 @@
       "date": "2026-08-21T16:09:01.000Z",
       "metrics": {
         "bookmark_count": 4,
-        "impression_count": 11070,
+        "impression_count": 11996,
         "like_count": 6,
         "quote_count": 0,
-        "reply_count": 3,
+        "reply_count": 4,
         "retweet_count": 2
       }
     }
@@ -1854,11 +1854,11 @@
       "date": "2026-08-22T01:00:08.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 2163,
-        "like_count": 33,
+        "impression_count": 4759,
+        "like_count": 88,
         "quote_count": 1,
-        "reply_count": 12,
-        "retweet_count": 4
+        "reply_count": 26,
+        "retweet_count": 9
       }
     },
     {
@@ -1866,12 +1866,12 @@
       "content": "Christopher Dummitt: DEI discrimination is now written into the basic fabric of our institutions, incentivizing its use\nhttps://t.co/DOSgboOYTe",
       "date": "2026-08-22T00:32:03.000Z",
       "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 2362,
-        "like_count": 5,
-        "quote_count": 1,
-        "reply_count": 7,
-        "retweet_count": 3
+        "bookmark_count": 1,
+        "impression_count": 4028,
+        "like_count": 33,
+        "quote_count": 3,
+        "reply_count": 10,
+        "retweet_count": 8
       }
     },
     {
@@ -1880,11 +1880,11 @@
       "date": "2026-08-22T00:00:14.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2432,
-        "like_count": 2,
+        "impression_count": 3285,
+        "like_count": 3,
         "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 1
+        "reply_count": 3,
+        "retweet_count": 2
       }
     },
     {
@@ -1893,11 +1893,11 @@
       "date": "2026-08-22T00:00:13.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 3668,
-        "like_count": 19,
+        "impression_count": 4837,
+        "like_count": 26,
         "quote_count": 1,
-        "reply_count": 8,
-        "retweet_count": 4
+        "reply_count": 9,
+        "retweet_count": 7
       }
     },
     {
@@ -1906,11 +1906,11 @@
       "date": "2026-08-21T23:55:06.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3137,
-        "like_count": 17,
-        "quote_count": 0,
-        "reply_count": 13,
-        "retweet_count": 2
+        "impression_count": 4838,
+        "like_count": 38,
+        "quote_count": 1,
+        "reply_count": 30,
+        "retweet_count": 8
       }
     },
     {
@@ -1919,7 +1919,7 @@
       "date": "2026-08-21T23:30:07.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2271,
+        "impression_count": 2612,
         "like_count": 5,
         "quote_count": 0,
         "reply_count": 1,
@@ -1932,7 +1932,7 @@
       "date": "2026-08-21T23:00:21.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2195,
+        "impression_count": 2478,
         "like_count": 2,
         "quote_count": 0,
         "reply_count": 2,
@@ -1945,11 +1945,11 @@
       "date": "2026-08-21T23:00:12.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2528,
-        "like_count": 13,
+        "impression_count": 2886,
+        "like_count": 17,
         "quote_count": 1,
-        "reply_count": 3,
-        "retweet_count": 4
+        "reply_count": 4,
+        "retweet_count": 5
       }
     },
     {
@@ -1958,10 +1958,10 @@
       "date": "2026-08-21T22:55:05.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4426,
-        "like_count": 3,
+        "impression_count": 5670,
+        "like_count": 6,
         "quote_count": 3,
-        "reply_count": 17,
+        "reply_count": 18,
         "retweet_count": 1
       }
     },
@@ -1971,7 +1971,7 @@
       "date": "2026-08-21T22:30:08.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 2871,
+        "impression_count": 3272,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 3,
@@ -1986,11 +1986,11 @@
       "date": "2026-08-22T00:01:10.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 98,
+        "impression_count": 105,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 67
+        "retweet_count": 83
       }
     },
     {
@@ -1999,11 +1999,11 @@
       "date": "2026-08-21T23:59:16.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 103,
+        "impression_count": 113,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 7
+        "retweet_count": 10
       }
     },
     {
@@ -2011,12 +2011,12 @@
       "content": "In which Rudyard Griffiths and I attempt to make sense of a trade agreement that may not even be an agreement, based on anonymous leaks that may or may not accurately reflect its alleged contents. https://t.co/0NsulmPLz2",
       "date": "2026-08-21T23:53:51.000Z",
       "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 6105,
-        "like_count": 21,
+        "bookmark_count": 9,
+        "impression_count": 7468,
+        "like_count": 27,
         "quote_count": 0,
-        "reply_count": 8,
-        "retweet_count": 3
+        "reply_count": 11,
+        "retweet_count": 4
       }
     },
     {
@@ -2025,10 +2025,10 @@
       "date": "2026-08-21T23:38:17.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3360,
-        "like_count": 15,
+        "impression_count": 3819,
+        "like_count": 18,
         "quote_count": 0,
-        "reply_count": 4,
+        "reply_count": 6,
         "retweet_count": 8
       }
     },
@@ -2038,7 +2038,7 @@
       "date": "2026-08-21T20:36:07.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 115,
+        "impression_count": 118,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2051,7 +2051,7 @@
       "date": "2026-08-21T20:35:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 106,
+        "impression_count": 109,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2064,11 +2064,11 @@
       "date": "2026-08-21T20:34:42.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 106,
+        "impression_count": 110,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 5063
+        "retweet_count": 5526
       }
     },
     {
@@ -2077,11 +2077,11 @@
       "date": "2026-08-21T20:34:19.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 118,
+        "impression_count": 122,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 3
+        "retweet_count": 4
       }
     },
     {
@@ -2090,10 +2090,10 @@
       "date": "2026-08-21T18:54:21.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 3818,
+        "impression_count": 3985,
         "like_count": 12,
         "quote_count": 0,
-        "reply_count": 4,
+        "reply_count": 5,
         "retweet_count": 2
       }
     },
@@ -2103,11 +2103,11 @@
       "date": "2026-08-21T18:36:46.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 136,
+        "impression_count": 141,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 36
+        "retweet_count": 51
       }
     }
   ],
@@ -2118,11 +2118,11 @@
       "date": "2026-08-21T23:22:42.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 271,
+        "impression_count": 302,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 145
+        "retweet_count": 157
       }
     },
     {
@@ -2131,11 +2131,11 @@
       "date": "2026-08-21T21:41:58.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 334,
+        "impression_count": 357,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 17
+        "retweet_count": 18
       }
     },
     {
@@ -2144,11 +2144,11 @@
       "date": "2026-08-21T18:54:41.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 391,
+        "impression_count": 402,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 45
+        "retweet_count": 53
       }
     },
     {
@@ -2157,7 +2157,7 @@
       "date": "2026-08-21T14:17:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 376,
+        "impression_count": 384,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2170,11 +2170,11 @@
       "date": "2026-08-20T21:56:48.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 476,
+        "impression_count": 478,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 259
+        "retweet_count": 265
       }
     },
     {
@@ -2183,7 +2183,7 @@
       "date": "2026-08-20T21:56:15.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 440,
+        "impression_count": 442,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2196,7 +2196,7 @@
       "date": "2026-08-20T21:56:03.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 430,
+        "impression_count": 432,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2209,7 +2209,7 @@
       "date": "2026-08-20T15:12:21.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 427,
+        "impression_count": 429,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2235,7 +2235,7 @@
       "date": "2026-08-18T21:26:16.000Z",
       "metrics": {
         "bookmark_count": 28,
-        "impression_count": 80122,
+        "impression_count": 80194,
         "like_count": 1314,
         "quote_count": 13,
         "reply_count": 116,
@@ -2250,7 +2250,7 @@
       "date": "2026-08-16T00:18:33.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 207,
+        "impression_count": 209,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
@@ -2276,7 +2276,7 @@
       "date": "2026-08-09T18:08:34.000Z",
       "metrics": {
         "bookmark_count": 27,
-        "impression_count": 18752,
+        "impression_count": 18757,
         "like_count": 105,
         "quote_count": 3,
         "reply_count": 14,
@@ -2302,7 +2302,7 @@
       "date": "2026-08-08T14:30:04.000Z",
       "metrics": {
         "bookmark_count": 53,
-        "impression_count": 73767,
+        "impression_count": 73775,
         "like_count": 231,
         "quote_count": 14,
         "reply_count": 45,
@@ -2341,7 +2341,7 @@
       "date": "2026-06-25T12:00:02.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 5303,
+        "impression_count": 5305,
         "like_count": 53,
         "quote_count": 2,
         "reply_count": 11,
@@ -2377,16 +2377,68 @@
   ],
   "DavidColetto": [
     {
+      "id": "2090997911945679165",
+      "content": "RT @DavidColetto: “That feeling of betrayal, I don’t think has really left.”\n\nI spoke with CBC’s The National about the public opinion challenge facing Mark Carney as Canada gets closer to a possible deal with the U.S. There’s still very little appetite for making concessions to Donald Trump.",
+      "date": "2026-08-22T03:02:05.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2090990024913555493",
+      "content": "RT @DavidColetto: A Canada-U.S. trade deal may be getting closer. Selling it to Canadians could be the harder part.\n\nI joined CBC’s The National to talk about why the details matter, the public’s resistance to concessions, and what could be one of Mark Carney’s biggest political tests yet.",
+      "date": "2026-08-22T02:30:45.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2090986067365343716",
+      "content": "One of the most striking findings in our new poll: concern about private-pay health care extends well beyond the left.\n\nAmong Conservative supporters, 81% worry about higher patient costs and 76% about unequal access based on income.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/lY1Kf4IP4c",
+      "date": "2026-08-22T02:15:01.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 450,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2090982720474333235",
+      "content": "RT @DavidColetto: Canadians aren’t giving up on public health care. They want it fixed.\n\n85% say universal care based on need, not income, is a core Canadian value. 80% believe the public system can meet Canadians’ needs with more investment.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/OLbnfBTmlx",
+      "date": "2026-08-22T02:01:43.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 4
+      }
+    },
+    {
       "id": "2090970187692478926",
       "content": "RT @markramzyy: Sources tell @TorontoStar’s Justin Ling that Ottawa has told publishers to be ready for the death of the Online News Act as a concession in trade talks with Donald Trump https://t.co/qmmIsqnOFY",
       "date": "2026-08-22T01:11:55.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 38,
+        "impression_count": 49,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 263
+        "retweet_count": 272
       }
     },
     {
@@ -2395,24 +2447,11 @@
       "date": "2026-08-22T01:11:43.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 36,
+        "impression_count": 45,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 8
-      }
-    },
-    {
-      "id": "2090967747387941107",
-      "content": "RT @DavidColetto: “That feeling of betrayal, I don’t think has really left.”\n\nI spoke with CBC’s The National about the public opinion challenge facing Mark Carney as Canada gets closer to a possible deal with the U.S. There’s still very little appetite for making concessions to Donald Trump.",
-      "date": "2026-08-22T01:02:13.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 1
       }
     },
     {
@@ -2434,24 +2473,11 @@
       "date": "2026-08-22T00:30:01.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 938,
-        "like_count": 3,
+        "impression_count": 1517,
+        "like_count": 4,
         "quote_count": 0,
         "reply_count": 1,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2090952676486033880",
-      "content": "RT @DavidColetto: Canadians aren’t giving up on public health care. They want it fixed.\n\n85% say universal care based on need, not income, is a core Canadian value. 80% believe the public system can meet Canadians’ needs with more investment.\n\nhttps://t.co/Qt0mCPOSxV https://t.co/OLbnfBTmlx",
-      "date": "2026-08-22T00:02:20.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 0,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 4
+        "retweet_count": 1
       }
     },
     {
@@ -2479,32 +2505,6 @@
         "reply_count": 0,
         "retweet_count": 1
       }
-    },
-    {
-      "id": "2090906839705928156",
-      "content": "“That feeling of betrayal, I don’t think has really left.”\n\nI spoke with CBC’s The National about the public opinion challenge facing Mark Carney as Canada gets closer to a possible deal with the U.S. There’s still very little appetite for making concessions to Donald Trump.",
-      "date": "2026-08-21T21:00:12.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1926,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 1
-      }
-    },
-    {
-      "id": "2090901309738144089",
-      "content": "RT @AshleyBurkeCBC: An industry source said a gov't official confirmed Canada's potential deal with the U.S. includes a change to the way dairy import licenses are allocated by the gov't. It could mean an increase in the supply of U.S. dairy products in Canadian retail stores, the source said.",
-      "date": "2026-08-21T20:38:13.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 58,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 34
-      }
     }
   ],
   "338Canada": [
@@ -2514,7 +2514,7 @@
       "date": "2026-08-19T17:18:18.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4745,
+        "impression_count": 4747,
         "like_count": 52,
         "quote_count": 4,
         "reply_count": 17,
@@ -2527,7 +2527,7 @@
       "date": "2026-08-19T14:56:24.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 3281,
+        "impression_count": 3282,
         "like_count": 28,
         "quote_count": 3,
         "reply_count": 8,
@@ -2553,7 +2553,7 @@
       "date": "2026-08-18T12:40:39.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 4247,
+        "impression_count": 4249,
         "like_count": 39,
         "quote_count": 1,
         "reply_count": 12,
@@ -2579,7 +2579,7 @@
       "date": "2026-08-17T11:55:22.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 3811,
+        "impression_count": 3815,
         "like_count": 8,
         "quote_count": 0,
         "reply_count": 0,
@@ -2592,7 +2592,7 @@
       "date": "2026-08-17T09:58:25.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 6124,
+        "impression_count": 6126,
         "like_count": 88,
         "quote_count": 4,
         "reply_count": 5,
@@ -2605,7 +2605,7 @@
       "date": "2026-08-16T21:28:01.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 11928,
+        "impression_count": 11932,
         "like_count": 151,
         "quote_count": 8,
         "reply_count": 15,
@@ -2618,7 +2618,7 @@
       "date": "2026-08-16T17:55:54.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 4060,
+        "impression_count": 4061,
         "like_count": 13,
         "quote_count": 3,
         "reply_count": 1,
@@ -2631,7 +2631,7 @@
       "date": "2026-08-16T17:48:37.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 24430,
+        "impression_count": 24434,
         "like_count": 49,
         "quote_count": 5,
         "reply_count": 20,
@@ -2641,16 +2641,42 @@
   ],
   "brianlilley": [
     {
+      "id": "2090992928080400883",
+      "content": "If I said this about a CBC reporter then David Cochrane would be in my DMs attacking me for questioning the reporter.\nHow do I know that?\nBecause Cochrane has done that to me when I knew who was \"leaking\" to a CBC reporter.\nCochrane is a partisan, he just doesn't think he is one. https://t.co/JRHr9Lo0mY",
+      "date": "2026-08-22T02:42:17.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 3799,
+        "like_count": 124,
+        "quote_count": 0,
+        "reply_count": 14,
+        "retweet_count": 21
+      }
+    },
+    {
+      "id": "2090984389282857213",
+      "content": "RT @tedcruz: Not real, but funny as hell! (And the mullet is not that far off….)\n\nAnd who doesn’t love Tom Sawyer! https://t.co/NTDKwPtaeE",
+      "date": "2026-08-22T02:08:21.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 307,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 22
+      }
+    },
+    {
       "id": "2090962993542496726",
       "content": "RT @TheTorontoSun: MCCAUGHEY: AOC is unfit to lead the U.S. https://t.co/pAehAlotxF https://t.co/uSflArblfB",
       "date": "2026-08-22T00:43:20.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 259,
+        "impression_count": 306,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 3
+        "retweet_count": 4
       }
     },
     {
@@ -2658,25 +2684,12 @@
       "content": "This was a really cheap shot by Cochrane who defends every CBC reporter when they are called out. https://t.co/muxIzQZIXl",
       "date": "2026-08-22T00:32:12.000Z",
       "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 12251,
-        "like_count": 151,
-        "quote_count": 0,
-        "reply_count": 9,
-        "retweet_count": 16
-      }
-    },
-    {
-      "id": "2090960084234854517",
-      "content": "RT @KellyGerMalone: I’d love to not be dragged into this. I’m from Sask. Have worked my ass off in DC for 2+ years. Why are CBC scoops legit but my CP scoop is not. I don’t social media much so will delete this. But wow was disappointed to have it DM’d to me multiple times after hours @ USTR https://t.co/DSOX7X1kV6",
-      "date": "2026-08-22T00:31:46.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 254,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 27
+        "bookmark_count": 6,
+        "impression_count": 19339,
+        "like_count": 220,
+        "quote_count": 1,
+        "reply_count": 11,
+        "retweet_count": 21
       }
     },
     {
@@ -2685,11 +2698,11 @@
       "date": "2026-08-21T23:15:40.000Z",
       "metrics": {
         "bookmark_count": 2,
-        "impression_count": 3294,
-        "like_count": 43,
+        "impression_count": 3871,
+        "like_count": 53,
         "quote_count": 0,
-        "reply_count": 13,
-        "retweet_count": 5
+        "reply_count": 15,
+        "retweet_count": 6
       }
     },
     {
@@ -2697,12 +2710,12 @@
       "content": "Lots of whispers from the Canadian side, nothing concrete.\nThis is the most detail that has been made public.\nAt this point, Carney, and by extension the rest of the country, has a tough choice.\nWhich do we choose?\n1. A bad deal\n2. A worse deal https://t.co/sAeifPz3eq",
       "date": "2026-08-21T23:15:40.000Z",
       "metrics": {
-        "bookmark_count": 10,
-        "impression_count": 37828,
-        "like_count": 125,
+        "bookmark_count": 13,
+        "impression_count": 49922,
+        "like_count": 168,
         "quote_count": 3,
-        "reply_count": 28,
-        "retweet_count": 15
+        "reply_count": 34,
+        "retweet_count": 17
       }
     },
     {
@@ -2711,11 +2724,11 @@
       "date": "2026-08-21T22:56:32.000Z",
       "metrics": {
         "bookmark_count": 1,
-        "impression_count": 10305,
-        "like_count": 438,
-        "quote_count": 2,
-        "reply_count": 27,
-        "retweet_count": 30
+        "impression_count": 12652,
+        "like_count": 539,
+        "quote_count": 3,
+        "reply_count": 35,
+        "retweet_count": 37
       }
     },
     {
@@ -2724,11 +2737,11 @@
       "date": "2026-08-21T21:24:37.000Z",
       "metrics": {
         "bookmark_count": 6,
-        "impression_count": 24148,
-        "like_count": 408,
+        "impression_count": 29324,
+        "like_count": 518,
         "quote_count": 3,
-        "reply_count": 49,
-        "retweet_count": 20
+        "reply_count": 56,
+        "retweet_count": 25
       }
     },
     {
@@ -2737,11 +2750,11 @@
       "date": "2026-08-21T21:13:16.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 346,
+        "impression_count": 359,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 152
+        "retweet_count": 183
       }
     },
     {
@@ -2750,24 +2763,11 @@
       "date": "2026-08-21T17:04:41.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 428,
+        "impression_count": 439,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 12
-      }
-    },
-    {
-      "id": "2090847185348792359",
-      "content": "And there are people in Quebec screaming about this.\nPretty standard stuff. https://t.co/fv2v7K6R8M",
-      "date": "2026-08-21T17:03:09.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 11454,
-        "like_count": 58,
-        "quote_count": 1,
-        "reply_count": 8,
-        "retweet_count": 8
       }
     }
   ]
