@@ -111,7 +111,9 @@ function expandRetweet(tweet, timeline) {
 }
 
 // Returns an array of simplified tweets, or null on failure.
-async function fetchTimeline(handle, userId, { maxResults, keep }) {
+// Pay-per-use billing charges per post read, so pass sinceId (the newest
+// tweet id we already have) to only fetch — and pay for — genuinely new posts.
+async function fetchTimeline(handle, userId, { maxResults, keep, sinceId }) {
   try {
     const timeline = await withRateLimit(() =>
       client.v2.userTimeline(userId, {
@@ -119,6 +121,7 @@ async function fetchTimeline(handle, userId, { maxResults, keep }) {
         exclude: ['replies'],
         'tweet.fields': ['created_at', 'public_metrics', 'referenced_tweets'],
         expansions: ['referenced_tweets.id'],
+        ...(sinceId ? { since_id: sinceId } : {}),
       })
     );
 
@@ -171,14 +174,23 @@ async function fetchTweets() {
       failures++;
       continue;
     }
-    const fetched = await fetchTimeline(handle, idCache[handle], { maxResults: 15, keep: 10 });
-    if (fetched && fetched.length > 0) {
-      tweetsData[handle] = fetched;
-      console.log(`✅ Fetched ${fetched.length} posts for @${handle}`);
-    } else {
+    // Stored posts are newest-first; only fetch (and pay for) newer ones.
+    const prev = tweetsData[handle] || [];
+    const fetched = await fetchTimeline(handle, idCache[handle], {
+      maxResults: 15,
+      keep: 10,
+      sinceId: prev[0]?.id,
+    });
+    if (fetched === null) {
       // Keep whatever we had rather than blanking the feed.
-      failures += fetched === null ? 1 : 0;
-      console.warn(`⚠️ No posts for @${handle}; keeping previous data`);
+      failures++;
+      console.warn(`⚠️ Fetch failed for @${handle}; keeping previous data`);
+    } else if (fetched.length === 0) {
+      console.log(`✅ No new posts for @${handle}`);
+    } else {
+      const seen = new Set(fetched.map(t => t.id));
+      tweetsData[handle] = [...fetched, ...prev.filter(t => !seen.has(t.id))].slice(0, 10);
+      console.log(`✅ Fetched ${fetched.length} new posts for @${handle}`);
     }
   }
 
@@ -194,11 +206,18 @@ async function fetchTweets() {
     for (const handle of mpHandles) {
       done++;
       if (!idCache[handle]) continue;
-      const fetched = await fetchTimeline(handle, idCache[handle], { maxResults: 5, keep: 5 });
+      const prev = (mpTweets[handle] || []).filter(t => t.date && new Date(t.date).getTime() >= cutoff);
+      const fetched = await fetchTimeline(handle, idCache[handle], {
+        maxResults: 5,
+        keep: 5,
+        sinceId: prev[0]?.id,
+      });
       if (fetched === null) continue; // transient failure: keep previous data
-      const recent = fetched.filter(t => t.date && new Date(t.date).getTime() >= cutoff);
-      if (recent.length > 0) {
-        mpTweets[handle] = recent;
+      const fresh = fetched.filter(t => t.date && new Date(t.date).getTime() >= cutoff);
+      const seen = new Set(fresh.map(t => t.id));
+      const merged = [...fresh, ...prev.filter(t => !seen.has(t.id))].slice(0, 5);
+      if (merged.length > 0) {
+        mpTweets[handle] = merged;
         active++;
       } else {
         // Inactive for 3+ months: the site shouldn't show them at all.
