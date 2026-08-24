@@ -272,14 +272,6 @@
   "appointedDate": "2018"
  },
  {
-  "name": "Donna Dasko",
-  "group": "Independent Senators Group",
-  "color": "#4a90e2",
-  "province": "ON",
-  "appointedBy": "Trudeau, J.",
-  "appointedDate": "2018"
- },
- {
   "name": "Colin Deacon",
   "group": "Canadian Senators Group",
   "color": "#6f42c1",
@@ -292,14 +284,6 @@
   "group": "Progressive Senate Group",
   "color": "#e83e8c",
   "province": "QC (Inkerman)",
-  "appointedBy": "Trudeau, J.",
-  "appointedDate": "2018"
- },
- {
-  "name": "Bev Busson",
-  "group": "Independent Senators Group",
-  "color": "#4a90e2",
-  "province": "BC",
   "appointedBy": "Trudeau, J.",
   "appointedDate": "2018"
  },
@@ -766,6 +750,22 @@
   "province": "MB",
   "appointedBy": "Mark Carney",
   "appointedDate": "2026"
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
  },
  {
   "name": "Vacant Seat",
