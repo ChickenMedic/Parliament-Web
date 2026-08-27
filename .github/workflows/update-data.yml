@@ -33,11 +33,13 @@ jobs:
 
       # Each fetch continues on error so one flaky upstream doesn't block the rest.
       # --mps also sweeps every MP's timeline (only recent posts are kept).
-      - name: Fetch X feeds (incl. MP sweep)
-        continue-on-error: true
-        env:
-          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
-        run: node fetch-tweets.js --mps
+      # Paused while X API credits are unavailable — restore after trimming the
+      # account list.
+      # - name: Fetch X feeds (incl. MP sweep)
+      #   continue-on-error: true
+      #   env:
+      #     TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+      #   run: node fetch-tweets.js --mps
 
       - name: Fetch leader news
         continue-on-error: true
