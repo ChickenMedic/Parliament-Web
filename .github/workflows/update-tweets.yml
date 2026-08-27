@@ -1,8 +1,10 @@
 name: Update X feeds
 
 on:
-  schedule:
-    - cron: '15 */2 * * *'   # every 2 hours; curated feeds only (MP sweep is daily)
+  # Paused while X API credits are unavailable — restore the schedule after
+  # trimming the account list.
+  # schedule:
+  #   - cron: '15 */2 * * *'   # every 2 hours; curated feeds only (MP sweep is daily)
   workflow_dispatch:
 
 permissions:
