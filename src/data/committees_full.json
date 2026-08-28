@@ -98,7 +98,6 @@
    "Ziad Aboultaif",
    "Braedon Clark",
    "Mona Fortier",
-   "Steven Guilbeault",
    "Shelby Kramp-Neuman",
    "Robert Oliphant",
    "Lianne Rood",
@@ -112,7 +111,6 @@
    "Ziad Aboultaif": "Conservative",
    "Braedon Clark": "Liberal",
    "Mona Fortier": "Liberal",
-   "Steven Guilbeault": "Liberal",
    "Shelby Kramp-Neuman": "Conservative",
    "Robert Oliphant": "Liberal",
    "Lianne Rood": "Conservative",
@@ -120,7 +118,7 @@
    "Anita Vandenbeld": "Liberal"
   },
   "partySeats": {
-   "Liberal": 7,
+   "Liberal": 6,
    "Conservative": 4,
    "Bloc": 1
   }
