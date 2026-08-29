@@ -31,7 +31,7 @@ export const linkifyTweet = (content: string) =>
     return word + ' ';
   });
 
-const relativeDate = (d: string) => {
+export const relativeDate = (d: string) => {
   const then = new Date(d);
   const diffMs = Date.now() - then.getTime();
   const hours = diffMs / (1000 * 60 * 60);
@@ -77,7 +77,15 @@ export const TweetCard = ({ tweet, name, handle, avatar, avatarShape = 'circle',
         <strong style={{ color: 'white', fontSize: '14px' }}>{name}</strong>
         <a href={`https://x.com/${handle}`} target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12.5px', textDecoration: 'none' }}>@{handle}</a>
         <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '12.5px' }}>·</span>
-        <span style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12.5px' }}>{relativeDate(tweet.date)}</span>
+        <a
+          href={`https://x.com/${handle}/status/${tweet.id}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="View live on X"
+          style={{ color: 'rgba(255,255,255,0.4)', fontSize: '12.5px', textDecoration: 'none' }}
+        >
+          {relativeDate(tweet.date)} ↗
+        </a>
         {badge && (
           <span style={{ marginLeft: 'auto', background: `${badgeColor || '#808080'}22`, border: `1px solid ${badgeColor || '#808080'}55`, color: badgeColor || 'rgba(255,255,255,0.6)', fontSize: '10px', fontWeight: 'bold', padding: '2px 8px', borderRadius: '10px', textTransform: 'uppercase', letterSpacing: '0.5px', whiteSpace: 'nowrap' }}>
             {badge}

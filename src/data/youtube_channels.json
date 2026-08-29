@@ -1,0 +1,50 @@
+[
+ {
+  "handle": "CPAC",
+  "name": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "channelId": "UCFZSV_So_OaXgXVzgu58tJQ"
+ },
+ {
+  "handle": "tvotoday",
+  "name": "TVO Today",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "channelId": "UCu_u-P3cBFO7D-sAjxd_I-w"
+ },
+ {
+  "handle": "JJMcCullough",
+  "name": "J.J. McCullough",
+  "about": "Conservative-leaning commentary",
+  "channelId": "UCpdhkmCzQe7xUX9VAVdTk2g"
+ },
+ {
+  "handle": "junonews",
+  "name": "Juno News",
+  "about": "Independent conservative outlet (formerly True North)",
+  "channelId": "UC9jipu23ffJC0hYrX7Y8p_A"
+ },
+ {
+  "handle": "TheBreachMedia",
+  "name": "The Breach",
+  "about": "Independent progressive outlet",
+  "channelId": "UCJTO9R9tqH1vQTB-h5UcTwQ"
+ },
+ {
+  "handle": "canadaland",
+  "name": "Canadaland",
+  "about": "Media criticism and politics podcast",
+  "channelId": "UCzYfOnGGBUU0wwZj3yzkQbg"
+ },
+ {
+  "handle": "TheHubCanada",
+  "name": "The Hub",
+  "about": "Centre-right policy commentary",
+  "channelId": "UC52ln4mWFbs3hOL85_iA9Ww"
+ },
+ {
+  "handle": "RealTalkRJ",
+  "name": "Real Talk with Ryan Jespersen",
+  "about": "Independent centrist talk show",
+  "channelId": "UC80hvWc5W9vLqWua8pN_cgg"
+ }
+]
