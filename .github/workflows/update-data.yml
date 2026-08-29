@@ -2,7 +2,7 @@ name: Update site data
 
 on:
   schedule:
-    - cron: '0 10 * * *'   # daily, 10:00 UTC (~6am ET)
+    - cron: '0 13 * * *'   # daily, 13:00 UTC (8am EST) — inside the site's active window
   workflow_dispatch:
 
 permissions:
@@ -32,14 +32,14 @@ jobs:
       - run: pip install -r requirements.txt
 
       # Each fetch continues on error so one flaky upstream doesn't block the rest.
-      # --mps also sweeps every MP's timeline (only recent posts are kept).
-      # Paused while X API credits are unavailable — restore after trimming the
-      # account list.
-      # - name: Fetch X feeds (incl. MP sweep)
-      #   continue-on-error: true
-      #   env:
-      #     TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
-      #   run: node fetch-tweets.js --mps
+      # --mps sweeps front-bench MPs daily and backbenchers on a 7-day rotation;
+      # while X API credits are unavailable this fails harmlessly and resumes on
+      # its own once credits are topped up.
+      - name: Fetch X feeds (incl. MP sweep)
+        continue-on-error: true
+        env:
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        run: node fetch-tweets.js --mps
 
       - name: Fetch leader news
         continue-on-error: true

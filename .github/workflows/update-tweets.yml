@@ -1,10 +1,11 @@
-name: Update X feeds
+name: Update feeds
 
 on:
-  # Paused while X API credits are unavailable — restore the schedule after
-  # trimming the account list.
-  # schedule:
-  #   - cron: '15 */2 * * *'   # every 2 hours; curated feeds only (MP sweep is daily)
+  schedule:
+    # Every 4 hours during waking hours, quiet overnight (midnight-8am EST).
+    # Cron is UTC; these are 8:15am, 12:15pm, 4:15pm, 8:15pm EST (fixed
+    # offset — runs shift an hour earlier local time during daylight saving).
+    - cron: '15 13,17,21,1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  tweets:
+  feeds:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -27,10 +28,22 @@ jobs:
 
       - run: npm ci
 
+      # continue-on-error: while X API credits are unavailable this step fails
+      # harmlessly and the free feeds below still refresh; it resumes on its
+      # own once credits are topped up.
       - name: Fetch curated X feeds
+        continue-on-error: true
         env:
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: node fetch-tweets.js
+
+      - name: Fetch news headlines
+        continue-on-error: true
+        run: python3 fetch_news.py
+
+      - name: Fetch YouTube coverage
+        continue-on-error: true
+        run: python3 fetch_youtube.py
 
       - name: Commit and push updated data
         run: |
@@ -40,7 +53,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new posts."
           else
-            git commit -m "Refresh X feeds"
+            git commit -m "Refresh feeds"
             git pull --rebase origin master
             git push
           fi
