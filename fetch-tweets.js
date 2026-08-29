@@ -23,6 +23,7 @@ const client = new TwitterApi(BEARER_TOKEN);
 
 const FEEDS_PATH = path.join(__dirname, 'src', 'data', 'feeds.json');
 const POLITICIANS_PATH = path.join(__dirname, 'src', 'data', 'politicians.json');
+const ROLES_PATH = path.join(__dirname, 'src', 'data', 'roles.json');
 const OUTPUT_PATH = path.join(__dirname, 'src', 'data', 'tweets.json');
 const MP_OUTPUT_PATH = path.join(__dirname, 'src', 'data', 'mp_tweets.json');
 const PROFILES_PATH = path.join(__dirname, 'src', 'data', 'x_profiles.json');
@@ -30,10 +31,22 @@ const PROFILES_PATH = path.join(__dirname, 'src', 'data', 'x_profiles.json');
 const ID_CACHE_PATH = path.join(__dirname, 'twitter_user_ids.json');
 
 // The frequent (every-2-hours) run only covers the curated feeds in feeds.json.
-// The daily run passes --mps to also sweep every MP with a known X handle.
-const INCLUDE_MPS = process.argv.includes('--mps');
+// The daily run passes --mps to also sweep MPs with a known X handle, in two
+// tiers: front-bench MPs (anyone in roles.json — cabinet, secretaries of
+// state, opposition critics) every run, backbenchers on a 7-day rotation so
+// each is refreshed weekly. --mps-all forces a full sweep.
+const INCLUDE_MPS = process.argv.includes('--mps') || process.argv.includes('--mps-all');
+const SWEEP_ALL = process.argv.includes('--mps-all');
+const ROTATION_DAYS = 7;
 // MP posts older than this are not shown on the site, so don't keep them.
 const MP_MAX_AGE_DAYS = 90;
+
+// Stable handle → rotation-slot assignment, matched against the day number.
+const rotationSlot = handle => {
+  let h = 0;
+  for (const c of handle.toLowerCase()) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return h % ROTATION_DAYS;
+};
 
 function loadJson(file, fallback) {
   try {
@@ -158,12 +171,24 @@ async function fetchTweets() {
 
   const mainHandles = Object.keys(feeds);
   const politicians = loadJson(POLITICIANS_PATH, { objects: [] }).objects;
-  const mpHandles = INCLUDE_MPS
+  const roles = loadJson(ROLES_PATH, {});
+  const frontbench = new Set(
+    politicians.filter(p => roles[p.name] && p.twitter).map(p => p.twitter)
+  );
+  const daySlot = Math.floor(Date.now() / 86400000) % ROTATION_DAYS;
+  const allMpHandles = INCLUDE_MPS
     ? politicians
         .map(p => p.twitter)
         .filter(Boolean)
         .filter(h => !mainHandles.some(m => m.toLowerCase() === h.toLowerCase()))
     : [];
+  const mpHandles = allMpHandles.filter(
+    h => SWEEP_ALL || frontbench.has(h) || rotationSlot(h) === daySlot
+  );
+  if (INCLUDE_MPS) {
+    console.log(`   MP sweep: ${mpHandles.length} of ${allMpHandles.length} handles today `
+      + `(${[...frontbench].filter(h => mpHandles.includes(h)).length} front bench, rotation slot ${daySlot})`);
+  }
 
   await resolveUsers([...mainHandles, ...mpHandles], idCache, profiles);
 
@@ -226,7 +251,9 @@ async function fetchTweets() {
       if (done % 25 === 0) console.log(`   ...MP sweep ${done}/${mpHandles.length} (${active} active)`);
       await sleep(400);
     }
-    const validMp = new Set(mpHandles);
+    // Prune handles no longer in politicians.json — NOT handles merely outside
+    // today's rotation slice, whose stored posts must survive between sweeps.
+    const validMp = new Set(allMpHandles);
     for (const handle of Object.keys(mpTweets)) {
       if (!validMp.has(handle)) delete mpTweets[handle];
     }
