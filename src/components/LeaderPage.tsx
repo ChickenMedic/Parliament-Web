@@ -61,7 +61,7 @@ const fmtNewsDate = (d: string) => {
 
 const sectionHeading: React.CSSProperties = {
   margin: 0,
-  fontSize: '13px',
+  fontSize: '15px',
   textTransform: 'uppercase',
   letterSpacing: '1.5px',
   color: 'var(--text-secondary)',
@@ -113,6 +113,12 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
             {leader.bio}
           </p>
         </div>
+        <NavLink
+          to={who === 'pm' ? '/parties?party=Liberal&filter=cabinet' : '/parties?party=Conservative&filter=shadow'}
+          style={{ alignSelf: 'center', padding: '12px 22px', background: color, color: 'white', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold', fontSize: '14px', whiteSpace: 'nowrap' }}
+        >
+          View {rosterLabel} &rarr;
+        </NavLink>
       </div>
 
       <div style={{ display: 'flex', gap: '32px', marginTop: '28px', flexWrap: 'wrap' }}>
@@ -144,16 +150,42 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
           </div>
         </div>
 
-        {/* ── Polling + news ── */}
+        {/* ── Videos + polling + news ── */}
         <div style={{ flex: 1, minWidth: '320px', display: 'flex', flexDirection: 'column', gap: '28px' }}>
+          {videos.length > 0 && (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '12px' }}>
+                <h2 style={sectionHeading}>Recent Videos</h2>
+                <a href={`https://www.youtube.com/@${ytHandle}`} target="_blank" rel="noopener noreferrer" style={{ fontSize: '13px', color: '#f87171', textDecoration: 'none', fontWeight: 'bold' }}>
+                  YouTube channel ↗
+                </a>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                {videos.map(v => (
+                  <a key={v.videoId} href={`https://www.youtube.com/watch?v=${v.videoId}`} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', gap: '12px', textDecoration: 'none', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '10px', borderRadius: '8px', alignItems: 'center' }}>
+                    {v.thumbnail && (
+                      <img src={v.thumbnail} alt="" loading="lazy" style={{ width: '112px', borderRadius: '6px', flexShrink: 0 }} />
+                    )}
+                    <div style={{ minWidth: 0 }}>
+                      <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.45)', marginBottom: '3px' }}>
+                        <span style={{ color: '#f87171', fontWeight: 'bold' }}>{v.channel}</span> • {fmtNewsDate(v.date)}
+                      </div>
+                      <div style={{ fontSize: '14px', color: 'white', fontWeight: 600, lineHeight: 1.4 }}>{v.title}</div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
             <h2 style={sectionHeading}>Public Opinion</h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '12px' }}>
               {(leader.ratings as Rating[]).map(r => (
                 <div key={r.pollster} style={{ background: 'rgba(255,255,255,0.03)', padding: '16px', borderRadius: '10px', border: '1px solid rgba(255,255,255,0.05)' }}>
                   <div style={{ fontSize: '28px', fontWeight: 'bold', color: r.tone === 'positive' ? '#10b981' : '#f59e0b', lineHeight: 1 }}>{r.value}</div>
-                  <div style={{ fontSize: '12.5px', color: 'rgba(255,255,255,0.8)', marginTop: '8px', lineHeight: 1.35 }}>{r.metric}</div>
-                  <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.4)', marginTop: '6px' }}>
+                  <div style={{ fontSize: '13.5px', color: 'rgba(255,255,255,0.8)', marginTop: '8px', lineHeight: 1.35 }}>{r.metric}</div>
+                  <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.4)', marginTop: '6px' }}>
                     <a href={r.url} target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>{r.pollster}</a> • {r.date}
                   </div>
                 </div>
@@ -169,10 +201,10 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
               {news.slice(0, 6).map((n, i) => (
                 <a key={i} href={n.link} target="_blank" rel="noopener noreferrer" style={{ display: 'block', textDecoration: 'none', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '12px 14px', borderRadius: '8px' }}>
-                  <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.45)', marginBottom: '3px' }}>
+                  <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.45)', marginBottom: '3px' }}>
                     <span style={{ color: 'var(--accent-color)', fontWeight: 'bold' }}>{n.source || 'News'}</span> • {fmtNewsDate(n.date)}
                   </div>
-                  <div style={{ fontSize: '13.5px', color: 'white', fontWeight: 600, lineHeight: 1.4 }}>{n.title}</div>
+                  <div style={{ fontSize: '14.5px', color: 'white', fontWeight: 600, lineHeight: 1.4 }}>{n.title}</div>
                 </a>
               ))}
               {news.length === 0 && (
@@ -183,35 +215,6 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
             </div>
           </div>
 
-          {videos.length > 0 && (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '12px' }}>
-                <h2 style={sectionHeading}>Recent Videos</h2>
-                <a href={`https://www.youtube.com/@${ytHandle}`} target="_blank" rel="noopener noreferrer" style={{ fontSize: '12.5px', color: '#f87171', textDecoration: 'none', fontWeight: 'bold' }}>
-                  YouTube channel ↗
-                </a>
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                {videos.map(v => (
-                  <a key={v.videoId} href={`https://www.youtube.com/watch?v=${v.videoId}`} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', gap: '12px', textDecoration: 'none', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '10px', borderRadius: '8px', alignItems: 'center' }}>
-                    {v.thumbnail && (
-                      <img src={v.thumbnail} alt="" loading="lazy" style={{ width: '104px', borderRadius: '6px', flexShrink: 0 }} />
-                    )}
-                    <div style={{ minWidth: 0 }}>
-                      <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.45)', marginBottom: '3px' }}>
-                        <span style={{ color: '#f87171', fontWeight: 'bold' }}>{v.channel}</span> • {fmtNewsDate(v.date)}
-                      </div>
-                      <div style={{ fontSize: '13px', color: 'white', fontWeight: 600, lineHeight: 1.4 }}>{v.title}</div>
-                    </div>
-                  </a>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <NavLink to="/parties" style={{ alignSelf: 'flex-start', padding: '10px 20px', background: color, color: 'white', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold', fontSize: '13.5px' }}>
-            View {rosterLabel} roster &rarr;
-          </NavLink>
         </div>
       </div>
     </div>

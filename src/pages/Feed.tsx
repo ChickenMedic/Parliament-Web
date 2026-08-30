@@ -27,15 +27,20 @@ const PROVINCE_CODES: Record<string, string> = {
 };
 
 const PROVINCES_STORAGE_KEY = 'newsProvinces';
-const loadProvinces = (): string[] => {
+const CHANNELS_STORAGE_KEY = 'hiddenVideoChannels';
+
+const loadStoredList = (key: string, valid: (s: string) => boolean): string[] => {
   try {
-    const saved = JSON.parse(localStorage.getItem(PROVINCES_STORAGE_KEY) || '[]');
-    return Array.isArray(saved) ? saved.filter(p => p in PROVINCE_CODES) : [];
+    const saved = JSON.parse(localStorage.getItem(key) || '[]');
+    return Array.isArray(saved) ? saved.filter(valid) : [];
   } catch {
     return [];
   }
 };
+const loadProvinces = () => loadStoredList(PROVINCES_STORAGE_KEY, p => p in PROVINCE_CODES);
 const videoItems = videosRaw as { channel: string; handle: string; about: string; videoId: string; title: string; date: string; thumbnail: string | null }[];
+const VIDEO_CHANNELS = [...new Set(videoItems.map(v => v.channel))];
+const loadHiddenChannels = () => loadStoredList(CHANNELS_STORAGE_KEY, c => VIDEO_CHANNELS.includes(c));
 
 interface FeedMeta {
   name: string;
@@ -113,14 +118,17 @@ const TAB_KINDS: Record<Exclude<Tab, 'All'>, string[]> = {
 export const Feed = () => {
   const [tab, setTab] = useState<Tab>('All');
   const [provinces, setProvinces] = useState<string[]>(loadProvinces);
+  const [hiddenChannels, setHiddenChannels] = useState<string[]>(loadHiddenChannels);
 
-  const toggleProvince = (province: string) => {
-    setProvinces(prev => {
-      const next = prev.includes(province) ? prev.filter(p => p !== province) : [...prev, province];
-      try { localStorage.setItem(PROVINCES_STORAGE_KEY, JSON.stringify(next)); } catch { /* private mode */ }
+  const toggleStored = (key: string, setter: React.Dispatch<React.SetStateAction<string[]>>, value: string) => {
+    setter(prev => {
+      const next = prev.includes(value) ? prev.filter(v => v !== value) : [...prev, value];
+      try { localStorage.setItem(key, JSON.stringify(next)); } catch { /* private mode */ }
       return next;
     });
   };
+  const toggleProvince = (province: string) => toggleStored(PROVINCES_STORAGE_KEY, setProvinces, province);
+  const toggleChannel = (channel: string) => toggleStored(CHANNELS_STORAGE_KEY, setHiddenChannels, channel);
 
   const items = useMemo(() => {
     const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
@@ -157,7 +165,9 @@ export const Feed = () => {
       // Front-bench MPs (cabinet, secretaries of state, opposition critics)
       // get their own kind so they surface above the backbench.
       const role = roles[mp.name];
-      const isShadow = !!role && /shadow|opposition/i.test(role);
+      // roles.json holds the government cabinet (Liberal) and the Official
+      // Opposition shadow cabinet; badge by party, not role wording.
+      const isShadow = !!role && party !== 'Liberal';
       for (const tweet of tweets) {
         const time = new Date(tweet.date).getTime();
         if (isNaN(time) || time < cutoff) continue;
@@ -221,8 +231,10 @@ export const Feed = () => {
     const base = tab === 'All'
       ? items.filter(i => i.kind !== 'provincial')
       : items.filter(i => TAB_KINDS[tab].includes(i.kind));
-    return base.filter(i => i.kind !== 'provincial' || provinces.includes(i.province!));
-  }, [items, tab, provinces]);
+    return base
+      .filter(i => i.kind !== 'provincial' || provinces.includes(i.province!))
+      .filter(i => i.kind !== 'video' || !hiddenChannels.includes(i.name));
+  }, [items, tab, provinces, hiddenChannels]);
 
   return (
     <div className="page-container glass-panel" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
@@ -241,6 +253,35 @@ export const Feed = () => {
             </button>
           ))}
         </div>
+
+        {tab === 'Videos' && (
+          <div style={{ display: 'flex', gap: '6px', marginTop: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
+            <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)' }}>Channels:</span>
+            {VIDEO_CHANNELS.map(channel => {
+              const active = !hiddenChannels.includes(channel);
+              return (
+                <button
+                  key={channel}
+                  onClick={() => toggleChannel(channel)}
+                  aria-pressed={active}
+                  style={{
+                    padding: '4px 10px',
+                    background: active ? 'rgba(248,113,113,0.2)' : 'rgba(0,0,0,0.2)',
+                    color: active ? '#fca5a5' : 'rgba(255,255,255,0.45)',
+                    border: active ? '1px solid rgba(248,113,113,0.5)' : '1px solid rgba(255,255,255,0.15)',
+                    borderRadius: '12px',
+                    cursor: 'pointer',
+                    fontSize: '12px',
+                    fontWeight: active ? 'bold' : 'normal',
+                    transition: 'all 0.15s',
+                  }}
+                >
+                  {active ? '✓ ' : ''}{channel}
+                </button>
+              );
+            })}
+          </div>
+        )}
 
         {tab === 'News' && (
           <div style={{ display: 'flex', gap: '6px', marginTop: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
@@ -274,30 +315,26 @@ export const Feed = () => {
       </div>
 
       <div style={{ flex: 1, overflowY: 'auto' }}>
-        <div style={{ maxWidth: '720px', margin: '0 auto', background: 'rgba(0,0,0,0.15)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
-          {visible.length > 0 ? (
-            visible.slice(0, 300).map(item => {
+        {visible.length > 0 ? (
+          // Masonry: extra columns appear as the viewport widens.
+          <div style={{ columnWidth: '400px', columnGap: '14px' }}>
+            {visible.slice(0, 300).map(item => {
               const badge = KIND_BADGE[item.kind];
               const badgeLabel = item.badgeLabel || badge?.label;
-              if (item.link) {
-                return (
-                  <LinkCard
-                    key={item.key}
-                    title={item.link.title}
-                    url={item.link.url}
-                    date={item.link.date}
-                    name={item.name}
-                    subtitle={item.subtitle}
-                    avatar={item.avatar}
-                    badge={badgeLabel}
-                    badgeColor={badge?.color}
-                    thumbnail={item.link.thumbnail}
-                  />
-                );
-              }
-              return (
+              const card = item.link ? (
+                <LinkCard
+                  title={item.link.title}
+                  url={item.link.url}
+                  date={item.link.date}
+                  name={item.name}
+                  subtitle={item.subtitle}
+                  avatar={item.avatar}
+                  badge={badgeLabel}
+                  badgeColor={badge?.color}
+                  thumbnail={item.link.thumbnail}
+                />
+              ) : (
                 <TweetCard
-                  key={item.key}
                   tweet={item.tweet!}
                   name={item.name}
                   handle={item.handle!}
@@ -309,16 +346,21 @@ export const Feed = () => {
                   accentColor={item.party ? getPartyColor(item.party) : undefined}
                 />
               );
-            })
-          ) : (
-            <div style={{ padding: '48px', textAlign: 'center', color: 'rgba(255,255,255,0.5)', fontSize: '14px' }}>
-              <p>No posts yet for this filter.</p>
-              <p style={{ fontSize: '12px', marginTop: '8px' }}>
-                Feeds refresh automatically; run <code style={{ background: 'rgba(0,0,0,0.3)', padding: '2px 4px', borderRadius: '4px' }}>node fetch-tweets.js --mps</code> to populate locally.
-              </p>
-            </div>
-          )}
-        </div>
+              return (
+                <div key={item.key} style={{ breakInside: 'avoid', marginBottom: '14px', background: 'rgba(0,0,0,0.15)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', overflow: 'hidden' }}>
+                  {card}
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div style={{ padding: '48px', textAlign: 'center', color: 'rgba(255,255,255,0.5)', fontSize: '14px', background: 'rgba(0,0,0,0.15)', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', maxWidth: '720px', margin: '0 auto' }}>
+            <p>No posts yet for this filter.</p>
+            <p style={{ fontSize: '12px', marginTop: '8px' }}>
+              Feeds refresh automatically; run <code style={{ background: 'rgba(0,0,0,0.3)', padding: '2px 4px', borderRadius: '4px' }}>node fetch-tweets.js --mps</code> to populate locally.
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );

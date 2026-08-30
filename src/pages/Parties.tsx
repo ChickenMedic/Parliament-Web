@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import politiciansData from '../data/politicians.json';
 import rolesData from '../data/roles.json';
 import tweetsDataRaw from '../data/tweets.json';
@@ -60,16 +61,23 @@ const PARTY_LEADERS: Record<string, { name: string, title: string, xHandle: stri
 };
 
 
+const tabs = ['Bloc Québécois', 'Conservative', 'Green Party', 'Independent', 'Liberal', 'NDP'];
+
 export const Parties = () => {
-  const [activeTab, setActiveTab] = useState('Liberal');
-  const [cabinetFilter, setCabinetFilter] = useState('');
+  // Deep links like /parties?party=Conservative&filter=shadow (used by the
+  // leader pages' roster buttons) pre-select a tab and roster filter.
+  const [searchParams] = useSearchParams();
+  const paramParty = searchParams.get('party') || '';
+  const initialTab = tabs.includes(paramParty) ? paramParty : 'Liberal';
+  const initialFilter = { cabinet: 'Cabinet', shadow: 'Shadow Cabinet' }[searchParams.get('filter') || ''] || '';
+
+  const [activeTab, setActiveTab] = useState(initialTab);
+  const [cabinetFilter, setCabinetFilter] = useState(initialFilter);
   const [sortOrder, setSortOrder] = useState<'A-Z' | 'Z-A'>('A-Z');
   const politicians = politiciansData.objects as any[];
 
-  const tabs = ['Bloc Québécois', 'Conservative', 'Green Party', 'Independent', 'Liberal', 'NDP'];
-
-  const [feedHandle, setFeedHandle] = useState<string | null>(PARTY_FEEDS['Liberal'].handle);
-  const [feedUser, setFeedUser] = useState<string>(PARTY_FEEDS['Liberal'].user);
+  const [feedHandle, setFeedHandle] = useState<string | null>(PARTY_FEEDS[initialTab].handle);
+  const [feedUser, setFeedUser] = useState<string>(PARTY_FEEDS[initialTab].user);
 
 
 
@@ -97,7 +105,9 @@ export const Parties = () => {
       if (cabinetFilter === 'Cabinet') {
         return targetParty === 'Liberal' && role && role !== 'Speaker of the House of Commons';
       } else if (cabinetFilter === 'Shadow Cabinet') {
-        return targetParty === 'Conservative' && role && role.includes('Shadow Minister');
+        // Any front-bench role counts: shadow ministers, associates, house
+        // leadership, whips, and advisors are all in the shadow cabinet.
+        return targetParty === 'Conservative' && !!role;
       }
       
       const leader = PARTY_LEADERS[activeTab];
