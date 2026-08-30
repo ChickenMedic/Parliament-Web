@@ -33,7 +33,7 @@
   "coverage": [
    {
     "videoId": "Xa5RHoD7BVs",
-    "title": "Carney “did the right thing”: Ipsos poll reveals what Canadians think of US trade deal falling apart",
+    "title": "Did Carney do the right thing by walking away from US trade talks? Poll reveals what Canadians think",
     "date": "2026-08-30T00:09:19+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/Xa5RHoD7BVs/hqdefault.jpg",
     "channel": "Global News"
@@ -49,6 +49,13 @@
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "z7gctNj6fh0",
+    "title": "Canada First. Canada Always. 🇨🇦",
+    "date": "2026-08-30T18:32:08+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/z7gctNj6fh0/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "aQ6NDMnw39g",
     "title": "Want to know the real story about food inflation?",
@@ -69,15 +76,16 @@
     "date": "2026-08-28T16:05:38+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/uHbZ2Th888U/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "MV6c-sPXVK8",
-    "title": "Hope and help are on the way",
-    "date": "2026-08-27T15:53:27+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/MV6c-sPXVK8/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "TqrMGHgnhoc",
+    "title": "‘Google is wrong’: Poilievre on Google Maps’ renaming of Lake Ontario",
+    "date": "2026-08-30T18:06:27+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/TqrMGHgnhoc/hqdefault.jpg",
+    "channel": "CTV News"
+   }
+  ]
  }
 }
