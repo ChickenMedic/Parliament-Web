@@ -28,6 +28,16 @@ const PROVINCE_CODES: Record<string, string> = {
 
 const PROVINCES_STORAGE_KEY = 'newsProvinces';
 const CHANNELS_STORAGE_KEY = 'hiddenVideoChannels';
+const PARTIES_STORAGE_KEY = 'hiddenParties';
+
+// feeds.json says 'Bloc Québécois'/'Green Party'; politicians.json says 'Bloc'/'Green'.
+const normalizeParty = (party?: string) => {
+  const p = (party || '').toLowerCase();
+  if (p.startsWith('bloc')) return 'Bloc';
+  if (p.startsWith('green')) return 'Green';
+  return party || '';
+};
+const PARTY_FILTERS = ['Liberal', 'Conservative', 'NDP', 'Bloc', 'Green'];
 
 const loadStoredList = (key: string, valid: (s: string) => boolean): string[] => {
   try {
@@ -38,6 +48,7 @@ const loadStoredList = (key: string, valid: (s: string) => boolean): string[] =>
   }
 };
 const loadProvinces = () => loadStoredList(PROVINCES_STORAGE_KEY, p => p in PROVINCE_CODES);
+const loadHiddenParties = () => loadStoredList(PARTIES_STORAGE_KEY, p => PARTY_FILTERS.includes(p));
 const videoItems = videosRaw as { channel: string; handle: string; about: string; videoId: string; title: string; date: string; thumbnail: string | null }[];
 const VIDEO_CHANNELS = [...new Set(videoItems.map(v => v.channel))];
 const loadHiddenChannels = () => loadStoredList(CHANNELS_STORAGE_KEY, c => VIDEO_CHANNELS.includes(c));
@@ -119,6 +130,7 @@ export const Feed = () => {
   const [tab, setTab] = useState<Tab>('All');
   const [provinces, setProvinces] = useState<string[]>(loadProvinces);
   const [hiddenChannels, setHiddenChannels] = useState<string[]>(loadHiddenChannels);
+  const [hiddenParties, setHiddenParties] = useState<string[]>(loadHiddenParties);
 
   const toggleStored = (key: string, setter: React.Dispatch<React.SetStateAction<string[]>>, value: string) => {
     setter(prev => {
@@ -129,6 +141,7 @@ export const Feed = () => {
   };
   const toggleProvince = (province: string) => toggleStored(PROVINCES_STORAGE_KEY, setProvinces, province);
   const toggleChannel = (channel: string) => toggleStored(CHANNELS_STORAGE_KEY, setHiddenChannels, channel);
+  const toggleParty = (party: string) => toggleStored(PARTIES_STORAGE_KEY, setHiddenParties, party);
 
   const items = useMemo(() => {
     const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
@@ -233,8 +246,9 @@ export const Feed = () => {
       : items.filter(i => TAB_KINDS[tab].includes(i.kind));
     return base
       .filter(i => i.kind !== 'provincial' || provinces.includes(i.province!))
-      .filter(i => i.kind !== 'video' || !hiddenChannels.includes(i.name));
-  }, [items, tab, provinces, hiddenChannels]);
+      .filter(i => i.kind !== 'video' || !hiddenChannels.includes(i.name))
+      .filter(i => !i.party || !hiddenParties.includes(normalizeParty(i.party)));
+  }, [items, tab, provinces, hiddenChannels, hiddenParties]);
 
   return (
     <div className="page-container glass-panel" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
@@ -253,6 +267,36 @@ export const Feed = () => {
             </button>
           ))}
         </div>
+
+        {['All', 'Parties', 'Leaders', 'Front Bench', 'MPs'].includes(tab) && (
+          <div style={{ display: 'flex', gap: '6px', marginTop: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
+            <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)' }}>Parties:</span>
+            {PARTY_FILTERS.map(party => {
+              const active = !hiddenParties.includes(party);
+              const color = getPartyColor(party);
+              return (
+                <button
+                  key={party}
+                  onClick={() => toggleParty(party)}
+                  aria-pressed={active}
+                  style={{
+                    padding: '4px 10px',
+                    background: active ? `${color}33` : 'rgba(0,0,0,0.2)',
+                    color: active ? 'white' : 'rgba(255,255,255,0.45)',
+                    border: active ? `1px solid ${color}` : '1px solid rgba(255,255,255,0.15)',
+                    borderRadius: '12px',
+                    cursor: 'pointer',
+                    fontSize: '12px',
+                    fontWeight: active ? 'bold' : 'normal',
+                    transition: 'all 0.15s',
+                  }}
+                >
+                  {active ? '✓ ' : ''}{party}
+                </button>
+              );
+            })}
+          </div>
+        )}
 
         {tab === 'Videos' && (
           <div style={{ display: 'flex', gap: '6px', marginTop: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
