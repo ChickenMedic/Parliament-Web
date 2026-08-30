@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import '../pages/PageStyles.css';
 import leadersData from '../data/leaders.json';
 import leaderNews from '../data/leaders_news.json';
+import leaderVideosRaw from '../data/leaders_videos.json';
 import politiciansData from '../data/politicians.json';
 import tweetsRaw from '../data/tweets.json';
 import profilesRaw from '../data/x_profiles.json';
@@ -24,8 +25,22 @@ interface NewsItem {
   date: string;
 }
 
+interface LeaderVideo {
+  videoId: string;
+  title: string;
+  date: string;
+  thumbnail: string | null;
+  channel: string;
+}
+
 const tweetsData = tweetsRaw as Record<string, TweetData[]>;
 const profiles = profilesRaw as Record<string, { name: string; image: string | null }>;
+const leaderVideos = leaderVideosRaw as Record<string, { own: LeaderVideo[]; coverage: LeaderVideo[] }>;
+
+const YT_CHANNELS: Record<string, string> = {
+  pm: 'CanadianPM',
+  opposition: 'PierrePoilievre',
+};
 
 const PARTY_COLORS: Record<string, string> = {
   Liberal: '#d71920',
@@ -69,6 +84,10 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
     : `https://ui-avatars.com/api/?name=${encodeURIComponent(leader.name)}`;
 
   const rosterLabel = who === 'pm' ? 'the Cabinet' : 'the Shadow Cabinet';
+  const { own = [], coverage = [] } = leaderVideos[who] || {};
+  // Their own uploads lead; broadcaster coverage of them fills out the list.
+  const videos = [...own.slice(0, 3), ...coverage.slice(0, 3)];
+  const ytHandle = YT_CHANNELS[who];
 
   return (
     <div className="page-container glass-panel" style={{ display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
@@ -119,7 +138,7 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
               ))
             ) : (
               <div style={{ padding: '32px', textAlign: 'center', color: 'rgba(255,255,255,0.5)', fontSize: '13px' }}>
-                No recent posts fetched yet — feeds refresh every two hours.
+                No recent posts fetched yet — feeds refresh several times a day.
               </div>
             )}
           </div>
@@ -163,6 +182,32 @@ export const LeaderPage = ({ who }: { who: 'pm' | 'opposition' }) => {
               )}
             </div>
           </div>
+
+          {videos.length > 0 && (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '12px' }}>
+                <h2 style={sectionHeading}>Recent Videos</h2>
+                <a href={`https://www.youtube.com/@${ytHandle}`} target="_blank" rel="noopener noreferrer" style={{ fontSize: '12.5px', color: '#f87171', textDecoration: 'none', fontWeight: 'bold' }}>
+                  YouTube channel ↗
+                </a>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                {videos.map(v => (
+                  <a key={v.videoId} href={`https://www.youtube.com/watch?v=${v.videoId}`} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', gap: '12px', textDecoration: 'none', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '10px', borderRadius: '8px', alignItems: 'center' }}>
+                    {v.thumbnail && (
+                      <img src={v.thumbnail} alt="" loading="lazy" style={{ width: '104px', borderRadius: '6px', flexShrink: 0 }} />
+                    )}
+                    <div style={{ minWidth: 0 }}>
+                      <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.45)', marginBottom: '3px' }}>
+                        <span style={{ color: '#f87171', fontWeight: 'bold' }}>{v.channel}</span> • {fmtNewsDate(v.date)}
+                      </div>
+                      <div style={{ fontSize: '13px', color: 'white', fontWeight: 600, lineHeight: 1.4 }}>{v.title}</div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
 
           <NavLink to="/parties" style={{ alignSelf: 'flex-start', padding: '10px 20px', background: color, color: 'white', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold', fontSize: '13.5px' }}>
             View {rosterLabel} roster &rarr;

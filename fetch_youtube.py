@@ -1,6 +1,7 @@
 """Refresh src/data/youtube_videos.json with recent uploads from the channels
 in src/data/youtube_channels.json, via YouTube's public per-channel RSS feeds
-(free, no API key).
+(free, no API key) — plus src/data/leaders_videos.json with the PM's and
+Opposition Leader's own uploads and recent TV coverage mentioning them.
 
 Registry entries only need "handle" (the @name without the @), "name", and
 "about"; this script resolves and caches each channel's id back into the
@@ -18,8 +19,27 @@ import xml.etree.ElementTree as ET
 
 REGISTRY = 'src/data/youtube_channels.json'
 OUT = 'src/data/youtube_videos.json'
+LEADERS_OUT = 'src/data/leaders_videos.json'
 MAX_AGE_DAYS = 21
 PER_CHANNEL = 4
+
+# The leaders' own channels, and the broadcasters scanned for coverage of
+# them. A feed only exposes the latest 15 uploads, so coverage is "what's
+# currently airing", not an archive.
+LEADER_CHANNELS = {
+    'pm': ('Prime Minister of Canada', 'UCyvEONnqE2Krm9Zi0LVvGmA'),
+    'opposition': ('Pierre Poilievre', 'UCS1xwRtmeaSNhyPhGjJTbFw'),
+}
+LEADER_PATTERNS = {
+    'pm': re.compile(r'carney|prime minister', re.I),
+    'opposition': re.compile(r'poilievre', re.I),
+}
+COVERAGE_CHANNELS = [
+    ('CBC News', 'UCuFFtHWoLl5fauMMD5Ww2jA'),
+    ('CTV News', 'UCi7Zk9baY1tvdlgxIML8MXg'),
+    ('Global News', 'UChLtXXpo4Ge1ReTEboVvTDg'),
+    ('CPAC', 'UCFZSV_So_OaXgXVzgu58tJQ'),
+]
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -51,13 +71,14 @@ def resolve_channel_id(handle):
     raise ValueError(f'no channel id found on @{handle} page')
 
 
-def fetch_videos(channel_id):
+def fetch_videos(channel_id, max_age_days=MAX_AGE_DAYS, limit=PER_CHANNEL, title_pattern=None):
     root = ET.fromstring(get(
         f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'))
-    cutoff = time.time() - MAX_AGE_DAYS * 86400
+    cutoff = time.time() - max_age_days * 86400
     videos = []
     for entry in root.iter(f'{ATOM}entry'):
         published = entry.findtext(f'{ATOM}published') or ''
+        title = entry.findtext(f'{ATOM}title') or ''
         try:
             ts = time.mktime(time.strptime(published[:19], '%Y-%m-%dT%H:%M:%S'))
             ts -= time.timezone  # published is UTC (+00:00)
@@ -65,14 +86,16 @@ def fetch_videos(channel_id):
             continue
         if ts < cutoff:
             continue
+        if title_pattern and not title_pattern.search(title):
+            continue
         thumb = entry.find(f'{MEDIA}group/{MEDIA}thumbnail')
         videos.append({
             'videoId': entry.findtext(f'{YT}videoId') or '',
-            'title': entry.findtext(f'{ATOM}title') or '',
+            'title': title,
             'date': published,
             'thumbnail': thumb.get('url') if thumb is not None else None,
         })
-        if len(videos) >= PER_CHANNEL:
+        if len(videos) >= limit:
             break
     return videos
 
@@ -111,13 +134,50 @@ def main():
         with open(REGISTRY, 'w', encoding='utf-8') as f:
             json.dump(channels, f, indent=1, ensure_ascii=False)
 
-    if not out:
-        raise SystemExit('No videos fetched; keeping previous data')
+    if out:
+        out.sort(key=lambda v: v['date'], reverse=True)
+        with open(OUT, 'w', encoding='utf-8') as f:
+            json.dump(out, f, indent=1, ensure_ascii=False)
+        print(f'Saved {len(out)} videos to {OUT}')
+    else:
+        print('warning: no channel videos fetched; keeping previous data')
 
-    out.sort(key=lambda v: v['date'], reverse=True)
-    with open(OUT, 'w', encoding='utf-8') as f:
-        json.dump(out, f, indent=1, ensure_ascii=False)
-    print(f'Saved {len(out)} videos to {OUT}')
+    # Broadcaster feeds are shared between both leaders; fetch each once.
+    coverage_feeds = []
+    for name, cid in COVERAGE_CHANNELS:
+        try:
+            coverage_feeds.append((name, fetch_videos(cid, max_age_days=14, limit=15)))
+        except Exception as e:
+            print(f'warning: coverage feed failed for {name}: {e}')
+        time.sleep(0.5)
+
+    leaders = {}
+    for who, (channel_name, cid) in LEADER_CHANNELS.items():
+        try:
+            own = fetch_videos(cid, limit=4)
+        except Exception as e:
+            print(f'warning: own-channel feed failed for {who}: {e}')
+            own = []
+        pattern = LEADER_PATTERNS[who]
+        coverage = [
+            {**v, 'channel': name}
+            for name, videos in coverage_feeds
+            for v in videos if pattern.search(v['title'])
+        ]
+        coverage.sort(key=lambda v: v['date'], reverse=True)
+        leaders[who] = {
+            'own': [{**v, 'channel': channel_name} for v in own],
+            'coverage': coverage[:6],
+        }
+        print(f"{who}: {len(own)} own videos, {len(leaders[who]['coverage'])} coverage videos")
+        time.sleep(0.5)
+
+    if any(l['own'] or l['coverage'] for l in leaders.values()):
+        with open(LEADERS_OUT, 'w', encoding='utf-8') as f:
+            json.dump(leaders, f, indent=1, ensure_ascii=False)
+        print(f'Saved {LEADERS_OUT}')
+    else:
+        print('warning: no leader videos fetched; keeping previous data')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,76 @@
+{
+ "pm": {
+  "own": [
+   {
+    "videoId": "Tp6AkTMmc7c",
+    "title": "Largest clean energy investment in North American history",
+    "date": "2026-08-27T20:05:33+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/Tp6AkTMmc7c/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
+    "videoId": "GWxgW4v0vL4",
+    "title": "Canada’s countermeasures to U.S. tariffs and protecting Canadian workers",
+    "date": "2026-08-26T22:07:39+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/GWxgW4v0vL4/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
+    "videoId": "3Zcz1MitjUY",
+    "title": "Building Canada strong. For all",
+    "date": "2026-08-24T18:34:53+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/3Zcz1MitjUY/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
+    "videoId": "-97YpmPeYV0",
+    "title": "We are stronger together",
+    "date": "2026-08-18T16:19:17+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/-97YpmPeYV0/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   }
+  ],
+  "coverage": [
+   {
+    "videoId": "x_omh-HlLIs",
+    "title": "Has the Carney government lost trust in the Trump administration? | Power & Politics",
+    "date": "2026-08-28T23:07:16+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/x_omh-HlLIs/hqdefault.jpg",
+    "channel": "CBC News"
+   }
+  ]
+ },
+ "opposition": {
+  "own": [
+   {
+    "videoId": "Xa3b6oaPubI",
+    "title": "The world's most expensive drive-thru",
+    "date": "2026-08-29T14:16:14+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/Xa3b6oaPubI/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "uHbZ2Th888U",
+    "title": "Bring jobs and production back to Canada with the Conservative Economic Action Plan",
+    "date": "2026-08-28T16:05:38+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/uHbZ2Th888U/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "MV6c-sPXVK8",
+    "title": "Hope and help are on the way",
+    "date": "2026-08-27T15:53:27+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/MV6c-sPXVK8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "Uua7V2CpAxY",
+    "title": "Canadians’ livelihoods hang in the balance as U.S. tariffs rise.",
+    "date": "2026-08-27T14:18:37+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/Uua7V2CpAxY/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   }
+  ],
+  "coverage": []
+ }
+}
