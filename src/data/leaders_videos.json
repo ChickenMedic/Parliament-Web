@@ -30,25 +30,24 @@
     "channel": "Prime Minister of Canada"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "Xa5RHoD7BVs",
-    "title": "Did Carney do the right thing by walking away from US trade talks? Poll reveals what Canadians think",
-    "date": "2026-08-30T00:09:19+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/Xa5RHoD7BVs/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "x_omh-HlLIs",
-    "title": "Has the Carney government lost trust in the Trump administration? | Power & Politics",
-    "date": "2026-08-28T23:07:16+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/x_omh-HlLIs/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "coverage": []
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "nik2KhcUclI",
+    "title": "Carney is increasing gas taxes again next week",
+    "date": "2026-08-31T19:00:54+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/nik2KhcUclI/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "5gBcHaOE4NU",
+    "title": "Wake up and smell the coffee.",
+    "date": "2026-08-31T17:39:38+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/5gBcHaOE4NU/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "ijzbYffjYHM",
     "title": "Make work pay for every Canadian, no matter their ability.",
@@ -61,20 +60,6 @@
     "title": "Canada First. Canada Always. 🇨🇦",
     "date": "2026-08-30T18:32:08+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/z7gctNj6fh0/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "aQ6NDMnw39g",
-    "title": "Want to know the real story about food inflation?",
-    "date": "2026-08-30T13:50:39+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/aQ6NDMnw39g/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "Xa3b6oaPubI",
-    "title": "The world's most expensive drive-thru",
-    "date": "2026-08-29T14:16:14+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/Xa3b6oaPubI/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],

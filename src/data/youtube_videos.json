@@ -1,5 +1,50 @@
 [
  {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "NaO_A6cHK2o",
+  "title": "Canada-U.S. trade talks collapse: Was the deal really impossible?",
+  "date": "2026-08-31T18:00:55+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/NaO_A6cHK2o/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "IfGY05xEHiQ",
+  "title": "Lake Ontario Debacle // Alberta Separatists Unite!",
+  "date": "2026-08-31T17:01:27+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/IfGY05xEHiQ/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "yN5IEHlSfOA",
+  "title": "Minister Solomon announces support for tariff-affected businesses in Hamilton – August 31, 2026",
+  "date": "2026-08-31T15:47:51+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/yN5IEHlSfOA/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "YRhb2jVLIEg",
+  "title": "Advocates speak out against Alberta’s Bill 11 – August 31, 2026",
+  "date": "2026-08-31T15:22:22+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/YRhb2jVLIEg/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "STXQQQ8NNGM",
+  "title": "First Nations leaders call for greater transparency and equity in parole system – August 31, 2026",
+  "date": "2026-08-31T14:35:25+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/STXQQQ8NNGM/hqdefault.jpg"
+ },
+ {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -48,37 +93,10 @@
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "_TYYlkUh13k",
-  "title": "Postpartum Psychosis | (MIS)Treated",
-  "date": "2026-08-28T20:00:19+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/_TYYlkUh13k/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
   "videoId": "MB3H7uGveKk",
   "title": "Postpartum Psychosis | (MIS)Treated",
   "date": "2026-08-28T20:00:18+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/MB3H7uGveKk/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "V_z-oCqDVmc",
-  "title": "Canada announces humanitarian funding for Nepal amid flooding – August 28, 2026",
-  "date": "2026-08-28T18:43:30+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/V_z-oCqDVmc/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "fCzHHG6O7Hg",
-  "title": "Minister Solomon Announces Investment in Quantum Manufacturing – August 28, 2026",
-  "date": "2026-08-28T18:29:47+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/fCzHHG6O7Hg/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
@@ -99,15 +117,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/fpg62ArgdQI/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "ih3VSzYHo6M",
-  "title": "Chicoutimi–Le Fjord: Bloc Québécois Leader Y.-F. Blanchet takes stock of campaign – August 28, 2026",
-  "date": "2026-08-28T14:26:57+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/ih3VSzYHo6M/hqdefault.jpg"
- },
- {
   "channel": "J.J. McCullough",
   "handle": "JJMcCullough",
   "about": "Conservative-leaning commentary",
@@ -115,15 +124,6 @@
   "title": "JJ McCullough TALKS TO right-wing sensationalist!",
   "date": "2026-08-27T22:41:50+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/NRZ_SILTAfw/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "2XFuOq-3LPs",
-  "title": "Why PM Carney must release the trade deal he rejected",
-  "date": "2026-08-27T21:35:52+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/2XFuOq-3LPs/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -162,15 +162,6 @@
   "thumbnail": "https://i2.ytimg.com/vi/uPcMCzc2w7E/hqdefault.jpg"
  },
  {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "qsWzZSytVp4",
-  "title": "Alberta & Saskatchewan Walk Trade War Tightrope",
-  "date": "2026-08-27T16:56:40+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/qsWzZSytVp4/hqdefault.jpg"
- },
- {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -196,6 +187,15 @@
   "title": "Thoughts on fashion",
   "date": "2026-08-27T00:43:03+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/D-jIE1rBxEE/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "s-6tlJKUj_Y",
+  "title": "How to change your name in Ontario?",
+  "date": "2026-08-26T11:30:10+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/s-6tlJKUj_Y/hqdefault.jpg"
  },
  {
   "channel": "Canadaland",
