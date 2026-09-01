@@ -30,7 +30,22 @@
     "channel": "Prime Minister of Canada"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "E_hqm1aaTQU",
+    "title": "How is the Canada-U.S. trade war affecting Carney's approval ratings? | Power & Politics",
+    "date": "2026-08-31T22:35:32+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/E_hqm1aaTQU/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "RZsAeEt1ZI0",
+    "title": "Carney looks to maintain Liberal majority as voting underway in 3 byelections",
+    "date": "2026-08-31T17:40:53+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/RZsAeEt1ZI0/hqdefault.jpg",
+    "channel": "Global News"
+   }
+  ]
  },
  "opposition": {
   "own": [
