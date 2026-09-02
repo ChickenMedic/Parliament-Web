@@ -3,6 +3,24 @@
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "X_aUDD4RlfQ",
+  "title": "Feds announce extension of gas tax break until January 2027 – September 2, 2026",
+  "date": "2026-09-02T18:28:24+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/X_aUDD4RlfQ/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "ULvK4gJT-hs",
+  "title": "Former Little Bow MLA Backs Controversial Data Centre",
+  "date": "2026-09-02T17:24:26+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/ULvK4gJT-hs/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
   "videoId": "CH2ywMDI83Q",
   "title": "Bank of Canada holds interest rate at 2.25 per cent – September 2, 2026",
   "date": "2026-09-02T15:15:41+00:00",
@@ -25,15 +43,6 @@
   "title": "Military leaders speak with reporters at Indo-Pacific Defense Conference – September 2, 2026",
   "date": "2026-09-02T14:48:22+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/NNPVzPHR1s4/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "ULvK4gJT-hs",
-  "title": "Former Little Bow MLA Backs Controversial Data Centre",
-  "date": "2026-09-02T14:24:50+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/ULvK4gJT-hs/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -70,15 +79,6 @@
   "title": "Should Canada Trade Away Supply Management?",
   "date": "2026-09-01T21:39:10+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/c6FkhWRQGOk/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "ga5Hlsgwkcw",
-  "title": "Carney's Liberals Sweep By-elections",
-  "date": "2026-09-01T21:25:07+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/ga5Hlsgwkcw/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
@@ -268,14 +268,5 @@
   "title": "Canada, America, Philly, it's all basically the same.",
   "date": "2026-08-16T22:52:25+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/YfrbRuqVcDQ/hqdefault.jpg"
- },
- {
-  "channel": "Canadaland",
-  "handle": "canadaland",
-  "about": "Media criticism and politics podcast",
-  "videoId": "g8NFNFuuu9E",
-  "title": "Inside the 7+ year lawsuit against PressProgress.",
-  "date": "2026-08-12T19:30:04+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/g8NFNFuuu9E/hqdefault.jpg"
  }
 ]
