@@ -1,5 +1,59 @@
 [
  {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "CH2ywMDI83Q",
+  "title": "Bank of Canada holds interest rate at 2.25 per cent – September 2, 2026",
+  "date": "2026-09-02T15:15:41+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/CH2ywMDI83Q/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "B_1HlBby-XE",
+  "title": "Minister Hajdu launches Energy and Electricity Workforce Alliance – September 2, 2026",
+  "date": "2026-09-02T15:08:17+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/B_1HlBby-XE/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "NNPVzPHR1s4",
+  "title": "Military leaders speak with reporters at Indo-Pacific Defense Conference – September 2, 2026",
+  "date": "2026-09-02T14:48:22+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/NNPVzPHR1s4/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "ULvK4gJT-hs",
+  "title": "Former Little Bow MLA Backs Controversial Data Centre",
+  "date": "2026-09-02T14:24:50+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/ULvK4gJT-hs/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "F93xVsR4wh0",
+  "title": "The Economic Case Against Separation // Farm Talk",
+  "date": "2026-09-02T05:13:00+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/F93xVsR4wh0/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "UDsobPcQZZU",
+  "title": "Canadian manufacturers under pressure as U.S. trade war continues",
+  "date": "2026-09-02T02:22:56+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/UDsobPcQZZU/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -25,51 +79,6 @@
   "title": "Carney's Liberals Sweep By-elections",
   "date": "2026-09-01T21:25:07+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/ga5Hlsgwkcw/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "ImNFGCKSCgs",
-  "title": "Alberta Premier Danielle Smith highlights education investments and initiatives – September 1, 2026",
-  "date": "2026-09-01T21:01:35+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/ImNFGCKSCgs/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "aGUrIPG8Ix8",
-  "title": "\"The biggest question mark facing separation\"",
-  "date": "2026-09-01T20:23:08+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/aGUrIPG8Ix8/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "1tU4l2eb-TQ",
-  "title": "Defence Minister McGuinty speaks with reporters at Indo-Pacific Defense Conference",
-  "date": "2026-09-01T19:46:30+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/1tU4l2eb-TQ/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "7EuD7vEq1mw",
-  "title": "Minister Champagne on G20 meeting, international trade, investment climate – September 1, 2026",
-  "date": "2026-09-01T18:55:48+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/7EuD7vEq1mw/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "F93xVsR4wh0",
-  "title": "The Economic Case Against Separation // Farm Talk",
-  "date": "2026-09-01T14:24:48+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/F93xVsR4wh0/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
@@ -169,15 +178,6 @@
   "title": "The Rundown | Season 2 Returns September 8 @ 8PM",
   "date": "2026-08-27T17:51:19+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/MK0pq5WqJNY/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "uPcMCzc2w7E",
-  "title": "Preston Manning on Alberta’s referendum and the fight for the West",
-  "date": "2026-08-27T17:00:06+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/uPcMCzc2w7E/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
