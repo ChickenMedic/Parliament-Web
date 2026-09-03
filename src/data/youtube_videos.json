@@ -1,5 +1,68 @@
 [
  {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "RO3k8sktNw0",
+  "title": "Why Conrad Black is breaking with Trump over the Canada-U.S. trade war",
+  "date": "2026-09-03T17:00:25+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/RO3k8sktNw0/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "zy8eSxXvsPo",
+  "title": "AI Minister Evan Solomon makes an announcement in Markham, Ont. – September 3, 2026",
+  "date": "2026-09-03T16:49:38+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/zy8eSxXvsPo/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "G64pwBX3buU",
+  "title": "Unveiling of new $20 bill featuring King Charles III – September 3, 2026",
+  "date": "2026-09-03T16:27:21+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/G64pwBX3buU/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "Su9rRKzRguM",
+  "title": "PM Carney announces $4.7B VIA Rail deal, comments on Canada-U.S. trade war – September 3, 2026",
+  "date": "2026-09-03T14:55:02+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/Su9rRKzRguM/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "MfervQ63VhM",
+  "title": "N.S. Premier Tim Houston speaks with reporters ahead of fall sitting – September 3, 2026",
+  "date": "2026-09-03T14:30:57+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/MfervQ63VhM/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "ZJxzk8L2hjk",
+  "title": "What does the UN spend its money on?",
+  "date": "2026-09-03T14:30:27+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/ZJxzk8L2hjk/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "lXuNnoAWZno",
+  "title": "AB's Classroom Crunch // B.C. Conservatives Crumble",
+  "date": "2026-09-03T14:25:04+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/lXuNnoAWZno/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -27,15 +90,6 @@
   "thumbnail": "https://i1.ytimg.com/vi/0AeN7tOlWAo/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "X_aUDD4RlfQ",
-  "title": "Feds announce extension of gas tax break until January 2027 – September 2, 2026",
-  "date": "2026-09-02T18:28:24+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/X_aUDD4RlfQ/hqdefault.jpg"
- },
- {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -43,42 +97,6 @@
   "title": "Former Little Bow MLA Backs Controversial Data Centre",
   "date": "2026-09-02T17:24:26+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/ULvK4gJT-hs/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "CH2ywMDI83Q",
-  "title": "Bank of Canada holds interest rate at 2.25 per cent – September 2, 2026",
-  "date": "2026-09-02T15:15:41+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/CH2ywMDI83Q/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "B_1HlBby-XE",
-  "title": "Minister Hajdu launches Energy and Electricity Workforce Alliance – September 2, 2026",
-  "date": "2026-09-02T15:08:17+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/B_1HlBby-XE/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "NNPVzPHR1s4",
-  "title": "Military leaders speak with reporters at Indo-Pacific Defense Conference – September 2, 2026",
-  "date": "2026-09-02T14:48:22+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/NNPVzPHR1s4/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "F93xVsR4wh0",
-  "title": "The Economic Case Against Separation // Farm Talk",
-  "date": "2026-09-02T05:13:00+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/F93xVsR4wh0/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -153,15 +171,6 @@
   "thumbnail": "https://i2.ytimg.com/vi/MB3H7uGveKk/hqdefault.jpg"
  },
  {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "MMi3Kww_xnE",
-  "title": "How do we end the trade war with U.S.?",
-  "date": "2026-08-28T15:52:57+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/MMi3Kww_xnE/hqdefault.jpg"
- },
- {
   "channel": "J.J. McCullough",
   "handle": "JJMcCullough",
   "about": "Conservative-leaning commentary",
@@ -178,15 +187,6 @@
   "title": "The Rundown | Season 2 Returns September 8 @ 8PM",
   "date": "2026-08-27T17:51:19+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/MK0pq5WqJNY/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "usuO-tLn2Dg",
-  "title": "What is the point of the UN? | Unravelled",
-  "date": "2026-08-27T14:30:10+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/usuO-tLn2Dg/hqdefault.jpg"
  },
  {
   "channel": "J.J. McCullough",
