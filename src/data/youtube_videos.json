@@ -1,5 +1,68 @@
 [
  {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "IHUd8kUhmpY",
+  "title": "Federal and B.C. governments mark clean energy milestone in Prince George, B.C. – September 3, 2026",
+  "date": "2026-09-03T19:37:26+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/IHUd8kUhmpY/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "4xEQmpQgBMg",
+  "title": "Canadian manufacturers under pressure as U.S. trade war continues",
+  "date": "2026-09-03T19:14:38+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/4xEQmpQgBMg/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "XbNI6YSVfFY",
+  "title": "Julie Rohr’s Legacy in Action",
+  "date": "2026-09-03T19:01:23+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/XbNI6YSVfFY/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "M36JO-KkmU8",
+  "title": "NO SANCTION: Carney MP broke ethics rules by directing taxpayer funds to family businesses",
+  "date": "2026-09-03T18:34:54+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/M36JO-KkmU8/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "lXuNnoAWZno",
+  "title": "AB's Classroom Crunch // B.C. Conservatives Crumble",
+  "date": "2026-09-03T17:50:23+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/lXuNnoAWZno/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "G64pwBX3buU",
+  "title": "Bank of Canada unveils new $20 bill featuring King Charles III – September 3, 2026",
+  "date": "2026-09-03T17:41:11+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/G64pwBX3buU/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "VB1dwa7bweE",
+  "title": "Is Pet Ownership Becoming a Luxury? | The Rundown",
+  "date": "2026-09-03T17:11:18+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/VB1dwa7bweE/hqdefault.jpg"
+ },
+ {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -13,18 +76,9 @@
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
   "videoId": "zy8eSxXvsPo",
-  "title": "AI Minister Evan Solomon makes an announcement in Markham, Ont. – September 3, 2026",
+  "title": "Federal government unveils framework for domestic data centres – September 3, 2026",
   "date": "2026-09-03T16:49:38+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/zy8eSxXvsPo/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "G64pwBX3buU",
-  "title": "Unveiling of new $20 bill featuring King Charles III – September 3, 2026",
-  "date": "2026-09-03T16:27:21+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/G64pwBX3buU/hqdefault.jpg"
  },
  {
   "channel": "CPAC",
@@ -36,15 +90,6 @@
   "thumbnail": "https://i4.ytimg.com/vi/Su9rRKzRguM/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "MfervQ63VhM",
-  "title": "N.S. Premier Tim Houston speaks with reporters ahead of fall sitting – September 3, 2026",
-  "date": "2026-09-03T14:30:57+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/MfervQ63VhM/hqdefault.jpg"
- },
- {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -52,15 +97,6 @@
   "title": "What does the UN spend its money on?",
   "date": "2026-09-03T14:30:27+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/ZJxzk8L2hjk/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "lXuNnoAWZno",
-  "title": "AB's Classroom Crunch // B.C. Conservatives Crumble",
-  "date": "2026-09-03T14:25:04+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/lXuNnoAWZno/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -88,15 +124,6 @@
   "title": "Does Alberta Really Subsidize the Rest of Canada?",
   "date": "2026-09-02T20:46:25+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/0AeN7tOlWAo/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "ULvK4gJT-hs",
-  "title": "Former Little Bow MLA Backs Controversial Data Centre",
-  "date": "2026-09-02T17:24:26+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/ULvK4gJT-hs/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -135,24 +162,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/NaO_A6cHK2o/hqdefault.jpg"
  },
  {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "hy4LuGWYZAQ",
-  "title": "Mark Carney declares Canada is at (trade) war against the United States",
-  "date": "2026-08-31T02:28:21+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/hy4LuGWYZAQ/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "F7x-GuPE_Fo",
-  "title": "Canadian businesses brace for impact of U.S. tariffs",
-  "date": "2026-08-29T21:45:26+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/F7x-GuPE_Fo/hqdefault.jpg"
- },
- {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -178,15 +187,6 @@
   "title": "JJ McCullough TALKS TO right-wing sensationalist!",
   "date": "2026-08-27T22:41:50+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/NRZ_SILTAfw/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "MK0pq5WqJNY",
-  "title": "The Rundown | Season 2 Returns September 8 @ 8PM",
-  "date": "2026-08-27T17:51:19+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/MK0pq5WqJNY/hqdefault.jpg"
  },
  {
   "channel": "J.J. McCullough",
