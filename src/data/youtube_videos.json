@@ -1,19 +1,37 @@
 [
  {
+  "channel": "Canadaland",
+  "handle": "canadaland",
+  "about": "Media criticism and politics podcast",
+  "videoId": "6oXPol4b3tI",
+  "title": "Here's what you need to know about the new massive $1.7 billion Regina data centre.",
+  "date": "2026-09-04T19:00:13+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/6oXPol4b3tI/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
   "videoId": "kyrCCfbsQik",
   "title": "Labour Day: Why Unions Still Matter",
-  "date": "2026-09-04T14:24:04+00:00",
+  "date": "2026-09-04T17:08:18+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/kyrCCfbsQik/hqdefault.jpg"
+ },
+ {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "zbfTTj6lljE",
+  "title": "Conrad Black: Why I'm breaking with Trump over the U.S.-Canada trade war",
+  "date": "2026-09-04T16:46:46+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/zbfTTj6lljE/hqdefault.jpg"
  },
  {
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
   "videoId": "vKs--HovcjU",
-  "title": "Minister MacDonald makes an announcement in Charlottetown – September 4, 2026",
+  "title": "Minister MacDonald announces $3.1M in funding for swine disease testing – September 4, 2026",
   "date": "2026-09-04T13:35:25+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/vKs--HovcjU/hqdefault.jpg"
  },
@@ -160,15 +178,6 @@
   "title": "Canada-U.S. trade talks collapse: Was the deal really impossible?",
   "date": "2026-08-31T18:00:55+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/NaO_A6cHK2o/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "y9n_huWF16E",
-  "title": "How is Carney using the Canada-U.S. trade war to his advantage?",
-  "date": "2026-08-28T21:15:54+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/y9n_huWF16E/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
