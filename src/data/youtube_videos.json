@@ -1,5 +1,14 @@
 [
  {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "giWbkNTTD0s",
+  "title": "EXPOSED: Millions WASTED in anti-White academia grants",
+  "date": "2026-09-05T15:02:26+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/giWbkNTTD0s/hqdefault.jpg"
+ },
+ {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -48,6 +57,15 @@
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
+  "videoId": "KoiYen3kYGE",
+  "title": "\"I'm worried about the rhetoric out of Alberta\"",
+  "date": "2026-09-04T18:34:54+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/KoiYen3kYGE/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
   "videoId": "kyrCCfbsQik",
   "title": "Labour Day: Why Unions Still Matter",
   "date": "2026-09-04T17:08:18+00:00",
@@ -70,15 +88,6 @@
   "title": "Minister MacDonald announces $3.1M in funding for swine disease testing – September 4, 2026",
   "date": "2026-09-04T13:35:25+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/vKs--HovcjU/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "NgPGjdDMLqg",
-  "title": "Alberta Separatists Have Huge Fundraising Advantage",
-  "date": "2026-09-03T21:26:50+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/NgPGjdDMLqg/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -148,7 +157,7 @@
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
   "videoId": "RO3k8sktNw0",
-  "title": "Why Conrad Black is breaking with Trump over the Canada-U.S. trade war",
+  "title": "Conrad Black: Why Trump’s Canada trade war was a “serious mistake”",
   "date": "2026-09-03T17:00:25+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/RO3k8sktNw0/hqdefault.jpg"
  },
@@ -169,15 +178,6 @@
   "title": "CBC’s 9/11 terrorism problem",
   "date": "2026-09-02T21:21:26+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/u1H0zVcxISc/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "UDsobPcQZZU",
-  "title": "Canadian manufacturers under pressure as U.S. trade war continues",
-  "date": "2026-09-02T02:22:56+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/UDsobPcQZZU/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
