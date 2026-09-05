@@ -59,6 +59,12 @@
     "date": "Wed, 15 Apr 2026 07:00:00 GMT"
    },
    {
+    "title": "Canada’s AML Reform Advances: Bill C-12 Brings Hefty Penalties and Higher Compliance Expectations into Force",
+    "source": "mccarthy.ca",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUFRtWVZLczlqOG8xNjhuVE9Xdmk0ajNCaGlFQXkzbktlT3Exelhxa1J0ekRkSlM2RmlaYVJJcDN3dlYxLUttUER6X2txWHJqZUlDZzRkeUNJVFNpVUJNal9QbjAya181WXd0Rkc5UFpOUUJyUmdCcFhfazlHaTgtTnJYUzhlRW92TURuU3JlOVNYWUpZSEp0a0MwUjZIMlQzZ2FwTF9ZRzJBUHY0RWMycDZheTFNQnRtYkZ6bkJmVW4yUVZCYW81Vm1pcmtwUVd3Y1lNMlBLRnRjcC1DWU1zcW9kemVydEJudmJma1l3?oc=5",
+    "date": "Tue, 31 Mar 2026 07:00:00 GMT"
+   },
+   {
     "title": "Bill C‑22: The Lawful Access Act Reintroduces Lawful Access in Parliament After the Government of Canada’s Abortive Attempt to Do So in Bill C‑2, the Strong Borders Act",
     "source": "Fasken",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOXNkdFQwM0JsWG1sR0tIM0tJV1Z2SF9ZSG5TSEZVQV85ek5oUlpPa2dULUhJS09BUTc5VnphZF90OE5RQm81cGxQTXZjX2NPVjdYbnFhUTczOVl6OFZRNFJHcUh0ZkhzcmdXUFJ3ajJ6a3FLeXVubUhoLXZmNUFZa0NZZTBnaGktaWZnRG02QTJhZw?oc=5",
@@ -75,12 +81,6 @@
     "source": "Amnesty International Canada",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaUJzdUJFVW5QN00yRVE1cW50a3F6alQ2dGN0WmFZYzNORXVieXpIY25NT2ZBZUpGQnNmMldKc2ZPeFpVUHREWi0xZTlfOTJfVmEzR2h6UHNOVHk0NU9rckhJNkZkcU0zZEVTQmVQc1dWaU51NU9TNlR6eG9YX01VNmhYSDBxLUxl?oc=5",
     "date": "Wed, 04 Jun 2025 07:00:00 GMT"
-   },
-   {
-    "title": "CCLA Renews Call for Government to Drop its Strong Borders Package",
-    "source": "Canadian Civil Liberties Association",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWFmTzJCcE5xNElQZ0I4UW1BcGdocnluZ0pCVHoxUFkxQVl5YnVXZC0xS2pacE8zNWtHNURUUFFnbktzelV6X3BQcjlDdTNydHZBREg3Ynh6bzl1elNIZzlQNjh2M2FSMEd6eG1zODgzVjB1TFk2TGZZUmNYTlcteVktN0xncENWTGp4dXg1dGNMUDk0cFVHQw?oc=5",
-    "date": "Fri, 10 Oct 2025 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-2",
@@ -200,20 +200,26 @@
   ],
   "media": [
    {
+    "title": "From Canada to California: How tens of thousands of Californians are Canadian citizens by descent today",
+    "source": "CIC News",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNnNoRW5jYkFYU1NIOEktT0NaMUFSV3U1MTZhTEhmX1NfZzVDaUhqOHk1TzBHbzlhUUxyOVB6V3U4X3h2MXNZN0huV1o4TFVHLVYtT1k1RTdQb3RoMW1UWFlkblNZS3hvdGNhaFRtS19CYnJLYXVCYmFuRm1VVy13MEx4U0x4bXh1bVIzV0J1ZXR0ZWNDNkhCVXpwaXcxYkhIdEhDa1F4R3VqQXJpdUNKS2g0RTFxRnNLaFJIeER4eS1nd1U5QnVoUndVUllKekJo0gHQAUFVX3lxTE82c2hFbmNiQVhTU0g4SS1PQ1oxQVJXdTUxNmFMSGZfU19nNUNpSGo4eTVPMEdvOWFRTHI5UHpXdThfeHYxc1k3SG5XWjhMVUctVi1PWTVFN1BvdGgxbVRYWWRuU1lLeG90Y2FoVG1LX0JickthdUJiYW5GbVVXLXcwTHhTTHhteHVtUjNXQnVldHRlY0M2SEJVenBpdzFiSEh0SENrUXhHdWpBcml1Q0pLaDRFMXFGc0toUkh4RHh5LWd3VTlCdWhSd1VSWUp6Qmg?oc=5",
+    "date": "Sat, 05 Sep 2026 12:00:29 GMT"
+   },
+   {
+    "title": "Canada grants citizenship to nearly 380,000 as Bill C-3 opens door to more",
+    "source": "Juno News",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44ODJTNHI1UXpseUZzc0RBNTBMSmFGbDBzZTJCOEV6dTlSRHpURExqdF9wWWQ5bXBDMGxrWEYyX3JwYVdOeTkxaW56QzNfODBNbXpkd0xLVWxCTWd6WkJkYzZhQ09qSGQ4anlMZTcxUQ?oc=5",
+    "date": "Sat, 05 Sep 2026 13:06:46 GMT"
+   },
+   {
     "title": "Demand for Canadian Citizenship Certificates soaring, fuelled by Americans",
     "source": "CBC",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVGZLNzRzTDlzM0g3eDJOQ2VwYkhwQ0l3Y0cyUDNlWmdaNWpaT0pyMm5fSG1zWGtKT1F5NjFsQ00zX3g4T1YyU2k2NXdRX0lhcVhLamxTOFlkczk3SUJ0OC1XazZfcWVfVlZYaVRockpyNU41a25JRFZ6ejFlQmJheElnd3FPcm9sazhzSThrVQ?oc=5",
     "date": "Mon, 17 Aug 2026 07:00:00 GMT"
    },
    {
-    "title": "Canada is fast-tracking proof of citizenship applications for those planning on studying in the country",
-    "source": "CIC News",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWm03U3NFOWFyUnhHSm1IWm52b2VscDd3eG5FS2lnM3h5cUU1Q1JvODlGM25Rckw1aVN4NThiTE51S3VBUmY5OXp0VXJ5VVJHaDNtR21YbnZfUWhUbll3eEtMWVJ3ZGNhZXNxb1BRY2txZXRVYnQ3cmJ0WWJJQVdqcS1jZUsyLTJ0QUV4dDFyMmxKOFd0QjZLcjBicUgyNDgwSUgwMUhWVXpuQjZIMG9EMjdRYkhBQjjSAbwBQVVfeXFMTThfX2p6X3hHYXpjREo3am14NzM5QjcyVHE5ME9fZFl0SlVSbHRfbXR3aVBWb1BVSnNBRDJNN1J3VFExNVUzYVowdzlyNE1BU2hRLW5rS3JSaWRDOHVkSzBlV2tFOWxjZTFDblVUNGhqaXp3YmVlNFVpTm0tQlVhbF93eF9FRlF1MHpiOXpadFZTRC12Slpxc0QwN3k4WGNtUW1vWVQ4SnAyRW5SZlU0andFN2hNdmhiazRVR3g?oc=5",
-    "date": "Mon, 31 Aug 2026 11:12:38 GMT"
-   },
-   {
     "title": "Canadian citizenship applicants surging after ‘Lost Canadians’ law passed, testing Carney government’s immigration control promise",
-    "source": "The Hub | More Signal. Less Noise.",
+    "source": "thehub.ca",
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOYnFpR0VNbzdTRjhpUkYxcG5seHk1S2xqWjBPQnV2ZDE3blc2UTdiLUsxeFo3N1F1eDNFaTE4a0VwSzh4V3VaM2VJYlNLSXdMZFVIeVg1OHhhWUZISU1QaHg0VVByZXlyWDhJcURpMEJfUEpDSEFKT0o5MXdzMmVva1YzeUJ5Rm5yM2pmMEhWUnlpTkJhQ05rbWR5UVZwVElDQXpfYzczODNOOFhfS0MwOXRySHZMTzJhQmpqdjBuMEpYd2M4anY0MjhoekdDZ3dkSzdlSVdNcHBtLV9fU2ZxSF9XR1VhdGFIeTBZWA?oc=5",
     "date": "Sat, 22 Aug 2026 07:00:00 GMT"
    },
@@ -222,12 +228,6 @@
     "source": "The Walrus",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmUUpIaDlxVkoxV0VHSnVYRGVQb3NrM1lHcmxLVy1lQWpqLXlrYmdmVUQ4VV9fTFJrU3VpVnZBOHg1RTZ4cnZzYW82bVctN1J4WDg0cy1wNDNlS09XeWR6SW5XZFpNMHFub2s0TGFadkpJMU90V3B3bUkxSTY?oc=5",
     "date": "Tue, 11 Aug 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Nearly half of new Canadian citizenship certificates are being issued to Americans",
-    "source": "National Post",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcWpCQ1ZXeDNLcWpQSkZwS3lTWk5xXzlQM2wwLUVNM2wwbEFITDRxRm1LdHdvN2hUSDRUc0dFZ2NRRGE3MHFqd3htQnB3bElXakRCV1IyUjZSN3Q2ZEM5ZjRzbXFBYkttZkFZNXlsRnR2UnVqMTFxUWZBRGZmc0pGZFIyM3NTdnNfS0ZKLUVBVGZld3lpOGNFWmNZT2xUa29RQ2FpUFlrR2xLdGRxVGhvWHJvLUVvYkRkaDFN?oc=5",
-    "date": "Tue, 18 Aug 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-3",
@@ -330,7 +330,7 @@
    },
    {
     "title": "May says MPs should be ashamed for opposing Senate changes to Bill C-4",
-    "source": "ipolitics.ca",
+    "source": "iPolitics",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZnJzaVo1MGg1V1dhTzAxN3NXOVpVWEhHUGg1ZXc5TEpfLVRueGZDRWo1SHhYcW9NUTBKYloyejRaWml0S1NFYVFKZExVVEN0ckk0clg4N0ZOVVJURlE3eWVNbHJyN2VtRVllcXFfekdKOVIzU0hSNFdzRlhMNzJ2WXBxRmNFdWhFZy1aMzA0TUk4YS1YaDRiOGFtVXpKZzI2NGVlTXZvUDh1bVU?oc=5",
     "date": "Thu, 12 Mar 2026 07:00:00 GMT"
    },
@@ -347,10 +347,10 @@
     "date": "Fri, 13 Mar 2026 07:00:00 GMT"
    },
    {
-    "title": "EXCLUSIVE: Conservative MP never supported Bill C-4",
-    "source": "Juno News",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON28zd3h1RDFaRlRwQlRHcVNkWDFWN0xFX08xVXBHdXZ1YVpic2dDNUEtQXpyM0pfVEJPOXo0dzY3NWlGU2ZtMkJVZnFOQkFTbmR3M1IzNEI0N1lZSFgxczZLYVpTXzhGZVcxSHkzLVo2ejNhcjBKOXFpS0JibEEzbksyUy0?oc=5",
-    "date": "Tue, 04 Aug 2026 07:00:00 GMT"
+    "title": "Senate resists political campaigning privacy exemption by amending Bill C-4",
+    "source": "Canadian Civil Liberties Association",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYjFucXVsNkVrNEEtZldHVTU1WGJtdlhEelFmbm5UTVBJWk0zUWpxeWluemx2azAxc1pLZnRTamw5YUI3c2pPc2M1Q0NIYlBqakxZN0hFZ0lVRkVtdEIzZU0xTUc5QUprajFNdWZTNUxYWGV6elZXSnItRUNrQnVET2dCT0x5N3NCbmJDb2Nqck9aMFFpalQwR1JyaTRnSzA?oc=5",
+    "date": "Fri, 27 Feb 2026 08:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-4",
@@ -561,7 +561,7 @@
    },
    {
     "title": "‘Threat’ of Bill C-5 spurring collaboration, says CEO of Major Projects Office",
-    "source": "ipolitics.ca",
+    "source": "iPolitics",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd3ZnYy1CNHREcHBKZkgza3lzVEhCc1pteHNvbi1RUkp6cUZjSF9CNDhIQTc4SUd0LWhTWTVoZDlpZm1TbEVmMXNQVnN0OW1laU93blpMc1gyMVliNXZRZTYyT0ZDSTZIQTlRNXphTzRnR2k4QndDSWh6Q1FaNmNVUlBzTTRBNnY2ajdMcTR5UmI5ajRFQUE?oc=5",
     "date": "Wed, 29 Apr 2026 07:00:00 GMT"
    },
@@ -687,6 +687,12 @@
     "date": "Tue, 01 Oct 2024 20:36:16 GMT"
    },
    {
+    "title": "Bill C-6: A law that removes barriers to Canadian citizenship",
+    "source": "Senate GRO",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UcUNVcG5sSWphUnFTS0NGTTRxYXFJX29tY211VFBOc2JTdXZqYmJhLXZqaGZ2WEJlQ3gzLXQtOXByMVhIcjVFSExQN2dsdGNKclE?oc=5",
+    "date": "Wed, 11 Oct 2017 07:00:00 GMT"
+   },
+   {
     "title": "Bill C-6 Has Passed, Giving Immigrants a Smoother Pathway to Canadian Citizenship",
     "source": "CIC News",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTDFoeVVnRVc5UHpFZjBrd2VDZlVZU2tnblQzUzJrTkZLdW45MUlPbTVBcEtpbTJLYWREV2kzaVNvV3VOQkVuTFRGUE5CM0N5MWZ1Q3g5a1pxRy1JNmRNVkhNSG41Xzd2SURCc3NrTnF0ZHpqeHF1OFY0a09DVHZ2X1dEdGRwd1dQTVN2VE83RzVVc2hxckl3d1JRTHRzZ3J6c2Q1bFotMHJ3T293T0FSMGg1QnjSAboBQVVfeXFMTnBLelU3Mm9EbHd4RC00N1JvWkctbUVqdE9jaGxyU0FESWZzWWJ5Rjk4Z0lVS1dpc2xRak5pTDZqdU9MckdNa09FRzlQeHRlVTQwaVlCRUI3bE1kVkVaalJrbUJwOWlsYWxTeFVSNXlwcmdWVHR5NTFjWVJrOFJnRTR3dW1yUVVVNHdFOW4wOUR6cXRpa2xPaVU3dXBMbTZlM1o0T2VJZ0Fwa2R6bDh6TUZzdElMaUw0MHVB?oc=5",
@@ -699,16 +705,10 @@
     "date": "Thu, 29 Oct 2020 07:00:00 GMT"
    },
    {
-    "title": "New Canadian Citizenship Act Bill C-6 Becomes Law",
-    "source": "immigration.ca",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MSjBSU2tURldNQmJ3ZXdudVJIY2JXUDFud0ZSbWVhWUhJUV9MaXVRQkt3aHZ1MTdIaHhtMTVndjZOX3pWSkxOSGlCZnB1eDdVTEtna2xxYS1sTzNZOE9SUmIzYmhxRDVDWHBYdU1HbEhISnNUQWJqdi10M0E?oc=5",
-    "date": "Mon, 19 Jun 2017 07:00:00 GMT"
-   },
-   {
-    "title": "Analyzing the Liberal changes to Canada’s citizenship act",
-    "source": "Policy Options",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ2Nlbi0tZ2xfLTBCTnlfLVBGU0UtUTROdkVhQ0t5bElTanNFSHNVakZLcGFGRXZaaHRMVEttTUhTU0hTYXhNWDZpa25HdHZISWxOV0t5NHRnTDltS2lkdUpkbm1DMjRnTkxwQ2F2QVRMMWRLeFhkWGxPelQ1ZVg1X2xzclVqLWE1Sm02ajJUbDZzUnVMaWRPSGZXc2E?oc=5",
-    "date": "Tue, 01 Mar 2016 08:00:00 GMT"
+    "title": "Dual Canadian citizens convicted of terrorism will no longer lose citizenship under new bill",
+    "source": "Global News",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DVmZralhjb1phSGhPRkpPRlR3MW1GbDQyb3BCVXFMc2d4NGRWN2VvQTF6MS1DSUhabFVmMy0wSXdfaGFHdTNTWFEtQ2F4UUJObWRUN2tYOTAyNEhZMnFqT0FfQlFnN1Bl?oc=5",
+    "date": "Thu, 15 Jun 2017 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-6",
@@ -821,13 +821,13 @@
   "media": [
    {
     "title": "The rush to pass Bill C-7",
-    "source": "CBA National",
+    "source": "nationalmagazine.ca",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWGhybkhEaVlYY19weFAxY1p5YWRtanRZU2U0OC1kcWF4alhIaXdjYnpBSFRGZVpJaXc4TnlfX1NPMEdaUGd2LUs2TTVVUmIxOHN3R0ZkUEU3VXFtdHJpWW4tWDNHRmNjd2EwbDZSVnR1UlM4c2VxQ0ZvVWVicUZ3bVlfWDFlTkk?oc=5",
     "date": "Tue, 09 Jun 2026 01:03:09 GMT"
    },
    {
     "title": "Bill C-7: Six months later",
-    "source": "Dying With Dignity Canada",
+    "source": "dyingwithdignity.ca",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTF9Cb1R1SWswMHBQN1ZpeFdBUUw5SnNtN21jcDhPSHl2SGJZbmNldjJ1cFpSSFlNV204YWR6ZWJTd0N2NVRuZ1NOaXBGTGRwRTItc1F6NkFjbXV3ZlBoTEtSbk5VQU5Uem1BTVpJQTRsdC15LVFJQWIzamxZODY5TFExZERCbkJacnBTVElsU21feG5RSDRTdExWcjd0LXdUekVB?oc=5",
     "date": "Wed, 15 Sep 2021 07:00:00 GMT"
    },
@@ -844,9 +844,9 @@
     "date": "Thu, 09 Mar 2023 08:00:00 GMT"
    },
    {
-    "title": "Religious Leaders in Canada Denounce Bill C-7",
-    "source": "news-ca.churchofjesuschrist.org",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZGY2NjZobUtjQXFrRHRFSktLZXFIQUNOeFpkZ3JBMVhqNk5ZeXJIVm1DdHVjaUZIbnpFMXo2YXc0bGZrUi1XNTFwcTZBZDBmY2pkeTdnRnZISTFnMnlkT1pvLXRjNjQtMTk2clNwcTN4MlB4dDNmUHJLVkJVWFJuZzFpZ2V4WHR1SDJ5ZlpCMkdneU13T3BwMg?oc=5",
+    "title": "We Can and Must do Much Better - Religious Leaders in Canada denounce Bill C-7, “An Act to amend the Criminal Code (medical assistance in dying)”",
+    "source": "Canadian Conference of Catholic Bishops",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPOXJoa2lqOE9rRnUxOUJEME1LNEwzUVhOMGJiTkdTN2JCMlZYRTZaMGxQMUNnRE5KQjVES3lLLWRrTkZoZEFOVUlsUHZGX2g0WTdiV0JJUWdwTnpIT2h4a1dmdmFIdUxrZDJNVk9Ha21fZVBDNVIydTA0UE8zM1dEVmczUTBzRzB0b2lDX1UtQk1IQWFubm9xalVITFBVNXNVNExpR2VVMkM5dVBpNlRVQ2JOX1pscFVqamkzQjdjcExldWh1MnZ3a3RUNjByVTE4U29iUjAydjZkUzdjbGR6SzZvaGtDeEJFNE52NGJOOHduWnc5MEk3SDl6S3pod3Ryd080?oc=5",
     "date": "Wed, 14 Oct 2020 07:00:00 GMT"
    }
   ],
@@ -1082,6 +1082,12 @@
     "date": "Fri, 05 Jun 2026 07:00:00 GMT"
    },
    {
+    "title": "Vote Details: Combatting Hate Act – C-9 – Third Reading",
+    "source": "SenCanada.ca",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ULW9ZVzlLWGdtZl9GWHZtTWI4RkpCUTVZalBnel9USkl6YllqTTBpMzlCdXF5a1Q0QWxyVkVWMnVJTkFJM3ViZG16ME01U3dtZ3JqZmNJUGkyaWNUVllmaVpoeHFDUEJKa1dEUHBjSWZLUQ?oc=5",
+    "date": "Thu, 04 Jun 2026 07:00:00 GMT"
+   },
+   {
     "title": "Bill C-9 has passed: What will change?",
     "source": "Evangelical Fellowship of Canada",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0R5SkZTWHV4VG1yaUhWUkhwOGl0eGc0Umt0Ui1HUWFHY3pGUkxDMUtYbTF3ZjVoeGVOdjd2ajd2T2l3UUlSR0IzLTJZN3dpM0dsa0J0LVd6WjFIV3pxVFozenp2NC1DeVplUHJIQTVESXZWQko4YkFNWFFQMmE5TzNtOUJzb0JPM19CLVgySmN0Wm9xYVZHME9BUHZJbjB3aG9XNTB4b1o5ems?oc=5",
@@ -1092,12 +1098,6 @@
     "source": "CIJA - The Centre for Israel and Jewish Affairs",
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aOUUtejF6WnBEYkFXUXVtbjFvaVlSUWNOTnI5V2RlRW9OSlRub1ZRMUZERjh6bmQ0eDF4al9ibTQyZWxwZjVyZURhOUJqSEk?oc=5",
     "date": "Wed, 17 Jun 2026 21:41:36 GMT"
-   },
-   {
-    "title": "Vote Details: Combatting Hate Act – C-9 – RIDR No. 3 – Report on bill with amendments and observations – Adoption of Committee Report",
-    "source": "SenCanada.ca",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VSVh1a0lXSDJYLWlPN190UDJpSWZYQ3ZhQnR5VHJINHNCQWExU0NfR05HYzZIelZDdUZQQS0ycEZhdjBwbDVOVl9YWmc3dGgwUHhWVWdiaWExbE0yQkVOSFV2aUpCTC1BQ2ZXTWM2YXgwQQ?oc=5",
-    "date": "Wed, 03 Jun 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-9",
@@ -1157,28 +1157,28 @@
   "votes": [],
   "media": [
    {
-    "title": "Bill C-10 and the Future of Internet Regulation in Canada",
-    "source": "cigionline.org",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3RYR3hEdzFxNkZDY1VUWEF3aERaZENnYzlMRWJLU2lLMnhqdERmOTNIQkh1WkJfQ1NrSkp3YUdyamlCYWYtRTNZQXNWR0loU2s0ZzhQY0lfWEZ1VDBZNjdMUHZ3S3RkT0RFUWlvMk5Qd00yUmZUOHBOZ1o4X0lXS2VyZk8tc2ZtMHF5ejR0aE1xZDlJeFlELUhn?oc=5",
-    "date": "Wed, 02 Jun 2021 07:00:00 GMT"
+    "title": "Why Canada needs a commissioner for modern treaty implementation now",
+    "source": "iPolitics",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTnZUNkZvV0ZyT20zdGxVelY5RThwMmtsOVR5RnZQb2Fhemh5VTN0dnFHWkNWdTZxbm40Rkt4RjF0cUc1dnlmQWh3d21mU0pDUExOZXRMRXNyZE44MGVReDFwc29ORWl5V2szcEZ3MTRJMmtKNlhZeG93b0N4Rm5aTVNZUThrcXFaT0twZTB5c1NEb0hNLWtxUkdSQ2FJZk80cTUwM1MtQ04?oc=5",
+    "date": "Thu, 28 May 2026 07:00:00 GMT"
    },
    {
-    "title": "Bill C-10 will hold government’s feet to the fire on implementation of modern treaties",
-    "source": "Windspeaker.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLXk5M3ZQZlFXY3R0dGl6YXI3bFNQd1Y3VEVzU1ZIbC1JSUhZb0ctRlVLci13LXBaMnBYOEY0UDVDbEIzSUk5Q01GdXJ2WE9teGt0SEtZOEl2bHg0Z0JucGNIVnhNcXRweW1EWnhleGlpWkhuWXlsMEpuNEhocE80My1ubFU5eVNCZUtGa0NPRzdYUldCc3hMOC1vOTVPNDZrR3BGMFk2Nm9tdGN1ZW51SUlfMXdXZnJZdUE?oc=5",
-    "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+    "title": "Modern treaties law would hold feds ‘accountable to the promises’ made to First Nations, say chiefs",
+    "source": "indiginews.com",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ibnJiQl90V2haQWRmQURTZnlaangwYWFFcmNEM2RLeXJ1bzVvbS1QVEliNlJ3QzVMSjJGYkpiUGthV3gxNldTWDVscGZuXy1zS19nbWo5SGdOT0F1VTZ0VUxNTlFhd2ZFeVU4d0NR?oc=5",
+    "date": "Tue, 10 Mar 2026 14:10:01 GMT"
+   },
+   {
+    "title": "Bill C-10 and the Future of Internet Regulation in Canada",
+    "source": "Centre for International Governance Innovation",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3RYR3hEdzFxNkZDY1VUWEF3aERaZENnYzlMRWJLU2lLMnhqdERmOTNIQkh1WkJfQ1NrSkp3YUdyamlCYWYtRTNZQXNWR0loU2s0ZzhQY0lfWEZ1VDBZNjdMUHZ3S3RkT0RFUWlvMk5Qd00yUmZUOHBOZ1o4X0lXS2VyZk8tc2ZtMHF5ejR0aE1xZDlJeFlELUhn?oc=5",
+    "date": "Wed, 02 Jun 2021 07:00:00 GMT"
    },
    {
     "title": "The Government's Internet Regulation Bill: Why Bill C-10 Will Mean a CRTC-Approved Netflix Service, Reduced Consumer Choice, and Less Investment in Canadian Culture",
     "source": "Michael Geist -",
     "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNREVNZmpWZVA3Snp0ZENYcnVqcDc5WlZGd0ZvRkhxeVN0N1dmc1MwOGFvMjZ1RVBOUC1GNHV6R3BsakpIc0ttNUludldWUVJKYzFoQjc0ZV94MkoyUEE2aXI3b0x1TUI4VmJBdEc1N2pPMFJFaFp3XzdZZTVCdG9TSjV0NVBEOWdEWGswZXJSdTg2em41dzhoNXdHb2YtemlBMk82NWp5UFFEVXpmNlMwdk5MU2ZJV01pelI3VDJLUUJoeUVrU1Q1ZDZCY2Q4cEdzNHA4MGJSdEhMdUh6U2RrbUhtTWtaMXBkaGxmWmhzcTd3OUl2Zi1zR3hlX1BhMlZhbm0yMTNaeEZjWXNQUkIzemw4SHZMOUNMcFNPYk9GRTJpOGs?oc=5",
     "date": "Tue, 03 Nov 2020 08:00:00 GMT"
-   },
-   {
-    "title": "Why Canada needs a commissioner for modern treaty implementation now",
-    "source": "ipolitics.ca",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTnZUNkZvV0ZyT20zdGxVelY5RThwMmtsOVR5RnZQb2Fhemh5VTN0dnFHWkNWdTZxbm40Rkt4RjF0cUc1dnlmQWh3d21mU0pDUExOZXRMRXNyZE44MGVReDFwc29ORWl5V2szcEZ3MTRJMmtKNlhZeG93b0N4Rm5aTVNZUThrcXFaT0twZTB5c1NEb0hNLWtxUkdSQ2FJZk80cTUwM1MtQ04?oc=5",
-    "date": "Thu, 28 May 2026 07:00:00 GMT"
    },
    {
     "title": "Internet Regulation and Freedom of Expression – CCLA Monitoring Bill C-10",
@@ -1373,7 +1373,7 @@
    },
    {
     "title": "Military sexual assault survivors say Bill C-11 will leave them with less choice",
-    "source": "lethbridgenewsnow.com",
+    "source": "Lethbridge News Now",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLXZZYlNJc3hUejJjYXJ1NC14X1RqdU1jX2FuMlNTOGFFMmQ2dW1wNTZtZ0g4ak9zZjBlNXoxNjF6TTl6TW9mV1NfYTdsUFFfRU05THBvcWlod2RNYWlUNGVRV0Z2QjJ2U1JrMHNJVWhGbEZ6bUNON2VFRURHYkduNTF5Q0FaY3JEenBWSTFTRnVOUWlUQV90SjUxdGVzVlkxeG5vRHBnZ0FPOGF5VmRmOFo2ZjlqRjl3c3FBOU1Mbw?oc=5",
     "date": "Mon, 08 Jun 2026 07:00:00 GMT"
    },
@@ -1384,10 +1384,10 @@
     "date": "Fri, 20 Mar 2026 07:00:00 GMT"
    },
    {
-    "title": "What’s wrong with Bill C-11? An FAQ",
-    "source": "OpenMedia",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RemtPZFY1SW15cDhrWUlnTWM1ZzUtX2N0X1JOMTVqRFhSeEVNWW1leTJrdndqSkhoQjRiQ09JQlhrUVdkSzJBWkEtX096LXpCU0ZhY3k2MlNQMENiX3B5aXFEQWxKOHZ2MGtxSlN3QlhQUEd1Yzhz?oc=5",
-    "date": "Mon, 04 Apr 2022 18:39:47 GMT"
+    "title": "Censorship in Canada: Use a VPN to Bypass Restrictions",
+    "source": "VPNOverview.com",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xM2Y3VDItNjNtWXRCYTV1WHFqX3ExbUVPMGFOSGlJT3g2N2lPR3AwaXVsd3hnRWNXMlctaDlZd2U0b3IyRDFlWjVXaENHUzB4cVEtY3plQmwxMGIxUzRxOC1NUFpRUnFnQmtIV3FJQjBuX19CZEs5Tm51WTkzUQ?oc=5",
+    "date": "Tue, 23 Jun 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-11",
@@ -1520,7 +1520,7 @@
    },
    {
     "title": "CBA urges Senate to slow down on Bill C-12",
-    "source": "CBA National",
+    "source": "nationalmagazine.ca",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMVZKbzhzRTBIaTZHbUU5M2lSN3lEMl9kb1EyMUVLd0dTdVhFNlpfZWhzRTNIQzZBcXF4SjNlZnJocHBIREt3bTVBdWllN3VtTHduZTZETHZmZEZHWmduY3g1ZmRsOEdnUnUwYXFMUTFpbWhrbVZCbGxWUmVqS3A3WWRFZlhvRHFGb3RRTVRkNTV1bnNQajZ4Q0hEeDAyN2taY0s4d0psYw?oc=5",
     "date": "Fri, 19 Jun 2026 09:17:37 GMT"
    },
@@ -1607,21 +1607,21 @@
    },
    {
     "title": "Policy Matters: Five Bills to Keep an Eye On",
-    "source": "chamber.ca",
+    "source": "Canadian Chamber of Commerce",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XSGNQZmEyaUJBWkVBTDFfaW9rX3BaNXJ2cnJvY2RJamxoTmxsMExTWGJCejlQQVNWdW4zbU9sS0VPbGhLVEJ4bWh3TUNHdjM2S0R5NEs5Rm5nRmF1dnhXY0Q4amQ2QUhTeGdwX3VGcGM?oc=5",
     "date": "Tue, 10 Mar 2026 07:00:00 GMT"
    },
    {
-    "title": "Bill C-13’s French language requirements in Québec or regions with a strong francophone presence: Implications for federally regulated entities in Canada",
-    "source": "McCarthy Tétrault",
-    "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOcm5MOUxKUDl6OGo5TDlKWEM0MXVUWE5hTkpzWWo4WkpSMlNzbUpvRmxWeDd2RWhtODlQbm8xVkNXTmxlTlEwbE1jSUJMS05iTy1TWEtjaEVTOF83VHhRMHFhUHNLRXJHdm9mLWdrVjlQU2NpbGRGLXRnRzlrcW5wbUZmSTVVM2o4QmVWX3VnUW12TFRIOGJ1aTVtOW13UXZibjdva1FHeV9kOXFzamZiOWkzZm5hbExLVWhlQ1Q1aHhicW9Gei1VR3h1cVdLZDFQSFZCbzF4RTFXSG1DaVpFaTNwX2ZtNGdTNFIzX25fQWh5MWxBb2lENC1ZSjllRVRjVHV1NVJvemR6cDFXUW9YR3hJdl9HWG1ZUnJhRDZ3N0FLbDhrZDl4a3pXdXE2WGloeEZNZWtNT2lGajNRdW50OWFn?oc=5",
-    "date": "Thu, 13 Jul 2023 07:00:00 GMT"
+    "title": "Cost Estimate for Bill C-13: An Act for the Substantive Equality of Canada's Official Languages",
+    "source": "pbo-dpb.ca",
+    "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOQ05pdHBqSEduYVpFWldnT2w1VVk3YVhjUkdUMzNUZXllU2RjNi1PbjI4bV9IWU1YY2YwSGVVQ3RERXVrNnU2TFR6bTgzZ1lhUW1wUlZtQzBtc0FWRXFmRmdzSk5HV1NSV0pWUThnOEV6UzF0NTJpQmFCb3RBUzBlTWY4aFV3d0xvR0Rwc18wRl9mNllkVnhldDhqb3dTcFJyRDlEN010bkg0MktRZkhOQUx5WmRyLVBqdjlzbFZCejlxTGhjZFRuTHZqc1ZBUnkxSkUyR0xkOTdBNVBCcnVBaXZxVHhhTGx6OVpfQWFiaHFoaTc1aXNqb1JGSE4wdUxsQW9jenJJYjNNZ1BNVXhDMnRvcGRUQTRvSU9MZTRxRG5BZ3BybUE4ZkVtLU5pYi1oOXZxTHBVYVE3RjQzMzdBSkNuemNaSW8?oc=5",
+    "date": "Thu, 02 Jun 2022 07:00:00 GMT"
    },
    {
-    "title": "Introduction of Bill C 13 - Federal businesses to have expanded obligations to use French",
-    "source": "Fasken",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PWUJwUEFDTGxqRTFVVzh2b3pJQTBRUjBHNmZEQUs0ek9PYzd0NEc0NHhZdnlHRTNndVp6VjRnWmh5UlV2Z3J1TUtBcGdEamdBMTZfT1R5YnBqT3VTRlN6bmQtUm5hdlZ6WmFIdDdpQQ?oc=5",
-    "date": "Thu, 14 Apr 2022 07:00:00 GMT"
+    "title": "Bill C-13: The Federal Government’s Answer to Bill 96, Notably Imposes New Obligations to Use French in Workplaces for Federal Employers",
+    "source": "McMillan LLP",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWmZLMFNrYWlNSzR5OEZ4ZXEyZ0thM0s4OW05YmhNTl83dmlLb2t1eEtaYXN3VWQybklYLVNHZUwxSkptY2I1b2xPa0E5Qm5iNmNNNFFMMExrV25DQkRkT3RzcTZIRFdWdjFvamNmUjQzYTRrS2FBWU94YTU0SF9MWE1POGx0ME5kclA0ZFFleVlqRm84TlFiWVVVbjBjQkxPRnlPakNMaTNha290Vk15NlJRcURiYnFSNXBuNVc3Y05rTGt5VEU3cHhQcWE3eV93UDFZT0NEcVVNaGpoRVhyT1gzYkRfaFJsTUVDU3FlNHBSODNHQ3c?oc=5",
+    "date": "Wed, 24 May 2023 13:52:47 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-13",
@@ -1717,20 +1717,20 @@
   ],
   "media": [
    {
-    "title": "Bail and Bill C-14",
-    "source": "Canadian Civil Liberties Association",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fWUlHOFh1bkRSVFZSbkJUUVRGN29zRHplZDVGc2JOTWRWbWxmYm1iYktFdWN6dnFBZllvUEE2cENaUUtQZlliWEpmRTdLNm5JMllHRFBoaXhpS1B4c1JTNG9ULVVLalpCOWQzRHNaSkFySlZxRDNlY2laaw?oc=5",
-    "date": "Wed, 12 Aug 2026 16:36:32 GMT"
-   },
-   {
     "title": "Canada’s sweeping bail and sentencing reforms become law",
     "source": "canada.ca",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTWJkMkZBaklDcFpOWnV6VkNvZ2V2bFowS2F0LTVVLUk2WEoxSTEyUkV2OGFjaVZTbkkwZkJ5dzNiMUlIZUdwbTlONU5ZWi1pZ1NVclI1aDU1OXE0S0JTVXpLM3pJN3g1amhJb09iZllPMms2LXpZSTJOeHR0RWlScnY4bEFWeTdDSXJhaVd6TnFGVEdMcXlCRzF1clo0RHI3VmpFX0dUdnhjS2xoTDB6NXF0dnpndGNG?oc=5",
     "date": "Tue, 16 Jun 2026 07:00:00 GMT"
    },
    {
+    "title": "Bail and Bill C-14",
+    "source": "Canadian Civil Liberties Association",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fWUlHOFh1bkRSVFZSbkJUUVRGN29zRHplZDVGc2JOTWRWbWxmYm1iYktFdWN6dnFBZllvUEE2cENaUUtQZlliWEpmRTdLNm5JMllHRFBoaXhpS1B4c1JTNG9ULVVLalpCOWQzRHNaSkFySlZxRDNlY2laaw?oc=5",
+    "date": "Wed, 12 Aug 2026 16:36:32 GMT"
+   },
+   {
     "title": "Attorney general’s, minister’s statements on passage of bail, sentencing reforms",
-    "source": "BC Gov News",
+    "source": "news.gov.bc.ca",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBycHg4YlZ2RUhkeEFjV2RyZlhmX19kMUFIUHRFbkZYeEh1aGR4eU1xV0ZNQlhteG9xbEdEUmVYVWwxSElyTV9JUk9jRkRrbUlfQ1EtZGxPSGRxRl9DV0E?oc=5",
     "date": "Tue, 16 Jun 2026 15:32:33 GMT"
    },
@@ -1911,7 +1911,7 @@
    },
    {
     "title": "Canada's 2025 budget implementation bill no. 1 receives Royal Assent",
-    "source": "EY",
+    "source": "taxnews.ey.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLWRiNEMtbWI0bEsydEowTy1HbFVKRlZwY0NmTC1Ub3FvNXZ1b09HalhRc0hBbnp4Rm1qdEJ0bjZ4N3gxd1lNcXBScjk2SFVDdld1LVNiLVNYZzRNN1oyQkp0dHN4M1dqZzhNSEZ0ZExnS2d0NDlLdVh5b3hFbVA5T1dpX0FaclFmMGhNMW03WDBCd3hncnZjVnczZ3RsX1g3V0prbUtGVQ?oc=5",
     "date": "Mon, 30 Mar 2026 07:00:00 GMT"
    },
@@ -1928,10 +1928,10 @@
     "date": "Tue, 31 Mar 2026 07:00:00 GMT"
    },
    {
-    "title": "How does Bill C-15 make it easier for the Canadian government to expropriate land?",
-    "source": "Kingston Whig",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSURWYmVXazJLN21uSU90R0VzNEhlblRqWEVkM2FKaFE3WkJmc3FqTlQyLVJCb2l6MEhUQ2RfdDMtS2gwTDZDMUhMS2k0MWJUVksyQWJiVzRfWlZHeVpSS1pvR0Y3MGtyMUJYNEp3c0xBeU5aY0lXR0hjaElHOUhfUXRxQU0?oc=5",
-    "date": "Fri, 10 Apr 2026 07:00:00 GMT"
+    "title": "Liberal tax promise tracker: Bill C-15 edition",
+    "source": "Investment Executive",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM21KaDdQck9OWVVtc2h1eE03X0NVRXJNeXFZd0xpMGpvRWRVcmJ2eUdaVmU2ODJxT25aaUROLUZfVEsyYTNuTVg1c21fSFA2VUprTU5SUW5mWTE2SllKd1NJN3ZzSlZVY2J4MEdHb0FHQ21zNEpaQUNoTE95RVZYWXA5b041MzkxeG5UbmNhRkFhYXdudHp5QWR4dWw?oc=5",
+    "date": "Fri, 20 Mar 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-15",
@@ -2059,22 +2059,16 @@
   ],
   "media": [
    {
-    "title": "Canada overhauls Criminal Code to protect victims and keep kids safe from predators",
+    "title": "Canada restores mandatory minimums to keep kids safe from predators",
     "source": "canada.ca",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZVBqRllhajdHWG41YmV0S2Z2SEVTaWV6Z3Rwa1ppWXZCaWRtNlNXRWFnVDhLTFJkZ0t2Y2lOeDMzMTAxQkl5dUJtOHJDbGRiZFprdF9uOUd3T2VuaUpOMUVDYWxiR2M0YjZScmZFQnJDcC1QbmZ1TkNKeUJzX3BjanZwcnFKallHdzUzb0Jjb1lnQVdmTzJUaTNJQ1oxMDJYZENpMFR4eGhoQmExVVJwWTNvNjFQSGpLNmg3cWNFUC1mTFdmOENneVVreXQ0azMtY2NXS2pvR1lUSXBteHc?oc=5",
-    "date": "Tue, 09 Dec 2025 08:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa1pxR2p2UXFLcGd2enV6Y2xYQVRNTUdRcjhqTXY4Ul8wU2laQVBwNEF2UGFMd3RtZXdlMDZMZXdLaml0ekhvVFdBNFBmamhDM0lyYkJFMTBMcHRzMmFjbkxQaUlhRktwM1czblZVOGZNa0RicE1SV2I4Mk00TUtTd2dhRDRvZ1J3Nm52NmpaN2R2cE9OVXpaUkdtUm50VEJsdDZKbVN5ZTF4NTRLcGU4M0NxT1FrMkpIZFI5dDhFc3NwcHFzanZLaA?oc=5",
+    "date": "Fri, 19 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "CCLA Strongly Opposes Bill C-16",
+    "title": "CCLA Testifies before Senate on Bill C-16",
     "source": "Canadian Civil Liberties Association",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaT3JiWWw5WjBtcnl6Nm8wWjUyZ2R0dzlia293MVRvYWliRmQwUmRkV0E1UVhYR1dXUFVqdWxyR1lHMDY4UjdVeFhVUUZGcWp6WXMzTUpXbm1XYmQ2MHBqalFQbi02bDdSV0tCOGlsNjI?oc=5",
-    "date": "Tue, 09 Dec 2025 08:00:00 GMT"
-   },
-   {
-    "title": "How Bill C-16 could undermine the Jordan decision",
-    "source": "CBA National",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVW9ud2ZlTnhyZ1dOcUhPdEJzXzZVQ09pUjFlV2dGQy13OEw4WDVublQyQVpCSVB4b2UzTDRhY1RIeTZGSy13a2FWcjQyUUl3RVZlWXg3UXpjUVlOREZEQ0ZHR2h3Sk5QLUtuNkltQ1dsU1h6NU13RXo1aV9PZ0VTY2RjRFRjZ25oZ1owTVJGWVVqSzBueHZET2RyRDM2eEVNV2VlZS1ITlplUQ?oc=5",
-    "date": "Tue, 03 Feb 2026 08:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbmIwVkdYN0lJZlRjOTZ2YjMwelpyZ3ZyVWVZNXNBRWlETzk0NENDOXYzZU9aVy1aODBtODJucVcxeU1xNUtnelZnTTF6UDgtZXMxVHpvblZNTlV0bmdzTVRuQ0VGMGJycWdzOUVhei1QMklBV2VNTkR2QWFpSks2WTRB?oc=5",
+    "date": "Fri, 19 Jun 2026 07:00:00 GMT"
    },
    {
     "title": "Disappointing: Canada’s Bill C-16 Won’t Stop Animal Crush Videos",
@@ -2087,6 +2081,12 @@
     "source": "CPAC",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcVZhcWJ1SEhJMWlqSlZJcXlMT1BXU0RoNjhza0pPYUV3a3dZODNvUUVqTl9TZFlzc2w2WGI5M25JMXRPVUJMRTNtTk1uWDg5dUNEUG5fSEkwYXZOT081QVZ6RTV5QS1GV2xpSFY0VGs3dURWS2NETEd1aFVURDlXZXpjbjVvd2NKOHV0RnRBZ0M0WFIwMDJtaElkdmd0TDloMUpCVG54a0pfcUpQTWRSUXZBY1FqdjBvMWZoV1JzeEF5XzQzWEhRQ256U01JQktSanRhaFRxSVJjUUFXemdFcXd3?oc=5",
     "date": "Thu, 04 Jun 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Elder Justice Coalition lauds Protecting Victims Act reform focusing on coercive control",
+    "source": "Canadian Lawyer",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeTNGYk13UGxQM1VMRGdzaDdoSjNJcU1PS1F3eXNrTzBYb2dWVUZ2OEdlb1hsR0QtbzYwQ3JXVE96Q2dqLVBjanduN2s1bnctZ0laM3FMX3NFaVREc3Jzc051MWRwazU2czlRZlVjQ1Q2UUVuT3BsbllHUzV6XzZGYWRRNVpCSXAxOTVFM0tJWmVFTktucXpvY0VkSmUxWW1Sem0xRXI3Rjh4TnA0Tnl6VVFSaXo2UDlSR0tKdjlVNGRXNTY4M1ZCWWtKN3RvNWtYQ04takJvSXZrQQ?oc=5",
+    "date": "Thu, 21 May 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-16",
@@ -2282,7 +2282,7 @@
    },
    {
     "title": "Policy Matters: Five Bills to Keep an Eye On",
-    "source": "chamber.ca",
+    "source": "Canadian Chamber of Commerce",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XSGNQZmEyaUJBWkVBTDFfaW9rX3BaNXJ2cnJvY2RJamxoTmxsMExTWGJCejlQQVNWdW4zbU9sS0VPbGhLVEJ4bWh3TUNHdjM2S0R5NEs5Rm5nRmF1dnhXY0Q4amQ2QUhTeGdwX3VGcGM?oc=5",
     "date": "Tue, 10 Mar 2026 07:00:00 GMT"
    },
@@ -2363,7 +2363,7 @@
    },
    {
     "title": "Canada Groceries and Essentials Benefit",
-    "source": "Parliamentary Budget Officer",
+    "source": "pbo-dpb.ca",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRE5sTVc3dXdrcnRPVmVEZWV2TzI4V0JIZVNyVHVWUS1FN0VudzNYVk5zalA0OGphZnkwRjBxSmZfT2RuWWxYSFBEZFRzdXFuMXlsMDNiTGttU0o4NnBkaEhfb3JEYzdWbFR2SDFCUEVadks0SmxINi1jaDk4SlVrUlpXY3FfeUdCNU1OcTNIT3ZrT25YN3E4a1FSRzk4eWdPX00zYlZRendkaEQzU1dGa1FzelN3WEJDVUxWdnhBXzEzUV9pTVIxa1hFQ1hDYTRhOXQzVjJ5bF8?oc=5",
     "date": "Mon, 02 Feb 2026 08:00:00 GMT"
    },
@@ -2374,16 +2374,16 @@
     "date": "Mon, 02 Feb 2026 08:00:00 GMT"
    },
    {
+    "title": "Committee Examines Bill C-19, the Budget Implementation Act",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTmd6WTJ0alBpUk5tXzM1R3dEVmFsRzU1ZUNOalpBUnNIT0ZVWG9vdkFfdUZhbjR4emtKWS1BbFdnVG5uMTY0bGJ4UUFPb2I1ZTVnRE1ZTFhOYWhSeGYzSkVsa1NOMmY2ZW94ODUwLUhEVlM2UU5MTnV0eTVTTkVtZTBjUDZHRUxZbVZjSUlzWlpJa0o4ZGR1eVgtY01BWV9YRS1MQm5xY2dwV081RlBocFZtQW1URDBpMHRvQmNIN290TUZlSFdOWjlzRWZRR0RobjEyNDhGU1Y5QmhtbkNaYUJqU3M1UVYzZFpuaWxPaGhHSnJ0NUNTeQ?oc=5",
+    "date": "Sun, 03 Mar 2024 09:06:07 GMT"
+   },
+   {
     "title": "Criminalization of Holocaust Denial",
     "source": "CIJA - The Centre for Israel and Jewish Affairs",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pckE3MGVPY3c5U2ltVHlHUmtkdWN1ai15RzNfbUU1MnQ4Zk9qMVczaG83dXN4WExwdzd5UExIWFNfOWwyREEyQjVVUmI5UWwyVmt4a19SU1hyelQ3cFFxOGkwY2gwQQ?oc=5",
     "date": "Tue, 03 May 2022 07:00:00 GMT"
-   },
-   {
-    "title": "Attention Federally-Regulated Employers: Paid Sick Leave Coming Soon",
-    "source": "McCarthy Tétrault",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTE9vVFFueUk1dmgtaUt4WlY4X0lQWXAxekNfTGRmYkp0WUlrQ0xoRnBuWC1YbXlKdjJ0YnJHekx5VnhIZjVfTDMxSGdDbDNvYkgwYUxpWi00WXBiRWExOGlIYURqaWRMWXZUclUtckRkM2lQN1NianpjaGJtbUo0RmdBeENHelZpRXNyVzNyNWRDM0xVNjNFTU9kVVRIVW5qTVlCRldOejl4REdRc1g3TUt5cWdlU3l4d3g1ODhlZ25kU1RPdE1xZmtMWEl5VEU2?oc=5",
-    "date": "Mon, 08 Aug 2022 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-19",
@@ -2505,16 +2505,16 @@
     "date": "Thu, 16 Apr 2026 07:00:00 GMT"
    },
    {
-    "title": "Committee Report No. 6 - BANC (45th Parliament, 1st Session)",
+    "title": "Senate committee to hear from Senator Varone and Minister Robertson on Bill C-20",
     "source": "SenCanada.ca",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pSzhTeEVCWFM1SlB0YkNpOHVTX1JMTUUzbFFrdkk3ZmZpSnI1Z3pmQVRFZXJsdmloc0NleWxZYjZVakh6Sl9IUzZGMHRiLWMydVB1ZVp5NlFpTW1QUEVVelc1SnNfa3M2cVE?oc=5",
-    "date": "Thu, 18 Jun 2026 07:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdkVPUElzckpYT2syc0ZrZ25lMGNkZDFHaVJBeG1mY0RJc3RsalFURF9GaUtRTWtFdndPckhVUXhLNkJtdXh5aVJqc29mMnBjUS1YRjhNdXdESE04ZmRMVzJsVkxGNGFVaFNKNDcza19WS2o2c1h4UXRMT2hNZXBMQzlHSGtmWHNXM1dud19nVjB3MzBDeTdIaTJUc3BCclFhTDBkM1Y0RTJhTXdKVExJMjNRYW9HU1BXZHM0MWREY1ByeW5Tc1E?oc=5",
+    "date": "Wed, 27 May 2026 07:00:00 GMT"
    },
    {
-    "title": "Federal Government Introduces Build Canada Homes Act – February 5, 2026",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOWJfQkJpVXVQVlQzdF8tNXFSb3Aya3diWVFNTTlQLXp2dXZpak15R0RlcWkwbXRobThsYXhrTVpWS2c3NFd5RDcwOGxUWGhmd2VrUUF6LUlNMFZtMzhhSlIwUEV5ZmozbnUxWGM5aGIyMjBjZ3BpSUlsZ1pZam1TT3V2OFZ5b2tjcFRaejZFWS04WVNQdkVGV1FWWjFpT1FyelVNUnphMEEzWVhQU1poYzJMUWg4Z0p6UnBmTG5pVlBKbjZmR1RYNlhFOTBCa3gtNnVWdkxVSmEwcjVaN0N3TVM4Y3VVVjY1YnlZ?oc=5",
-    "date": "Thu, 05 Feb 2026 08:00:00 GMT"
+    "title": "What housing advocates said to a parliamentary committee about Build Canada Homes",
+    "source": "Future of Good",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWXNXeTVGMFNCYm55eFVra3l5VE1MZDZ6emRheGVrYVlBMmtmNVJSYS1vNUpDUFN1RXlnYjkzUkFmQXlQNjZMbkl6UDROOHlLTzZjSl9kaGZ0R1U5U2F5X3dlZThUOGJod0xDT2UySFlubE9hSk5lX1c2YUU3Wm05cHNZTU4xSkYyX1VFclBmWHgxbG9YcGpkQUV6ZFlQczFJTjB0YkVMMkxJUQ?oc=5",
+    "date": "Fri, 08 May 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-20",
@@ -2592,16 +2592,16 @@
     "date": "Thu, 14 May 2026 07:00:00 GMT"
    },
    {
+    "title": "Assembly of First Nations call for withdrawal of Red River Métis self-government bill",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYTdaSUJXVGNvYkdnUUFpRnkzYl9ldnpoOGdBUTJZOFZGak9WczlvOUZJZmtCdWtjLXVtZFltNEpOTloyZ0lFREVneWJyT0JkT3Z5Smh2VWNibV94andNLWFhcklDTmpwRVpSeTF6TkdSeDQ4dElOZlRwZjV5VVZrWA?oc=5",
+    "date": "Thu, 23 Apr 2026 07:00:00 GMT"
+   },
+   {
     "title": "Robinson Huron Treaty Nations issue public notice: Bill C-21 should not be used to advance similar claims in Ontario",
     "source": "Anishinabek News",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcmplOWNZaC1oYzJYZ19VMEw4eW92VG1kRW5MekdlRjZXMkp0d3Faa2lfbW9sT3JHbzVVVERxTjhXRmdJR2VvcE9HbVNKeDFHb3JYY3RVSU1KRkNaa2R2UEJzQll1bXNiWjRxWURPUWw1d0dpZzN5cnpHNHpMTU04QktMeGQwbE9KQzNMMHlDYUpaSFdoWC16UnhYSU1ZNW53SlpVbE12NXB5ZFRScm1uX3JaeXRab05TNUIwU1NlT1Q0YmgwblhHa3RmcEthekUwWXdJc1JuVDhFZThzR1BzVkZjeVBTQQ?oc=5",
     "date": "Wed, 06 May 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Kahnawake says no to firearms program",
-    "source": "The Eastern Door",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95cE50c3hidDB0TXFZRzE0ZUdIeHdDS1czYk1iRWtPRjlsdDFQUHBSeElOM2F1My04ZklFN2VnOG1yTkVTYlpSMW1QUXBGdlJTQ1BUOE43SFJyenFoSkRuNmxhODRyU004aWU0eUgzakpuVXZvVXBGcw?oc=5",
-    "date": "Fri, 27 Mar 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-21",
@@ -2661,34 +2661,34 @@
   "votes": [],
   "media": [
    {
+    "title": "Bill C-22 is coming: Are we ready for Canada's new lawful access regime? | Canada | Global law firm",
+    "source": "Norton Rose Fulbright",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOHFod1R3ZHBkdDkweDJYUFVfcWFyOWtuazh4SlJVNndiaUVLcGRYTEpSYk4xSXZlYjFpRWl1MVhTTTJkc0JDeGFBejR1Zmk4LVNXdVdtaVRDak5mUFFRWXNHYVQzWnJLcV90QkpNY1lSOFNNYm9JRHFWNUZDUndYTXVLWThDYVZmS0o0Mk1HTVQ2ZC1zaUlaeFFtYnRkdnhtQVpNNWkxa2lBTzFxQUJIUzlhUVlsblhuOWowejkyazFPVGVmQ0JMR2wwWllNTUcyLU9hTDdmN2ZZck1l?oc=5",
+    "date": "Tue, 04 Aug 2026 16:34:18 GMT"
+   },
+   {
     "title": "Bill C-22 could expose Canadian data to U.S. surveillance",
     "source": "Policy Options",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50YXRBMTZfOGpNaTJKSHBDYm5md1RYZ3c0Q05IdG5UMUVfZGQxd0NvUDVqekF2MklZZHEtSU41RTJmMjZIVV8wRkhZNlRhYmozY1lqODV3WHpQSnAyd0wwMVVkaFk4Smg2T1dsLXBKVGx4MUdWQWFRZkNmZEs?oc=5",
     "date": "Tue, 16 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "CCLA joins in statement denouncing government move to end debate on contentious surveillance bill, C-22",
+    "title": "A Timeline of Bill C-22 and the Canadian Chamber’s Advocacy",
+    "source": "Canadian Chamber of Commerce",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMzk0OEhxVnNpVW1fa3hOUzJDSHlFM0pqbFhsV3BXcmJtNlF1YVBFdjNHbVdfMFMzMHVvQW1EOHBhZ3c4eENWeEVPVVcyejlHeHBxemJkc0ZfaTY2cE0zS1JGVDNPa3otY3dIWVRwUHA0YUljdURZa2pKdG5oSnVoUUt5V3A?oc=5",
+    "date": "Tue, 16 Jun 2026 15:51:01 GMT"
+   },
+   {
+    "title": "CCLA and Citizen Lab researchers release detailed analysis of Bill C-22’s many flaws",
     "source": "Canadian Civil Liberties Association",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVExfSVgya3NGdWlQX3RIQklXOXhkWEFQREpENXZLczJManFFSTI4bFhFZnNCWmloc1g1YXJobDdXVHBpSTNkZVlSbzFWbWxJSFlDcGtQSFNrY09xekVsQUxaZ19obmhyWkJYMTVKUTgySDgxMHZ5aFJJS0FrRTVRV3JzcmdWUnpIc25UN0FjNWdrT3cxaVM0OG1CcHpPSDI0bklGRUpGOXpwWUNtaFNaYW1zeUh2bnZXRmlyckk4b29jX0YtcGE4?oc=5",
-    "date": "Thu, 18 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Chasing Surveillance Powers, Canada Risks the CLOUD Act Deal It Needs",
-    "source": "Lawfare",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSjhFaDhaSVQwMU9UT1RVU2g5OWVzZFpWSjdnS0h1X2JJZ0w2aElHM3Mybl8ySEJpRHc3Wmh6VlE4S1hLVnpxRVJmaVA5WmRvT0d6OENKRGRQdjJLZk1SUzZLYlRzdHJSVnJXd2M3NG1fZmVWNk9BY2NmWXBQdmRRdW1QS0Nmd0xpdHlJVmdjSHRqVXlSaGVHOEQzcFpwdWpEeDFQNE80OW9yUQ?oc=5",
-    "date": "Mon, 17 Aug 2026 14:56:28 GMT"
-   },
-   {
-    "title": "(Un)forced Errors: Analysis of Proposed Surveillance Law Expansion under Bill C-22, An Act respecting lawful access",
-    "source": "The Citizen Lab",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTmtHLXE5VWwxQ094THJKUHVxeDhrRmlNMG9kOFdQMGJpUjVMbk8tZk1KVEMwZG9fb05hVmtqUXRsQmR6NktxTHYyVjM0YUR5b1J3R012c2U0ck44Y3F0MHA3Mk1VbDhZTEx1QWhLVTh0Rm1CTXlDN2NaNEIyUFpqcjVTb2dJODRhTmU1NjlTbWowdkU3NDlnX3U5WQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdkZJQTBST0k1R2tiLXFsbTRyX0hJZDVBMUlTak5LOUpodDg3cmRlYXdfcDNzbGZVdXJzaDQ3bzlkeUpfWVk2bUNiVGdnX2JpWllxQWJ3TFlqbFBfMmgtU1dUQ0s0S3ZPUi1qeV9YdGtaUWJBc3ZYRnBiZ2Z1Z1lZOHFxcC1VSHdEa2stbndPZTRoNkVWNGlRenNhSzJ2QVY3aTM4d1FvU2ZYdWpHUVE?oc=5",
     "date": "Tue, 02 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "Explainer: Bill C-22 increases risk of surveillance state, government spying",
-    "source": "Canadian Constitution Foundation",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GaFhpaDdNQUdiM1RsbU5VN3YzLXFWTnlkX3RuQWZmV1RmUDJiMm9vSmhoNm1MVEZ0bWxYVGRmdHJyT2xESm4tQ0d1WXpnQ2s?oc=5",
-    "date": "Wed, 15 Apr 2026 07:00:00 GMT"
+    "title": "Rushing Lawful Access Backfires: Wyden Letter on Bill C-22 Highlights Political, Trade and Business Risks",
+    "source": "Michael Geist -",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdk1LVWtMX3ZoRE5xemxvS01pakJXaVJjUHdaMnA0M2NzRml6cnJjWVFkZTR3TnAwdmJhd0ltV1NMQkhydkpydTlteXV2SWVKYXFEbDRQdkVjbGhLT0pINlRSSFEyVzVkWlpEbEE3d3NGRHZlYW1xSDBFT1o5eUtfbFNuLUlVMTZNdzU3MFBSZzJ4dGdPTnlVOEJZOGdMb1dGcjZoMjVzeVJpSEVES2dPMW83WUVYVGVRWnFEU0Q4SHYtUzUybk53VF9Ka2hfdjhISnFtUVQ0Zw?oc=5",
+    "date": "Tue, 21 Jul 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22",
@@ -2746,7 +2746,38 @@
   ],
   "partyPositions": null,
   "votes": [],
-  "media": [],
+  "media": [
+   {
+    "title": "Canada Bill C-23 Views",
+    "source": "angusreid.org",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81UkVDMmtQeldPZU91SnpsVWYzSUYxTGdWSjU2c0E2YUc5YnIyZURZRFo1U0V1ejhrd2FMUzVCS0s0THlHXzBxeUJSZkNWQWJVb2xqZE0wbw?oc=5",
+    "date": "Thu, 30 Mar 2017 07:00:00 GMT"
+   },
+   {
+    "title": "The Fair Elections Act and the open letter",
+    "source": "University of Toronto",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lY3oxTTgwQUo2Zi02NzRkV0lJUFJNQ3VMOEo0Y1lfQm9LQjZNSXpTT2NKUVVIaXZFQWZtRXFkVjNzQnA0cmpRUzlOOC1DbHZlNEdjZjZWR2tMcm1JZEh3aUQ4V3djUTZOVk5yTzRQWGI?oc=5",
+    "date": "Mon, 24 Mar 2014 07:00:00 GMT"
+   },
+   {
+    "title": "Searches of Electronic Devices at the Canada/US Border",
+    "source": "mccarthy.ca",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZTVzNHR3MFkxSksteWw4VFBaMGFCSUdjZXVqYXFZVXVldzRoeTNYOHpaTlpZS3FzQmFMY3p2OUFZdFBnTGNqMkQ5VFU1NnhZVFRlV3pUUDFKbGFXLWRVOVBRVHkyS3FXeGhGZ3ZPdlFEX3g1YmpGTXJmcGs1NzBEeWdWLW1EdjliVW5zcThfbmc2R0hRWkxjTTBRWWswanNHeXlIQlF4dw?oc=5",
+    "date": "Thu, 29 May 2025 01:32:23 GMT"
+   },
+   {
+    "title": "Ottawa gets an earful on proposed expansion of U.S. border pre-clearance powers",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY2NHOFEwb2FIM2ZrYUo4RmV4ZWlUU0RWM0VabG00bl9PRVpPajJiWDlnblV2cUEwUFFIWUYyRDRWZ1A2ajlDck9hNWstLUNpVXlHWkJyTmlBd2tFQ3dRT2Y4a2NRRjdqVHZrRUNkcFV0TWFQSE1UQW1PS3daU3ktN2dQOHN1VjVDZ2xDRDVUVEZIY3A5?oc=5",
+    "date": "Wed, 04 Oct 2017 07:00:00 GMT"
+   },
+   {
+    "title": "Jobs and justice: How the pardon crackdown made Canada less safe",
+    "source": "iPolitics",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTHJUdkxhcGNNQXhVdkY1azdRU0dwaFV0dTJMOElEYmh4YkJZemdMLWt4TlppUk10N2JKYUppOGpTaUFSSHphWVFhRUZPd2FFQ3NjeVZVa0o3WVhjUkVvZVBwQkRiQnYzcWpEWTN4eXBMWEU4a2Nya0tfTVhscUhMT2dPWXBQSWF5RFVtM1ptVVNtUlk1SXgzVlZfYXBYUG5xUGc?oc=5",
+    "date": "Wed, 02 Jul 2014 07:00:00 GMT"
+   }
+  ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-23",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-23/royal-assent"
  },
@@ -2805,9 +2836,15 @@
   "media": [
    {
     "title": "CLC welcomes announcement on Bill C-24",
-    "source": "Canadian Labour Congress",
+    "source": "canadianlabour.ca",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZHVsTHdDVS02RWZqanJscGI1RzZ6NEI4d2x1U0NqdmozRk96dEMwSll6OElITDM2blpDVUZlQ0dyVzFBTjVzcFZkSXkxOVptY01HZDVmRnh5UlFRbWRDNzlDa1JSQ1FMYXlQNWplOHJnSnhJUU1iNVJncGczOWJzZ3FMUmtBdVE?oc=5",
     "date": "Thu, 11 Apr 2019 22:20:26 GMT"
+   },
+   {
+    "title": "Vote Details: Appropriation Act No. 1, 2026-27 – C-24 – Third Reading",
+    "source": "SenCanada.ca",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xcm5GNmszYlFDb0pjRWN2b3kzLVdXRFF3WE5lNFVQS1RnZUdVbTZYbkNUbklzSnhXbVR4NnhwR1dielVad0F3ZFR4dTJPV3otTVZiQjREWHhjSXlWZ2h6LVRQT3o3WnA2TjdGQndlSkJBZw?oc=5",
+    "date": "Thu, 26 Mar 2026 07:00:00 GMT"
    },
    {
     "title": "Support to workers and families increases with the passage of EI legislation and the coming into effect of recovery benefit regulations",
@@ -2817,7 +2854,7 @@
    },
    {
     "title": "The Controversy of Bill C-24, Canada’s New Citizenship Bill – NAOC",
-    "source": "natoassociation.ca",
+    "source": "NATO Association",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wZjBDUmYwSkFRNVhZNTdiTGpHSzkyeENEaUZSa0c4bnhNR3NCeFd1UEpNdVFCMXFTVjNTWGljZWFZb05EbWFmYXZNamE1dXYtdVAxS0hycVloNmgyTVRDOXBvdXZBLXM?oc=5",
     "date": "Fri, 06 Mar 2015 08:00:00 GMT"
    },
@@ -2826,12 +2863,6 @@
     "source": "CBC",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSG5DcXVZNW9ONnFlbkNETVNrZXlsMkRRbUNFZV81Z05jZ2REekVlVG5XbmxLdHNSZUxYY1BvODIwR1ZTM2x2Z1hvQkxZc0tuOWdyRnZmREZ0WDNjVWFMUnh2S1lBd3BEOTZKbDZtbndfM0cyT3lQVVl5VDUyYnJqLW8yand2YmozTjFicXFxTU9fcXlTNHc?oc=5",
     "date": "Wed, 07 Oct 2015 07:00:00 GMT"
-   },
-   {
-    "title": "Bill C-24 is now law: Canadian citizenship is harder to get, easier to lose",
-    "source": "Canadian Immigrant",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa04xX0p0SElrVzFZQmFyNHVtRjlTV09IOEtQdmU0RTdNbmZtS0diYnM4UmRRaHZTaUZ1QTU0eW4wSHFBVjdpQ0ZKQms2NF9yZnl1OUpFRG9MVTNUR05ySkFQRVRmUVN6c2p5T2N6Zm0ybWRUcjluWktOUWtaLXowU29ZVWJXUXJsT1pSX3Jjbi1VNVpvVm5WR3A5N0VHQXZhbXNkbmZlQ01sRnM?oc=5",
-    "date": "Sun, 23 Sep 2018 06:06:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-24",
@@ -2941,14 +2972,14 @@
     "date": "Thu, 04 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "Bill C-25 a ‘security patch,’ but more could be done to preserve electoral confidence, say experts",
+    "title": "New Strong and Free Elections Act won't stop the spread of disinformation to explicitly undermine Canada's electoral system",
     "source": "The Hill Times",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbm1kTTlaWWRTdmtlZkVrQ3lDY0kxbDdLVVFqZmd0OHRSYUcyWFhjWUFKQ0FJLTdMa1EzNU1GNGt0b195TWR3MER0OHRHUEp0SjQ2djFaUjBma2laT0NCSWs2cGt3VXRzY0Z5Y2VwOEF4enJZWGJnbFV4RXpDUjEyMEtTSzhxd2N4RVZWLTlEUUdLWFRKQzZCNkZBQkpUcWFmUW1Kd1NsdDRsUktKSkgxMVp3NUhTMktYY1RFczRHWElKZmNuQmhzcjViemc1WkdXVGZVYUh3?oc=5",
-    "date": "Mon, 20 Jul 2026 07:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTlNtYzRrMEs4V1NnMlMzR0U4ME8xQzR5YloteGZUV2dUQS05em9YQV9VSHlvRF9hTnBSUXdNX20wZ2lqNkpaTTdBV1RLMzctUzNxVHFyeE1Wb0Z0bzFLS1VoN3JPWUdrT20tNVFrazctU1d4QUxtc1VZUThzVW45MnJJMURnY3FWS0dlWVBlMUZ2eXpUajRPOWljUmNKQTVwR3hNWFExUnpRQjNFM3RrQ2ZhSlA3R3BxY0dJVHdmcGJxT2N6R2xfREd5RWlhVl9lcUdtUF9ibDMzdw?oc=5",
+    "date": "Mon, 13 Jul 2026 07:00:00 GMT"
    },
    {
     "title": "Ottawa’s Election Security Fix Is Too Little, Too Late",
-    "source": "cigionline.org",
+    "source": "Centre for International Governance Innovation",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYVEwSTYwbTlnLUtnUnc3NGcxYjUwVkFmclMtcG9OMkltRUJVWkNJTXk1eXdCV09rUWE1QnRjM3pnSWpiSTBqZDdIcmpBX1VnbUxuUXNtSnZReXBXUXBlbWdYLXRVMFBUdzFuWG0zckx3SHZ2UGs5dGNvQkgwTEhtekRMVE5rTDctdVJSc1pETXBZY28?oc=5",
     "date": "Mon, 27 Apr 2026 07:00:00 GMT"
    },
@@ -3145,6 +3176,12 @@
   "votes": [],
   "media": [
    {
+    "title": "Third Time’s the Charm? Canada’s Latest Approach to Reform the Federal Private-Sector Privacy Framework",
+    "source": "Blake, Cassels & Graydon LLP",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdTQyc0FhejhvSVBNUWE5X1FuS3JzakNLeUVwaWNPS2FwRW1TaDE2Q3BURlZaNjdWUjcta1pJSnQzeEdDQWFGdm8xcHQ1WFpqRWlTcUFKMTA1ODRZNmVHVUU3Qk9MRzhWOTFtQ2VJbVEzLTJrNm9XUVNOMlNpZGMydW9rWGZSSEx5MDIybmdkeXVma2xjUTZ2cHZLdG9YX21uaHJmUTE3WHJhUnB3aExfcm45UVpOWl9aNVdndnZzQ1VxdmJYVnBiQzVra18?oc=5",
+    "date": "Mon, 24 Aug 2026 07:00:00 GMT"
+   },
+   {
     "title": "Bill C-36: A Third Attempt at Federal Private-Sector Privacy Reform",
     "source": "Fasken",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0bnQ0bERybXFSUUhzUmhVVW10ZW5xc08wb2lHYldDaEoxTHRZTlFpLXJiZTBrV0h1RElIYW1waVM3Mi1ibzBWRms2ZUVCU3ZSX0E5QlgyUGRwLVZsYjlfOExERQ?oc=5",
@@ -3158,21 +3195,15 @@
    },
    {
     "title": "Bill C-36: What Organizations Need to Know About Canada’s New Privacy Reform",
-    "source": "McCarthy Tétrault",
+    "source": "mccarthy.ca",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLTRDUnNGUDdXbmxWQWphVkFhZ09FcW0zOUVVQTRsVTJfbHB0X1Z0cG1sSVVjQWhST3ZpRkMtdHlIWWU1Umk3N1cwMVVqU3dZUXprbGlabERwU1Zyd0JjMTllME9ULWdZREI4TnZuNkxJaDZaZ0lXREtQVG5qVDBpVFJHYUVFTmZZVVh0dlZfM29HN1ZOOG1hc19jNVZSQUdKTVNxUXVTV0ptaWVLR01TZG56Y2ZUUkVGbUt6b1dEN2lMVDQ?oc=5",
     "date": "Tue, 16 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "The Protecting Privacy and Consumer Data Act (Bill C-36): key obligations and enforcement overview",
-    "source": "Osler, Hoskin & Harcourt LLP",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR3U4dXlWMW84MEFneTZsbkJGTE1TOWNUeXlNUnh3eGdOQXRrMU9Fc3B0TWNXN05IZjZya19Ga0dQSmdVbWxGTHZvU0pJZ3Rvc1FNOGJsZTNKZmdxNHcxRUZGamhOak0wSlVEak50blRZVnBYb0dFZ0R3U3h5QjdGbTV2WEhRVkppck9LTzJOcXJ0SlRsQUtxaC04b09uUVo2Z19ybzk5ZXFob3pIRGs5N1hKalB2V1hJQ0lvWk5RRlBpTGxKMzBNeTYyMi1yVi00WTdOSg?oc=5",
+    "title": "Bill C-36 and PPCDA – What you need to know about Potential Changes to Canada’s Federal Privacy Legislation",
+    "source": "Clark Wilson LLP",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ19qMnpreWpldTQ3MGhocy1sU3RKQ2VNSnIxbXRiaU5KQ0FwRVB4T1Noa0l4VXVCemFmcjc0dm5mS1hFU042ZHlzVGtqVHhwWWstRUpjNURMdmdpT2F1azJVWmYzcnBNZmYtWld5OUtpZ3ZpSW85WExUa0FSMEUzWEIxeThUVnJ3ODRzaEdtX0JvQ3JkRnpuZE96ZzlxTE9CU0xWUGEwYVNJOEwyWE1HaVdISWVSdC1IZnN4TGZsREpDR2ZaUnduQw?oc=5",
     "date": "Mon, 29 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Canada's Digital Super-Regulator: Bill C-36 Pushes Out the Privacy Commissioner and Hands Private Sector Privacy to an Overloaded Commission",
-    "source": "Michael Geist -",
-    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVVA1LV9ackhtN3lCc1Y3djZRT2lOMzJRNUYzcHdKZDFUVzljUHhQdmhJTk5WcWlCRWoxV2F0V28zRHV3ald4NkROV0pndUFVN0kyaFRjUXRrSkpEZ182OVJlSERKMDUtR2VLd3VmMVotRzZwbF9wbFRGREZ2aFFRa2pZdDBGal9GQ3l1blowNGpkS1JQbmNXc05nV3FDYlFELUFCUENaYjBwR1ExU01CRlNkd1ZfOHg4WGVZMnpxTzRvb01xbXl5MTM5WnBzWHFHd2stTHZ6cWJSamNJb2d1THZ2cmMtRjVCNUd1a0tna3hXM2R3S0NVMTBKVkNqOGFXbnBSWXRn?oc=5",
-    "date": "Mon, 15 Jun 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-27",
@@ -3238,6 +3269,12 @@
     "date": "Mon, 11 May 2026 17:40:48 GMT"
    },
    {
+    "title": "Canada tables Bill C-28 to enact the Canadian Space Launch Act and regulate spaceflight",
+    "source": "SpaceQ",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYzFBVTF1cEVNQUV5U0tGVk1GSkd3ODdveEtqdnFZTWVFYkxMRXRkV0o2dWJqNVlRdzdwU2RfSC1ZTnVvUk5icnlxTVBGNVRqb0JoS2pTUTFTYkVkb3YxYlAtdVVzSTJERFdmNGdPcUtNam1lSzF3Q0xJNnpzb3pTdU9Vb2J1R0tCZGFqbkd6OUVsQ20wb3FIUEpQbHhORHpiVFlXakZBekQ5dw?oc=5",
+    "date": "Tue, 21 Apr 2026 07:00:00 GMT"
+   },
+   {
     "title": "Federal bill aims to enable 'homegrown' space launches",
     "source": "CBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fYW5TQTZBNUd5azZBcGFnWFNub0NpUm9UNzZESjl4VEhrZ1RMc1F1SzhXQ2FxMDZ3VUI2aDNOcHI2R0lXSHdwaV9kRDFaNmtMbnFlOFYxUVZWZVRMdVZFU2lFdjB2NjE2WUJ6Z2ZWYl9JZDZhYXdj?oc=5",
@@ -3254,12 +3291,6 @@
     "source": "Canadian Lawyer",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmJFQ2lzZVNYajFnOG53M1V6eWUyem50UkhCU05mdnR6RC1pRnBlRzNEZl9Bb1JfT0tsbVItR1VpMWNvXzVmeE9ManFhdUxiWTBaVFBUMWxaTDJUcXhydzBQelJOc29TQ3lQZGRpMzE5THU1WnB3WTU5a2V6QkgtbEtqeEthRlJRV3lGZ1RzUEU4OTI2bEZKaFF3Q0c1NnBxRGJPVDdZQUlmRkFpS1V0blZBR3Jub3hRT3ZaUkoyOFhLWW9u?oc=5",
     "date": "Tue, 21 Apr 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Canada Moves for Sovereign Space Launch Capabilities with New Canadian Space Launch Act",
-    "source": "SpaceWatch.GLOBAL",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYXpYRE5rU1VwSmFIRnZjOWlMTG1ub20yNUw2SzBFd0haT0RyMmQ2dzB0Sm9DTVBtblkxZWE1QVlua0FnZjFqRmFVdFQ5UnRpdVJXLVFHVzVvd29PTjUzOGpEWVNYaGpCZEw4QTk4cC1ZV1R1b1hsOFdXdDBMVloza1ZkWG93dU5mOHJPa2FueDZQR1BQRmVpcGIxQ3NEcWNxR09IWHRZMmItNmFJZ29lNDFOSm5Rbk1VUFJsV01UZw?oc=5",
-    "date": "Thu, 23 Apr 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-28",
@@ -3326,9 +3357,15 @@
    },
    {
     "title": "Bill C-29 and Canada’s Proposed Financial Crimes Agency: What You Need to Know",
-    "source": "McCarthy Tétrault",
+    "source": "mccarthy.ca",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWF9CNkVLV3dVbnlIcDRrZi1lUEpWeVlMSmdLTVN6dU1hTERTV3BwV0t2UjdUeGxBQ0lDWV90X1IxVDViWktoRHp4MDJ5Sk00OXJhNG1mNGZYdzFMVGllU2ZCVUR4MkhuNjhBejF5dHp6Y3NTWVhEVW1PUGdQMGpHc1p0MHFFa2toLTg5RHBDbFpmQVZyRnZQZEFCTW00MzRKQlJ2YnVhTEk0QmJfTVZoZC1yUzFvZThTV3o0aVVPRFdXWEZCNWc?oc=5",
     "date": "Thu, 02 Jul 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Legislative framework introduced to establish the Financial Crimes Agency | Canada | Global law firm",
+    "source": "Norton Rose Fulbright",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNczNvWWVmU1dvaUxTa29hUkl3YjBvU3UySTlKNUEtVDJZb0NuT0RzTDJpNjF3OXRDQWQ0emliLW5sVXZpbEMzeTItTGlKRmxLSkMzN3FHQjJUdnplX3RTV3RhTFRUcWNyRjdReHZSUnJqZnlYOVE5cEE3MkxzRnl0REpXenNxYnQ4bFpraUM1UTlVWGx4QUQ5ckVBSVM2bW1VTGZjZVZTaVVuN25PV01CamNQMFczTDBiREdZLW1pY2luMUJoam5JWWZfVlBoQm1aRG1MVFk4SHlFZHFVX3lwQg?oc=5",
+    "date": "Thu, 21 May 2026 18:45:24 GMT"
    },
    {
     "title": "Bill C-29’s shortcomings risk undermining effectiveness of proposed financial crimes agency",
@@ -3341,12 +3378,6 @@
     "source": "Borden Ladner Gervais LLP (BLG)",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNam9TaU1hMk53aG5feXZ4bVpqSUZnWnB4SzY0RHR2R09FWkNuMHEtMGlrdTZHd2tUMnQ4anBPNzBrcXhwR0tBZEVfWkxLVUJqSm5JODNIZS1yWHAzRHlCX2hibG1UcUtiTURzaHpfc1pmV3BoRk5VNEFPRERxZXl0TFlFV25jRWFfMjY5MVRiSWJ5SEo0N0VVQ0RvN2N2eEdMU2NoR0I5ZDVjOFV3eWtBZzhfdDB6UmxIN3hrN19n?oc=5",
     "date": "Tue, 12 May 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Canada’s FCA bill puts FinTech compliance on notice",
-    "source": "FinTech Global",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTzREM3g2ejNVWU5XT3E5Tm9MdmFvVVN3RURBaEVHWlpzQzZhdTQ5b2RhTzhEUm9HQ2doblFVOUlpc1JMVFMtTzd3VVhpRkZyZ0JBaHV4bFVUVTl1Z1NTM1ZObzlrMW9hcXlJd2pkRlJmOWN2bFJkaUZWeTdwV2haazJ5VzhpT2FqdVc0MGpn?oc=5",
-    "date": "Mon, 15 Jun 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-29",
@@ -3478,22 +3509,22 @@
     "date": "Fri, 19 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "Carney government overhauls pesticide laws with little scrutiny",
-    "source": "Canadian Affairs",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVTdEczBYNzkxNEF4SlQ2UjQ5Rm9hRURCRVptZlozYlpoLVM2eWtQM3QwWUdsNFdTUFdWb2tuYVk0aDRPcm5Zd2N2V0dTbVgzbGJFSV9SZ0twLVBMNVZmeGpwRlVlQ3BzZXRKWUN1QUFqa2liSTExaC1iczVmSEFRQ0JlMkhwSTFLa1EyZDJPTUVrbEdhdE9rWjZ0UHFTRlZDbUZhVHhFMkx3NnJD?oc=5",
-    "date": "Fri, 03 Jul 2026 07:00:00 GMT"
+    "title": "2026 Spring Economic Update: Key Impacts on Canada’s Financial Sector",
+    "source": "Blake, Cassels & Graydon LLP",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONnktRU16U1g2MmxTT3djVm1WRUxhVC1yVzJSYl9XSEE1TXU4R3cxczhtMVpqUjAtNE9zTWtCdFMtVS1URVVNZFp5ZGpFWU44YldBR2hRUmM5Zkx4OVlyNnJWVjV5WGR3bjJHRTB2ZlRtcTM4Mm5iVHIzV3QycjJ3RTlDNjdYVmpYUzdSNDZWQzAyWTYzRXlLRW94bkYtajRZd2hN?oc=5",
+    "date": "Mon, 11 May 2026 07:00:00 GMT"
    },
    {
-    "title": "NFU pans Bill C-30, calls it ‘blank cheque’ to override food, agriculture protection laws",
-    "source": "The Western Producer",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYTRndlplM200cGhqMEYtYWdrR0FjX3Zpb3QtLUdiNlZWdExGTGF1UDExdlAwd0hDVFVNRHZ0c013WGZkbFc2UVBHbTJYZmNLX2tIUEw5RGVXWnhCU3BKZHhvYnZWR0tyYks1dDFXZFN4ZnBnUjdpZzVRT0pMb3h1UFhFOG10Yi02STVpSUlrdXgzZlBZNDNwdE1FeDk4TV83TkVpQTRiVjFRakI3?oc=5",
+    "title": "Food Safety: Groups Raise Concerns About Bill C-30 – June 11, 2026",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQjdhM25BNXB5RzI4X0p1eDIzTFRFQjVfbkd4WmlfOG1kQTZZblVCMWxIcWwtbnVUNFNwdnJxZnRGZkNLN1gwdEtNUHFFVTQwVFB2ZWxsUlM4aGxXOTBJUWFqcUdncmpwWEpkQUxtRVNQMms5cHZaTElVZ1kzRFVkeUs5cGlJWkhsTHVmTmVWVkN1Wi15aU0tUDhiV3d5Ykd3NHE3SHE1eUQ2Q1NRdGhwMGZKaGlyalFHOHlRLTVoNlNuZmN3WTJldnZVM0h4Sk1INHUwUFN4ZXA3bmJGZXlac01NOA?oc=5",
     "date": "Thu, 11 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "Chief actuary clears base CPP rate cut in Bill C-30",
-    "source": "Wealth Professional",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaUVZbVE4WGNjQUN1ajFmRnJEWURKQkVGOFlLamNGdUlJbEo5TjdiMDdfOXNMSnpMSGJQb001R2JwVDlnMGNnekV1Q3hlemtuM2h5M0JIRUNUbnIwNFVENm8wQVNoLUVZZ2RmVm9DMnVLU0dRejZCZmRkSGlZYmluTlU4RlZ1NktQVGQxNGFicjhabEdWU3lScmU0QnNhR2poeDVraVlCaENhV2dNQ2FtWA?oc=5",
-    "date": "Wed, 10 Jun 2026 07:00:00 GMT"
+    "title": "‘No safe levels’: Former federal scientist warns Bill C-30 opens door for more pesticides in already broken regulatory system",
+    "source": "The Pointer",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWEZFMUc4ZVFZTy1mdkRaUUJONW1tTFZURFE2ek5TLVNlY1FNaG91WXdrS011dFJUS1dJWVYySzRSeHZWQlA2WTJSZXNReUNBOGFDYVN1bnZ6N2xwUHlhQnpDSnBkZ08yUFl4Y09ob2MtN25EMk1tbm9fS01HTFZyWk9ZaldSREhnTGZfd3ZOWWZPSGJCbUNYWUhmQTVldTRSYTJ4MTFzOGFoVldCR2lxREdKdG1STmg5QVBXY2I1SGR5dGdZSlc2SHlBOVhqSEs2aG5nYmdVRTA2eW1mRW1sa2Q5SkRIaWpGTEltRFlIUnZlRjZFbnln?oc=5",
+    "date": "Sun, 05 Jul 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-30",
@@ -3700,6 +3731,18 @@
   "votes": [],
   "media": [
    {
+    "title": "Residential Property Flipping Rule",
+    "source": "pbo-dpb.ca",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYS1LaTc0YUhsUW9lamNqa3RKQlE1eHBZb0hxZFE0VmlzSTkyVFhYa0VVbWdUMEI2d2Vpd3R5cmJEeVA2Wm1nc1g5NE9qNWpROWtEVDJKX3ZpNy1iM2hoT1AwZE1hX0tQYXJaZXprSHVmd09Id1NLbTk1QmdDbjM3R29ldk1zNzdTbS1XcnZESEVnYkZGekVvWEJjT2dRNU9STC1sbUtHakREN0htYnp0SDhIQXV0TzAtLWM0UGVOWTZHMURQRkVqZnFMQjBydVlXNmduQUd0ZGllQzRnSFhGVW9B?oc=5",
+    "date": "Mon, 28 Nov 2022 08:00:00 GMT"
+   },
+   {
+    "title": "Bill C-32, Canada’s new 30% Critical Mineral Exploration Tax Credit, explained",
+    "source": "Lexpert",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ1BwaHQ2ZHZjb3hFandfQjdIYmJxek9DME4yV3dmZGhQWUY2V2l6SU1ubmd2WkR0ZEpDMmJHZ3hLWGhNY2VFZDJoVnZZWTdjZjlaSkZoUGQ3S2VvbVZxdENoQUxJNWJlc2djaUZpc1gtOWllS3UxTkNtSUFONDRkeU82MGlrSUg5OFBHa3ZwRDhsYVVXQjlTRUdhNzFLVlExWDZKUzB2QjdjN2NJZG9mdGpjZ1N2aXd1bGdSd2NKT0dRQQ?oc=5",
+    "date": "Tue, 17 Oct 2023 07:00:00 GMT"
+   },
+   {
     "title": "Understanding the New Bill C-32 Indigenous Trust Disclosure Rules",
     "source": "Crowe",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVldFcjJzOVFqNnRqZ0hDbkhYd3pHeEtENkg5Mm51QlNMU1N0NHJGTjBXQVJEVVFwV1hzU1pKbVhYYjNCbUpWWl96a0l3U0pqaU1aRGxsektlbDlhcndBNUZDUTFSYUxYU1VCOF9pNmFYaHVZZjNldEpLVFJPclRfcE1aaElBSmotem04Nzl3QmpxRmxwNDdOVFkzWVlWQm15WDB1S0M2QThSdFFlb2tNeg?oc=5",
@@ -3712,22 +3755,10 @@
     "date": "Thu, 14 Oct 2010 07:00:00 GMT"
    },
    {
-    "title": "Liberal government tables First Nations drinking water legislation",
-    "source": "calgary.citynews.ca",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZXk1WTBMclRpQ3ozcjRwQ1RqVXhSeG5BMkFGMEthWi1PanhJcmZldnVPVU1NZXlOcG9RMkVyWFFMMHZDUDFzU3lfZE5obmNVY0dlaUNuNVdZSkhiXzFIcko0Wi03bm5lQTgxQnktRkNYTFdWSUY4ZE81SGRGU3dELUZLWTFENUk2TjlFNjB4WnNqVkhtY3RDZl84dnM5MkJKRHZ2amxYZ3pWOHdWdV8yWUtqWQ?oc=5",
-    "date": "Tue, 16 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Ferne Downey: Building on private copying is one way to fix Canadian copyright bill",
-    "source": "The Georgia Straight",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZFlLNTlha25QbnBqTmVEVWFUWWpUcmVRR2NJNkRnV09kajkyWDhLbXhlNk1veW84TEpKdFh6VG5YRUczNWt1QzkxQU9hbWNLN2Z1aWtTZHlZVDdFc3pqYkx0WU5DaDI5ampkQWNHcXZPRVB1VWxxLWR3S3EwaEFGenozQ3dtMjFQckxQVEZVLVRJU2U0X3lVOUF2ZFZuUm1ndnFpUXVKTHF3V05JSkZpdGhmczM4XzdHcmtsNE4zLVk?oc=5",
-    "date": "Mon, 09 Aug 2010 07:00:00 GMT"
-   },
-   {
-    "title": "Tougher laws won't stop internet piracy: study",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSTV2LTU5enJ6aUwxWDQ1RzBHYm5NZ3BZRWtKTUowVkFWUTg5NEdIbVhlVVZ6UkRrN2RmVHdBdWVnbWh0bk90aXRoOGJFYWIyTTlIa1RLZEtvOHJsR05GWXBNbVlEb0RVX09YWUMya1laLXR2dkFPN3prMFh4N2g1SFhBeXZUXzBqXzE4SndBWDM?oc=5",
-    "date": "Thu, 17 Mar 2011 07:00:00 GMT"
+    "title": "Liberals table bill to safeguard French in sweeping update to Official Languages Act",
+    "source": "Global News",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTNyempwT3VoQUZMZ09GOXJpZEx6RXNuTHNQNXNjcHd6MENvelR5dk1qbWhXeEpsejUtTlNwXy1fcFNlZzFOOE9xS3lOdjhXc1RHWllFeE1HX2k0alFJd18xUlh5OWhRWVEyNzRKbngxTHZ5ektqX0RrdUQ3WHdSendaVVJFUQ?oc=5",
+    "date": "Tue, 15 Jun 2021 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-32",
@@ -3838,7 +3869,7 @@
    },
    {
     "title": "Proposed Amendments to Merger Review for Port-Related Transactions under the Canada Transportation Act and Competition Act",
-    "source": "McCarthy Tétrault",
+    "source": "mccarthy.ca",
     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPd3RfVVVlNzlwS2wwSFdqbXFFUzB5el9TRWtZUWVYVjZQV2FUZTNhMnk2bkhmQmpoeDFCSXctb0VMNmlrSzRoTGd6YnRSNDBCYTBLQ01TTlpMaWV4UVJ0NXRnbW05bTczZkpSSmctcnphTTdIRlViWm9JNDg3azZ2eEtzeVA3QThCUzR0dmRLekdVWlhtdG5Hb2pwUnhxRksxNGNQc0tnZVlCcFRndjQ1NEo3NjloUXc3dXlTZ1BTbXFmUUtIaXh0SEhrQnoxbm1fMmVtcEpXbnNsRHBRb3djR25UbzIzVDVwaFY5M1BEVlN6NG1FRk1rdFpPbVl6NUNaekVuakdQOTE?oc=5",
     "date": "Wed, 18 Jan 2023 08:00:00 GMT"
    },
@@ -3931,7 +3962,7 @@
    },
    {
     "title": "Safe Social Media Act seen as unconstitutional, unworkable",
-    "source": "CBA National",
+    "source": "nationalmagazine.ca",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTFZxRFE4T0wzeWw3ZzdXbV94TWlMeFhjaE1nSVVmTlBOeVFhODZXbFpic1dqYWFZX0t5Qlo5bzYzMGJoa1phYVZxQmcxOUFwVnNENlJhWEx0WVRTSDZ1N0hXU1Vpak94SXBrVGxKc3R2cjVoVldrcmdydkNvWDdFYUlTY3duMEhtOFhmeERuclZwSmoxWEwtZGlaN0dQNUdjdXh5YUVmQktFVDJsWlU4VQ?oc=5",
     "date": "Wed, 22 Jul 2026 07:00:00 GMT"
    },
@@ -4003,7 +4034,38 @@
   ],
   "partyPositions": null,
   "votes": [],
-  "media": [],
+  "media": [
+   {
+    "title": "Bill C-35: Canada Moves to Strengthen its Forced Labour Import Regime",
+    "source": "McMillan LLP",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUjRfUjNIU3hXUHNxZkg5TDhzZ1plOTVsbkdBZ1doZ1hFRGNPLXpvdTlYQWNiN1BjcndfVkxGcGw4WEhSZVlMSmhodWRSenFTckN6WXhaMlZxaGJIcnpQbW1CNldITWowYTV3a0ZJcDdWUFdzZjk2UXk2TGlLeENvWlA1UlJyYWYtX3FmOHEtaXpNa043TDNid3AtM3RiZkM3MHZwaXZqOG1MSkR5QktwdQ?oc=5",
+    "date": "Wed, 17 Jun 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Canada’s New Forced Labour Bill (C-35): What Chinese Investors Need to Know",
+    "source": "mccarthy.ca",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYm5Zdk5WM3Y5bzNvSHVsN0ZJR0ZaMkVUUGFBT3FuaUF6SFJ4LUNscEdvUWdOU2lNSmlueTgwT25VanpmZUstRFRWcHZnNUtjTE9OVXJ2Uzk4X1J1NUU1YU1wTm85NGZXTXN4Y0RaSDc5RzEzWGw1REtzRm4tNk05TU1HM3FSWUJGNl9zUnJDMUV5MTJmUlVGU3QwOTN0OEtmLTJoY3BYeEl2MmVLa3VMU1ZISjZYdkxoU2Y0TllqdzZnOUxYUGtWcUFlSlR3dw?oc=5",
+    "date": "Tue, 23 Jun 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Bill C-35 forced labour ban reshapes supply chain safety duties",
+    "source": "Canadian Occupational Safety",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeWgxd0NDaGt2RTBlOVlpd2NWb2RFczBpQkNhNlBUYXNfNS1MY1EwZ0VXM1FQX1kxSS1kYnd6S0FtZWxOSlhvSGRwd1pTVmtGTFFHbUJ0MjV6T2dWanlldHVyZDV0dFZYcFhPR0JNeG55YjRVdWdKZzdUWWE1TUNrcHhvQnBaMjM5MkRONlhNVndTYzE5SXhKYU5zMzk2dHRVQXA0Zi1mXzJMbGw1eUdVcklDelYwdw?oc=5",
+    "date": "Sat, 27 Jun 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Canada tables Bill C-35 to tighten trade measures on goods produced by forced labour",
+    "source": "Norton Rose Fulbright",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUGdYZGU0LTh3c1F4RGtBVFROMUZLdUl1VTEweDZMOUVWcWRPNTlOaTd3TWtOTkdfTl9MWno5cHNFOWl5WmdILUJSd3FJUFBCMFZleGt6TnlkR3BNQU93Y3JCaXUzUXJ6MWhrOWt1MGs3aUgxdExHM3hGdW9nREotbzZuMWpYVktWcGliNUpqSGJhYUdhanlwNnNlSWFMOHhFYTBYTVdQNjc1a1ZuR0ljTDEtTzg4aGZid1dJLXY0UW40WXNyUW1NNHZfT0NfaVpWb092MGd6a1A5MU5tYVUyUmhsZFNHcjFyZFo4?oc=5",
+    "date": "Tue, 30 Jun 2026 23:16:17 GMT"
+   },
+   {
+    "title": "Canada Introduces New Bill to Strengthen Importation Ban",
+    "source": "Fasken",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRDdYd0ZQNVBSV3ZjMnE1ZHNBbmFxdmhnNjVTMV9CdTRkdFN6RHlrUVVveGJQeTRpNTVsaGl1MmR1aGVGU3ZpZkRrMGN6MEgtMnB2ZmZiaXB5VzFYaTZxVXhTdXVTWTJNUVh2V2JXSC1pY0RSbEtKb29sRktaUVUtLVR3Wjd2dF9NM0ZTTVRVUHE1cDgtU1NtMFM2eVB0ek8tNVE?oc=5",
+    "date": "Fri, 19 Jun 2026 07:00:00 GMT"
+   }
+  ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-35",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-35/first-reading"
  },
@@ -4061,8 +4123,14 @@
   "votes": [],
   "media": [
    {
+    "title": "Third Time’s the Charm? Canada’s Latest Approach to Reform the Federal Private-Sector Privacy Framework",
+    "source": "Blake, Cassels & Graydon LLP",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdTQyc0FhejhvSVBNUWE5X1FuS3JzakNLeUVwaWNPS2FwRW1TaDE2Q3BURlZaNjdWUjcta1pJSnQzeEdDQWFGdm8xcHQ1WFpqRWlTcUFKMTA1ODRZNmVHVUU3Qk9MRzhWOTFtQ2VJbVEzLTJrNm9XUVNOMlNpZGMydW9rWGZSSEx5MDIybmdkeXVma2xjUTZ2cHZLdG9YX21uaHJmUTE3WHJhUnB3aExfcm45UVpOWl9aNVdndnZzQ1VxdmJYVnBiQzVra18?oc=5",
+    "date": "Mon, 24 Aug 2026 07:00:00 GMT"
+   },
+   {
     "title": "Bill C-36: How Canada’s proposed privacy law could increase proposed class action filings",
-    "source": "McCarthy Tétrault",
+    "source": "mccarthy.ca",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTXN3Z3ZzdzNKenlib2tPQ1BEQnViWFpVMTlqa3JFNlhFUjJxR3UtckNTdWhZTWFqQnJfUmZkTWxieUF0azZsaWZPQjQzYzhnTFdxYzZESlhDRFF4TzZCakNKZVRWOGo2OVRvNWlkNndVLXdCM0xjOUxucmZUN3BsOWtCbkVzdmVfWGQ0Rk5KNkhWMHhjamEtYjhNbE9henB2QWJ6bnZXOS00VFZhTVI4Z3k5cVpaSnIzcGYwa3VJUDZCMWNjVU1Lc1hYQmZ3cXlXRHZJMw?oc=5",
     "date": "Wed, 02 Sep 2026 17:35:27 GMT"
    },
@@ -4083,12 +4151,6 @@
     "source": "Michael Geist -",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5aaHlXeXlHNVZsNEQwWVYwTDFUdEVvTlN3WjlvTEFONTlPX25ONERCUk5xREtFRzRCMklyOGVHNkQtOGhtRWFnLU9sMENvSDU4N1cxUXd6MA?oc=5",
     "date": "Thu, 18 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Bill C-36: The Government of Canada’s latest attempt at private-sector privacy reform",
-    "source": "Norton Rose Fulbright",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM2RlSzA0dTk1NUxXY0hVQTRoVDFZY0d2dWZFUGdFZG03T0tCRWFxMlpKd05Pd29vVnBjWWF5TG5YNHVhU3VSMXJXNDlOMjRQSWJscUFlVXpkVGFRRUdRTWlzNDctUkZDaHhXZDgzRHFuT3pJNVJQRGZVcmVJejV4alpXdFF0d2NmZzIzVFo2ODFyZjlDZTUzU2VlYTdRVmw5Q2pKak9HTllXWEszQzhXSTh5T21EZ3N0RDVyZ2FNMk9CYkVnYWFVbk4zWnJUa1Npc2JSZ0xIb2FSeGh3ZTc3dFRHMnFTbktEeFE?oc=5",
-    "date": "Wed, 24 Jun 2026 14:24:42 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36",
@@ -4161,21 +4223,21 @@
    },
    {
     "title": "Clean-water legislation gets lukewarm reception from Indigenous leaders",
-    "source": "Indiginews",
+    "source": "indiginews.com",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wTXB0WmpucG1JWWx1SWlNcTh2eXNOOTNjOG9iQ1kxd19Pdk9BcVZUY0Q3OGw5YkFRdmJyS1RSdl9LQnVmSXR4ckpXN0NfRzRFRTY0VmlobE91U0Q0VWJuWHVKcmcwS05FSE83bE5hNm1hdlEwb1VvZTZ5ZmJuZw?oc=5",
     "date": "Sat, 20 Jun 2026 15:46:38 GMT"
+   },
+   {
+    "title": "Minister Gull-Masty Marks Tabling of First Nations Clean Water Act",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVnlzUjRwUkpGRHhlZl9GNl9ZUWNNNjRjLTc4Vmhsa3hUWldpUjc1WlgwVXgwamxnVDFudkZPSG02ZmxpaGU3UTZLWkVaazZGMnFWTnRJZHJpNWZMZU8xc09DQTBxWWk0QkZ0blRicjBpZGxTbmdmSE1fd3YwZHlkRFd5S3Rud2RYdGtfZlBtNjZycWw3cFJxUUZKc3RTNlFFbElXSTFVdTBaNGZBRkFiUlljMjlUVTZqVkdyd0F0NGFwRG03elhmQ3h6c3M2YW5OMnZEeHVuWjlLSW94cFlMazJ4V1RtMUE?oc=5",
+    "date": "Tue, 16 Jun 2026 07:00:00 GMT"
    },
    {
     "title": "AMC Responds to Introduction of Bill C-37 and Federal Commitment to First Nations Water Infrastructure",
     "source": "Assembly of Manitoba Chiefs",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSXJrUnBRN3Q2MVVPcVI3dU1FckJIbnBiV1ZDTXdVb2Y4czBKOFVnUXlNOWI1aWRJZ3pkNWZKUkFCaHRrQzBwMXBrY0lEZGdhN09zOTVUZFdXVllocmF1ZWtvejlGRDROQUtDZVo4cVNyeFJ5dWtKU01hVEVaTDZyTHdEY3ZfTWZFRWtrcWZMb2RJeWdRTkY2UFc3d0YtV04tVzFfOGM3SWZPQVRieTJ6d3VLb043RFdaUEkweFhWTmRlWEw3em5xTEhrek9Id1A2QVBUUGpHaEtGaHdhQmc?oc=5",
     "date": "Tue, 16 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Canada’s proposed clean water act needs stronger protections for Indigenous communities",
-    "source": "The Conversation",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSFZkam5Fc3djTmNQVW1NaFlSN3lwdDZnRDJGU3hONG85cFVpM1BfSy1RSmFTZ0N0Uk5Xd0FrODFxR3ptOXcyN1QxSlJZYVdEck5QYmt3TzdyLV9xZHhoazBxOUdJa2h2TTZZUFVZanFHdW9PbXRmYnZCQWZIaENPRGRialFTbkx2MEdSMU9lM0tScnptTTJMMHhHeU1YcEFhVVh1UVNYLUhfcVRKTjVxR0VwbzJaUmFiNmJBMEVB?oc=5",
-    "date": "Thu, 09 Jul 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-37",
@@ -4236,13 +4298,13 @@
   "media": [
    {
     "title": "Council appeals to United Nations on S-2",
-    "source": "The Eastern Door",
+    "source": "easterndoor.com",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kRUhydEwyV3lVNVlhTnFYZWZlalkwWTFlZTQ2cXVxMVd5emItempxWjg5anA0QWRIWExxejFkVnd6M0VzWTNMZG5FeF9WMk5qX0wtcjhTNGxEZDBVVHNjYVpNTFRtUGwtQV9hQnBPWEI0S3pQWXF4a1JudFI?oc=5",
     "date": "Fri, 26 Jun 2026 07:00:00 GMT"
    },
    {
     "title": "Bill S-2 unlikely to pass before summer recess",
-    "source": "ipolitics.ca",
+    "source": "iPolitics",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSU5Mem5mQ0loa2FaRGF6NWZhNkQ3Umo0WGV5ZE44RnpkYjN2ZHBEMDMzWmhMX0x1a1dsemJyXzBxOXR3ZHlRRmJUT0xYVkl3RXJSOTFZNExWMWRTWUp0NkhrbXBuMU1oeXBvNDFrWXd2MDJCaDFwSWRRb1pZV2lvZUFBdk5iNC1fTW9B?oc=5",
     "date": "Thu, 28 May 2026 07:00:00 GMT"
    },
@@ -4322,34 +4384,34 @@
   "votes": [],
   "media": [
    {
+    "title": "Government bill modernizes framework for trade measurement",
+    "source": "Senate GRO",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5adGNiZkNtdTZIZGJjVTVJS0xiVERFajNmRV93X19yZlNDVnlZdmF4MlBBLVRNcjRvaXhRcTZ6SWpzYmpLdEY2SjRzenlsTGVxOXR6c2J3?oc=5",
+    "date": "Thu, 27 Nov 2025 08:00:00 GMT"
+   },
+   {
     "title": "End Canada’s second-generation cut-off for Indian registration",
     "source": "Policy Options",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRzdwN1pmWWJtZ09FdDVTUmE4REYzUmpvRThnMGNxU2JJX2l5YzVqakgxTFFPV0xnTXhsQWtadk1VbGcwbEtPd0dZcVdERlJzNlZxTmNjRk9ZWlFPM0I1SGRJZUFJYjR5UUllMUZTY0RXRDZ0MmZIR09wVzkwM0xPZDVrUy1sd3M?oc=5",
     "date": "Fri, 21 Nov 2025 08:00:00 GMT"
    },
    {
-    "title": "Make it stop! Ending the remaining discrimination in Indian registration",
+    "title": "Government should salvage flawed Indian Act bill, Senate committee says",
     "source": "SenCanada.ca",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdXVxSHBCbHR4dUc3RHYxQ0hOWTVNYlIwUDB1Vnc0SVdlLUtMVTBMajhQVHNBMG5NSDBYaTVxRjBxVU1zMGprdEJ6aGlUekFBRmZzeTlrdmFZVzJjTHpHc3dlWWNCNkNaX0VnVE9TcE84ZUp5UVBqR29QS2FEd2FaXzVwZXA5dVpDSDZGY2VZaFNWUEtuNF84eERJZ1hWRU82WmJGcTlTQS1aTzd3NDN4R0xnWDNCaGxId0JRR3pn?oc=5",
-    "date": "Mon, 27 Jun 2022 07:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ3hiTGEzbW52QmZ0WGF2eUpoUWhpUm5TSmpWdGE4bndRQk1JNHFnWmhEeTI1MmRka1BjazRrWUh1bnpJY1ZoNEpGeks2bXFYMXE3Rjc3NnBXSlBMMThRMlhQSklrTEkzZ05yYnZaUzByeTRxYk1tZF9xeWFLYU81ZW1UR2NPX2hEOGtxcG9KSXFWR2NEVzcyV0dvQTd1bGxYdjNlQ1d0TQ?oc=5",
+    "date": "Tue, 13 Dec 2016 08:00:00 GMT"
    },
    {
-    "title": "Bill S-3: Removing sex-based inequities from the Indian Act",
-    "source": "Senate GRO",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YMGdUNm9mMXptLUt6WDB5UV9WNnlYSU5fQks0eVlQVEl1SEU4ME1TZ01LZG94VGR6U3ppNG51aFNzZ0xsd2xKTWJWVGk1ZGhPTG9ZME01NGFLZw?oc=5",
-    "date": "Tue, 05 Dec 2017 08:00:00 GMT"
+    "title": "Indian status could be extended to hundreds of thousands as Bill S-3 provisions come into force",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT2VhQ0l3V1FmNmhEVGZLN1pCcHVKUjdtZld2VUlFZVM5d3VFSEU1OXd6T3J4MlFQaHdsdEoxZUtrd3dDc0k4MmJqdjRTb3hRWWc0c0ZpUTVwaFM2U0VNYWF2QkRVSlk1SjVZUFUwank1X2twMG9OZGxfWDNsZ1Y1SEdyZnkwOFZsdWFz?oc=5",
+    "date": "Fri, 16 Aug 2019 07:00:00 GMT"
    },
    {
     "title": "Bill C-31",
     "source": "The Canadian Encyclopedia",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wWWZxdGRWakZWQ0pMYVl2SWlKLVJLSlhGTWFPeGhxbi0xSTBoeTNQbmRGblQ0NXFySG5RVXZXRXFyN3RVZThYNzgzMkV6aFNCdWszQ3o5eW11bzNFdnhPUmNJTmFYQQ?oc=5",
     "date": "Tue, 12 May 2020 07:00:00 GMT"
-   },
-   {
-    "title": "Some First Nations tighten membership criteria in response to Bill S-3's extension of Indian status",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTkUwNm9oQnRiekZpbEZwdGdzM0gzc29VMWJpbHRaX0xLSkxPd1RSSXh1TC16c19pUHVZdEJ2Y1Flb1BpdU9yeUVEdncxeDFzeDc5eGc5TUNfV2JrYWpuUm5UU2pWcHZQSkZ5SHJadDBETEt3YlpNMUF1YVlUckMyRG52T24xTF9qSFVLM0lB?oc=5",
-    "date": "Fri, 30 Aug 2019 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-3",
@@ -4409,34 +4471,34 @@
   "votes": [],
   "media": [
    {
+    "title": "Senate's handling of energy efficiency bill slowing plans to introduce consumer rebates, says government source",
+    "source": "iPolitics",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTFJSVDJ0SzhzUkV0Z091SjE2YU9nX2VBcG1mM1BSX2FRTWxqZnZCVF9OaTlJLVJuVmZzanpHQzRtNXZYbWxvTVhJREx4ZmRudUdjaDJqZGRockNaaHM5MVlJa1hOZVpPbXdiazVIME5KOGRtNk1oNk40ZVpnTTliMHlaUlVUaXVvazJpdzZ6ZXhkUjQ0LS1iVFZSNnU2aFFUUFdyUS1uc1lZUFVEZEp1R2pMSWdnTzdlU2VGM0hpMlBfZm9tLXRmUHh4NS1ieENNZkRPbHVPY3F6STkydUVv?oc=5",
+    "date": "Wed, 20 May 2026 07:00:00 GMT"
+   },
+   {
     "title": "Hodgson touts energy efficiency reforms as Senate committee begins review",
-    "source": "ipolitics.ca",
+    "source": "iPolitics",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS0dObXBIN2M3U1c0TTBTOWJGanRzaUZrYi16MEUzYUVhSVdJLTNONEc5UVkwMnBVdGF0SGhFZWpSb3dwMVZjdDJvdEZNOVFyTE1OcmlzV1JrVGNZdE12RjJWYTVtYzRvOWx2NVA5czdMWTNJdHgybmR0dnNtclB6Y242ZkZIOFcxdE0zZElZeHlKOEpRcEVGeUs4aklxVVNZQXVhRXFRbGd5VVNkNzZN?oc=5",
     "date": "Wed, 15 Apr 2026 07:00:00 GMT"
    },
    {
-    "title": "31% Cutting Back on Groceries as Canadians Embrace Energy Efficiency to Trim Costs",
-    "source": "The Energy Mix",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMDg3MFBsTkYwaUpkQUs0bF9rT1FMeWowYUZrZ2VDLWR1clFDcmhkZ1NzS2VodDNCSW5IT1BKYl9mTG5qenpLanBuWW9sNWZzLUdqUGZEOUtkWi0xLXZKYTBNa0IyaHozSTlWMmtnNVMtWVdHNDBGOWY3OHNCTWdFQ2RaeFRnZ0NlMDVvZjJzUTV6SzVHYktIOTE4ZU1pSHFyaXRQaEZNenZ5ekJwZWw2Sg?oc=5",
-    "date": "Mon, 08 Jun 2026 07:00:00 GMT"
+    "title": "Legal Affairs Committee Studies Bill S-4, An Act to Amend the Criminal Code",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNYlBtS1FRTldIMW5RcDUtT3VTTGF3b1RjX1BRLVNOM2Znb1pDeHZEQ25CN0t4OUtUMlUzOUNvcnB0SkFCREs5R01rT0xzLWZKN2FFYllfQm1LS3FQX19EZVRaLWRYaUhZcThxUHlvNzJjS09OQW1DR2ViaUpiYl9sRl9jdkk0MEs2My1ldElDMlhyS0ZkUFJmUnhHdjVvaG1weElyc0E0TXRaUFIwTWlVLVFURmFZLVVqTklQUXl4ckkyUEJWVVgxcmRna2cyQVRJN1h6V1FLd2x5MWJnMU5maFo5Skk4UHlpcVVWUkR3YTZTdjltOHlESUY5UXlfeVZKUzQ5Rl9QZmU3allmM0ZJ?oc=5",
+    "date": "Thu, 15 Feb 2024 13:23:36 GMT"
    },
    {
-    "title": "Bill aims to legally recognize increased independence of Canada’s Senate",
-    "source": "The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT240eVAzZVFIZmN0V2pfVTdJbk54eEx1dV84VzlkX052ajM3YlBMdmQtODRBMWRMUnByY2l5c0VJc3gzaXhwMDNOdnB5WGNMNmZrbVZjc0pTbE9MM1BMQ0tZNU80OF9IU05VMmpWR0xsLURhdEo2d1JCWGVxZTJSSjYzUWhDOGlIb2hta09MeE9nQllCV0c3MkRYV3NYWHQ1RUo1MlB2ek82Yk00cXZjWEt3?oc=5",
-    "date": "Thu, 27 May 2021 07:00:00 GMT"
+    "title": "Senate to debate bill aimed at modernizing the Energy Efficiency Act",
+    "source": "iPolitics",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaWVoemllelcwcFJDRHFSeXZBR2syZ2JYYy02Zi1vVWdIZENmWXR1SGo5X0VLZDRJVmthR3NSN09sWmREWG0xZEhtWFV2enp6aTNyV2tzWWoybDExSFczUU44UUptNmhMY200ZXhOR204WlNKWnlDdXotWV9jUUJwOTViMjBYcUcwdVByVzFR?oc=5",
+    "date": "Thu, 19 Feb 2026 08:00:00 GMT"
    },
    {
-    "title": "Squabble up, Senate",
-    "source": "ipolitics.ca",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40bm9CeXZtdThYQktBZHVUQ0RlaE1Od1VDZ09nRWVtVU9GT1Itd0NhZGxaR0p1OUxLbEhKUXJSaGlqRWFZeFhISXQ5cmZnZ0RzdTNDWll1R08wSm9EVEdYamcxZW1NZw?oc=5",
-    "date": "Wed, 20 May 2026 07:00:00 GMT"
-   },
-   {
-    "title": "The Expansion of Personal Information Disclosure Without Consent: Unpacking the Government's Weak Response to Digital Privacy Act Concerns",
-    "source": "Michael Geist -",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbVp4bGgyZHB3T1NtT2VBN3A3aXJpbndfWGJ1RVZhaTJpNDczLTl2LVZDTmVnMEs0QU5uTG9seWxuY0QyRU1QUExibEZELUgtcl80Z3cydGMzOWtnc0R4eWJEdmJBN0ZjbG1salhIWTBwdEh6NjBFMlZfWFI2M0M2Sm1KalgxV0x5WWdYVHQ3THhUaGVDaEd2SVJnWWxKU3lSMkZEamREb1VyeGIxU1dmSmFwbTctNFBHaEMtalRLLWtLY3dXdzVYV09JYUJZNlMwRFFQNXMwejZXWnlPTjJtNmdid3IzZjhxWHJjMVpybmc?oc=5",
-    "date": "Tue, 21 Oct 2014 07:00:00 GMT"
+    "title": "Here’s what died on the Order Paper",
+    "source": "nationalmagazine.ca",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdnVCWUNVTU9iMHZoVk9BeU14ZEs4dnZDYXByYU51dXp3VXdidXUtNk1yMDZBanJ2V3NaYl9BcHNYV0xfSnNiZl9sX051eEZyMFBXdWxoeGRIaVZqai1CTkQ4aE5GWFAyYUFBS0JsZFR2TDhWOVdtNk9RRVVTalEzMGQ4cGQ5X0VtS1c0UU0tMTJmS1hNZURWMVRHellYbDZLZTdZ?oc=5",
+    "date": "Tue, 17 Aug 2021 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-4",
@@ -4583,16 +4645,28 @@
   "votes": [],
   "media": [
    {
+    "title": "Yukon premier Darrell Pasloski not giving up on controversial Bill S-6",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbkNpT0t3enpKSnBwTTV4NU5IWGFiN280MVJzMXdQMGgxZTdzV3NyY0NyNDExZ2JpOGplZ1ZLLWFPOHpNblF3MDRydzVGUC01WjBqSWptaWlna0Y3eGdtRWNMMW5CazhfbEhRajlnVFQyVEpjTnRSOFozYzdNcExNSlg1ZGkybzhiS25pS2h4SERWS0NfV1V5RGdSczFWaElDR1hFOVROMVJ4U28tYTlIb3hDRjhMMkl6?oc=5",
+    "date": "Thu, 22 Oct 2015 07:00:00 GMT"
+   },
+   {
     "title": "Opinion: 'Common sense' politics falls short in a complex Canada",
-    "source": "biv.com",
+    "source": "Business in Vancouver",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc19ITmtFcXl1S3VQVTJpQ2xLbm5OZ0g5YnpyekxpOS1pNDRYNGttU2gxWWNiZDVCUHJIMmcxbS1kSjZnODN0ckdIaWd0ckhtVEJXOU5mLVhWcmdxdHFkZDA2Uld6U1dPZm1Yc1ZPbUFVVWVyNnZOVVhQYk5ZcklwX2ZEeV9qRDVrVHBza3p0dHIzN1UxbkszOFplYXI0aWMySjIxbWlNanQ?oc=5",
     "date": "Fri, 13 Sep 2024 07:00:00 GMT"
    },
    {
-    "title": "Yukon First Nations will make their displeasure known at polls, says outgoing grand chief",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ0VJX1NsNHpTa1hmT2RKRm1rNDViWVV0UHpEclZHWThMN0JCRFh6akppaWdpQ3dWUE1RNFpLbEx2WkwzNGtqamZwYjBhUDViT1BlWW1CWDYwWnhETTRmSkYwLUVCd3ZLRmhVM0NSTFhBZ1JXWmJpUTZWSVU2bmtrRm1IWnAtQmc?oc=5",
-    "date": "Thu, 02 Jun 2016 07:00:00 GMT"
+    "title": "Parliament's fall sitting",
+    "source": "nationalmagazine.ca",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX05lMlozdjlRYkIxWjdVcHl0TG9qZTNadS0xVk5QM3NFWGxOM0t1eEUyTk1WalF1clhlNVF2MzBkMGxpdHJKSWpQMVJwb29CeHNLWDJpSDZ4SVcyYk9xZ3ljU1ZEQ3puNDVaX0Z2SkVSMjBXY2hudUVsTzRrSmUzek1UU0JRM2ZVOGdPbjFCcE9ZZHRfVEE?oc=5",
+    "date": "Mon, 18 Sep 2023 07:00:00 GMT"
+   },
+   {
+    "title": "First Nations make good on filing lawsuit",
+    "source": "Whitehorse Daily Star",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcnJacGp1MWFiSjdWaGM0blpjNFB4c0tvTktJY1gyTUJlUTVwMERqRTdlanJJd2RWLTJOOUc1NVRaLWs3UTdhQ19qY0VoNk9BTXRVbGtiaTBQY0JhbjRCOV90VUhZN2RTXzVwWGl5Nk55YkpjQnNqSFBPYVJqM0xFUFhNNA?oc=5",
+    "date": "Wed, 14 Oct 2015 07:00:00 GMT"
    },
    {
     "title": "Ottawa study praising 'faint hope' clause for murderers never released",
@@ -5770,16 +5844,16 @@
     "date": "Mon, 11 May 2026 07:00:00 GMT"
    },
    {
+    "title": "Bill C-9 Is Now in the Senate. Here Is Everything Else That Happened This Week",
+    "source": "Substack",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zSzgydXprMVhPVHI0b011ejBBU0tsYi1Bb1lhdGR4NlplSmpYcFhKeWlrRnNtZTJhV2lpQ3VCeUN0MHFqQkwyQXA3bXd3MElGQmwzN1o2SEhXTklfYXAwS1l0cUtGZ2NvVEY5TFNaY1p0N1hk?oc=5",
+    "date": "Sat, 28 Mar 2026 07:00:00 GMT"
+   },
+   {
     "title": "Conservative MP tables bill to end lenient sentencing for foreigners",
     "source": "Juno News",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80UEI3SDFqUkhhemRjUDFsWUhRSl9ZLUJNWGdLdjZ6Tm1zWTF5RWFqQURnY0ZUX3FTSXdEZVQ2MFlkZGQ1TUhuSmlxanlsLTZjVzJjQmdFZndNVGhDTWZQYTdqSHZQZ2VQOTJhYldB?oc=5",
     "date": "Fri, 19 Sep 2025 07:00:00 GMT"
-   },
-   {
-    "title": "Remove visa overstayers. Prevent illegal border crossings. End two-tier justice.",
-    "source": "Michelle Rempel Garner | Substack",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOEE0Nlg1Y0diVmpqY2w2Wkl3c2JlMkx3aDg1ZlZNNDkxVDNZdzhjd0tLOEg0ODdxcmtTSUtrTXNQWm9CeFhtbEU3Tl8xckxSMlRYMW1pOXBLeWhOem55UE1BWlhDdDJ3YktMVV83R29KUG9vSUpzTjRmenpPcWFIOVpwTkhlbXcxTHlr?oc=5",
-    "date": "Fri, 16 Jan 2026 08:00:00 GMT"
    },
    {
     "title": "MP outraged after man who raped an Ontario girl given time to consider how guilty plea would affect immigration status",
@@ -5937,10 +6011,10 @@
   ],
   "media": [
    {
-    "title": "Today in Parliament: Third reading votes on modern treaty commissioner and criminal justice reform headline packed agenda",
-    "source": "The Hub | More Signal. Less Noise.",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZTlGYXkzX2FTNlFtakU3NGRuSDFtZGdHcHR5OUFlVEo0bC11RnVWelgyU0RSanhwS0NkNXpSTGFDWm1BQ29QWkEwYURTTHFMYUZMT0VBWUlKeW10QkNjUzVuUWsxaHBDNVk4RThvODVpdm1tajlnRTFaQ1FGbDlVb3l6YlI4REttSmhsTFpyalh2OTdfUWZmZmhjSWk0dDZNaE9wRFBZeXBLU3lHX3FCams1S0FYaTROeVloUWtXbFJtQmNhclpYdFhab3ZheVRLS2dFX1JULVE4OGFOVnViTW5LVzM?oc=5",
-    "date": "Tue, 09 Jun 2026 07:00:00 GMT"
+    "title": "Today in Parliament: Third reading vote on modern treaty commissioner headlines busy day of deferred votes and opposition crime motion",
+    "source": "thehub.ca",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRC0zZUZFdWVOZmp2S0ItVGFGQ0VLbS0zdkJrbEhhZVozN2xROW1uTVk0ODdZcml0ODVVcEZmU19JNmpoNXh1dnNDVkFWekVUb3N2UHVlOTYzMVFLYVQxOVBXNjZQUkQ0c2VrZzlNVDFqQ3BPUVlKMXByQXRiOFhFbUwtMmpmZU1id3JHMjRNVHloVG80Y3F4QTVzMTZwRzJyNmc5T2kzRFdEV3Y2VkMyOFJhM3pHeWxsMUtrcncxeVRvdzFIN1E3bnNHZVJpRUl5UUxtN3BIN3d4d3ZnRDFGR044X0RsbWhvZTFsUjIxTkpZTjNJdFE?oc=5",
+    "date": "Wed, 10 Jun 2026 07:00:00 GMT"
    },
    {
     "title": "Conservatives push to expand EI reform for grieving families",
@@ -5949,14 +6023,20 @@
     "date": "Sun, 26 Oct 2025 07:00:00 GMT"
    },
    {
+    "title": "Today in Parliament: Time allocation sets up third-reading vote on modern treaty commissioner bill",
+    "source": "thehub.ca",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM18xT1NsUlN3cjBqbzRDVjlFZTRZSjBuRWlEWVRGM2JwNURtT21pbE84RU1hQjNBTWJMVjdGWXdLNEl5LV9VV0hnTHRTNHhsSGhZWUplVmhEcGNaZzVxaDJyaXo0LVZiMUhkQ0pkRzFtOHFBVXpQbFhpSXM3a1lYcGRDLUZEa2VEM08wYmtyVGV2TUZfWW9GVFFBVFAxUDlsSGZ2ejhmalpFWVVfeGpSeEdBM0Y3c0tLUTZUc0ROWnlnczBnWUE?oc=5",
+    "date": "Mon, 15 Jun 2026 07:00:00 GMT"
+   },
+   {
     "title": "Today in Parliament: Conservative opposition motion targets Liberal economic record on final supply day",
-    "source": "The Hub | More Signal. Less Noise.",
+    "source": "thehub.ca",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPazBiREJmLTNPdkNtOFFBb3VlLV9PM3JWWjEtc1VFSDVvWlBnN081R0JiV0xSdndfeDZvNzduREJfRDcyVklPUzAtRVp5Vmg2TGhMWVc4OUlVMlpWRGp1by0tOHUwNVR4UUNOLTBFazA3QncxeVBwWkpUNG9QSldiU3pJTXRWLU93cTZCNjA2WFNxbE1qMWNkNEF3bnBmejY2OTJ5MXI5V3RGMGVUSjZkRWxycVNVMzRiZ0d5ZzRBMU5PYWVzSkI3SmRqYko?oc=5",
     "date": "Mon, 08 Jun 2026 07:00:00 GMT"
    },
    {
     "title": "Today in Parliament: Opposition motion targets Liberal crime record as House faces packed legislative agenda",
-    "source": "The Hub | More Signal. Less Noise.",
+    "source": "thehub.ca",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdnhxVzFKZVp4alQ3TVRZQW5Sd1BwYmhDZDM0N0c2SHJXNHVQRXZfWWF0Y1ZGeVBuVmJYaUNUZWJWVWlmUXAtS1M2ZTFIRHJIZHFHbkZoUXpHTnMzUVVadTZoVnVwcG9kQ2d2TDVWZnJhTWJXbE54cE9rakFJRVJBcVhOdjdYdzVvbTlwYWVRMm41M1NwR1N3bmlLN3FYa3l0RXoxREJqVUN1cmltWjU3aEtLMHk0S3R0SkhnZEdrbDhBMzZMZnBFYkFCNFVtcWhHMlVN?oc=5",
     "date": "Thu, 04 Jun 2026 07:00:00 GMT"
    }
@@ -6166,9 +6246,27 @@
   ],
   "media": [
    {
-    "title": "Bailey's Law: MP's bill on intimate partner violence passed",
+    "title": "Parliament Passes MP Caputo’s Intimate Partner Violence Bill – June 17, 2026",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYTNMRzBZLTNBdzhPUjJKZERuLUVIeGFyc0JYUDB4SWpOZHVyUmNZSDJ3X0MwMW51MklvOXVzbHA4blRIcjg1MkpqRUlsVnd5aGJBTzJXeld6VnRsdnoyb1ZKWDNMSjlPaTJXdkZRbXlDcURfUG05OUxNd3hDWWJvRlZPMkIweXY1N0NQbHZGY24tSFNwQXNvZlMyUEExTnB0V2Rjc2IwZGVfWjh4bllSSEJ6LVU1SFU5RDRrUEZLWXQ4SS1LbExNbGpEc0pidEpJejR3MTZYcll4QXJfVHZxYS1vYzFPc2dzQnYtQlZoMEI?oc=5",
+    "date": "Wed, 17 Jun 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Bailey's Law, aimed at changing how Canada addresses intimate partner violence, headed to Senate",
     "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUGRRNGtLS1EzQmVCRUJzT0U1VUY2SFEtV1B3VEJCSmRWWlVuM1hPWEJDamxzSkkyYlkzY1V2Y0ppNFNwMlFESnltbzJhcm9MTVBPak9TX2NIVmdzYXpYSkN6eUFWR1dVTWJaaUM5LXdDbEc5aXBVY2tOcExTVm5uZmRkcXRnYndaUW52SE8yRlRFVDF6TGthcndKZw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc2NfWmV3ZDkzNXlrUW5CSzhDMUlocXY1MHFHdlJ4ZGI4WlZaNnFGelo4Q01IaGxYUzdVQnNrSG12dkNFQkJacGhtY25wdExYa08xQW5ub0dpWFpyMFJjUGU0V1BhYzJDRE90TDJjMGEzLWQ2QjJYVEpDWVdOTWdaQkRDOVFCTW83UFJWZmlpbC1iVXI1V3QzbGRDczE?oc=5",
+    "date": "Mon, 27 Apr 2026 07:00:00 GMT"
+   },
+   {
+    "title": "B.C. welcomes Bills C-16 and C-225 receiving royal assent",
+    "source": "CityNews Vancouver",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHTTBwVGdOeUFhWE1UbmQwT2VHZ3FjTWtLZkRWUkRwTUlDa25pTTRVZXlNRjYyc1MwbElqdmxpYkpHSjlweW5yRjF2YnZvVHM2cENmS2FzUlFLc2tJVDV5VGc3RW4zRGZ5UGozUkpad0pZQTNkYzhZdnJn?oc=5",
+    "date": "Fri, 19 Jun 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Bailey’s Law receives royal assent, brings reform to intimate partner violence laws",
+    "source": "Global News",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lQTJKc25kQ2tMSVVCOFZCa2RVWmlqN1dGWUtGVlNnblJwWjZQLUJDcUNYWW15aW5leHFmeGZsaEJzYUFQYV8zOXZIM2FDN3pRYUtEMWpkMUROZlFjbm9lVzFmODlkUDRjeVRHeGs1LXNSQXVDWGpHU19R?oc=5",
     "date": "Wed, 17 Jun 2026 07:00:00 GMT"
    },
    {
@@ -6176,24 +6274,6 @@
     "source": "canada.ca",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa1pxR2p2UXFLcGd2enV6Y2xYQVRNTUdRcjhqTXY4Ul8wU2laQVBwNEF2UGFMd3RtZXdlMDZMZXdLaml0ekhvVFdBNFBmamhDM0lyYkJFMTBMcHRzMmFjbkxQaUlhRktwM1czblZVOGZNa0RicE1SV2I4Mk00TUtTd2dhRDRvZ1J3Nm52NmpaN2R2cE9OVXpaUkdtUm50VEJsdDZKbVN5ZTF4NTRLcGU4M0NxT1FrMkpIZFI5dDhFc3NwcHFzanZLaA?oc=5",
     "date": "Fri, 19 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Merritt MP’s domestic violence bill passed into law",
-    "source": "merrittherald.com",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNDBIaVd1bjdoWE1GSGRNejJzR1ViMGxkOF9xWGE0d0dkY3c0WTFvdXh1c0xZeTBoTkVVekdtTFlpZzRxVWVMTTRCQnczWHhlZTByREJfanVxM0drRkl2R1Q2ZWt0djVfTWQxdnlJS2M2bjMtd0NpZzlDUFV3MUtnRWZXeG1za1pT?oc=5",
-    "date": "Fri, 19 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Bailey’s Law, on intimate partner violence, moves forward in Senate",
-    "source": "Victoria News",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb1dTY3JnTDRZSk1ZU19HeHEwUVA3Sm16cmhRc2JKYjZONnFoV0MxMUduM3FRT3MyNzlUdVpSZ3RsS3UzOEhQanJ5WFZuX0V1a0FNUUYyWnc1X1FONzMxM29CNldtRjBtWUU0MEpzNGNQRlFqM0NHNi1rZjRLLV85bTAtWFNqNjhlYmM0UkhYTGdMOUMydVU4VWhiekU?oc=5",
-    "date": "Thu, 11 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "How Bailey’s Law and Bill C-16 target intimate partner violence and avoid overlap",
-    "source": "The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN3lVRXc4aW5HejgxWVFqUG9DNmxPeXZZVllWYWNvams5RzIwQ3VQcWZrMWdnbTRpaDl1ZllQWHo1RjZwVmNMSm9kVlI2SXJmUlFWd3JrdFNFeUE2ckxqQVJvemphOGwtb3prR052eE5saGVIcUtUT2YzMEZNSWtVRkZEMlBxTzRmUWZ5TXFaSzM3Z1o3amRYMVh2NTBPWk5qU1NHSG1HRkNXSkRNUVIyXzBSQ1Y0eG8?oc=5",
-    "date": "Mon, 04 May 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-225",
@@ -6296,9 +6376,15 @@
    },
    {
     "title": "All grocery stores need to show unit pricing, Surrey MP’s bill urges",
-    "source": "surreynowleader.com",
+    "source": "Surrey Now-Leader",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYjJHbkVybThNaVpYTXVDWXFZSnhxMDdXV1VpSWJtbF8xcmN0MVdVcDdVeWljdnc2VVJES2NoVTNrSmJGOFBGVDcxSWtCeHVWY01FUXhneW5tT3dNRUozRWlHdVJKMGpGcnFXQXg2MWFlajhDRUJVcEowbjQyZW1UXzl6bXpHRnhuTl9RZ1huMnVHVzRadWNpdjRtczFndDdrNVNMeXU4NG5uUQ?oc=5",
     "date": "Fri, 30 Jan 2026 08:00:00 GMT"
+   },
+   {
+    "title": "Meaningful engagement is the key to achieving Bill C-226’s goal of ending environmental racism in Canada",
+    "source": "The Conversation",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOb3ZVakJiMTdBUWVMd2pzY21GLWRpb05VNE5nSmxnU2tLNkYtUVkxOEhaTkxvVDFqUmphVG5GbnlFR1Juc0xKMmZ2Uk5YQ2h3LVRXUTBXVGlIbEhOb1FZTlMtdldaNjRFd0RWNXBOQjBTOUNnLVh5bE5rUVFPb2lRVHFEbFExOU4xOXdyeTZ5UDNsVVFuMldLUXo4VWUxTnhmaVdRZVVIYUpDZ2Z1dUdkTVU3Mk5DNDJHYjJva2FacHVkWmJFX1VUS0htTUl3WVNnS3NmQw?oc=5",
+    "date": "Thu, 02 May 2024 07:00:00 GMT"
    },
    {
     "title": "Bill C-226: a victory for environmental justice advocacy",
@@ -6311,12 +6397,6 @@
     "source": "The Pointer",
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYjgxYzkyMDJHOUo5X0lHb2R6bG44d3hINUZiTkxJSmZlVGVIaFR3S25PUk5TcVRBYUNRWmh0TUxaYTI2bS1Pa1piMDVxTFlkTHp3czBpRVU3NTBKQTRLNVJ1SURmUWd2X05jV2t4Q3ZVWHFKVjd6bXFoVTkyYTFoQkZVZ2ZiSkZaNXRrN3NxYkVvWUNIbGdEdWdjWVBadFZDTkJBeHF3WjBGSTVfSjZaRTJFU1dHbnAzd3N4M0tseHBZVXF5VEZ1d1ctcXBuQmtZcDJTQ0lCaTY1aDM1VkdiQWZFUUFucVNhZTFPQXhoeFZVUQ?oc=5",
     "date": "Sun, 23 Jul 2023 07:00:00 GMT"
-   },
-   {
-    "title": "Senate passes long-awaited legislation to tackle environmental racism in Canada",
-    "source": "David Suzuki Foundation",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUUVzYTJNVDBjQjRDcGhiQVhnNHRiTWRDR2RFd0NxMlVqaUJESFkxMzFCNU40R0RNNGlmdEluNjE5RXFmNHJQVTdNRWdVTTNDS0UwbzFCc2lVNHF6NjJhSk5IbWtEUU1kNWZ4RXUwNXpmN2UzRENzNzBjVEc4WmtHZlVTWm84bC0xT0hvb0hxZjZ6VzlaSS13U25aQ0RLblo5T3pheGJJVG5fMGlhNE1F?oc=5",
-    "date": "Fri, 14 Jun 2024 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-226",
@@ -6504,6 +6584,12 @@
   ],
   "media": [
    {
+    "title": "Bill C-228: What secured parties need to know",
+    "source": "Osler, Hoskin & Harcourt LLP",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQkxQWXBYZzNaVTN4aU9IMGVjWnNDSkpTcTBNaTNveDJ4bXVhX2cwczBWcXBqbE5uTjd0aVJPUWhqRkpQYlpFSEtNVUstNWNpa2l0NTlnblg2U281Wm1Ed3NqTlZfY1hMLThiWUt5U08wQUJlMTVSRGl2Vk9FczJsSTM1SFJpTDVCWU0xYjdfb2E?oc=5",
+    "date": "Mon, 28 Aug 2023 07:00:00 GMT"
+   },
+   {
     "title": "Bill C-228: Expanded pension protection act receives royal assent",
     "source": "Borden Ladner Gervais LLP (BLG)",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWnJUbmJud1l5aEZvVFZxeUs4ak9vQjZNamRSdzlCMV8xcG1IRFJkSkdiYlRQUnU1ZklWakxFclczM19EN3g4TjNtOTdlYkt0OUxnU0ZOVlM5YVZ0dmFnZ0hhTDAxa2ZVMDZNeTRwamMyd2E1NlJxaWpLRV91bjRTd3dNdGM4ZVhZa2hDM0l2QXNQa3pkTWhQTHFudzczSDRXdnc?oc=5",
@@ -6516,22 +6602,16 @@
     "date": "Tue, 13 Dec 2022 08:00:00 GMT"
    },
    {
-    "title": "“Superpriority” for pension deficits is here",
-    "source": "Torys LLP",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMHREMFQtZUxHcGdBdEdnNFhQbmFQY1I2cWw5Wi1YSzg3NDVTWEtUVkw2R01NcS1Da0tJeFM3WnJfN2k2dG1WMEowZjNvTjkxbEI1SXM0Rzd3UWU4ajhjSm1QZ2JUeXBGUkZFNjZ5cGo5ZVVPZTU1OWlfUnlrSlByM2YxVmpudGp2WGJNVWlaQjBDWmxVY3RWSFVpRjRCT1p0cXhNX1h6aTVldEZV?oc=5",
-    "date": "Tue, 03 Oct 2023 07:00:00 GMT"
+    "title": "Pension protection bill, a win for and by workers",
+    "source": "USW Canada",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UUDhXTWV6c1p0MEVZczhwME1oNkd2SUhuS193WV9VdmswUzlfZUdUNkQ2LVd2ck5lN25NT1d0V194cFFUVElIandJc3lBTEF3TGpkemY1Q2dMN0h6cll3Z1hFR0k3TEdz?oc=5",
+    "date": "Wed, 19 Apr 2023 07:00:00 GMT"
    },
    {
-    "title": "Controversial super-priority pension bill receives royal assent",
-    "source": "Benefits Canada.com",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSTdIYlV4QUo2ODFsSlZDQWJ2Y3FWTml6b0ZNOUVNZ2xmMFJxaVdicHRPQ0tlTkxlMDB4VlpiWlBUYTlULWEwWWVCM2xUYTAzN19xTDBoTVVlcXV4VEQ0enpnTzRkVjBVdWpWVnEwbEdHRklWaGR0MUJnb1FpVzVWTnFqY09IMlRUY2JyZEYwQ05yZ0RmYngxTkNLaDBIUll0elNpSkhwS1F5Uk5kMjU4S3UzSFVzQnhEaHRRQlNHS3IwaDdCeDZGUQ?oc=5",
-    "date": "Tue, 02 May 2023 07:00:00 GMT"
-   },
-   {
-    "title": "Canada Passes Pension Bankruptcy Protection Bill",
-    "source": "ai-cio.com",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1h6SGZSbUhrNDl3RXlQUkQ3dGQ4MmxJMmRvS2s5X2RfTW9sOW12SUhyRzZjZm5OMk8xUFZ3NC1ha3E1T01GbW1qbmVFY19VLWJURTRpNTNLUk5wTTN0OG9qN2c1RFhhSlY5UWNMZENYYVBkRUJhQ2s4OTJjM1NVZ0NsQQ?oc=5",
-    "date": "Fri, 21 Apr 2023 07:00:00 GMT"
+    "title": "How Bill C-228 may adversely impact commercial lending",
+    "source": "MLT Aikins",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZXV0TFpSb1lXQWcwTUFieTBpWEZELXJVVUlLaUZwN3p5eUxyR3VkcGJSWE1OS2NCY01fZ096akdJSXNKdks0Nzk3RFZRYTBtOFVMZEVyODlyMlozSGFKSlNsUUpMeVdMNVdjQi1hdVhsUWxCZVJYb1ZoajFIZGp1UjNoeHBVUGlwYnpLUnVKVFRLa3c4?oc=5",
+    "date": "Fri, 17 Feb 2023 08:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-228",
@@ -6869,7 +6949,7 @@
    },
    {
     "title": "Niagara MP vows to continue fighting for victims of violent crimes",
-    "source": "ThoroldToday.ca",
+    "source": "thoroldtoday.ca",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTdHOHl4d1lya25JQWpJU1NsOTFHT0RuMGMzNTZXQ1g2dk13ZUU4aHp5Rzh0VmRVTmNHR010eEI2eFVNUDg2OVBsSmJYNUNLRnBrREpreWpsLTFmQlctYy1FWlItbTFKUHVLUnFpQzd5Wm5hT09zMm1GLVlnUTRtaW1CSkVidDNjNEdNNklCNGtIWjdMb1RwSVNzTUhUME1waTl2akVGTnNIbEN2VGZGV0pLRUtFQVh0?oc=5",
     "date": "Wed, 17 Jun 2026 07:00:00 GMT"
    },
@@ -6973,34 +7053,34 @@
   ],
   "media": [
    {
-    "title": "Carney government chooses Trump and arming genocide over international law as Liberals vote down ‘No More Loopholes’ Act",
+    "title": "Canadian House of Commons vote defeats Bill C-233 that linked arms exports to human rights abuses",
+    "source": "Peace Brigades International-Canada",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcEZ1cHlzUUZBWnI1allxVnltSGtXX1FVZTZFV2VxT2FNT09FQ0ppTHlTT0M4bU53czl5T2Z3M3pkbnliOEM2ZWp5aHJnRzhqQkJhN2hHdlJIeXFLVFkwY2dMdk9mbHN3OGw4YW1EV0EycHZCYlNmT1J0TFVwRkNfTDBjX1VQVk52RWVwWXdpZ3VfNXFuUEhCcy1tU3NXcndOWWZocWRIbGJiU190Z2RXUG1XS1VSY1ozSEhhcHFucXRPOUw4MF9POXpLSQ?oc=5",
+    "date": "Thu, 12 Mar 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Parliament votes down tighter controls on U.S. military exports",
+    "source": "Canadian Affairs",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR0NfUU8zUmUwZGVnaDBZOFhkaXRBMWFMRzBqX1hzNl9fVk96NUthMzYweVhUYXFUejgyRHp1cnVkWEVnWnd3TUNLZFg2cHlxeGRkX0V5ck9ITzl4c01zZDYzQVgzYjdfMVhyRVowTEhZZXZMcFJ2Q2xmcnV6MWg5SUhCbF9GXzlmU2JvT1ptOXVscDl0V3pkQ2lpOE1zdkthcjRZUEFVNnpCaTA?oc=5",
+    "date": "Thu, 12 Mar 2026 07:00:00 GMT"
+   },
+   {
+    "title": "QUARTERLY REPORT - Q1 2026 (January - March) - CJPME - English",
     "source": "CJPME",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtX0FLSVBDeDhxb1JOM3V6WFE1VXNSc3JtZi11eHEzUDA4eDdsTVhrTWRfaGhJbVY4RmNDSVRHeGdEOHN1SUZIeXdONVE4WERDRnE5emxDMA?oc=5",
-    "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IR3ZDUUl4M3MtQ2stUWtzZGlFdmtZLVdSZmpPLUc4SmZnWFZoZEI4U2VHMDY2Q3dqVjFIU1EzVkRtQkphTU9XOWJQOXhiVlZfZ1B2blZZdDJoZw?oc=5",
+    "date": "Tue, 21 Apr 2026 07:00:00 GMT"
    },
    {
-    "title": "NDP's U.S. arms-control bill fails, 15 Liberal MPs break rank with government",
+    "title": "Yukon MP Brendan Hanley defends vote against new rules for arms exports",
     "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kQmVXUzJMRzdVSHRMMHNtOHNrN3pwYUpLUGJBUnlwZElrT2FScXFhNlhVNjg5cE1XckYxT3h3aWs2bHB6aGlkRnlWTV9rNzNSY05fbEJyalNneUJySUlZbUpsNEt6Uk5YNGdHX2dFb2JJbS16MHdLTmNhSURfYVk?oc=5",
-    "date": "Wed, 11 Mar 2026 07:00:00 GMT"
-   },
-   {
-    "title": "NDP MP Jenny Kwan Discusses Arms Loopholes Bill – March 10, 2026",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOGxHbTlaODZ3cGtWbjUxOHItT09HZlhpdnpQS1hJb1lYR00tcXNSU29GV004RENzSEg5TFFKV0ljUm1hWGFaZjlBTG1rZEthWFJIbks3TTZVdk5XWTNFbl9XaFQ1aTFfQUVBcHB3RnZsdGpUY211UFVRWC0xX212QkNJZ3g5anRsWDlYTEM4T0l3Q2FlT3FwdDhud3otYmRjLWt5YlJWVWlsS2I0Uzk1cWFPT1N4VGtZbEpCS0pxWDRMWXhpb21aaWlvWkhubmVDcWxTaERMc1NydjZ2MnA0XzVn?oc=5",
-    "date": "Tue, 10 Mar 2026 07:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd3VxUkdOLTYzWUg2OWRnbHN2VWp2RDd4bFRVLWsyMHRHWjVUZWxsS1NBajE0V0YzWG5LZE0xVTg1QmdKQ3FvRERQbHMwaTViNTdWZXdfM08tOHpXSnloZ2ZEWm5iUW9JSFpLRWxEcVZPMnIwc3VWc1UxOUhIbmJSV0w5b21KdDBNXy1JaHF6b3BWbS02ZjFMSzgxa2NPcmJjYUlwX1NUMV84enVPRDUxVThnMDVVRjlSWlFj?oc=5",
+    "date": "Mon, 16 Mar 2026 07:00:00 GMT"
    },
    {
     "title": "Situating Bill C-233 within Canada’s Arms Control Framework",
     "source": "Project Ploughshares",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGxHRW94a1VJM2xMMVU1ODlEYUJHVnlDdzhRYUVFb3F4WUg1ZGdaN09UNDA4X2FYX3RlQzFJdEU2VWhTSURGWTVpeTByWkNsXzJQcXhhU2ZQN1BYV2FrcWNUMEVWaUROZzFnUElyTHdpRnZaaGhYR3BmVVZpRU5MUzNnX1hIZk9ZUXpj?oc=5",
     "date": "Wed, 03 Dec 2025 08:00:00 GMT"
-   },
-   {
-    "title": "MPs reject bill to close arms export loophole despite some Liberal support - National",
-    "source": "Global News",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc05EcUNHVHdWNUY1bzlIcm51RnpNOWtGX2I2OWFnZUJBVThZZHFKdlloejlrOURXVDAtWl9CWW9MN3ZaaHhMNDF5RWRsV21MLUFJYzVvbW50V1dfU1RvdWZuYzRCSVVTNGpMaHAzQTMzc0QxNU1NbU1udU1OcHJWV0ZQMWlQQQ?oc=5",
-    "date": "Wed, 11 Mar 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-233",
@@ -7276,10 +7356,10 @@
     "date": "Thu, 24 Nov 2022 08:00:00 GMT"
    },
    {
-    "title": "Sonia Sidhu",
+    "title": "Brampton MP Sonia Sidhu leads efforts to tackle diabetes",
     "source": "Canadian Immigrant",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWjlXVWViNVpZZVlEMXlSNUkwLTU2QzBneTRrOE81YVlMWFk2M3V1TlRFNlhQd0xWUmNiaWhXTlVuNHpfODlJNlN2czRMaUNGdmRlV2pmTU4wNnVaSlR1ZDZBVjVESm4wYTg4a2lFU3FFcDNOWTFVWEs3eS1KWUo2VjkzSmJSY0FuaXVMRVI4V0JsRWxWekpwbm5PUHhqUQ?oc=5",
-    "date": "Fri, 03 Dec 2021 17:05:32 GMT"
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaHVzN3BCWVMyd3p2MVBST2RlZXh6aTdyTm92cnZRSWVBMjdNS3BSbklTdDRKdE9jSzhHZjRnWm45U3FHUHR1aVczV2hOaDhWV0x1Sl92WTdkQzdEVUxUMEVzYzdmV2U3Wk5ZX0U5TzAtYWNBTFNSZGh2UmZsNEp5MWZuLUg5SlZTRi1Ya3YxdURGQlNSVTdGRWhQRUhFYnVxZXJISjF6RW1FVTVFaHNlNGx3?oc=5",
+    "date": "Fri, 02 May 2025 20:15:09 GMT"
    },
    {
     "title": "How Rachael Harder voted while representing Lethbridge in the House of Commons",
@@ -7727,6 +7807,18 @@
   ],
   "media": [
    {
+    "title": "\"Jail Not Bail” act the focus of Estevan meeting with MPs",
+    "source": "DiscoverEstevan",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdUlucU9iTWxNdjBOYTdpZUdrdlJheUthTldqSHdqZWk5SklNLXJwcW41T0JyNlAySk02Z0RiWGZCMXc3dUhldk5EalJxTE5jQ25NdkJ2MnJwWDNLVnhFN2Q5b05RbmVKU1ZiU2dxTWxCRGJ4SkZ4dDdCeHd5cVcxR0xGZENkNVNDUi1BYmFMWmZPdTlodHVJN1FISm8?oc=5",
+    "date": "Fri, 21 Nov 2025 08:00:00 GMT"
+   },
+   {
+    "title": "Pierre Poilievre Comments on Conservative Crime Bill – October 2, 2025",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWkZQUzhHUHAwM3Y5R3lsY0Vfd09rM2w5Qk1lVTU5RzJ0dkgzdDh4YS1taHJmWVFaTHo3Ql9rX0VUcTFPT3FlUmF4RkxLVV96RExwNEdFbmh0SFVJSUdsSEVrUWUzWkwtamF0ZjNTTmQwN2ZaSGZfbnhiZDBaOHdwcjI0TEVpQ3k2ZTBoYUdTOHF3cE9oa25UTTJSdGl0WWY5YkNvNmV5eXlfY2dwZlVweWFneVZXRkp6enFyYmhEZDNaQUVuRExLeVdKY1d2REFKSlU0MEItYkdEemlwbmlTZzY5Y0JCSmtObF93?oc=5",
+    "date": "Thu, 02 Oct 2025 07:00:00 GMT"
+   },
+   {
     "title": "Jail, Not Bail for Violent, Repeat Offenders",
     "source": "Conservative Party of Canada",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaU5rOWd3TGozbUJBZFlNZVdVTzlrT05BSzhhM1ZjdmU0SS03b09FRnM1dXIza3BrOG00SXhQZ0JUQmk0ZlpXWmhvcm1KbFdtRzh0Y3JUQ3pIamMzUi01bkdvMC1rOW1zdWhWUFE1SFZ3VE1XOXhqd1Brak16M2xsVw?oc=5",
@@ -7739,22 +7831,10 @@
     "date": "Fri, 10 Oct 2025 07:00:00 GMT"
    },
    {
-    "title": "Conservative MPs talk bail reform at Winnipeg town hall",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wUVpHcGpncnVURXRYY3FxMlJ3Y2dmRzFudlpFVmpLaVpUTkRtbGpsYk5iM085TTEwSXZLTFRBcHVyeGtBX2xMcG0xUlVFQ0ttVnh0djk1ams4bGpxaVc0RThrVDdQZGJycDRVT09UczFLTXU3Zm5tdw?oc=5",
-    "date": "Mon, 27 Oct 2025 07:00:00 GMT"
-   },
-   {
-    "title": "BREAKING: Liberals, NDP and Bloc vote against Conservatives’ “Jail Not Bail Act”",
-    "source": "Juno News",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yU25aLUhEQUtmZTUxUXc3VzRyLVpnM1VFSkRhamYxMFZUZklNaWlPR2NoRW9Sck4zcERiV3NCT2ZtaXduNkVkSDdGS0dhNWJpaUhpYkVmUnFjNHQ1SFFSUklibm5mNksteE1GU0J5OA?oc=5",
-    "date": "Mon, 06 Oct 2025 07:00:00 GMT"
-   },
-   {
-    "title": "COLUMN: Jail Not Bail bill could change how Canada handles violent offenders",
-    "source": "Kelowna Capital News",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNWNUOURPdmdBUUpOa3c2bXRKNWI4Z0VKVzVjdjVJZF9HTFZwcG4xTFZ5V2FGMjZjQ2tCelhqQWhwdUlPNERraEcwOHhyYkMwd3diamo1Y0c5TFFJX09pWW5pN0l6Y0ZON3RIR1pDS0dOdUF0OW1iRFE1aVZlb0FaVGwzR0dvSXNRX05YdDdLc1lNVWZuLW5lSV9TclFqM1RVNjdUMnlCaFBwck14QTFSOGdDb2E?oc=5",
-    "date": "Wed, 25 Mar 2026 07:00:00 GMT"
+    "title": "Poilievre calls on Carney to ‘immediately’ scrap ‘Liberal bail’",
+    "source": "CTV News",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVVJzc1JERGd6dHUtaFgzOUM0RTZjdzJrNUU2Vzd0TUhqWTh6ejZ4TzVVUVlaTkhEc1pwTzBWbm93RHBqeGlad3puQmtXLWxYYURmRUNaYWdKeTRjQThSOVREMlc3dFFQakUwYU5NTnVzeTFydzZNOE5JWWVCaWpFV3R2YXVpQUV5a3h4QUtncy0zUEpzbmwyZ1pJc09kd2l5ekl6bk9haXdzSlExQUp2X2kxTDZ5dlZ2NVVBX1A0UHdDWE5oYmZUVm1yS2h4VWk5aHZkRERpcTg1a0JUUW9MelF0c2FXaU0?oc=5",
+    "date": "Sun, 05 Oct 2025 16:20:53 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-242",
@@ -7851,9 +7931,21 @@
   "media": [
    {
     "title": "‘Justice system is fragmented’: Changes to Canadian parole rules defeated in House of Commons",
-    "source": "CTV News",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNejl4eG9vVGx6Mm95R2lYQ3RtMHZRMGJUcmpwN09PQlYxTU9ZUXVwQ1BwenFvMmwxOTlCdlAzVmhhaVlmRFAyM2dQcWhfSXJIN3Jsc3doR1BTQVRORWM4ZDgyaEJBRDlhLWlPaE91MEV1MFRBNjVhbnY4Y3FncS0yRllCRkNtQWFzRWVqdlVlVi1LREZnZVU5WHdHem9tdklkaF9sX0lSbW01d29lbkI0TWpFT3hFbnA0SGphVTd3VU1HMkJiU3E3aTFnaw?oc=5",
+    "source": "CP24",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc1J6V1RkZGEyU2ZyblozSXlXbG1Dc0FHTk1mZFJSUElMa04xY0J3VUpZMjYyNTY5b0huZUdnSHBFbWFYbW4tS2JiNEp1T3RNdlhuRTNwQl9ld3VQMERsRlNlcDJJNThCdU1pdVpxVTRhNnFzUWRzVk5vRHRoV1NDeVZMaUYxcmhUYVhEVUxVb1pKZVlTNTM1N19jMFpSWE11VXEzaDZ2azd2UDh1VnFRVWN5SGVLbEFMaVMzVFNxNzZxbnF3TXNZaFV3SndmNlJY?oc=5",
     "date": "Wed, 25 Mar 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Bill C-9 Is Now in the Senate. Here Is Everything Else That Happened This Week",
+    "source": "Substack",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zSzgydXprMVhPVHI0b011ejBBU0tsYi1Bb1lhdGR4NlplSmpYcFhKeWlrRnNtZTJhV2lpQ3VCeUN0MHFqQkwyQXA3bXd3MElGQmwzN1o2SEhXTklfYXAwS1l0cUtGZ2NvVEY5TFNaY1p0N1hk?oc=5",
+    "date": "Sat, 28 Mar 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Parents of security guard killed in Edmonton robbery push for parole law changes",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPellJNXZWT2hIWjhBR2ZkVTBzX0ZOaWhPSm95VmVYdWZSXzRQVlFaQnRlZGFOMndtRW9rRGloNm1fdEtZZWR5MGYtYVZzRm5vM1VOZFl5OXRmdHg1Q2ozNGZDMUJaR2VNNGg0ZkJHS3MtVmJGalVjcVlQeE9uT091N05rZl9xRVB2MkxMTmVNbHo?oc=5",
+    "date": "Tue, 10 Mar 2026 07:00:00 GMT"
    },
    {
     "title": "Liberals block Conservative bail reform, harsher sex crime sentencing bills",
@@ -7866,18 +7958,6 @@
     "source": "Global News",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTVQ5cWNBMHJqTVdRbWY0LUFMWVZhS0NFWldDN091ZVVwd3BzMENwb3ppVXNqREZwMl9rTnZzaVd3RERjOTR6b0NYdHU1UERpSjkwNlp0TDhRQ1ljdzBYdVlnUEFTNEtkUlNmU1hhek9PU2dWckZmZnk3eHBEV0dycXhjOF9OV3ctaE5iM0t4X2FiX01CUFE?oc=5",
     "date": "Wed, 04 Mar 2026 08:00:00 GMT"
-   },
-   {
-    "title": "Bill C-243 champions expectant mothers who refuse unsafe work",
-    "source": "constructconnect.com",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSjlDZk54ZEpwZDFaMVV5eEdmLTc1YVp3aGdSY0UydndEWG5aNmxoa2MyaS1VNVlVNjVielNBaGNQMXc4RW1vYzY4Z1p1UlBXb003ZmFyMlN0Z0tBaU95YnFuMGR4bF8ydFlQU1ZYSURVdUtneGdMa2pJYzRzUE0xVVV1bkl0dktXZE9Va2JvTDNFT0xKY1ZYd0RLRkZRbmdEdHhYSU5PRTJlNERhc05QSHdvdlhKQVRTdnlvT1lRSXEzdzNoamc?oc=5",
-    "date": "Mon, 12 Jun 2017 07:00:00 GMT"
-   },
-   {
-    "title": "Armoured Car Guards Were Murdered on the Job. Their Families Deserve Better.",
-    "source": "Teamsters Canada",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR1RnU255REZMVjhtMjQ3NGx6MmxwTGxKcU55TXIxSXdIemxjU3JqTFROclNkT3VMZFJZMk1fdFRfQ3VsSUJDLW4yR1BKVmtDVjVDcmlHdzh1Mzk5MU9EaHNEVVF4V2dyWTI2R1h6MkJEUlFEVWNyaXAycGxFdmJaQ2M5eUgxLTJhaU1Jb1VHaFo2VElEREhrWk50ZHpvZ1o0MU9zTmZmSzhBejRyN2plbzV3?oc=5",
-    "date": "Tue, 24 Mar 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-243",
@@ -7973,22 +8053,22 @@
   ],
   "media": [
    {
-    "title": "New federal legislation targets marine pollution and derelict vessels",
-    "source": "coastreporter.net",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS0cyUXd2elBvYkpYbjJBdVlWdFExRDZ3VWlFa05MdS1OcGJEYXFkZzhRUmxXaFRCVmRma3FiblN3eHl3eGxhcFNEY0ZXb2xoTHZzb2phcWJuY09TSnZYWmFnTWtYaFpqelRPN3VFTFVST1pzOVpCdFhlWWhQdjlhZDhTZEhPMFBWUWZfaW52cmdzQzI5WGRLdFg0UWJIRGdBbzZ6Zm1XaVIwRF9sLVQwTktnaTNkRkRWV1JN?oc=5",
-    "date": "Tue, 28 Oct 2025 07:00:00 GMT"
-   },
-   {
-    "title": "The empty success of recent amendments to Canada’s right-to-repair bill",
-    "source": "Policy Options",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zUXZTRUxnbTRxQkZaLVZjVHJJdkFWLVhkaDU1eEk1ZFFxa1FiaVlZSW0wVUN0QUtsQVpCQjRWS0VvLUMwMHdhcFlZMlBNc1lfVzJLX3BkSTZTenF5ZFl5NGpoV3JVX0Z4NDhCVQ?oc=5",
-    "date": "Mon, 01 May 2023 07:00:00 GMT"
-   },
-   {
     "title": "Bill before Parliament supports the right to repair",
     "source": "MLT Aikins",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdmdkcWVoTzRJUm1TdlU1by1xY1F4c0NCNmMwMlFxTFBGMTByMUZPM3k5TWxrbDhRTUtqamtYdDRUMkZxdWpyaXZXdUw0UXBBR1pzdUtDT1d4V0RTemNva2tWZDRXdk0zS3RzV1RjTnFjbEUyZU9tOXhNRXRjNzVlQzQyb1pqNnJveFVXYzV6REU?oc=5",
     "date": "Wed, 15 Feb 2023 08:00:00 GMT"
+   },
+   {
+    "title": "New federal legislation targets marine pollution and derelict vessels",
+    "source": "Coast Reporter",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS0cyUXd2elBvYkpYbjJBdVlWdFExRDZ3VWlFa05MdS1OcGJEYXFkZzhRUmxXaFRCVmRma3FiblN3eHl3eGxhcFNEY0ZXb2xoTHZzb2phcWJuY09TSnZYWmFnTWtYaFpqelRPN3VFTFVST1pzOVpCdFhlWWhQdjlhZDhTZEhPMFBWUWZfaW52cmdzQzI5WGRLdFg0UWJIRGdBbzZ6Zm1XaVIwRF9sLVQwTktnaTNkRkRWV1JN?oc=5",
+    "date": "Tue, 28 Oct 2025 07:00:00 GMT"
+   },
+   {
+    "title": "Repair Regulations: Canadian Parliament passes Bill C-244 and C-294, in support of right to repair initiatives",
+    "source": "Collision Repair Mag",
+    "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQdzRLQmdGclNmM2dRX19lbTZrT3c3WFZEem02VWhPZmdUOFNvUVhiYWJ3TGMtaFVCaEVmQTFZNWppVmRuWFpHa213WW5JN3N2ZkhFckpYMXV4d1ByWlo2ejNhbXcydjBrM2djWnYzWnVwOFF6ZmlmVGNWR2YzQjNsbUxFYmxGMlBLSmg1MF9HSDZhaVdzRHJndFdNZmlkYk05THliMi1xT1Bpdzc0TWRFelFRcFF4RDJZc0VkSzlZSXY5eGp5S2NIVUw4NWZQbGoxSTVYcXZHcHRCYmNOZmdIV2dDcDZadjRyeGhFdEtfMTZ1emRYc2NkQms0QnYwSGo5bC1FdkJ6Qm8yRG5aS2pEdC02SS1PLXBSalRBUlh3NHBNZm9YN3dnXw?oc=5",
+    "date": "Fri, 01 Nov 2024 07:00:00 GMT"
    },
    {
     "title": "Changes to Canadian Copyright – Ranging from AI to IoT, to 20 Years Longer Protection",
@@ -7998,7 +8078,7 @@
    },
    {
     "title": "Canada's shift to circular economy",
-    "source": "CBA National",
+    "source": "nationalmagazine.ca",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWpWRVp4Y3ZIZkNEWWZldno3ZkFQRi01N20xdExMcVJWQVpyLU9XZ245T1Q0aEFMUm1Ca1ppY0ZydTM2aVBWclhUaEpGaHB6eDc4c2JOVWRvQVk5TVVlc2hJeTBmOFlVbnh1YmFZR1N1TXJFTE8yMnlDczc2WTZwdTNobEttQ2x1WVF6WklyRFNLampP?oc=5",
     "date": "Thu, 29 Feb 2024 08:00:00 GMT"
    }
@@ -8097,9 +8177,9 @@
   "media": [
    {
     "title": "Support legislation to make the Canada Infrastructure Bank public",
-    "source": "Public Service Alliance of Canada",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2Y3BrcFBKMmpzbEt5aUdKTnFiazdleXJZZzdpWm1iS0o0NkRNSzAwQ2JEeWE2T2ZYMjhOVDAzcjNNZFhpWG5OVHdYRGdLRF9qekpQMWJ4clp2RWl3OVliLUVLaC1jbnlMMmY2djRlSndXd3pzb2c?oc=5",
-    "date": "Fri, 20 May 2022 07:00:00 GMT"
+    "source": "Alliance de la Fonction publique du Canada",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1fbF9CVVU4OWZ5LWpsRl9JV3RrQVFtVEZvbWlhT3Qyd2tCd1pUaVhkdmV1Vy1xclpjbXpERHdXT3hsSlRpOWVPM1NR?oc=5",
+    "date": "Tue, 07 Mar 2023 07:39:10 GMT"
    },
    {
     "title": "Leveraging public ownership in the fight against climate change",
@@ -8207,28 +8287,28 @@
     "date": "Thu, 26 Mar 2026 07:00:00 GMT"
    },
    {
+    "title": "Conservative MP Rachael Thomas on Private Member’s Bill – September 23, 2025",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPeEdkYUUycWYyRHVOaVBfWHlJdHpLeU1WRV9EQzA5emhabE5yZ1Zib0dHb2h3VTVCTDlXRDd3S3pqenFaQTRRUHJEVTZoNmVWQ0dDNi1jR2JTZmtqLXZkb1FuOHUwSDQ1ZVVYYUFrQkY0ci1jMzJzTDNubER6YVZWTi1GMkRocFliNHRuT2hqZ3pWdmpzZ0F6QXQwTU1oeVJYcjVnaHFhUXVsUjA3WXg1YVZEUTZNUWNUdnZGN2xIMXZhaFloeXFoT01jNlh5MjJXNHJIM1hzZlhzRG5nTHJpaWJTdXNLNjFCMmdPQ1hadGw?oc=5",
+    "date": "Tue, 23 Sep 2025 07:00:00 GMT"
+   },
+   {
     "title": "Members of Parliament spar over animal welfare Bill C-246",
     "source": "CBC",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORXZxUFc2VEx3andNY09rSGpPYXZ3UXBRek9nV0h2NUJva2dwdFc0aF9yMzJQTVp0d1k2Q2xPcmRBQ09zN2dGWnJXcm44cEllOGFoS0M0bFpMNjVZU09uVEdUVlFtTVFCaEJ3Z2stTUktdzBBX2cwckU1QlNycVRMYTdjSQ?oc=5",
     "date": "Thu, 28 Apr 2016 07:00:00 GMT"
    },
    {
-    "title": "ABC National - Affaires juridiques canadiennes",
-    "source": "CBA National",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaC0zV3A4RTlwdGpPbXJFYlJ6QXVyclRTQXNRR2REYlhoc1V4ZW1HYWdscFRtalI2bW82M0JVMGx1OUFhSWhaMnI2LWNVeXdUZGpyeDFRd1hYOWRKaWF2Vk9RclEtb1FtdlVXTU1sMF9WN2o2bUF0R2RhWjFaSjkyUFd3dG1vb1JLWTZMcG9NOXBqZGRSeEJ4d0NzajRWTFdaSnc?oc=5",
-    "date": "Tue, 09 Jun 2026 02:54:18 GMT"
+    "title": "Bill C-9 Is Now in the Senate. Here Is Everything Else That Happened This Week",
+    "source": "Substack",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zSzgydXprMVhPVHI0b011ejBBU0tsYi1Bb1lhdGR4NlplSmpYcFhKeWlrRnNtZTJhV2lpQ3VCeUN0MHFqQkwyQXA3bXd3MElGQmwzN1o2SEhXTklfYXAwS1l0cUtGZ2NvVEY5TFNaY1p0N1hk?oc=5",
+    "date": "Sat, 28 Mar 2026 07:00:00 GMT"
    },
    {
-    "title": "Canada’s animal cruelty shame",
-    "source": "NOW Toronto",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxSTJLcjdWT0hUeDVyRlh1RkFZVnhDLXlVbmd1RTN4dngzRWhWNXBsU2RWZHFvRDRQV3FSbEh6cDRRSFdlaEN2SnJkLUZTYVdfUDlvOF96bjFfOVhsV1ZrMnVTWmhqWjRRRHc?oc=5",
-    "date": "Wed, 31 Aug 2016 23:57:34 GMT"
-   },
-   {
-    "title": "Tell your MP you support changes to Canada’s animal cruelty laws",
-    "source": "Prince George Citizen",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQREcwcEdfWmtRVmlYeEpHVElXZTc5UjZkbFQ5RjIzMWNkT2kwVzh3Rzh6c1ZMY1dpT3M2NGZhRkRIU2ZUenRNYkJJbTg3TUJzdVdVVGhORG5OQ1lmNzQ0dmZRbGZKY1UxVHFiRlFOOExZdmI5VHh4cTF5LXlpaGprWnNQUDFiV0hvekZXc1JwTjB4Yl9ncHVBNmstWlRKQTFNUGxtSFByZkxkY3ppY3NYS0NUWjQ0ZkVLVmh1SHJBRlFNV1l4aXBqOUhpZHJQSnF0RXc?oc=5",
-    "date": "Wed, 21 Sep 2016 07:00:00 GMT"
+    "title": "MP Pam Damoff supports Bill C-246, the Modernizing Animal Protections Act",
+    "source": "Oakville News",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTEFuZHF2bE4xZlNGM3FVaGRGaHAwTWpLZDcwMURUaWhibmxNLUsxQzdjNTZULTdZcXZhSkQySGF2ZVlPOGVJNUZNMU9oZDQyTDJiRVZ2bWYyblo2cmtOOUh6YmMyYXpJWEg3amFRY3ZGMUdNejBRZW00bWlVSHFJX0F3MHlvVzMwR2ppM2hjaG5LanRsdGlMbGptbkVwXzdWenlLbzc4b0l2Ymo0blZ2SHFzYml2NGpTSjIzOA?oc=5",
+    "date": "Tue, 10 May 2016 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-246",
@@ -9444,6 +9524,12 @@
   ],
   "media": [
    {
+    "title": "Today in Parliament: Time allocation sets up third-reading vote on modern treaty commissioner bill",
+    "source": "thehub.ca",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM18xT1NsUlN3cjBqbzRDVjlFZTRZSjBuRWlEWVRGM2JwNURtT21pbE84RU1hQjNBTWJMVjdGWXdLNEl5LV9VV0hnTHRTNHhsSGhZWUplVmhEcGNaZzVxaDJyaXo0LVZiMUhkQ0pkRzFtOHFBVXpQbFhpSXM3a1lYcGRDLUZEa2VEM08wYmtyVGV2TUZfWW9GVFFBVFAxUDlsSGZ2ejhmalpFWVVfeGpSeEdBM0Y3c0tLUTZUc0ROWnlnczBnWUE?oc=5",
+    "date": "Mon, 15 Jun 2026 07:00:00 GMT"
+   },
+   {
     "title": "Who gets to fix what? Dalhousie leads national conversation on Right to Repair - Dal News",
     "source": "Dalhousie University",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkTkhQdS1oUUIwV3c5Z2d5a19pd29SbmtHX01hZUVsNWFPU1VBMmRxc2ZVN2xydnRmU1pLRWpqcXI2d1lrTDIwZlRUNUZJME9TeGVCV1U1RnhhQkdydzFqZ3A3dzN1Zw?oc=5",
@@ -9451,7 +9537,7 @@
    },
    {
     "title": "What Stéphane Dion’s “Responsible” Foreign Policy Really Means",
-    "source": "natoassociation.ca",
+    "source": "NATO Association",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRmNYdFRFMGZIaTV4dUlMcTg5Q00zWjd2S0ExSS1NanpQc2hWRTVUY3RNb1dwRjR0TFFqOVdJXzl3VC1NZVlLR1VYeFBLTGV0LXFaUm9vdExvcEZuQXRGdV9TNXNTazQ2RFg0dmZsbGxLX2ZQZWkwckJmcjFvVERHakp6cktHU0s2cFFJVGsxdmo?oc=5",
     "date": "Sat, 25 Jun 2016 07:00:00 GMT"
    }
@@ -11403,28 +11489,28 @@
     "date": "Fri, 10 Jul 2026 07:00:00 GMT"
    },
    {
+    "title": "Bill S-210 Threatens Canadians’ Access to the Internet",
+    "source": "Internet Society",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSEQwalBPVVZjbUphdGNtd3Vob1RDTVdvUXBvbzl4VTJqMTl0VTRDYVFmeVgtZW9KdVVKYnEwTWttdlZaOUNvWGFmOXY2Tk5JLW5zS0pic0FUUmxodzBvaWVhWHg1VUtwX3pzRGhjN08wZnpkVjduUWlONExvTU96bTYwbkxkV05NbXAweTA4c2Ntdw?oc=5",
+    "date": "Thu, 30 May 2024 07:00:00 GMT"
+   },
+   {
     "title": "Here We Go Again: Internet Age Verification and Website Blocking Bill Reintroduced in the Senate (With Some Changes)",
     "source": "Michael Geist -",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wM2ZEVm14ZlEyQjhXSXFiMTRNU0xRdUNoNXE1Rm9mbG1GMy1Wdnc5SzlhbldBaEszY0t4ckJqN1dwRXJNNTVxQzZXb2lMNXAtQlZKcm9wazVfeG5KRHNZ?oc=5",
     "date": "Thu, 29 May 2025 07:00:00 GMT"
    },
    {
-    "title": "The Most Dangerous Canadian Internet Bill You’ve Never Heard Of Is a Step Closer to Becoming Law",
-    "source": "Michael Geist -",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOEprQVh3TnB2WTkwVlpVM0lyMkhPREtEc29zVTBwX2puTnVtS3FlVjBMRHJfWVRNaGhobUtRUUR0UGk0Ums1eUM3MTQyVXk0cnRjaGJ0ZHlJckw0WEY3MTFWc3prN0I2UFNSMThLNnJDTm9QN1Z1Z29tS245YXlhM0tlakVoN2pWcTJmRFdiSzdwSE0tZlR4RU9vdUFnTElPX0VIQVJtQ2J0eV9SaHRvdE1ObjZ2VzhBdnhmRkZBdHJSSFUxLTVWQ3JBNzc?oc=5",
-    "date": "Thu, 14 Dec 2023 08:00:00 GMT"
+    "title": "Canada’s Leaders Must Reject Overbroad Age Verification Bill",
+    "source": "Electronic Frontier Foundation",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU3A1ZXc5Z3pFdkJ4MFIydDhnUHZBUWhCb3lLc1o5UDZBRVA2ZkZnUFdZRUt2d1BwR1lZck9VYnIzdEE1eF9LcEtDck9na3loY1pDVlhyOGtaMkpVRG8yY01yanhFdmNPUkNnanlsXzE3cG5YWEJRUkVkS25WV0JKR25xeWp5TUUtRnRneFpHOTZBdGh4cmFCc2EtaTJlZw?oc=5",
+    "date": "Thu, 19 Sep 2024 07:00:00 GMT"
    },
    {
-    "title": "Site Blocking and Age Verification for Twitter, Instagram, Snap and Twitch?: Age Verification Lobby Confirms it Wants Bill S-210 to Cover All Social Media Sites",
-    "source": "Michael Geist -",
-    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOZjdZQjBzWlZyRWRwNUJqZ0k4eTRhbEkzYUh2dUVZN1dUMTQzWV9XZkVPY25aZW5DZmlHWTlpWWhVeTFDQ3QxdXNMeENIOU5XeWNwbUk3WGU0REJ4Z0xUNFBYZFFfaVRyellFaXB2bThDMG1wd0NjRE1PUEQ0bmZQakhQSC1aV255ckY5b0YyeVVSZ1ZQdzNmV1Vpa3JoSEdjX2lTUXpFLWtlRDBxczI1cFJsb2hvZ2RuQVM5ZlR4dmtSMU9TU1hFZ0NOSWlPSnFGNzBXdTYzQjlsY2VWZ3ByVm1TSGlNRzctZUQzZnlTQkdpdjJmeDZkQlF6X0I2TDA2cFdBM3E3cHRzSHp6WGNnU0hWQ0VjX01mV00wZjNn?oc=5",
-    "date": "Wed, 10 Jan 2024 08:00:00 GMT"
-   },
-   {
-    "title": "Curb Your Enthusiasm: Why Bill S-210 Could Mandate CRTC-Backed Age Verification For Streaming Services Like Netflix, Crave and CBC Gem",
-    "source": "Michael Geist -",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1rRVV6NWswZDJOOW1XVEJNT1B1Tkk4Skp5SjV0enZiZmU0dTBFeEMtQ0g1emJPeGlHeDB1UTg3cExTUkpvQmg4Z21tX1pUNTVZSUd6NUN4OTc4S2VUdEllcTV5RGFRTklv?oc=5",
-    "date": "Wed, 29 May 2024 07:00:00 GMT"
+    "title": "Canada should not fall behind on implementing safety measures for children online",
+    "source": "The Conversation",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3cxLTVyVElmM2plbTJpRGdYMjltbEFzWG5XWWVaTGt6cFh1VnpsNjAtc0Rod2owSGh3RXNBQjBXbUkydkRlUzJYVU5YVVc2R3owOENjTGZBaTByNjRPdUdOQ0NxaDNqRHFoMXBURnIxVG0zQUhCSGRRamswTUtnUFlKS2UtS2dxRDRjalZva0VLcDdaeDJzUGkxR09kemVVSndOSXdBbklkSjBncDExQ1hHaFdRVGs?oc=5",
+    "date": "Sun, 14 Jan 2024 08:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-210",
@@ -11532,22 +11618,22 @@
     "date": "Thu, 09 Jul 2026 07:00:00 GMT"
    },
    {
-    "title": "Canadian Lawmakers Poised to Crack Down on Sports Betting Ads",
-    "source": "Covers.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGNtWjFOZjliV3VJZkk0aXpWU1JhWVoyME5JWnIyaUZfSGdVNmIxM3ZMeHRrMmlVbklGNnhqOXAwVUZteG9Jcndad2hqQVVPcmwzaEtlLUctXzVBV1Q2aFJ3XzJpb1BweHkyR2hFYUFnd25DT1pkaFRLYktoRFZ5YllPcHVQVHpxQVBHM3J0ZEVCdWhReGtZMS1tREZkZ0ZRcWhKZy1uTHdVTGF4MFh4VVlrOXQyNXV6a1E?oc=5",
-    "date": "Fri, 17 Apr 2026 07:00:00 GMT"
-   },
-   {
     "title": "Canadians Confused Over Legal iGaming, Says CLC Exec",
     "source": "Casino.org",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUGlmcnVnZGFLSGI3cUg5MW4wNnFGblF0LThLM01MX0FkMS1LRUxFRHJqZlNsSG9nMUJTNmVldTViZW84NkJ1RHhrTm40aUpMWWhvMFZmQkNjenliN2xpMHZTYnpScF93QlRQNHk0VEVsREx6RFJ1akRSSVlEMnJTZw?oc=5",
     "date": "Tue, 26 May 2026 07:00:00 GMT"
    },
    {
-    "title": "Modern slavery: A comparative overview of Canada’s newest legal tools against forced and child labour",
+    "title": "Bill S-211 (Modern Slavery) Resource Centre",
     "source": "Borden Ladner Gervais LLP (BLG)",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUER6bDZjaGlRR29zd29VYVA4ZkdQbFdFXzRmcTlxSTJMRk5qRVAzVDlkdnpTT3RpMXJHc1BjZmd6U2dlMnBKSnBXWGlFRlh6STI0cGRMTE9BeHdQd3E0OFFDYW9ObTByT3JhVW1hM2FtMEtkQXpWbFgxLW1WYzhfMzZpdy04MFFaWS1QNG9scDZ3WUpEZjI5MHpDYk9SYXl0Y0RYbUlMaXNHclpJcGdvMl9RQ1NLLVVsLWdhXzlZb3liSG5TS2l0c2FkTlB0Mm4t?oc=5",
-    "date": "Wed, 06 Dec 2023 08:00:00 GMT"
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU3pwWTRVd3k1Q2RhR3lMLW00LWNCcGY1YmlOYmhBUVlJZkJCOC1Kc1EtWTAxdjJaSHozMGpVTW1wRFVDNElBN1BVS1RSblpoVC1lVjFvLVhGVWdzdkxpcUtBbXYtTTRvdWg1TkpITXdCY0M0YUQ0Y2RRNUx3NXhYbUdGdExFXzB2?oc=5",
+    "date": "Fri, 07 Jul 2023 19:03:52 GMT"
+   },
+   {
+    "title": "Does Bill S-211 Apply to You?",
+    "source": "Crowe",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hUDVzazhhWDhEa01ESFBJQjc4LWpZYWtYX1VpeE9Yc3lEeGNybDR6Y2dub3hfM1B5WWhZMktKSGxINVRMRHB6dG9pN2pDQTBuM0JzSmdnVnJtNzJZQlBaSmU5Zm1NcW9WMlVvS3ZsR08zNVFacEFJeXlSbU05MHM?oc=5",
+    "date": "Wed, 13 Mar 2024 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-211",
@@ -12838,7 +12924,7 @@
    },
    {
     "title": "Parliament advances IAFF-backed legislation to deter assaults on fire fighters and paramedics",
-    "source": "iaff.org",
+    "source": "IAFF",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX1lwMUNNN2tfSkFxdXU5VnhOeG00S0MtbmFNN1VSUlgwTjF6VmFtQjRLTWZMdkJFOWgtaVM4R0JHN3pkazVZZ084NEJVdEJMU1FybDQ1TFpJZHdjTlo4OUpxanhNRDNsUFpDRFl3V2ZiUWRQUnJxZkZicFpmd29TNzZjUVlGNFc1enlPSVpsNk1FN3NsRTNua3VqVk1CSEw2THVkSWRxcVE5LXZyYUNzclZnYUFTbVZOZnJVdg?oc=5",
     "date": "Fri, 24 Oct 2025 07:00:00 GMT"
    },
