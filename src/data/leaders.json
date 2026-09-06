@@ -10,20 +10,20 @@
     "ratings": [
       {
         "pollster": "Abacus Data",
-        "value": "51%",
+        "value": "53%",
         "metric": "Positive impression of the Prime Minister",
-        "detail": "31% negative — net +20, up from +17 in the previous wave; federal government approval 52%",
-        "date": "August 2026 wave",
-        "url": "https://www.hashtaginvesting.com/blog/carney-liberals-lead-poilievre-42-35-as-80-of-canadians-say-u-s-is-on-wrong-track-abacus",
+        "detail": "28% negative — net +25, up from +20 in the previous wave; Carney is the only major federal leader with a net-positive impression",
+        "date": "Wave dated August 26, 2026 (published early September 2026)",
+        "url": "https://abacusdata.ca/canadians-give-the-carney-government-strong-overall-marks-but-its-approval-rests-heavily-on-the-canada-us-file/",
         "tone": "positive"
       },
       {
         "pollster": "Nanos Research",
-        "value": "50.8%",
+        "value": "49.9%",
         "metric": "Preferred Prime Minister",
-        "detail": "4-week rolling average; Poilievre at 23.7%",
-        "date": "Week ending July 3, 2026",
-        "url": "https://nanos.co/category/political-tracking/",
+        "detail": "Four-week rolling average; Poilievre at 19.6% and NDP's Avi Lewis at 4.9%",
+        "date": "Published late August 2026",
+        "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
         "tone": "positive"
       },
       {
@@ -57,12 +57,12 @@
       },
       {
         "pollster": "Nanos Research",
-        "value": "23.7%",
+        "value": "19.6%",
         "metric": "Preferred Prime Minister",
-        "detail": "4-week rolling average; Carney at 50.8%",
-        "date": "Week ending July 3, 2026",
-        "url": "https://nanos.co/category/political-tracking/",
-        "tone": "neutral"
+        "detail": "Four-week rolling average; down from 23.7% in early July, with Carney at 49.9%",
+        "date": "Published late August 2026",
+        "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
+        "tone": "negative"
       },
       {
         "pollster": "Léger",
