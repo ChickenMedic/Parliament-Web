@@ -1,7 +1,43 @@
 {
  "pm": {
-  "own": [],
+  "own": [
+   {
+    "videoId": "0wHFBDdc4Ps",
+    "title": "Prime Minister Carney's message on Labour Day",
+    "date": "2026-09-07T13:02:32+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/0wHFBDdc4Ps/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
+    "videoId": "BCLJnN72f3I",
+    "title": "Prime Minister Carney announces the largest investment in VIA Rail’s history",
+    "date": "2026-09-03T23:47:39+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/BCLJnN72f3I/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
+    "videoId": "hSWBcPZtpyw",
+    "title": "Supporting workers, families, businesses, and industries across Canada",
+    "date": "2026-09-03T18:25:43+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/hSWBcPZtpyw/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
+    "videoId": "Tp6AkTMmc7c",
+    "title": "Largest clean energy investment in North American history",
+    "date": "2026-08-27T20:05:33+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/Tp6AkTMmc7c/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   }
+  ],
   "coverage": [
+   {
+    "videoId": "tKLPrjZcvp4",
+    "title": "The best response Carney can give to Trump’s insults is to ignore it: analyst",
+    "date": "2026-09-07T16:00:56+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/tKLPrjZcvp4/hqdefault.jpg",
+    "channel": "CTV News"
+   },
    {
     "videoId": "Su9rRKzRguM",
     "title": "PM Carney announces $4.7B VIA Rail deal, comments on Canada-U.S. trade war – September 3, 2026",
@@ -21,6 +57,20 @@
  "opposition": {
   "own": [
    {
+    "videoId": "aYnSSGRgDws",
+    "title": "On se bat pour le Canada.",
+    "date": "2026-09-07T17:23:52+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/aYnSSGRgDws/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "Wk7fzb0-v-g",
+    "title": "LIVE: Fighting for Canada",
+    "date": "2026-09-07T16:41:41+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/Wk7fzb0-v-g/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
     "videoId": "8WNOi8T7ixM",
     "title": "They tested AI. It couldn’t beat the workers.",
     "date": "2026-09-05T15:54:56+00:00",
@@ -33,22 +83,23 @@
     "date": "2026-09-03T13:30:59+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/zUqw2k4IUfc/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "OA85bCDhubI",
-    "title": "Secure our country from terror and violence",
-    "date": "2026-09-02T19:45:13+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/OA85bCDhubI/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "OQAWnNeAmtY",
-    "title": "Let’s end the exodus of Canadian brainpower.",
-    "date": "2026-09-01T19:46:13+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/OQAWnNeAmtY/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "DtivLJn2ZqM",
+    "title": "Conservative Leader Pierre Poilievre comments on Canada-U.S. trade dispute – September 7, 2026",
+    "date": "2026-09-07T17:16:57+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/DtivLJn2ZqM/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "TkLMlyWqtyE",
+    "title": "Conservative Leader Pierre Poilievre holds news conference",
+    "date": "2026-09-07T16:42:25+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/TkLMlyWqtyE/hqdefault.jpg",
+    "channel": "CBC News"
+   }
+  ]
  }
 }
