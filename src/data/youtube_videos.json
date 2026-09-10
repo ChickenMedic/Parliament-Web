@@ -1,5 +1,50 @@
 [
  {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "TymiF7OqOw4",
+  "title": "Mark Carney and Volodymyr Zelenskyy deliver remarks following cabinet address – September 10, 2026",
+  "date": "2026-09-10T22:03:50+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/TymiF7OqOw4/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "5heORROs6a8",
+  "title": "Does AI Make Us Dumber or Smarter?",
+  "date": "2026-09-10T21:37:11+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/5heORROs6a8/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "X4_fYFPI3YU",
+  "title": "PM Mark Carney on Canada-U.S. trade war, Alberta referendum – September 10, 2026",
+  "date": "2026-09-10T21:27:14+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/X4_fYFPI3YU/hqdefault.jpg"
+ },
+ {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "uzW7IWVPX_Y",
+  "title": "Trump trade war: Is Canada destined to lose?",
+  "date": "2026-09-10T20:55:54+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/uzW7IWVPX_Y/hqdefault.jpg"
+ },
+ {
+  "channel": "J.J. McCullough",
+  "handle": "JJMcCullough",
+  "about": "Conservative-leaning commentary",
+  "videoId": "Mz98fPZ0bKo",
+  "title": "Movie review: TONY, the Anthony Bourdain story",
+  "date": "2026-09-10T19:57:24+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/Mz98fPZ0bKo/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -13,7 +58,7 @@
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
   "videoId": "hsKBuuzcVbs",
-  "title": "Manitoba Premier Wab Kinew touts free transit for Winnipeg youth – September 10, 2026",
+  "title": "Manitoba launches free transit for youth– September 10, 2026",
   "date": "2026-09-10T19:12:10+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/hsKBuuzcVbs/hqdefault.jpg"
  },
@@ -34,15 +79,6 @@
   "title": "Former Conservative MP warns anti-Trump bravado could cost Canadians their jobs",
   "date": "2026-09-10T18:46:46+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/gTwQzZupER4/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "N4xS19SSTJ4",
-  "title": "PM Carney and President Zelenskyy take part in signing ceremony, speak with reporters in Calgary",
-  "date": "2026-09-10T18:30:45+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/N4xS19SSTJ4/hqdefault.jpg"
  },
  {
   "channel": "Canadaland",
@@ -81,15 +117,6 @@
   "thumbnail": "https://i4.ytimg.com/vi/_9yy0S4dXRo/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "14uLqO2_oQs",
-  "title": "PM Mark Carney meets with Ukrainian President Volodymyr Zelenskyy in Calgary – September 10, 2026",
-  "date": "2026-09-10T15:15:12+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/14uLqO2_oQs/hqdefault.jpg"
- },
- {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -126,15 +153,6 @@
   "thumbnail": "https://i1.ytimg.com/vi/lGYGU6PmbwY/hqdefault.jpg"
  },
  {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "f2lQxGJ6L-w",
-  "title": "Notley “So Angry” at Referendum Questions",
-  "date": "2026-09-09T20:44:19+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/f2lQxGJ6L-w/hqdefault.jpg"
- },
- {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -169,15 +187,6 @@
   "title": "Canada faces energy crunch as U.S. turns to Venezuela",
   "date": "2026-09-08T21:24:51+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/_gVnpGVNYJ0/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "wnkKD66qEvw",
-  "title": "Canada-U.S. trade war escalates: Is Carney making a historic mistake?",
-  "date": "2026-09-08T17:20:57+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/wnkKD66qEvw/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
