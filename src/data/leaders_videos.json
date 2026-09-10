@@ -32,44 +32,58 @@
   ],
   "coverage": [
    {
+    "videoId": "XqdpvGupwNY",
+    "title": "Fact check: Carney deepfake used to promote crypto during trade war",
+    "date": "2026-09-10T19:04:59+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/XqdpvGupwNY/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
     "videoId": "N4xS19SSTJ4",
-    "title": "Starting soon: PM Carney and President Zelenskyy speak with reporters in Calgary",
-    "date": "2026-09-10T16:17:31+00:00",
+    "title": "PM Carney and President Zelenskyy take part in signing ceremony, speak with reporters in Calgary",
+    "date": "2026-09-10T18:30:45+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/N4xS19SSTJ4/hqdefault.jpg",
     "channel": "CPAC"
    },
    {
-    "videoId": "q31UpCoVZGg",
-    "title": "Carney, Zelenskyy hold joint news conference",
-    "date": "2026-09-10T16:00:02+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/q31UpCoVZGg/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "0jsEQq6uI3I",
-    "title": "'Thankful for the billions,' Zelenskyy tells Carney",
-    "date": "2026-09-10T15:55:06+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/0jsEQq6uI3I/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "14uLqO2_oQs",
-    "title": "PM Mark Carney meets with Ukrainian President Volodymyr Zelenskyy in Calgary – September 10, 2026",
-    "date": "2026-09-10T15:15:12+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/14uLqO2_oQs/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
     "videoId": "G91Bit6MCjs",
-    "title": "Zelenskyy meets with Carney in Calgary to discuss defence, economic and energy co-operation | LIVE",
-    "date": "2026-09-10T12:29:39+00:00",
+    "title": "Carney, Zelenskyy announce 100-year partnership spanning defence, energy and trade | FULL",
+    "date": "2026-09-10T18:27:39+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/G91Bit6MCjs/hqdefault.jpg",
     "channel": "Global News"
+   },
+   {
+    "videoId": "m0RQGzaksSg",
+    "title": "Carney, Zelenskyy hold joint news conference in Alberta",
+    "date": "2026-09-10T18:27:17+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/m0RQGzaksSg/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "HScgzCU8ww0",
+    "title": "‘Canada will always stand in solidarity with Ukraine’: PM Carney on Canadian-Ukrainian solidarity",
+    "date": "2026-09-10T18:24:07+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/HScgzCU8ww0/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "GP1yuUF7lKw",
+    "title": "‘Ukraine will never submit’: PM Carney on Ukrainian sovereignty",
+    "date": "2026-09-10T18:23:21+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/GP1yuUF7lKw/hqdefault.jpg",
+    "channel": "CTV News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "t84xiUoeGig",
+    "title": "End the tariffs and restore the most successful partnership the world has ever seen.",
+    "date": "2026-09-10T18:45:58+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/t84xiUoeGig/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "zCGFSnxERv0",
     "title": "In New York, fighting for free markets and free trade.",
@@ -89,13 +103,6 @@
     "title": "Release all the costs. Recall parliament now.",
     "date": "2026-09-08T19:59:29+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/nUV9TBwce-o/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "si-Nyx-pEdw",
-    "title": "Happy Labour Day. You earned it.",
-    "date": "2026-09-08T00:06:56+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/si-Nyx-pEdw/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
