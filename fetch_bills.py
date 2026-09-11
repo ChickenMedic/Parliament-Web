@@ -379,12 +379,15 @@ def main():
         return lookup(name, party_by_mp)
 
     # Carried forward so a day when Google returns a thin result set doesn't
-    # wipe coverage the site has already vetted.
+    # wipe coverage the site has already vetted, and so a sponsor who has left
+    # the House doesn't take their party label with them.
     try:
         with open(OUT, encoding='utf-8') as f:
-            previous_media = {b['id']: b.get('media') or [] for b in json.load(f)}
+            published = json.load(f)
+        previous_media = {b['id']: b.get('media') or [] for b in published}
+        previous_party = {b['id']: b.get('sponsorParty') for b in published}
     except (FileNotFoundError, ValueError):
-        previous_media = {}
+        previous_media, previous_party = {}, {}
 
     raw = fetch_legisinfo_bills()
     votes = fetch_votes()
@@ -439,6 +442,11 @@ def main():
         if not has_portfolio:
             sponsor_title = None
         sponsor_party = sponsor_party_of(sponsor, is_senator)
+        if sponsor_party is None:
+            # politicians.json is the *current* roster, so an MP who resigned
+            # or lost a by-election drops off it — but the bill they sponsored
+            # still belongs to the party they sat for. Keep what we published.
+            sponsor_party = previous_party.get(num)
 
         # Which committee currently has the bill — the join key matches the
         # ids in committees_full.json.

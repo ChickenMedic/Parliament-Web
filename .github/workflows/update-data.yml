@@ -31,6 +31,37 @@ jobs:
       - run: npm ci
       - run: pip install -r requirements.txt
 
+      # The MP roster only moves on by-elections, floor-crossings and
+      # resignations, and the sweep is one request per member, so it runs
+      # weekly rather than daily. politicians.json feeds the map, the seating
+      # chart, Find Your MP, the X handle list and bill sponsor matching, so
+      # letting it go stale degrades all of them at once.
+      - name: Is this the weekly roster sweep?
+        id: weekly
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Not Monday — skipping the weekly roster sweep."
+          fi
+
+      - name: Fetch MP roster
+        id: politicians
+        if: steps.weekly.outputs.run == 'true'
+        continue-on-error: true
+        run: python fetch_politicians.py
+
+      # Must follow the roster: fetch_floorplan.py resolves every name on the
+      # official floorplan against politicians.json and refuses to write if one
+      # is missing, so a by-election winner breaks it until the roster catches
+      # up. Same ordering reason it can't just run on its own schedule.
+      - name: Rebuild the seating chart
+        id: floorplan
+        if: steps.weekly.outputs.run == 'true'
+        continue-on-error: true
+        run: python fetch_floorplan.py
+
       # Each fetch continues on error so one flaky upstream doesn't block the rest.
       # --mps sweeps front-bench MPs daily and backbenchers on a 7-day rotation;
       # while X API credits are unavailable this fails harmlessly and resumes on
@@ -61,20 +92,6 @@ jobs:
         id: senators
         continue-on-error: true
         run: python fetch_senators.py
-
-      # The MP roster only moves on by-elections and floor-crossings, and the
-      # sweep is one request per member, so it runs weekly rather than daily.
-      # politicians.json feeds the map, the seating chart, and bill sponsor
-      # party matching, so letting it go stale degrades all three.
-      - name: Fetch MP roster (Mondays)
-        id: politicians
-        continue-on-error: true
-        run: |
-          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python fetch_politicians.py
-          else
-            echo "Not Monday — skipping the MP roster sweep."
-          fi
 
       - name: Commit and push updated data
         run: |
@@ -108,7 +125,8 @@ jobs:
             "Bills:${{ steps.bills.outcome }}" \
             "Committees:${{ steps.committees.outcome }}" \
             "Senators:${{ steps.senators.outcome }}" \
-            "MP roster:${{ steps.politicians.outcome }}"
+            "MP roster:${{ steps.politicians.outcome }}" \
+            "Seating chart:${{ steps.floorplan.outcome }}"
           do
             name="${entry%:*}"
             outcome="${entry##*:}"
