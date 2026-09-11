@@ -11,6 +11,7 @@ Run: python fetch_news.py
 """
 
 import json
+import re
 import ssl
 import time
 import urllib.parse
@@ -22,6 +23,9 @@ OUT = 'src/data/news.json'
 FEDERAL_MAX = 40
 PROVINCE_MAX = 8
 MAX_AGE_DAYS = 7
+# PEI, the territories and other small jurisdictions can go a week without
+# political coverage; a slightly older headline beats an empty column.
+QUIET_MAX_AGE_DAYS = 21
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -35,12 +39,27 @@ def search_url(query):
             + '&hl=en-CA&gl=CA&ceid=CA:en')
 
 
-# Topic feed = Google News' own Canadian politics front page; the search adds
-# federal-specific depth. Duplicates across feeds are collapsed by title.
-FEDERAL_FEEDS = [
-    'https://news.google.com/rss/headlines/section/topic/POLITICS?hl=en-CA&gl=CA&ceid=CA:en',
+# Despite the Canadian locale, Google's POLITICS topic feed is world politics
+# with Canadian stories mixed in — roughly half of it is Nigeria, Malaysia or
+# Germany — so everything from it has to name a Canadian federal subject to be
+# kept. The searches below are already scoped by their query and aren't
+# filtered. Duplicates across feeds are collapsed by title.
+FEDERAL_TOPIC_FEED = 'https://news.google.com/rss/headlines/section/topic/POLITICS?hl=en-CA&gl=CA&ceid=CA:en'
+
+FEDERAL_SEARCHES = [
     search_url('Canada Parliament OR "House of Commons" OR "federal government"'),
+    search_url('Carney OR Poilievre OR "federal cabinet" OR "Parliament Hill" Canada'),
 ]
+
+# Anchors, not topics: "Nigeria's parliament" and "Doug Ford's cabinet" both
+# have to fall out, so a bare "parliament" or "minister" isn't enough.
+FEDERAL_RE = re.compile(
+    r'\b(canada|canadian|ottawa|parliament hill|house of commons|'
+    r'carney|poilievre|blanchet|governor general)\b', re.I)
+
+
+def is_federal(item):
+    return bool(FEDERAL_RE.search(item['title']))
 
 # West to east, then the territories — the frontend keeps this order.
 PROVINCES = [
@@ -76,38 +95,51 @@ def timestamp(item):
         return 0
 
 
-def collect(urls, limit, seen):
-    cutoff = time.time() - MAX_AGE_DAYS * 86400
+def gather(urls):
+    """Every item from every feed, tolerating an individual feed failing."""
     merged = []
     for url in urls:
         try:
-            items = fetch_feed(url)
+            merged.extend(fetch_feed(url))
         except Exception as e:
             print(f'warning: feed failed ({e}); continuing')
-            continue
-        for item in items:
-            key = item['title'].lower().strip()
-            if not key or key in seen or timestamp(item) < cutoff:
-                continue
-            seen.add(key)
-            merged.append(item)
         time.sleep(0.5)
-    merged.sort(key=timestamp, reverse=True)
-    return merged[:limit]
+    return merged
+
+
+def select(items, limit, seen, max_age_days=MAX_AGE_DAYS, relevant=None):
+    """Newest unseen items inside the age window, most recent first."""
+    cutoff = time.time() - max_age_days * 86400
+    picked = []
+    for item in items:
+        key = item['title'].lower().strip()
+        if not key or key in seen or timestamp(item) < cutoff:
+            continue
+        if relevant and not relevant(item):
+            continue
+        seen.add(key)
+        picked.append(item)
+    picked.sort(key=timestamp, reverse=True)
+    return picked[:limit]
 
 
 def main():
     seen = set()
-    federal = collect(FEDERAL_FEEDS, FEDERAL_MAX, seen)
+    federal = select(gather([FEDERAL_TOPIC_FEED]), FEDERAL_MAX, seen, relevant=is_federal)
+    print(f'federal topic feed: {len(federal)} Canadian headlines')
+    federal += select(gather(FEDERAL_SEARCHES), FEDERAL_MAX, seen)
+    federal.sort(key=timestamp, reverse=True)
+    federal = federal[:FEDERAL_MAX]
     print(f'federal: {len(federal)} headlines')
 
     provincial = {}
     for prov in PROVINCES:
-        items = collect(
-            [search_url(f'"{prov}" (politics OR legislature OR premier)')],
-            PROVINCE_MAX, seen)
-        provincial[prov] = items
-        print(f'{prov}: {len(items)} headlines')
+        items = gather([search_url(f'"{prov}" (politics OR legislature OR premier)')])
+        picked = select(items, PROVINCE_MAX, seen)
+        if not picked:
+            picked = select(items, PROVINCE_MAX, seen, QUIET_MAX_AGE_DAYS)
+        provincial[prov] = picked
+        print(f'{prov}: {len(picked)} headlines')
 
     if not federal and not any(provincial.values()):
         raise SystemExit('No headlines fetched; keeping previous data')

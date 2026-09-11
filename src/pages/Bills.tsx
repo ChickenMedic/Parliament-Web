@@ -52,8 +52,18 @@ interface Bill {
   category: string;
   sponsor: string | null;
   sponsorParty: string | null;
+  sponsorRole: string | null;
+  sponsorTitle: string | null;
+  sponsorRiding: string | null;
   latestActivity: string | null;
   latestActivityDate: string | null;
+  latestActivityChamber: string | null;
+  committee: {
+    acronym: string;
+    name: string;
+    chamber: string;
+    url: string | null;
+  } | null;
   stages: BillStage[];
   partyPositions: {
     parties: Record<string, PartyPosition>;
@@ -76,6 +86,11 @@ const PARTY_META: Record<string, { color: string; label: string }> = {
   NDP: { color: 'var(--party-ndp)', label: 'New Democratic Party' },
   Bloc: { color: 'var(--party-bloc)', label: 'Bloc Québécois' },
   Green: { color: '#3d9b35', label: 'Green Party' },
+  // Senate caucuses, which sponsor every S- bill. Colours match SenateChart.
+  ISG: { color: '#4a90e2', label: 'Independent Senators Group' },
+  CSG: { color: '#6f42c1', label: 'Canadian Senators Group' },
+  PSG: { color: '#e83e8c', label: 'Progressive Senate Group' },
+  'Non-affiliated': { color: '#808080', label: 'Non-affiliated senator' },
 };
 
 const sponsorColor = (party: string | null) =>
@@ -200,7 +215,15 @@ export const Bills = () => {
   const [search, setSearch] = useState('');
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('All');
   const [typeFilter, setTypeFilter] = useState<'All' | 'Government' | 'Private / Senate'>('Government');
+  const [categoryFilter, setCategoryFilter] = useState('All');
   const [showDeepDive, setShowDeepDive] = useState(false);
+
+  // Subject areas actually present in the docket, so the list never offers a
+  // filter that returns nothing.
+  const categories = useMemo(
+    () => [...new Set(BILLS_DATA.map(b => b.category))].sort(),
+    [],
+  );
 
   const filteredBills = useMemo(() => {
     const q = search.toLowerCase();
@@ -215,7 +238,8 @@ export const Bills = () => {
       const matchType =
         typeFilter === 'All' ||
         (typeFilter === 'Government' ? bill.type === 'Government Bill' : bill.type !== 'Government Bill');
-      return matchSearch && matchStatus && matchType;
+      const matchCategory = categoryFilter === 'All' || bill.category === categoryFilter;
+      return matchSearch && matchStatus && matchType && matchCategory;
     }).sort((a, b) => {
       // Active bills first, furthest-along first: those are the ones where
       // contacting your MP can still change the outcome.
@@ -225,7 +249,7 @@ export const Bills = () => {
       if (progressDiff !== 0) return progressDiff;
       return (b.latestActivityDate || '').localeCompare(a.latestActivityDate || '');
     });
-  }, [search, statusFilter, typeFilter]);
+  }, [search, statusFilter, typeFilter, categoryFilter]);
 
   if (selectedBill) {
     const bucket = statusBucket(selectedBill);
@@ -274,6 +298,14 @@ export const Bills = () => {
                 <span>
                   Sponsor: <strong style={{ color: sponsorColor(selectedBill.sponsorParty) }}>{selectedBill.sponsor}</strong>
                   {selectedBill.sponsorParty && selectedBill.sponsorParty !== 'Senator' && ` (${selectedBill.sponsorParty})`}
+                  {/* The portfolio a minister sponsors from, or the riding an
+                      MP sits for, says more than the name alone. */}
+                  {(selectedBill.sponsorTitle || selectedBill.sponsorRiding || selectedBill.sponsorRole) && (
+                    <div style={{ fontSize: '13px', color: 'rgba(255,255,255,0.5)', marginTop: '2px' }}>
+                      {selectedBill.sponsorTitle || selectedBill.sponsorRole}
+                      {selectedBill.sponsorRiding && ` • ${selectedBill.sponsorRiding}`}
+                    </div>
+                  )}
                 </span>
               </div>
             )}
@@ -358,7 +390,24 @@ export const Bills = () => {
           </div>
           {selectedBill.latestActivity && (
             <p style={{ margin: '0 0 20px 0', fontSize: '14px', color: 'rgba(255,255,255,0.6)' }}>
-              Latest activity: {selectedBill.latestActivity}{selectedBill.latestActivityDate ? ` — ${fmtDate(selectedBill.latestActivityDate)}` : ''}
+              Latest activity: {selectedBill.latestActivity}
+              {selectedBill.latestActivityChamber ? ` in the ${selectedBill.latestActivityChamber}` : ''}
+              {selectedBill.latestActivityDate ? ` — ${fmtDate(selectedBill.latestActivityDate)}` : ''}
+            </p>
+          )}
+          {/* Committee study is where a bill is actually amended, and where
+              public briefs are heard — so name the committee and link to it. */}
+          {selectedBill.committee && (
+            <p style={{ margin: '-8px 0 20px 0', fontSize: '14px', color: 'rgba(255,255,255,0.6)' }}>
+              Before the{' '}
+              {selectedBill.committee.url ? (
+                <a href={selectedBill.committee.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-color)' }}>
+                  {selectedBill.committee.name}
+                </a>
+              ) : (
+                <strong style={{ color: 'rgba(255,255,255,0.85)' }}>{selectedBill.committee.name}</strong>
+              )}{' '}
+              ({selectedBill.committee.acronym})
             </p>
           )}
           <StageTracker bill={selectedBill} />
@@ -490,6 +539,24 @@ export const Bills = () => {
               </button>
             ))}
           </div>
+
+          {/* Nineteen subject areas is too many for chips, so this one is a
+              select; the chip rows above stay the primary filters. */}
+          <select
+            value={categoryFilter}
+            onChange={(e) => setCategoryFilter(e.target.value)}
+            aria-label="Filter bills by subject area"
+            style={{ padding: '10px 14px', background: 'rgba(0,0,0,0.2)', color: 'white', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '14px', cursor: 'pointer', fontWeight: categoryFilter === 'All' ? 'normal' : 'bold' }}
+          >
+            <option value="All">All subjects</option>
+            {categories.map(c => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
+        </div>
+
+        <div style={{ marginTop: '12px', fontSize: '13px', color: 'rgba(255,255,255,0.45)' }}>
+          Showing {filteredBills.length} of {BILLS_DATA.length} bills
         </div>
       </div>
 

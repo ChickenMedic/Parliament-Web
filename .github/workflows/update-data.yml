@@ -36,26 +36,45 @@ jobs:
       # while X API credits are unavailable this fails harmlessly and resumes on
       # its own once credits are topped up.
       - name: Fetch X feeds (incl. MP sweep)
+        id: x_feeds
         continue-on-error: true
         env:
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: node fetch-tweets.js --mps
 
       - name: Fetch leader news
+        id: leader_news
         continue-on-error: true
         run: python fetch_leader_news.py
 
       - name: Fetch bills
+        id: bills
         continue-on-error: true
         run: python fetch_bills.py
 
       - name: Fetch committees
+        id: committees
         continue-on-error: true
         run: python fetch_committees.py
 
       - name: Fetch senators
+        id: senators
         continue-on-error: true
         run: python fetch_senators.py
+
+      # The MP roster only moves on by-elections and floor-crossings, and the
+      # sweep is one request per member, so it runs weekly rather than daily.
+      # politicians.json feeds the map, the seating chart, and bill sponsor
+      # party matching, so letting it go stale degrades all three.
+      - name: Fetch MP roster (Mondays)
+        id: politicians
+        continue-on-error: true
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python fetch_politicians.py
+          else
+            echo "Not Monday — skipping the MP roster sweep."
+          fi
 
       - name: Commit and push updated data
         run: |
@@ -68,4 +87,42 @@ jobs:
             git commit -m "Refresh site data"
             git pull --rebase origin master
             git push
+          fi
+
+      # Every fetch above is continue-on-error so one flaky upstream can't
+      # block the rest — which also means a scraper can break and go unnoticed
+      # for weeks. This turns that into a red run and a readable summary.
+      # X feeds are excluded while the API credits are unavailable: that step
+      # is expected to fail and would mask real breakage.
+      - name: Report fetch outcomes
+        if: always()
+        run: |
+          failed=""
+          {
+            echo "| Source | Outcome |"
+            echo "| --- | --- |"
+          } >> "$GITHUB_STEP_SUMMARY"
+          for entry in \
+            "X feeds (not counted):${{ steps.x_feeds.outcome }}" \
+            "Leader news:${{ steps.leader_news.outcome }}" \
+            "Bills:${{ steps.bills.outcome }}" \
+            "Committees:${{ steps.committees.outcome }}" \
+            "Senators:${{ steps.senators.outcome }}" \
+            "MP roster:${{ steps.politicians.outcome }}"
+          do
+            name="${entry%:*}"
+            outcome="${entry##*:}"
+            echo "| $name | $outcome |" >> "$GITHUB_STEP_SUMMARY"
+            case "$name" in
+              *"not counted"*) ;;
+              *)
+                if [ "$outcome" = "failure" ]; then
+                  failed="$failed $name"
+                fi
+                ;;
+            esac
+          done
+          if [ -n "$failed" ]; then
+            echo "::error::Fetch steps failed:$failed"
+            exit 1
           fi

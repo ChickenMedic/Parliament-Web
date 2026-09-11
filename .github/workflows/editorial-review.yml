@@ -44,6 +44,13 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           branch: auto/editorial-updates
+          # Only the three files these scripts own. Without this the PR also
+          # picks up whatever the daily feed refresh changed in the working
+          # tree, burying the handful of lines that actually need review.
+          add-paths: |
+            src/data/scandals.json
+            src/data/leaders.json
+            src/data/bill_summaries.json
           title: 'Weekly scandals & leader ratings update'
           commit-message: Propose scandals and ratings updates
           body: |

@@ -26,6 +26,12 @@ jobs:
           node-version: 22
           cache: npm
 
+      # The news and YouTube fetchers are stdlib-only, but pinning the version
+      # keeps them off whatever python3 the runner image happens to ship.
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
       - run: npm ci
 
       # continue-on-error: while X API credits are unavailable this step fails
@@ -38,12 +44,14 @@ jobs:
         run: node fetch-tweets.js
 
       - name: Fetch news headlines
+        id: news
         continue-on-error: true
-        run: python3 fetch_news.py
+        run: python fetch_news.py
 
       - name: Fetch YouTube coverage
+        id: youtube
         continue-on-error: true
-        run: python3 fetch_youtube.py
+        run: python fetch_youtube.py
 
       - name: Commit and push updated data
         run: |
@@ -56,4 +64,22 @@ jobs:
             git commit -m "Refresh feeds"
             git pull --rebase origin master
             git push
+          fi
+
+      # As in update-data.yml: the free feeds are continue-on-error so one bad
+      # upstream doesn't take the run down, so surface any failure instead of
+      # letting a broken fetcher sit quiet. The X step is excluded while the
+      # API credits are unavailable.
+      - name: Report fetch outcomes
+        if: always()
+        run: |
+          failed=""
+          for entry in "News:${{ steps.news.outcome }}" "YouTube:${{ steps.youtube.outcome }}"; do
+            if [ "${entry##*:}" = "failure" ]; then
+              failed="$failed ${entry%:*}"
+            fi
+          done
+          if [ -n "$failed" ]; then
+            echo "::error::Feed fetchers failed:$failed"
+            exit 1
           fi
