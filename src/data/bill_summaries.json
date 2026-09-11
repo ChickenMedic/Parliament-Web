@@ -4676,5 +4676,32 @@
   ],
   "hadFullText": true,
   "generated": "2026-08-21"
+ },
+ "C-19": {
+  "overview": "Bill C-19, the Canada Groceries and Essentials Benefit Act, is a short government bill that amends the Income Tax Act to temporarily make the GST/HST credit (GSTC) bigger. It does two things: it adds a one-time top-up paid in January 2026 that raises the maximum credit for the 2025-2026 benefit year by 50%, and it raises maximum credit amounts by 25% for five years' worth of quarterly payments, from July 2026 through April 2031. The GST credit is a tax-free payment sent automatically by the Canada Revenue Agency to lower- and modest-income people who file a tax return, so the change means more money in the pockets of those households without any new application process. The bill also indexes the new higher amounts to inflation starting after 2026 and includes technical rules for shared-custody parents and for how the CRA assesses and recovers these payments. It has received royal assent.",
+  "deepDive": [
+   {
+    "heading": "What the bill does",
+    "body": "The bill's only substantive job is to increase the Goods and Services Tax/Harmonized Sales Tax credit — the quarterly, tax-free payment the CRA sends to lower- and modest-income individuals and families to offset sales tax. It does this by writing two new payment formulas into section 122.5 of the Income Tax Act, which is the section that creates the GST credit.\n\nThe first formula creates an extra payment in January 2026 that lifts the maximum credit for the 2025-2026 benefit year by 50%. The second formula raises maximum amounts by 25% for the following five years of payments. The bill's short title, the Canada Groceries and Essentials Benefit Act, reflects the affordability framing; legally, it is simply a larger GST credit rather than a new standalone program."
+   },
+   {
+    "heading": "The one-time January 2026 top-up",
+    "body": "New subsection 122.5(3.004) deems eligible individuals who filed a return to have made an extra payment in January 2026, calculated on the 2024 taxation year. The formula uses base figures of $1,047 for the individual, $1,047 for a spouse or common-law partner (or for a single parent's first child), and $552 for each additional qualified dependant, with a supplement for single people with no dependants tied to income above $11,337. That total is reduced by 15% of adjusted income above $45,521, then multiplied by 0.25, and the regular credit already paid for that month is subtracted — meaning the payment is a top-up on top of the normal January credit rather than a duplicate of it."
+   },
+   {
+    "heading": "The five-year, 25% increase (July 2026 to April 2031)",
+    "body": "New subsection 122.5(3.005) sets out amounts for 20 specified quarterly payment months: July 2026, October 2026, January 2027, April 2027, and so on through April 2031. Each payment is one-quarter of a total built from $445 for the individual, $445 for a spouse or common-law partner (or a single parent's first child), and $234 per additional dependant, with a supplement for single people with no dependants based on income above $11,564, reduced by 5% of adjusted income above $46,432.\n\nFor those months, the bill states that the ordinary GST credit amount under subsection 122.5(3) is deemed to be nil — the new, higher calculation replaces the usual one rather than being paid in addition to it. The bill also adds these dollar figures to the Income Tax Act's annual indexation list (subsection 117.1(2)), so they are adjusted for inflation for taxation years beginning after 2026, and it updates the existing rule that lets certain amounts be paid out in advance."
+   },
+   {
+    "heading": "Who it affects and how the money arrives",
+    "body": "The increases go to people who already qualify for the GST credit — that is, people whose income falls below the phase-out thresholds set out in the formulas. Payments are automatic for those who file an income tax return; the bill repeatedly conditions eligibility on having filed a return for the relevant taxation year. January and April payments are based on the second preceding tax year, while July and October payments use the immediately preceding year.\n\nSpecial rules (new subsections 122.5(3.05) and (3.06)) apply to shared-custody parents, who receive half of the combined amounts calculated with and without the shared-custody adjustment — consistent with how other child-related benefits are split. The bill also updates administrative sections of the Income Tax Act (sections 152 and 160.1) so the CRA can assess, determine, redetermine and recover these new amounts the same way it handles the existing credit."
+   },
+   {
+    "heading": "Context and process",
+    "body": "The bill was sponsored by Finance Minister François-Philippe Champagne and carries a royal recommendation, meaning it authorizes the spending of public money. Coverage at the time indicated the measure moved quickly through Parliament — CTV News reported that MPs unanimously approved a Conservative motion to fast-track the GST relief bill — and the Parliamentary Budget Officer published a costing of the Canada Groceries and Essentials Benefit. Later reporting (Yahoo News Canada) described roughly 12 million Canadians receiving a one-time bonus payment from the CRA.\n\nThe bill also contains coordinating amendments tied to Bill C-15, the Budget 2025 Implementation Act, No. 1, which simply keep cross-references in the Income Tax Act consistent if that other bill also becomes law. Note that a CPAC headline listed above referring to \"Bill C-19, the Budget Implementation Act\" is from 2024 and concerns a different bill from an earlier Parliament."
+   }
+  ],
+  "hadFullText": true,
+  "generated": "2026-09-06"
  }
 }
