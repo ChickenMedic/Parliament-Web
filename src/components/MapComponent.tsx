@@ -309,7 +309,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
             <p style="margin: 2px 0;"><strong>Role:</strong> <span style="color: white;">${role}</span></p>
             <p style="margin: 2px 0;"><strong>Elected:</strong> Last Election (2025)</p>
             <p style="margin: 2px 0;"><strong>Next Election:</strong> On or before Oct 2029</p>
-            <p style="margin: 2px 0;"><strong>Contact:</strong> <a href="mailto:${mp.name.replace(' ', '.').toLowerCase()}@parl.gc.ca" style="color: #3b82f6;">${mp.name.replace(' ', '.').toLowerCase()}@parl.gc.ca</a></p>
+            ${mp.email ? `<p style="margin: 2px 0;"><strong>Contact:</strong> <a href="mailto:${mp.email}" style="color: #3b82f6;">${mp.email}</a></p>` : ''}
           </div>
           
           <div style="margin-top: 12px;">

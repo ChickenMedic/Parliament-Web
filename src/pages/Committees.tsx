@@ -32,30 +32,15 @@ const getPartyColor = (party: string) => {
   }
 };
 
-interface UserComment {
-  id: string;
-  author: string;
-  date: string;
-  content: string;
-}
-
 export const Committees = () => {
   const [selectedId, setSelectedId] = useState('FINA');
   const politicians = politiciansData.objects as any[];
 
-  // Local-only comments; starts empty (no seeded content).
-  const [comments, setComments] = useState<Record<string, UserComment[]>>({});
-
-  const [newAuthor, setNewAuthor] = useState('');
-  const [newText, setNewText] = useState('');
 
   const selectedCommittee = useMemo(() => {
     return COMMITTEES_DATA.find(c => c.id === selectedId) || COMMITTEES_DATA[0];
   }, [selectedId]);
 
-  const activeComments = useMemo(() => {
-    return comments[selectedId] || [];
-  }, [comments, selectedId]);
 
   // Names on ourcommons.ca and openparliament.ca can differ slightly
   // ("Jasraj Hallan" vs "Jasraj Singh Hallan"), so fall back to a
@@ -69,26 +54,6 @@ export const Committees = () => {
       const ptokens = (p.name.toLowerCase() as string).split(/\s+/);
       return ptokens.every(t => tokens.has(t)) || [...tokens].every(t => ptokens.includes(t));
     }) || null;
-  };
-
-  const handleCommentSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!newAuthor.trim() || !newText.trim()) return;
-
-    const newComment: UserComment = {
-      id: `${selectedId}-${Date.now()}`,
-      author: newAuthor.trim(),
-      date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-      content: newText.trim()
-    };
-
-    setComments(prev => ({
-      ...prev,
-      [selectedId]: [newComment, ...(prev[selectedId] || [])]
-    }));
-
-    setNewAuthor('');
-    setNewText('');
   };
 
   const renderMPCard = (name: string, role: string) => {
@@ -250,62 +215,6 @@ export const Committees = () => {
 
           </div>
 
-          {/* Public Discussion Board */}
-          <div className="glass-panel" style={{ padding: '20px', borderRadius: '12px', background: 'rgba(255,255,255,0.02)', display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '12px' }}>
-            <h3 style={{ margin: 0, fontSize: '16px', color: 'white', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              💬 Public Consultation Board ({activeComments.length} Contributions)
-            </h3>
-            <p style={{ margin: 0, fontSize: '12px', color: 'var(--text-secondary)' }}>
-              Submit your testimony or opinion on active committee studies. Comments are moderated in accordance with House rules.
-            </p>
-            
-            {/* Comment Roster */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxHeight: '250px', overflowY: 'auto', background: 'rgba(0,0,0,0.15)', borderRadius: '8px', padding: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
-              {activeComments.length === 0 ? (
-                <div style={{ padding: '20px', textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontSize: '13px' }}>
-                  No comments posted yet. Be the first to share your input!
-                </div>
-              ) : (
-                activeComments.map(comment => (
-                  <div key={comment.id} style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '10px 14px', borderRadius: '8px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                      <strong style={{ fontSize: '12px', color: 'white' }}>{comment.author}</strong>
-                      <span style={{ fontSize: '10px', color: 'rgba(255,255,255,0.4)' }}>{comment.date}</span>
-                    </div>
-                    <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.85)', lineHeight: '1.4' }}>{comment.content}</div>
-                  </div>
-                ))
-              )}
-            </div>
-
-            {/* Comment Form */}
-            <form onSubmit={handleCommentSubmit} style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-              <input 
-                type="text" 
-                placeholder="Your Name (e.g. Jean Dupont)" 
-                value={newAuthor}
-                onChange={(e) => setNewAuthor(e.target.value)}
-                required
-                style={{ flex: '1', minWidth: '150px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '6px', padding: '10px', color: 'white', fontSize: '13px' }}
-              />
-              <input 
-                type="text" 
-                placeholder="Share your perspective on this committee's work..." 
-                value={newText}
-                onChange={(e) => setNewText(e.target.value)}
-                required
-                style={{ flex: '3', minWidth: '250px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '6px', padding: '10px', color: 'white', fontSize: '13px' }}
-              />
-              <button 
-                type="submit" 
-                style={{ background: 'var(--accent-color)', color: 'white', border: 'none', borderRadius: '6px', padding: '10px 20px', cursor: 'pointer', fontWeight: 'bold', fontSize: '13px', transition: 'all 0.2s' }}
-                onMouseOver={(e) => e.currentTarget.style.filter = 'brightness(1.2)'}
-                onMouseOut={(e) => e.currentTarget.style.filter = 'none'}
-              >
-                Post Comment
-              </button>
-            </form>
-          </div>
 
         </div>
       </div>
