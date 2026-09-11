@@ -2,8 +2,7 @@ import { useMemo, useRef, useEffect, useState } from 'react';
 import { MapContainer, ZoomControl, GeoJSON, useMap, useMapEvents, Marker } from 'react-leaflet';
 import L from 'leaflet';
 import type { LatLngBoundsExpression } from 'leaflet';
-import stringSimilarity from 'string-similarity';
-import baseRidingsData from '../data/ridings_insets_final.json';
+import baseRidingsData from '../data/ridings.json';
 import politiciansData from '../data/politicians.json';
 import rolesMap from '../data/roles.json';
 
@@ -135,57 +134,16 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
     selectedMPRef.current = selectedMP;
   }, [selectedMP]);
 
+  // ridings.json and politicians.json both carry the House of Commons' own
+  // constituency names, so this is an exact lookup. It used to be a greedy
+  // best-match over every riding/MP pair, because the map still held 2013
+  // boundaries and a third of the current ridings had no polygon to match —
+  // which quietly drew, say, Algoma—Manitoulin—Kapuskasing's MP over Brampton.
+  // A riding with no entry here is genuinely vacant.
   const ridingMap = useMemo(() => {
-    const pList = politicians.map((p: any) => ({ norm: normalizeName(p.current_riding.name.en), mp: p }));
-    const rNames = Array.from(new Set(baseRidingsData.features.map((f: any) => normalizeName(f.properties.name)))) as string[];
-    
-    const manualOverrides: Record<string, string> = {
-      'dauphin swan river neepawa': 'riding mountain',
-      'charleswood st james assiniboia headingley': 'winnipeg west',
-      'timmins james bay': 'kapuskasing timmins mushkegowuk',
-      'manicouagan': 'cote nord kawawachikamach nitassinan',
-      'lambton kent middlesex': 'middlesex london',
-      'rimouski neigette temiscouata les basques': 'rimouski la matapedia',
-      'montarville': 'mont saint bruno lacadie',
-      'bonavista burin trinity': 'terra nova the peninsulas',
-      'new brunswick southwest': 'saint john st croix',
-      'york simcoe': 'new tecumseth gwillimbury',
-      'elgin middlesex london': 'elgin st thomas london south',
-      'red deer mountain view': 'ponoka didsbury',
-      'algoma manitoulin kapuskasing': 'brampton chinguacousy park',
-      'avignon la mitis matane matapedia': 'les pays den haut',
-      'st johns south mount pearl': 'cape spear'
-    };
-
-    const pairs: {r: string, p: any, score: number}[] = [];
-    for (const r of rNames) {
-      for (const p of pList) {
-        let score = stringSimilarity.compareTwoStrings(r, p.norm);
-        
-        if (manualOverrides[r] === p.norm) {
-          score = 1.0;
-        }
-
-        const rWords = r.split(' ');
-        const pWords = p.norm.split(' ');
-        const intersect = rWords.filter(w => w.length > 3 && pWords.includes(w)).length;
-        score += intersect * 0.2;
-        pairs.push({ r, p: p.mp, score });
-      }
-    }
-    
-    pairs.sort((a, b) => b.score - a.score);
-    
-    const assignedRidings = new Set();
-    const assignedMPs = new Set();
     const map = new Map<string, any>();
-    
-    for (const pair of pairs) {
-       if (!assignedRidings.has(pair.r) && !assignedMPs.has(pair.p.url)) {
-          map.set(pair.r, pair.p);
-          assignedRidings.add(pair.r);
-          assignedMPs.add(pair.p.url);
-       }
+    for (const p of politicians as any[]) {
+      map.set(normalizeName(p.current_riding.name.en), p);
     }
     return map;
   }, [politicians]);
@@ -361,7 +319,12 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
       `;
       layer.bindPopup(popupContent);
     } else {
-      layer.bindPopup(`<b>${feature.properties.name}</b><br/>MP data not found.`);
+      // With the correct boundaries in place, a riding with no MP is a real
+      // vacancy — a resignation or a death awaiting a by-election.
+      layer.bindPopup(
+        `<b>${feature.properties.name}</b><br/>` +
+        `<span style="color: rgba(255,255,255,0.6);">Vacant — no sitting member. ` +
+        `A by-election must be called within 180 days of the seat falling vacant.</span>`);
     }
 
     layer.on({
