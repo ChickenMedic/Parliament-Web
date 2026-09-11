@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "E2OqQ_8Ujtc",
+    "title": "Prime Minister Carney announces a new chapter in the Canada-Ukraine partnership",
+    "date": "2026-09-11T20:13:12+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/E2OqQ_8Ujtc/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "0wHFBDdc4Ps",
     "title": "Prime Minister Carney's message on Labour Day",
     "date": "2026-09-07T13:02:32+00:00",
@@ -21,16 +28,23 @@
     "date": "2026-09-03T18:25:43+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/hSWBcPZtpyw/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "Tp6AkTMmc7c",
-    "title": "Largest clean energy investment in North American history",
-    "date": "2026-08-27T20:05:33+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/Tp6AkTMmc7c/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
+   {
+    "videoId": "3WbWCedctBc",
+    "title": "“Maybe I should remind Donald”: Carney chats with Banff residents",
+    "date": "2026-09-11T21:13:21+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/3WbWCedctBc/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "wS3H35BN_-0",
+    "title": "Carney pays tribute on 25-year anniversary of 9/11 terrorist attacks",
+    "date": "2026-09-11T19:43:50+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/wS3H35BN_-0/hqdefault.jpg",
+    "channel": "Global News"
+   },
    {
     "videoId": "-qSKbb86olg",
     "title": "PM Mark Carney meets with national unity group ‘Forever Canadian’ – September 11, 2026",
@@ -57,20 +71,6 @@
     "title": "PM Mark Carney on Canada-U.S. trade war, Alberta referendum – September 10, 2026",
     "date": "2026-09-10T21:27:14+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/X4_fYFPI3YU/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "2hUOvPbNe38",
-    "title": "“We can compartmentalize”: Carney continues to work with Trump on global issues despite trade war",
-    "date": "2026-09-10T20:58:47+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2hUOvPbNe38/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "N4xS19SSTJ4",
-    "title": "PM Carney and President Zelenskyy sign 100-year deal on defence and trade – September 10, 2026",
-    "date": "2026-09-10T18:30:45+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/N4xS19SSTJ4/hqdefault.jpg",
     "channel": "CPAC"
    }
   ]
@@ -113,13 +113,6 @@
     "date": "2026-09-11T15:08:28+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/dQb4OvWqEDk/hqdefault.jpg",
     "channel": "CBC News"
-   },
-   {
-    "videoId": "6Kmi2tZEKWQ",
-    "title": "CPAC Lookback: On this Day in 2022 Pierre Poilievre Wins the Conservative Party Leadership Race",
-    "date": "2026-09-10T12:30:27+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/6Kmi2tZEKWQ/hqdefault.jpg",
-    "channel": "CPAC"
    }
   ]
  }
