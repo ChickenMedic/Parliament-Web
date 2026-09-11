@@ -153,25 +153,6 @@
       "twitter": "GarnettGenuis"
     },
     {
-      "name": "Amanpreet S. Gill",
-      "url": "/politicians/amanpreet-gill/",
-      "current_party": {
-        "short_name": {
-          "en": "Conservative"
-        }
-      },
-      "current_riding": {
-        "province": "AB",
-        "name": {
-          "en": "Calgary Skyview"
-        }
-      },
-      "image": "/media/polpics/amanpreet-gill.jpg",
-      "voice": "613-995-3477",
-      "email": "amanpreetsingh.gill@parl.gc.ca",
-      "twitter": null
-    },
-    {
       "name": "Dalwinder Gill",
       "url": "/politicians/dalwinder-gill/",
       "current_party": {
@@ -188,6 +169,25 @@
       "image": "/media/polpics/dalwinder-gill.jpg",
       "voice": "613-947-4487",
       "email": "dalwinder.gill@parl.gc.ca",
+      "twitter": null
+    },
+    {
+      "name": "Amanpreet S. Gill",
+      "url": "/politicians/amanpreet-gill/",
+      "current_party": {
+        "short_name": {
+          "en": "Conservative"
+        }
+      },
+      "current_riding": {
+        "province": "AB",
+        "name": {
+          "en": "Calgary Skyview"
+        }
+      },
+      "image": "/media/polpics/amanpreet-gill.jpg",
+      "voice": "613-995-3477",
+      "email": "amanpreetsingh.gill@parl.gc.ca",
       "twitter": null
     },
     {
@@ -816,6 +816,25 @@
       "voice": "613-992-0802",
       "email": "terry.beech@parl.gc.ca",
       "twitter": "terrybeech"
+    },
+    {
+      "name": "Braeden Caley",
+      "url": "/politicians/braeden-caley/",
+      "current_party": {
+        "short_name": {
+          "en": "Liberal"
+        }
+      },
+      "current_riding": {
+        "province": "BC",
+        "name": {
+          "en": "North Vancouver—Capilano"
+        }
+      },
+      "image": null,
+      "voice": null,
+      "email": "braeden.caley@parl.gc.ca",
+      "twitter": null
     },
     {
       "name": "Frank Caputo",
@@ -2737,25 +2756,6 @@
       "twitter": "adamchamb"
     },
     {
-      "name": "Shaun Chen",
-      "url": "/politicians/shaun-chen/",
-      "current_party": {
-        "short_name": {
-          "en": "Liberal"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Scarborough North"
-        }
-      },
-      "image": "/media/polpics/shaun-chen_GxJYmka.jpg",
-      "voice": "613-996-9681",
-      "email": "shaun.chen@parl.gc.ca",
-      "twitter": "Shaun_Chen"
-    },
-    {
       "name": "Maggie Chi",
       "url": "/politicians/maggie-chi/",
       "current_party": {
@@ -3058,25 +3058,6 @@
       "voice": "613-992-2612",
       "email": "Dave.Epp@parl.gc.ca",
       "twitter": "daveeppckl"
-    },
-    {
-      "name": "Nathaniel Erskine-Smith",
-      "url": "/politicians/nathaniel-erskine-smith/",
-      "current_party": {
-        "short_name": {
-          "en": "Liberal"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Beaches—East York"
-        }
-      },
-      "image": "/media/polpics/nathaniel-erskine-smith_qQzFybM.jpg",
-      "voice": "613-992-2115",
-      "email": "nathaniel.erskine-smith@parl.gc.ca",
-      "twitter": "beynate"
     },
     {
       "name": "Bruce Fanjoy",
@@ -3801,25 +3782,6 @@
       "twitter": null
     },
     {
-      "name": "Chris Malette",
-      "url": "/politicians/chris-malette/",
-      "current_party": {
-        "short_name": {
-          "en": "Liberal"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Bay of Quinte"
-        }
-      },
-      "image": "/media/polpics/chris-malette.jpg",
-      "voice": "613-992-0752",
-      "email": "chris.malette@parl.gc.ca",
-      "twitter": null
-    },
-    {
       "name": "Gaétan Malette",
       "url": "/politicians/gaetan-malette/",
       "current_party": {
@@ -3837,6 +3799,25 @@
       "voice": "613-992-4348",
       "email": "gaetan.malette@parl.gc.ca",
       "twitter": "votegaetan"
+    },
+    {
+      "name": "Chris Malette",
+      "url": "/politicians/chris-malette/",
+      "current_party": {
+        "short_name": {
+          "en": "Liberal"
+        }
+      },
+      "current_riding": {
+        "province": "ON",
+        "name": {
+          "en": "Bay of Quinte"
+        }
+      },
+      "image": "/media/polpics/chris-malette.jpg",
+      "voice": "613-992-0752",
+      "email": "chris.malette@parl.gc.ca",
+      "twitter": null
     },
     {
       "name": "James Maloney",
@@ -4333,6 +4314,25 @@
       "twitter": "JudySgroMP"
     },
     {
+      "name": "Tanveer Shahnawaz",
+      "url": "/politicians/tanveer-shahnawaz/",
+      "current_party": {
+        "short_name": {
+          "en": "Liberal"
+        }
+      },
+      "current_riding": {
+        "province": "ON",
+        "name": {
+          "en": "Beaches—East York"
+        }
+      },
+      "image": null,
+      "voice": null,
+      "email": "tanveer.shahnawaz@parl.gc.ca",
+      "twitter": null
+    },
+    {
       "name": "Terry Sheehan",
       "url": "/politicians/terry-sheehan/",
       "current_party": {
@@ -4371,25 +4371,6 @@
       "twitter": "DougShipleyBSOM"
     },
     {
-      "name": "Maninder Sidhu",
-      "url": "/politicians/maninder-sidhu/",
-      "current_party": {
-        "short_name": {
-          "en": "Liberal"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Brampton East"
-        }
-      },
-      "image": "/media/polpics/maninder-sidhu_DdrVX3R.jpg",
-      "voice": "613-992-0769",
-      "email": "Maninder.Sidhu@parl.gc.ca",
-      "twitter": "MSidhuLiberal"
-    },
-    {
       "name": "Sonia Sidhu",
       "url": "/politicians/sonia-sidhu/",
       "current_party": {
@@ -4407,6 +4388,25 @@
       "voice": "613-995-5381",
       "email": "sonia.sidhu@parl.gc.ca",
       "twitter": "SoniaLiberal"
+    },
+    {
+      "name": "Maninder Sidhu",
+      "url": "/politicians/maninder-sidhu/",
+      "current_party": {
+        "short_name": {
+          "en": "Liberal"
+        }
+      },
+      "current_riding": {
+        "province": "ON",
+        "name": {
+          "en": "Brampton East"
+        }
+      },
+      "image": "/media/polpics/maninder-sidhu_DdrVX3R.jpg",
+      "voice": "613-992-0769",
+      "email": "Maninder.Sidhu@parl.gc.ca",
+      "twitter": "MSidhuLiberal"
     },
     {
       "name": "Amandeep Sodhi",
@@ -4675,25 +4675,6 @@
       "twitter": "SeanCaseyLPC"
     },
     {
-      "name": "Heath MacDonald",
-      "url": "/politicians/heath-macdonald/",
-      "current_party": {
-        "short_name": {
-          "en": "Liberal"
-        }
-      },
-      "current_riding": {
-        "province": "PE",
-        "name": {
-          "en": "Malpeque"
-        }
-      },
-      "image": "/media/polpics/heath-macdonald_Nabr3hU.jpg",
-      "voice": "613-992-2406",
-      "email": "heath.macdonald@parl.gc.ca",
-      "twitter": "CornwallHeath"
-    },
-    {
       "name": "Kent MacDonald",
       "url": "/politicians/kent-macdonald/",
       "current_party": {
@@ -4711,6 +4692,25 @@
       "voice": "613-995-9325",
       "email": "kent.macdonald@parl.gc.ca",
       "twitter": null
+    },
+    {
+      "name": "Heath MacDonald",
+      "url": "/politicians/heath-macdonald/",
+      "current_party": {
+        "short_name": {
+          "en": "Liberal"
+        }
+      },
+      "current_riding": {
+        "province": "PE",
+        "name": {
+          "en": "Malpeque"
+        }
+      },
+      "image": "/media/polpics/heath-macdonald_Nabr3hU.jpg",
+      "voice": "613-992-2406",
+      "email": "heath.macdonald@parl.gc.ca",
+      "twitter": "CornwallHeath"
     },
     {
       "name": "Bobby Morrissey",
@@ -4882,25 +4882,6 @@
       "voice": "613-992-5257",
       "email": "patrick.bonin@parl.gc.ca",
       "twitter": "patbonin"
-    },
-    {
-      "name": "Alexandre Boulerice",
-      "url": "/politicians/alexandre-boulerice/",
-      "current_party": {
-        "short_name": {
-          "en": "Independent"
-        }
-      },
-      "current_riding": {
-        "province": "QC",
-        "name": {
-          "en": "Rosemont—La Petite-Patrie"
-        }
-      },
-      "image": "/media/polpics/alexandre-boulerice_9jDakW6.jpg",
-      "voice": "613-992-0423",
-      "email": "Alexandre.Boulerice@parl.gc.ca",
-      "twitter": "alexboulerice"
     },
     {
       "name": "Élisabeth Brière",
@@ -5302,6 +5283,25 @@
       "twitter": "GillMarilene"
     },
     {
+      "name": "Daniel Gobeil",
+      "url": "/politicians/daniel-gobeil/",
+      "current_party": {
+        "short_name": {
+          "en": "Liberal"
+        }
+      },
+      "current_riding": {
+        "province": "QC",
+        "name": {
+          "en": "Chicoutimi—Le Fjord"
+        }
+      },
+      "image": null,
+      "voice": null,
+      "email": "daniel.gobeil@parl.gc.ca",
+      "twitter": null
+    },
+    {
       "name": "Joël Godin",
       "url": "/politicians/joel-godin/",
       "current_party": {
@@ -5376,25 +5376,6 @@
       "voice": "613-943-6636",
       "email": "claude.guay@parl.gc.ca",
       "twitter": "ClaudeGuay"
-    },
-    {
-      "name": "Steven Guilbeault",
-      "url": "/politicians/steven-guilbeault/",
-      "current_party": {
-        "short_name": {
-          "en": "Liberal"
-        }
-      },
-      "current_riding": {
-        "province": "QC",
-        "name": {
-          "en": "Laurier—Sainte-Marie"
-        }
-      },
-      "image": "/media/polpics/steven-guilbeault_yC0mb6B.jpg",
-      "voice": "613-992-6779",
-      "email": "Steven.Guilbeault@parl.gc.ca",
-      "twitter": "s_guilbeault"
     },
     {
       "name": "Mandy Gull-Masty",
@@ -5737,25 +5718,6 @@
       "voice": "613-992-4351",
       "email": "Steven.MacKinnon@parl.gc.ca",
       "twitter": "stevenmackinnon"
-    },
-    {
-      "name": "Richard Martel",
-      "url": "/politicians/richard-martel/",
-      "current_party": {
-        "short_name": {
-          "en": "Conservative"
-        }
-      },
-      "current_riding": {
-        "province": "QC",
-        "name": {
-          "en": "Chicoutimi—Le Fjord"
-        }
-      },
-      "image": "/media/polpics/richard-martel_8dal60x.jpg",
-      "voice": "613-992-7207",
-      "email": "Richard.Martel@parl.gc.ca",
-      "twitter": "richardmartelpc"
     },
     {
       "name": "Marie-Gabrielle Ménard",
@@ -6421,25 +6383,6 @@
       "voice": "613-992-4573",
       "email": "fraser.tolmie@parl.gc.ca",
       "twitter": "FraserTolmie"
-    },
-    {
-      "name": "Cathay Wagantall",
-      "url": "/politicians/cathay-wagantall/",
-      "current_party": {
-        "short_name": {
-          "en": "Conservative"
-        }
-      },
-      "current_riding": {
-        "province": "SK",
-        "name": {
-          "en": "Yorkton—Melville"
-        }
-      },
-      "image": "/media/polpics/cathay-wagantall_XHl7h2v.jpg",
-      "voice": "613-992-4394",
-      "email": "cathay.wagantall@parl.gc.ca",
-      "twitter": "cathayw"
     },
     {
       "name": "Kevin Waugh",
