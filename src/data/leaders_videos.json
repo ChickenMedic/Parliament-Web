@@ -53,13 +53,6 @@
     "channel": "Global News"
    },
    {
-    "videoId": "wS3H35BN_-0",
-    "title": "Carney pays tribute on 25-year anniversary of 9/11 terrorist attacks",
-    "date": "2026-09-11T19:43:50+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/wS3H35BN_-0/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
     "videoId": "-qSKbb86olg",
     "title": "PM Mark Carney meets with national unity group ‘Forever Canadian’ – September 11, 2026",
     "date": "2026-09-11T19:22:26+00:00",
@@ -72,11 +65,25 @@
     "date": "2026-09-11T13:34:32+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/TGsjrnsvUDo/hqdefault.jpg",
     "channel": "CPAC"
+   },
+   {
+    "videoId": "TymiF7OqOw4",
+    "title": "Mark Carney and Volodymyr Zelenskyy deliver remarks following cabinet address – September 10, 2026",
+    "date": "2026-09-10T22:03:50+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/TymiF7OqOw4/hqdefault.jpg",
+    "channel": "CPAC"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "jboreDRiUKM",
+    "title": "Canada and America can win with tariff-free trade",
+    "date": "2026-09-12T22:28:53+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/jboreDRiUKM/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "2B7bDeF9cLI",
     "title": "Save 🇨🇦🇺🇸 workers money and jobs by trading freely.",
@@ -96,13 +103,6 @@
     "title": "À l'occasion du 25e anniversaire des attaques terroristes du 11 septembre, nous nous souvenons.",
     "date": "2026-09-11T09:25:16+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/BHUpNukG_fs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "AAzFQFn10gY",
-    "title": "🇨🇦🇺🇸 can both be richer, safer & more affordable with tariff-free trade.",
-    "date": "2026-09-10T22:59:11+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/AAzFQFn10gY/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
