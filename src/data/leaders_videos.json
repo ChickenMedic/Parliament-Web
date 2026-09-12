@@ -32,6 +32,20 @@
   ],
   "coverage": [
    {
+    "videoId": "hwOxHb3zNSo",
+    "title": "PM Carney’s cabinet meets in Banff as trade war intensifies",
+    "date": "2026-09-12T00:06:14+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/hwOxHb3zNSo/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "HglUSCkc1aQ",
+    "title": "Prime minister's investment summit 'breathtakingly audacious': former ambassador | Power & Politics",
+    "date": "2026-09-11T23:34:24+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/HglUSCkc1aQ/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
     "videoId": "3WbWCedctBc",
     "title": "“Maybe I should remind Donald”: Carney chats with Banff residents",
     "date": "2026-09-11T21:13:21+00:00",
@@ -57,20 +71,6 @@
     "title": "PM Mark Carney speaks on the 25th anniversary of 9/11 – September 11, 2026",
     "date": "2026-09-11T13:34:32+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/TGsjrnsvUDo/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "TymiF7OqOw4",
-    "title": "Mark Carney and Volodymyr Zelenskyy deliver remarks following cabinet address – September 10, 2026",
-    "date": "2026-09-10T22:03:50+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/TymiF7OqOw4/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "X4_fYFPI3YU",
-    "title": "PM Mark Carney on Canada-U.S. trade war, Alberta referendum – September 10, 2026",
-    "date": "2026-09-10T21:27:14+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/X4_fYFPI3YU/hqdefault.jpg",
     "channel": "CPAC"
    }
   ]
@@ -106,14 +106,6 @@
     "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "dQb4OvWqEDk",
-    "title": "Poilievre draws line on attacking PM on ‘foreign soil’",
-    "date": "2026-09-11T15:08:28+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/dQb4OvWqEDk/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "coverage": []
  }
 }
