@@ -9,30 +9,30 @@
     "bio": "Prime Minister since March 14, 2025 and MP for Nepean since the April 2025 general election. Before entering politics he served as Governor of the Bank of Canada (2008–2013) and Governor of the Bank of England (2013–2020), and as UN Special Envoy on Climate Action and Finance.",
     "ratings": [
       {
-        "pollster": "Abacus Data",
-        "value": "53%",
-        "metric": "Positive impression of the Prime Minister",
-        "detail": "28% negative — net +25, up from +20 in the previous wave; Carney is the only major federal leader with a net-positive impression",
-        "date": "Wave dated August 26, 2026 (published early September 2026)",
-        "url": "https://abacusdata.ca/canadians-give-the-carney-government-strong-overall-marks-but-its-approval-rests-heavily-on-the-canada-u-s-file/",
+        "pollster": "Angus Reid Institute",
+        "value": "62%",
+        "metric": "Approve of the Prime Minister's job performance",
+        "detail": "Up 11 points since August and approaching Carney's record high of 63% recorded earlier in 2026 after his Davos speech",
+        "date": "Published September 2026 (online tracking survey)",
+        "url": "https://angusreid.org/carney-trump-trade-counter-tariff/",
         "tone": "positive"
       },
       {
-        "pollster": "Nanos Research",
-        "value": "49.9%",
-        "metric": "Preferred Prime Minister",
-        "detail": "Four-week rolling average; Poilievre at 19.6% and NDP's Avi Lewis at 4.9%",
-        "date": "Published late August 2026",
-        "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
+        "pollster": "Pollara",
+        "value": "68%",
+        "metric": "Approve of Carney's handling of Canada-U.S. relations",
+        "detail": "Up 9 points from the previous measurement; approval is highest among Liberal (96%), NDP (67%) and Bloc (62%) voters and lowest among Conservatives (40%) — this measures the Canada-U.S. file, not overall job performance",
+        "date": "Reported September 9, 2026",
+        "url": "https://cultmtl.com/2026/09/approval-of-mark-carney-on-canada-u-s-relations-jumps-9-points/",
         "tone": "positive"
       },
       {
         "pollster": "Léger",
         "value": "57%",
         "metric": "Satisfied with the federal government",
-        "detail": "Up 3 points from June 1; 36% dissatisfied. Note: Léger's August 2026 release reports satisfaction down 3 points and Carney approval down 2 points since June, but no headline figure was confirmed in search results",
-        "date": "June 22, 2026",
-        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
+        "detail": "36% dissatisfied; satisfaction with the government and approval of Carney's performance have each risen three points since August, and the Liberals sit at 49% among decided voters",
+        "date": "Fielded early September 2026 (published mid-September 2026)",
+        "url": "https://leger360.com/federal-politics-liberals-regain-ground/",
         "tone": "positive"
       }
     ]
@@ -46,6 +46,15 @@
     "leaderSince": "September 10, 2022",
     "bio": "Leader of the Conservative Party since September 2022 and Leader of the Official Opposition. First elected to the House of Commons in 2004, he returned to Parliament as MP for Battle River—Crowfoot through an August 2025 by-election after two decades representing Carleton.",
     "ratings": [
+      {
+        "pollster": "Angus Reid Institute",
+        "value": "32%",
+        "metric": "Favourable opinion of Poilievre",
+        "detail": "60% view him unfavourably — a new low in ARI tracking, with roughly three-in-five holding a negative view throughout 2026",
+        "date": "Published September 10, 2026",
+        "url": "https://angusreid.org/liberal-trump-bump-poilievre/",
+        "tone": "negative"
+      },
       {
         "pollster": "Abacus Data",
         "value": "35%",
@@ -63,15 +72,6 @@
         "date": "Published late August 2026",
         "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
         "tone": "negative"
-      },
-      {
-        "pollster": "Léger",
-        "value": "37%",
-        "metric": "Favourable opinion",
-        "detail": "50% unfavourable",
-        "date": "Late June 2026",
-        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
-        "tone": "neutral"
       }
     ]
   }
