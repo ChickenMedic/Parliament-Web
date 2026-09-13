@@ -32,9 +32,16 @@
   ],
   "coverage": [
    {
+    "videoId": "QJTlB17CpZA",
+    "title": "PM Carney delivers remarks at Canada Investment Summit welcome reception – September 13, 2026",
+    "date": "2026-09-13T22:12:20+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/QJTlB17CpZA/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
     "videoId": "C_dzAA_zbOc",
-    "title": "Carney opens Canada's 1st-ever investment summit with welcome remarks | LIVE",
-    "date": "2026-09-13T18:20:04+00:00",
+    "title": "Carney talks \"remarkable\" opportunities as Canada's 1st-ever investment summit begins | FULL",
+    "date": "2026-09-13T22:08:15+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/C_dzAA_zbOc/hqdefault.jpg",
     "channel": "Global News"
    },
@@ -44,13 +51,6 @@
     "date": "2026-09-13T16:40:47+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/4eDX7dZO9j0/hqdefault.jpg",
     "channel": "CBC News"
-   },
-   {
-    "videoId": "PKDGUVyDCUk",
-    "title": "Carney to pitch Canada to global investors in Toronto",
-    "date": "2026-09-13T13:30:14+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/PKDGUVyDCUk/hqdefault.jpg",
-    "channel": "CTV News"
    },
    {
     "videoId": "-qSKbb86olg",
@@ -78,6 +78,13 @@
  "opposition": {
   "own": [
    {
+    "videoId": "sqZ8lPQDbW8",
+    "title": "Canadians will continue making our case for tariff-free trade by going to the great American people.",
+    "date": "2026-09-13T22:50:13+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/sqZ8lPQDbW8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
     "videoId": "7gayZFt5uaU",
     "title": "Let Canada's young people earn the hopeful future they deserve",
     "date": "2026-09-13T00:30:12+00:00",
@@ -96,13 +103,6 @@
     "title": "Save 🇨🇦🇺🇸 workers money and jobs by trading freely.",
     "date": "2026-09-11T14:04:04+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/2B7bDeF9cLI/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "OavVy6ls4Kc",
-    "title": "On the 25th anniversary of the September 11th terrorist attacks, we remember.",
-    "date": "2026-09-11T09:30:05+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/OavVy6ls4Kc/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
