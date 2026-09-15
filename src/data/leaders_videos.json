@@ -32,51 +32,65 @@
   ],
   "coverage": [
    {
-    "videoId": "QMIm9XQUxQg",
-    "title": "Danielle Smith at prime minister's investment summit in Toronto",
-    "date": "2026-09-14T23:34:53+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/QMIm9XQUxQg/hqdefault.jpg",
+    "videoId": "LMwXkMzP_CM",
+    "title": "PM Carney’s investment summit | Here are some of the concerns being raised",
+    "date": "2026-09-15T17:30:17+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/LMwXkMzP_CM/hqdefault.jpg",
     "channel": "CTV News"
    },
    {
-    "videoId": "LFtC2_7_U3k",
-    "title": "Investment Summit: PM Carney meets finance leaders – September 14, 2026",
-    "date": "2026-09-14T21:21:21+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/LFtC2_7_U3k/hqdefault.jpg",
+    "videoId": "npZZUphbORM",
+    "title": "“If it doesn't save money, why do it?”: Poilievre on Carney seeking private investments at airports",
+    "date": "2026-09-15T17:04:03+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/npZZUphbORM/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "fNpNfHbdzlU",
+    "title": "PM Carney discusses private investment plan for major airports – September 15, 2026",
+    "date": "2026-09-15T16:31:15+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/fNpNfHbdzlU/hqdefault.jpg",
     "channel": "CPAC"
    },
    {
-    "videoId": "xj_kFrwpdaw",
-    "title": "“We will protect what is ours”: Moe, Carney announce 1.2 gigawatt AI data centre expansion | FULL",
-    "date": "2026-09-14T20:37:24+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/xj_kFrwpdaw/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "4KfjuwD1yZw",
-    "title": "Carney shuts down rumours of Canada seeking EU membership",
-    "date": "2026-09-14T18:47:39+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/4KfjuwD1yZw/hqdefault.jpg",
+    "videoId": "RAQ9eJeangs",
+    "title": "'Canada has what the world wants': Carney",
+    "date": "2026-09-15T16:19:45+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/RAQ9eJeangs/hqdefault.jpg",
     "channel": "CBC News"
    },
    {
-    "videoId": "H1ohiI7tP90",
-    "title": "“We have what the world wants”: Carney to make pitch at Canada Investment Summit",
-    "date": "2026-09-14T18:30:34+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/H1ohiI7tP90/hqdefault.jpg",
-    "channel": "Global News"
+    "videoId": "7y1MneiwFyo",
+    "title": "Carney takes questions at investment summit",
+    "date": "2026-09-15T15:19:32+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/7y1MneiwFyo/hqdefault.jpg",
+    "channel": "CBC News"
    },
    {
-    "videoId": "2Y0RY-JcNgA",
-    "title": "Carney says Canada seeking 'unique alliance' with EU, not membership",
-    "date": "2026-09-14T16:37:43+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2Y0RY-JcNgA/hqdefault.jpg",
-    "channel": "CBC News"
+    "videoId": "_z5ET8uqsqM",
+    "title": "“He’s influential”: Carney backs Stephen Harper appearing at investment summit",
+    "date": "2026-09-15T15:19:14+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/_z5ET8uqsqM/hqdefault.jpg",
+    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "61oveXfSnpU",
+    "title": "LIVE from Vancouver: Conservatives fight to save you money",
+    "date": "2026-09-15T17:19:22+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/61oveXfSnpU/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "BQMmEtYO7zc",
+    "title": "C’est du n'importe quoi.",
+    "date": "2026-09-15T10:00:25+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/BQMmEtYO7zc/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "IWqeQ_zIi4c",
     "title": "Canada has the resources & talent to outcompete anyone and become the richest country on earth.",
@@ -90,22 +104,37 @@
     "date": "2026-09-14T11:27:20+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/Na5lWmrRFgg/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "sqZ8lPQDbW8",
-    "title": "Canadians will continue making our case for tariff-free trade by going to the great American people.",
-    "date": "2026-09-13T22:50:13+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/sqZ8lPQDbW8/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "7gayZFt5uaU",
-    "title": "Let Canada's young people earn the hopeful future they deserve",
-    "date": "2026-09-13T00:30:12+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/7gayZFt5uaU/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "MhKaQj3yDnM",
+    "title": "Conservative Leader Pierre Poilievre holds press conference",
+    "date": "2026-09-15T17:19:35+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/MhKaQj3yDnM/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "41_PFStb4iY",
+    "title": "Conservative Leader Pierre Poilievre Speaks with Reporters in Vancouver – September 15, 2026",
+    "date": "2026-09-15T17:05:44+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/41_PFStb4iY/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "npZZUphbORM",
+    "title": "“If it doesn't save money, why do it?”: Poilievre on Carney seeking private investments at airports",
+    "date": "2026-09-15T17:04:03+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/npZZUphbORM/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "79J4B29-5ZI",
+    "title": "Poilievre holds news conference in Vancouver",
+    "date": "2026-09-15T17:03:43+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/79J4B29-5ZI/hqdefault.jpg",
+    "channel": "CBC News"
+   }
+  ]
  }
 }
