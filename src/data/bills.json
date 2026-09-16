@@ -110,7 +110,7 @@
   "sponsorParty": "Liberal",
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Immigration, Refugees and Citizenship",
-  "sponsorRiding": "Halifax West",
+  "sponsorRiding": "Halifax West—Peggy's Cove",
   "latestActivity": "Royal assent",
   "latestActivityDate": "2025-11-20",
   "latestActivityChamber": "Senate",
@@ -2571,6 +2571,12 @@
     "source": "CityNews Winnipeg",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVnVVcXFPQldhM3VPVzRldjFfYmh6YXZkd2FpNFBFdmZTbWxqcFJBN0NtWWxTUy1rN285Y01oUkZ6Sy10enlEYTBEQ0ZLdFVxMjhtWW1TSmdyWkFLTmp6SXk4NjhZZjNLUmxPZXllanJLMS1qSGxvcWpHYmpaU2hQb191X0Z5UjNfVDNsREpiZElfSlJ3ZlVaQ1NaNjkwZTlaUW41WGk4YWFkUQ?oc=5",
     "date": "Tue, 28 Apr 2026 07:00:00 GMT"
+   },
+   {
+    "title": "Debate grows over Bill C-21 as AMC, MMF respond on treaty rights",
+    "source": "CityNews Winnipeg",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNE1rNlZDWE9NRGxwTGdjZG01UnF2R1dlQ1Z2cTNScHlNZWYzRlc1ZFhoMjdab2RtNTR0SUFVN1dmRkJvWmFFYVA5bHFvRGo5VjFGaUZZMXYzLTBqblRxcGtFQUtidVpPQV9vMjBGNGEwNVRSY19XMWRmS3R1VUJqNHI3S0pPTlVpR0VvcG9tU3NkQjNMeXRYZDVVUFlOa1dFMGlNZW53cWQ2UEdUSldN?oc=5",
+    "date": "Tue, 28 Apr 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-21",
@@ -2635,6 +2641,12 @@
   "votes": [],
   "media": [
    {
+    "title": "Digital Rights Groups Urge EU to Intervene as Canada’s Bill C-22 Threatens Encryption",
+    "source": "vpncompare.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGbmU4OEZXck01YmlHSEJwSUtVZkpJbDlpX253ZmE0T05DR0l0WXd5UnBLLVRNUUNSQkN6N3Y1OTZqUHo4M0pCZ3RweVhOaDNNS1hmbEctUkVMbDdCdFNfVmc4c20?oc=5",
+    "date": "Wed, 16 Sep 2026 10:37:27 GMT"
+   },
+   {
     "title": "EU urged to act on Canada’s Bill C‑22, the Lawful Access Act",
     "source": "Digital Watch Observatory",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XcWZldFYzZlh6STB6YmdTQVJTbTNxWk9Bdko1dTZvbl9YRjYzV0daeGFpc2lWT0tvdy1TeTRaNnBYVlhYZkNIYXFHSFp4REFZWVBXYmRlbm5GRkdMaHZvUlQtNW5KQUtoZmNtRGJRNA?oc=5",
@@ -2663,12 +2675,6 @@
     "source": "Winnipeg Sun",
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVUpGMVhYOGtRWjBlbkJaX3JQSE05cmdXaWlyaENGOXIwYUdQQnN2NW83SGNZYkFqc1lLaHRxb0tiRV9PdEZkbHZkbjZLWC04d3JLZi1xUVF3WUxuUnNoRDA0MmFhRnFEbjlGNEE4VXl2cHQybmFoZWVMdXZITkRQdkxvMWNWRlNMNVQycHF0QUcxWXFBaktJcEhkSkVBWVlza0s5MXJFTXZkLUt0SVY2OW1pY252eEZmZktScmM2NklEbzdaTWdhMGJPRUxVdElUSzRmMzNlaFFzN2ZadjRQNmF2Zw?oc=5",
     "date": "Wed, 19 Aug 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Canadian police chiefs: Bill C-22's good — but encryption's a sticking point",
-    "source": "Edmonton Journal",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkE3U1paTEdmOFBSU0VLMDdveWlSaE9mTGRaWHRadVBuTl9oR1c2LWxfTHkxVkg5cGpXU1RhZVJZYkF0cWN5ajgyUUdRNW9ZemxJbVNvWTRjeEY5WWtEdDdzMWtQVXN3azk4RU5vY0pFa3UyclJoMEktSFJvQ1pVNy1yUmRWSGpVaHBobzBraVV5SjlGM1RMS1FwdTJtM0JEd0pYd2ZDSDFCcGdBeFQ5V282bEVKdw?oc=5",
-    "date": "Tue, 18 Aug 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22",
@@ -6428,7 +6434,7 @@
   "sponsorParty": "Bloc",
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
-  "sponsorRiding": "Jonquière",
+  "sponsorRiding": "Jonquière—Hébertville—Pays-des-Bleuets",
   "latestActivity": "Bill defeated at second reading",
   "latestActivityDate": "2026-01-28",
   "latestActivityChamber": "House of Commons",
@@ -7165,7 +7171,7 @@
   "sponsorParty": "Conservative",
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
-  "sponsorRiding": "Terra Nova—The Peninsulas",
+  "sponsorRiding": "The Eastern Peninsulas",
   "latestActivity": "Bill defeated at second reading",
   "latestActivityDate": "2026-02-25",
   "latestActivityChamber": "House of Commons",
@@ -8713,7 +8719,7 @@
   "sponsorParty": "Conservative",
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
-  "sponsorRiding": "York Centre",
+  "sponsorRiding": "North York",
   "latestActivity": "Introduction and first reading",
   "latestActivityDate": "2025-11-17",
   "latestActivityChamber": "House of Commons",
@@ -8957,7 +8963,7 @@
   "sponsorParty": "Bloc",
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
-  "sponsorRiding": "Beauharnois—Salaberry—Soulanges—Huntingdon",
+  "sponsorRiding": "Vallée-du-Haut-Saint-Laurent",
   "latestActivity": "Debate at second reading",
   "latestActivityDate": "2026-06-03",
   "latestActivityChamber": "House of Commons",
@@ -10538,7 +10544,7 @@
   "sponsorParty": "Conservative",
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
-  "sponsorRiding": "Saskatoon—University",
+  "sponsorRiding": "Saskatoon East",
   "latestActivity": "Introduction and first reading",
   "latestActivityDate": "2026-06-16",
   "latestActivityChamber": "House of Commons",
