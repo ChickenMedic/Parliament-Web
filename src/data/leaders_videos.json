@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "Ccy_fKSzB_k",
+    "title": "Prime Minister Carney delivers an address to the European Parliament",
+    "date": "2026-09-17T20:22:42+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/Ccy_fKSzB_k/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "JfD9wtVnIjM",
     "title": "Prime Minister Carney delivers remarks at the 2026 Canada Investment Summit",
     "date": "2026-09-17T15:15:17+00:00",
@@ -21,16 +28,23 @@
     "date": "2026-09-14T14:31:56+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/HrogKdsdcT0/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "E2OqQ_8Ujtc",
-    "title": "Prime Minister Carney announces a new chapter in the Canada-Ukraine partnership",
-    "date": "2026-09-11T20:13:12+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/E2OqQ_8Ujtc/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
+   {
+    "videoId": "kih9HGoRv8M",
+    "title": "Carney outlines vision for a deeper Canada-EU partnership in European parliament",
+    "date": "2026-09-17T23:15:26+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/kih9HGoRv8M/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "Jx7oa_W7Q9Q",
+    "title": "'U.S.A., U.S.A.': German politician chants as Carney speaks to EU Parliament",
+    "date": "2026-09-17T22:40:03+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/Jx7oa_W7Q9Q/hqdefault.jpg",
+    "channel": "CBC News"
+   },
    {
     "videoId": "2pWXICW1HWc",
     "title": "Carney says he will sign no new deals with EU until Canada's Parliament can vote on them",
@@ -58,25 +72,18 @@
     "date": "2026-09-17T14:28:00+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/t-kzJawhfh4/hqdefault.jpg",
     "channel": "CBC News"
-   },
-   {
-    "videoId": "yRHUUxnLXJw",
-    "title": "Canada “welcomes ambition” of becoming 1st associate member of EU: Carney",
-    "date": "2026-09-17T13:37:31+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/yRHUUxnLXJw/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "EeZTqAZOD_E",
-    "title": "Ottawa to debate, vote on Canada-EU alliance structure: Carney",
-    "date": "2026-09-17T13:31:32+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/EeZTqAZOD_E/hqdefault.jpg",
-    "channel": "CBC News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "_6ph3zxNZA4",
+    "title": "Tell Canadians the truth.",
+    "date": "2026-09-17T19:51:15+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/_6ph3zxNZA4/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "8xhz1csSzIM",
     "title": "We will fight for them every single day.",
@@ -96,13 +103,6 @@
     "title": "LIVE from Penticton: Fighting For Canada—Fighting for You",
     "date": "2026-09-16T20:49:06+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/TUMb6lcilS4/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "qqe5TKvBpjg",
-    "title": "Les conservateurs vont vous faire économiser.",
-    "date": "2026-09-15T17:45:29+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/qqe5TKvBpjg/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
