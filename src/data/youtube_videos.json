@@ -1,5 +1,59 @@
 [
  {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "_czldCWDlQ4",
+  "title": "The Separatist Summer Road Trip",
+  "date": "2026-09-18T16:02:54+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/_czldCWDlQ4/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "AVvZRsfekzU",
+  "title": "N.S. Premier Tim Houston speaks with reporters in Halifax – September 18, 2026",
+  "date": "2026-09-18T14:33:25+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/AVvZRsfekzU/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "96tj5INuIRQ",
+  "title": "Is Canada Cutting the Number of Immigrants? | The Rundown",
+  "date": "2026-09-18T14:00:33+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/96tj5INuIRQ/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "etpPy341wbQ",
+  "title": "The #onpoli podcast September 18",
+  "date": "2026-09-18T13:05:06+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/etpPy341wbQ/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "RFfPQ7ZtKRc",
+  "title": "A pivotal summer for Ontario | #onpoli",
+  "date": "2026-09-18T13:00:31+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/RFfPQ7ZtKRc/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "bQd0pQ6oT70",
+  "title": "How Many Immigrants Should Canada Admit?",
+  "date": "2026-09-18T01:30:06+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/bQd0pQ6oT70/hqdefault.jpg"
+ },
+ {
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
@@ -81,42 +135,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/r1OQ6XTSjM8/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "6TCrt9egKJA",
-  "title": "PM Mark Carney and European Parliament President Roberta Metsola speak to media – September 17, 2026",
-  "date": "2026-09-17T10:53:55+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/6TCrt9egKJA/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "RPpltYWb5Mg",
-  "title": "Why are Canadians Torn Between Renewable Energy and Building Pipelines?",
-  "date": "2026-09-17T01:30:00+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/RPpltYWb5Mg/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "MQnKCocQA9o",
-  "title": "Is Climate Change Still a Top Concern for Canadians? | The Rundown",
-  "date": "2026-09-17T00:30:30+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/MQnKCocQA9o/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "bSjSD8VV_ok",
-  "title": "Jasper Dark Sky Festival Hits New Heights",
-  "date": "2026-09-16T21:52:41+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/bSjSD8VV_ok/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -124,24 +142,6 @@
   "title": "WATCH: ISIS terror controversy casts shadow over Milton school board race",
   "date": "2026-09-16T16:49:31+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/MYZqClAeZ6I/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "1W_Cy032i8o",
-  "title": "What's a good credit score?",
-  "date": "2026-09-16T14:34:24+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/1W_Cy032i8o/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "EJ0Uvn-20Qc",
-  "title": "Could Meta's $18 Billion Settlement Change Everything?",
-  "date": "2026-09-16T01:00:30+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/EJ0Uvn-20Qc/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
