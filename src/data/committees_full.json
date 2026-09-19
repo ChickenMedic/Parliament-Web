@@ -253,7 +253,6 @@
   "workUrl": "https://www.ourcommons.ca/committees/en/JUST/Work",
   "chairName": "Iqra Khalid",
   "viceChairs": [
-   "Larry Brock",
    "Rhéal Éloi Fortin"
   ],
   "members": [
@@ -269,7 +268,6 @@
   ],
   "parties": {
    "Iqra Khalid": "Liberal",
-   "Larry Brock": "Conservative",
    "Rhéal Éloi Fortin": "Bloc Québécois",
    "Roman Baber": "Conservative",
    "Doly Begum": "Liberal",
@@ -283,8 +281,8 @@
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 4,
-   "Bloc": 1
+   "Bloc": 1,
+   "Conservative": 3
   }
  },
  {
