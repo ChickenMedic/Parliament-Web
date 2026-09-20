@@ -32,9 +32,16 @@
   ],
   "coverage": [
    {
+    "videoId": "nyRzG-rD8uo",
+    "title": "PM Mark Carney and Norwegian PM Jonas Gahr Støre speak with reporters in Ottawa – September 20, 2026",
+    "date": "2026-09-20T22:55:41+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/nyRzG-rD8uo/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
     "videoId": "Typ9rxWvPEk",
-    "title": "Carney welcomes Norwegian Prime Minister Jonas Gahr Støre to Canada | LIVE",
-    "date": "2026-09-20T18:28:08+00:00",
+    "title": "Carney welcomes Norwegian Prime Minister Jonas Gahr Støre to Canada | FULL",
+    "date": "2026-09-20T22:52:21+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/Typ9rxWvPEk/hqdefault.jpg",
     "channel": "Global News"
    },
@@ -65,18 +72,18 @@
     "date": "2026-09-18T17:54:31+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/8xYePG7lOCE/hqdefault.jpg",
     "channel": "CPAC"
-   },
-   {
-    "videoId": "6TCrt9egKJA",
-    "title": "PM Mark Carney and European Parliament President Roberta Metsola speak to media – September 17, 2026",
-    "date": "2026-09-17T10:53:55+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/6TCrt9egKJA/hqdefault.jpg",
-    "channel": "CPAC"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "1AAmnyK88LU",
+    "title": "LIVE: Rally for Brantford to save you money, keep you safe & put Canada First",
+    "date": "2026-09-20T20:20:52+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/1AAmnyK88LU/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "Kd0NTYcCTQE",
     "title": "Your vegetables don’t start at the grocery store.",
@@ -96,13 +103,6 @@
     "title": "People in Penticton and the Okanagan are sticking together and bouncing back.",
     "date": "2026-09-19T13:43:46+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/uPvYYOWcgqs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "jd-mredGW_Q",
-    "title": "Treatment. Recovery. Real compassion.",
-    "date": "2026-09-18T15:52:47+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/jd-mredGW_Q/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
