@@ -27,13 +27,13 @@
         "tone": "positive"
       },
       {
-        "pollster": "Léger",
-        "value": "57%",
-        "metric": "Satisfied with the federal government",
-        "detail": "Up 3 points from June 1; 36% dissatisfied. Note: Léger's August 2026 release reports satisfaction down 3 points and Carney approval down 2 points since June, but no headline figure was confirmed in search results",
-        "date": "June 22, 2026",
-        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
-        "tone": "positive"
+        "pollster": "Angus Reid Institute",
+        "value": "55%",
+        "metric": "Approve of Carney's performance as Prime Minister",
+        "detail": "Third straight decline in ARI data since his February 2026 peak; Liberals 41% to Conservatives 36% on vote intention in the same wave",
+        "date": "Published July 16, 2026",
+        "url": "https://angusreid.org/federal-politics-canadians-cooling-on-carney-as-gap-narrows-between-liberals-and-cpc/",
+        "tone": "neutral"
       }
     ]
   },
@@ -46,6 +46,15 @@
     "leaderSince": "September 10, 2022",
     "bio": "Leader of the Conservative Party since September 2022 and Leader of the Official Opposition. First elected to the House of Commons in 2004, he returned to Parliament as MP for Battle River—Crowfoot through an August 2025 by-election after two decades representing Carleton.",
     "ratings": [
+      {
+        "pollster": "Angus Reid Institute",
+        "value": "32%",
+        "metric": "Favourable opinion of Poilievre",
+        "detail": "60% unfavourable — reported as an all-time low for Poilievre in ARI tracking, with Carney ahead of him by 58 points on net favourability",
+        "date": "Published September 2026",
+        "url": "https://cultmtl.com/2026/09/approval-rating-of-pierre-poilievre-favourability-unfavourability/",
+        "tone": "negative"
+      },
       {
         "pollster": "Abacus Data",
         "value": "35%",
@@ -63,15 +72,6 @@
         "date": "Published late August 2026",
         "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
         "tone": "negative"
-      },
-      {
-        "pollster": "Léger",
-        "value": "37%",
-        "metric": "Favourable opinion",
-        "detail": "50% unfavourable",
-        "date": "Late June 2026",
-        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
-        "tone": "neutral"
       }
     ]
   }
