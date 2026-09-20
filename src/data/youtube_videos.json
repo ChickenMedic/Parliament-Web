@@ -1,12 +1,30 @@
 [
  {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "Hrb6_LLSoBE",
+  "title": "Brampton’s illegal gun crisis is out of control",
+  "date": "2026-09-20T18:00:09+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/Hrb6_LLSoBE/hqdefault.jpg"
+ },
+ {
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "sjsH5C950a4",
+  "videoId": "whLy3aBX748",
+  "title": "Carney et Macron s’adressent aux journalistes à Saint-Pierre-et-Miquelon – 20 septembre 2026",
+  "date": "2026-09-20T17:37:45+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/whLy3aBX748/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "b-gW_kYDEaI",
   "title": "Cérémonie de dépôt de couronnes à Saint-Pierre-et-Miquelon, en France – 20 septembre 2026",
-  "date": "2026-09-20T12:55:39+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/sjsH5C950a4/hqdefault.jpg"
+  "date": "2026-09-20T17:07:35+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/b-gW_kYDEaI/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -43,15 +61,6 @@
   "title": "\"Why hitch our wagon to a failing experiment?\"",
   "date": "2026-09-19T14:30:07+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/rwh5hGFXuw4/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "aZJXRTA1Ycg",
-  "title": "Liberals on government priorities for the return of parliament – September 18, 2026",
-  "date": "2026-09-18T21:13:56+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/aZJXRTA1Ycg/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -151,15 +160,6 @@
   "title": "EXCLUSIVE: Poilievre sounds alarm on Carney’s EU alliance",
   "date": "2026-09-17T14:09:39+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/r1OQ6XTSjM8/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "MYZqClAeZ6I",
-  "title": "WATCH: ISIS terror controversy casts shadow over Milton school board race",
-  "date": "2026-09-16T16:49:31+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/MYZqClAeZ6I/hqdefault.jpg"
  },
  {
   "channel": "The Hub",

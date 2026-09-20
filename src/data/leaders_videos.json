@@ -32,17 +32,31 @@
   ],
   "coverage": [
    {
+    "videoId": "Typ9rxWvPEk",
+    "title": "Carney welcomes Norwegian Prime Minister Jonas Gahr Støre to Canada | LIVE",
+    "date": "2026-09-20T18:28:08+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/Typ9rxWvPEk/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "whLy3aBX748",
+    "title": "Carney et Macron s’adressent aux journalistes à Saint-Pierre-et-Miquelon – 20 septembre 2026",
+    "date": "2026-09-20T17:37:45+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/whLy3aBX748/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "hkUuDbmXX4A",
+    "title": "Carney calls return of Parliament 'crucial.' What's at stake?",
+    "date": "2026-09-20T16:43:14+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/hkUuDbmXX4A/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
     "videoId": "TcQJAp-mBz4",
     "title": "\"We haven’t done our homework\": Expert weighs in on Carney’s global agenda",
     "date": "2026-09-20T16:40:54+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/TcQJAp-mBz4/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "inQuw1tP3tc",
-    "title": "Carney, Macron deliver joint statement after symbolic meeting in Saint-Pierre-et-Miquelon | LIVE",
-    "date": "2026-09-20T13:09:38+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/inQuw1tP3tc/hqdefault.jpg",
     "channel": "Global News"
    },
    {
@@ -57,13 +71,6 @@
     "title": "PM Mark Carney and European Parliament President Roberta Metsola speak to media – September 17, 2026",
     "date": "2026-09-17T10:53:55+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/6TCrt9egKJA/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "T8lUxaXsDFk",
-    "title": "Prime Minister Mark Carney addresses European Parliament – September 17, 2026",
-    "date": "2026-09-17T10:14:06+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/T8lUxaXsDFk/hqdefault.jpg",
     "channel": "CPAC"
    }
   ]
@@ -99,14 +106,6 @@
     "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "82P00GWLgPI",
-    "title": "Pierre Poilievre speaks at Conservative caucus retreat in B.C. – September 16, 2026",
-    "date": "2026-09-16T20:38:22+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/82P00GWLgPI/hqdefault.jpg",
-    "channel": "CPAC"
-   }
-  ]
+  "coverage": []
  }
 }
