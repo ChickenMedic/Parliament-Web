@@ -41,8 +41,8 @@
       }
     ],
     "votes": 1245,
-    "latestDevelopments": "The file continues to move through the courts and internal administrative processes rather than through new audits. The most recent developments remain an April 2026 Federal Court ruling that went against two senior public servants connected to the procurement, and a June 2026 decision clearing another federal employee over an alleged improper deletion of ArriveCAN records. A contractor tied to the app was barred from federal contracts for seven years in June 2025 after the Auditor General found its contracts breached the rules. No charges have been reported in the latest coverage, and there has been no significant new reporting since mid-June 2026.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "latestDevelopments": "The file continues to move through the courts and internal administrative processes rather than through new audits, and no fresh developments have been reported over the summer. The most recent milestones remain an April 2026 Federal Court ruling that went against two senior public servants connected to the procurement, and a June 2026 decision clearing another federal employee over an alleged improper deletion of ArriveCAN records. A contractor tied to the app was barred from federal contracts for seven years in June 2025 after the Auditor General found its contracts breached the rules. No charges have been reported in the latest coverage, and the story has been quiet since mid-June 2026.",
+    "developmentsAsOf": "Sep 20, 2026"
   },
   {
     "id": "SCANDAL-02",
@@ -91,8 +91,8 @@
       }
     ],
     "votes": 982,
-    "latestDevelopments": "The file has shifted from inquiry hearings to implementation of recommendations. The foreign influence transparency registry came into force in early August 2026 after repeated delays, and the newly appointed commissioner has publicly cautioned that the office by itself will not prevent foreign interference. Related legislation to tighten federal election rules was advanced in March 2026. No new commission or hearings have been announced since the registry launched, though commentators continue to press for additional measures.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "latestDevelopments": "The file has shifted from inquiry hearings to implementation of the recommendations. The foreign influence transparency registry came into force in early August 2026 after repeated delays, and the newly appointed commissioner publicly cautioned that the office by itself will not prevent foreign interference. Related legislation to tighten federal election rules was advanced in March 2026. Since the registry launched, coverage has consisted mainly of commentary arguing that Bill C-70 and the registry do not go far enough, with no new hearings or government announcements reported.",
+    "developmentsAsOf": "Sep 20, 2026"
   },
   {
     "id": "SCANDAL-03",
@@ -132,7 +132,7 @@
     ],
     "votes": 530,
     "latestDevelopments": "The controversy has largely wound down into a post-audit implementation phase and has gone quiet in national coverage. Funding restarted in 2025 through the National Research Council's IRAP program, and May 2026 reporting described the relaunched greentech program as a much smaller successor to the former agency. No new audit findings, charges or committee proceedings have been reported since, and the last known state is that oversight remains with the National Research Council.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "developmentsAsOf": "Sep 20, 2026"
   },
   {
     "id": "SCANDAL-04",
@@ -173,8 +173,8 @@
       }
     ],
     "votes": 765,
-    "latestDevelopments": "The political controversy over MPs' endorsements is effectively settled, and recent coverage consists mainly of opinion columns rather than new developments. The underlying legal question was addressed by a January 2026 Federal Court of Appeal decision on the legality of the 2022 Emergencies Act invocation, which the Canadian Civil Liberties Association called a historic victory; further appeal remains possible. Polling in March 2026 showed public opinion still divided four years on, and no parliamentary process is currently under way.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "latestDevelopments": "The political controversy over MPs' endorsements is effectively settled, and recent coverage consists mainly of opinion columns and retrospectives rather than new developments. The underlying legal question was addressed by a January 2026 Federal Court of Appeal decision on the legality of the 2022 Emergencies Act invocation, which the Canadian Civil Liberties Association called a historic victory; a further appeal remains possible. Polling in March 2026 showed public opinion still divided four years on, and no parliamentary process is currently under way.",
+    "developmentsAsOf": "Sep 20, 2026"
   },
   {
     "id": "SCANDAL-05",
@@ -197,13 +197,17 @@
         "event": "Elections Canada reviews campaign expenditure audits."
       },
       {
+        "date": "Jul 2026",
+        "event": "Annual party financial returns filed with Elections Canada show the Conservative Party had about $85 million in revenue and a $14-million deficit for 2025, with election-year spending nearly double that of the Liberals."
+      },
+      {
         "date": "Ongoing",
         "event": "Ongoing debate and audit reconciliation processes."
       }
     ],
     "votes": 341,
-    "latestDevelopments": "There is no recent news specific to the leadership campaign expense audits, which appear to be handled administratively by Elections Canada, and the story has gone quiet. Coverage in July 2026 focused instead on the Conservative Party's routine annual financial returns, which showed roughly $85 million in revenue and a $14-million deficit for 2025, with election-year spending nearly double that of the Liberals. No regulator has announced findings of wrongdoing connected to the leadership races.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "latestDevelopments": "There is no recent news specific to the leadership campaign expense audits, which appear to be handled administratively by Elections Canada, and that thread of the story has gone quiet. The most recent related coverage, in July 2026, dealt with the Conservative Party's routine annual financial returns, which showed roughly $85 million in revenue and a $14-million deficit for 2025 and election-year spending nearly double that of the Liberals. No regulator has announced findings of wrongdoing connected to the leadership races.",
+    "developmentsAsOf": "Sep 20, 2026"
   },
   {
     "id": "SCANDAL-06",
@@ -231,8 +235,8 @@
       }
     ],
     "votes": 412,
-    "latestDevelopments": "This dispute is dormant. The agreement ended in September 2024 and the dental and pharmacare programs created under it remain in place. Recent headlines touching the topic are limited to commentary and unverified reports about the former NDP leader's post-politics prospects, rather than any new process or inquiry. The political argument over the arrangement has faded from national coverage.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "latestDevelopments": "This dispute is dormant. The agreement ended in September 2024 and the dental and pharmacare programs created under it remain in place. Recent headlines touching the topic are limited to commentary and an unverified report that the former NDP leader was being considered for a federal appointment, rather than any new process or inquiry. The political argument over the arrangement has faded from national coverage.",
+    "developmentsAsOf": "Sep 20, 2026"
   },
   {
     "id": "SCANDAL-07",
@@ -259,8 +263,8 @@
       }
     ],
     "votes": 289,
-    "latestDevelopments": "The confrontation over Bill C-319 has gone quiet, with no recent headlines about Bloc ultimatums or confidence votes tied to seniors' benefits. Coverage through August and early September 2026 is limited to routine reporting on Old Age Security and CPP payment dates and indexed amounts, with maximum monthly OAS payments cited at up to roughly $827 depending on age bracket, alongside stories about seniors' cost-of-living pressures. The last known state is that the Bloc's demanded across-the-board increase for seniors aged 65 to 74 was not enacted.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "latestDevelopments": "The confrontation over Bill C-319 has gone quiet, with no recent headlines about Bloc ultimatums or confidence votes tied to seniors' benefits. Coverage through August and September 2026 is limited to routine reporting on Old Age Security and CPP payment dates and indexed amounts, with maximum monthly OAS payments cited at up to roughly $827 depending on age bracket, plus commentary debating whether any party should expand OAS. The last known state is that the Bloc's demanded across-the-board increase for seniors aged 65 to 74 was not enacted.",
+    "developmentsAsOf": "Sep 20, 2026"
   },
   {
     "id": "SCANDAL-08",
@@ -288,15 +292,23 @@
       },
       {
         "date": "Apr 2026",
-        "event": "Conservatives allege Minister Champagne is avoiding a committee study of the Alto rail connection."
+        "event": "Conservatives allege Minister Champagne is avoiding a committee study of the Alto rail connection; Conservative MP Michael Barrett calls for an ethics probe of the finance minister over the project."
+      },
+      {
+        "date": "Jun 2026",
+        "event": "Transport minister signals a 'strong preference' for a Kingston stop on the high-speed rail line as some observers raise concerns."
       },
       {
         "date": "Jul 2026",
         "event": "Liberal members shut down debate at the House ethics committee on a proposed study into an alleged condominium 'bailout' linked to the Prime Minister."
+      },
+      {
+        "date": "Jul 2026",
+        "event": "Ontario signals it is reconsidering its support for the high-speed rail project; the federal transport minister says the project is moving ahead."
       }
     ],
     "votes": 0,
-    "latestDevelopments": "The matter remains before the House ethics committee rather than any court or police investigation, and no finding of wrongdoing has been made. Conservatives called in April 2026 for a probe of the minister's link to the Alto rail project and accused him of avoiding committee appearances, while the Prime Minister defended him; in July 2026 Liberal members shut down committee debate on a separate proposed study into an alleged condominium 'bailout' involving the Prime Minister. Recent Alto coverage has centred on route and station decisions, including a possible Kingston stop and local opposition, rather than on the ethics allegations.",
-    "developmentsAsOf": "Sep 06, 2026"
+    "latestDevelopments": "The ethics questions remain before the House ethics committee rather than any court or police investigation, and no finding of wrongdoing has been made. Conservatives called in April 2026 for a probe of the minister's link to the Alto rail project and accused him of avoiding committee appearances, while the Prime Minister defended him; in July 2026 Liberal members shut down committee debate on a separate proposed study into an alleged condominium 'bailout' involving the Prime Minister. Since then, coverage has centred on the project itself — a possible Kingston stop, Ontario reconsidering its support, and the federal government insisting the line will proceed — rather than on the conflict-of-interest allegations, which have gone quiet.",
+    "developmentsAsOf": "Sep 20, 2026"
   }
 ]
