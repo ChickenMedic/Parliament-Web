@@ -720,14 +720,6 @@
   "appointedDate": "2025"
  },
  {
-  "name": "Richard Martel",
-  "group": "Non-affiliated",
-  "color": "#808080",
-  "province": "QC (Rougemont)",
-  "appointedBy": "Mark Carney",
-  "appointedDate": "2026"
- },
- {
   "name": "Rodney Ouellette",
   "group": "Non-affiliated",
   "color": "#808080",
@@ -736,18 +728,26 @@
   "appointedDate": "2026"
  },
  {
-  "name": "Thomas Pitfield",
-  "group": "Non-affiliated",
-  "color": "#808080",
-  "province": "QC",
-  "appointedBy": "Mark Carney",
-  "appointedDate": "2026"
- },
- {
   "name": "Geeta Tucker",
   "group": "Non-affiliated",
   "color": "#808080",
   "province": "MB",
+  "appointedBy": "Mark Carney",
+  "appointedDate": "2026"
+ },
+ {
+  "name": "Richard Martel",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "QC (Rougemont)",
+  "appointedBy": "Mark Carney",
+  "appointedDate": "2026"
+ },
+ {
+  "name": "Thomas Pitfield",
+  "group": "Non-affiliated",
+  "color": "#808080",
+  "province": "QC (De la Durantaye)",
   "appointedBy": "Mark Carney",
   "appointedDate": "2026"
  },

@@ -832,7 +832,7 @@
         }
       },
       "image": null,
-      "voice": null,
+      "voice": "613-995-1225",
       "email": "braeden.caley@parl.gc.ca",
       "twitter": null
     },
@@ -2598,7 +2598,7 @@
           "en": "Scarborough Southwest"
         }
       },
-      "image": null,
+      "image": "/media/polpics/doly-begum.jpg",
       "voice": "613-995-0284",
       "email": "doly.begum@parl.gc.ca",
       "twitter": "DolyBegum"
@@ -3871,7 +3871,7 @@
           "en": "University—Rosedale"
         }
       },
-      "image": null,
+      "image": "/media/polpics/danielle-martin.jpg",
       "voice": "613-992-5234",
       "email": "danielle.martin@parl.gc.ca",
       "twitter": "docdanielle"
@@ -4327,8 +4327,8 @@
           "en": "Beaches—East York"
         }
       },
-      "image": null,
-      "voice": null,
+      "image": "/media/polpics/tanveer-shahnawaz.jpg",
+      "voice": "613-992-2115",
       "email": "tanveer.shahnawaz@parl.gc.ca",
       "twitter": null
     },
@@ -5296,7 +5296,7 @@
           "en": "Chicoutimi—Le Fjord"
         }
       },
-      "image": null,
+      "image": "/media/polpics/daniel-gobeil.jpg",
       "voice": null,
       "email": "daniel.gobeil@parl.gc.ca",
       "twitter": null
