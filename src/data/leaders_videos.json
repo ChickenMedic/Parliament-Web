@@ -37,76 +37,40 @@
     "date": "2026-09-21T23:36:49+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/CnGvJeSOOss/hqdefault.jpg",
     "channel": "CBC News"
-   },
-   {
-    "videoId": "wkTmSC-vFeM",
-    "title": "Carney, Poilievre face off about affordability crisis as Question Period returns | FULL",
-    "date": "2026-09-21T19:19:38+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/wkTmSC-vFeM/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "IuvaMLidMPk",
-    "title": "Carney, Poilievre square off in 1st question period of fall sitting | Sep. 21, 2026",
-    "date": "2026-09-21T19:16:02+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/IuvaMLidMPk/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "iuSaxHk6bBs",
-    "title": "Carney shares support for the Jewish community, following Ontario synagogue shooting on Yom Kippur",
-    "date": "2026-09-21T18:58:59+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/iuSaxHk6bBs/hqdefault.jpg",
-    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
    {
-    "videoId": "XF8jOZyAN_c",
-    "title": "Jewish families must be able to worship and live free from terror",
-    "date": "2026-09-21T20:46:27+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/XF8jOZyAN_c/hqdefault.jpg",
+    "videoId": "8sGoFgTUbbI",
+    "title": "Criticizing the costly decisions of a greedy government is an act of patriotism.",
+    "date": "2026-09-22T17:17:52+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/8sGoFgTUbbI/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    },
    {
-    "videoId": "4cgg6HzWWz0",
-    "title": "Canada and its people are worth fighting for.",
-    "date": "2026-09-21T17:38:15+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/4cgg6HzWWz0/hqdefault.jpg",
+    "videoId": "OTURFPVIC58",
+    "title": "Take all taxes off gas so all Canadians can save money and afford food.",
+    "date": "2026-09-22T16:12:01+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/OTURFPVIC58/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    },
    {
-    "videoId": "Z_9qY_QmbVg",
-    "title": "Fighting for you. Fighting for Canada.",
-    "date": "2026-09-21T13:43:37+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/Z_9qY_QmbVg/hqdefault.jpg",
+    "videoId": "NiZa0-8NLjQ",
+    "title": "The Carney Liberals are costing you more.",
+    "date": "2026-09-22T00:08:00+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/NiZa0-8NLjQ/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    },
    {
-    "videoId": "1AAmnyK88LU",
-    "title": "LIVE: Rally for Brantford to save you money, keep you safe & put Canada First",
-    "date": "2026-09-20T20:20:52+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/1AAmnyK88LU/hqdefault.jpg",
+    "videoId": "u0sIKZzzBEU",
+    "title": "Les libéraux de Mark Carney vous coûtent plus cher.",
+    "date": "2026-09-22T00:07:46+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/u0sIKZzzBEU/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "wkTmSC-vFeM",
-    "title": "Carney, Poilievre face off about affordability crisis as Question Period returns | FULL",
-    "date": "2026-09-21T19:19:38+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/wkTmSC-vFeM/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "IuvaMLidMPk",
-    "title": "Carney, Poilievre square off in 1st question period of fall sitting | Sep. 21, 2026",
-    "date": "2026-09-21T19:16:02+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/IuvaMLidMPk/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "coverage": []
  }
 }
