@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "dhG4cgIoQEA",
+    "title": "Prime Minister Carney delivers remarks on the Canada-Norway partnership",
+    "date": "2026-09-21T20:00:54+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/dhG4cgIoQEA/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "1tmJR32palw",
     "title": "Prime Minister Carney’s address to the European Parliament",
     "date": "2026-09-18T19:00:08+00:00",
@@ -21,62 +28,48 @@
     "date": "2026-09-17T15:15:17+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/JfD9wtVnIjM/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "q551suJ_dEI",
-    "title": "Canada Investment Summit 2026",
-    "date": "2026-09-16T15:11:56+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/q551suJ_dEI/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "xxp8Rf_HTXw",
-    "title": "What exactly is Mark Carney pitching with the EU? | The House",
-    "date": "2026-09-21T16:10:15+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/xxp8Rf_HTXw/hqdefault.jpg",
+    "videoId": "CnGvJeSOOss",
+    "title": "Threat of Russian invasion is 'real,' says Norway's prime minister | Power & Politics",
+    "date": "2026-09-21T23:36:49+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/CnGvJeSOOss/hqdefault.jpg",
     "channel": "CBC News"
    },
    {
     "videoId": "wkTmSC-vFeM",
-    "title": "Carney, Poilievre face off in Parliament as Question Period returns | LIVE",
-    "date": "2026-09-21T14:24:54+00:00",
+    "title": "Carney, Poilievre face off about affordability crisis as Question Period returns | FULL",
+    "date": "2026-09-21T19:19:38+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/wkTmSC-vFeM/hqdefault.jpg",
     "channel": "Global News"
    },
    {
-    "videoId": "pluIHhrlCXA",
-    "title": "Global National: Sept. 20, 2026 | Carney, Macron reassert sovereignty with historic visit",
-    "date": "2026-09-21T02:00:06+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/pluIHhrlCXA/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "nyRzG-rD8uo",
-    "title": "Prime Minister Mark Carney and Norwegian Prime Minister Jonas Gahr Støre speak with reporters",
-    "date": "2026-09-20T22:55:41+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/nyRzG-rD8uo/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "whLy3aBX748",
-    "title": "Carney et Macron : resserrement des liens entre le Canada et la France – 20 septembre 2026",
-    "date": "2026-09-20T17:37:45+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/whLy3aBX748/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
     "videoId": "IuvaMLidMPk",
     "title": "Carney, Poilievre square off in 1st question period of fall sitting | Sep. 21, 2026",
-    "date": "2026-09-18T18:08:22+00:00",
+    "date": "2026-09-21T19:16:02+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/IuvaMLidMPk/hqdefault.jpg",
     "channel": "CBC News"
+   },
+   {
+    "videoId": "iuSaxHk6bBs",
+    "title": "Carney shares support for the Jewish community, following Ontario synagogue shooting on Yom Kippur",
+    "date": "2026-09-21T18:58:59+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/iuSaxHk6bBs/hqdefault.jpg",
+    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "XF8jOZyAN_c",
+    "title": "Jewish families must be able to worship and live free from terror",
+    "date": "2026-09-21T20:46:27+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/XF8jOZyAN_c/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "4cgg6HzWWz0",
     "title": "Canada and its people are worth fighting for.",
@@ -97,27 +90,20 @@
     "date": "2026-09-20T20:20:52+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/1AAmnyK88LU/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "Kd0NTYcCTQE",
-    "title": "Your vegetables don’t start at the grocery store.",
-    "date": "2026-09-19T22:56:43+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/Kd0NTYcCTQE/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
    {
     "videoId": "wkTmSC-vFeM",
-    "title": "Carney, Poilievre face off in Parliament as Question Period returns | LIVE",
-    "date": "2026-09-21T14:24:54+00:00",
+    "title": "Carney, Poilievre face off about affordability crisis as Question Period returns | FULL",
+    "date": "2026-09-21T19:19:38+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/wkTmSC-vFeM/hqdefault.jpg",
     "channel": "Global News"
    },
    {
     "videoId": "IuvaMLidMPk",
     "title": "Carney, Poilievre square off in 1st question period of fall sitting | Sep. 21, 2026",
-    "date": "2026-09-18T18:08:22+00:00",
+    "date": "2026-09-21T19:16:02+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/IuvaMLidMPk/hqdefault.jpg",
     "channel": "CBC News"
    }

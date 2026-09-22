@@ -1,28 +1,202 @@
 {
  "federal": [
   {
-   "title": "House of Commons is back as Liberals vow ‘significant’ legislation coming",
-   "source": "Global News",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KUkdrSVhwMTlkNG8yZUJTbEFCUk45cXJCdGVVWGpJYXh3VWMzN1BVcWdZQlhLT0tFWlVUbEFXZ18ybnFZS2FPdVdiNmxIZmxFRUt2ckdRMjVQWVFHV0FDNVpIQ09hWGlON3pGWXZfWkNmQTd1Y1E0amxkakNVSnM?oc=5",
-   "date": "Mon, 21 Sep 2026 18:21:09 GMT"
+   "title": "Unions hammer Carney government’s revamp of labour rules: ‘This bill neuters the right to strike’",
+   "source": "Toronto Star",
+   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQnFWTnFNTlB5N0xmcGx2eldzcVdGckJ1T2VIN0I4NXhTYm9xWXl3Ry1vS1Ixc0h5aUdGNk13VGtFaVRVSkdTWm15bkwtaGZfMzNIWDVVeUh1NmNWZEd0RnJ4eXJpcGQ5M1pOZC02Sy12WDNuTG9ONVBCY3NnczVMNzZSRXdNS1E4SkFNcFMtbWdUcWdNbzVaUnpPaXVlcG9vZkhGR1lWdHBsNUVTa2k5SmlwODhDTkZKZUozSnZtQVJ0b2RzNE53WFBSa3RTcGxYV0J2QkgxRUJUOGlnYXlkMDBnZnB5MHY4SWw2eG1WWTB5YkJEa0R5STQ4M1FoalRuX3NPdnNuNG4?oc=5",
+   "date": "Mon, 21 Sep 2026 23:50:06 GMT"
   },
   {
-   "title": "Suspect, police officer wounded in shooting outside Belleville, Ont., synagogue ID'd",
+   "title": "Liberals table omnibus bill with sweeping changes to major project reviews and labour laws",
+   "source": "National Post",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzJVbUhpZHAwWkVPZGNZSWZCcGNrRjRLVmREeEdCUXo4c1NSXzhRYW53a3p4UUZzXzZqd3cxS1B1QXpMX2dtX2YwQ1ZzMDNKNGp1T1Z1RVkwY2ZDbEtyWFo5VmpTTExMeFZYR1c1cFpHUXJRS0VOMzdFQTJFQVhycG1mWkJTM2J0eWg2aQ?oc=5",
+   "date": "Mon, 21 Sep 2026 23:15:00 GMT"
+  },
+  {
+   "title": "Parliament returns with some new MPs, more vacant seats and a major economic bill",
+   "source": "CTV News",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ2hOOXhmVXlCTFMwb09PTHdfOTBsdldzUnhFbktSeGg5WDUxb0RtYm9nWDhYX0NFM2lkVlZnMmdscUtjTWtLUkFsbU5xQmRyUm53eEpwY21OZUYxc2JPdVliN1V1NkNTbE83ZExnazdfekFJMF9tZDNaVDJ1aHgxS1I1clQ2R0VrOFQ5V0NKRk1JQ1ByNjhuWjJPT0tKcGhKTkRvVk41QkpsT2k5cENHeDdnQUhWQmhKQkR6NWh2aVBpcEE?oc=5",
+   "date": "Mon, 21 Sep 2026 23:07:43 GMT"
+  },
+  {
+   "title": "Carney’s campaign",
+   "source": "The Hill Times",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5MQUR5aXhiRW1FaVNNd3NMZURQTm10bUliSFA4bG9ZUC12Snp4M2xUZmtBY0dpYVZVYVJrRkl2R2RTckQ3MlJyMmF5VnNicklPaXYzVU9qM0d5MjVFOVJmRVNEMXp0YTIyQXphOUdn?oc=5",
+   "date": "Mon, 21 Sep 2026 23:04:40 GMT"
+  },
+  {
+   "title": "Mark Carney is making an eloquent case for an alliance sidelining the US | Ted Widmer",
+   "source": "The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcG5BNGNyNEdJSG1uTWZmell4Vzg3WV9JUFl0cWVGZ2F0eW5FX2t3REhrQlBOLWZobERKbmJMNG9uVW54TW81SFdjRVBTUlFMa3hhU3Q4d2E5U3NFbXk0N1drZGlvSUgwdjhPY3FJbEtuVkUtRmFvbWtCMWxFX3VVMmszSVJNVnY3TTkzU3RLekR0Z2E4SmpocFJB?oc=5",
+   "date": "Mon, 21 Sep 2026 22:51:00 GMT"
+  },
+  {
+   "title": "New, AI-ready mine drill core library will 'unlock' Canada's resource potential, says federal government",
+   "source": "Yellowknifer",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVERTLVkteElUTGJzT0RRaWtvSnZaSl95UlBkeDBGNDNEZEtQYWZ1dFNzdm5SOVhrWmVWbzNnUHhGLUJKMmZHcVN0R25yZ1ZYQlc4X0NkYjk1SmxMZGtXN1BNRlZBY2VYNmY3ajJ4VnA5QVdxWTAyZlNqRG15UU9Od3dlQkxHR2hKR0I4amQzLXh1LWtXVjJCWDZhWmx2aEg0M1JpbldueWZzU1lseDNDcXlrb2JkbE5rWXV1TlhOZHBial9oSDk5MTZEbkc1Y3Fib2c?oc=5",
+   "date": "Mon, 21 Sep 2026 22:50:12 GMT"
+  },
+  {
+   "title": "A consequential fall begins with familiar concerns and a new test for the Carney government",
    "source": "CBC",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSlhEOE43aHhvRnNyT19PbU5rTkxsXzlDVURIQUgzRUpuZ1BfTW10OXNZWjhzRzB4T2N5TjVadlRUaHItalZaMGZpN0VLWWpTNzRfdVZDMDdCLUVQQTlUZDRDOVNaWVk0VEJOU283NHVtdHVCRFA5RXJsenV2OHVJRVFLUEpxZ2Z4?oc=5",
-   "date": "Mon, 21 Sep 2026 18:16:19 GMT"
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBubV9rSzdNT1pEWXp4UlVyWi04OGVjR09BVVhuLV9rMGlRZlFFTzdCQ28taXI4Tl9YMkVhb2h0UUpaZ3VLc2w3N1RKb0JFbTB0SjRVbVJwRWlZbXU0ZVNHRzk1WV9OV0p3X2t2ZU91ZXhFbkJua2t3eFBaRGMzQQ?oc=5",
+   "date": "Mon, 21 Sep 2026 22:49:01 GMT"
+  },
+  {
+   "title": "Government tables Building Canada Strong Act after rowdy 1st question period of fall sitting",
+   "source": "ici.radio-canada.ca",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPV0F3elhkOGV4UVQ2cXFwX05HbzNlREdQV2wxUldXWDZic1c1aUQ5WklSaWdhNHU1U1dCdlhKWVUtZHBEbV9KdE1RQTdkbjRSU0dVclhsdFlMUVh0bXFtVEF3cHVmTGVjRmNhazRVNWxGTml2VU5NWXVvblhDOW9QdVJJOUp2RlZjZThTQXNJY1N4VlZwNUdIUkJndE1vekJMQ1BGUW1VcWFCNWFIM1F4bXl6SG5kZ2MwRTZQX0hHQ1ZoLXdWeXgyX0d4YmNTMTFqeXZ6cWlFSQ?oc=5",
+   "date": "Mon, 21 Sep 2026 22:27:08 GMT"
+  },
+  {
+   "title": "Five things to know about the Liberals’ new Building Canada Strong Act",
+   "source": "NanaimoNewsNOW",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXBFeXE2WjIxOExIUTJzd1VkUkxxMjJkOGR0cndwaGZSX1lLbG5ad1RlU1l5enZyckZrUGdUYm5zN3hfdFZYZ3ZiYURIUU1UaWdSV3JlRHh4S2RwWUtycnM0c3NlLS0tYU41RFZXQmpKWE8tbFZ2YklQdUdrTEl5M3ZwSjM4SEstbzdEME14TjYwb3plQk56N1JYcHFGelh1Q2FINU5icVhmU0dh?oc=5",
+   "date": "Mon, 21 Sep 2026 22:21:49 GMT"
+  },
+  {
+   "title": "Carney says he won't backtrack on digital services tax, streamers' CanCon payments",
+   "source": "CTV News",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa3gyY3l3cnJlSEtwRU1RZXdQcTlKR0FvZVJ1dElXSEljOTEyZk80NmNkbEtZaXl5cS12X0NBdy1BcGllUUJhLVVLdFlzdWN5MnhaNzJUUXlOTkhPMnE1b2RVVWlJSDVNUHUxaDZsOW9Ja2J1QVNOaTBpYUtzV1k0Y200c1FsbEgtcDB5Yzk1YURJa1JXblE2WWNScy1PS1NJQ21pWHpTZ0g2alo0Qmp0blB5cjdYVVViNTBFbA?oc=5",
+   "date": "Mon, 21 Sep 2026 22:18:55 GMT"
+  },
+  {
+   "title": "Carney tables changes to Canada Labour Code",
+   "source": "CTV News",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjQtdHlqUWZJRDRXQmZyRDdQZGNPQTlvVjlXOXg1LTF2VXNnTWRpV1B0RlNfSXphZVVNc3JmcWJJRjBNWU5Wek9fd0t0Qjc3bUE4YzlRWktWZ0hfck9Ra0NYSFByR2MtZDVZeWNHbW5IOUNxU1ZOdk9xR2xXaXhGQmNfRDNQUnU4a1JpLXNDOWlRM1VPZWc?oc=5",
+   "date": "Mon, 21 Sep 2026 22:11:51 GMT"
+  },
+  {
+   "title": "Canada leans into ‘Carney-nomics’ at the prime minister’s investment summit",
+   "source": "The Hub | More Signal. Less Noise.",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS2pKWUFEQU96ZUt5cEMyYVBLWjZsNDA4SDBvdkxjRG9hNW9yQ2gtYnhmMlNRSThqSE9PU2wzd01fQUYwVlpRdTV6Zzg1enprdUdXWVJHWnlYWkJzTEVsVmYtLUxaOFVSM0RyRVBLTUlNSC0wQU1YTkppaTk5bmhtR2N6cjRJVVRCeWpzRGplSEp1MkFMMlVjWVlCV0NBdzZ4dHhTdA?oc=5",
+   "date": "Mon, 21 Sep 2026 22:11:40 GMT"
+  },
+  {
+   "title": "Carney government dealt an early blow in climate litigation",
+   "source": "CBC",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOanF5Z1NxT21Xc3F5YjZzbVRpOFM5dFRSY2h3SkZyRVBpX3ZGTXl1LTVrclNudlpUbTZZb2tHUnFjN2xlN25NaFc4ZlFWdTBFTkxkQVB4UHpiaTZBSW9XeTVwUE9SR0xHaldzcW1fbkVTMno1bVEydkNJNXdhbDBpR3BnRjJMZw?oc=5",
+   "date": "Mon, 21 Sep 2026 22:09:05 GMT"
+  },
+  {
+   "title": "…and we’re back",
+   "source": "iPolitics",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhcVdlRmhlY25aVkY4VHNwdllIU0ItSW94OUJCWVhhd19kSHhBUXhjT0hpNGh3MTJXVWx1bGJPWTRzM0o5MXFmaXJ4VE8zTXJzX0FzWXo1NlhqUnVZam9J?oc=5",
+   "date": "Mon, 21 Sep 2026 21:36:14 GMT"
+  },
+  {
+   "title": "‘Brain gain’ or a ‘remote possibility’? MPs weigh in on Canada’s future with the European Union",
+   "source": "The Hill Times",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOREpzQ044OU1PdHVOZVFUbjVYc3RKSmVkTGxaR0p6RFNDa0xBUWw5T0dOLVVqdC1aVFU4TnhJdENhVjJuR1Q5N3dsaTJvVndWWTRUYXpyOUY5bTljN0xKU2p6UWJKZ3hFWGpXbWxyQkxIM2pGay1ZSWR3dnBHN2NKNGZjWmVRSHM2UkpRRU5lOEdmZkVRMHExX1dkMk5iWWtZdTQzaVBMeHRGVURiTXVBSjBzOU9NRHFiMnpvZ25kTkFsTmc5Wk9uRUU4elVsN3M?oc=5",
+   "date": "Mon, 21 Sep 2026 21:19:29 GMT"
+  },
+  {
+   "title": "Carney is forging new partnerships. A trade agreement remains unsigned since April",
+   "source": "iPolitics",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYmRmTS1MNmhVR0JIVkVscTduMUR4WTloQkk2b0lmbktiLTcyVmhLUzdPeXFNeVZveTB6TzBFaThPWnotaVVPcVBKT0RkOWYyZTNGN2lhVDhSTU9YLVREM1RBQzBjSXZOUzY3cDJjbWdoZTJubVFnbEFqTGNxVWhHcmdjNUlpVUtwQkN1QTl0RzdGMUh6WVFyNHBVQ0FtbzdUb1N6VHp2dGZoclB1Z0VmVjdkZ1JiRGVsUlE?oc=5",
+   "date": "Mon, 21 Sep 2026 21:11:11 GMT"
+  },
+  {
+   "title": "Federal government introduces legislation to transform how Canada builds",
+   "source": "Indo-Canadian Voice",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWnFMTGNHWW5lcjZ0WE10OWQxT0RBTFJvM3dodUJweDBOOFdCcXQ0aGVLTS1XMjMySlp3V3pGcktUSU93TFRQSl9idk1lOEZ2V0lxVFlHSXoyaDNiVzAtOF9QNklnOW1uUFdpOGNlYXBuVDAzQWw5bTdFdjBEb0UyeDI1UDBOeVlfZVFSbDFhQVdtZFE3a014R09CTGh3QQ?oc=5",
+   "date": "Mon, 21 Sep 2026 21:08:29 GMT"
+  },
+  {
+   "title": "Fact-checking Carney’s $93-billion foreign investment claim",
+   "source": "The Hub | More Signal. Less Noise.",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQWo2aFg3bFlteTlDR3A0NE4teTdvT2JRb3dZaklCMXRkN1l2XzF3dXFrYkdlLXU0VVFIQ1Z0MmFwVGNjekpPV2IwcTYxTkdhY1lqWWRMN1NJUG9SQVF4N0pGcDJmdF9OQzVZTGdGRnNCY2VEc2M3U29YYXh5U3VId1dkQzE2S0U0WURVb09adXU?oc=5",
+   "date": "Mon, 21 Sep 2026 21:03:53 GMT"
+  },
+  {
+   "title": "Ottawa proposes Canada Labour Code overhauls",
+   "source": "hcamag.com",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTUtDVDNiVU1uNUljMTZoN0Y1cGp0ZWhzaDFRdHNHMjFsbVRrVXJiR2hWc3ZfY2FCUldSUDR1SlNpSWxJbWF1TUJTY0hLdXBkcnFQRlE3blJBektwX25RemJLV2lTdmljWGJyQWFZN3l5R0NJdmxNY3Vfc0Q5c0pBVEY0cmd4c2NHTTZUNWRzNFpGR0dX?oc=5",
+   "date": "Mon, 21 Sep 2026 20:58:24 GMT"
+  },
+  {
+   "title": "Carney set to miss United Nations event due to delays at U.S. airports",
+   "source": "bnnbloomberg.ca",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY0tCMl9xWEM4V1d0ZkMtZjVpbl9uazlPVnJPZnJoWWZYUWlHZjlQUk5tUktZaW1ZSk5BZnJXdWZDZ1JnM0EzY2lFQlZJbVY3X2ZEMlpGUzZVOWpERVlyaXFFYWFGTEZTakgzVVVSTzlvNmptZEd5QTBoQWMxWnRqZDdwTnV1MXNTNXVfY0VuMzBSR29WbXMtd1Q3ZkJlQ3FHeVhFRGxYS0RZRko2NlFNTzE4MkhqbTJ3RTFvU0d2WTRMX3Z1?oc=5",
+   "date": "Mon, 21 Sep 2026 20:47:03 GMT"
+  },
+  {
+   "title": "QuickQuotes: MPs react to Carney’s new Building Canada Strong Act",
+   "source": "winnipegfreepress.com",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV0dDZFNNOTg4cExIQl9jVGwxVlFEU1BnenRnRjN0dnNUOUIxVE56eTJ6Y2ZBZzR3WEtpbk5iSjFLQVdsc1ZsSm5FbUZrVmhVVXdMZDVRVm9LQzZranU0dk1hLUIzejdfeXd5a2J1cWlKN2djRGEyMHF0NGl6WEFtc0N2NGZ3M01QN2hFWkcwVXF1aEoyX3lFYWl3RzBLY0d6X1BtN3VPWm5uNkpKdW4zRjRHRjI0NkRj?oc=5",
+   "date": "Mon, 21 Sep 2026 20:28:04 GMT"
+  },
+  {
+   "title": "MPs react to Carney’s new Building Canada Strong Act",
+   "source": "Toronto Star",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUUVuZ09MaDlIWGRxbEI4LU95Rm8zVW9QenRGZUNMUVN4aXZMeGFGRWI3T3E5ZC1SeHN0WjRLQXJjRXpGMnpVWkNtYWI3TERkWldmb1N6MzB3YkdLR1N5YmpTMjFHRmF2dzgtQnQ1cWdsODdhV0NtcGVKMjV5eTJJWlhBLTJob09wZnl1NnhtQXFyT1pZcDRQSXhPZkgzT2c3MURsTnZsMFgtUEFQWTZzQW5nU09kc2pEa1J3X0pQZ2FfbTgzeWYta0JlQ2k0Rk1VUlMwV3M4RU9vSmJRNnVhdXlWcUJLdVhLM2gw?oc=5",
+   "date": "Mon, 21 Sep 2026 20:28:00 GMT"
+  },
+  {
+   "title": "Liberals introduce bill to amend Canada Labour Code",
+   "source": "CP24",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRF9RUDhkRlIxMkhETC1DLXFrd1FDcEhKajRQQUlLM21UNzhnSGRGUXVDOXhBQVl2OExFeWdPUl9zVUh6UlNFbjczQlE2UDczbG5YMUZram1uazgzTVd5N3RZMko4bDVYY2tKTDdEZUFXa2I4NXZhaXYya2tuNnVaYmZLUzMwS0Y1ajBLM3VGU2tFem1wcTVMaUw4dFk?oc=5",
+   "date": "Mon, 21 Sep 2026 20:19:57 GMT"
+  },
+  {
+   "title": "Carney says he won’t backtrack on digital services tax, streamers’ CanCon payments",
+   "source": "Toronto Star",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPRDItclRfRmFpcGZfVzA5QktrWmRNMTNkVGpSV0NJbk9GRUhjYkFSQWgyazgyYTJ5WGk1N21WbGVkWHRMWFRNZ1FYOXFhWTFIenlhZWpNdmphR01lT0Q4YXRwUmFZR1ZXQkl6WjNSQjlvUlZWc0gzUGhQQklMdloxdnY2cEZHam02UlJNWUE2NEYwendwQ2FZWmh2Z1VwTzRXRVJ3U0NKemtJQnNvS3RMcnNrLTRnLWRRVXNmTHIzcGFveHJQWURRQmwtQnlGanVTdkhjRzd1QUlLRnVtT21Zd1U2TFgtVmEzTjM4bDAzY0QzTkY2SnM3SU5KV0gtN2xh?oc=5",
+   "date": "Mon, 21 Sep 2026 20:19:00 GMT"
+  },
+  {
+   "title": "Mark Carney is using the threat of Trump to remake Canada in ways that should alarm us",
+   "source": "Rabble.ca",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQk5tcEpJR3hBa1JWU1RnWmp4RHJjeDYwMGQyMjRJaUtiYnJOMFAxUzRBaDZfZW0tNzZKWEI5aGN5STBHYXNUa2FNdXh5RWVISm53WjRGUElaSEpwUEdUb3VqY1hjY2pzR1R5bjYzRnNKc1JFZnZleXRZdHUzSTRNZ010U0hFVEp4c3ZwakZQMXRidGNZUU9JV2NhcUZhWVgtNmZyUGJOaDc5M2xxVFJfUzY4R05Kbms?oc=5",
+   "date": "Mon, 21 Sep 2026 20:05:40 GMT"
+  },
+  {
+   "title": "Carney briefing EU MPs before Canadian MPs on strengthening ties 'unacceptable': Scheer",
+   "source": "CBC",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hTHoxQUpfRy1IR2dTT25taVNSdGZKTm9EQzc4c1hYRVl4ck52T0hVeUdJTHZfR2VBSXNJUHZrT3lQQmVUSk9ISC1tMXdSV2s1S2xvWXFNV0JKQQ?oc=5",
+   "date": "Mon, 21 Sep 2026 19:31:12 GMT"
+  },
+  {
+   "title": "If we’re serious about building Canada Strong, we need to fix OAS",
+   "source": "iPolitics",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRVdzRkZuZHN6MnFKTExBdTRTc1lGOVNtTnpjR2NOY1Q4WFB6ZkNYa1Z5ZEU5QWZjODNUTm85TjNTZXBVbU9XUWpMYi1LaEg2VWo4TW1kb3NoN3o1OFBQLW5GS0FYejQxTHhxQnhyWUdIb0dxMndJUnR3dDQycS1pNEhIYnFzMDZRVklwY3p2LTZ3VnhfX2tRY3lUWVpGVlUyWnc?oc=5",
+   "date": "Mon, 21 Sep 2026 19:31:09 GMT"
+  },
+  {
+   "title": "Government set to introduce economy bill as critics warn of threat to workers’ rights",
+   "source": "CityNews Winnipeg",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb24wNDRucEFLWE8xejk3ejRnRkZQRkVVQmdIMEJtVFY0OHlVcmI5b3doS3ZzWFVwejRKRlpqR19KcFhWa3ZUeUpCMVM5bk1RbUZKakJoREtzbmpRNjAxeGF2N3ZYTTZRWHFWTFBMV3BJMUlZZVJCcEVXQjZoZmFyVkJyQVNGWmEwWmpvSkRLVWhNQnlFQlE?oc=5",
+   "date": "Mon, 21 Sep 2026 19:26:35 GMT"
+  },
+  {
+   "title": "LILLEY: Pierre Poilievre's Brantford gamble risks dividing Tories",
+   "source": "Yahoo News Canada",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONExFUkk1ckhtcmdRelA4bVBmQy1YNHRYblpyZDI3OHJiSkM2UjY1bjFsMEkxeG1IdHo5MGwtQ3g2QS1vd3RKTTlITFo0ZnU4ekRlV0lYNnVJNTlwU01NeUdVYkhIX2dhUGp4SGk5N3VWbWxUdEFkRXVfNU82MjNibWZObTdOeHhYNmc?oc=5",
+   "date": "Mon, 21 Sep 2026 19:01:11 GMT"
+  },
+  {
+   "title": "’Deeper ties’ with allies like Norway make Canada stronger, Carney says",
+   "source": "ici.radio-canada.ca",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ3hmc1FkMWZhUXpqMUVUT3BGR1dlMjJUWWx3RXZtdmpIUnUxUEVOT2YzVm9iYzhuWk9KTnk0OXE5aXEzUVVvSXR5V1ZCOFk4VVU4MGppVVhLOV9mMEtVT2xmeWM2Y1J0YXY5ank4cFNESU5EZ3QzUTZielRxT0U0NWwwOHZfeWpaNzRQTjUyV1p6bl9QMlREVC1tVFBjSDBUbWE2YWltU2t5aTlMQnZHZ1dUMFQ5MXc?oc=5",
+   "date": "Mon, 21 Sep 2026 18:56:22 GMT"
+  },
+  {
+   "title": "Parliament returns from summer break with major economic bill",
+   "source": "The Globe and Mail",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3R4Q1FxQ0NIeXF5QTBwR0FCMV9ZNkRwMVR2TlFuQUlKOW1zMEx2VXl0ZjRYNU5veHMyMUpVRkdUcFBSZ29mSll4dDFHeUY1VTZRdDBQek9rOUZocnhycHBJOFlqVnNENXJfNXpZalFvSU1JREJtMFEwWmdmV2otd04wUUFqVElQTXJXaXh1bTlHQ1hlTGdheXNLY3VvQQ?oc=5",
+   "date": "Mon, 21 Sep 2026 18:32:16 GMT"
   },
   {
    "title": "Canada and the U.K. consider merging financial initiatives to rearm against Russia",
    "source": "CBC",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0JHVWs5VnJXY3dkSkt6RnZyQVFuWHZVNnVjMG9BYlNFc2dpeVliMl9XaXdybXpxR3FIVWNlMWNOSXJyYUdYNG1ENERVVnFYRTRKQ0FNZU1mYlpwbWd4cDFSb0tNV3ZTNDd2ZlNER3VvVkM1WC1GRnVxWGh1amFvbDQxSFZZTzczVHdjQW1ZMEFYVE5nT3JvNFpKbGZkSUpQNE5LYW1B?oc=5",
-   "date": "Mon, 21 Sep 2026 18:13:47 GMT"
+   "date": "Mon, 21 Sep 2026 18:29:24 GMT"
   },
   {
-   "title": "Carney set to make the case for multilateralism at United Nations event",
-   "source": "CTV News",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZDFka1FhelQtdFpGR1p4UVplRGFnZV9XR3p3MGxZajhfbkozZm1ycXJMSXlPbjZ0TGpTOUVZRUlDWEViOS1XNFRSUUxvUWFBVUtDV1ZZTWVSSzVGa21Fc2c5QzNjMzFPR1NjOXVLcUpYVVIzSFVIWGNZM25nV3FxRXZlTEJ6dXFHLUMwekdsZGF0TVh2MUJSYlNfRHRFTDBzN3pITjFYRTZZakNydzNxdTVn?oc=5",
-   "date": "Mon, 21 Sep 2026 17:56:35 GMT"
+   "title": "Can Canada and the EU reconcile ‘Buy Canadian’ with ‘Made in Europe’?",
+   "source": "Policy Magazine",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdXRVSVRIaFBMeE1TbVdfSzYydk1ZQjhjeS1WdE1JQmhjQXROLTNlbTVjMzVBUkJFcU1adjI3SXJURmJua3pNaUpyWXpFNEV6RDlNV0VoV0ZfZERJRXNvRUxjLU9Ia3BNb1BEM19ic1hfMmxGQVphNGVncF82QWQ3VHZzMnoyQVpoU1pWX3BXX1hOVkVhYlFjSWpDaw?oc=5",
+   "date": "Mon, 21 Sep 2026 18:21:51 GMT"
   },
   {
    "title": "What would being an 'associate member' of the EU mean for the Canadian economy and businesses?",
@@ -31,58 +205,28 @@
    "date": "Mon, 21 Sep 2026 17:42:27 GMT"
   },
   {
-   "title": "Carney government dealt an early blow in climate litigation",
-   "source": "CBC",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOanF5Z1NxT21Xc3F5YjZzbVRpOFM5dFRSY2h3SkZyRVBpX3ZGTXl1LTVrclNudlpUbTZZb2tHUnFjN2xlN25NaFc4ZlFWdTBFTkxkQVB4UHpiaTZBSW9XeTVwUE9SR0xHaldzcW1fbkVTMno1bVEydkNJNXdhbDBpR3BnRjJMZw?oc=5",
-   "date": "Mon, 21 Sep 2026 17:37:18 GMT"
-  },
-  {
-   "title": "Liberals expected to shake up labour code with new economic bill",
-   "source": "CP24",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVjVJVW5vMUVISUF1YUkxNVlucUk2cGdDQTJQNlAzaExvR2hSR1VKYWJtbmZCRTFxQzR6RG02aFo5Ni0zaXVUWW1MY0IyOWNpc1JkdHhuRTlPTXN0bmpsTURqM04yNm9aa1dkbzExQ2xIWDBHeXV6VzR0WlQxaW9SRVFyejRlQXpLQjQ4RFVocGJVbmFNcnpMZ3FlNmQ5aGlCR3dYV2VJSUc5TS1DSVE?oc=5",
-   "date": "Mon, 21 Sep 2026 17:30:54 GMT"
-  },
-  {
-   "title": "Please Advise! How Much Profit Can be Squeezed from Canada’s Airports?",
-   "source": "The Tyee",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeDdXSFlMSW5SQmJRbTFSR0UtSVRlRFlLR1A4b0JiZVJvemZvYWJFNGNVeVktOEo3MlJiaVRNeGQ4M0xnUUNkQmR2Ty1NVHotNUpyTHFiQ09GdW1ZY3pfcmoxVUZ0MWE4THRpek9aTUZublpzV0poUnliUWcwSUFDUXpFVHpGZTFDQmFIVnV0N25IeVZua3hQNzd4Y0pUYUFvMXJfQw?oc=5",
-   "date": "Mon, 21 Sep 2026 17:24:38 GMT"
-  },
-  {
-   "title": "Unions bracing as Liberals to table major economic and labour bill",
-   "source": "National Post",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzJVbUhpZHAwWkVPZGNZSWZCcGNrRjRLVmREeEdCUXo4c1NSXzhRYW53a3p4UUZzXzZqd3cxS1B1QXpMX2dtX2YwQ1ZzMDNKNGp1T1Z1RVkwY2ZDbEtyWFo5VmpTTExMeFZYR1c1cFpHUXJRS0VOMzdFQTJFQVhycG1mWkJTM2J0eWg2aQ?oc=5",
-   "date": "Mon, 21 Sep 2026 17:21:07 GMT"
-  },
-  {
-   "title": "PM Mark Carney spoke with Prince William on Monday: PMO",
-   "source": "CTV News",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOFZJYVotV3NNV250MG9fSkktdW9QbkhfM2lRcUlOUXZXR09NOXN2Q2dWYTRTamxoaEI4a2tlS2FHNmNGa0o4MmppXy1SOFRjalFqZkJ2N3BpOWJLZWhfdk13Ni1LX3RSWVhYdHNmMGdYRFNUOXRsTk5Lc2RsbnlSQ0lpal9PbjFNbmlEenJ3Zm9LTnhBaHZhNlMxNA?oc=5",
-   "date": "Mon, 21 Sep 2026 17:12:40 GMT"
-  },
-  {
    "title": "Prince William spoke to Carney and shared his 'long-standing affection for Canada'",
    "source": "CBC",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9yUThxV2N2RmhQQXJoR0tyQm56bU1wN3cwR3d3bEM5TU9Cek83a1M4M0c0ZlZ0Z2g3bkstWVpnUlZSeklYeWx6MU0wVl90YjdidDE0TjhkN05yN0dhamNUbndTN094elBRVVNGM05GanE4bEZ0blhwWQ?oc=5",
    "date": "Mon, 21 Sep 2026 17:05:03 GMT"
   },
   {
-   "title": "Stéphane Dion: Mark Carney’s strategic moves could last well beyond Donald Trump. He should seize the opportunity to remake our place in the world",
-   "source": "Toronto Star",
-   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNTms2ZGpVeF9CSzB3WjM3SGo1R05LTkNZTFU4d1YtSzQ4d2lkTEs3S0h2M2hXLVFJQlVORkFOQ3g4dVBRZnJxdm5jTllJd1QwV3JRaWJRSEJRS2J2aVVIZnVFZHhtTkpDajZxSVVEVElNNEk0N1hXOC12bzF3QUd4TjZaYzBXSDJfRFM1OUYwakxQdkJSSHo1b3V3cUVoSXF0ekRZRGk1VkZMazFlZmlJaHJramFZTXVweFZHd0xxRzJfWjk5M0ItdERpZ004eWdOcUhwbHRjSmxDYWlnWldrOUpTOXdNem9leVpBLVJ4bWJZRzZMOGVXcm1KUjlpc01fa28ya2hNQUtmWWNabENuVzhieVpKMjk4dGsw?oc=5",
-   "date": "Mon, 21 Sep 2026 16:37:04 GMT"
+   "title": "Court rejects Carney government’s bid to dismiss climate lawsuit",
+   "source": "iPolitics",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRWRadkkwSHNCM09sU3k0OURfRlJCZ29RUllRWXh5dEZONVoxUkI2TTZ2aVNGekc1M0tmc2dFRVRnWEFUQlBsY2ozeFowX2tEV3ZQQi1ZMkdrUzR6MWh2VFBpVmFhdE5DY1hIUmo4Qzd5dEJOSWh4M05SemdqUzJqdkQ5S1ZGVnc?oc=5",
+   "date": "Mon, 21 Sep 2026 17:02:56 GMT"
   },
   {
-   "title": "Mark Carney is making an eloquent case for an alliance sidelining the US | Ted Widmer",
-   "source": "The Guardian",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcG5BNGNyNEdJSG1uTWZmell4Vzg3WV9JUFl0cWVGZ2F0eW5FX2t3REhrQlBOLWZobERKbmJMNG9uVW54TW81SFdjRVBTUlFMa3hhU3Q4d2E5U3NFbXk0N1drZGlvSUgwdjhPY3FJbEtuVkUtRmFvbWtCMWxFX3VVMmszSVJNVnY3TTkzU3RLekR0Z2E4SmpocFJB?oc=5",
-   "date": "Mon, 21 Sep 2026 16:01:00 GMT"
+   "title": "Carney set to make the case for multilateralism at United Nations event",
+   "source": "650 CKOM",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVGFfOEw3ODc1U1QzOGg3ZkFVWFhiZUFIYk1JNmdXdlV5Zm83UTVyTnpGMVJIVVJjUGFXLTN2YllaS0x0YTR0dUtuZDhBSzdqYzVLVER4TjJtbmswQjNmU1NPVE9fbmthOEEwc25NQTJydHNWaENack9Peng2ZDB0eE9ORWdDQXpJU0N3Y3dmZVJuLVBUc05ITkZRYmtSWUVGRVp5Q0dESQ?oc=5",
+   "date": "Mon, 21 Sep 2026 16:44:00 GMT"
   },
   {
-   "title": "Opinion: Quebec’s stake in the Canadian economy shifts with Carney’s economic pivot",
-   "source": "Montreal Gazette",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLTlQTm9rUndaODRRZnRpSWxnMmp3aGx5OGthQUpEOVVSWlNBblhoTHJyZ0thRGkwY2xfc0ZaenFkNklCM3FjTzVGbUc1M0xzWWZxY0YtaWtLSmFzUzlJaTFKWjB5d0cwSHJMTUpPUGJoZ0V0VFhPVTBzV0RoRkp0QmJoZmFiSVl6eGpJdklpZ0QxMDlHc0stSVdCdmkyZFVjTHRxQTJUUzRkRGtPSmRNc2N6amxhTDgyaTEw?oc=5",
-   "date": "Mon, 21 Sep 2026 15:51:58 GMT"
+   "title": "Carney addresses threats from Russia",
+   "source": "Yahoo News Canada",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxQVFSQUZWWllHYmdONkYwVjFhSEZxVnFlYWMzbGU2ZFRPeFJpN3BGNEgyeHo4TmtjSGRZbW95ejdZQVF5ZktmNDVQQkNpY3c5cGdmT1FtYnloVjFMa2VnQ2U2ZUZDTzlxcy1UbkhiYXhiYW9QNTZQU0tvNmE?oc=5",
+   "date": "Mon, 21 Sep 2026 16:03:58 GMT"
   },
   {
    "title": "Canada is seeking new global neighbours – no wonder, as Trump rolls out stupidities at scale | David Moscrop",
@@ -95,157 +239,25 @@
    "source": "AP News",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObExGbzF2UEZnNWlUR25FSk9GUGFxY3RJR19MRHZzNENUUkhLc21yVmpPT3VWVVR5eFg0UkxVRGJSMTFhWUFLZkc4MEhFdE1TTkxPOE1SRVZnd29ReXFNWHJTblRTZU1ZZzZ4dkJtZzZnQjF2NjBLR21iYTFsa0syeDdPMWMybVdoRHBfZFlmZU9Wek5nM2w2X2wtTkRrd2pfTnNTanFXRQ?oc=5",
    "date": "Mon, 21 Sep 2026 15:33:00 GMT"
-  },
-  {
-   "title": "Parliament has returned—but that’s not the most important thing happening in Ottawa right now",
-   "source": "thehub.ca",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM1RyQklvSVhOVHBMNjc2VExSRXN4anAtLW1FYXZ2QWRia1pBaUI4emY3SjlWUnRSMlREeG14TUswZlJOYUZ4WFRMSk5oWW5Gb2ZEdU04VXdRYlU0YW5NdzEzVzQ5bFNBUHAtT0J5Z1VFQThGRWlJeFcwZXRqcE54dnp6M3dadzF1NExXRUFwVW5vaEJOR0RaLVJmbTE4aFJGUndLekdZZ1Y0d3F1LTM4cVNCOHNnZDJUa3FiM2NJSQ?oc=5",
-   "date": "Mon, 21 Sep 2026 15:01:44 GMT"
-  },
-  {
-   "title": "France and Canada deepen economic and defense ties",
-   "source": "France 24",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0d1dEtTX0R2MDBReTV4UDFLTV8yaVVtU2IwOEJlcC03Wjh4aGNnRXNjTl9mZG16bGlURHQwcVdsY1VTa2hPR1M0bFM2REg4Wk9fT1lGbWV0TnA3VkNJQmt2YjdsaWxJYzM0YjZkX0xoUTh2MDFJT0stUFpObF94a1lSOFQ?oc=5",
-   "date": "Mon, 21 Sep 2026 14:52:43 GMT"
-  },
-  {
-   "title": "On a Dot of France Off Canada, Carney and Macron Talk Partnership",
-   "source": "The New York Times",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHk1c0VIVXdsMHVxVFZvbm5YOXgwb2pkRU15ZUlwb0d0VmRKR2Y0OHJrU1VlOFdkT3I4MVh1bHh4SjhSNWtONVZBc0thLWFjT3Rfa2xVYzZBQVZZckpQSzRFdTNUbFAtSGhfQmFTcFlmZE9MRUNEcXd4bkh5TkoyclhIcTVHbW1IZHFFR0FYY0F4elU2RXctTlBFaFQ0X3M?oc=5",
-   "date": "Mon, 21 Sep 2026 14:47:00 GMT"
-  },
-  {
-   "title": "'Deeper ties' with allies like Norway make Canada stronger, Carney says",
-   "source": "CBC",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42bDdWZzlDamRvcWY3WHVER01ybTJvN0tMb1VKeDJfN09NNzBSRlQ1RS1kcEJLaHlxSV9Cd2ZxUXFBcE9MWWRfVkpTTHBoYm44RHM1V0ktYlhNUQ?oc=5",
-   "date": "Mon, 21 Sep 2026 14:17:57 GMT"
-  },
-  {
-   "title": "Government set to introduce economy bill as critics warn of threat to workers’ rights",
-   "source": "BNN Bloomberg",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHVDeDZwNGpFTnNGSVM3cGZadFN5Y3FnSmxqdVNNUk9IOEhtQ0diR19rTC1Pb0ZZdzM2d1A4YnBPbzZ3c3RRUGVWWUg2RWJwbGRfV0k1bkwxOEF0UDc3Y1pNdUZhbjc2Vy1panJIWVdTS0c2SWxOdUF6U2VsVW51aFMyM1p6LUNxYjJPcUdqVHZoWjBLakZmaFpyMk1IZXV5c2xiSTNiX1lpc25F?oc=5",
-   "date": "Mon, 21 Sep 2026 14:16:56 GMT"
-  },
-  {
-   "title": "Parliament back in session for what Carney calls a “crucial session\"",
-   "source": "Yahoo News Canada",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeXB1cDdzR0lYQTF6V2dVdXRBNFoxNEdhN3ZZRjdJVVpLV0VrRk5ueW80Q0Npam41bmlmTXpvVTJyMjBXQlR6bEJjMkdjdnE1dE16bWZOMUxKODM4V0VmT3ZNNTh4aXRaNGt2dVc0TVhJMHFIWnl6UzYyLWgyWDFfdEFjWQ?oc=5",
-   "date": "Mon, 21 Sep 2026 14:15:42 GMT"
-  },
-  {
-   "title": "Canada's labour code top of feds' agenda as MPs return to Parliament",
-   "source": "CityNews Kitchener",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORTFVM04tOENpRVZJQ25QS0I1elo4U25OenkwVVg4WWdFYkN1NkdKNzNIWlZzUEFET0RmejI3bWVTdmFMVmpHV0Q1S1RRT1FqSV9ibDN5akc1WEhTWkVLTG4tVmtka0lDSVp2YU9SZGtHZEk3YVFPc2NWLWR4TEY0cndDdTZSajNwSzE0LVV5TjBybXR6MHZqcE5IUGpiOWFtX3BMTWVjR2U4aFF0SFdjTjJIUkc?oc=5",
-   "date": "Mon, 21 Sep 2026 14:13:28 GMT"
-  },
-  {
-   "title": "Canada, France agree to closer ties in defense, economy",
-   "source": "dw.com",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSmJpNER6VjVGMDdCazlMMnFtdVNLdHYwNjVleTJqN1VudFAyUUlUc2R1V1A4bzd2T2FoeDFyVERKZEJPUlF4ejhneGY2aC1NbW9OeTZHTjVDTGhpcXRqeTVoQ2h6U0dCdFpMQ01KakhRNmhXcWljOUQ5SVFoMUYzS3NjcHY1MlNHUFp3ODBmWdIBjwFBVV95cUxPRkpUU0JzMjRHZTNWdkxZd1BrZGRkdXN2TU02UGFYWXZsX01NbkNOdnlTdHBkZFhwYXYyWnZhWlB3MElUT0hGcFViY0dteU9ISnUxcE1mclc0eVJoUmVnTFF2TTRCT21qRnBybVl1R0tNYktyWWtKWkdHYW4zZTdoeTJlT1loemxQMG5PRGwtaw?oc=5",
-   "date": "Mon, 21 Sep 2026 13:35:50 GMT"
-  },
-  {
-   "title": "Canada Is Not Banning Teenagers from Social Media — It’s Trying Something New",
-   "source": "Tech Policy Press",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS3JtbnFzMHpyN3k5Q2V2QjF6dDlsc1Juc3VKb2dFMEtkSENRRVB5SDd0Q3I3MDRqbmFXbDFwMkMtaWhVNFVjNXVMVEdOOEp2VDBYbUJZcmhETjRaNmRyeTNiZ1R2b2lqdmxjVEFOa2dROUJIUVQtb091NVVCaDVEVGtLeDdEUUVycDZEb1FhV0M5aFY3N0pfRHgxOVlTZE1QaGowTGVvYw?oc=5",
-   "date": "Mon, 21 Sep 2026 13:15:28 GMT"
-  },
-  {
-   "title": "Airport privatization and $500B in deals: Canada’s Investment Summit comes to a close",
-   "source": "SNNewsWatch.com",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbEhTSHdLVHZjLWJER2wyazBXTFN4UXVLUGZ6NWFINm9GMlpWTmNudjVKbldVZ1BmajhZRERISGhnR0hxVlItRkptYm1oQUo1S1V2ZGFVdW9fX1VzNGktd1hQZ2kwVFBLM0Q2LXZQaFZUb2twVU9mVWVhZGJuQnNkeUpNcjVKR1Z0NTNvUU80SVkyYU42c0tWVTluZjJ0VlA3Nm9RcUxmMVZTNWprQWw0RTNWdm9hRkRTTmNIa1hXSTFaRmdPMVBndEpB?oc=5",
-   "date": "Mon, 21 Sep 2026 13:00:00 GMT"
-  },
-  {
-   "title": "Macron supports Canada’s EU associate membership as Carney eyes Europe",
-   "source": "European Interest",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNi1rWlhXaHFPOW1JYXN3YW1yeFZtVXJlYVRWTXEyZHkxMTVLMVhIV2hva1hIb1ppRnJGWWdTOEFSaU5yelpzdndER0h0bUtIV3lud3BaZGRpS3h0RmJVUW9aZm51TEQ1akUtUDNiX1Bmd0F6bE1zeDg1TlVacFJZSUJ5MnhoaDFHanZIeG5EUDd5ZU5vRWhLOVVJV2V3MlhCNkxJUw?oc=5",
-   "date": "Mon, 21 Sep 2026 12:45:37 GMT"
-  },
-  {
-   "title": "From French outpost to Euro-Canadian corridor? Why Carney and Macron met in Saint-Pierre-et-Miquelon",
-   "source": "The Conversation",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHdpd0R1RW1fNWpqajZMOEo4V194QUFfZjRYV3VEeEZVVG9nOGRLSVpIZkE1Wjljcm9vb2xxU01TRTlHelFKZ1NCSEdjZldVLUxfRlBEMDFkRi0tX0V0eG5jbnlEOXlxSlVzcUY2WGFSZDA1TFJQbXExXzdrRDgtbFJyZnB4bmdCbmFrVjZtcm9PVG1uNGk5cFhiaU1mMUliVWZHMkp1ZURuTVQwTEpqcTNiWEJOVWtMaHQzbklHUUIwNi1ROU9NNF9UYUhmclk?oc=5",
-   "date": "Mon, 21 Sep 2026 11:44:12 GMT"
-  },
-  {
-   "title": "PwC Canada launches major projects guide as Carney summit wraps in Toronto",
-   "source": "Benefits and Pensions Monitor",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUEpNQ3ZnMGdxWHNuMVJoX1I5RFlxdnMxclZWdzVTQjQ2UWd6OHhGSzJhNGdUOGJtVmQ2ZGxVS01jZHNhLW9SNWtNMkNxZ3A3LU51YWpzRkVJcWgyYzA1T2ZCSUhWcGVrVjd0UkJQb2JhS3lpN24ydS15YU8wMDM4cDh4SG5EVE1KX2dfZTVId2N4bjFiZWw5d2NEZDdTTUV0QmFaWDVncXBVLW5lS3ZXc2ZONGZIbFpBWXVsNEYtMW5sSTlBVVhDLTRrUzFPY0pZa3g0Q2l1QzRQQm8?oc=5",
-   "date": "Mon, 21 Sep 2026 11:34:52 GMT"
-  },
-  {
-   "title": "Carney, Macron direct new Canada-France space push",
-   "source": "SpaceQ",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBvMTFDTGJEY1NKSEpWa2pmRmUwcU5JaG96Rm5ZSE0zdmNQU09sQzlsbmlldWh5bnJJMXRmSHBZVEJVRWU4RldkcjQ3dEdfSmtUMW5yQmFiSTdSbzN6M1N3eVZ4X3dZVldkeG9qYWVSNXI3dG1EdFFn?oc=5",
-   "date": "Mon, 21 Sep 2026 11:16:00 GMT"
-  },
-  {
-   "title": "Blanchet warns of a possible ‘Trojan horse’ in any deal between Canada and Europe",
-   "source": "CTV News",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGhjY0RHMTBxMVQ1YXBheVpSakJqTWZyNnlJMWQ1ZnBVeGZqVFpXb2hNVTg4RTQtcmJxNzNRSWxZV2VsMnhfanJXUTFUUFdXbng5SzNlSXg4ekpPZWpqYjNzOF9ZS1NVMWRnOFVWaFVrdi1uQmtaaGZaR0NNZ3Aza2FtbnNXNTItdHN4TkFxRm95ekp0Y1NsemlaWmZZNGc0dUhNa3lVSjRZR2ltbFJmM3Y0ZDhpdkV6M0RZYQ?oc=5",
-   "date": "Mon, 21 Sep 2026 11:08:04 GMT"
-  },
-  {
-   "title": "Pierre Poilievre’s Great Unravelling",
-   "source": "The Walrus",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uWGxoQk1CMHV6TTdWRTU3QktTUXFVMUlCdmdrN0xLaXJhbHVHdEJZUWtZMjhxYXpyWlVBeXNBVEZDMlNPSFY4MTgzWWFMaldpUmpWaEsyb01MaXFrV3FLbjZ6cmdzenN2?oc=5",
-   "date": "Mon, 21 Sep 2026 10:30:17 GMT"
-  },
-  {
-   "title": "Morning Update: Euro visions and Parliament’s return",
-   "source": "The Globe and Mail",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQk1JMGFBOFRmMGtYbVBtWFNyVWtZSmxLMWpkNHpUSm40MVczVE1RemFJb2RuU2pNa041LWtvRHJocDY4UlVoTl9hTUJiajF2U3I1YXJraGQ2eDVGUHkwNUNoSm1jTXk3VTNpSzEtN0R0R1dMOHJndDlhTGQwSEFJVjhtVHJWbmlUdDRQUGl4QVlScFlhSEk0Nl8zSkpYTU0?oc=5",
-   "date": "Mon, 21 Sep 2026 10:28:17 GMT"
-  },
-  {
-   "title": "House of Commons set to reopen for business as Team Carney launches fresh bid to 'build Canada strong'",
-   "source": "iPolitics",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNWIzWl9BSFhXd2FUdTFOODIzeHY1eV9YRXFKMWxESm5TRlZCNW5wTVl6S3dMTXhqTFYzeFJhcGRKMWdNX2ZsNVk5aklPcFRkNXc1OURHdXRNRWZuZVNNZ2dRQ2JjNlJHOE9zVlRfQUhIREp6M2NuS2YxRmpCRE1fSkhuV053aVRFSzRIOUhPRE9ISzg0RzBhUVMwUkhSWUNEQVUzTER5cUxNWjdQTnZrY2IzdDhFM1YwTDVXX0Vhc3dXWTZkRzU2LXBsZlBrdGs0Tzdj?oc=5",
-   "date": "Mon, 21 Sep 2026 10:02:04 GMT"
-  },
-  {
-   "title": "Ottawa is so back",
-   "source": "Politico",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX0lQYmhuRzN3SkxMTXpZZ0ZmbVhyVzQ4ZDY1Z3N3NW9DbW8tN2dNU2hIZW9vZ0RKUWVBZm5uN1lNSll4YzJidFp3TTZoVms4QmJIdENKMUNabFJUbWFLLUJZcmZmbVVxQjV4NGltVVBXWWFmZ1ZSSmZjNnZuSW1ScnVJa0haekducUdMTElKWUpoUEhR?oc=5",
-   "date": "Mon, 21 Sep 2026 10:00:00 GMT"
-  },
-  {
-   "title": "Blanchet warns of a possible ‘Trojan horse’ in Carney's promised deal with Europe",
-   "source": "Canada's National Observer",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUM4Q1lkMUw1Rkx4M3NtSXpJYTduUTMwQnMwMm40S0dkc0NCb3JKdlk3QkxNQl81MFFua2gtUm9VMEJFNmVpaFdpQVBSa1RuX19KN2l2YlY3V1lfRDFIM0dmZDZZTXRWeTBSU1Utb2lEZEVDcEtPUmRTYWpSaWtMQ3AxWE9nbldfMFNUQm1QUWJmS3I1TU1DWUI2dWdrZFo1VnFxb3dqa2tRaVBhbG50T0dPcjU?oc=5",
-   "date": "Mon, 21 Sep 2026 09:17:25 GMT"
-  },
-  {
-   "title": "Carney eyes UN reform in New York, unclear whether he’ll meet Trump at UNGA",
-   "source": "BNN Bloomberg",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdEpEbjhicEpYT3RHVUpCdml6RkN0U0F1dzdsTFIxbzNEUXZYM2VfOFEtcXp6RjZKcTRFUEhsMk9VWkROWENUWVMydndxQVlaYjVYVzhianowblVCTTRndnU0WGRxVDVnRF9UaUJYUTg3VTVRazJsbVEzSVdMeE1KS3ZTczNodEI1ZVlzQUNkSHZQUlFRZU9Sa3dJQWZTSW5vR1hEQnpZZDNnVGF0UEFHQjFtb29ySU1QaGhWWlloY0hTbnh5aE55UFJDOA?oc=5",
-   "date": "Mon, 21 Sep 2026 09:00:00 GMT"
-  },
-  {
-   "title": "MPs return to Parliament after a drama-filled summer",
-   "source": "Canada's National Observer",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1R0NnNnM1BIYTgyOS1SMGF3UWVqTlktdVBCZkZRaXA2VTEtVDFRMXc1UzB3dGRMVVotbHRFWFliWUVMYXBnVHNReGJUdTJKVGJVSzVfSk1PUk1yWTFoVVJtZkVqMTloOWdsN01zYzJmQ29UNUtjVDhGZG85T3cwMnlVaFNvV3ZLeTcweXhtbEtLSUpNV00yWFNSR00?oc=5",
-   "date": "Mon, 21 Sep 2026 08:27:48 GMT"
-  },
-  {
-   "title": "Carney says Ottawa will balance operating budget a year early as federal revenues jump 10%",
-   "source": "thehub.ca",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa0RDR3Z4Z3MwNS1tcVdGQXVobHhaUjlIOGZqNjVBc3l6TXM4SHRxeHBWS05PME82cVZ1QWdpUWZFRmVYQUJIQ09GVm1tamtjLWhucU8zQjgtU3I4YWZCNndjbi1IbXBUeFJXS0xlTV9zOV9rZE9DaUdxanRNRHhiYld5TlJOTEpJV2lBcVFiWk1EbVlZY3g5Slp4UjIyZGQtZWpPQkhjN2Rla1QyNWx4MnZ1ZnVPSnZJZlNB?oc=5",
-   "date": "Mon, 21 Sep 2026 06:55:16 GMT"
-  },
-  {
-   "title": "With Canada facing serious challenges, all parties have a responsibility to make Parliament work",
-   "source": "The Hill Times",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZXd6bm5iR3dqaTB2YlJvZzdwTEhuNDk0QTRZTENzTHlLVXUxWG1BSXZCbk1sQ21ydlZCdVNKa2kzUkJkZG5mTFJhSm44SzJHVm4xTEdHMnNXQzZkZ2l1ekxtTUt5SmpOVGxiVnEzSFBPc2dadFJkeWVQQUd2YU44SjdhbGliZW82WmhiV3BZOFQ3dHZwTm9Bc0RLUkhBREYwaUZhWHdUTHM3bjByTFJDenVzOHl2N3g5RDFzU2Rab1g?oc=5",
-   "date": "Mon, 21 Sep 2026 06:44:21 GMT"
   }
  ],
  "provincial": {
   "British Columbia": [
    {
+    "title": "Conservatives in chaos as eight join CentreBC and Eby says no decision on early vote",
+    "source": "Yahoo News Canada",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FZ2dYUTZxWHB5dzZITFEwSGZvZkwxWVE3amUxUkd6R2ozZ0xqcDhLelVHSTZrVTcxTHN0NTNiZDNGWUdUYWkyZkxOUGxLb1RJNUVncTJPcjI5N1N4Z1NlQmMtS3A2d1JYanY0bHlINWktNjQ?oc=5",
+    "date": "Mon, 21 Sep 2026 20:10:44 GMT"
+   },
+   {
+    "title": "B.C. sues OpenAI, says one call could have prevented Tumbler Ridge mass shooting",
+    "source": "Energeticcity",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONGNad3BRNF94OHVhYm12enpnRi0xbkc0MzRNNVJFcjZwb3daMEl0dTJRZmlOX2RlRml5TEtaTGpxcFVfTnBOeXhDVUtxN2lCellGOHRzRTlnUlE1S1ZMMjg3Qkt0b3d3NEE3bGdwdlF1V0FOcDJVckR6WkY3Y2tPY016WjNiUDBqdkJ1NlhpUVA5YmN3RV92anp2UnNsLTQ4bDZKY1g2YXNJN0JHT2JUTm5CWmFSZw?oc=5",
+    "date": "Mon, 21 Sep 2026 20:01:12 GMT"
+   },
+   {
     "title": "British Columbia Sparks Angst Over Gas Tax Change Amid LNG Race",
-    "source": "energynow.ca",
+    "source": "EnergyNow",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkpjMG1YSEhRLXhJN3BFLUVrNDVjbHExNERsbEVTbWFySWdTQlhKamJ0dWhIenVoTktRYVZBV1hrcUQwakFpSFVhdXYzaHppaV9iVWZ4d2pyVDBPckFiZ2FPWGhhYzVrLVhkZ2hHRWU1cFFYSGQydDVTMmg0di14ZEhxT1UxUEItNElWbEFienVfWTlvZXRhZw?oc=5",
     "date": "Sat, 19 Sep 2026 19:26:52 GMT"
    },
@@ -254,12 +266,6 @@
     "source": "Yahoo News Canada",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3bHFhU3N6VmM3Q19rWk1xV0RiSFdTSnE4VHZrY2NBeXdCc1FGNFlMVEhjN01KSlRUVWc1NHVMakU1VGxYcS1WU1BxVnpJUEtGTmN6aVYySnh1bEVyand4MFZ2Zng5Sm5RVVl0emZmRQ?oc=5",
     "date": "Sat, 19 Sep 2026 02:09:00 GMT"
-   },
-   {
-    "title": "Conservatives in chaos as eight join CentreBC and Eby says no decision on early vote",
-    "source": "Yahoo News Canada",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FZ2dYUTZxWHB5dzZITFEwSGZvZkwxWVE3amUxUkd6R2ozZ0xqcDhLelVHSTZrVTcxTHN0NTNiZDNGWUdUYWkyZkxOUGxLb1RJNUVncTJPcjI5N1N4Z1NlQmMtS3A2d1JYanY0bHlINWktNjQ?oc=5",
-    "date": "Sat, 19 Sep 2026 01:04:00 GMT"
    },
    {
     "title": "Conservative turmoil fuels speculation of a snap B.C. election",
@@ -280,12 +286,6 @@
     "date": "Fri, 18 Sep 2026 18:45:27 GMT"
    },
    {
-    "title": "Municipal and provincial elections at the same time in B.C.? Local politicians argue that's a bad idea",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSHRDdXIwOEtmbmptN0RQV2ZqY0daSW1OVGk4ZXhKeDZzaHF4aVRzQlgwSDA1WDFTeXRfUWQxMl9JclhlTEpKYVFxbDFnMHN2OGZ4NV9Xb1JRM1NJbUpacGxLOE9vM2Y4V0ttRnIyaThsazhGZVp6dlJ1N0VRdnVwcVMxbk9oUQ?oc=5",
-    "date": "Fri, 18 Sep 2026 13:00:00 GMT"
-   },
-   {
     "title": "Premier Eby will speak to local politicians amid snap election speculation",
     "source": "CFJC Today Kamloops",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONmpmSks3RmJKaU1zUG1qcGtrbVd2V0k3NHBBblNELVpLcDB6Y2w5YVc5T0txd29UeFBNUzNiYUNpRVVGZHBpUVllc1NWMTU5ak9sd25kODh5MXVIc0k0WlhiMmlkMXJUVFVJTGJESWhaY2RPVHhEUlMzZm9weklIYlBSeHhoMmJOOXlHbHpmZUF1alEyc3ltN05tTk1DTkNKYVJmOS14NGw4a3Ju?oc=5",
@@ -294,55 +294,79 @@
   ],
   "Alberta": [
    {
-    "title": "Jann Arden, Lindi Ortega and More Protest Alberta Separation Vote at Calgary Concert",
-    "source": "Billboard",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WV2kxU1pvVVl0YkVYZG11YjdMVnZUQVlsR1FOVlJHaDd1VE5May1RUjhiWE5ybFYtVW1xQ2FqV2VUc0xHcjFJRGhkWmZlaWxhblFZcUl3Wng3SzRDc0NIZC13amxHY2pUQXgwNTRwaHp0QjR2WEtKdXZBNWhHdzg?oc=5",
-    "date": "Mon, 21 Sep 2026 18:32:50 GMT"
+    "title": "Alberta premier adamant referendum ads are not ‘neutral’ on separation question, as UCP president claims",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLUJEd3BUelhRdWIzcl92LThaNmtpQTJrSXEyMW9EMFBRNGZfYkE5NngzMUlBV2RfTjZNeWZ1LUVQNzZweDBuQXFldUJuWG9TUE1XMlhJZWJqWGpyNHQ5dEZUeFh5MWdDc3FONTZoZzBMWUtjY3RXWHpTbUZ4VDZoYW1HRkZmZ19zUDZ5Nk53?oc=5",
+    "date": "Mon, 21 Sep 2026 23:56:42 GMT"
    },
    {
-    "title": "Elections Alberta shares locations of polling stations ahead of referendum next month",
-    "source": "CP24",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ3UxQkw0bm53UjJraldGV1lJTFlEamd4Q0RfZG9zeUNuV2k4UWhhdDRSXzhoMXVJODU0T1dKaEZfWnZIMG54eDAwcU5MTlpfb3ZnZXZHQ1JaelNsLVRtUU05a2JEbE40QVlUZ0NXNVdXY3ByTUpzbXBHSDB6NEc2ZFMxS3JpOExkM29vaU1YTzM0UXJlUkFEbzl5ZVFXa1BYZDBLNVJhUGZwQi1MTUlyQ01WTG1PcGN1UFl1QnpYdnhSdEg2NmFUQVpn?oc=5",
-    "date": "Mon, 21 Sep 2026 18:20:02 GMT"
+    "title": "Forever Canadian advocating for Albertans to vote to remain in Canada in referendum",
+    "source": "Calgary Herald",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb09YSlVNMmdxcm03VEEyWDFDUlhIZzd6dE4wUUp6dTZkd1drRUI4LTZBeU13MXlxdGF3RHBGbXhJZUktQnFUaGFnaDR3U19GVVJXdldfVFVhdEdSaFZ0SHM5dWYwZE40eE4tZ19Ga29tM0pwczFwdURlcVB4amd2dFBYVUxxWXJRSk9RX1FZS2hnUVVxdmtFb2VxRWxPOVBQYk5FaVpoY0ZLcHZkc25PSVhTX0NPaWxxb0JqTVFhWU43bW9P?oc=5",
+    "date": "Mon, 21 Sep 2026 22:53:58 GMT"
+   },
+   {
+    "title": "Smith pushes back after UCP president implies party base supports separation",
+    "source": "CityNews Calgary",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWVaSzFJRm9xeGJ1NnplUmNOLUZuUXoxcll5cV9zMDkyaWc4dGdOVzZoUHA1Mi1OTDdqSjJmb1lUSFBKTEFNX1RaeDZzdENLUFhPQ01VNUlqSG5XeDhncnpWeTdHMWQ4ekR4VGVpS0NNVWx1M3VnNE1JUWhPc0RWRWZjeDNpQ1J1eVFPMmgyak80QTdISVAyY19GSGxlMGhPMEtSUlRZb0Vac3UtVTFjVHJPVF9na2M?oc=5",
+    "date": "Mon, 21 Sep 2026 21:22:15 GMT"
+   },
+   {
+    "title": "Elections Alberta shares referendum vote locations",
+    "source": "Global News",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUGFsYlBnRHQ0SjJwMWM0Q1hDcEl6MUV1Z1NfWmxSckU0R3dPUjFvMjFGMXdzY2x2WEI5VFBWc3lKUHNvOFpSdk50VGx1dHNuQW53SGRnM19hTUl6VVdEWU5pbnZVS21qclFYb2Y0enFRV0hqcEF4UkpvUnBIZ2JRc2k4eDBDX2ZndXF2Q2NNdFo?oc=5",
+    "date": "Mon, 21 Sep 2026 20:51:17 GMT"
+   },
+   {
+    "title": "Alberta Premier Announces New Health Centre in Airdrie",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxON0JWR0lhN0g2QlY3ZEdTUC1UOVpNWWVqOXRUaVYxZTYwM2RVeHozdUZ1Nng3X3NOTWg4bWYwc2tzamtRczdpNXBIUUg3aThKUkJpVkdJVHIxLW5uemJaQ2lSc3pWNVh5cVdiTVdVRE9VSEVQNWVKUjVCZzlNMFJNWXdYQWZ4Q1NscUpGTjhPZG5fbEdZVWVVM0pMZXc4MHM1TlFVWE5Ob0FZNzVnQTl5WEhwVWozYkEyYndaejU2X1lQbVZzOExYMTdHNURoNTYzY1lkbnZ2UQ?oc=5",
+    "date": "Mon, 21 Sep 2026 19:56:22 GMT"
+   },
+   {
+    "title": "Alberta's Smith rejects party accusation she's muting pro-Canada referendum ads",
+    "source": "CTV News",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaXlPczVqMDJSRUtkcTBYcmlucXlzb0tfVl84dm4ycGdMTFFyTFNzMjEybkZSeGR4V0dxdHlPN2FaMlZxMWZRS1gxbzZvY09XY2RFbGNoOFZPQ3pJUXRzdVlja0JUZ1pCXzhTd1dqSng2UmNLYmpJc3pQaG1TUDZzd1N1eGo3R0hRYWY4Q29hVjhXODFwSV9LSnUycE9PbGRhbXB0V29iNmUxVGVNTzFQeXZPb3NodGMt?oc=5",
+    "date": "Mon, 21 Sep 2026 19:07:00 GMT"
+   },
+   {
+    "title": "Jann Arden, Lindi Ortega and More Protest Alberta Separation Vote at Calgary Concert",
+    "source": "ca.billboard.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WV2kxU1pvVVl0YkVYZG11YjdMVnZUQVlsR1FOVlJHaDd1VE5May1RUjhiWE5ybFYtVW1xQ2FqV2VUc0xHcjFJRGhkWmZlaWxhblFZcUl3Wng3SzRDc0NIZC13amxHY2pUQXgwNTRwaHp0QjR2WEtKdXZBNWhHdzg?oc=5",
+    "date": "Mon, 21 Sep 2026 18:32:50 GMT"
    },
    {
     "title": "Lorne Gunter: Premier Smith is facing pressure from Alberta separatists. It's of her own making",
     "source": "Edmonton Journal",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYi1lX2FrYVRFV0ZySWJKbmRCSjRQeWJMU0NuR0J6UDdUWVBvSVdjVXEtYlRoN1k3Mm00YzRabVNKNWVkdExFbFJiOEZLVGIwczMwSGFsdXZ5bl9PSktqSEx1c25WRU1tTzZWMVhrY0ZqWDB3czNwbkg4UkZkelhqS2ZXSTBFQQ?oc=5",
     "date": "Mon, 21 Sep 2026 17:49:12 GMT"
-   },
-   {
-    "title": "Beyond Local: Highwood UCP board calls for Smith leadership review amid separation referendum",
-    "source": "St. Albert Gazette",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVVNNdVdOd18wWHpOcUptZHB4S242WmJwSVZvdFE2a1laNTRoc3hBTUhqY254NmIwWnFHUWpQQ1pLQWVIN3k0cUZCT2lGZUVsRm9ITjI5bE8ybGpiRG5sWHBfVGtiRUV2d0gtWE1sMl90OFFWYkQxRE5JcHUtTW9qdDFPWjRMQjJNTEhpUGJHS0pHVG1ubHUtVlZFRkpGcXEwOVl0anR2UThNeUpQTEt4RC1oamdfc1BsWWFYWDcySWZQUmZHS0czMXBNcjZndw?oc=5",
-    "date": "Mon, 21 Sep 2026 17:16:00 GMT"
-   },
-   {
-    "title": "Alberta Premier Danielle Smith Makes an Announcement",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOemNob29nYnFINEw3WmpEempmVWlOcXNDVDMwU2g1QXh4YnpuVHhIUEQzVWJMQXNRUjdwSFN0TkYwTFZ0MTlwMXhYQlFMeUhHUExtc2dzTFhKc29yWi1JaXFuTWE3Qm1hWWRNWmxtdE02OUtlREQwZzNvVVItcVMxRHdiYWM0aEVVZDllWEVwc251a2g2YjRYTFpZU2xRMUlxRE45U281OTVnWTBFM3M3MW9KV1ByNE9oRThDamhILV9jTWNPSEFTN2gwS3h3QmFtQWpJZA?oc=5",
-    "date": "Mon, 21 Sep 2026 16:11:12 GMT"
-   },
-   {
-    "title": "First Nations Chief threatens legal action against province if tailings water is released",
-    "source": "Edmonton Journal",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEdKaW9PV0dsSUI2VDhYOEVOWnNJRnJXM09KanV5ems5dU1xdUdqcXBKY2dqSUd5QzFDYk5lbjdDOWJTZllyQ243b3JWZHg4dE5UXzhMWTZaUmRNbWJwTGd5WEFoZG1XbElUZXlBZ0gwWU03cDk4U0hXdFM2TGFtUC1EWkJ2NlhNUTgzM1ZBeDFPeGxTVXlNeG1Ea3ZBRW9zV1M3WTRTRnRqbFNEc0xGSVJoc3RZLWsxZU5BVlZWY3l6X2hMd0E?oc=5",
-    "date": "Mon, 21 Sep 2026 16:02:59 GMT"
-   },
-   {
-    "title": "‘This would divide families’: Former Alberta premier on what’s at stake in separation referendum",
-    "source": "CTV News",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV0hkTUFFc1RSR2hpdkhxdXJ5Sm1xTmFfYzZZNFUzcGlGMWlvdEtxRkRub0ZEYUE0OUFfTXdTMGZzMXNMbWVpMmU4NklQTmVCZ0ZnWEp6emx1T215bU9OeXhFSTdsMTlqVThsalZrUWJ0WmZndjFOeHF5Z3VJSnRpdzJpSlVsRWV5dzJOLUtlS0JQd2dONVNwdnNCMDYxdnkxemU2cFZFSFV6TmZMR3VZQkFwdENXRFVYMVptc21EZHRxNUVaSEQ3STBFY0NTQQ?oc=5",
-    "date": "Mon, 21 Sep 2026 14:50:15 GMT"
-   },
-   {
-    "title": "Fuelling Canadian Refineries with Alberta Energy: Statement From Premier Smith",
-    "source": "energynow.ca",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSnEtNXh6R2g4V1l3bWFSVk1nYUFRc0hSVHVldXRCTS1XS1JuTXVkWm03SHE4cE16VkMwV21FNGk2MEpXRGc1bDlhR0ZjcmoxZ0QyQU5aS1ZqbDdWV082cXQyR2pBRTlzbHpncl9ORGxnR19RSnNYV3NTOXpwT3IzMGhja0lkeUo4al9kcWRoRXdBSW92MXE3WU11VGxaMTV5aUdjOGg5UDdEMWM?oc=5",
-    "date": "Mon, 21 Sep 2026 13:15:43 GMT"
    }
   ],
   "Saskatchewan": [
+   {
+    "title": "Premier Scott Moe critical of US President Donald’s plan to buy more potash from Belarus",
+    "source": "Country 600 CJWW",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQUIycnhRNGhxSXI0RHlyWTdsalVuMkVhV0ZPTHNXS2pINjByc0M2WEFtQ1QteXJOd01WM0VYd1Y0d201cXZQYmdXcmVxclhjRnZwRS1SX01PdnRlTGpINGlFaHpSSDI4TUhhaGx3bF9JTDNodVJzdm8weHN5Rl94Sk5wV1Nabm9WdWFkMV9oUWluVTZ2clZ3UkVOYkRqYS1YMEJQYWFkMmNSVW9aWVk1NVpsT0hxdWxTa053N1lYTWxIc1k?oc=5",
+    "date": "Mon, 21 Sep 2026 23:42:07 GMT"
+   },
+   {
+    "title": "‘Blood potash’: Sask. premier bashes U.S. plan to buy potash from Belarus",
+    "source": "CTV News",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMTlhNzJxelVRc1RQUFNlNFVqUzdCbDZaY3l1eHk2dlR1dlJqVW1kWl9kNk5EcWZaRkYwWi1TYm5SeGxIUnItSjYwM0lxZXFCNWhZSzRzRkNRRmNrdnFTdWVSZjNfbV8wekJoQTRTMTk0WDBrcEFJWVV2azJRNEVzV053c003NHFtd1A3eHNJUUtELXpYaGxaSlNIMDNqSGE0ZUp4S3ZjQV9jRTdzenB2eFFjLTlqOFU?oc=5",
+    "date": "Mon, 21 Sep 2026 22:06:34 GMT"
+   },
+   {
+    "title": "U.S. shouldn't buy 'blood potash' from Belarus, Sask. premier says",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTkJmRjJBUUlzM0NydGE0UW1XWHVCMWNJQVd4enZ5Mlh1VFNIRFRvNkdWYzVKVlJ5eVNaVk5zY0NUZHZ1SzF0Unp3T196MGc1MEg4aFBpSGRiVzhycXNFTXM4VmJwZHlDOUtfMENKckhRVkNVRjVTNFJMVVozQmpYRFNoZ2FlZ196NmZrTWZB?oc=5",
+    "date": "Mon, 21 Sep 2026 22:03:14 GMT"
+   },
+   {
+    "title": "Sask. Premier Moe blasts Trump’s plan to buy potash from Belarus",
+    "source": "980 CJME",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNlhzWlJLY2ZRSmJFSEtQZVhheGlmek1tM0RiWXRMb2dfOWFBUFNXcEVONnpFeXRQTnZqRV9FdDMyeVhSYUdhLTRSdElFLXNWS0dXVzQ3N0Z5Q1ZvUnBqTTd4SE91RWwycm5BRWg5YzlnaWwtQ1hTbjNkNzlOS1NOdF9WRUhqX3pwR2tldGJfNFpjc2p1YlI3YXdJOA?oc=5",
+    "date": "Mon, 21 Sep 2026 21:26:00 GMT"
+   },
    {
     "title": "Moe floats idea of two massive nuclear reactors in Saskatchewan",
     "source": "Saskatoon StarPhoenix",
@@ -357,7 +381,7 @@
    },
    {
     "title": "SASKATCHEWAN PREMIER SCOTT MOE: Western Canada Can Lead Canada to Global Energy Superpower Status",
-    "source": "energynow.ca",
+    "source": "EnergyNow",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXEyOURDMnVHbDQxazExZFBYTnNjeVhhWXhZdDNfcm5zNTZlV1B1S2JqUUtoWm9JSldYcnJfTExJTDFlUThRMmRjTW91NFp5aXdsVk9oWEYzbTVXaWQzZnd6SDJtcDQyUW16WGhjRGtCOW94UEZlYzRsVDBacFozWFdheDFYN216OU5KemhGY3ZDMVNLRzNYWkdDS1c1NVBXcTVzRWFkVmxxd2dZMVZrMXI1VENpLTBxbE1EMENydHJ2N2x4?oc=5",
     "date": "Fri, 18 Sep 2026 20:27:59 GMT"
    },
@@ -366,38 +390,32 @@
     "source": "My Lloydminster Now",
     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNLWl5clQzOFZ1Um5qYUR0N3FMM3I3Qm9VR0Q0bktRelg4elNjQ0xsblZZQmJkSXdKaEJnS29SYURIZTltbjZzODk3SzlscFpXaHpmeWRQempZampoaGE2NUFlWXVSaTlKZWprXy04ZXFZR1liYWxRZy04TWxJcVF4a2FtNTd2a2NvMlNCNTAwVmxjM1BldVlkYUdKMkl1RHlBaHJ0RXA5Y2hCanVCZFBIQ0lhRFRObHRiSWRnbzRTUnVYSmMtNzlNcG5lMDN2ZjV2ZXlyT2tZSlJSa00tTG1WeDNsXzhhSnFNcDhEU0NsdzJRM2V0b21Qaml6YVR3VGxaSUJrdHFMcHpUQQ?oc=5",
     "date": "Fri, 18 Sep 2026 17:30:31 GMT"
-   },
-   {
-    "title": "Potential nuclear reactor sites along North Sask. River back under consideration, Moe says",
-    "source": "650 CKOM",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN0wyQ1VtbkJCX0ZMaHdGYlQ5U2g4bUdNWVVfQWh0MkVTTE9NWTJScWNNUnY5T0FVejc4WG1nR3lsVFA3QnU3a0QtNE1CNlRNZGRhNjRrZjdzVWJYQ0g3RjNDVFpBWHpQYW5iWmstNDlGYTgtSGtoMWtIeExtYUZ2akR3NzB5ZUFBSDN0NUhPdWtrZGxjVkF0MlFhM05uYUxnUWhYdGZScVVQbTR1OWNKUUFCZVJROGE4UkNwbjl3?oc=5",
-    "date": "Fri, 18 Sep 2026 13:59:00 GMT"
-   },
-   {
-    "title": "Sask. premier’s approval rating falls amidst trade war, still among most popular: poll",
-    "source": "CTV News",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTm1XbjdYWS01ZjliVURIRU5PVzlybzRXeFFwMTc5cDdieFYwNERVbURzSWdZLUY3cVFMeXdYaWZnQmtzakZISERqbzVVZkxvMlNlbkRPNUdROEdTTkM4dHhVN1ktNFZMcHVUQUdfWDVoanZ6YXdPZEJXUnlxLUpXeGZ3WU9IRTliVTUwb0gyYXVUSExTZ1JJZGd1b3A2eE90MWpVYUFYRWIxWGc0M1NUR0tvWXlzWVE3ZjMwdzU1ZFMzUQ?oc=5",
-    "date": "Wed, 16 Sep 2026 13:11:01 GMT"
-   },
-   {
-    "title": "Saskatchewan NDP calls for moratorium on construction of data centres",
-    "source": "thecanadianpressnews.ca",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdy1qeU9yMmU5aHFiMXJlRW9TdDJsWnFKb0pkdTZUcmRWbkhsejFpME1ucGdKZ0VHRWEzSlRTX1gtZ2hjWmlLaDN2OVdaZENSWUpaeEE0SU50a3ZEZFNLdjRSYjJPWEVjOF9XNWVuY2RJc3NqamxyV0JHdFZ4UjRXNnZSV1o5bVJwcjB2Zko1cWFnaVBtalNQWjRjMkVzVjVmMEZzSHBZY1NzNjFlV240V3NDR0VRX1NpeXl5bjRidUg2YS04N2liSUJlcGk4M21FQWJXbkpHX3JUV0VrRWZJcTgyR2RNaDlLeG45eEJlcmNqN3lQZG9v?oc=5",
-    "date": "Tue, 15 Sep 2026 20:54:00 GMT"
-   },
-   {
-    "title": "Alberta, Saskatchewan and N.W.T. agree to explore nuclear power, grid connections",
-    "source": "CochraneNow",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUkpCVFd1aW9xbVZDREMxaXk4M0VPS1MteVFXNWRZYkd5c0hrUXZqeHA2c3RuSlRMa0F0WThhakpfRDctN25Ya29qV3N4S1dPYmJpdDJSazVzM3NLM0NRUEVXUFV1ZUNBYzM2TmV2WC1PYUZZNmRQcThOQV9QR1E1QlhuQkNxTjZwX21MVWJPcFIzTDlTV1U1Y3ZVS1YwbWR0bnF6N1NWbFkwS1o3Z1E?oc=5",
-    "date": "Tue, 15 Sep 2026 14:39:26 GMT"
    }
   ],
   "Manitoba": [
    {
-    "title": "Manitoba Premier Wab Kinew Holds a News Conference",
+    "title": "Manitoba records $832M deficit for 2025-26, half of earlier $1.66B forecast",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0dzlBNk1ZVEhDWFpocTNtTS14UEZtV3N0aHZvZ3BaeGhpWjdTTENmNWdZOW5PR0U3cDBvdlU5YWpDZ0Y2RUpfZW5CS24tZFFRVlM3M25kUHFLdFFkS1F0cnNteEhiVmxWbno4VVlzQjBxOUtpNHBVMzdR?oc=5",
+    "date": "Mon, 21 Sep 2026 22:31:25 GMT"
+   },
+   {
+    "title": "Manitoba government records $832-million deficit in last year's budget",
+    "source": "Winnipeg Sun",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSVhQZTZSV1VJd28zMnV0RkRyR1J3TWpuelZBWXZWNVVjSTRGNXdPOGlwMHExdnBySmhRVmJxejJLOXpLTFo1a2RzeXQ3Vk9fS0VORmJfOV9ManBqbVhLU2lkWnVuRldJOXVpQ05tRzNtWWRIOC1fa09VWFp4VUUtZURTS0dUeWl1N2pfYlBBTUVLQlJjM3dpWHRYWGFYNkVldVFEY2VpMmNnUjVRaFJwaXpoXzV1SFZOc2U2Si1rQnVjSzZWZkhFZ3hsTm1FcVI4NV9vaG5uR3JPU3EtNU9ZNENqMUVFODRpNG03Q2dFNEF1dw?oc=5",
+    "date": "Mon, 21 Sep 2026 22:05:23 GMT"
+   },
+   {
+    "title": "Manitoba deficit sits at $832M, half of earlier forecast, NDP government says",
+    "source": "CTV News",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjcxTXJ6STNYTnd5U01WZHRyZ19rNENiSkJDUjQ5dTUtMENpMTJnMjNiYmo4UHJoTWlhZGFSWUNGYURab1pxTGdRN1FSdFRVZG1VaThlcDRUZkVOT0ZIMEVzbGlfejRQdXBQNXZaOXVfaWQ0T1ZDVi1OdEUwc3M0VjhCcUdMVHRKUVJwcThwZDdsTnhxdldlTGVXYzVuY0VfWlFyT2F1eDRZOWhGWmZOSzNibGhidw?oc=5",
+    "date": "Mon, 21 Sep 2026 19:40:35 GMT"
+   },
+   {
+    "title": "Manitoba Premier Wab Kinew Holds a News Conference - Headline Politics",
     "source": "CPAC",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbHJrcDhncWxFMy1rRDZ5ODFFVTZ4QlM4bGZESHo1V1B1MC1fTmZqS2JCMUw5Q0o2eWVBemRuVFdfb3J0bkZkOUtHeEpuZ25HWDEwRnB3b3NoaFR2djR0ajFScVJHNHFzSWNQTDZjUFltZzVXVTM0Tjlsd2RiTUVPa21vaTlsbnVGLTdzQTg1UGd6N3pDVWh1V2piZW9vOC1Bbkw0Y1Qta3Z3QXpQdXJkZVl6Yjl3MlJ0Zk51cVZfcGo4ajVBNTIyUFRwMWN6cHdlQkE?oc=5",
-    "date": "Mon, 21 Sep 2026 17:45:36 GMT"
+    "date": "Mon, 21 Sep 2026 18:41:21 GMT"
    },
    {
     "title": "Canadians divided: Can friendships survive politics?",
@@ -422,27 +440,21 @@
     "source": "CityNews Winnipeg",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRjVGQjJrVWUxcDRsYmFrME5aRFJwWFFOTkY1QjlSVTg3aW1yWVp3aGRCR2F1WW5FVHp2Y1RtRVExeTRad3RGMWZpSUxrQW8yY0FybUVlUXNqTzdmWkNDS1NlN0lwenNfQUdRekNKU2xlN2dEdHg0dkY2Y3g4OWpqV3EyYnVISm5GYVZvdmhQMmtSSEVUSTVwR0tnNHY2dHhDdnNaNzRabVdCNndSSkJiT0pkd3VqU2ZDOWc?oc=5",
     "date": "Fri, 18 Sep 2026 20:49:36 GMT"
-   },
-   {
-    "title": "Manitoba government says apprentice work hours exceeding target",
-    "source": "CityNews Winnipeg",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOWtWYjRVZjlYZWpLdEgyR3FCOEJfMFVBb0t4TEpvQ1FkVmxYWWhXUldVQWFFR2hJZnAzbDNteFZnSkV6dnktX2RhUzY4UTZ1VkdwWjJ0ZUF4Yk9XYmlmdEJYV2MxVmVWdEdSWWJpdDUzLWhpWXZ6UjhaaFhVendNelNYaFphbG1xWVNoNnNzWi1tcHc0VTFUQ2wtNXloMDlyQ3BoUEl2OA?oc=5",
-    "date": "Fri, 18 Sep 2026 19:34:28 GMT"
-   },
-   {
-    "title": "Manitoba Will Stay on Daylight Saving Time Permanently: What It Means for Clocks, Phones and Technology",
-    "source": "Access Winnipeg",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQUJoSll0eVBGR3JZTnl2blpCS1FPcEkySzRiS2NJNV9aRHhmeHNJYXZxZTVqWjdOM1RsRWFuX19kUmpTaDZ6ZVFLdVptWWZTOThpR1FDRzhTUVdTS2ZWdVROMGZxMTlnTFJWR0duZDVOLTlVRWhQT1gyVC1IYUN3N0NBUXJXaTZ1YTlZWjdGSUt5X1Zva0twUFNGZHRrUnVNUXA0dEo2OHpYV3JhQS1JZkQyUEVST0NWM0ZMVHZlQWdyVDM5c054c2kxbkpsc0luQ3Nz0gHTAUFVX3lxTE1BQmhKWXR5UEZHcllOeXZuWkJLUU9wSTJLNGJLY0k1X1pEeGZ4c0lhdnFlNWpaN04zVGxFYW5fX2RSalNoNnplUUt1Wm1ZZlM5OGlHUUNHOFNRV1NLZlZ1VE4wZnExOWdMUlZHR25kNU4tOVVFaFBPWDJULUhhQ3c3Q0FRcldpNnVhOVlaN0ZJS3lfVm9rS3BQU0ZkdGtSdU1RcDR0SjY4elhXcmFBLUlmRDJQRVJPQ1YzRkxUdmVBZ3JUMzlzTnhzaTFuSmxzSW5Dc3M?oc=5",
-    "date": "Fri, 18 Sep 2026 17:01:28 GMT"
-   },
-   {
-    "title": "Manitoba ending seasonal time changes",
-    "source": "Toronto Sun",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HVFJ5Q2tnVnZXSkF4a0tSUXZ5OG9sYjJOcTBUcjNxV2FuZFEyNmtlUFJaSDJsLWljVFBnbFFOYWhBd0k4cmcxM1Q1YjRab3NwRWZJdEhuOXMxZm42VEtpUzJtM21qZXlLcW1ZV1pjek5oOEZMak5wenFUX0xJcGc?oc=5",
-    "date": "Thu, 17 Sep 2026 22:56:22 GMT"
    }
   ],
   "Ontario": [
+   {
+    "title": "Ontario launches project to refurbish 4 nuclear reactors at Pickering plant",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN3d0c2x6aDlEeFBMSzRFTl9IUUNnOU1CRjZkMmJsT1VQVmtBbWt3UXQxVmdKeEVMN0JiU1pfNlBWOGx4M00ydC1FM21uU1lIQ2dSaFZhQklEWXp1dDZIQmJsbHM1ZVQ0ZHhiWUk3XzYzSjh6Y0Y4M3NheTYxNHEzY3VENUdkMFJzTDJucnRzVUwwNE0?oc=5",
+    "date": "Mon, 21 Sep 2026 21:52:13 GMT"
+   },
+   {
+    "title": ": Ontario to standardize truck driver training after audit",
+    "source": "Barrie 360",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRjk3VUdWWU9BN3ZBTURDeFB3LXhkYVdYM2o5b3A3OExhVGExQnpDTTkzdVdUd3g3TEZ6VTZNYVFjNWdDS3RpaVRoOE1IYTJXUVRuX25MbG81ZEFiY0o2bVlrUVpvSWw1aHNkRzJFVEF6TkxXR1p5cjZ5RG9aR3hvUmpkc2poUU9ubTFtRHZtTk8?oc=5",
+    "date": "Mon, 21 Sep 2026 17:52:22 GMT"
+   },
    {
     "title": "SkyVu Event Centre Opens in Vaughan, Ontario, Bringing a Premier Event Destination to the Greater Toronto Area",
     "source": "EIN Presswire",
@@ -450,9 +462,9 @@
     "date": "Mon, 21 Sep 2026 17:36:00 GMT"
    },
    {
-    "title": "Suspect involved in shooting outside Belleville, Ont., synagogue identified. LIVE updates here.",
+    "title": "Suspect involved in shooting outside Belleville, Ont., synagogue identified",
     "source": "CTV News",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT0tjV1YyQ09lNDZiSC1WYWRRY29kTkVvVTU0Mkc5ZXE4TGxuRHlUelB4MHdqTDZxTjdORVpsQjc5dTF2ajZzeTdxYjY1MnpuN3Q2cG4xRnJ2RTNvZjNwS1JkRllJcXc0aHV2Skg5bmFhTEx2bGgtcHFlalFFRHR6bjlEMHh3eGpVUmJ0ZEU1S3U2UUNka3lyanFJaDFtb1VNdUtqN1dGdGlzM2RyWUx4TWpIeGpOLWVvY3BrbUswQi02Zk1fa3g0TURR?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYXFPNHdpU1FpR0Rhazd4cmV6QTNUU21keEN3ZlRCMEhVQzBIam5KRUowSnpMNUFjRXRSRnBLX3JUdjJ0eXBJd2xfTU1IaFRwN1o1V29jZmlESjdyeURwZXNRSTNCdmFuc1RFUlBoOEJSTGNDR2lnQzFWa2Z5eXhLaGhUNHZGLWJWVG9JV2JXeE54eXNRQWthNGhRUkcxMzVacjFqNHR0Y21YSVJLWE5aUEFB?oc=5",
     "date": "Mon, 21 Sep 2026 17:07:33 GMT"
    },
    {
@@ -460,12 +472,6 @@
     "source": "Toronto Star",
     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNYUpRZjNyR0pzQ0pVbEVYY0ZOaDc0VTc2bFdwR3VmVWVIelZBSlpOb1NkWWtvXzBSN3duVkp6c19rSUkzcm85VUhsUF95aDA0c3FDdF9FOEF5SnlQY0FIc19nSnZVZll2eDN0b1JHcXRjVVV6ZnJoWVRsUVZlVm8zSWdzNkh4VHdlbGg5MEN2cG1Ta2JHSFV5V3BSZHBVb2ZXUE5vZ2trSFVubnFCTi1vbUNJRVBRb0RTUXNYVFhoQzVFMjZUNExoWHg3ZXJ4MG1oa254WFJXeW1odkFBNTNJQmx2NXdpOXc4SklTNW40b3hYbTRUUlVfcGhidDhiMm8zZkFNQg?oc=5",
     "date": "Mon, 21 Sep 2026 16:27:00 GMT"
-   },
-   {
-    "title": "Ontario launches project to refurbish 4 nuclear reactors at Pickering plant",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN3d0c2x6aDlEeFBMSzRFTl9IUUNnOU1CRjZkMmJsT1VQVmtBbWt3UXQxVmdKeEVMN0JiU1pfNlBWOGx4M00ydC1FM21uU1lIQ2dSaFZhQklEWXp1dDZIQmJsbHM1ZVQ0ZHhiWUk3XzYzSjh6Y0Y4M3NheTYxNHEzY3VENUdkMFJzTDJucnRzVUwwNE0?oc=5",
-    "date": "Mon, 21 Sep 2026 16:01:24 GMT"
    },
    {
     "title": "Doug Ford Reacts to Belleville, Ont. Synagogue Shooting",
@@ -484,15 +490,15 @@
     "source": "CP24",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVZmZzd1bVdWa0lUWEJ5a2xXeVpxejZiaVlvQzNaR1l0RjlMTkRhQkF2ZmwzU19xVHpBNU0yWWdHY0l5U29JYmREN0N6MURGTnoxY2V0N1NKRzVUTk1zbVdHajFBSjJQWXZyMFJfSUktZTBzZ2Zjb09TeHI5T2ZIZVk3UHpRcmRtSHc1di1rdmRkbktOZ243cHgyVWZUWnVpSEp5WHFBWUFhNGVBOUltcGRXeGI?oc=5",
     "date": "Mon, 21 Sep 2026 14:12:20 GMT"
-   },
-   {
-    "title": "‘I find it disgusting’: Ontario Premier Ford reacts to synagogue shooting",
-    "source": "CP24",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3BjQzFMQjVKa1lxbmtoYkVzX0dSbDBfeVFXZkYtbncwUmZjRzlKMy04TUFUZWNnV0ZmRXBodWtqcml4dEFhOGFBMUZPOGNxQ0Mycy1BZTVEZ2NpUlFCWVMtYXZfVk5FMjVqWTNOZ0dhc0kwQnNrWU1uN2ZPNWhEemJmbmxMU1ZrOGpzNC02V3FfSC1LN1N3NXN5Q1ViRDNHSnAxQ05ielNnLWZMUVE?oc=5",
-    "date": "Mon, 21 Sep 2026 13:51:28 GMT"
    }
   ],
   "Quebec": [
+   {
+    "title": "Party leaders questioned on potential alliances on Day 26 of Quebec election campaign",
+    "source": "thecanadianpressnews.ca",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaEJ0bWpLdGdpUHlUTVBYVksyeExOcDVBcWF2eEY2a0d4RDZkTDE4YkRvbC1SbndLVXl4SWxwLUw5bEw0N21nU1hSU2swdUhWSXlHem1wblF5aGdiQW9oTGxpQ2QzWFBjZEdyaVRHdHFYN08yYWhpLTBLS2NlUWt3WTgtOEJVUVZzcnJWWWkzSGkxYmdzQ0llTWotVHQ4UjJabzY5SC1kOGRNUDdOV2tXS1FBbVRkeHN6b0dYSnY3X0VMNmk3WjlNZFUxZFdmRktDck9SVl9VcnhpZEh4blNBNnVpYm1jSzJlRnE5RVBlamJuX1hGUm0yUGNNd1lZMmFWb0VjQUpjSF94WUU2?oc=5",
+    "date": "Mon, 21 Sep 2026 19:07:30 GMT"
+   },
    {
     "title": "2026 Quebec Election Guide: A look at 5 party platforms to figure out WTF to do on Oct. 5",
     "source": "Cult MTL",
@@ -500,16 +506,22 @@
     "date": "Mon, 21 Sep 2026 17:40:35 GMT"
    },
    {
-    "title": "Five candidates run for Ungava riding in Quebec election",
-    "source": "Nunatsiaq News",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObUczNjlsYTA2eWFsY21vUi1IUS1pTkFYczQ1RnhhTnFOUnN2Sm9FZGVOb1FaRGtsWnVQWDA5TkVGbWUxS2FYc2tVZVkwbTV6c2pteUJUWkJOXzZtTnpUTlFmSHZ1NDRKVW42MVl2QU56UnBUdmZhS2VrZzdCSDE5NEJkU214cHZjQi1VV0llQWVNc2VtT0ZuRDIxSQ?oc=5",
-    "date": "Mon, 21 Sep 2026 12:30:00 GMT"
+    "title": "Opinion: Quebec’s stake in the Canadian economy shifts with Carney’s economic pivot",
+    "source": "Montreal Gazette",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLTlQTm9rUndaODRRZnRpSWxnMmp3aGx5OGthQUpEOVVSWlNBblhoTHJyZ0thRGkwY2xfc0ZaenFkNklCM3FjTzVGbUc1M0xzWWZxY0YtaWtLSmFzUzlJaTFKWjB5d0cwSHJMTUpPUGJoZ0V0VFhPVTBzV0RoRkp0QmJoZmFiSVl6eGpJdklpZ0QxMDlHc0stSVdCdmkyZFVjTHRxQTJUUzRkRGtPSmRNc2N6amxhTDgyaTEw?oc=5",
+    "date": "Mon, 21 Sep 2026 15:51:58 GMT"
    },
    {
     "title": "Quebec votes 2026: New poll shows PQ holding lead, Conservatives and Liberal neck-to-neck",
     "source": "CityNews Montreal",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtS3VWLW9sYzA0cGxvVmVhaDVfV3hPMGRwWE1rUFBQRHE4T2lLRUNYVk1Ndk5aR0tEZTBaODloWlVwdkdUdkNXREkwVF94amdRTzBxWU51bmpGcDU3QjN1TlVvRF80NzlxTGx5aUZ4OFQyNno5TTcwOXgyZw?oc=5",
     "date": "Mon, 21 Sep 2026 12:14:44 GMT"
+   },
+   {
+    "title": "A Guide to the 2026 Quebec Provincial Election",
+    "source": "bullandbearmcgill.com",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTWdTVjdQU0dTRFVLdk1fal92ZXlnbk9HenptblhkNmM1VlVNbHVMdkR3cTQyclJUMDQtbzdITXhWNGhTT1N0SlRidUFmdDYxUlJSX0xQREpKMllwUDU1OEZCZ2pvOVhCUHBqb1NpUktTUnpvWUhEbTR4UTdrRzdfUXRBdw?oc=5",
+    "date": "Mon, 21 Sep 2026 12:00:00 GMT"
    },
    {
     "title": "A PQ minority could face an uphill battle from Day 1",
@@ -524,18 +536,6 @@
     "date": "Mon, 21 Sep 2026 08:01:00 GMT"
    },
    {
-    "title": "Quebec election campaign enters 26th day",
-    "source": "thecanadianpressnews.ca",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSUFKTzlvcVVqYlN5bkxUcU1sNHk3Wm80bTBUbW00SnFkUWx6Y1owXzB4WUo1dEtNTThmajc4RE85YlJ4dmd0R2plS29hemd6VXpIcjQ5djZpc2NQalpnUWN2SU01TjB2M2R4azRmM1EwQ2NDZ1M0Y2N6dEZDWFQ1QXhaRWdyMHFpay00NUtybUVSOE9ZbDMwS0dwaUF5VkJiSHZFUm1FQWdJZFlqYXJ2S0g4bzZaOG5wM2R6eFp4VlZzbW1GdUNrdlV0OHZOTUdB?oc=5",
-    "date": "Mon, 21 Sep 2026 08:00:15 GMT"
-   },
-   {
-    "title": "6 hospitalized after man drives vehicle into crowds at Quebec festival",
-    "source": "CTV News",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTmVpQTB3OXhBeHVWczh3cEszanZ4MmFhSlc4ZmlTOTN1S3FXaEZOSzEtU2NndnFyaTlyODhaSVdTMnpIcEJ6ck9xTDhmUHZhcHF1WEY2R0l5UVR4SVJUbzZZeG52YnJPMXMwTkpkZTVNU2VlUDk1bkh0UDhFR2ZsQXBHNXJOdGJpbVVvNC1sTTB2SnZGQXA2Y3Y3bk5zYkM3U1NIbUJDdlpDWlBKWS1wVllEYUthNGZ0bHZ6Q1Nn?oc=5",
-    "date": "Sun, 20 Sep 2026 15:17:57 GMT"
-   },
-   {
     "title": "Quebec party leaders turn attention to fracking on Day 24 of election campaign",
     "source": "CBC",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUzZ6aEU5bzg1c3hadnJsNlJ5anJUd0NqN0t5SUtnWFViRk9hSVJic1ROQ3lpdkw5Mkxma3B1eVpEeVdLVkpUTE9iZmEwTERROWFlbThZSy16N20zeEFxdWs2MWN2VllIX3ZaaHJlWlhWT0ZSLWh4ZHFtSFRRbVV0b2lGWEdiRVVxMWh0aQ?oc=5",
@@ -543,6 +543,12 @@
    }
   ],
   "New Brunswick": [
+   {
+    "title": "New Brunswick ponders restricting U.S. hunters, anglers",
+    "source": "Yahoo News Canada",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY050Z3ZlT0p3bmt3emMwNUk0NGxyd3FZeVpWUXlMbXllYVQwQmVCaW5YU1R2aGJKMFVENjUwY2M5OXc4S2dtNnhtYzU0Ti1WZU5uREF3bHlJNEJENVpmOVRJTFBBRHEyaHNXSjU0a0VOUVJZQlhBOEoxcHhkTl9vWXZtQzBCaVU?oc=5",
+    "date": "Mon, 21 Sep 2026 21:58:10 GMT"
+   },
    {
     "title": "Riverview, N.B., to receive long-term care beds as aging population grows",
     "source": "CTV News",
@@ -569,7 +575,7 @@
    },
    {
     "title": "New Brunswick Premier Holt Drops Promise of Stricter Carbon Price for Big Polluters",
-    "source": "energynow.ca",
+    "source": "EnergyNow",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV1ExRmM1TTByNXpTZnRSWFBQQnVPTWpva0QzZXRQMXRETFIyNDd1Vmd4aV95SFRTX0pURF90RWpyV2R2SHN1cUJ3ekdubWhEOXRDSFVOd0QzR3JXSGNhRTEwNjJBeThGN3ExOS04T3F6THc0SGIzdVdEQ2loVnhMbmo2Yk9BLUlRMWlwV2dhZnBDd1I1bUE?oc=5",
     "date": "Fri, 18 Sep 2026 12:43:10 GMT"
    },
@@ -584,26 +590,26 @@
     "source": "Telegraph-Journal",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRGlYYV9zaFgwOWpEdUhQYldWRmh3clJvOUtMUUs1M3VxU0NkNTBzaDdSTTZ0NEhqU1lucTVvVVp3bU01SHZNMWtuRW4xZTRPSEJsUE1qcFJBQmllUmJMbnRJSDltOGRIZmtWcTVUVU16R2pKY09seDgwWTJ0VDBjVlpqYk9DSndaeDVRb3ptd2Vvdk5ySVplR1Vmd2JlQQ?oc=5",
     "date": "Tue, 15 Sep 2026 17:23:25 GMT"
-   },
-   {
-    "title": "‘Devastating’: New Brunswick outfitters concerned about potential licence changes",
-    "source": "CTV News",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEdEaW5QTFBYcFI3SmRBbUZVUjJJVXkyNnRLVDBXV1IyenM2MnVYSG9GVkdKVXZXRmprZ3h0UlRVTkwyQ0hLanN3NzBKbnpNWHBCZ1lfUXlMdHpobElzbW1XQjVrYXdJOVkzb0FKOEFYTUhVQVNqdkRaZWlBMGlKVW1NNUhJRzRDQ3FPeGw2VDdHaERUaml1Tk9NYlQzNnhfbWp0d2Vob1A0X2lUa1NlZk5Kb1NjV0FHU3VOZmtGMXhOZmJuMmlYZDg0TWI0dw?oc=5",
-    "date": "Mon, 14 Sep 2026 21:45:01 GMT"
    }
   ],
   "Nova Scotia": [
    {
-    "title": "Offshore Wind Development Takes Another Step Forward in Nova Scotia",
-    "source": "energynow.ca",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLVZ3ZWZCbGZTSUhOaC1wUVpyLUZSd183RGVReTlyd0NaVFR0bGRMOE1TX1ExRmhYQkRfR0xaQ2p5Z0xiYUtoTVloY3ItMVpxRUdaVHZtTWFLbUxUZzJSa21qb0J1N01YZjZoU0d5akJZcFRIVEJmb0tKVXNiU1VoNzJJVy1NWVBKZnJpSm1iTjlCazFIX2VOODc0WWxaZw?oc=5",
-    "date": "Sun, 20 Sep 2026 20:48:50 GMT"
+    "title": "COMMENTARY: ‘We Have the Resources in Canada’ - Nova Scotia Premier Touts Development During Pivotal Moment for Global Oil and Gas - Chris Varcoe",
+    "source": "EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTVA5Ry0wUWxhVFJLcHJlbS1haThmRGxYbnBieVR6TG91VXdKYmhCWE9pRk5mQVdLTHRzY3IzSVdoZzd1WE9rTktDMTFjU21Yak9rN0tpVmV6M1JDX2FvUW9JRFBKRjJQMy1mMU1qUzgwWDgydVNZS1lBMmhOTU5JQW5ITHBFTFdhQVFmMXNLMWY4LUxKVXZwTk4xSlR3eDQtZUUzbERSUlFPcGhVUVZrS0QxM2puWVBrdllWLWR5Tm94TjV2N0pCMEFVMjh2RzZUUmxMRDRwcl85S3Z2ODV0RHBTWG1reGVvTnJ1Uzd4al9pNGhEZnBEOVZCelI?oc=5",
+    "date": "Mon, 21 Sep 2026 16:41:51 GMT"
    },
    {
-    "title": "COMMENTARY: ‘We Have the Resources in Canada’ - Nova Scotia Premier Touts Development During Pivotal Moment for Global Oil and Gas - Chris Varcoe",
-    "source": "energynow.ca",
-    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTVA5Ry0wUWxhVFJLcHJlbS1haThmRGxYbnBieVR6TG91VXdKYmhCWE9pRk5mQVdLTHRzY3IzSVdoZzd1WE9rTktDMTFjU21Yak9rN0tpVmV6M1JDX2FvUW9JRFBKRjJQMy1mMU1qUzgwWDgydVNZS1lBMmhOTU5JQW5ITHBFTFdhQVFmMXNLMWY4LUxKVXZwTk4xSlR3eDQtZUUzbERSUlFPcGhVUVZrS0QxM2puWVBrdllWLWR5Tm94TjV2N0pCMEFVMjh2RzZUUmxMRDRwcl85S3Z2ODV0RHBTWG1reGVvTnJ1Uzd4al9pNGhEZnBEOVZCelI?oc=5",
-    "date": "Sun, 20 Sep 2026 20:47:26 GMT"
+    "title": "Offshore Wind Development Takes Another Step Forward in Nova Scotia",
+    "source": "EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLVZ3ZWZCbGZTSUhOaC1wUVpyLUZSd183RGVReTlyd0NaVFR0bGRMOE1TX1ExRmhYQkRfR0xaQ2p5Z0xiYUtoTVloY3ItMVpxRUdaVHZtTWFLbUxUZzJSa21qb0J1N01YZjZoU0d5akJZcFRIVEJmb0tKVXNiU1VoNzJJVy1NWVBKZnJpSm1iTjlCazFIX2VOODc0WWxaZw?oc=5",
+    "date": "Mon, 21 Sep 2026 16:26:52 GMT"
+   },
+   {
+    "title": "What changes happened at the legislative sitting in Nova Scotia?",
+    "source": "CityNews Halifax",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNd3Z5bFNyQ1VCZ296MUdoem4wSGM3WHdLbFZ2NVplcHlYTTFjczBVY05vZ2JBZHdNYU95R202M1NZejYtbE82OHFwOF9CWTVWVkE4Vncxb2oyZXJKZzBiYlo5WXRKZWp2Q0xYY1M5S0tGNW51Wlc2eUFxcUZ3UktxR3ktUUhIUmpNT1NaN0hZbXRjMnQwR1oyZWduODlMR3o5QzJOY0hGWl9fNzYwSE5SUF9yVUMyTlB4OG1NVjVVMTFTYkhNYmc?oc=5",
+    "date": "Sat, 19 Sep 2026 17:19:59 GMT"
    },
    {
     "title": "Nova Scotia to mark 52 historic African Nova Scotian communities with new signs",
@@ -613,7 +619,7 @@
    },
    {
     "title": "Could Fracking Help Make Nova Scotia an Energy Powerhouse? Its Premier Thinks So",
-    "source": "energynow.ca",
+    "source": "EnergyNow",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc3EwcFpkMEtXMURZdE5RNVlNTW50dkR6ZXlPRlUyaU85RVc0OHdlVlRTS3FTTXJxLVpWSzczVklXSG1qbU5BSGdQNzlDTnJ5bDZ6RVhlMXJEbWM2NnljX1BneXVIUmRvaUZMRlg0M00wbEp1Zml3ZldhWDV1VnNnaUJEeUhPUkpwWTdaVWl6QndtMVIyaEYyZWw1S1RWa1pqWWtQbEwxTVZ1SFlRTUE?oc=5",
     "date": "Fri, 18 Sep 2026 21:42:49 GMT"
    },
@@ -622,12 +628,6 @@
     "source": "CBC",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1hTNWlpVU9tWHlTUzZqVkRiWnBDV0ZXTkJaZ3lWYTYybmIyYndjdkVYRTkzOXlrR1pCeVpoaFNXTDNnYnBzdjhzN3A2QzlkTmJMbmt3TzFKNFJtanVaR2xfZGtGUzJRWHlxck1hakpwNE1qN3pnY1hTck00ZDZuZ0czRUoxSlVQdUdLMjlTOFJ0MU1lcGtpaXdnZXV5Zm5KXzdDdXFuM2lpMDlN?oc=5",
     "date": "Fri, 18 Sep 2026 19:42:22 GMT"
-   },
-   {
-    "title": "A. Murray MacKay bridge replacement could cost $3 billion but questions abound on who will pay for it",
-    "source": "PNI Atlantic News",
-    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQUpIa2FtenhKQWRIYURrYWRKYnQyVVhUUWhFbHY0YjlvSGJhN2RUZlB2Q0wxaGpzV2FrNlpsd1J5SDZXTHVzX0pSQVdtMHNTNGEwZ216MDd3UUVPOUg1SkV2LWVaa0RicXZJek0wRl8waVU2WXhEUThUT28zOFJVTkhFcjBZcDhNY0kzVDFMTjBKVlRpeVlsWGZaenVVdlk0c2xxY0I2dVR4V2t4UUJvTzJHX2lyZzhvc3NWSjFCb1RHaXVlZXZhek1iYnhXRTZYS0M0N1ZmSTU5Znp1R0pPdE1nSThDSnR0SnRUSGpmS3d0UDlTRUd1enlma1ZHcUw1UHBIdg?oc=5",
-    "date": "Fri, 18 Sep 2026 18:38:31 GMT"
    },
    {
     "title": "New poll: Nova Scotia government's approval rating has recovered from recent plunge",
@@ -658,26 +658,26 @@
   ],
   "Newfoundland and Labrador": [
    {
-    "title": "Political scientist hopes PCs will take MOU concerns voiced during debate seriously",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYURZajF5eWRBNmM0WWdMMnFVOW5XNHpBLVY1U0hUNW9KWXdPLUYwN0JmZF9KTXg2dUpXMXdnX2EyT0tzaEdEQUN3Q3lsemVrdS1HXzJBQmpPbXM5cmh5QjRiVGUzUS1kanNiTnRPcHI0NEhzRjU1V2lUVzJzOG1ScGtRblJTS1dob3hVTmxFUUI?oc=5",
-    "date": "Fri, 18 Sep 2026 14:22:11 GMT"
+    "title": "Newfoundland and Labrador politicians set to vote on Quebec energy proposal",
+    "source": "Canada's National Observer",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaEc4aUN5UXNYYWJ1LVUtb2lzSzlYVE1SVkt0bWdzd2JrNEdjd21aMTkwV05NZkhxY085b3RCX0tjNXB3M3NJQjBtbVpUX01VeE9faXVWTXdIMGgwTElfVGxNMU40X0h2V01mVVdFazdNZFdXSjhiZVBfLW1HT21HTzNBR29KYTlXbUFrZmdvaWp2Zk1wMTZNZEN3NmIxRWVrQ0lOWGkzRnBXSWhxWnRGZkxEUEg?oc=5",
+    "date": "Thu, 17 Sep 2026 09:55:04 GMT"
    },
    {
-    "title": "NunatuKavut president frustrated by feds' decision to stop Indigenous rights bid",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZzZpV0JFdnh6bmVuRTJ1Z2praHFXMnE4QWh5Mm9pVHdTQTk1Z1c5U0Nkekpoa1ZiUDJYY3dfd0lBdTRqYmt3cEo5anU5SGVoLXVyUlRwU2N6LWEwNjZIMndkZWMycTREek1IczFNLXNIUlVRZ3AtQ1ZlRWwyZU93b29zbXhOenZnTmMwZnlsSQ?oc=5",
-    "date": "Thu, 17 Sep 2026 13:01:08 GMT"
+    "title": "Newfoundland and Labrador votes in favour of Quebec energy agreement worth billions",
+    "source": "CTV News",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdGFudkJUeVZ2ZmtyOS1oQ1JaVXlFY3ZTSlBLdEpyTUR4Y2FkX2xKZ0RRZ05tcWJ3aDA3QWJDaVdLeld2enpzZE5pekdlTkxlS0tnTWxGUHY1VFRuRkRfMUdVUFc0WnM3eUV4eXRqd2JGT21DaVBnaDM1eE1mdUpoV3JER1AwODFsOWxINmpmWnJ0THVjTG5WZWJXNlV5YlZwVUV6MWtVMkhEeFZzOThMczF0ZlRMOU51Y1huVGtUWkJRel9QVnZVMmg4S21YQ2dUbFR2TDlac1l0Njk5Qk51VHhEaUtfdw?oc=5",
+    "date": "Thu, 17 Sep 2026 09:47:59 GMT"
    },
    {
     "title": "House of Assembly votes in favour of moving forward with Churchill River power agreement",
-    "source": "CBC",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb0oyVnBNS05mZmg1MUlvMjJUd2hyVGp1TVpNc1Jrbk1ydWxaS2w5UUFLam9MN0VtZzJMV0pUNTdULUFiamkwekZnV2RwWlBET0RoaU94Nk5iMTBHQjlnV1N0RUJDNXM4NWhwR2JMQnlhM3RZalJuX0dDZ3BJdy01OHlEZVNITmVFMHJGcnY4c19NYUpj?oc=5",
+    "source": "Yahoo News Canada",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ3Q0WTNtTjlDV0twTnBXRGZJTWtPZjY3Ty1oc2pleFVPVWZGaUZ2TENiblR3VTRRZVVQcUtMajZmdkdqMUlwSEFuWTlUNWRVa2duS0xkWXZFTHdJc3RLdHhuclJROVZxQVRTcXoxdnoxY3dhVHZ6Yk5zekItbHg5SA?oc=5",
     "date": "Thu, 17 Sep 2026 08:30:00 GMT"
    },
    {
     "title": "Statement from the Premier on the Passage of the Churchill Falls Resolution",
-    "source": "Government of Newfoundland and Labrador",
+    "source": "gov.nl.ca",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51b3hsYVZzdTMzdlUzX0lvTlh6R3dyb3Q0eDNyXzRxTkd5OWJOeEVma0FUUXhxQjIxUDJfV1p2Um9kc0JSeWNNYTh5VDQ0TVJmSG1MbnQyQ05MWVZodGc?oc=5",
     "date": "Thu, 17 Sep 2026 07:00:00 GMT"
    },
@@ -692,12 +692,6 @@
     "source": "PNI Atlantic News",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMDJVT0UxR0dGTVhkVk5fNUlsdDBycVVfSnI3cl9qQzVuZjRXam9Ib1VZdmJCVThNMF92aHBvWmNndmZMbDBnVER4MVk1TkY2aWk4U056YlNYaXROY2dlVW5nMm5YdG8wNmN3bnl4OWhGWmhTeVMyV2RVcmYyalFOXw?oc=5",
     "date": "Tue, 15 Sep 2026 11:01:21 GMT"
-   },
-   {
-    "title": "Critics slam Newfoundland, Quebec power agreement as MLA leaves party",
-    "source": "Global News",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXlxbXRHRjdLc2VWeUV3R3pmSHB0VW9mVmJoTnV1RmowZWx6N2ZhLXB4aG1GZWM3ZkNGcEwyRFFWa1JQZVUyaVVLUFhqQzdfZHRoSXlzQVE0SkJwVTZ4ZVhHRmxDcEdFS3BmSU1qVmNFNUNJbjhQNC1Ca1U5cXczaFVoTENIMENSdEZpbmFyQldFTVZEeGhYSU5IcXpuNUphQmY4S2hSZ2w?oc=5",
-    "date": "Mon, 14 Sep 2026 21:06:40 GMT"
    }
   ],
   "Yukon": [
@@ -729,7 +723,7 @@
   "Northwest Territories": [
    {
     "title": "Canada’s Far North Poised for Economic Turnaround, Premier Says",
-    "source": "energynow.ca",
+    "source": "EnergyNow",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUExYnFSam5zRTJyWUJWZW9PVVl1a003VS1SZEMzRVpWaVdIRHJqaGZwWTRpd2ZkMzh4ajFvbWxCU2RtMlp2M2VWSWhONDdfcGRKR1o1a1NMV2dXYWhZY3NGbmh1N19mVHhBQzV3X0Z6bEdZU1djMmdvXzhycGQyWEVLdVYtd3pqVzd1cTluSUpyaE43dnc?oc=5",
     "date": "Sun, 20 Sep 2026 21:05:56 GMT"
    },
@@ -749,7 +743,7 @@
    },
    {
     "title": "Bold moves signal Nunavut, Ottawa are looking past U.S.",
-    "source": "Nunatsiaq News",
+    "source": "nunatsiaq.com",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNmwtY0NiZUEzTUdabEpTVm9MRFRPNnVRY3JQM3dkVzNTV2NEQXdtdUU4b0lmQ2s4Z0p1Y3h1MmNHWDVNQy1wS2J0ejFxc0FldTFVS2FUUlVGNElIM1liMmgwM3dPbVh6eHA1Y1RJRDZmeGtsTHJtd1hKalhobko5QkdneFdXOHprSENGTmxIMy1iR1lSZ3VZ?oc=5",
     "date": "Sat, 19 Sep 2026 15:30:00 GMT"
    },
