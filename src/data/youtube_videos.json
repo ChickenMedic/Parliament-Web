@@ -1,21 +1,111 @@
 [
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "33jQlYQ0Khg",
-  "title": "Manitoba Premier Wab Kinew delivers remarks in Winnipeg – September 22, 2026",
-  "date": "2026-09-22T17:26:27+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/33jQlYQ0Khg/hqdefault.jpg"
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "3O4IkUR-c6I",
+  "title": "What Should Ontario Protect as It Builds More Housing? | The Rundown",
+  "date": "2026-09-22T22:00:10+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/3O4IkUR-c6I/hqdefault.jpg"
  },
  {
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "Hhh3PFKmWdU",
-  "title": "International Centre for Human Rights holds a news conference on Parliament Hill",
-  "date": "2026-09-22T16:45:36+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/Hhh3PFKmWdU/hqdefault.jpg"
+  "videoId": "fPIUTn1VXxw",
+  "title": "PM Carney speaks at UN event on two-state solution for Israel-Palestine conflict – Sept. 22, 2026",
+  "date": "2026-09-22T21:29:30+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/fPIUTn1VXxw/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "lVaWfcyOIzE",
+  "title": "Premier Danielle Smith speaks with reporters at the Calgary Chamber of Commerce – September 22, 2026",
+  "date": "2026-09-22T21:28:48+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/lVaWfcyOIzE/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "ZyeBkj4B5XA",
+  "title": "Why Nekai Foster's Story Needed to Be Told | The Rundown",
+  "date": "2026-09-22T21:03:45+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/ZyeBkj4B5XA/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "LPyHDxVcaQQ",
+  "title": "PM Mark Carney announces $100M in assistance for Palestinians – September 22, 2026",
+  "date": "2026-09-22T20:39:34+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/LPyHDxVcaQQ/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "AiCzNkF6BzM",
+  "title": "MPs comment on government's AI safety strategy, B.C. election call – September 22, 2026",
+  "date": "2026-09-22T20:32:12+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/AiCzNkF6BzM/hqdefault.jpg"
+ },
+ {
+  "channel": "Canadaland",
+  "handle": "canadaland",
+  "about": "Media criticism and politics podcast",
+  "videoId": "ZGlWA4Iodhg",
+  "title": "Big tech companies draw on nature to make their products feel uncontrollable and essential.",
+  "date": "2026-09-22T20:30:19+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/ZGlWA4Iodhg/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "_cfe1U90xS4",
+  "title": "Preview: Dr. Gabor Maté | (MIS)Treated",
+  "date": "2026-09-22T20:00:28+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/_cfe1U90xS4/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "ezL9IkKIS5E",
+  "title": "Are Gun Violence Victims Accessing the Mental Health Care They Need?",
+  "date": "2026-09-22T19:30:32+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/ezL9IkKIS5E/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "B3rPVnWUonE",
+  "title": "\"Political Incels\" Hurting Alberta",
+  "date": "2026-09-22T19:25:07+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/B3rPVnWUonE/hqdefault.jpg"
+ },
+ {
+  "channel": "J.J. McCullough",
+  "handle": "JJMcCullough",
+  "about": "Conservative-leaning commentary",
+  "videoId": "1P1C0rCJHk8",
+  "title": "The most corrupt election call in Canadian history? (BC)",
+  "date": "2026-09-22T19:22:17+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/1P1C0rCJHk8/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "afoq6-ohJjA",
+  "title": "Anger Politics & Algorithms",
+  "date": "2026-09-22T19:01:58+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/afoq6-ohJjA/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -25,24 +115,6 @@
   "title": "Todd Babiak: What Turns Young Men Into Incels?",
   "date": "2026-09-22T16:31:41+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/jZF-hD1dGYs/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "Kyfgb69fFgM",
-  "title": "Canadian Labour Congress responds to govt’s new economic bill – September 22, 2026",
-  "date": "2026-09-22T15:57:58+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/Kyfgb69fFgM/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "YfWQeFLJ2Lw",
-  "title": "Finance Minister Champagne discusses fuel excise tax bill – September 22, 2026",
-  "date": "2026-09-22T15:55:36+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/YfWQeFLJ2Lw/hqdefault.jpg"
  },
  {
   "channel": "The Breach",
@@ -99,33 +171,6 @@
   "thumbnail": "https://i4.ytimg.com/vi/kO2KMAlAfsU/hqdefault.jpg"
  },
  {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "jRAfJe9LPLo",
-  "title": "How Do We Stop Retaliatory Gun Violence?",
-  "date": "2026-09-22T01:30:18+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/jRAfJe9LPLo/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "kzl7BHiyyaU",
-  "title": "How Do You Rebuild Your Life After Gun Violence? | The Rundown",
-  "date": "2026-09-22T01:00:33+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/kzl7BHiyyaU/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "2h8cDZMIaRI",
-  "title": "How Does a Community Heal After Gun Violence? | The Rundown",
-  "date": "2026-09-22T00:30:30+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/2h8cDZMIaRI/hqdefault.jpg"
- },
- {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -144,24 +189,6 @@
   "thumbnail": "https://i2.ytimg.com/vi/qWeBQ6h4IiI/hqdefault.jpg"
  },
  {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "YjmRIBMwOSU",
-  "title": "\"Does This Country Actually Want Us?\"",
-  "date": "2026-09-21T19:22:29+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/YjmRIBMwOSU/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "k9ZwNvMIp30",
-  "title": "Danielle Smith in Tears // Canada's Airport Sell-Off",
-  "date": "2026-09-21T16:52:16+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/k9ZwNvMIp30/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -178,15 +205,6 @@
   "title": "Why is a small Ontario town protesting Trump? Also, a call-in show!",
   "date": "2026-09-21T14:42:58+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/yLmgaKP3L_k/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "b5Sp23FbekY",
-  "title": "Do you still call it the SkyDome?",
-  "date": "2026-09-21T13:00:39+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/b5Sp23FbekY/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -250,14 +268,5 @@
   "title": "Movie review: TONY, the Anthony Bourdain story",
   "date": "2026-09-10T19:57:24+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/Mz98fPZ0bKo/hqdefault.jpg"
- },
- {
-  "channel": "Canadaland",
-  "handle": "canadaland",
-  "about": "Media criticism and politics podcast",
-  "videoId": "4WqMierDTDM",
-  "title": "What does it mean to be living in a moment of unchecked Canadian patriotism? #cdnpoli #politics",
-  "date": "2026-09-10T17:15:22+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/4WqMierDTDM/hqdefault.jpg"
  }
 ]
