@@ -7,31 +7,31 @@
   "workUrl": "https://www.ourcommons.ca/committees/en/FINA/Work",
   "chairName": "Karina Gould",
   "viceChairs": [
-   "Jasraj Hallan",
+   "Eric Lefebvre",
    "Jean-Denis Garon"
   ],
   "members": [
-   "Sandra Cobena",
-   "Pat Kelly",
+   "Michael Guglielmin",
+   "Tamara Jansen",
    "Steeve Lavoie",
-   "Eric Lefebvre",
    "Carlos Leitão",
    "Kent MacDonald",
    "Danielle Martin",
+   "Greg McLean",
    "Jake Sawatzky",
    "Ryan Turnbull"
   ],
   "parties": {
    "Karina Gould": "Liberal",
-   "Jasraj Hallan": "Conservative",
-   "Jean-Denis Garon": "Bloc Québécois",
-   "Sandra Cobena": "Conservative",
-   "Pat Kelly": "Conservative",
-   "Steeve Lavoie": "Liberal",
    "Eric Lefebvre": "Conservative",
+   "Jean-Denis Garon": "Bloc Québécois",
+   "Michael Guglielmin": "Conservative",
+   "Tamara Jansen": "Conservative",
+   "Steeve Lavoie": "Liberal",
    "Carlos Leitão": "Liberal",
    "Kent MacDonald": "Liberal",
    "Danielle Martin": "Liberal",
+   "Greg McLean": "Conservative",
    "Jake Sawatzky": "Liberal",
    "Ryan Turnbull": "Liberal"
   },
@@ -48,14 +48,13 @@
   "url": "https://www.ourcommons.ca/committees/en/HESA",
   "workUrl": "https://www.ourcommons.ca/committees/en/HESA/Work",
   "chairName": "Sukh Dhaliwal",
-  "viceChairs": [
-   "Dan Mazier",
-   "Maxime Blanchette-Joncas"
-  ],
+  "viceChairs": [],
   "members": [
    "Burton Bailey",
    "Maggie Chi",
+   "Raquel Dancho",
    "Doug Eyolfson",
+   "Marie-Hélène Gaudreau",
    "Helena Jaczek",
    "Helena Konanz",
    "Aslam Rana",
@@ -65,11 +64,11 @@
   ],
   "parties": {
    "Sukh Dhaliwal": "Liberal",
-   "Dan Mazier": "Conservative",
-   "Maxime Blanchette-Joncas": "Bloc Québécois",
    "Burton Bailey": "Conservative",
    "Maggie Chi": "Liberal",
+   "Raquel Dancho": "Conservative",
    "Doug Eyolfson": "Liberal",
+   "Marie-Hélène Gaudreau": "Bloc Québécois",
    "Helena Jaczek": "Liberal",
    "Helena Konanz": "Conservative",
    "Aslam Rana": "Liberal",
@@ -90,37 +89,35 @@
   "url": "https://www.ourcommons.ca/committees/en/FAAE",
   "workUrl": "https://www.ourcommons.ca/committees/en/FAAE/Work",
   "chairName": "Ahmed Hussen",
-  "viceChairs": [
-   "Michael D. Chong",
-   "Alexis Brunelle-Duceppe"
-  ],
+  "viceChairs": [],
   "members": [
    "Ziad Aboultaif",
    "Braedon Clark",
+   "Anju Dhillon",
+   "Eric Duncan",
    "Mona Fortier",
-   "Shelby Kramp-Neuman",
+   "Philip Lawrence",
+   "Jacob Mantle",
    "Robert Oliphant",
-   "Lianne Rood",
    "Abdelhaq Sari",
    "Anita Vandenbeld"
   ],
   "parties": {
    "Ahmed Hussen": "Liberal",
-   "Michael D. Chong": "Conservative",
-   "Alexis Brunelle-Duceppe": "Bloc Québécois",
    "Ziad Aboultaif": "Conservative",
    "Braedon Clark": "Liberal",
+   "Anju Dhillon": "Liberal",
+   "Eric Duncan": "Conservative",
    "Mona Fortier": "Liberal",
-   "Shelby Kramp-Neuman": "Conservative",
+   "Philip Lawrence": "Conservative",
+   "Jacob Mantle": "Conservative",
    "Robert Oliphant": "Liberal",
-   "Lianne Rood": "Conservative",
    "Abdelhaq Sari": "Liberal",
    "Anita Vandenbeld": "Liberal"
   },
   "partySeats": {
-   "Liberal": 6,
-   "Conservative": 4,
-   "Bloc": 1
+   "Liberal": 7,
+   "Conservative": 4
   }
  },
  {
@@ -130,12 +127,10 @@
   "url": "https://www.ourcommons.ca/committees/en/NDDN",
   "workUrl": "https://www.ourcommons.ca/committees/en/NDDN/Work",
   "chairName": "Charles Sousa",
-  "viceChairs": [
-   "James Bezan",
-   "Christine Normandin"
-  ],
+  "viceChairs": [],
   "members": [
    "Scott Anderson",
+   "Xavier Barsalou-Duval",
    "Philip Earle",
    "Cheryl Gallant",
    "Lori Idlout",
@@ -147,9 +142,8 @@
   ],
   "parties": {
    "Charles Sousa": "Liberal",
-   "James Bezan": "Conservative",
-   "Christine Normandin": "Bloc Québécois",
    "Scott Anderson": "Conservative",
+   "Xavier Barsalou-Duval": "Bloc Québécois",
    "Philip Earle": "Liberal",
    "Cheryl Gallant": "Conservative",
    "Lori Idlout": "Liberal",
@@ -161,7 +155,7 @@
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 4,
+   "Conservative": 3,
    "Bloc": 1
   }
  },
@@ -172,35 +166,32 @@
   "url": "https://www.ourcommons.ca/committees/en/PACP",
   "workUrl": "https://www.ourcommons.ca/committees/en/PACP/Work",
   "chairName": "John Williamson",
-  "viceChairs": [
-   "Jean Yip",
-   "Sébastien Lemire"
-  ],
+  "viceChairs": [],
   "members": [
-   "Gérard Deltell",
-   "Ned Kuruc",
-   "Stephanie Kusie",
-   "Michael Ma",
+   "Maxime Blanchette-Joncas",
+   "Ted Falk",
+   "Daniel Gobeil",
+   "Jasraj Hallan",
    "Ron McKinnon",
    "Tom Osborne",
+   "William Stevenson",
    "Kristina Tesser Derksen"
   ],
   "parties": {
    "John Williamson": "Conservative",
-   "Jean Yip": "Liberal",
-   "Sébastien Lemire": "Bloc Québécois",
-   "Gérard Deltell": "Conservative",
-   "Ned Kuruc": "Conservative",
-   "Stephanie Kusie": "Conservative",
-   "Michael Ma": "Liberal",
+   "Maxime Blanchette-Joncas": "Bloc Québécois",
+   "Ted Falk": "Conservative",
+   "Daniel Gobeil": "Liberal",
+   "Jasraj Hallan": "Conservative",
    "Ron McKinnon": "Liberal",
    "Tom Osborne": "Liberal",
+   "William Stevenson": "Conservative",
    "Kristina Tesser Derksen": "Liberal"
   },
   "partySeats": {
    "Conservative": 4,
-   "Liberal": 5,
-   "Bloc": 1
+   "Bloc": 1,
+   "Liberal": 4
   }
  },
  {
@@ -215,13 +206,13 @@
    "Patrick Bonin"
   ],
   "members": [
-   "Carol Anstey",
    "David Bexte",
    "Bruce Fanjoy",
    "Wade Grant",
    "Will Greaves",
    "Branden Leslie",
    "Chris Malette",
+   "Jonathan Rowe",
    "Eric St-Pierre",
    "Tim Watchorn"
   ],
@@ -229,13 +220,13 @@
    "Shannon Miedema": "Liberal",
    "Ellis Ross": "Conservative",
    "Patrick Bonin": "Bloc Québécois",
-   "Carol Anstey": "Conservative",
    "David Bexte": "Conservative",
    "Bruce Fanjoy": "Liberal",
    "Wade Grant": "Liberal",
    "Will Greaves": "Liberal",
    "Branden Leslie": "Conservative",
    "Chris Malette": "Liberal",
+   "Jonathan Rowe": "Conservative",
    "Eric St-Pierre": "Liberal",
    "Tim Watchorn": "Liberal"
   },
@@ -253,12 +244,13 @@
   "workUrl": "https://www.ourcommons.ca/committees/en/JUST/Work",
   "chairName": "Iqra Khalid",
   "viceChairs": [
+   "Arpan Khanna",
    "Rhéal Éloi Fortin"
   ],
   "members": [
    "Roman Baber",
    "Doly Begum",
-   "Anju Dhillon",
+   "Wade Chang",
    "Amarjeet Gill",
    "Marilyn Gladu",
    "Anthony Housefather",
@@ -268,10 +260,11 @@
   ],
   "parties": {
    "Iqra Khalid": "Liberal",
+   "Arpan Khanna": "Conservative",
    "Rhéal Éloi Fortin": "Bloc Québécois",
    "Roman Baber": "Conservative",
    "Doly Begum": "Liberal",
-   "Anju Dhillon": "Liberal",
+   "Wade Chang": "Liberal",
    "Amarjeet Gill": "Conservative",
    "Marilyn Gladu": "Liberal",
    "Anthony Housefather": "Liberal",
@@ -281,8 +274,8 @@
   },
   "partySeats": {
    "Liberal": 7,
-   "Bloc": 1,
-   "Conservative": 3
+   "Conservative": 4,
+   "Bloc": 1
   }
  },
  {
@@ -292,37 +285,35 @@
   "url": "https://www.ourcommons.ca/committees/en/RNNR",
   "workUrl": "https://www.ourcommons.ca/committees/en/RNNR/Work",
   "chairName": "Terry Duguid",
-  "viceChairs": [
-   "Shannon Stubbs",
-   "Mario Simard"
-  ],
+  "viceChairs": [],
   "members": [
+   "Carol Anstey",
    "John-Paul Danko",
    "Claude Guay",
    "Corey Hogan",
+   "Pat Kelly",
    "Gaétan Malette",
    "Jennifer McKelvie",
+   "Jeremy Patzer",
    "Gurbux Saini",
-   "Eric St-Pierre",
-   "Corey Tochor"
+   "Eric St-Pierre"
   ],
   "parties": {
    "Terry Duguid": "Liberal",
-   "Shannon Stubbs": "Conservative",
-   "Mario Simard": "Bloc Québécois",
+   "Carol Anstey": "Conservative",
    "John-Paul Danko": "Liberal",
    "Claude Guay": "Liberal",
    "Corey Hogan": "Liberal",
+   "Pat Kelly": "Conservative",
    "Gaétan Malette": "Conservative",
    "Jennifer McKelvie": "Liberal",
+   "Jeremy Patzer": "Conservative",
    "Gurbux Saini": "Liberal",
-   "Eric St-Pierre": "Liberal",
-   "Corey Tochor": "Conservative"
+   "Eric St-Pierre": "Liberal"
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 3,
-   "Bloc": 1
+   "Conservative": 4
   }
  },
  {
@@ -332,35 +323,31 @@
   "url": "https://www.ourcommons.ca/committees/en/ETHI",
   "workUrl": "https://www.ourcommons.ca/committees/en/ETHI/Work",
   "chairName": "John Brassard",
-  "viceChairs": [
-   "Linda Lapointe",
-   "Luc Thériault"
-  ],
+  "viceChairs": [],
   "members": [
    "Fares Al Soud",
-   "Michael Barrett",
    "Bardish Chagger",
-   "Wade Chang",
    "Leslie Church",
-   "Michael Cooper",
-   "Gabriel Hardy"
+   "Aaron Gunn",
+   "Gabriel Hardy",
+   "Jamil Jivani",
+   "Tanveer Shahnawaz",
+   "Kristina Tesser Derksen"
   ],
   "parties": {
    "John Brassard": "Conservative",
-   "Linda Lapointe": "Liberal",
-   "Luc Thériault": "Bloc Québécois",
    "Fares Al Soud": "Liberal",
-   "Michael Barrett": "Conservative",
    "Bardish Chagger": "Liberal",
-   "Wade Chang": "Liberal",
    "Leslie Church": "Liberal",
-   "Michael Cooper": "Conservative",
-   "Gabriel Hardy": "Conservative"
+   "Aaron Gunn": "Conservative",
+   "Gabriel Hardy": "Conservative",
+   "Jamil Jivani": "Conservative",
+   "Tanveer Shahnawaz": "Liberal",
+   "Kristina Tesser Derksen": "Liberal"
   },
   "partySeats": {
    "Conservative": 4,
-   "Liberal": 5,
-   "Bloc": 1
+   "Liberal": 5
   }
  },
  {
@@ -375,29 +362,29 @@
    "Sébastien Lemire"
   ],
   "members": [
-   "Richard Bragdon",
+   "Steven Bonk",
    "Sophie Chatel",
    "Paul Connors",
    "Marianne Dandurand",
    "Dave Epp",
+   "Daniel Gobeil",
    "Jacques Gourde",
-   "Emma Harrison",
-   "Kent MacDonald",
-   "Giovanna Mingarelli"
+   "Tim Louis",
+   "Kent MacDonald"
   ],
   "parties": {
    "Michael Coteau": "Liberal",
    "John Barlow": "Conservative",
    "Sébastien Lemire": "Bloc Québécois",
-   "Richard Bragdon": "Conservative",
+   "Steven Bonk": "Conservative",
    "Sophie Chatel": "Liberal",
    "Paul Connors": "Liberal",
    "Marianne Dandurand": "Liberal",
    "Dave Epp": "Conservative",
+   "Daniel Gobeil": "Liberal",
    "Jacques Gourde": "Conservative",
-   "Emma Harrison": "Liberal",
-   "Kent MacDonald": "Liberal",
-   "Giovanna Mingarelli": "Liberal"
+   "Tim Louis": "Liberal",
+   "Kent MacDonald": "Liberal"
   },
   "partySeats": {
    "Liberal": 7,
@@ -418,8 +405,8 @@
   ],
   "members": [
    "Wade Chang",
-   "Fred Davies",
    "Peter Fragiskatos",
+   "Grant Jackson",
    "Matt Jeneroux",
    "Natilien Joseph",
    "Costas Menegakis",
@@ -432,8 +419,8 @@
    "Michelle Rempel Garner": "Conservative",
    "Alexis Deschênes": "Bloc Québécois",
    "Wade Chang": "Liberal",
-   "Fred Davies": "Conservative",
    "Peter Fragiskatos": "Liberal",
+   "Grant Jackson": "Conservative",
    "Matt Jeneroux": "Liberal",
    "Natilien Joseph": "Liberal",
    "Costas Menegakis": "Conservative",
@@ -455,30 +442,30 @@
   "workUrl": "https://www.ourcommons.ca/committees/en/INDU/Work",
   "chairName": "Ben Carr",
   "viceChairs": [
-   "Raquel Dancho",
+   "Adam Chambers",
    "Gabriel Ste-Marie"
   ],
   "members": [
    "Parm Bains",
    "Karim Bardeesy",
    "Doly Begum",
-   "Kathy Borrelli",
-   "Ted Falk",
-   "Michael Guglielmin",
+   "Harb Gill",
+   "Jason Groleau",
+   "Leslyn Lewis",
    "Michael Ma",
    "Bienvenu-Olivier Ntumba",
    "Dominique O'Rourke"
   ],
   "parties": {
    "Ben Carr": "Liberal",
-   "Raquel Dancho": "Conservative",
+   "Adam Chambers": "Conservative",
    "Gabriel Ste-Marie": "Bloc Québécois",
    "Parm Bains": "Liberal",
    "Karim Bardeesy": "Liberal",
    "Doly Begum": "Liberal",
-   "Kathy Borrelli": "Conservative",
-   "Ted Falk": "Conservative",
-   "Michael Guglielmin": "Conservative",
+   "Harb Gill": "Conservative",
+   "Jason Groleau": "Conservative",
+   "Leslyn Lewis": "Conservative",
    "Michael Ma": "Liberal",
    "Bienvenu-Olivier Ntumba": "Liberal",
    "Dominique O'Rourke": "Liberal"
@@ -502,13 +489,13 @@
   ],
   "members": [
    "Sima Acan",
-   "Chak Au",
    "Marianne Dandurand",
    "Anthony Housefather",
    "Rhonda Kirkland",
    "Dane Lloyd",
    "Marcus Powlowski",
    "Jacques Ramsay",
+   "Blake Richards",
    "Amandeep Sodhi"
   ],
   "parties": {
@@ -516,13 +503,13 @@
    "Frank Caputo": "Conservative",
    "Claude DeBellefeuille": "Bloc Québécois",
    "Sima Acan": "Liberal",
-   "Chak Au": "Conservative",
    "Marianne Dandurand": "Liberal",
    "Anthony Housefather": "Liberal",
    "Rhonda Kirkland": "Conservative",
    "Dane Lloyd": "Conservative",
    "Marcus Powlowski": "Liberal",
    "Jacques Ramsay": "Liberal",
+   "Blake Richards": "Conservative",
    "Amandeep Sodhi": "Liberal"
   },
   "partySeats": {
@@ -543,12 +530,12 @@
    "Xavier Barsalou-Duval"
   ],
   "members": [
+   "Fred Davies",
    "Jessica Fancy",
+   "Kurt Holman",
    "Angelo Iacono",
    "Mike Kelloway",
    "Stéphane Lauzon",
-   "Philip Lawrence",
-   "Leslyn Lewis",
    "Dan Muys",
    "Chi Nguyen",
    "Dominique O'Rourke"
@@ -557,12 +544,12 @@
    "Peter Schiefke": "Liberal",
    "Dan Albas": "Conservative",
    "Xavier Barsalou-Duval": "Bloc Québécois",
+   "Fred Davies": "Conservative",
    "Jessica Fancy": "Liberal",
+   "Kurt Holman": "Conservative",
    "Angelo Iacono": "Liberal",
    "Mike Kelloway": "Liberal",
    "Stéphane Lauzon": "Liberal",
-   "Philip Lawrence": "Conservative",
-   "Leslyn Lewis": "Conservative",
    "Dan Muys": "Conservative",
    "Chi Nguyen": "Liberal",
    "Dominique O'Rourke": "Liberal"
@@ -587,10 +574,10 @@
   "members": [
    "Caroline Desrochers",
    "Garnett Genuis",
-   "Laila Goodridge",
    "Emma Harrison",
    "Natilien Joseph",
    "Annie Koutrakis",
+   "Shelby Kramp-Neuman",
    "Colin Reynolds",
    "Gurbux Saini",
    "Louis Villeneuve"
@@ -601,10 +588,10 @@
    "Andréanne Larouche": "Bloc Québécois",
    "Caroline Desrochers": "Liberal",
    "Garnett Genuis": "Conservative",
-   "Laila Goodridge": "Conservative",
    "Emma Harrison": "Liberal",
    "Natilien Joseph": "Liberal",
    "Annie Koutrakis": "Liberal",
+   "Shelby Kramp-Neuman": "Conservative",
    "Colin Reynolds": "Conservative",
    "Gurbux Saini": "Liberal",
    "Louis Villeneuve": "Liberal"
@@ -629,13 +616,13 @@
   "members": [
    "Fares Al Soud",
    "Tatiana Auguste",
-   "Kerry Diotte",
-   "Bernard Généreux",
+   "Gabriel Hardy",
    "Alana Hirtle",
+   "Ned Kuruc",
+   "Andrew Lawton",
    "David Myles",
    "Bienvenu-Olivier Ntumba",
-   "Zoe Royer",
-   "Kevin Waugh"
+   "Zoe Royer"
   ],
   "parties": {
    "Lisa Hepfner": "Liberal",
@@ -643,13 +630,13 @@
    "Martin Champoux": "Bloc Québécois",
    "Fares Al Soud": "Liberal",
    "Tatiana Auguste": "Liberal",
-   "Kerry Diotte": "Conservative",
-   "Bernard Généreux": "Conservative",
+   "Gabriel Hardy": "Conservative",
    "Alana Hirtle": "Liberal",
+   "Ned Kuruc": "Conservative",
+   "Andrew Lawton": "Conservative",
    "David Myles": "Liberal",
    "Bienvenu-Olivier Ntumba": "Liberal",
-   "Zoe Royer": "Liberal",
-   "Kevin Waugh": "Conservative"
+   "Zoe Royer": "Liberal"
   },
   "partySeats": {
    "Liberal": 7,

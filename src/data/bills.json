@@ -1121,7 +1121,7 @@
   "id": "C-10",
   "title": "Commissioner for Modern Treaty Implementation Act",
   "longTitle": "An Act respecting the Commissioner for Modern Treaty Implementation",
-  "status": "At third reading in the House of Commons",
+  "status": "House of Commons bill awaiting first reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -1131,8 +1131,8 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Crown-Indigenous Relations",
   "sponsorRiding": "Northwest Territories",
-  "latestActivity": "Concurrence at report stage",
-  "latestActivityDate": "2026-04-21",
+  "latestActivity": "Third reading",
+  "latestActivityDate": "2026-09-21",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -1149,7 +1149,7 @@
    {
     "key": "houseThirdReading",
     "label": "Third reading (House)",
-    "date": null
+    "date": "2026-09-21"
    },
    {
     "key": "senateFirstReading",
@@ -1189,7 +1189,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-10",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-10/first-reading"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-10/as-passed-by-the-house-of-commons"
  },
  {
   "id": "C-11",
@@ -1737,6 +1737,12 @@
     "date": "Wed, 29 Jul 2026 07:00:00 GMT"
    },
    {
+    "title": "Bail and Sentencing Reform Act amending Criminal Code gets Royal Assent",
+    "source": "Canadian Lawyer",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHVmY1prZE1VRHpOanRfOFZONjU5bWUtazRPOUhsUVkwcUYxZ2QwLVNISHRQMENkajB6WU5ZUnFFU0JRQUJXVnREZzJHMXVvOS04d21BOFBOREdCOTliRklhUUlJSHFGd2F1SG84V2QtV2tVRmhaVWY3RVJSODRlMU16azNHTjVXYWt1emlUdWtucGJmdlJoVG04aFpzNGFrYTlSWGpRNU54OE9zdGlmUFhhNXVJRFBSdGhSb3RsRWo3MUk?oc=5",
+    "date": "Wed, 15 Jul 2026 07:00:00 GMT"
+   },
+   {
     "title": "Minister Fraser on concerns surrounding public safety and Bill C-14",
     "source": "Global News",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vRnhfQ1pIZ205QXNLakxoNlZrcUozYjBEV1JSSzlCcFZQMGxpU1VVcGpCNldjSUprRkpjeE4wYzFmQXFqNVFLWEF2eTNWRVZ0M3preVNyWGhabmYtblE?oc=5",
@@ -1746,12 +1752,6 @@
     "title": "Bill C-14 receives royal assent, 'shepherding' in sweeping justice system reforms",
     "source": "Toronto Sun",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBaOHM0YUVYZjkwbnV1TVgweE1UbF9JV0lnNnVWNEZPUVdsM1JhSC1GZFoxM1l2Q3NQcWhnUmZvckNLSFc4X0pieGNQVWFMY0czTzZLZG9EaklaTVVvT1N0SFQzZ055d1dOdjFyNFpxcXRoV1RSakxMM0hmb1g?oc=5",
-    "date": "Mon, 22 Jun 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Minister Fraser Highlights Bail and Sentencing Reform Act – June 22, 2026 - Headline Politics",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQlRHLWZPcGlSVmc1S2w1Z19zT0pQZ3NCODZpd3NIaEpacUVGYVpydVpFSUNSbTRkWDJfQVJkaFA3UnNiRS1LdU4yTk85dlVWc3YyWWZLa2RoVXVmaEtzMUVZazN6VHUyRzVlTjdsYW5BSnFWcXB4SWxGSEJEeGtvTkdBemlzZGdRendGVmdzYTUtNGZMclRxN1NrOHUyUHp6RW5lZVZfU0JfR040aTNJemdnWDc2ZThsWXlqT1pVVVVQLV90WTZ5bU1zYnMzRG84SmVnOVJNS0V1WmV0Sml1YU1HLTdUWmlGQ2hYOUh3?oc=5",
     "date": "Mon, 22 Jun 2026 07:00:00 GMT"
    }
   ],
@@ -2451,6 +2451,12 @@
   ],
   "media": [
    {
+    "title": "Build Canada Homes Act receives royal assent",
+    "source": "WestCentralOnline",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbmZ2LWtGUXQ2RGZpbXB2bFlIR1hKUGt6MnFWSGR0eVVCaS1QVk50QVpZcGhhZnV3TmxHNEZ4cEd0aHNlX2NrU3Z5eUIyd1NrdUNyTUg0ck9RQVRsRHA5SS1wS2ktblJYd0RPYzVGOEkzWXpEUmoxOHRROENpMDgya1dvMjRIMmw4Zlo5NnFnZmY?oc=5",
+    "date": "Fri, 03 Jul 2026 07:00:00 GMT"
+   },
+   {
     "title": "Federal Build Canada Homes Act becomes law",
     "source": "Ontario Construction News",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTEVmM2hRUVNvZWpqNC1XV3ZzYTMtdkFRYl9VaS1zbnJwWGNONkxQZmFTblNSUnJqem1VVG5yQVlUa0wtaXNYR2QtSHF5VzY0MjZuZ1RfODFGQ1RMa2lBMW9UWThjS2ZvbllmcFZDYkVoQjJBd0lyT2pIVW02WnUyZk42YmY?oc=5",
@@ -2479,12 +2485,6 @@
     "source": "missingmiddleinitiative.ca",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSGlON1hoeTlNV2o1Y05lZUtLNTRucmVYeldQdUdOdEN5SGs4UVQxVlJCcEdSNjUyOGltWkpsM3pZRVYxVjE2cGd4b1pGbWJzbEIwUU5LRGFEZ2xPSGZJU25uRmRlX012OU9ZWGduUkZZSkg2TG1pdHRReHNPQjhSVnZpRDY2ZlU?oc=5",
     "date": "Thu, 16 Apr 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Federal Government Introduces Build Canada Homes Act – February 5, 2026",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOWJfQkJpVXVQVlQzdF8tNXFSb3Aya3diWVFNTTlQLXp2dXZpak15R0RlcWkwbXRobThsYXhrTVpWS2c3NFd5RDcwOGxUWGhmd2VrUUF6LUlNMFZtMzhhSlIwUEV5ZmozbnUxWGM5aGIyMjBjZ3BpSUlsZ1pZam1TT3V2OFZ5b2tjcFRaejZFWS04WVNQdkVGV1FWWjFpT1FyelVNUnphMEEzWVhQU1poYzJMUWg4Z0p6UnBmTG5pVlBKbjZmR1RYNlhFOTBCa3gtNnVWdkxVSmEwcjVaN0N3TVM4Y3VVVjY1YnlZ?oc=5",
-    "date": "Thu, 05 Feb 2026 08:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-20",
@@ -3850,6 +3850,12 @@
     "date": "Wed, 16 Sep 2026 18:00:27 GMT"
    },
    {
+    "title": "Right Goal Wrong Execution: Can Bill C-34 Keep Kids Safe Without Sacrificing Digital Rights?",
+    "source": "OpenMedia",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb0g2X0pRbU1OTXd0dVJsaVZ6ODU2UHZsX0prUGQzcVlqZEJqbEU3VDFzX0tfVUU1ZnpRV0doTnR0ZjBxS25LLXhGenV2c1QxeHJjT3VMRmJ6YWtlRll6UlFqakE5MFNmNU9NcjlJT1ZyX2M2RGllam1yN3YzNjFEVEM5WThZZU9nTzg4dmh0ajNtMDg5YU9MeXpCYnlYMWxSYTliMzNjTWdCdGRiTnNra0ZWRXBlWExpc2xXVE5QaFNpNFU?oc=5",
+    "date": "Tue, 15 Sep 2026 22:04:19 GMT"
+   },
+   {
     "title": "Big Money, Bigger Design Changes: What the Meta Settlement Means for Canada, Bill C-34, and the Age Verification and Privacy Risks That Remain",
     "source": "Michael Geist -",
     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOcVExMjJmeHBKWWxYTzdnTFFMVmExMWU0VWZvZWM1QUJwdkt6MGJyMjlLdVNIQTZNR0JoZzJ0bFkzbGRBbnFyc3FUN0NOT05sRS0tUW9GWnU2T2RyYTNxNm9Hem1QM0V3RkkwNXhCVlBLRkh4Tlc1NEQtU0lkRHEwa2Q2MkNPX1BfQ2ZIZ184R2hWQVZjOWo4cGczekk4Tllybkt5cE45WEs4WXBidVVKVGt0Tk1CYmpzd1lkR3BqaFpJTDhfa0ZMWGxSNWJ1cW5VcVh5dDAtMGRNbS1uMmxKR3FPaFVTY2pmYlFuck9nUV9sb0I3THlISkQtWThlaGtJYTMybnVn?oc=5",
@@ -3872,12 +3878,6 @@
     "source": "CPAC",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdWttTlYyYkZweTZTN2VKRmt5Rkg0c2VVZENzQnhUWGRIZzVUWldzaXZuZFM1eFhWeUxveVNsN3BuR21YRkIzTDh4TFdMc2U5ZkpKUWNrWnBCYWZVZnZ3RXNLVEEtN2pfX3NuTnV6dGxxVXZYRG51M2ZwWHhXUVhHb1JHY2NvelRJaHdrRDdCQlJKVnRRREsxa0FTV2xYQ3VuZzZ4QjNRVFA2V29QbTRPWTBzb2ExTlFSRHpCcE9HNXIwR3pfcnVnMmMzSkwycUtUbHJYVlFKOUEzaXZMN255OXhR?oc=5",
     "date": "Mon, 27 Jul 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Safe Social Media Act seen as unconstitutional, unworkable",
-    "source": "CBA National Magazine",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTFZxRFE4T0wzeWw3ZzdXbV94TWlMeFhjaE1nSVVmTlBOeVFhODZXbFpic1dqYWFZX0t5Qlo5bzYzMGJoa1phYVZxQmcxOUFwVnNENlJhWEx0WVRTSDZ1N0hXU1Vpak94SXBrVGxKc3R2cjVoVldrcmdydkNvWDdFYUlTY3duMEhtOFhmeERuclZwSmoxWEwtZGlaN0dQNUdjdXh5YUVmQktFVDJsWlU4VQ?oc=5",
-    "date": "Wed, 22 Jul 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
@@ -4170,6 +4170,177 @@
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-37",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-37/first-reading"
+ },
+ {
+  "id": "C-38",
+  "title": "Canadian Fuel Affordability Act",
+  "longTitle": "An Act to amend the Excise Tax Act (extension of the federal fuel excise tax relief)",
+  "status": "At consideration in committee in the House of Commons",
+  "receivedRoyalAssent": false,
+  "type": "Government Bill",
+  "originatingChamber": "House of Commons",
+  "category": "Finance",
+  "sponsor": "Hon. François-Philippe Champagne",
+  "sponsorParty": "Liberal",
+  "sponsorRole": "Minister",
+  "sponsorTitle": "Minister of Finance and National Revenue",
+  "sponsorRiding": "Saint-Maurice—Champlain",
+  "latestActivity": "Second reading and referral to committee",
+  "latestActivityDate": "2026-09-22",
+  "latestActivityChamber": "House of Commons",
+  "committee": {
+   "acronym": "FINA",
+   "name": "Standing Committee on Finance",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/FINA"
+  },
+  "stages": [
+   {
+    "key": "houseFirstReading",
+    "label": "First reading (House)",
+    "date": "2026-09-21"
+   },
+   {
+    "key": "houseSecondReading",
+    "label": "Second reading (House)",
+    "date": "2026-09-22"
+   },
+   {
+    "key": "houseThirdReading",
+    "label": "Third reading (House)",
+    "date": null
+   },
+   {
+    "key": "senateFirstReading",
+    "label": "First reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateSecondReading",
+    "label": "Second reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateThirdReading",
+    "label": "Third reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "royalAssent",
+    "label": "Royal Assent",
+    "date": null
+   }
+  ],
+  "partyPositions": null,
+  "votes": [],
+  "media": [
+   {
+    "title": "Canadian Chamber Welcomes Bill C-38, A Step Toward Reliable Supply Chains",
+    "source": "Canadian Chamber of Commerce",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPenRaVTFPTUlfTEx2S3RITGx1dGFRR1ZmV2xCXzlnbTFyMDFOUGhVZzZfNWlRQ0tMVE16U2Jub1o2TWJXc0lPRHdRd0JxRWVCZWhTNHljUHdwZG8tUVVqZ0NCOENJWjBsN0QxbWhudFFrTnppZVNFQlNySjQ4UUd2X215Z241Qy0xNVBwbFlaODZKalk5YUxZQzgxWXRUVTRTdFlXbUdBSGFkaGhSTWNpeXJTcWFoQlhiUjlv?oc=5",
+    "date": "Tue, 22 Sep 2026 01:38:56 GMT"
+   }
+  ],
+  "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-38",
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-38/first-reading"
+ },
+ {
+  "id": "C-39",
+  "title": "Building Canada Strong Act",
+  "longTitle": "An Act respecting certain measures to strengthen the economy",
+  "status": "At second reading in the House of Commons",
+  "receivedRoyalAssent": false,
+  "type": "Government Bill",
+  "originatingChamber": "House of Commons",
+  "category": "Other",
+  "sponsor": "Hon. Steven MacKinnon",
+  "sponsorParty": "Liberal",
+  "sponsorRole": "Minister",
+  "sponsorTitle": "Minister of Transport and Leader of the Government in the House of Commons",
+  "sponsorRiding": "Gatineau",
+  "latestActivity": "Introduction and first reading",
+  "latestActivityDate": "2026-09-21",
+  "latestActivityChamber": "House of Commons",
+  "committee": null,
+  "stages": [
+   {
+    "key": "houseFirstReading",
+    "label": "First reading (House)",
+    "date": "2026-09-21"
+   },
+   {
+    "key": "houseSecondReading",
+    "label": "Second reading (House)",
+    "date": null
+   },
+   {
+    "key": "houseThirdReading",
+    "label": "Third reading (House)",
+    "date": null
+   },
+   {
+    "key": "senateFirstReading",
+    "label": "First reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateSecondReading",
+    "label": "Second reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateThirdReading",
+    "label": "Third reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "royalAssent",
+    "label": "Royal Assent",
+    "date": null
+   }
+  ],
+  "partyPositions": null,
+  "votes": [],
+  "media": [
+   {
+    "title": "CUPE will defy Bill C-39’s unconstitutional limits on the right to strike if passed",
+    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdjNKRXU3cV9jNjBlOVcxWFVBQ2Y3dTBFVWZWaGJjU2tYTUN6Yms4Vk5DajFBQWtkUVRmZGpzZWR6ZTdURXJGVlE1OVd5dFRFNUsta2lYenFuaThIY0hMQWNZUDJ1R3VTX1N3NUFOQmQ5dnZ1WlN5b01CUFYxTHBZRnVOMnpiQjVmdGVaeg?oc=5",
+    "date": "Wed, 23 Sep 2026 16:38:00 GMT"
+   },
+   {
+    "title": "BILL C-39: CCLA WARNS AGAINST EXPANDING ALREADY PROBLEMATIC EXEMPTION POWERS AND LIMITING WORKERS’ BARGAINING RIGHTS",
+    "source": "Canadian Civil Liberties Association",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRGU4Tkh2bUlZNnBPMndzN2ZXSzEzTWFHSEllMldiblVubWFKZTVoVXJwQkRYZ0NEYkxjMmdFTVJlaEF5NURMS016OVJqUVVpdnpvUVNKUjJNU3p5U011T19mZkJwWHdJZjNJWkhHLUpwU1BwMG05TU5mNzJHVXl2VFprWVd4ZEpLM1M1U211anZYejUzX3pXZ0huRmRTX3ZDNW4zcGhoWDlaZ3BZenVLYTVPQzljc1NGeVZkNm5sNXowbjBaZTNiYlFaS3J0dVZQckNuTlNJdzRoZG9SdW44?oc=5",
+    "date": "Wed, 23 Sep 2026 17:17:42 GMT"
+   },
+   {
+    "title": "Western Business Leaders Welcome Bill C-39",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaFA1OEZfMnVTQWt6SUVaeUYzYTdLR0NvcmY5Z0s1WFZrTmRmRm8xVVkxcENKRFZlbGNiZFdGRG9Fclg3ak1PR0pubXRlcks3NVVpUVpBMlVTQkFQZVJxLUZvV1JNcFJKcUN6bkU4V01fZEhIcmtudWlPYVVNUXlXNldRSmtLczhmak9iMVV4bGdtR2owbkJlRUo4S1FPWEtuazVvOFFpMVJOQTdSNmVET1k4ajA3SjA4NEp6TXp3MkpvV3RUcDNV?oc=5",
+    "date": "Wed, 23 Sep 2026 02:01:27 GMT"
+   },
+   {
+    "title": "Pilots raise alarm over Bill C-39, warning labour changes could weaken right to strike",
+    "source": "PAX News",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZzFLdC1iMTlnamZldVhZQ3Y5SzV0UzJLODdhNzg0cXZJZGM4UHFJNUMzYnpoQUlwZ3BEbXNTUFgwTncyQjA2bDQ3SjdzemlrZ1dKZmJiV1ZtamNmQVNqYXUxeDFTQVNoMWszZi1WNzBlZGVtUmJsZVlBZ0VXVVo4XzJuaTBlNDNodVFHZ1phYk52bGJGRTMzRFB5M0NzbTRiUDdDZXZJMXBFOVVOWklJNWF1RzRnWFdlTXFF?oc=5",
+    "date": "Wed, 23 Sep 2026 10:42:07 GMT"
+   },
+   {
+    "title": "AFN chief warns Carney against abusing majority powers to pass Bill C-39",
+    "source": "chch.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMV94dmJ2blF6WXBWNjZQQmR2RzJCS0taa1Z2VE1NUmtjdDVVMTU5c3EwNXBrN1JOaE9pcU1YZE1NNFBZUnQxRVlISGtfS3FwMFZaZmxOcmhrUnhTbEp3ZDRWSDJJcF9ad1lzWFlBSXZLbWJ4eHNKTlVDLUpxUHdVZ2pjd1pZR1ktSExSTGd1RjN1VXh5ekRYVUxlU1J6akNkWkFRNjlFNA?oc=5",
+    "date": "Wed, 23 Sep 2026 12:44:33 GMT"
+   },
+   {
+    "title": "Unifor challenges federal government’s Building Canada Strong Act",
+    "source": "Canadian Lawyer",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeURDdVhxODBLQzY3NU5yZmtMVFA4QTVJZDZwOVN0Sm4xNXZlWThtREJ5Q3pNNDJzSUdydHRnNmxTSHJ2ZmtuMXFwVzl0XzBrOVMzRlQ5NnZudlhiRW56c2tIZHBHZHpCbklqNlUxendYbVpQSWo5cUtzaFE1dlN3aDB5MUVHbmFLWXJsU0tvWFRFV0swWWRBSWU4WWNHeWVQNTY5cEY4bWNZT3JfdFFpU2xueWVOSzJZQnc?oc=5",
+    "date": "Wed, 23 Sep 2026 02:45:57 GMT"
+   }
+  ],
+  "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-39/first-reading"
  },
  {
   "id": "S-2",
@@ -9286,7 +9457,7 @@
   "sponsorTitle": null,
   "sponsorRiding": "Richmond East—Steveston",
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-04-23",
+  "latestActivityDate": "2026-09-21",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -9430,7 +9601,14 @@
     "nay": 131
    }
   ],
-  "media": [],
+  "media": [
+   {
+    "title": "Bill C-267: MPs Abdelhaq Sari and Steven Guilbeault Hold a News Conference",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdkl2VTF3eW9oMXgwdGNyTUpNdEE3R2tHOFB2cDNaaGdxUkJucm83ZWoyZ2Z6RVd4Z2c5eVdYSTg1UzJTaXlwWTBjSjhqUU4tRFFzX1hXUFVFOHhRWGIyamJNOXZvcVdORS04enhqUzcxSTZEUklUREFSdzl2R3RUMk1UbnIzcC11dWlReVo5b0NrYXU1NXQ1NjVGWTVjYS1qbkVQOUJBMV8zamFDNUlkdUpVNFNtWlhJTmZyVzJucldmZjRjWl9Jc3hBdVh6eHpLSFdkd0M2RGIySm4zYzZlQjE4SWVMU3lSay1qUDZjU3Y?oc=5",
+    "date": "Thu, 30 Apr 2026 07:00:00 GMT"
+   }
+  ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-267",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-267/first-reading"
  },
@@ -12551,7 +12729,7 @@
   "id": "S-226",
   "title": "Jury Duty Appreciation Week Act",
   "longTitle": "An Act respecting Jury Duty Appreciation Week",
-  "status": "At second reading in the House of Commons",
+  "status": "At consideration in committee in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -12561,10 +12739,15 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-04-24",
+  "latestActivity": "Second reading and referral to committee",
+  "latestActivityDate": "2026-09-22",
   "latestActivityChamber": "House of Commons",
-  "committee": null,
+  "committee": {
+   "acronym": "JUST",
+   "name": "Standing Committee on Justice and Human Rights",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/JUST"
+  },
   "stages": [
    {
     "key": "senateFirstReading",
@@ -12589,7 +12772,7 @@
    {
     "key": "houseSecondReading",
     "label": "Second reading (House)",
-    "date": null
+    "date": "2026-09-22"
    },
    {
     "key": "houseThirdReading",
