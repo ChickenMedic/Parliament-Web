@@ -1,5 +1,68 @@
 [
  {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "XKGHg6Fuh_M",
+  "title": "Conservative MPs speak with reporters on Parliament Hill – September 23, 2026",
+  "date": "2026-09-23T17:04:40+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/XKGHg6Fuh_M/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "I-2X0JkefcY",
+  "title": "Before You Vote: What Albertans Need to Know",
+  "date": "2026-09-23T16:35:01+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/I-2X0JkefcY/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "WA2guh9TmiU",
+  "title": "Anita Anand speaks with reporters at UN General Assembly – September 23, 2026",
+  "date": "2026-09-23T14:49:26+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/WA2guh9TmiU/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "HJiOggOMNL8",
+  "title": "National Association of Friendship Centres holds a news conference on Parliament Hill",
+  "date": "2026-09-23T14:42:26+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/HJiOggOMNL8/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "wtgN-TVPtbs",
+  "title": "PM Carney speaks at UN event supporting global ocean observation – September 23, 2026",
+  "date": "2026-09-23T14:28:02+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/wtgN-TVPtbs/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "J5UXdLLjhtg",
+  "title": "Why aren't health cards accepted as ID? (in Ontario)",
+  "date": "2026-09-23T14:08:36+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/J5UXdLLjhtg/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "5tdKoo82kus",
+  "title": "Can a Tree Stump Prove an Illegal Cutting?",
+  "date": "2026-09-23T01:00:15+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/5tdKoo82kus/hqdefault.jpg"
+ },
+ {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -7,24 +70,6 @@
   "title": "What Should Ontario Protect as It Builds More Housing? | The Rundown",
   "date": "2026-09-22T22:00:10+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/3O4IkUR-c6I/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "fPIUTn1VXxw",
-  "title": "PM Carney speaks at UN event on two-state solution for Israel-Palestine conflict – Sept. 22, 2026",
-  "date": "2026-09-22T21:29:30+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/fPIUTn1VXxw/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "lVaWfcyOIzE",
-  "title": "Premier Danielle Smith speaks with reporters at the Calgary Chamber of Commerce – September 22, 2026",
-  "date": "2026-09-22T21:28:48+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/lVaWfcyOIzE/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
@@ -36,24 +81,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/ZyeBkj4B5XA/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "LPyHDxVcaQQ",
-  "title": "PM Mark Carney announces $100M in assistance for Palestinians – September 22, 2026",
-  "date": "2026-09-22T20:39:34+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/LPyHDxVcaQQ/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "AiCzNkF6BzM",
-  "title": "MPs comment on government's AI safety strategy, B.C. election call – September 22, 2026",
-  "date": "2026-09-22T20:32:12+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/AiCzNkF6BzM/hqdefault.jpg"
- },
- {
   "channel": "Canadaland",
   "handle": "canadaland",
   "about": "Media criticism and politics podcast",
@@ -61,24 +88,6 @@
   "title": "Big tech companies draw on nature to make their products feel uncontrollable and essential.",
   "date": "2026-09-22T20:30:19+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/ZGlWA4Iodhg/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "_cfe1U90xS4",
-  "title": "Preview: Dr. Gabor Maté | (MIS)Treated",
-  "date": "2026-09-22T20:00:28+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/_cfe1U90xS4/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "ezL9IkKIS5E",
-  "title": "Are Gun Violence Victims Accessing the Mental Health Care They Need?",
-  "date": "2026-09-22T19:30:32+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/ezL9IkKIS5E/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -169,15 +178,6 @@
   "title": "New Alberta 'Bloc-style' Party launches to take the fight to Ottawa",
   "date": "2026-09-22T11:23:34+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/kO2KMAlAfsU/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "nLzvFiM2GzA",
-  "title": "\"Can you promise prices won't go up?\"",
-  "date": "2026-09-21T20:50:19+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/nLzvFiM2GzA/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
