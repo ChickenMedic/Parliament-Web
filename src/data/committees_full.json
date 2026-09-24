@@ -166,9 +166,11 @@
   "url": "https://www.ourcommons.ca/committees/en/PACP",
   "workUrl": "https://www.ourcommons.ca/committees/en/PACP/Work",
   "chairName": "John Williamson",
-  "viceChairs": [],
+  "viceChairs": [
+   "Jean Yip",
+   "Maxime Blanchette-Joncas"
+  ],
   "members": [
-   "Maxime Blanchette-Joncas",
    "Ted Falk",
    "Daniel Gobeil",
    "Jasraj Hallan",
@@ -179,6 +181,7 @@
   ],
   "parties": {
    "John Williamson": "Conservative",
+   "Jean Yip": "Liberal",
    "Maxime Blanchette-Joncas": "Bloc Québécois",
    "Ted Falk": "Conservative",
    "Daniel Gobeil": "Liberal",
@@ -190,8 +193,8 @@
   },
   "partySeats": {
    "Conservative": 4,
-   "Bloc": 1,
-   "Liberal": 4
+   "Liberal": 5,
+   "Bloc": 1
   }
  },
  {
@@ -323,7 +326,10 @@
   "url": "https://www.ourcommons.ca/committees/en/ETHI",
   "workUrl": "https://www.ourcommons.ca/committees/en/ETHI/Work",
   "chairName": "John Brassard",
-  "viceChairs": [],
+  "viceChairs": [
+   "Kristina Tesser Derksen",
+   "Luc Thériault"
+  ],
   "members": [
    "Fares Al Soud",
    "Bardish Chagger",
@@ -331,23 +337,24 @@
    "Aaron Gunn",
    "Gabriel Hardy",
    "Jamil Jivani",
-   "Tanveer Shahnawaz",
-   "Kristina Tesser Derksen"
+   "Tanveer Shahnawaz"
   ],
   "parties": {
    "John Brassard": "Conservative",
+   "Kristina Tesser Derksen": "Liberal",
+   "Luc Thériault": "Bloc Québécois",
    "Fares Al Soud": "Liberal",
    "Bardish Chagger": "Liberal",
    "Leslie Church": "Liberal",
    "Aaron Gunn": "Conservative",
    "Gabriel Hardy": "Conservative",
    "Jamil Jivani": "Conservative",
-   "Tanveer Shahnawaz": "Liberal",
-   "Kristina Tesser Derksen": "Liberal"
+   "Tanveer Shahnawaz": "Liberal"
   },
   "partySeats": {
    "Conservative": 4,
-   "Liberal": 5
+   "Liberal": 5,
+   "Bloc": 1
   }
  },
  {
@@ -525,10 +532,7 @@
   "url": "https://www.ourcommons.ca/committees/en/TRAN",
   "workUrl": "https://www.ourcommons.ca/committees/en/TRAN/Work",
   "chairName": "Peter Schiefke",
-  "viceChairs": [
-   "Dan Albas",
-   "Xavier Barsalou-Duval"
-  ],
+  "viceChairs": [],
   "members": [
    "Fred Davies",
    "Jessica Fancy",
@@ -536,27 +540,27 @@
    "Angelo Iacono",
    "Mike Kelloway",
    "Stéphane Lauzon",
+   "Sébastien Lemire",
    "Dan Muys",
    "Chi Nguyen",
    "Dominique O'Rourke"
   ],
   "parties": {
    "Peter Schiefke": "Liberal",
-   "Dan Albas": "Conservative",
-   "Xavier Barsalou-Duval": "Bloc Québécois",
    "Fred Davies": "Conservative",
    "Jessica Fancy": "Liberal",
    "Kurt Holman": "Conservative",
    "Angelo Iacono": "Liberal",
    "Mike Kelloway": "Liberal",
    "Stéphane Lauzon": "Liberal",
+   "Sébastien Lemire": "Bloc Québécois",
    "Dan Muys": "Conservative",
    "Chi Nguyen": "Liberal",
    "Dominique O'Rourke": "Liberal"
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 4,
+   "Conservative": 3,
    "Bloc": 1
   }
  },
