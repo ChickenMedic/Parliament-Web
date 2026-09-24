@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "GZyDxwLZfyw",
+    "title": "81st United Nations General Assembly",
+    "date": "2026-09-24T20:56:06+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/GZyDxwLZfyw/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "Ch8kXlDimBU",
     "title": "Prime Minister Carney delivers remarks on the margins of the 81st United Nations General Assembly",
     "date": "2026-09-23T18:57:52+00:00",
@@ -21,16 +28,37 @@
     "date": "2026-09-18T19:00:08+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/1tmJR32palw/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "Ccy_fKSzB_k",
-    "title": "Prime Minister Carney delivers an address to the European Parliament",
-    "date": "2026-09-17T20:22:42+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/Ccy_fKSzB_k/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
+   {
+    "videoId": "XIaCoQAB4-w",
+    "title": "Carney says Ottawa examined the risk of a possible U.S. invasion and weighed military readiness",
+    "date": "2026-09-24T23:45:10+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/XIaCoQAB4-w/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "oYstknvp4vw",
+    "title": "Ottawa reacts to Carney’s comments in NYT article about planning for ‘risk’ of U.S. invasion",
+    "date": "2026-09-24T23:42:28+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/oYstknvp4vw/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "kf8Civnqw2w",
+    "title": "Fact check: Is Carney changing the right to strike?",
+    "date": "2026-09-24T22:23:33+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/kf8Civnqw2w/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "fJ9KjVRTC_8",
+    "title": "Carney, Poilievre spar over high cost of diesel during question period",
+    "date": "2026-09-24T20:00:21+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/fJ9KjVRTC_8/hqdefault.jpg",
+    "channel": "Global News"
+   },
    {
     "videoId": "RH7X3Q_oJYk",
     "title": "Could Canada defend itself against the US? Expert weighs in on Carney’s comments",
@@ -44,32 +72,18 @@
     "date": "2026-09-24T16:46:07+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/3hP-GW_lRWA/hqdefault.jpg",
     "channel": "Global News"
-   },
-   {
-    "videoId": "UzYiF-pON24",
-    "title": "PM Mark Carney meets with Vietnamese leader Tô Lâm in Ottawa – September 24, 2026",
-    "date": "2026-09-24T15:33:31+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/UzYiF-pON24/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "_UCN4RoU0u8",
-    "title": "Carney's comments on potential U.S. attack 'remarkable,' says NYT journalist",
-    "date": "2026-09-24T15:22:04+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/_UCN4RoU0u8/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "2uMRGW2W-3A",
-    "title": "How Carney is positioning Canada to lead middle powers",
-    "date": "2026-09-24T03:00:18+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2uMRGW2W-3A/hqdefault.jpg",
-    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "krA6fa7_6q8",
+    "title": "This is a full-scale diesel price crisis.",
+    "date": "2026-09-24T21:00:57+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/krA6fa7_6q8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "a-dvc3g2jYE",
     "title": "Tariff-free trade for a stronger Canada.",
@@ -90,15 +104,16 @@
     "date": "2026-09-23T00:09:36+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/9HLcMP1s5Dg/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "oSYnjFaXW3I",
-    "title": "We are fighting for you",
-    "date": "2026-09-22T20:36:19+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/oSYnjFaXW3I/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "fJ9KjVRTC_8",
+    "title": "Carney, Poilievre spar over high cost of diesel during question period",
+    "date": "2026-09-24T20:00:21+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/fJ9KjVRTC_8/hqdefault.jpg",
+    "channel": "Global News"
+   }
+  ]
  }
 }
