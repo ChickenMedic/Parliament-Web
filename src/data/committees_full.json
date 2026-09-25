@@ -48,13 +48,14 @@
   "url": "https://www.ourcommons.ca/committees/en/HESA",
   "workUrl": "https://www.ourcommons.ca/committees/en/HESA/Work",
   "chairName": "Sukh Dhaliwal",
-  "viceChairs": [],
+  "viceChairs": [
+   "Raquel Dancho",
+   "Marie-Hélène Gaudreau"
+  ],
   "members": [
    "Burton Bailey",
    "Maggie Chi",
-   "Raquel Dancho",
    "Doug Eyolfson",
-   "Marie-Hélène Gaudreau",
    "Helena Jaczek",
    "Helena Konanz",
    "Aslam Rana",
@@ -64,11 +65,11 @@
   ],
   "parties": {
    "Sukh Dhaliwal": "Liberal",
+   "Raquel Dancho": "Conservative",
+   "Marie-Hélène Gaudreau": "Bloc Québécois",
    "Burton Bailey": "Conservative",
    "Maggie Chi": "Liberal",
-   "Raquel Dancho": "Conservative",
    "Doug Eyolfson": "Liberal",
-   "Marie-Hélène Gaudreau": "Bloc Québécois",
    "Helena Jaczek": "Liberal",
    "Helena Konanz": "Conservative",
    "Aslam Rana": "Liberal",
@@ -127,10 +128,12 @@
   "url": "https://www.ourcommons.ca/committees/en/NDDN",
   "workUrl": "https://www.ourcommons.ca/committees/en/NDDN/Work",
   "chairName": "Charles Sousa",
-  "viceChairs": [],
+  "viceChairs": [
+   "James Bezan",
+   "Xavier Barsalou-Duval"
+  ],
   "members": [
    "Scott Anderson",
-   "Xavier Barsalou-Duval",
    "Philip Earle",
    "Cheryl Gallant",
    "Lori Idlout",
@@ -142,8 +145,9 @@
   ],
   "parties": {
    "Charles Sousa": "Liberal",
-   "Scott Anderson": "Conservative",
+   "James Bezan": "Conservative",
    "Xavier Barsalou-Duval": "Bloc Québécois",
+   "Scott Anderson": "Conservative",
    "Philip Earle": "Liberal",
    "Cheryl Gallant": "Conservative",
    "Lori Idlout": "Liberal",
@@ -155,7 +159,7 @@
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 3,
+   "Conservative": 4,
    "Bloc": 1
   }
  },
@@ -288,9 +292,11 @@
   "url": "https://www.ourcommons.ca/committees/en/RNNR",
   "workUrl": "https://www.ourcommons.ca/committees/en/RNNR/Work",
   "chairName": "Terry Duguid",
-  "viceChairs": [],
-  "members": [
+  "viceChairs": [
    "Carol Anstey",
+   "Mario Simard"
+  ],
+  "members": [
    "John-Paul Danko",
    "Claude Guay",
    "Corey Hogan",
@@ -304,6 +310,7 @@
   "parties": {
    "Terry Duguid": "Liberal",
    "Carol Anstey": "Conservative",
+   "Mario Simard": "Bloc Québécois",
    "John-Paul Danko": "Liberal",
    "Claude Guay": "Liberal",
    "Corey Hogan": "Liberal",
@@ -316,7 +323,8 @@
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 4
+   "Conservative": 4,
+   "Bloc": 1
   }
  },
  {
