@@ -32,51 +32,23 @@
   ],
   "coverage": [
    {
-    "videoId": "XIaCoQAB4-w",
-    "title": "Carney says Ottawa examined the risk of a possible U.S. invasion and weighed military readiness",
-    "date": "2026-09-24T23:45:10+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/XIaCoQAB4-w/hqdefault.jpg",
-    "channel": "CTV News"
-   },
-   {
-    "videoId": "oYstknvp4vw",
-    "title": "Ottawa reacts to Carney’s comments in NYT article about planning for ‘risk’ of U.S. invasion",
-    "date": "2026-09-24T23:42:28+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/oYstknvp4vw/hqdefault.jpg",
-    "channel": "CTV News"
-   },
-   {
-    "videoId": "kf8Civnqw2w",
-    "title": "Fact check: Is Carney changing the right to strike?",
-    "date": "2026-09-24T22:23:33+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/kf8Civnqw2w/hqdefault.jpg",
+    "videoId": "qxdtePfHd80",
+    "title": "Carney wants Canada to move away from Elon Musk’s Starlink. Can it? | Hanomansing Tonight",
+    "date": "2026-09-25T00:01:08+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/qxdtePfHd80/hqdefault.jpg",
     "channel": "CBC News"
-   },
-   {
-    "videoId": "fJ9KjVRTC_8",
-    "title": "Carney, Poilievre spar over high cost of diesel during question period",
-    "date": "2026-09-24T20:00:21+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/fJ9KjVRTC_8/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "RH7X3Q_oJYk",
-    "title": "Could Canada defend itself against the US? Expert weighs in on Carney’s comments",
-    "date": "2026-09-24T17:27:25+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/RH7X3Q_oJYk/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "3hP-GW_lRWA",
-    "title": "Carney calls threat of US military invasion “extreme tail risk” in NYT article",
-    "date": "2026-09-24T16:46:07+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/3hP-GW_lRWA/hqdefault.jpg",
-    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "D6lAIgZ9AGA",
+    "title": "We need a Diesel Price Relief Action Plan.",
+    "date": "2026-09-25T13:50:08+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/D6lAIgZ9AGA/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "krA6fa7_6q8",
     "title": "This is a full-scale diesel price crisis.",
@@ -97,23 +69,8 @@
     "date": "2026-09-23T13:08:15+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/PBhaFWrCFhc/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "9HLcMP1s5Dg",
-    "title": "No to giving up Canadian sovereignty",
-    "date": "2026-09-23T00:09:36+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/9HLcMP1s5Dg/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "fJ9KjVRTC_8",
-    "title": "Carney, Poilievre spar over high cost of diesel during question period",
-    "date": "2026-09-24T20:00:21+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/fJ9KjVRTC_8/hqdefault.jpg",
-    "channel": "Global News"
-   }
-  ]
+  "coverage": []
  }
 }
