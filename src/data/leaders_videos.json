@@ -30,18 +30,17 @@
     "channel": "Prime Minister of Canada"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "qxdtePfHd80",
-    "title": "Carney wants Canada to move away from Elon Musk’s Starlink. Can it? | Hanomansing Tonight",
-    "date": "2026-09-25T00:01:08+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/qxdtePfHd80/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "coverage": []
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "zTAD5D4K1b0",
+    "title": "Liberals say their taxes will make people richer.",
+    "date": "2026-09-25T20:32:36+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/zTAD5D4K1b0/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "D6lAIgZ9AGA",
     "title": "We need a Diesel Price Relief Action Plan.",
@@ -61,13 +60,6 @@
     "title": "Tariff-free trade for a stronger Canada.",
     "date": "2026-09-23T16:38:35+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/a-dvc3g2jYE/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "PBhaFWrCFhc",
-    "title": "Take all taxes off gas to save you money.",
-    "date": "2026-09-23T13:08:15+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/PBhaFWrCFhc/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
