@@ -43,34 +43,42 @@
  "opposition": {
   "own": [
    {
+    "videoId": "GQy9QxLjdoY",
+    "title": "Canadian diesel for every Canadian.",
+    "date": "2026-09-27T23:32:34+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/GQy9QxLjdoY/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "tPyM2kS165E",
+    "title": "Keep child-killing pedophiles in maximum-security prison",
+    "date": "2026-09-27T20:46:55+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/tPyM2kS165E/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "aymtFvwDzc8",
+    "title": "Un Plan d’urgence pour réduire votre facture à la pompe.",
+    "date": "2026-09-27T19:10:47+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/aymtFvwDzc8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
     "videoId": "4txeehFOico",
     "title": "LIVE: An Emergency Fuel Relief Plan to Save You Money",
     "date": "2026-09-27T17:17:58+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/4txeehFOico/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "G0tVzpxpKSk",
-    "title": "Keep the fight alive.",
-    "date": "2026-09-27T01:00:46+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/G0tVzpxpKSk/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "0T1SZ6n85BM",
-    "title": "Conservatives will fight so everyone who works hard can get into a home they can afford",
-    "date": "2026-09-26T22:11:01+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/0T1SZ6n85BM/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "wSRvA-9hEk4",
-    "title": "How does it save money for Canadians to force waitresses and welders to pay taxes to the EU?",
-    "date": "2026-09-26T20:14:34+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/wSRvA-9hEk4/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "mAgq73FkBEg",
+    "title": "Conservative Leader Pierre Poilievre proposes plan to lower diesel costs – September 27, 2026",
+    "date": "2026-09-27T17:43:02+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/mAgq73FkBEg/hqdefault.jpg",
+    "channel": "CPAC"
+   }
+  ]
  }
 }
