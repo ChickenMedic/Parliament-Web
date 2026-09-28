@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "8dgS1uWACCM",
+    "title": "Choose Canada. Explore Canada.",
+    "date": "2026-09-28T11:01:43+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/8dgS1uWACCM/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "GZyDxwLZfyw",
     "title": "81st United Nations General Assembly",
     "date": "2026-09-24T20:56:06+00:00",
@@ -21,27 +28,27 @@
     "date": "2026-09-21T20:00:54+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/dhG4cgIoQEA/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "1tmJR32palw",
-    "title": "Prime Minister Carney’s address to the European Parliament",
-    "date": "2026-09-18T19:00:08+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/1tmJR32palw/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "DPFsKMv0Z4s",
-    "title": "Canada's foreign affairs minister speaks in place of PM Carney at UN General Assembly | FULL",
-    "date": "2026-09-26T20:40:15+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/DPFsKMv0Z4s/hqdefault.jpg",
-    "channel": "Global News"
+    "videoId": "W_6z9IrDzL4",
+    "title": "Carney gambling Canada's environment for the economy? | The House",
+    "date": "2026-09-28T17:46:07+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/W_6z9IrDzL4/hqdefault.jpg",
+    "channel": "CBC News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "PM6ha2ewAq8",
+    "title": "Our economy runs on diesel.",
+    "date": "2026-09-28T12:39:54+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/PM6ha2ewAq8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "GQy9QxLjdoY",
     "title": "Canadian diesel for every Canadian.",
@@ -62,16 +69,16 @@
     "date": "2026-09-27T19:10:47+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/aymtFvwDzc8/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "4txeehFOico",
-    "title": "LIVE: An Emergency Fuel Relief Plan to Save You Money",
-    "date": "2026-09-27T17:17:58+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/4txeehFOico/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
+   {
+    "videoId": "SGf8kil3gGg",
+    "title": "Poilievre pitches plan to tackle diesel costs | CTV News Saskatchewan Your Morning, Sept. 28, 2026",
+    "date": "2026-09-28T19:50:49+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/SGf8kil3gGg/hqdefault.jpg",
+    "channel": "CTV News"
+   },
    {
     "videoId": "mAgq73FkBEg",
     "title": "Conservative Leader Pierre Poilievre proposes plan to lower diesel costs – September 27, 2026",
