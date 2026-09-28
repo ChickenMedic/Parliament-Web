@@ -2592,7 +2592,7 @@
   "id": "C-22",
   "title": "Lawful Access Act, 2026",
   "longTitle": "An Act respecting lawful access",
-  "status": "House of Commons bill awaiting first reading in the Senate",
+  "status": "At second reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -2602,9 +2602,9 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Public Safety",
   "sponsorRiding": "Scarborough—Guildwood—Rouge Park",
-  "latestActivity": "Third reading",
+  "latestActivity": "First reading",
   "latestActivityDate": "2026-06-18",
-  "latestActivityChamber": "House of Commons",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -2647,6 +2647,12 @@
   "votes": [],
   "media": [
    {
+    "title": "Bill C-22 is coming: Are service providers ready for Canada's new lawful access regime?",
+    "source": "Norton Rose Fulbright",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNVhDN3BZbEtOZFpmdzl1NlZXNlhsdnhzcFYxQWNjVElIcUt5OEQ0YlVjVVRiZG1qV3B2SWtMVnlaTFA4cGhxd1VTMFZmU3VTNUx6enRqdVlJalRfOFV1dWFzc0ZydTlEOW9uLTV5YWFndHlpemlXZi00cE9MT2hfWEY5UzFVWTBpUmpGVGNuY1Z4YUQ5Z2RLZzBFdEhiT19BamNBN0ZSeWpGd2c5M0Z4elRheHViX1EzUktmNTNjY29YZ1U5S29qN1dOWjVVbFU3VkdZcmExOG9ZQ0d0NG5nY292WUNXNnQyWExRMTNCTQ?oc=5",
+    "date": "Mon, 28 Sep 2026 14:17:58 GMT"
+   },
+   {
     "title": "Canada's Bill C-22: VPN and tech firms urge the government to 'fix' the bill before it becomes law",
     "source": "TechRadar",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc0dKaHdzZUs4R3RGRGNISXdGNzhvbXh1bVdCV1hEdERmdjBtTEU5TDhWdllicTRfWVdxbHViRTlpQklpcVptR21TYjRiaEJuTVZSTnVab2VlMjJzNnBlV24zRHJLTEEtRG84b21XWHZqVGJKRXotTzJvc1h3aUREQzJ3TUM4MmxoWHNVU1pRUkVvT3owRGZjSm5YczhZVGNNMjFrUUg2azFFd2dIc1VZbkFvbTFkX01zcjFfOTZMRzhHU2hkMkEyVE1xRVZTdmVna0pkNGJfRFFOclM5Y0E?oc=5",
@@ -2675,12 +2681,6 @@
     "source": "Digital Watch Observatory",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XcWZldFYzZlh6STB6YmdTQVJTbTNxWk9Bdko1dTZvbl9YRjYzV0daeGFpc2lWT0tvdy1TeTRaNnBYVlhYZkNIYXFHSFp4REFZWVBXYmRlbm5GRkdMaHZvUlQtNW5KQUtoZmNtRGJRNA?oc=5",
     "date": "Tue, 15 Sep 2026 08:00:32 GMT"
-   },
-   {
-    "title": "The EU must act now to protect privacy and encryption from Canada’s overreaching Bill C-22",
-    "source": "accessnow.org",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGdNek9kLWtsOEQxOEdvWEVGYzB3SjM3RFEtc1FuOHJhRE5XM0tfT2d1cjBReHJtYWJyUkpYejdBaTg2TTdGYjlHTHMwLXFwUHZwYU5lRVRPRS1rd2pHNFVtSHNqQy16QkdBT3p5anVMd21xMWRmZzJfbjlUT0dNR2J4R2ZUeGlsVDI2Z24wd1ZvTzN1bHc?oc=5",
-    "date": "Mon, 14 Sep 2026 09:13:09 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22",
@@ -3058,7 +3058,7 @@
   "id": "C-27",
   "title": "Final Self-Government Agreement for the Tlegohli Got’ine Act",
   "longTitle": "An Act to give effect to the Final Self-Government Agreement for the Tlegohli Got’ine and to make consequential amendments to other Acts",
-  "status": "House of Commons bill awaiting first reading in the Senate",
+  "status": "At second reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -3068,9 +3068,9 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Crown-Indigenous Relations",
   "sponsorRiding": "Northwest Territories",
-  "latestActivity": "Third reading",
+  "latestActivity": "First reading",
   "latestActivityDate": "2026-06-18",
-  "latestActivityChamber": "House of Commons",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -4303,40 +4303,40 @@
   "votes": [],
   "media": [
    {
-    "title": "Bill C-39 dismantles Canada’s environmental policy ‘beyond anything we’ve ever seen,’ say climate groups",
+    "title": "Liberals’ Bill C-39 a wake-up call for Canadians: Avi Lewis",
+    "source": "thespec.com",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNi11WUNEbVotbk5WbDF3akxpdGpQZXlVOWppM19RbFhtNzh0VzF4YXVtRjVhVHNFM2hlUFRtdUx4X01neVp1Rko0aVBYM01VS21WU3Bqcl95VzM3ZWJQVGpnVUc4MmJnZE16TlRfLTNQUVdSODZxVzVycnlYUHV0M1BrX3M0Y0dDRS1tTjFWbGRqQjRqYmZndzdNcExaS0owdFJCQXRtdzZZel9Hd2c3QkV3aHpobTk1LUJDY0ZEZkhEYnE0WXhyeW53UGxwVElYUktGRElZUGN0alk?oc=5",
+    "date": "Mon, 28 Sep 2026 18:36:22 GMT"
+   },
+   {
+    "title": "Buried in Bill C-39: The Enabling Digital Trade Act Brings Canada Its First Federal Electronic Trade Documents Law",
+    "source": "Michael Geist -",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV09JMWViOHRFbnM4S2xZc1Q1NmpKN0lEOG9iZl8xMDdSWlNUS0czOFhqUFJHSzdTTWVTYkVwNURKY0ZIUm03RkhvUlZUSUMxOFdjeXpKWFVoTG9ZRFdaRWtPeExCVC03aS1kX1M3Y1J2ZlpsOXpBZmdnR2xsbHRlNGdtQjZ1dW9vV1R5c0htV2RNMm9ZbUpNMzZ5VkpKVG8xUENzaHFWSUc5bW9jWG42ZzdhQkgxY0dscVBVb25hT0gxZVM0T3RTQjZEeFVtZTk0QWhKN1I2d3B0NnhDRi11QllPLUw?oc=5",
+    "date": "Mon, 28 Sep 2026 12:32:51 GMT"
+   },
+   {
+    "title": "Bill C-39 Poses An Existential Risk To Strike Rights",
+    "source": "The Maple",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2lFU1lTNHVXcGhCNjhRbURpOTM0VXJFdmZKT3BEaE10ZXYtdGpuZXljM1dhX1FhbWpVZDlIbEZkWFJwWlFiajIxNmdLQ3VWVzhCR0RvWmRqUk95ZnEtb2Y2UmpINkpyVDE5T1hsbTUtdzJpS2lRckRIaHY1cTBUMFp2Zm9NZm5IWWc?oc=5",
+    "date": "Mon, 28 Sep 2026 11:32:34 GMT"
+   },
+   {
+    "title": "Federal politics week: Bill C-39, Belarus potash, EU all hot issues",
+    "source": "MooseJawToday.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEI5X28zcFNtSGpzcHkwYV84bVJDRzhrT3c2c2dvcXJFdTJwWFBSY0dlYUthRzZVZlY0N1RjNXBxWnBXLTRWS2JEVU9tWkJOaTFGbmhSb2VXUEx1eWw2bnM4NWVNRU1keHJ6ZElQZzA2blV5OWwtUmdKcHhQalNaa0ZfeTdSQnU5X0kyRXdRMEFtUWJRakNCNE1Qa3pxeE4wUnd1dnFOMTRQbUFVd0pZc1RndzF5UWxnVE1F?oc=5",
+    "date": "Mon, 28 Sep 2026 18:00:00 GMT"
+   },
+   {
+    "title": "Environmental groups are sounding the alarm on Bill C-39, MPs should listen to them",
     "source": "The Hill Times",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPc1ZvLWdzRHE3ZnVqdGo0aHVrS3pMaHlQMV82djhKcTVnSHQzQnBqTUt4eVlrai1vWXMydUI1aUZXQ09UTXJtVXNKMnBONFBtc3Nta0VtWF93Ql9sMEFGYTQ5VUItZy1jMU1BWFFIcVBMLTJzX0ZXanR4ZnRuRXhoc1RJaEJ3akQ4N3pobUpXTnh2S19TTUpIVXhvQ19PQ0tJQjRTdGdrRFYtVkpVS3FzNHNlYTZSUE05TVNhUU9zMVFQOWdxcmNEeGpqVkIyZHFqWEpmc2RUZlBVTHlXdlE?oc=5",
-    "date": "Sun, 27 Sep 2026 05:02:51 GMT"
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZnBNNTVGUTQxSDJjb2FPNTN1b2oxb1NLVHpKcFFNNkpidzFvbWREX3JNcTBWWmZxRW9YdU53aTFtNDM3QTdkSUQzTjdscTdUQW5MX1ZiMDNpS1F6RHNBbDJCZGZmQWd6QUZrUWdNZmdwTUN3aVJWSWozcmhweUNVWjhZcmhBT2xNbU1kVGdaNEJLREEtbUlYS05nS0FUaFQ1a2tUOC1wd3ZWZ3h3ejhBQkZ1MXVRUGNnQVBlcGp0RlRMeUZk?oc=5",
+    "date": "Mon, 28 Sep 2026 05:01:10 GMT"
    },
    {
-    "title": "JAY GOLDBERG: Carney’s Building Canada Strong Act sign Ottawa getting serious about economic growth",
-    "source": "Calgary Sun",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbjRpcWJBUWhyUnBpWDBSRmM0WkFDb0x5eWtxQTYtNXBHU3c1eVhmZ3pmMG9COHNDdUlGMnRPRmtJenNkS3puRmpCbmFaWElPbFJsQXlHb2wyME5mUlBrUUJlSGtkRjZ3Z2VUSGtEdFlWNUVvSlFDYXowNFk0VjlxWEUtQllBd3ZFREVpSGktRUxvODZwY0VBLVpjeEZtLU1XQWRrZnNmcGx0YnBwQ3picGhVcDdkZ3NkcV9ZcnV0OW0wTkd5RVRkT3k4THFKNm5sLWU5S2VR?oc=5",
-    "date": "Sat, 26 Sep 2026 11:05:23 GMT"
-   },
-   {
-    "title": "Western business coalition backs Bill C-39, calls for further regulatory reform",
-    "source": "WestCentralOnline",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRVE3X3ZiWFc3UG9IMUFGT3NmSDRKYzVnTW9GSlBnNFlQM2NyV3k0S0k3bHVhend3RXhaNXNCMWxaRHQ1a1VOS2hNOXZXMmF5VTk4VGpxY1h5RGxpRk9aUVBnY2VUZXJ5M0VYZ0cyTVMtdEM4TkNZb0dMNE5GZEYwSnpjU2kyTmRETjBzdzdHYklUeDZIbUZpaGgwVjhlNjc4cTJsOWk3RjJ1WmpOOTByWTdRc0t4S1Y0?oc=5",
-    "date": "Sat, 26 Sep 2026 18:02:09 GMT"
-   },
-   {
-    "title": "Why Bill C-39 alarms labour groups",
-    "source": "Yahoo News Canada",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKT1U0bUE4SHVRTlhuVE5NbFB0MXdDRHI2b0J1Sm55QUVDNEFUNHhQdHViYTJ2NTFWOUgzYVViamVkbVRkaHBPY1c1c2hzbVBnSndRWWhZU0tDV2JKS3ZuNFUtRkg0MlZfLVRENWFn?oc=5",
-    "date": "Fri, 25 Sep 2026 08:00:07 GMT"
-   },
-   {
-    "title": "Employers cheer Bill C-39 restrictions on the right to strike",
-    "source": "Canadian Labour Congress",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVBSaS02cWNIbTlra3FCTTRCbm1TSTdiQllBNkkxR2o1eXhCcmFRaFJmbkFwUTNMRE5qR1NORnVhSzlyU191Qy11UnJTb0dvSk9LNDBaUUhiLUh6bGNXdGtoUl91dGR2WkhHU2dHN05YQzJhdFE3MjhSaEFHLVpjellDV2NRMmd2WmhvWjZ5TlpUZw?oc=5",
-    "date": "Fri, 25 Sep 2026 17:14:41 GMT"
-   },
-   {
-    "title": "Bill C-39 undermines the right to strike",
-    "source": "NUPGE",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UanVoeU9OMEFlTHZIRk9PTFhCSVIxMl93My10bnFUODVQZEdmNmtPMElodlZVWWpNTTZoZUNGcExvVmJlX1BtVVRmd2g5cDlEa243dm1xNTVXVm9JS245XzB4SktUZ09rdnJ2cGRSYkg?oc=5",
-    "date": "Fri, 25 Sep 2026 14:58:22 GMT"
+    "title": "Canada’s Fall Political Agenda: Could Bill C-39, Trade Reform, Labour Changes and Investment Policies Reshape the Economy?",
+    "source": "kalkine.ca",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNel9ubEVTdGJnT2daOFJhT1BxZVlKU0U1NHY4Wms1QW1tTzl4Zm1GVFd5ZmxDZmxzY1o5NDVnM1JZMk5KNmZrWjZxYnNUdkJSTE94NEpoQXhiUHBSME9TR0dmaWpxMjFUT051Nmt1ajZCaEJQb0ZpdkRkTV8waVRGR00tN2xiX2FFSE41akRNc2JNZnUzZ0VYekZUcVBmT2VUX1dFUDdqQjlBSnlSdnQybXpQZW1MRDM1d3haQ1h3dWxLY3p3M0lGZVZIZU80VjNENmY5WndnSWx3NHlNa3h1cXlqUQ?oc=5",
+    "date": "Mon, 28 Sep 2026 05:32:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",

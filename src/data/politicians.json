@@ -2680,25 +2680,6 @@
       "twitter": "JohnBrassardCPC"
     },
     {
-      "name": "Larry Brock",
-      "url": "/politicians/larry-brock/",
-      "current_party": {
-        "short_name": {
-          "en": "Conservative"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Brantford—Brant South—Six Nations"
-        }
-      },
-      "image": "/media/polpics/larry-brock_ZlbBePK.jpg",
-      "voice": "613-992-3118",
-      "email": "larry.brock@parl.gc.ca",
-      "twitter": "LarryBrockMP"
-    },
-    {
       "name": "Mark Carney",
       "url": "/politicians/mark-carney/",
       "current_party": {
@@ -3212,25 +3193,6 @@
       "twitter": "MarkGerretsen"
     },
     {
-      "name": "Amarjeet Gill",
-      "url": "/politicians/amarjeet-gill/",
-      "current_party": {
-        "short_name": {
-          "en": "Conservative"
-        }
-      },
-      "current_riding": {
-        "province": "ON",
-        "name": {
-          "en": "Brampton West"
-        }
-      },
-      "image": "/media/polpics/amarjeet-gill.jpg",
-      "voice": "613-992-0778",
-      "email": "amarjeet.gill@parl.gc.ca",
-      "twitter": "AmarjeetGill"
-    },
-    {
       "name": "Harb Gill",
       "url": "/politicians/harb-gill/",
       "current_party": {
@@ -3248,6 +3210,25 @@
       "voice": "613-996-1541",
       "email": "harb.gill@parl.gc.ca",
       "twitter": "HarbGill"
+    },
+    {
+      "name": "Amarjeet Gill",
+      "url": "/politicians/amarjeet-gill/",
+      "current_party": {
+        "short_name": {
+          "en": "Conservative"
+        }
+      },
+      "current_riding": {
+        "province": "ON",
+        "name": {
+          "en": "Brampton West"
+        }
+      },
+      "image": "/media/polpics/amarjeet-gill.jpg",
+      "voice": "613-992-0778",
+      "email": "amarjeet.gill@parl.gc.ca",
+      "twitter": "AmarjeetGill"
     },
     {
       "name": "Marilyn Gladu",
