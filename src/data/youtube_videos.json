@@ -1,5 +1,68 @@
 [
  {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "6bVGE1xrdG8",
+  "title": "Federal ministers make an announcement regarding health centre in N.B. – September 29, 2026",
+  "date": "2026-09-29T18:21:42+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/6bVGE1xrdG8/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "DQBQ-s9mz1A",
+  "title": "PM Carney highlights investment in energy industries – September 29, 2026",
+  "date": "2026-09-29T17:48:11+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/DQBQ-s9mz1A/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "SgVsgR2PkH8",
+  "title": "Is David Eby’s Early Election Call Backfiring?",
+  "date": "2026-09-29T16:42:40+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/SgVsgR2PkH8/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "oHAVxDwKrbA",
+  "title": "Canada supplanted as America’s potash supplier?",
+  "date": "2026-09-29T15:08:17+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/oHAVxDwKrbA/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "SwWkUrlTcC0",
+  "title": "Federal and Ontario governments announce child care agreement extension – September 29, 2026",
+  "date": "2026-09-29T13:48:28+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/SwWkUrlTcC0/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "Njh7fyqm-qg",
+  "title": "Could Service Cuts Hurt VIA Rail?",
+  "date": "2026-09-29T01:00:27+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/Njh7fyqm-qg/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "pJ9Pm0WSvZk",
+  "title": "Danielle Smith and Doug Ford discuss energy policy at Calgary event – September 28, 2026",
+  "date": "2026-09-29T00:49:58+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/pJ9Pm0WSvZk/hqdefault.jpg"
+ },
+ {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -18,42 +81,6 @@
   "thumbnail": "https://i1.ytimg.com/vi/Hoy4SPT0o74/hqdefault.jpg"
  },
  {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "oHAVxDwKrbA",
-  "title": "Canada supplanted as America’s potash supplier?",
-  "date": "2026-09-28T22:26:26+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/oHAVxDwKrbA/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "6YF5a9l06rw",
-  "title": "Alberta govt announces plans to seek proposals for high-speed rail project – September 28, 2026",
-  "date": "2026-09-28T21:00:49+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/6YF5a9l06rw/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "zCKAJvA-Tqk",
-  "title": "Manitoba Premier Wab Kinew announces update to cabinet – September 28, 2026",
-  "date": "2026-09-28T18:38:48+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/zCKAJvA-Tqk/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "EhSS21ZZBxA",
-  "title": "Transgender advocates call for federal inquiry into Alta., Sask laws – September 28, 2026",
-  "date": "2026-09-28T18:24:23+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/EhSS21ZZBxA/hqdefault.jpg"
- },
- {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -61,15 +88,6 @@
   "title": "Is Carney a not-so-secret conservative?",
   "date": "2026-09-28T15:22:35+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/DMlg1jHz9B8/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "1u8khjALfY8",
-  "title": "François-Philippe Champagne fait une annonce en matière de défense, à Shawinigan",
-  "date": "2026-09-28T14:52:00+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/1u8khjALfY8/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
@@ -135,15 +153,6 @@
   "thumbnail": "https://i4.ytimg.com/vi/3UMVQIXIX3c/hqdefault.jpg"
  },
  {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "5jM8rWSoz6Q",
-  "title": "Why is Stellantis in Brampton in the first place?",
-  "date": "2026-09-25T18:30:23+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/5jM8rWSoz6Q/hqdefault.jpg"
- },
- {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -151,15 +160,6 @@
   "title": "Eby Facing Early Election Backlash in BC",
   "date": "2026-09-25T18:29:55+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/dle7eeqd2dQ/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "ggFOj8HX1dg",
-  "title": "Thomas Lukaszuk // BC’s “Stunning” Election Call",
-  "date": "2026-09-25T16:29:19+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/ggFOj8HX1dg/hqdefault.jpg"
  },
  {
   "channel": "Canadaland",
