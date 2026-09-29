@@ -1121,7 +1121,7 @@
   "id": "C-10",
   "title": "Commissioner for Modern Treaty Implementation Act",
   "longTitle": "An Act respecting the Commissioner for Modern Treaty Implementation",
-  "status": "House of Commons bill awaiting first reading in the Senate",
+  "status": "At second reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -1131,9 +1131,9 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Crown-Indigenous Relations",
   "sponsorRiding": "Northwest Territories",
-  "latestActivity": "Third reading",
-  "latestActivityDate": "2026-09-21",
-  "latestActivityChamber": "House of Commons",
+  "latestActivity": "First reading",
+  "latestActivityDate": "2026-09-28",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -1154,7 +1154,7 @@
    {
     "key": "senateFirstReading",
     "label": "First reading (Senate)",
-    "date": null
+    "date": "2026-09-28"
    },
    {
     "key": "senateSecondReading",
@@ -3058,7 +3058,7 @@
   "id": "C-27",
   "title": "Final Self-Government Agreement for the Tlegohli Got’ine Act",
   "longTitle": "An Act to give effect to the Final Self-Government Agreement for the Tlegohli Got’ine and to make consequential amendments to other Acts",
-  "status": "At second reading in the Senate",
+  "status": "At consideration in committee in the Senate",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -3068,10 +3068,15 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Crown-Indigenous Relations",
   "sponsorRiding": "Northwest Territories",
-  "latestActivity": "First reading",
-  "latestActivityDate": "2026-06-18",
+  "latestActivity": "Referral to committee",
+  "latestActivityDate": "2026-09-28",
   "latestActivityChamber": "Senate",
-  "committee": null,
+  "committee": {
+   "acronym": "APPA",
+   "name": "Standing Senate Committee on Indigenous Peoples",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/APPA"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -3096,7 +3101,7 @@
    {
     "key": "senateSecondReading",
     "label": "Second reading (Senate)",
-    "date": null
+    "date": "2026-09-28"
    },
    {
     "key": "senateThirdReading",
@@ -4303,6 +4308,12 @@
   "votes": [],
   "media": [
    {
+    "title": "NetNewsLedger's September 29 NewsHawk briefing covers LNG Canada, global conflict, Ontario steel jobs, NAN's Bill C-39 fight",
+    "source": "NetNewsLedger",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQl9jVWMtamJITGgySUkzLUIzM2h0V0UyeGJQNE03eUtqRWl4MVdsSXFweUVrdmNTY1lvSWlaRkZkNVExMTFoUEpnSDE0OUJJWXNtTHB2aFd0blZ2VUxWLVdPLVJpNjg0US1oTGEwWnZpLTRWT05lS25mRW16SzNUN3k1UzJnLTBlX2VlMmUtUTJrb0UxLTFFeXE2cmdCenBMZnlfZmNMQXY1b3JodTJPWjU0UlFhUEFTaF9NSnBFT3hCcDNPS2FyU3FoOEdnNGJjem1rUU52LU54ZHR6RWo5SHdrZXhzVkV1NkREUlp2X2t4S2c?oc=5",
+    "date": "Tue, 29 Sep 2026 12:51:13 GMT"
+   },
+   {
     "title": "Liberals’ Bill C-39 a wake-up call for Canadians: Avi Lewis",
     "source": "thespec.com",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNi11WUNEbVotbk5WbDF3akxpdGpQZXlVOWppM19RbFhtNzh0VzF4YXVtRjVhVHNFM2hlUFRtdUx4X01neVp1Rko0aVBYM01VS21WU3Bqcl95VzM3ZWJQVGpnVUc4MmJnZE16TlRfLTNQUVdSODZxVzVycnlYUHV0M1BrX3M0Y0dDRS1tTjFWbGRqQjRqYmZndzdNcExaS0owdFJCQXRtdzZZel9Hd2c3QkV3aHpobTk1LUJDY0ZEZkhEYnE0WXhyeW53UGxwVElYUktGRElZUGN0alk?oc=5",
@@ -4331,12 +4342,6 @@
     "source": "The Hill Times",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZnBNNTVGUTQxSDJjb2FPNTN1b2oxb1NLVHpKcFFNNkpidzFvbWREX3JNcTBWWmZxRW9YdU53aTFtNDM3QTdkSUQzTjdscTdUQW5MX1ZiMDNpS1F6RHNBbDJCZGZmQWd6QUZrUWdNZmdwTUN3aVJWSWozcmhweUNVWjhZcmhBT2xNbU1kVGdaNEJLREEtbUlYS05nS0FUaFQ1a2tUOC1wd3ZWZ3h3ejhBQkZ1MXVRUGNnQVBlcGp0RlRMeUZk?oc=5",
     "date": "Mon, 28 Sep 2026 05:01:10 GMT"
-   },
-   {
-    "title": "Canada’s Fall Political Agenda: Could Bill C-39, Trade Reform, Labour Changes and Investment Policies Reshape the Economy?",
-    "source": "kalkine.ca",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNel9ubEVTdGJnT2daOFJhT1BxZVlKU0U1NHY4Wms1QW1tTzl4Zm1GVFd5ZmxDZmxzY1o5NDVnM1JZMk5KNmZrWjZxYnNUdkJSTE94NEpoQXhiUHBSME9TR0dmaWpxMjFUT051Nmt1ajZCaEJQb0ZpdkRkTV8waVRGR00tN2xiX2FFSE41akRNc2JNZnUzZ0VYekZUcVBmT2VUX1dFUDdqQjlBSnlSdnQybXpQZW1MRDM1d3haQ1h3dWxLY3p3M0lGZVZIZU80VjNENmY5WndnSWx3NHlNa3h1cXlqUQ?oc=5",
-    "date": "Mon, 28 Sep 2026 05:32:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
