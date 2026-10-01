@@ -1,5 +1,41 @@
 [
  {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "iTW-FWwaAUE",
+  "title": "How Did an Orange Shirt Spark a Movement? | The Rundown",
+  "date": "2026-10-01T00:00:28+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/iTW-FWwaAUE/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "Vu83qj3gfWk",
+  "title": "Carney rides high in polls as Stelco jobs vanish amid Trump trade war",
+  "date": "2026-09-30T20:26:52+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/Vu83qj3gfWk/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "tIyvcg6b9NM",
+  "title": "Conservative MP Michelle Rempel Garner holds a news conference – September 30, 2026",
+  "date": "2026-09-30T20:00:55+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/tIyvcg6b9NM/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "urAaai02dJs",
+  "title": "Don't Call It Reconciliation",
+  "date": "2026-09-30T19:58:20+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/urAaai02dJs/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -63,15 +99,6 @@
   "thumbnail": "https://i2.ytimg.com/vi/9GHf1cdp0eY/hqdefault.jpg"
  },
  {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "wI4V-Xsxn_E",
-  "title": "Is Canada Finding a Way Through Economic Uncertainty? | The Rundown",
-  "date": "2026-09-30T00:00:27+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/wI4V-Xsxn_E/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -99,15 +126,6 @@
   "thumbnail": "https://i1.ytimg.com/vi/027ZCLRCCbc/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "0bVdQjfPWfE",
-  "title": "PM Carney announces $1.2B investment in ocean conservation – September 29, 2026",
-  "date": "2026-09-29T21:15:40+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/0bVdQjfPWfE/hqdefault.jpg"
- },
- {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -126,15 +144,6 @@
   "thumbnail": "https://i1.ytimg.com/vi/lYx7Z2PRijs/hqdefault.jpg"
  },
  {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "SgVsgR2PkH8",
-  "title": "Is David Eby’s Early Election Call Backfiring?",
-  "date": "2026-09-29T16:42:40+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/SgVsgR2PkH8/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -142,15 +151,6 @@
   "title": "Canada supplanted as America’s potash supplier?",
   "date": "2026-09-29T15:08:17+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/oHAVxDwKrbA/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "Hoy4SPT0o74",
-  "title": "Security Expert Warns of Growing Threat to Canada’s Jewish Community",
-  "date": "2026-09-28T22:37:27+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/Hoy4SPT0o74/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
