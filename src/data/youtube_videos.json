@@ -1,5 +1,59 @@
 [
  {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "YKNvp4383cE",
+  "title": "Why Mark Carney loves American media",
+  "date": "2026-10-01T17:37:33+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/YKNvp4383cE/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "kw7fhgR9G3c",
+  "title": "Carney's Major Projects Balancing Act",
+  "date": "2026-10-01T16:27:04+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/kw7fhgR9G3c/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "zblxU7Fu9zk",
+  "title": "PM Carney designates West Coast pipeline a project of national interest – October 1, 2026",
+  "date": "2026-10-01T16:01:44+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/zblxU7Fu9zk/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "Ir1_N0sJ0_k",
+  "title": "What does the International Criminal Court do?",
+  "date": "2026-10-01T15:30:10+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/Ir1_N0sJ0_k/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "M9RccwFEP-Q",
+  "title": "Développ. des compétences : des groupes francophones veulent du financement",
+  "date": "2026-10-01T14:28:28+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/M9RccwFEP-Q/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "wCPOzMr12Mk",
+  "title": "Why do autoimmune diseases impact women more? | (MIS)Treated",
+  "date": "2026-10-01T13:00:38+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/wCPOzMr12Mk/hqdefault.jpg"
+ },
+ {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -16,15 +70,6 @@
   "title": "What Happens When an Indigenous Burial Site Is Discovered?",
   "date": "2026-10-01T00:30:19+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/DzSTTNkmUUo/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "iTW-FWwaAUE",
-  "title": "How Did an Orange Shirt Spark a Movement? | The Rundown",
-  "date": "2026-10-01T00:00:28+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/iTW-FWwaAUE/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -72,33 +117,6 @@
   "thumbnail": "https://i4.ytimg.com/vi/SUJQJMFt0QQ/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "g7d6qfLlCfo",
-  "title": "National Day for Truth and Reconciliation: Ceremony in Edmonton – September 30, 2026",
-  "date": "2026-09-30T17:11:51+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/g7d6qfLlCfo/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "ljQl9C8EwAU",
-  "title": "What Should Canadians Consider on Truth & Reconciliation Day?",
-  "date": "2026-09-30T13:00:28+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/ljQl9C8EwAU/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "vJHFb9VS1IE",
-  "title": "Conservative Leader Pierre Poilievre delivers national unity speech in Edmonton – September 29, 2026",
-  "date": "2026-09-30T01:10:11+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/vJHFb9VS1IE/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -124,15 +142,6 @@
   "title": "Poilievre's \"Cringe\" AI Dance Video",
   "date": "2026-09-29T21:27:52+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/027ZCLRCCbc/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "hh8am1Hr9X8",
-  "title": "Did Eby Underestimate B.C.'s Conservatives?",
-  "date": "2026-09-29T21:00:09+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/hh8am1Hr9X8/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
@@ -187,15 +196,6 @@
   "title": "Why does Israel get so much media attention?",
   "date": "2026-09-24T15:11:02+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/to25jyNFwaQ/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "bAH8mN7Uf3Y",
-  "title": "Jewish communities are under attack in Canada",
-  "date": "2026-09-23T19:37:09+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/bAH8mN7Uf3Y/hqdefault.jpg"
  },
  {
   "channel": "Canadaland",
