@@ -1,5 +1,77 @@
 [
  {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "VQWjY0VfeeE",
+  "title": "Professor blames Canada’s economic woes on ‘Laurentian elites’ who ‘restricted’ growth",
+  "date": "2026-10-02T21:12:29+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/VQWjY0VfeeE/hqdefault.jpg"
+ },
+ {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "JTew7n4Taj8",
+  "title": "Has Canada's pipeline war been won?",
+  "date": "2026-10-02T21:02:46+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/JTew7n4Taj8/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "cM--YhHje4A",
+  "title": "CAQ Leader Christine Fréchette speaks with reporters in Salaberry-de-Valleyfield – October 2, 2026",
+  "date": "2026-10-02T20:52:29+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/cM--YhHje4A/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "1kZPZgBCs4I",
+  "title": "Élection québécoise : à quoi faut-il s’attendre lundi?",
+  "date": "2026-10-02T20:01:06+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/1kZPZgBCs4I/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "8qhDWDiAbEE",
+  "title": "Quebec Conservative Leader Éric Duhaime speaks with reporters in Quebec City – October 2, 2026",
+  "date": "2026-10-02T19:58:30+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/8qhDWDiAbEE/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "0V1OHACWiJU",
+  "title": "The Story Behind Mandel's \"Sh*thole\" Comment",
+  "date": "2026-10-02T19:57:13+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/0V1OHACWiJU/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "OBnzkYCOAh8",
+  "title": "Canada Sends Trump A Message",
+  "date": "2026-10-02T19:01:14+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/OBnzkYCOAh8/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "snpQPZpSGuY",
+  "title": "Do People Use Toronto's Bike Lanes? | Fact Check | The Rundown",
+  "date": "2026-10-02T19:00:20+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/snpQPZpSGuY/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -18,24 +90,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/jGsHhnDfC4g/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "FY7k7fw0FO0",
-  "title": "Québec Solidaire holds a news conference in Quebec City – October 2, 2026",
-  "date": "2026-10-02T16:34:23+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/FY7k7fw0FO0/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "V0SG2jHnPmY",
-  "title": "PQ Leader Paul St-Pierre Plamondon speaks with reporters in Quebec City – October 2, 2026",
-  "date": "2026-10-02T16:29:34+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/V0SG2jHnPmY/hqdefault.jpg"
- },
- {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -43,15 +97,6 @@
   "title": "Stelco layoffs, Windsor's race, and a Pioneer | #onpoli October 2",
   "date": "2026-10-02T14:06:56+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/qAw2fJgCatc/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "OUkVYOPn_vQ",
-  "title": "Federal government invests $32M in prescription drug program for P.E.I. – October 2, 2026",
-  "date": "2026-10-02T13:32:37+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/OUkVYOPn_vQ/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
@@ -70,15 +115,6 @@
   "title": "The House Always Wins. Should Gambling Ads Admit It?",
   "date": "2026-10-02T01:00:12+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/piBbkq4ur0Q/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "NLu62PT24Ak",
-  "title": "“You Lose Everything”: Rick Campanelli on Gambling Addiction",
-  "date": "2026-10-02T00:30:09+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/NLu62PT24Ak/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
@@ -108,15 +144,6 @@
   "thumbnail": "https://i2.ytimg.com/vi/ec8MXqoANOw/hqdefault.jpg"
  },
  {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "px7xbAXqmvk",
-  "title": "Edmonton School Tops in Canada!",
-  "date": "2026-10-01T19:14:25+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/px7xbAXqmvk/hqdefault.jpg"
- },
- {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -124,15 +151,6 @@
   "title": "Why Mark Carney loves American media",
   "date": "2026-10-01T17:37:33+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/YKNvp4383cE/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "kw7fhgR9G3c",
-  "title": "Carney's Major Projects Balancing Act",
-  "date": "2026-10-01T16:27:04+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/kw7fhgR9G3c/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -153,15 +171,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/zDJJ26vJQZE/hqdefault.jpg"
  },
  {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "QAtXVFA4Gac",
-  "title": "Parks Canada confirmed its investigating vandalism at Banff National Park",
-  "date": "2026-09-29T22:38:19+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/QAtXVFA4Gac/hqdefault.jpg"
- },
- {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -169,15 +178,6 @@
   "title": "Is Trump's trade war with Canada reaching a turning point?",
   "date": "2026-09-29T20:25:21+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/lYx7Z2PRijs/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "DMlg1jHz9B8",
-  "title": "Is Carney a not-so-secret conservative?",
-  "date": "2026-09-28T15:22:35+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/DMlg1jHz9B8/hqdefault.jpg"
  },
  {
   "channel": "Canadaland",
