@@ -9,30 +9,30 @@
     "bio": "Prime Minister since March 14, 2025 and MP for Nepean since the April 2025 general election. Before entering politics he served as Governor of the Bank of Canada (2008–2013) and Governor of the Bank of England (2013–2020), and as UN Special Envoy on Climate Action and Finance.",
     "ratings": [
       {
-        "pollster": "Abacus Data",
-        "value": "53%",
-        "metric": "Positive impression of the Prime Minister",
-        "detail": "28% negative — net +25, up from +20 in the previous wave; Carney is the only major federal leader with a net-positive impression",
-        "date": "Wave dated August 26, 2026 (published early September 2026)",
-        "url": "https://abacusdata.ca/canadians-give-the-carney-government-strong-overall-marks-but-its-approval-rests-heavily-on-the-canada-u-s-file/",
-        "tone": "positive"
-      },
-      {
         "pollster": "Nanos Research",
-        "value": "49.9%",
+        "value": "61.5%",
         "metric": "Preferred Prime Minister",
-        "detail": "Four-week rolling average; Poilievre at 19.6% and NDP's Avi Lewis at 4.9%",
-        "date": "Published late August 2026",
-        "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
+        "detail": "A new high in Nanos tracking; Poilievre second at 19.6%, with the Liberals at 50% on the ballot",
+        "date": "Weekly tracking ending September 25, 2026 (released September 29, 2026)",
+        "url": "https://nanos.co/wp-content/uploads/2026/09/Political-PackagePrnu8745-2026-09-25-FOR-RELEASE.pdf",
         "tone": "positive"
       },
       {
-        "pollster": "Léger",
-        "value": "57%",
-        "metric": "Satisfied with the federal government",
-        "detail": "Up 3 points from June 1; 36% dissatisfied. Note: Léger's August 2026 release reports satisfaction down 3 points and Carney approval down 2 points since June, but no headline figure was confirmed in search results",
-        "date": "June 22, 2026",
-        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
+        "pollster": "Abacus Data",
+        "value": "56%",
+        "metric": "Positive impression of the Prime Minister",
+        "detail": "25% negative — net +31, the highest Abacus has recorded for Carney since it began tracking him",
+        "date": "Fielded September 18–23, 2026 (published September 27, 2026)",
+        "url": "https://abacusdata.ca/liberals-hold-12-point-lead-as-carney-reaches-new-high-and-optimism-about-canada-rises-again/",
+        "tone": "positive"
+      },
+      {
+        "pollster": "Angus Reid Institute",
+        "value": "61%",
+        "metric": "Approve of Carney's performance as Prime Minister",
+        "detail": "32% disapprove; the same survey put Liberal support at 46%, 14 points ahead of the Conservatives",
+        "date": "Released September 10, 2026",
+        "url": "https://lethbridgenewsnow.com/2026/09/10/angus-reid-institute-poll-shows-growing-support-for-carney-liberals/",
         "tone": "positive"
       }
     ]
@@ -47,28 +47,28 @@
     "bio": "Leader of the Conservative Party since September 2022 and Leader of the Official Opposition. First elected to the House of Commons in 2004, he returned to Parliament as MP for Battle River—Crowfoot through an August 2025 by-election after two decades representing Carleton.",
     "ratings": [
       {
-        "pollster": "Abacus Data",
-        "value": "35%",
-        "metric": "Positive impression",
-        "detail": "46% negative — net −11, down from 37%/43% (net −6) two weeks earlier",
-        "date": "August 2026 wave",
-        "url": "https://www.hashtaginvesting.com/blog/carney-liberals-lead-poilievre-42-35-as-80-of-canadians-say-u-s-is-on-wrong-track-abacus",
-        "tone": "negative"
-      },
-      {
         "pollster": "Nanos Research",
         "value": "19.6%",
         "metric": "Preferred Prime Minister",
-        "detail": "Four-week rolling average; down from 23.7% in early July, with Carney at 49.9%",
-        "date": "Published late August 2026",
-        "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
+        "detail": "Down from 21.3% the previous week, while Carney hit a new high of 61.5%",
+        "date": "Weekly tracking ending September 25, 2026 (released September 29, 2026)",
+        "url": "https://nanos.co/wp-content/uploads/2026/09/Political-PackagePrnu8745-2026-09-25-FOR-RELEASE.pdf",
+        "tone": "negative"
+      },
+      {
+        "pollster": "Abacus Data",
+        "value": "34%",
+        "metric": "Positive impression",
+        "detail": "45% negative — net −12, compared with Carney's net +31 in the same wave",
+        "date": "Fielded September 18–23, 2026 (published September 27, 2026)",
+        "url": "https://abacusdata.ca/liberals-hold-12-point-lead-as-carney-reaches-new-high-and-optimism-about-canada-rises-again/",
         "tone": "negative"
       },
       {
         "pollster": "Léger",
         "value": "37%",
         "metric": "Favourable opinion",
-        "detail": "50% unfavourable",
+        "detail": "50% unfavourable; no newer Léger figure for Poilievre was confirmed in search results",
         "date": "Late June 2026",
         "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
         "tone": "neutral"
