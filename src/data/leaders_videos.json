@@ -32,13 +32,6 @@
   ],
   "coverage": [
    {
-    "videoId": "0W75uferiSE",
-    "title": "Possible political strategy behind Carney’s pipeline announcement | CTV's Question Period",
-    "date": "2026-10-04T16:10:51+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/0W75uferiSE/hqdefault.jpg",
-    "channel": "CTV News"
-   },
-   {
     "videoId": "zblxU7Fu9zk",
     "title": "PM Carney designates West Coast pipeline a project of national interest – October 1, 2026",
     "date": "2026-10-01T16:01:44+00:00",
@@ -50,31 +43,31 @@
  "opposition": {
   "own": [
    {
+    "videoId": "N7yDPCsGaFs",
+    "title": "This Liberal government does not believe in homeownership.",
+    "date": "2026-10-04T23:21:32+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/N7yDPCsGaFs/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "M9ljZWs_Guc",
+    "title": "Saving on fuel saves on everything.",
+    "date": "2026-10-04T18:39:03+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/M9ljZWs_Guc/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "0lEjFxqsE9g",
+    "title": "Économiser sur le carburant, c'est économiser sur tout.",
+    "date": "2026-10-04T18:38:35+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/0lEjFxqsE9g/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
     "videoId": "J8CJHgPKaps",
     "title": "Save you money and save Canadian jobs with an Emergency Fuel Relief Plan.",
     "date": "2026-10-02T13:59:56+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/J8CJHgPKaps/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "6fIIuMdwm60",
-    "title": "Les conservateurs vont forcer un vote au Parlement pour vous faire économiser",
-    "date": "2026-10-02T13:59:53+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/6fIIuMdwm60/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "u2Pb4_teXlA",
-    "title": "LIVE from Medicine Hat: Save on Canadian fuel ⛽️ ⛽️⛽️",
-    "date": "2026-10-02T02:35:39+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/u2Pb4_teXlA/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "ac37qE6rbo4",
-    "title": "LIVE from Edmonton: Fighting for a Stronger Alberta in a United Canada",
-    "date": "2026-09-30T01:02:59+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/ac37qE6rbo4/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
