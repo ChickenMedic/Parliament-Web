@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "ideFFDC6eYw",
+    "title": "Canada is charting a new course",
+    "date": "2026-10-05T14:01:06+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/ideFFDC6eYw/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "ovD-NSNsmfE",
     "title": "Prime Minister Carney announces historic investment to protect Canada’s oceans",
     "date": "2026-10-01T22:08:04+00:00",
@@ -21,27 +28,34 @@
     "date": "2026-10-01T19:01:49+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/oCjeEb8Nuls/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "PqhUQwxT5-Y",
-    "title": "Prime Minister Carney’s remarks on the National Day for Truth and Reconciliation",
-    "date": "2026-10-01T19:00:16+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/PqhUQwxT5-Y/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "zblxU7Fu9zk",
-    "title": "PM Carney designates West Coast pipeline a project of national interest – October 1, 2026",
-    "date": "2026-10-01T16:01:44+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/zblxU7Fu9zk/hqdefault.jpg",
-    "channel": "CPAC"
+    "videoId": "cfrd0xltcaE",
+    "title": "Poilievre reprimands Carney on LNG Canada's outsourcing of Chinese steel | FULL",
+    "date": "2026-10-05T19:19:45+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/cfrd0xltcaE/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "MYrGx3-m144",
+    "title": "Is Carney ready for another separatist showdown in Quebec? | The House",
+    "date": "2026-10-05T18:38:02+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/MYrGx3-m144/hqdefault.jpg",
+    "channel": "CBC News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "ChzDu2oGFdU",
+    "title": "Fight for Canada.",
+    "date": "2026-10-05T15:46:39+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/ChzDu2oGFdU/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "N7yDPCsGaFs",
     "title": "This Liberal government does not believe in homeownership.",
@@ -62,15 +76,16 @@
     "date": "2026-10-04T18:38:35+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/0lEjFxqsE9g/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "J8CJHgPKaps",
-    "title": "Save you money and save Canadian jobs with an Emergency Fuel Relief Plan.",
-    "date": "2026-10-02T13:59:56+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/J8CJHgPKaps/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "cfrd0xltcaE",
+    "title": "Poilievre reprimands Carney on LNG Canada's outsourcing of Chinese steel | FULL",
+    "date": "2026-10-05T19:19:45+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/cfrd0xltcaE/hqdefault.jpg",
+    "channel": "Global News"
+   }
+  ]
  }
 }
