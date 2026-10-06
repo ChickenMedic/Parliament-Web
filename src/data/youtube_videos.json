@@ -1,39 +1,57 @@
 [
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "B2AesmFKPn4",
-  "title": "MPs comment on Quebec and B.C. elections, Alberta separatism – October 5, 2026",
-  "date": "2026-10-05T20:28:16+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/B2AesmFKPn4/hqdefault.jpg"
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "1tA0Sgr8-XE",
+  "title": "Hon. Anne McLellan // Downtown Safety Solutions",
+  "date": "2026-10-06T17:58:47+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/1tA0Sgr8-XE/hqdefault.jpg"
  },
  {
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "8XCRtkIzeBk",
-  "title": "Période des questions – 5 octobre 2026",
-  "date": "2026-10-05T19:15:01+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/8XCRtkIzeBk/hqdefault.jpg"
+  "videoId": "akWaQR566p4",
+  "title": "Manitoba increases capacity for community-based care – October 6, 2026",
+  "date": "2026-10-06T16:29:31+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/akWaQR566p4/hqdefault.jpg"
  },
  {
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "vBf9yjMTK3k",
-  "title": "Question Period – October 5, 2026",
-  "date": "2026-10-05T19:13:44+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/vBf9yjMTK3k/hqdefault.jpg"
+  "videoId": "w3KZaJvtQFY",
+  "title": "Période des questions – 6 octobre 2026",
+  "date": "2026-10-06T16:25:03+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/w3KZaJvtQFY/hqdefault.jpg"
  },
  {
   "channel": "CPAC",
   "handle": "CPAC",
   "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "rKWHlsho2Ek",
-  "title": "Federal and Northwest Territories governments announce health-care measures – October 5, 2026",
-  "date": "2026-10-05T17:21:50+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/rKWHlsho2Ek/hqdefault.jpg"
+  "videoId": "cDZuZZqwUSY",
+  "title": "Question Period – October 6, 2026",
+  "date": "2026-10-06T16:24:59+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/cDZuZZqwUSY/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "q5BB4xMUAeA",
+  "title": "PQ Leader Paul St-Pierre Plamondon speaks with reporters in Quebec City – October 6, 2026",
+  "date": "2026-10-06T15:48:54+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/q5BB4xMUAeA/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "t7w-Bk9naMA",
+  "title": "When can your work terminate you? | Knowledge Gap",
+  "date": "2026-10-06T15:00:10+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/t7w-Bk9naMA/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -41,8 +59,53 @@
   "about": "Independent centrist talk show",
   "videoId": "GW5HF_osMkc",
   "title": "The Separatists’ Secret Plan to Sell Out Alberta",
-  "date": "2026-10-05T14:24:45+00:00",
+  "date": "2026-10-06T04:07:56+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/GW5HF_osMkc/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "zKSKP2qsdNc",
+  "title": "Are Overcrowded ERs Impacting Medical Training?",
+  "date": "2026-10-06T01:00:18+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/zKSKP2qsdNc/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "EX-3AcC1aYE",
+  "title": "Can Family Medicine Be Fixed in Ontario?",
+  "date": "2026-10-06T00:30:30+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/EX-3AcC1aYE/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "Slu6QEmzqjs",
+  "title": "Why Are Ontario's ER Doctors Burning Out? | The Rundown",
+  "date": "2026-10-06T00:00:01+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/Slu6QEmzqjs/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "1Q4oUppLDfg",
+  "title": "‘Complete fiction’: Alberta separatist denies report of oil, water offer for U.S. support",
+  "date": "2026-10-05T21:44:11+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/1Q4oUppLDfg/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "JLDJrq3caY4",
+  "title": "Separatists Will Sell Out Alberta",
+  "date": "2026-10-05T21:38:05+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/JLDJrq3caY4/hqdefault.jpg"
  },
  {
   "channel": "Juno News",
@@ -90,60 +153,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/JTew7n4Taj8/hqdefault.jpg"
  },
  {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "0V1OHACWiJU",
-  "title": "The Story Behind Mandel's \"Sh*thole\" Comment",
-  "date": "2026-10-02T19:57:13+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/0V1OHACWiJU/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "OBnzkYCOAh8",
-  "title": "Canada Sends Trump A Message",
-  "date": "2026-10-02T19:01:14+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/OBnzkYCOAh8/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "snpQPZpSGuY",
-  "title": "Do People Use Toronto's Bike Lanes? | Fact Check | The Rundown",
-  "date": "2026-10-02T19:00:20+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/snpQPZpSGuY/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "qAw2fJgCatc",
-  "title": "Stelco layoffs, Windsor's race, and a Pioneer | #onpoli October 2",
-  "date": "2026-10-02T14:06:56+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/qAw2fJgCatc/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "wDyhApiD_dI",
-  "title": "Donald Trump's tariffs take a bite out of Steeltown | #onpoli",
-  "date": "2026-10-02T13:00:34+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/wDyhApiD_dI/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "piBbkq4ur0Q",
-  "title": "The House Always Wins. Should Gambling Ads Admit It?",
-  "date": "2026-10-02T01:00:12+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/piBbkq4ur0Q/hqdefault.jpg"
- },
- {
   "channel": "The Hub",
   "handle": "TheHubCanada",
   "about": "Centre-right policy commentary",
@@ -151,15 +160,6 @@
   "title": "Hon. Steven MacKinnon: Why Bill C-39 will get Canada building again",
   "date": "2026-10-01T21:55:50+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/ZUY2FrziIpU/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "Zf27TROWl5w",
-  "title": "The Court Fight Over Canada’s Trans Inmate Policy",
-  "date": "2026-10-01T21:46:41+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/Zf27TROWl5w/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
