@@ -1,5 +1,59 @@
 [
  {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "JKNX1m16iwA",
+  "title": "What Are Smartphones Doing to the Aging Brain? | The Rundown",
+  "date": "2026-10-07T00:00:04+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/JKNX1m16iwA/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "A207a37Ir2Y",
+  "title": "RCMP, FBI announce arrest in connection with Tumbler Ridge shooting – October 6, 2026",
+  "date": "2026-10-06T21:41:56+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/A207a37Ir2Y/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "RC9gZJGY6bQ",
+  "title": "Élection du PQ: À quoi s'attendre dans les prochains mois?",
+  "date": "2026-10-06T21:32:18+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/RC9gZJGY6bQ/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "K1i80X1Qq_0",
+  "title": "Federal MPs comment on arrest over Tumbler Ridge shooting – October 6, 2026",
+  "date": "2026-10-06T21:16:17+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/K1i80X1Qq_0/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "vfW61VYu50U",
+  "title": "Paul St-Pierre-Plamondon du PQ livre les orientations à venir de son gouvernement - 6 octobre 2026",
+  "date": "2026-10-06T20:56:04+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/vfW61VYu50U/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "4rFFc98GX5M",
+  "title": "What Would Peter Lougheed Say?",
+  "date": "2026-10-06T20:36:54+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/4rFFc98GX5M/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -7,42 +61,6 @@
   "title": "Hon. Anne McLellan // Downtown Safety Solutions",
   "date": "2026-10-06T17:58:47+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/1tA0Sgr8-XE/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "akWaQR566p4",
-  "title": "Manitoba increases capacity for community-based care – October 6, 2026",
-  "date": "2026-10-06T16:29:31+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/akWaQR566p4/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "w3KZaJvtQFY",
-  "title": "Période des questions – 6 octobre 2026",
-  "date": "2026-10-06T16:25:03+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/w3KZaJvtQFY/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "cDZuZZqwUSY",
-  "title": "Question Period – October 6, 2026",
-  "date": "2026-10-06T16:24:59+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/cDZuZZqwUSY/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "q5BB4xMUAeA",
-  "title": "PQ Leader Paul St-Pierre Plamondon speaks with reporters in Quebec City – October 6, 2026",
-  "date": "2026-10-06T15:48:54+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/q5BB4xMUAeA/hqdefault.jpg"
  },
  {
   "channel": "TVO Today",
@@ -81,24 +99,6 @@
   "thumbnail": "https://i2.ytimg.com/vi/EX-3AcC1aYE/hqdefault.jpg"
  },
  {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "Slu6QEmzqjs",
-  "title": "Why Are Ontario's ER Doctors Burning Out? | The Rundown",
-  "date": "2026-10-06T00:00:01+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/Slu6QEmzqjs/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "1Q4oUppLDfg",
-  "title": "‘Complete fiction’: Alberta separatist denies report of oil, water offer for U.S. support",
-  "date": "2026-10-05T21:44:11+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/1Q4oUppLDfg/hqdefault.jpg"
- },
- {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -106,114 +106,6 @@
   "title": "Separatists Will Sell Out Alberta",
   "date": "2026-10-05T21:38:05+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/JLDJrq3caY4/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "K9Dz5fPxbu0",
-  "title": "Canada’s Broken System: Criminals Get Coddled, Canadians Get Screwed",
-  "date": "2026-10-04T22:01:20+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/K9Dz5fPxbu0/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "gLRatyItHRU",
-  "title": "Carney is preparing Canada for return to Mass Immigration",
-  "date": "2026-10-04T17:06:42+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/gLRatyItHRU/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "dnvW5mwQc5A",
-  "title": "\"Nobody wants a government-funded pipeline!\"",
-  "date": "2026-10-03T14:30:36+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/dnvW5mwQc5A/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "VQWjY0VfeeE",
-  "title": "Professor blames Canada’s economic woes on ‘Laurentian elites’ who ‘restricted’ growth",
-  "date": "2026-10-02T21:12:29+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/VQWjY0VfeeE/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "JTew7n4Taj8",
-  "title": "Has Canada's pipeline war been won?",
-  "date": "2026-10-02T21:02:46+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/JTew7n4Taj8/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "ZUY2FrziIpU",
-  "title": "Hon. Steven MacKinnon: Why Bill C-39 will get Canada building again",
-  "date": "2026-10-01T21:55:50+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/ZUY2FrziIpU/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "YKNvp4383cE",
-  "title": "Why Mark Carney loves American media",
-  "date": "2026-10-01T17:37:33+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/YKNvp4383cE/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "lYx7Z2PRijs",
-  "title": "Is Trump's trade war with Canada reaching a turning point?",
-  "date": "2026-09-29T20:25:21+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/lYx7Z2PRijs/hqdefault.jpg"
- },
- {
-  "channel": "Canadaland",
-  "handle": "canadaland",
-  "about": "Media criticism and politics podcast",
-  "videoId": "_GOIwbD5qas",
-  "title": "\"Keep an eye on what he's actually doing versus what he's saying.\"  #cdnpoli #politics #podcast",
-  "date": "2026-09-25T22:30:04+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/_GOIwbD5qas/hqdefault.jpg"
- },
- {
-  "channel": "Canadaland",
-  "handle": "canadaland",
-  "about": "Media criticism and politics podcast",
-  "videoId": "Nlj-LphMalE",
-  "title": "How much power would it take to run a data centre the size of four Disneyland parks?",
-  "date": "2026-09-24T17:15:07+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/Nlj-LphMalE/hqdefault.jpg"
- },
- {
-  "channel": "Canadaland",
-  "handle": "canadaland",
-  "about": "Media criticism and politics podcast",
-  "videoId": "ZGlWA4Iodhg",
-  "title": "Big tech companies draw on nature to make their products feel uncontrollable and essential.",
-  "date": "2026-09-22T20:30:19+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/ZGlWA4Iodhg/hqdefault.jpg"
- },
- {
-  "channel": "J.J. McCullough",
-  "handle": "JJMcCullough",
-  "about": "Conservative-leaning commentary",
-  "videoId": "1P1C0rCJHk8",
-  "title": "The most corrupt election call in Canadian history? (BC)",
-  "date": "2026-09-22T19:22:17+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/1P1C0rCJHk8/hqdefault.jpg"
  },
  {
   "channel": "The Breach",
@@ -250,14 +142,5 @@
   "title": "This is how contracts are won #substack #shorts",
   "date": "2026-09-22T14:37:22+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/pyJKs-01DF0/hqdefault.jpg"
- },
- {
-  "channel": "Canadaland",
-  "handle": "canadaland",
-  "about": "Media criticism and politics podcast",
-  "videoId": "yLmgaKP3L_k",
-  "title": "Why is a small Ontario town protesting Trump? Also, a call-in show!",
-  "date": "2026-09-21T14:42:58+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/yLmgaKP3L_k/hqdefault.jpg"
  }
 ]

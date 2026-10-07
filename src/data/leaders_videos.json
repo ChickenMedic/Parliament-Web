@@ -32,60 +32,30 @@
   ],
   "coverage": [
    {
+    "videoId": "bo8XsKn0VpM",
+    "title": "How will Carney and Quebec's new premier get along? | Power & Politics",
+    "date": "2026-10-06T23:10:09+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/bo8XsKn0VpM/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "UgRt2ktfVhU",
+    "title": "Carney says it's 'time to act,' work together with incoming Quebec premier",
+    "date": "2026-10-06T18:53:23+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/UgRt2ktfVhU/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
     "videoId": "qiPl1HU-jBA",
     "title": "PM Carney and ministers comment on Quebec election results – October 6, 2026",
     "date": "2026-10-06T18:20:17+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/qiPl1HU-jBA/hqdefault.jpg",
     "channel": "CPAC"
-   },
-   {
-    "videoId": "h2C7vjzlXns",
-    "title": "Naomi Klein on Carney, trade wars and 'end times' | Front Burner",
-    "date": "2026-10-06T14:02:22+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/h2C7vjzlXns/hqdefault.jpg",
-    "channel": "CBC News"
    }
   ]
  },
  "opposition": {
-  "own": [
-   {
-    "videoId": "RY8XEzH1xms",
-    "title": "Zero. Zilch. Nada. Nothing.",
-    "date": "2026-10-06T14:03:05+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/RY8XEzH1xms/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "ChzDu2oGFdU",
-    "title": "Fight for Canada.",
-    "date": "2026-10-05T15:46:39+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/ChzDu2oGFdU/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "N7yDPCsGaFs",
-    "title": "This Liberal government does not believe in homeownership.",
-    "date": "2026-10-04T23:21:32+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/N7yDPCsGaFs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "M9ljZWs_Guc",
-    "title": "Saving on fuel saves on everything.",
-    "date": "2026-10-04T18:39:03+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/M9ljZWs_Guc/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   }
-  ],
-  "coverage": [
-   {
-    "videoId": "OqI2wXiJZkQ",
-    "title": "Poilievre 'incredibly effective' as leader says 8th Conservative MP to leave | Power & Politics",
-    "date": "2026-10-05T23:42:36+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/OqI2wXiJZkQ/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "own": [],
+  "coverage": []
  }
 }
