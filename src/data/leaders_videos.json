@@ -32,23 +32,30 @@
   ],
   "coverage": [
    {
-    "videoId": "bo8XsKn0VpM",
-    "title": "How will Carney and Quebec's new premier get along? | Power & Politics",
-    "date": "2026-10-06T23:10:09+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/bo8XsKn0VpM/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "qiPl1HU-jBA",
-    "title": "PM Carney and ministers comment on Quebec election results – October 6, 2026",
-    "date": "2026-10-06T18:20:17+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/qiPl1HU-jBA/hqdefault.jpg",
-    "channel": "CPAC"
+    "videoId": "fc7-FACFfZk",
+    "title": "Carney reflects on Oct. 7 attacks in Israel, Belleville synagogue shooting",
+    "date": "2026-10-07T16:24:41+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/fc7-FACFfZk/hqdefault.jpg",
+    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "ToGgACBqNLs",
+    "title": "Produce more 🇨🇦 diesel, save you money, and make Canada more self-reliant.",
+    "date": "2026-10-07T13:39:43+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/ToGgACBqNLs/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "xOgDKfPnfJk",
+    "title": "Produire plus de diesel 🇨🇦, vous faire économiser et renforcer l’autonomie du Canada",
+    "date": "2026-10-07T13:32:55+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/xOgDKfPnfJk/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "RY8XEzH1xms",
     "title": "Zero. Zilch. Nada. Nothing.",
@@ -61,20 +68,6 @@
     "title": "Fight for Canada.",
     "date": "2026-10-05T15:46:39+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/ChzDu2oGFdU/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "N7yDPCsGaFs",
-    "title": "This Liberal government does not believe in homeownership.",
-    "date": "2026-10-04T23:21:32+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/N7yDPCsGaFs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "M9ljZWs_Guc",
-    "title": "Saving on fuel saves on everything.",
-    "date": "2026-10-04T18:39:03+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/M9ljZWs_Guc/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
