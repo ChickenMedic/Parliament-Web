@@ -200,14 +200,6 @@
   "appointedDate": "2016"
  },
  {
-  "name": "Raymonde Saint-Germain",
-  "group": "Independent Senators Group",
-  "color": "#4a90e2",
-  "province": "QC (De la Vallière)",
-  "appointedBy": "Trudeau, J.",
-  "appointedDate": "2016"
- },
- {
   "name": "Rosa Galvez",
   "group": "Independent Senators Group",
   "color": "#4a90e2",
@@ -737,8 +729,8 @@
  },
  {
   "name": "Richard Martel",
-  "group": "Non-affiliated",
-  "color": "#808080",
+  "group": "Conservative",
+  "color": "#1a4782",
   "province": "QC (Rougemont)",
   "appointedBy": "Mark Carney",
   "appointedDate": "2026"
@@ -750,6 +742,14 @@
   "province": "QC (De la Durantaye)",
   "appointedBy": "Mark Carney",
   "appointedDate": "2026"
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
  },
  {
   "name": "Vacant Seat",
