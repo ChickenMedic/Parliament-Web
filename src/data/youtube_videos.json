@@ -3,6 +3,33 @@
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "v6xYMhcqq1E",
+  "title": "Can smartphones cause dementia?",
+  "date": "2026-10-07T01:00:35+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/v6xYMhcqq1E/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "-8xDgIczD-Y",
+  "title": "Oklahoma State Senator SOUNDS ALARM over repeated church burnings",
+  "date": "2026-10-07T00:34:05+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/-8xDgIczD-Y/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "eJta1HQxoTw",
+  "title": "How are seniors keeping their brains sharp?",
+  "date": "2026-10-07T00:30:21+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/eJta1HQxoTw/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
   "videoId": "JKNX1m16iwA",
   "title": "What Are Smartphones Doing to the Aging Brain? | The Rundown",
   "date": "2026-10-07T00:00:04+00:00",
@@ -45,6 +72,15 @@
   "thumbnail": "https://i3.ytimg.com/vi/vfW61VYu50U/hqdefault.jpg"
  },
  {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "UZEJ3ahZr94",
+  "title": "How Quebec’s new separatist government could break Canada’s “cozy consensus”",
+  "date": "2026-10-06T20:50:32+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/UZEJ3ahZr94/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -81,22 +117,13 @@
   "thumbnail": "https://i4.ytimg.com/vi/GW5HF_osMkc/hqdefault.jpg"
  },
  {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "zKSKP2qsdNc",
-  "title": "Are Overcrowded ERs Impacting Medical Training?",
-  "date": "2026-10-06T01:00:18+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/zKSKP2qsdNc/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "EX-3AcC1aYE",
-  "title": "Can Family Medicine Be Fixed in Ontario?",
-  "date": "2026-10-06T00:30:30+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/EX-3AcC1aYE/hqdefault.jpg"
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "1Q4oUppLDfg",
+  "title": "‘Complete fiction’: Alberta separatist denies report of oil, water offer for U.S. support",
+  "date": "2026-10-05T21:44:11+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/1Q4oUppLDfg/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -106,6 +133,87 @@
   "title": "Separatists Will Sell Out Alberta",
   "date": "2026-10-05T21:38:05+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/JLDJrq3caY4/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "K9Dz5fPxbu0",
+  "title": "Canada’s Broken System: Criminals Get Coddled, Canadians Get Screwed",
+  "date": "2026-10-04T22:01:20+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/K9Dz5fPxbu0/hqdefault.jpg"
+ },
+ {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "gLRatyItHRU",
+  "title": "Carney is preparing Canada for return to Mass Immigration",
+  "date": "2026-10-04T17:06:42+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/gLRatyItHRU/hqdefault.jpg"
+ },
+ {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "JTew7n4Taj8",
+  "title": "Has Canada's pipeline war been won?",
+  "date": "2026-10-02T21:02:46+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/JTew7n4Taj8/hqdefault.jpg"
+ },
+ {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "ZUY2FrziIpU",
+  "title": "Hon. Steven MacKinnon: Why Bill C-39 will get Canada building again",
+  "date": "2026-10-01T21:55:50+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/ZUY2FrziIpU/hqdefault.jpg"
+ },
+ {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "YKNvp4383cE",
+  "title": "Why Mark Carney loves American media",
+  "date": "2026-10-01T17:37:33+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/YKNvp4383cE/hqdefault.jpg"
+ },
+ {
+  "channel": "Canadaland",
+  "handle": "canadaland",
+  "about": "Media criticism and politics podcast",
+  "videoId": "_GOIwbD5qas",
+  "title": "\"Keep an eye on what he's actually doing versus what he's saying.\"  #cdnpoli #politics #podcast",
+  "date": "2026-09-25T22:30:04+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/_GOIwbD5qas/hqdefault.jpg"
+ },
+ {
+  "channel": "Canadaland",
+  "handle": "canadaland",
+  "about": "Media criticism and politics podcast",
+  "videoId": "Nlj-LphMalE",
+  "title": "How much power would it take to run a data centre the size of four Disneyland parks?",
+  "date": "2026-09-24T17:15:07+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/Nlj-LphMalE/hqdefault.jpg"
+ },
+ {
+  "channel": "Canadaland",
+  "handle": "canadaland",
+  "about": "Media criticism and politics podcast",
+  "videoId": "ZGlWA4Iodhg",
+  "title": "Big tech companies draw on nature to make their products feel uncontrollable and essential.",
+  "date": "2026-09-22T20:30:19+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/ZGlWA4Iodhg/hqdefault.jpg"
+ },
+ {
+  "channel": "J.J. McCullough",
+  "handle": "JJMcCullough",
+  "about": "Conservative-leaning commentary",
+  "videoId": "1P1C0rCJHk8",
+  "title": "The most corrupt election call in Canadian history? (BC)",
+  "date": "2026-09-22T19:22:17+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/1P1C0rCJHk8/hqdefault.jpg"
  },
  {
   "channel": "The Breach",
@@ -142,5 +250,14 @@
   "title": "This is how contracts are won #substack #shorts",
   "date": "2026-09-22T14:37:22+00:00",
   "thumbnail": "https://i1.ytimg.com/vi/pyJKs-01DF0/hqdefault.jpg"
+ },
+ {
+  "channel": "Canadaland",
+  "handle": "canadaland",
+  "about": "Media criticism and politics podcast",
+  "videoId": "yLmgaKP3L_k",
+  "title": "Why is a small Ontario town protesting Trump? Also, a call-in show!",
+  "date": "2026-09-21T14:42:58+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/yLmgaKP3L_k/hqdefault.jpg"
  }
 ]
