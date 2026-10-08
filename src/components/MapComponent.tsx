@@ -86,17 +86,24 @@ const createTextIcon = (text: string) => {
   });
 };
 
+// The whole country plus the row of city insets MapComponent draws south of
+// it (around latitude 32–45). On phones the Arctic is dropped so the
+// populated south isn't squeezed into a strip.
+const initialBounds = (): LatLngBoundsExpression => {
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+  return [
+    [31.0, -141.0],
+    [isMobile ? 70.0 : 83.2, -52.6],
+  ];
+};
+
 const MapResizer = () => {
   const map = useMap();
   useEffect(() => {
     // Force centering and size recalculation on initial load
     const initTimeout = setTimeout(() => {
       map.invalidateSize();
-      const isMobile = window.innerWidth < 1024;
-      map.fitBounds([
-        [41.6751, -141.0], 
-        [isMobile ? 68.0 : 83.1106, -52.6]
-      ], { animate: false });
+      map.fitBounds(initialBounds(), { animate: false, padding: [8, 8] });
     }, 250);
 
     let timeout: any;
@@ -148,8 +155,16 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
     return map;
   }, [politicians]);
 
-  const getMPForRiding = (rName: string) => {
-    return ridingMap.get(rName) || null;
+  // fetch_ridings.py writes each riding under the House's current name and,
+  // where Parliament has renamed it, the previous name as an alias — which
+  // is what politicians.json may still carry.
+  const getMPForRiding = (feature: any) => {
+    const names: string[] = [feature.properties.name, ...(feature.properties.aliases || [])];
+    for (const name of names) {
+      const mp = ridingMap.get(normalizeName(name));
+      if (mp) return mp;
+    }
+    return null;
   };
 
   const [insetConfigs] = useState<Record<string, any>>({
@@ -246,8 +261,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
   useEffect(() => {
      if (geoJsonRef.current) {
         geoJsonRef.current.eachLayer((layer: any) => {
-           const ridingName = normalizeName(layer.feature.properties.name);
-           const mp = getMPForRiding(ridingName);
+           const mp = getMPForRiding(layer.feature);
            const isSelected = selectedMP && mp && mp.url === selectedMP.url;
            const isInset = layer.feature.properties.isInset;
            
@@ -267,8 +281,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
   }, [selectedMP, geoJsonRef]);
 
   const styleFeature = (feature: any) => {
-    const ridingName = normalizeName(feature.properties.name);
-    const mp = getMPForRiding(ridingName);
+    const mp = getMPForRiding(feature);
     const isSelected = selectedMPRef.current && mp && mp.url === selectedMPRef.current.url;
     const isInset = feature.properties.isInset;
     
@@ -283,8 +296,7 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
   };
 
   const onEachFeature = (feature: any, layer: any) => {
-    const ridingName = normalizeName(feature.properties.name);
-    const mp = getMPForRiding(ridingName);
+    const mp = getMPForRiding(feature);
 
     if (!feature.properties.isInset && mp) {
        ridingToLayerMap.current.set(mp.url, layer);
@@ -413,17 +425,15 @@ export const MapComponent = ({ selectedMP, setSelectedMP }: {selectedMP: any, se
 
 
 
-  // Safe initial bounds for Canada
-  const isMobileInitial = typeof window !== 'undefined' && window.innerWidth < 1024;
-  const canadaBounds: LatLngBoundsExpression = [
-    [41.6751, -141.0], 
-    [isMobileInitial ? 68.0 : 83.1106, -52.6]
-  ];
+  const canadaBounds = initialBounds();
 
   return (
     <div className="map-container" style={{ background: '#0f172a' }}>
       <MapContainer 
         bounds={canadaBounds}
+        boundsOptions={{ padding: [8, 8] }}
+        zoomSnap={0.25}
+        zoomDelta={0.5}
         minZoom={2}
         maxBounds={bounds}
         maxBoundsViscosity={0.2}

@@ -150,6 +150,13 @@ async function fetchTimeline(handle, userId, { maxResults, keep, sinceId }) {
     }
     return fetchedTweets;
   } catch (err) {
+    if (err.code === 402) {
+      // Every request fails the same way until the account is topped up, so
+      // there's no point trying the rest of the list.
+      console.error('🚨 402 Payment Required: the X developer account has no API credits. '
+        + 'Top up at https://developer.x.com/ (Pay-per-use) and re-run. Keeping previous data.');
+      process.exit(2);
+    }
     if (err.code === 403) {
       console.error(`🚨 403 Forbidden for @${handle}: this token's access level can't read timelines.`);
     } else if (err.code === 429) {

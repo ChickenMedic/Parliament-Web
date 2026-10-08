@@ -1,0 +1,256 @@
+.history { gap: 36px; padding: 32px 36px 48px 36px; }
+
+.history-header h1 {
+  font-size: 34px;
+  margin: 0 0 8px 0;
+  color: white;
+}
+
+.history-header p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 15px;
+  max-width: 720px;
+  line-height: 1.55;
+}
+
+.history-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.history-section-title h2 {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+
+/* ── Era bar: 1867 to today, one segment per term ── */
+.era-bar-wrap {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 18px 20px 14px 20px;
+}
+
+.era-bar {
+  display: flex;
+  height: 34px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.era-bar button {
+  height: 100%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  border-right: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.era-bar button:hover,
+.era-bar button.active { opacity: 1; }
+
+.era-bar button.dimmed { opacity: 0.25; }
+
+.era-ticks {
+  position: relative;
+  height: 20px;
+  margin-top: 6px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.era-ticks span {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.era-ticks span::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.25);
+  margin: 0 auto 2px auto;
+}
+
+.era-caption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  min-height: 18px;
+}
+
+.era-caption b { color: white; }
+
+/* ── Filters ── */
+.history-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.chip {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+
+.chip:hover { color: white; border-color: rgba(255, 255, 255, 0.35); }
+
+.chip.active {
+  background: var(--chip-color, rgba(255, 255, 255, 0.15));
+  border-color: var(--chip-color, rgba(255, 255, 255, 0.4));
+  color: white;
+}
+
+/* ── PM cards ── */
+.pm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 16px;
+}
+
+.pm-card {
+  display: flex;
+  gap: 18px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-left: 4px solid var(--pm-color);
+  border-radius: 14px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.pm-card:hover { background: rgba(255, 255, 255, 0.06); transform: translateY(-2px); }
+
+.pm-card.current { box-shadow: 0 0 0 1px var(--pm-color), 0 8px 24px rgba(0, 0, 0, 0.35); }
+
+.pm-portrait {
+  width: 84px;
+  aspect-ratio: 8 / 11;
+  object-fit: cover;
+  object-position: center 15%;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+  filter: saturate(0.85);
+}
+
+.pm-body { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 6px; }
+
+.pm-ordinal {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: 700;
+}
+
+.pm-party {
+  color: var(--pm-color);
+}
+
+.pm-now {
+  background: rgba(52, 211, 153, 0.15);
+  color: #34d399;
+  padding: 2px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+}
+
+.pm-card h3 {
+  margin: 0;
+  font-size: 19px;
+  color: white;
+  line-height: 1.2;
+}
+
+.pm-terms {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.45;
+}
+
+.pm-terms small {
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 6px;
+}
+
+.pm-summary {
+  margin: 2px 0 0 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.pm-link {
+  margin-top: auto;
+  padding-top: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pm-link:hover { color: white; }
+
+/* ── Milestones ── */
+.milestones {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.milestone {
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+}
+
+.milestone .year {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 1;
+}
+
+.milestone .what {
+  margin-top: 8px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1024px) {
+  .history { padding: 20px 16px 40px 16px; gap: 28px; }
+  .history-header h1 { font-size: 28px; }
+  .pm-grid { grid-template-columns: 1fr; }
+  .pm-portrait { width: 72px; }
+}

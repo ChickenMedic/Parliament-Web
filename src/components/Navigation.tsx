@@ -1,7 +1,21 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Home, Map, Landmark, FileText, Users, AlertTriangle, Menu, X } from 'lucide-react';
+import { Home, Newspaper, Map, Landmark, FileText, Users, AlertTriangle, History, Menu, X } from 'lucide-react';
 import './Navigation.css';
+
+const LINKS: { to: string; label: string; icon: React.ComponentType<{ size?: number }>; end?: boolean }[] = [
+  { to: '/', label: 'Home', icon: Home, end: true },
+  { to: '/feed', label: 'The Feed', icon: Newspaper },
+  { to: '/pm', label: 'Prime Minister', icon: Users },
+  { to: '/opposition-leader', label: 'Opposition Leader', icon: Users },
+  { to: '/parties', label: 'Parties', icon: Users },
+  { to: '/bills', label: 'Bills', icon: FileText },
+  { to: '/scandals', label: 'Scandals', icon: AlertTriangle },
+  { to: '/committees', label: 'Committees', icon: Users },
+  { to: '/house', label: 'House of Commons', icon: Landmark },
+  { to: '/map', label: 'Find Your MP', icon: Map },
+  { to: '/history', label: 'History', icon: History },
+];
 
 export const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,51 +23,27 @@ export const Navigation: React.FC = () => {
   return (
     <nav className="main-nav glass-panel">
       <div className="nav-header">
-        <div className="nav-logo">
+        <NavLink to="/" className="nav-logo" onClick={() => setIsOpen(false)}>
           <span className="logo-text">Parlia</span>
           <span className="logo-text accent">Web</span>
-        </div>
-        <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)}>
+        </NavLink>
+        <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
           {isOpen ? <X size={28} color="white" /> : <Menu size={28} color="white" />}
         </button>
       </div>
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <NavLink to="/" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Home size={20} />
-          <span>The Feed</span>
-        </NavLink>
-        <NavLink to="/pm" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Users size={20} />
-          <span>Prime Minister</span>
-        </NavLink>
-        <NavLink to="/opposition-leader" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Users size={20} />
-          <span>Opposition Leader</span>
-        </NavLink>
-        <NavLink to="/parties" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Users size={20} />
-          <span>Parties</span>
-        </NavLink>
-        <NavLink to="/bills" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <FileText size={20} />
-          <span>Bills</span>
-        </NavLink>
-        <NavLink to="/scandals" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <AlertTriangle size={20} />
-          <span>Scandals</span>
-        </NavLink>
-        <NavLink to="/committees" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Users size={20} />
-          <span>Committees</span>
-        </NavLink>
-        <NavLink to="/house" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Landmark size={20} />
-          <span>House of Commons</span>
-        </NavLink>
-        <NavLink to="/map" onClick={() => setIsOpen(false)} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-          <Map size={20} />
-          <span>Find Your MP</span>
-        </NavLink>
+        {LINKS.map(({ to, label, icon: Icon, end }) => (
+          <NavLink
+            key={to}
+            to={to}
+            end={end}
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+          >
+            <Icon size={20} />
+            <span>{label}</span>
+          </NavLink>
+        ))}
       </div>
     </nav>
   );

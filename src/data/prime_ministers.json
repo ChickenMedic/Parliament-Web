@@ -1,0 +1,358 @@
+[
+  {
+    "number": 1,
+    "name": "Sir John A. Macdonald",
+    "party": "Liberal-Conservative",
+    "terms": [
+      {
+        "start": "1867-07-01",
+        "end": "1873-11-05"
+      },
+      {
+        "start": "1878-10-17",
+        "end": "1891-06-06"
+      }
+    ],
+    "summary": "Confederation's first prime minister. Built the Canadian Pacific Railway and the National Policy of protective tariffs, and died in office.",
+    "wiki": "John_A._Macdonald",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/John_A_Macdonald_%28ca._1875%29.jpg/330px-John_A_Macdonald_%28ca._1875%29.jpg"
+  },
+  {
+    "number": 2,
+    "name": "Alexander Mackenzie",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1873-11-07",
+        "end": "1878-10-08"
+      }
+    ],
+    "summary": "Canada's first Liberal prime minister. Introduced the secret ballot and created the Supreme Court of Canada.",
+    "wiki": "Alexander_Mackenzie_(politician)",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Alexander_MacKenzie_-_portrait.jpg"
+  },
+  {
+    "number": 3,
+    "name": "Sir John Abbott",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "1891-06-16",
+        "end": "1892-11-24"
+      }
+    ],
+    "summary": "The first Canadian-born prime minister, who governed from the Senate and retired after 17 months in poor health.",
+    "wiki": "John_Abbott",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/SirJohnAbbott1.jpg/330px-SirJohnAbbott1.jpg"
+  },
+  {
+    "number": 4,
+    "name": "Sir John Thompson",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "1892-12-05",
+        "end": "1894-12-12"
+      }
+    ],
+    "summary": "Drafted Canada's first Criminal Code as justice minister. Died in office at Windsor Castle, moments after being sworn to the Privy Council.",
+    "wiki": "John_Sparrow_David_Thompson",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Sir_John_SD_Thompson.jpg/330px-Sir_John_SD_Thompson.jpg"
+  },
+  {
+    "number": 5,
+    "name": "Sir Mackenzie Bowell",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "1894-12-21",
+        "end": "1896-04-27"
+      }
+    ],
+    "summary": "Governed from the Senate and was forced out by a cabinet revolt over the Manitoba Schools Question.",
+    "wiki": "Mackenzie_Bowell",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/SirMackenzieBowell.jpg/330px-SirMackenzieBowell.jpg"
+  },
+  {
+    "number": 6,
+    "name": "Sir Charles Tupper",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "1896-05-01",
+        "end": "1896-07-08"
+      }
+    ],
+    "summary": "A Father of Confederation whose 69 days in office remain the shortest tenure of any prime minister.",
+    "wiki": "Charles_Tupper",
+    "portrait": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Sir_charles_tupper_%28cropped%29.jpg"
+  },
+  {
+    "number": 7,
+    "name": "Sir Wilfrid Laurier",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1896-07-11",
+        "end": "1911-10-06"
+      }
+    ],
+    "summary": "The first francophone prime minister. Oversaw mass immigration to the Prairies and the creation of Alberta and Saskatchewan.",
+    "wiki": "Wilfrid_Laurier",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/The_Honourable_Sir_Wilfrid_Laurier_Photo_A_%283x4_cropped%29.jpg/330px-The_Honourable_Sir_Wilfrid_Laurier_Photo_A_%283x4_cropped%29.jpg"
+  },
+  {
+    "number": 8,
+    "name": "Sir Robert Borden",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "1911-10-10",
+        "end": "1920-07-10"
+      }
+    ],
+    "summary": "Led Canada through the First World War and the conscription crisis, heading a Unionist coalition from 1917. Extended the federal vote to many women.",
+    "wiki": "Robert_Borden",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Sir_Robert_Borden%2C_in_the_1910%E2%80%99s_Sir_Robert_Borden%2C_dans_les_ann%C3%A9es_1910_%287196134714%29.jpg/330px-Sir_Robert_Borden%2C_in_the_1910%E2%80%99s_Sir_Robert_Borden%2C_dans_les_ann%C3%A9es_1910_%287196134714%29.jpg"
+  },
+  {
+    "number": 9,
+    "name": "Arthur Meighen",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "1920-07-10",
+        "end": "1921-12-29"
+      },
+      {
+        "start": "1926-06-29",
+        "end": "1926-09-25"
+      }
+    ],
+    "summary": "Twice prime minister. His second term, born of the King–Byng affair, lasted under three months.",
+    "wiki": "Arthur_Meighen",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Former_PM_Arthur_Meighen.jpg/330px-Former_PM_Arthur_Meighen.jpg"
+  },
+  {
+    "number": 10,
+    "name": "William Lyon Mackenzie King",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1921-12-29",
+        "end": "1926-06-28"
+      },
+      {
+        "start": "1926-09-25",
+        "end": "1930-08-07"
+      },
+      {
+        "start": "1935-10-23",
+        "end": "1948-11-15"
+      }
+    ],
+    "summary": "The longest-serving prime minister at nearly 22 years. Led Canada through the Second World War and introduced unemployment insurance and family allowances.",
+    "wiki": "William_Lyon_Mackenzie_King",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/William_Lyon_Mackenzie_King_1942_%28cropped%29.jpg/330px-William_Lyon_Mackenzie_King_1942_%28cropped%29.jpg"
+  },
+  {
+    "number": 11,
+    "name": "R. B. Bennett",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "1930-08-07",
+        "end": "1935-10-23"
+      }
+    ],
+    "summary": "Governed through the depths of the Great Depression. Created the Bank of Canada and the public broadcaster that became the CBC.",
+    "wiki": "R._B._Bennett",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Richard_Bedford_Bennett_%28cropped%29.jpg/330px-Richard_Bedford_Bennett_%28cropped%29.jpg"
+  },
+  {
+    "number": 12,
+    "name": "Louis St. Laurent",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1948-11-15",
+        "end": "1957-06-21"
+      }
+    ],
+    "summary": "Brought Newfoundland into Confederation, took Canada into NATO, and launched the St. Lawrence Seaway and the Trans-Canada Highway.",
+    "wiki": "Louis_St._Laurent",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Louis_St._Laurent_portrait.jpg/330px-Louis_St._Laurent_portrait.jpg"
+  },
+  {
+    "number": 13,
+    "name": "John Diefenbaker",
+    "party": "Progressive Conservative",
+    "terms": [
+      {
+        "start": "1957-06-21",
+        "end": "1963-04-22"
+      }
+    ],
+    "summary": "Passed the Canadian Bill of Rights and extended the federal vote to all First Nations people. Won the largest majority to that date in 1958.",
+    "wiki": "John_Diefenbaker",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/John_G._Diefenbaker.jpg/330px-John_G._Diefenbaker.jpg"
+  },
+  {
+    "number": 14,
+    "name": "Lester B. Pearson",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1963-04-22",
+        "end": "1968-04-20"
+      }
+    ],
+    "summary": "A Nobel Peace Prize laureate whose minority governments brought in the Maple Leaf flag, universal medicare and the Canada Pension Plan.",
+    "wiki": "Lester_B._Pearson",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Lester_B._Pearson_%281963_ABC_press_photo%29.jpg/330px-Lester_B._Pearson_%281963_ABC_press_photo%29.jpg"
+  },
+  {
+    "number": 15,
+    "name": "Pierre Elliott Trudeau",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1968-04-20",
+        "end": "1979-06-04"
+      },
+      {
+        "start": "1980-03-03",
+        "end": "1984-06-30"
+      }
+    ],
+    "summary": "Patriated the Constitution with the Charter of Rights and Freedoms, made Canada officially bilingual, and invoked the War Measures Act during the October Crisis.",
+    "wiki": "Pierre_Trudeau",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Pierre_Elliott_Trudeau_portrait_1968_%28cropped%29.jpg/330px-Pierre_Elliott_Trudeau_portrait_1968_%28cropped%29.jpg"
+  },
+  {
+    "number": 16,
+    "name": "Joe Clark",
+    "party": "Progressive Conservative",
+    "terms": [
+      {
+        "start": "1979-06-04",
+        "end": "1980-03-03"
+      }
+    ],
+    "summary": "The youngest prime minister, sworn in at 39. His minority government fell on a budget vote after nine months.",
+    "wiki": "Joe_Clark",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Joe_Clark_being_interviewed_1979_crop.jpg/330px-Joe_Clark_being_interviewed_1979_crop.jpg"
+  },
+  {
+    "number": 17,
+    "name": "John Turner",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1984-06-30",
+        "end": "1984-09-17"
+      }
+    ],
+    "summary": "Called an election within days of taking office and lost to a Progressive Conservative landslide after 79 days.",
+    "wiki": "John_Turner",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Finance_Minister_John_Turner_speaks_to_reporters_1975_%28cropped%29.jpg/330px-Finance_Minister_John_Turner_speaks_to_reporters_1975_%28cropped%29.jpg"
+  },
+  {
+    "number": 18,
+    "name": "Brian Mulroney",
+    "party": "Progressive Conservative",
+    "terms": [
+      {
+        "start": "1984-09-17",
+        "end": "1993-06-25"
+      }
+    ],
+    "summary": "Negotiated free trade with the United States, brought in the GST, and saw both the Meech Lake and Charlottetown constitutional accords fail.",
+    "wiki": "Brian_Mulroney",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Brian_Mulroney_1984_%28cropped%29%282%29.jpg/330px-Brian_Mulroney_1984_%28cropped%29%282%29.jpg"
+  },
+  {
+    "number": 19,
+    "name": "Kim Campbell",
+    "party": "Progressive Conservative",
+    "terms": [
+      {
+        "start": "1993-06-25",
+        "end": "1993-11-04"
+      }
+    ],
+    "summary": "Canada's first and so far only woman prime minister. Her party was reduced to two seats in the 1993 election.",
+    "wiki": "Kim_Campbell",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kim_Campbell.jpg/330px-Kim_Campbell.jpg"
+  },
+  {
+    "number": 20,
+    "name": "Jean Chrétien",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "1993-11-04",
+        "end": "2003-12-12"
+      }
+    ],
+    "summary": "Won three consecutive majorities, balanced the budget, narrowly won the 1995 Quebec referendum, and kept Canada out of the Iraq war.",
+    "wiki": "Jean_Chrétien",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Jean_Chr%C3%A9tien_1993.jpg/330px-Jean_Chr%C3%A9tien_1993.jpg"
+  },
+  {
+    "number": 21,
+    "name": "Paul Martin",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "2003-12-12",
+        "end": "2006-02-06"
+      }
+    ],
+    "summary": "Legalized same-sex marriage nationwide and signed the Kelowna Accord. His minority government fell amid the sponsorship scandal.",
+    "wiki": "Paul_Martin",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Paul_Martin_in_2006_%283x4%29.jpg/330px-Paul_Martin_in_2006_%283x4%29.jpg"
+  },
+  {
+    "number": 22,
+    "name": "Stephen Harper",
+    "party": "Conservative",
+    "terms": [
+      {
+        "start": "2006-02-06",
+        "end": "2015-11-04"
+      }
+    ],
+    "summary": "Nearly a decade in office. Cut the GST, steered Canada through the 2008 financial crisis, and won a majority in 2011.",
+    "wiki": "Stephen_Harper",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Stephen_Harper_by_Remy_Steinegger_Infobox.jpg/330px-Stephen_Harper_by_Remy_Steinegger_Infobox.jpg"
+  },
+  {
+    "number": 23,
+    "name": "Justin Trudeau",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "2015-11-04",
+        "end": "2025-03-14"
+      }
+    ],
+    "summary": "Legalized cannabis, introduced the Canada Child Benefit and carbon pricing, and led the pandemic response before resigning in 2025.",
+    "wiki": "Justin_Trudeau",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Prime_Minister_Trudeau%27s_message_on_Christmas_2023_%280m29s%29_%28cropped%29.jpg/330px-Prime_Minister_Trudeau%27s_message_on_Christmas_2023_%280m29s%29_%28cropped%29.jpg"
+  },
+  {
+    "number": 24,
+    "name": "Mark Carney",
+    "party": "Liberal",
+    "terms": [
+      {
+        "start": "2025-03-14",
+        "end": null
+      }
+    ],
+    "summary": "A former governor of the Bank of Canada and the Bank of England. Won the April 2025 election on a promise to stand up to American tariffs.",
+    "wiki": "Mark_Carney",
+    "portrait": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Mark_Carney_Argentina_v_Spain_19_July_2026-303_%283x4_close_up_cropped%29.jpg/330px-Mark_Carney_Argentina_v_Spain_19_July_2026-303_%283x4_close_up_cropped%29.jpg"
+  }
+]
