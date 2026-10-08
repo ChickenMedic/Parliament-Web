@@ -1,5 +1,77 @@
 [
  {
+  "channel": "The Hub",
+  "handle": "TheHubCanada",
+  "about": "Centre-right policy commentary",
+  "videoId": "jsHILtFMRd4",
+  "title": "Why Alberta leaving could cost workers $15,000 annually",
+  "date": "2026-10-08T18:23:54+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/jsHILtFMRd4/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "TRyfMu9DEpg",
+  "title": "Green Party Leader Elizabeth May discusses Bill C-39 – October 8, 2026",
+  "date": "2026-10-08T18:13:01+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/TRyfMu9DEpg/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "Xjx2z8-qbYY",
+  "title": "Alberta Premier Danielle Smith makes an announcement in Edmonton – October 8, 2026",
+  "date": "2026-10-08T18:08:02+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/Xjx2z8-qbYY/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "k8TW0Jnt91s",
+  "title": "UCP Stomps on City Zoning Bylaw",
+  "date": "2026-10-08T17:25:36+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/k8TW0Jnt91s/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "IUJ9eDoap8g",
+  "title": "Période des questions – 8 octobre 2026",
+  "date": "2026-10-08T14:28:09+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/IUJ9eDoap8g/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "GOxBthlaZ0Q",
+  "title": "Question Period – October 8, 2026",
+  "date": "2026-10-08T14:28:06+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/GOxBthlaZ0Q/hqdefault.jpg"
+ },
+ {
+  "channel": "Canadaland",
+  "handle": "canadaland",
+  "about": "Media criticism and politics podcast",
+  "videoId": "28xmRWkTwSA",
+  "title": "Jesse Brown is fired! Who's going to replace him?",
+  "date": "2026-10-08T13:03:30+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/28xmRWkTwSA/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "Lzf0ybgEang",
+  "title": "Living a grateful life with breast cancer | (MIS)Treated",
+  "date": "2026-10-08T13:00:27+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/Lzf0ybgEang/hqdefault.jpg"
+ },
+ {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -45,15 +117,6 @@
   "thumbnail": "https://i1.ytimg.com/vi/XUiRyJh4sMw/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "2psIskSYICM",
-  "title": "MPs comment on changes to MAID laws, government's demands to Stelco – October 7, 2026",
-  "date": "2026-10-07T20:49:47+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/2psIskSYICM/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -79,33 +142,6 @@
   "title": "A New Lifeline for Addiction",
   "date": "2026-10-07T20:48:32+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/CGLK4pz3KEw/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "6mWEqIFTzOM",
-  "title": "Minister McGuinty and Premier Smith highlight defence investments in Alberta – October 7, 2026",
-  "date": "2026-10-07T19:33:02+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/6mWEqIFTzOM/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "ktcxQLQz7l0",
-  "title": "Question Period – October 7, 2026",
-  "date": "2026-10-07T19:23:28+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/ktcxQLQz7l0/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "kyCglln38DU",
-  "title": "Période des questions – 7 octobre 2026",
-  "date": "2026-10-07T19:22:51+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/kyCglln38DU/hqdefault.jpg"
  },
  {
   "channel": "J.J. McCullough",
@@ -162,15 +198,6 @@
   "thumbnail": "https://i1.ytimg.com/vi/LRZ9Alt5UII/hqdefault.jpg"
  },
  {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "v6xYMhcqq1E",
-  "title": "Can smartphones cause dementia?",
-  "date": "2026-10-07T01:00:35+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/v6xYMhcqq1E/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -189,15 +216,6 @@
   "thumbnail": "https://i2.ytimg.com/vi/UZEJ3ahZr94/hqdefault.jpg"
  },
  {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "4rFFc98GX5M",
-  "title": "What Would Peter Lougheed Say?",
-  "date": "2026-10-06T20:36:54+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/4rFFc98GX5M/hqdefault.jpg"
- },
- {
   "channel": "Juno News",
   "handle": "junonews",
   "about": "Independent conservative outlet (formerly True North)",
@@ -214,15 +232,6 @@
   "title": "Canada’s Broken System: Criminals Get Coddled, Canadians Get Screwed",
   "date": "2026-10-04T22:01:20+00:00",
   "thumbnail": "https://i4.ytimg.com/vi/K9Dz5fPxbu0/hqdefault.jpg"
- },
- {
-  "channel": "The Hub",
-  "handle": "TheHubCanada",
-  "about": "Centre-right policy commentary",
-  "videoId": "JTew7n4Taj8",
-  "title": "Has Canada's pipeline war been won?",
-  "date": "2026-10-02T21:02:46+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/JTew7n4Taj8/hqdefault.jpg"
  },
  {
   "channel": "Canadaland",
@@ -259,14 +268,5 @@
   "title": "The most corrupt election call in Canadian history? (BC)",
   "date": "2026-09-22T19:22:17+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/1P1C0rCJHk8/hqdefault.jpg"
- },
- {
-  "channel": "Canadaland",
-  "handle": "canadaland",
-  "about": "Media criticism and politics podcast",
-  "videoId": "yLmgaKP3L_k",
-  "title": "Why is a small Ontario town protesting Trump? Also, a call-in show!",
-  "date": "2026-09-21T14:42:58+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/yLmgaKP3L_k/hqdefault.jpg"
  }
 ]

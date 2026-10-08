@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "NQCCNcLkXAg",
+    "title": "Canada's firefighting efforts",
+    "date": "2026-10-08T16:28:54+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/NQCCNcLkXAg/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "ideFFDC6eYw",
     "title": "Canada is charting a new course",
     "date": "2026-10-05T14:01:06+00:00",
@@ -21,27 +28,62 @@
     "date": "2026-10-01T20:55:13+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/UtTRdnk0K2U/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "oCjeEb8Nuls",
-    "title": "Reconciliation is a journey, not a destination",
-    "date": "2026-10-01T19:01:49+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/oCjeEb8Nuls/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "2gRpDiwbsS0",
-    "title": "New Quebec premier will be 'tough customer' for Carney, says former PQ leader | Power & Politics",
-    "date": "2026-10-07T23:26:11+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2gRpDiwbsS0/hqdefault.jpg",
+    "videoId": "Bw31cZVmvD4",
+    "title": "Carney responds after Elon Musk says Quebec should separate",
+    "date": "2026-10-08T18:33:26+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/Bw31cZVmvD4/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "B1vZq806c90",
+    "title": "Conservative Leader Poilievre asks PM Carney to acknowledge Canada’s ‘affordability crisis’",
+    "date": "2026-10-08T18:17:48+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/B1vZq806c90/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "pFZ8AIP5eDg",
+    "title": "Le PM Mark Carney fait une annonce à Sherbrooke, au Québec – 8 octobre 2026",
+    "date": "2026-10-08T16:44:23+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/pFZ8AIP5eDg/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "5YCitTcKlTg",
+    "title": "Carney takes questions at news conference in Quebec",
+    "date": "2026-10-08T16:42:30+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/5YCitTcKlTg/hqdefault.jpg",
     "channel": "CBC News"
+   },
+   {
+    "videoId": "Ap8Q9xkiH1Y",
+    "title": "Carney announces $2B to help homeowners lower heating costs and reduce emissions | FULL",
+    "date": "2026-10-08T16:40:10+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/Ap8Q9xkiH1Y/hqdefault.jpg",
+    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "vhtrxu42yVU",
+    "title": "So just keep waiting. And paying.",
+    "date": "2026-10-08T18:32:26+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/vhtrxu42yVU/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "DTPmtD0qt_w",
+    "title": "Continuez donc à attendre et à payer.",
+    "date": "2026-10-08T18:31:41+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/DTPmtD0qt_w/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "ToGgACBqNLs",
     "title": "Produce more 🇨🇦 diesel, save you money, and make Canada more self-reliant.",
@@ -55,29 +97,15 @@
     "date": "2026-10-07T13:32:55+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/xOgDKfPnfJk/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "RY8XEzH1xms",
-    "title": "Zero. Zilch. Nada. Nothing.",
-    "date": "2026-10-06T14:03:05+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/RY8XEzH1xms/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "ChzDu2oGFdU",
-    "title": "Fight for Canada.",
-    "date": "2026-10-05T15:46:39+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/ChzDu2oGFdU/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
    {
-    "videoId": "51V8kjWuWGc",
-    "title": "Poilievre demands Liberals “repatriate production” of diesel amid fuel cost crisis",
-    "date": "2026-10-07T20:30:31+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/51V8kjWuWGc/hqdefault.jpg",
-    "channel": "Global News"
+    "videoId": "B1vZq806c90",
+    "title": "Conservative Leader Poilievre asks PM Carney to acknowledge Canada’s ‘affordability crisis’",
+    "date": "2026-10-08T18:17:48+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/B1vZq806c90/hqdefault.jpg",
+    "channel": "CTV News"
    }
   ]
  }
