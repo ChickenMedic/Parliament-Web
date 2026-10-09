@@ -32,18 +32,25 @@
   ],
   "coverage": [
    {
-    "videoId": "Bw31cZVmvD4",
-    "title": "Carney responds after Elon Musk says Quebec should separate",
-    "date": "2026-10-08T18:33:26+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/Bw31cZVmvD4/hqdefault.jpg",
-    "channel": "CTV News"
+    "videoId": "7tJmEkInx3Y",
+    "title": "Reporter Roundtable: The separatist problem on Carney's agenda | Power & Politics",
+    "date": "2026-10-08T23:27:05+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/7tJmEkInx3Y/hqdefault.jpg",
+    "channel": "CBC News"
    },
    {
-    "videoId": "B1vZq806c90",
-    "title": "Conservative Leader Poilievre asks PM Carney to acknowledge Canada’s ‘affordability crisis’",
-    "date": "2026-10-08T18:17:48+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/B1vZq806c90/hqdefault.jpg",
-    "channel": "CTV News"
+    "videoId": "2IlGnJbyCI0",
+    "title": "Conservatives allege Carney is profiting off $2B investment in heat pumps",
+    "date": "2026-10-08T21:15:06+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/2IlGnJbyCI0/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "9v2JyZ2hPUk",
+    "title": "Carney responds to Elon Musk's support for Quebec sovereignty",
+    "date": "2026-10-08T20:16:16+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/9v2JyZ2hPUk/hqdefault.jpg",
+    "channel": "CBC News"
    },
    {
     "videoId": "pFZ8AIP5eDg",
@@ -51,13 +58,6 @@
     "date": "2026-10-08T16:44:23+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/pFZ8AIP5eDg/hqdefault.jpg",
     "channel": "CPAC"
-   },
-   {
-    "videoId": "5YCitTcKlTg",
-    "title": "Carney takes questions at news conference in Quebec",
-    "date": "2026-10-08T16:42:30+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/5YCitTcKlTg/hqdefault.jpg",
-    "channel": "CBC News"
    },
    {
     "videoId": "Ap8Q9xkiH1Y",
@@ -71,6 +71,20 @@
  "opposition": {
   "own": [
    {
+    "videoId": "OOVwDHpOk40",
+    "title": "$2 billion in extra taxes and inflation to subsidize heat pumps",
+    "date": "2026-10-08T20:53:53+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/OOVwDHpOk40/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "Xse-d8-jcvY",
+    "title": "2 milliards de dollars en taxes supplémentaires et en inflation pour subventionner les thermopompes",
+    "date": "2026-10-08T20:51:14+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/Xse-d8-jcvY/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
     "videoId": "vhtrxu42yVU",
     "title": "So just keep waiting. And paying.",
     "date": "2026-10-08T18:32:26+00:00",
@@ -83,29 +97,15 @@
     "date": "2026-10-08T18:31:41+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/DTPmtD0qt_w/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "ToGgACBqNLs",
-    "title": "Produce more 🇨🇦 diesel, save you money, and make Canada more self-reliant.",
-    "date": "2026-10-07T13:39:43+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/ToGgACBqNLs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "xOgDKfPnfJk",
-    "title": "Produire plus de diesel 🇨🇦, vous faire économiser et renforcer l’autonomie du Canada",
-    "date": "2026-10-07T13:32:55+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/xOgDKfPnfJk/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
    {
-    "videoId": "B1vZq806c90",
-    "title": "Conservative Leader Poilievre asks PM Carney to acknowledge Canada’s ‘affordability crisis’",
-    "date": "2026-10-08T18:17:48+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/B1vZq806c90/hqdefault.jpg",
-    "channel": "CTV News"
+    "videoId": "TkF0rUQYH5s",
+    "title": "Pierre Poilievre discusses Conservative Party motion on affordability – October 8, 2026",
+    "date": "2026-10-08T19:45:53+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/TkF0rUQYH5s/hqdefault.jpg",
+    "channel": "CPAC"
    }
   ]
  }
