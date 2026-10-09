@@ -90,12 +90,14 @@
   "url": "https://www.ourcommons.ca/committees/en/FAAE",
   "workUrl": "https://www.ourcommons.ca/committees/en/FAAE/Work",
   "chairName": "Ahmed Hussen",
-  "viceChairs": [],
+  "viceChairs": [
+   "Eric Duncan",
+   "Alexis Brunelle-Duceppe"
+  ],
   "members": [
    "Ziad Aboultaif",
    "Braedon Clark",
    "Anju Dhillon",
-   "Eric Duncan",
    "Mona Fortier",
    "Philip Lawrence",
    "Jacob Mantle",
@@ -105,10 +107,11 @@
   ],
   "parties": {
    "Ahmed Hussen": "Liberal",
+   "Eric Duncan": "Conservative",
+   "Alexis Brunelle-Duceppe": "Bloc Québécois",
    "Ziad Aboultaif": "Conservative",
    "Braedon Clark": "Liberal",
    "Anju Dhillon": "Liberal",
-   "Eric Duncan": "Conservative",
    "Mona Fortier": "Liberal",
    "Philip Lawrence": "Conservative",
    "Jacob Mantle": "Conservative",
@@ -118,7 +121,8 @@
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 4
+   "Conservative": 4,
+   "Bloc": 1
   }
  },
  {

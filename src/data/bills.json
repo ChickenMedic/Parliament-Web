@@ -2613,8 +2613,8 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Public Safety",
   "sponsorRiding": "Scarborough—Guildwood—Rouge Park",
-  "latestActivity": "First reading",
-  "latestActivityDate": "2026-06-18",
+  "latestActivity": "Debate at second reading",
+  "latestActivityDate": "2026-10-08",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
@@ -2664,6 +2664,12 @@
     "date": "Thu, 08 Oct 2026 09:35:34 GMT"
    },
    {
+    "title": "Bill C-22 could drive Canadian tech out of Canada",
+    "source": "Juno News",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUVwV3RtM0lmWjJpQmNJV0tuOUp2QUNMWmVvVzdKOW95S0htanI1dFQ5aUZHZ01aeGdXM0F3TTR3ZUkyRHR2YlowUXBqTWk4YUZCZ2RmbXNkcmZhT0VpTUZSbjM3RTg1X01tdjgzaWlDeXRrQzgtVHFIc25EUDNpU01R?oc=5",
+    "date": "Thu, 08 Oct 2026 19:52:54 GMT"
+   },
+   {
     "title": "Psiphon VPN plans to leave Canada over Bill C-22 surveillance concerns",
     "source": "CyberInsider",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ0tWSDhWdUpOZlk2WDk4S1lEQ1llY2NfZDZ4ellFWjhPV1pnMlJ6QTFrcFg5WHVOV1FJVjBaNWg4Q1d0bnhkeVRYeFpSUlI0UzFWcEFOaXlhLWFxd29PSDYwYVE3bnJmVmhYN0pyZHNnSUVabUhIRy1VUi0xcDdKUW1BcEZQbEptOThJMU5oRF9RQWtQbUE1eUdnaXU?oc=5",
@@ -2686,12 +2692,6 @@
     "source": "TechRadar",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYnZ0OURHaTdDc0RycERVdGh5OV9TNjZUMXlDXzVzYnNuUk0yZE5PcjR1V0tON1JNWDhtMXQzMVdMU19BSG9EZWgyMW1PLXZGaXRadkNNS2wwazJXa0dGLXF3WXVZcE8yb1ZoeXNlX2FhczBZSTNfa0QzQWhKSjhmUGE4QWdHNXNVb3NkQkExTHNVdmViMHE0MHFWWER0dUw5N3UySUlNcXRXRmU5MFQtdEJacjNPMEJQUUJEMTNxRlRRQQ?oc=5",
     "date": "Tue, 06 Oct 2026 08:20:52 GMT"
-   },
-   {
-    "title": "This Toronto Privacy Tool Has 20 Million Users: Bill C-22 Could Push It Out of Canada",
-    "source": "Gizmodo",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOG5GYkpGZThzbk9kakhqSnFZeVlPRFNEVnppQnlZeWhKRnpZbWg4VU5Da2E4bEVmNzJWRGVsQ012cW9BRUlyNjVHd1FnT1A5d1hyLU54MWJ3SUFKUjgtQ3IzZEJGVF8ybHBuUTZlOVVjb3JNUkowOGw3Z3Z1SWxtdTdfRkVDRVBUYWxJamVzYk5RcE1VbHRDWkREV0hXS0xpRFZNQk9jSllsTWRPZmxXcVBjeDMtUQ?oc=5",
-    "date": "Tue, 06 Oct 2026 20:54:21 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22",
@@ -3069,8 +3069,8 @@
   "id": "C-27",
   "title": "Final Self-Government Agreement for the Tlegohli Got’ine Act",
   "longTitle": "An Act to give effect to the Final Self-Government Agreement for the Tlegohli Got’ine and to make consequential amendments to other Acts",
-  "status": "At third reading in the Senate",
-  "receivedRoyalAssent": false,
+  "status": "Royal assent received",
+  "receivedRoyalAssent": true,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
   "category": "Indigenous",
@@ -3079,15 +3079,10 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Crown-Indigenous Relations",
   "sponsorRiding": "Northwest Territories",
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-10-07",
+  "latestActivity": "Royal assent",
+  "latestActivityDate": "2026-10-08",
   "latestActivityChamber": "Senate",
-  "committee": {
-   "acronym": "APPA",
-   "name": "Standing Senate Committee on Indigenous Peoples",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/APPA"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "houseFirstReading",
@@ -3117,17 +3112,23 @@
    {
     "key": "senateThirdReading",
     "label": "Third reading (Senate)",
-    "date": null
+    "date": "2026-10-08"
    },
    {
     "key": "royalAssent",
     "label": "Royal Assent",
-    "date": null
+    "date": "2026-10-08"
    }
   ],
   "partyPositions": null,
   "votes": [],
   "media": [
+   {
+    "title": "Bill C-27 gets royal assent, giving legal force to self-government treaty",
+    "source": "APTN News",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUWJoVnNtZEZTNUZ4d3ptci1JSnZBOG9TU2VsM2IwQXFaalV4WEZPZU90ZmM2Z2kzRlE4cXNMT3RuSVF3U2RKRGhBajdjWG5RX0NEcHV6aVZOdDJPcFozSkFJcGJEMUpLQkpFeXNFbXJRSFhsOEU3RFhDRE9IMUJwSnVZaFdyZER3VFRpUTJaM2lsMVdoZlNabHdfNjNrbEtzdWloTEpOOEtiM3VJS3U3VA?oc=5",
+    "date": "Fri, 09 Oct 2026 16:30:21 GMT"
+   },
    {
     "title": "Senate committee to hear from Minister Alty on Bill C-27",
     "source": "SenCanada.ca",
@@ -3136,7 +3137,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-27",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-27/as-passed-by-the-house-of-commons"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-27/royal-assent"
  },
  {
   "id": "C-28",
@@ -3867,6 +3868,12 @@
   "votes": [],
   "media": [
    {
+    "title": "The Missing Charter Statement: Why Hasn’t the Government Explained How Bill C-34’s Social Media Ban Complies with the Charter?",
+    "source": "Michael Geist -",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPMlN3RnJTT013OENydmF1Y0haTXRNWXF6V3hiUWtpc1pvUXRta1JuR0U4RkxZRkd4Wkd5UGRyM1hPZDRrUEw4RGpoWkgzclpCNVdaUkNMQXlsQ1RkbXNhUE5idVBxR0NGT1pJdnItOTBmWHphakpwc2YwdGoyUnA0WDhpZ0pCeW9fRkNXT2VnUmFLd1poeFdqX0ZiMUstYU5WQ2NLYksxWFUwVmRJY3lTalltUHdIUVAxUjE4OFJxb1VUcWdCQ3RWMlBJNnVhbzgwZE82cGNGUlRWcXdFRkdBS2hYZW52bXprN3lMWnBWbHE?oc=5",
+    "date": "Fri, 09 Oct 2026 13:21:01 GMT"
+   },
+   {
     "title": "Implications of Bill C-34, Canada’s proposed online safety framework, for organizations",
     "source": "MLT Aikins",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNk5Oc2NDM0h1NG92ZHNKOTVEM3dkclQ1b1U2SG5ZQ2dUa2xIVVlpX3ROamIzRHY5R1ltSWpCNWszUUVBQzZiQXdFWVZrVE5NZ1VZdzkyTUItNm1wWDFsdmFuSm9LNzM5TkVxSHZwOWx6cmtGcURHQS1vZWs2RnhDY3J0X2lzcGZoeGszdTVDYXJ4aXNVNU5Ma0pUTmh0dFNiZU95b3ZYVS1qNlhWcVBRdElHX1RHT3RoZ0syRw?oc=5",
@@ -3895,12 +3902,6 @@
     "source": "OpenMedia",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQb0g2X0pRbU1OTXd0dVJsaVZ6ODU2UHZsX0prUGQzcVlqZEJqbEU3VDFzX0tfVUU1ZnpRV0doTnR0ZjBxS25LLXhGenV2c1QxeHJjT3VMRmJ6YWtlRll6UlFqakE5MFNmNU9NcjlJT1ZyX2M2RGllam1yN3YzNjFEVEM5WThZZU9nTzg4dmh0ajNtMDg5YU9MeXpCYnlYMWxSYTliMzNjTWdCdGRiTnNra0ZWRXBlWExpc2xXVE5QaFNpNFU?oc=5",
     "date": "Tue, 15 Sep 2026 22:04:19 GMT"
-   },
-   {
-    "title": "Big Money, Bigger Design Changes: What the Meta Settlement Means for Canada, Bill C-34, and the Age Verification and Privacy Risks That Remain",
-    "source": "Michael Geist -",
-    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOcVExMjJmeHBKWWxYTzdnTFFMVmExMWU0VWZvZWM1QUJwdkt6MGJyMjlLdVNIQTZNR0JoZzJ0bFkzbGRBbnFyc3FUN0NOT05sRS0tUW9GWnU2T2RyYTNxNm9Hem1QM0V3RkkwNXhCVlBLRkh4Tlc1NEQtU0lkRHEwa2Q2MkNPX1BfQ2ZIZ184R2hWQVZjOWo4cGczekk4Tllybkt5cE45WEs4WXBidVVKVGt0Tk1CYmpzd1lkR3BqaFpJTDhfa0ZMWGxSNWJ1cW5VcVh5dDAtMGRNbS1uMmxKR3FPaFVTY2pmYlFuck9nUV9sb0I3THlISkQtWThlaGtJYTMybnVn?oc=5",
-    "date": "Mon, 31 Aug 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
@@ -4271,7 +4272,7 @@
   "id": "C-39",
   "title": "Building Canada Strong Act",
   "longTitle": "An Act respecting certain measures to strengthen the economy",
-  "status": "At second reading in the House of Commons",
+  "status": "At consideration in committee in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -4281,10 +4282,15 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Transport and Leader of the Government in the House of Commons",
   "sponsorRiding": "Gatineau",
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-10-07",
+  "latestActivity": "Second reading and referral to committee",
+  "latestActivityDate": "2026-10-08",
   "latestActivityChamber": "House of Commons",
-  "committee": null,
+  "committee": {
+   "acronym": "CC39",
+   "name": "Legislative Committee on Bill C-39",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/CC39"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -4294,7 +4300,7 @@
    {
     "key": "houseSecondReading",
     "label": "Second reading (House)",
-    "date": null
+    "date": "2026-10-08"
    },
    {
     "key": "houseThirdReading",
@@ -4322,9 +4328,63 @@
     "date": null
    }
   ],
-  "partyPositions": null,
-  "votes": [],
+  "partyPositions": {
+   "parties": {
+    "Conservative": {
+     "vote": "Yes",
+     "disagreement": 0.0
+    },
+    "Liberal": {
+     "vote": "Yes",
+     "disagreement": 0.0
+    },
+    "Bloc": {
+     "vote": "No",
+     "disagreement": 0.0
+    },
+    "NDP": {
+     "vote": "No",
+     "disagreement": 0.0
+    },
+    "Green": {
+     "vote": "No",
+     "disagreement": 0.0
+    }
+   },
+   "basedOn": "2nd reading of Bill C-39, An Act respecting certain measures to strengthen the economy",
+   "voteDate": "2026-10-08",
+   "voteResult": "Passed",
+   "voteUrl": "https://openparliament.ca/votes/45-1/178/"
+  },
+  "votes": [
+   {
+    "number": 178,
+    "date": "2026-10-08",
+    "description": "2nd reading of Bill C-39, An Act respecting certain measures to strengthen the economy",
+    "result": "Passed",
+    "yea": 296,
+    "nay": 26
+   }
+  ],
   "media": [
+   {
+    "title": "Bill C-39 clears second reading, putting federal strike rules under review",
+    "source": "Canadian HR Reporter",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUlExT3E0MF9NQXI5QS15OUhsUlBGaDUxSWFOVEZ1ZnZaeV9DMVR2Ykpld3VNUWRqU1U3RC1XWGlQeV9RaElZYzlKVDFVNmo3NGtGTS1WQmFNb0JZQW1OU3hDVUExR1lsRzJ3OG01Uy1YRlcyQXNrTW5OR1FzSHdiRXVSeWNTVkwxT2REWmNUdE9RX1J4VDVxdk1RaXNqWklNYlhwbVVCRzlRcXBhd1JRaUgxa1Itcnd2Sm1wVg?oc=5",
+    "date": "Fri, 09 Oct 2026 13:21:34 GMT"
+   },
+   {
+    "title": "Mass Organizing Call: Stop Bill C-39!",
+    "source": "Canada's NDP",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE0tZEthY2NmT19ldjl6RDcza01ER09qSHhRSW1OS1ByaV9VSExfUHF0Ymtvb1gxYUQ0V1RkZmZvcjdvU0JqbDRr?oc=5",
+    "date": "Fri, 09 Oct 2026 02:34:25 GMT"
+   },
+   {
+    "title": "Bill C-39 Passes Second Reading 296-26 With Conservative Votes Behind Liberals' Building Canada Strong Act",
+    "source": "the deep dive",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZlpOYXczMjdDMmM2UjVOUXNfT0R6aTVKb2paY01FNUZOZEI4MU5ReTh6VFlaM1JfUll1MHRaSXAtdG1XWlhLd2dMWUpIaUlXUDVhRlFDOUVVQ3R6dENHdEZDMGlqel94SEFacFVsUXhsVVJpX3h5dGtFSUFJcEFfcUVIRG9TdnhSUGxwLXQ1SU8xX1NvSGhCRGpzdGNpQlVicmttN1RoMjI4bHVpcERpdmpNUkE4VmhITEo2LVBTZVNORG1VNFU2Qw?oc=5",
+    "date": "Fri, 09 Oct 2026 06:55:53 GMT"
+   },
    {
     "title": "Bill C-39 could create more labour unrest, union leaders warn",
     "source": "Canadian Labour Congress",
@@ -4342,24 +4402,6 @@
     "source": "The Spec",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOem9FU3oyb3RPajl1MlZGMWlTVElXV1JpS3gyVUFYOFdqMEJLMkc2OGZJZmNVZUtpWlBESE02QXVIUWtLWExMZG5TU2hxWG1xcWtrVklJNzJhdk96ZVZfZlFwd3JVdFpEQkdXWkJhV3NWekE5VG1ENld5QW1MY1pLSnptVVk4V2V6bmdCSzQwcm0xYklFZUo3TjdmVXVyQXA4QUhydFZQSVI5c044X1FXa3pTTl9HMWExeXp3ai1fUXJjb1dnejFxeE5Xam9yWS1EMTBqdTM2b2RnVWJEaUhwMkpUY00zdERoN0dn?oc=5",
     "date": "Thu, 08 Oct 2026 15:26:41 GMT"
-   },
-   {
-    "title": "MPs to hold first vote on federal government's key economic bill C-39",
-    "source": "Castanet",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXM4MWpKTjhXRjhGMzVOQ3BpTzNBeE4wSTBOTXhjWkFDSWdYMFN1Tl9xVkt4Zlk0clJISVhKUmd4cTQzcmg4S1hUd3FGMlFSSHVxRGV3WHpnT2VUQ0U0T1kzR1JjcE9WWi1aRUg5ZU9ySVBQYkVCd0UwLXZTTHNvNTFQTm9mellVbWVFWnpSR1Z4MldJU01uaEhOM09pZUhtWlZlM0h4aU1pREktYXk5VDFB?oc=5",
-    "date": "Thu, 08 Oct 2026 16:29:00 GMT"
-   },
-   {
-    "title": "Green Party Leader Elizabeth May Discusses Bill C-39 - Headline Politics",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSEdDVG9OWkR1TExDMWNSdWJRSEtiN0xkT21iQmFFNnQ3M2ZqRG1tZktCX1UwTnZoOWw4WG54NWJKLWFzTjdqd200b0NfM1FIWmY2WHdpaWMwS3pkX2tvbklyX2dXZ1Q2bklLOWRIMGJtbXZIbTdvcjNFRE5wMGw2ZVhJSXNJMGJULWZPMXhjS1YyeVRxb0wycFlNeUhQaC0zYmpxQUZPLWtmMmQzRnM0ekVmX3d0bExuczVHNGF5MURVX0VzZUVzZHlVTExYM2NoYTJBOA?oc=5",
-    "date": "Thu, 08 Oct 2026 16:18:37 GMT"
-   },
-   {
-    "title": "Labour unions, Indigenous leaders and environmental groups hit the precinct to highlight concerns ahead of key vote on Building Canada Strong Act",
-    "source": "iPolitics",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOZF9Qdkp1T2dGdW5jRlZqcjZwcDctUTgwdU9OaDB3OWVMMWNYSmYwNlRHUl9LNVJ1ZnhKYzk2MW45aktFMUc5dGVLT3ludy1yYXAzUDAxNTBYTlFSUmxYRmhSUWpxLThGa0Y3N2tDanRVbGtLQkJzRVZCUDIwR3BmSjMwN1piT2tVYzUyTnktOVhhSUIzdUxNdlBWeno2MklYenRQa0IwOW5ZYUJJQ2JyTExfWUpJdGtlRy01bXdNR25WMnhISG9WSXhKREk4ZWs3SnlBWHlIQjBRQmwzQ1dpeEs2ZGpEZVJMVVFxLUx3M2VTMnY3YV95VTlVYnY5T1ZiZHRUQU9kd1BfU01kdkE?oc=5",
-    "date": "Thu, 08 Oct 2026 10:08:54 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -4868,7 +4910,14 @@
   ],
   "partyPositions": null,
   "votes": [],
-  "media": [],
+  "media": [
+   {
+    "title": "Our Reaction to Bill S-7, A Legislation to Reduce Red Tape and Support Economic Growth and Competitiveness",
+    "source": "Canadian Chamber of Commerce",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTWdWbGtCcllwbnBOYkx1bS1ZZmRNT3pjSDN2d2hhSGZNQW41dFZTZ3paY09HZ2pUYTdLcDVNYnl1bUhUYVRFeDFQOHpQSFBoMzhjdDZCNV9WeXBNTU5hcHZ4UFByeFpianFlbm9OdW9JNzl0UXRWWU5BRVZRQ1E0Z3R6VTY5X1dBTWZKOTlLd3M1eGVTZl9JTEd2YmcyWm8tNHAyQjVGUnE2R01ndjVhOVRyMHBzSko1Wi10X3gyZzFjQngtSHBZNUVn?oc=5",
+    "date": "Fri, 09 Oct 2026 15:33:12 GMT"
+   }
+  ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-7",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-7/first-reading"
  },
@@ -6047,7 +6096,7 @@
   "id": "C-219",
   "title": "Sergei Magnitsky International Anti-Corruption and Human Rights Act",
   "longTitle": "An Act to amend the Department of Foreign Affairs, Trade and Development Act, the Justice for Victims of Corrupt Foreign Officials Act (Sergei Magnitsky Law), the Special Economic Measures Act and the Broadcasting Act",
-  "status": "At report stage in the House of Commons",
+  "status": "House of Commons bill awaiting first reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -6057,8 +6106,8 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Selkirk—Interlake—Eastman",
-  "latestActivity": "Debate at report stage",
-  "latestActivityDate": "2026-10-05",
+  "latestActivity": "Third reading",
+  "latestActivityDate": "2026-10-08",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -6075,7 +6124,7 @@
    {
     "key": "houseThirdReading",
     "label": "Third reading (House)",
-    "date": null
+    "date": "2026-10-08"
    },
    {
     "key": "senateFirstReading",
@@ -6102,7 +6151,7 @@
   "votes": [],
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-219",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-219/as-amended-by-committee"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-219/as-passed-by-the-house-of-commons"
  },
  {
   "id": "C-220",
