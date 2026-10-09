@@ -2,6 +2,20 @@
  "pm": {
   "own": [
    {
+    "videoId": "2VyqXjobOlk",
+    "title": "Protecting Canada’s oceans",
+    "date": "2026-10-09T16:55:24+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/2VyqXjobOlk/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
+    "videoId": "uYwbsSuM7RI",
+    "title": "Prime Minister Carney announces an investment to retrofit one million homes",
+    "date": "2026-10-09T16:41:12+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/uYwbsSuM7RI/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "NQCCNcLkXAg",
     "title": "Canada's firefighting efforts",
     "date": "2026-10-08T16:28:54+00:00",
@@ -14,55 +28,34 @@
     "date": "2026-10-05T14:01:06+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/ideFFDC6eYw/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "ovD-NSNsmfE",
-    "title": "Prime Minister Carney announces historic investment to protect Canada’s oceans",
-    "date": "2026-10-01T22:08:04+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/ovD-NSNsmfE/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "UtTRdnk0K2U",
-    "title": "Prime Minister Carney welcomes LNG Canada Phase 2 expansion project in Kitimat, British Columbia",
-    "date": "2026-10-01T20:55:13+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/UtTRdnk0K2U/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "7tJmEkInx3Y",
-    "title": "Reporter Roundtable: The separatist problem on Carney's agenda | Power & Politics",
-    "date": "2026-10-08T23:27:05+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/7tJmEkInx3Y/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "2IlGnJbyCI0",
-    "title": "Conservatives allege Carney is profiting off $2B investment in heat pumps",
-    "date": "2026-10-08T21:15:06+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2IlGnJbyCI0/hqdefault.jpg",
+    "videoId": "hBHHkXxc8kI",
+    "title": "Big tech can’t “tell us what to do”: Carney, Poilievre on Elon Musk’s separatism talk",
+    "date": "2026-10-09T18:15:20+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/hBHHkXxc8kI/hqdefault.jpg",
     "channel": "Global News"
-   },
-   {
-    "videoId": "9v2JyZ2hPUk",
-    "title": "Carney responds to Elon Musk's support for Quebec sovereignty",
-    "date": "2026-10-08T20:16:16+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/9v2JyZ2hPUk/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "pFZ8AIP5eDg",
-    "title": "Le PM Mark Carney fait une annonce à Sherbrooke, au Québec – 8 octobre 2026",
-    "date": "2026-10-08T16:44:23+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/pFZ8AIP5eDg/hqdefault.jpg",
-    "channel": "CPAC"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "mNIj4B4_yXI",
+    "title": "Les conservateurs continuent de se battre pour protéger vos emplois.",
+    "date": "2026-10-09T18:44:03+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/mNIj4B4_yXI/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "_LsAZW_t7y0",
+    "title": "LIVE from Hamilton: Save 🇨🇦 Jobs",
+    "date": "2026-10-09T16:26:03+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/_LsAZW_t7y0/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "OOVwDHpOk40",
     "title": "$2 billion in extra taxes and inflation to subsidize heat pumps",
@@ -76,23 +69,37 @@
     "date": "2026-10-08T20:51:14+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/Xse-d8-jcvY/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "vhtrxu42yVU",
-    "title": "So just keep waiting. And paying.",
-    "date": "2026-10-08T18:32:26+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/vhtrxu42yVU/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "DTPmtD0qt_w",
-    "title": "Continuez donc à attendre et à payer.",
-    "date": "2026-10-08T18:31:41+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/DTPmtD0qt_w/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
+   {
+    "videoId": "hBHHkXxc8kI",
+    "title": "Big tech can’t “tell us what to do”: Carney, Poilievre on Elon Musk’s separatism talk",
+    "date": "2026-10-09T18:15:20+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/hBHHkXxc8kI/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "y5_UUNfOsHk",
+    "title": "Pierre Poilievre unveils plan to save steel industry jobs – October 9, 2026",
+    "date": "2026-10-09T16:19:27+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/y5_UUNfOsHk/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "5MLaFXKLwuA",
+    "title": "Poilievre announces Conservative \"Canadian Steel Plan\" amid Stelco layoffs | FULL",
+    "date": "2026-10-09T15:57:49+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/5MLaFXKLwuA/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "Umpp6-1opbo",
+    "title": "Poilievre holds news conference in the GTA",
+    "date": "2026-10-09T15:57:03+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/Umpp6-1opbo/hqdefault.jpg",
+    "channel": "CBC News"
+   },
    {
     "videoId": "TkF0rUQYH5s",
     "title": "Pierre Poilievre discusses Conservative Party motion on affordability – October 8, 2026",

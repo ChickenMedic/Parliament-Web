@@ -1,5 +1,86 @@
 [
  {
+  "channel": "Juno News",
+  "handle": "junonews",
+  "about": "Independent conservative outlet (formerly True North)",
+  "videoId": "e1R4avdAmck",
+  "title": "Ontario College Under Police Investigation for OSAP Fraud",
+  "date": "2026-10-09T18:16:13+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/e1R4avdAmck/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "GPjbWzXjVqM",
+  "title": "Question Period – October 9, 2026",
+  "date": "2026-10-09T17:11:29+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/GPjbWzXjVqM/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "2uwrCUVCtYM",
+  "title": "NDP MP Leah Gazan discusses First Nations water bill – October 9, 2026",
+  "date": "2026-10-09T16:55:22+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/2uwrCUVCtYM/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "zFxQH__o14E",
+  "title": "NDP MP Don Davies speaks with reporters following question period – October 9, 2026",
+  "date": "2026-10-09T16:33:58+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/zFxQH__o14E/hqdefault.jpg"
+ },
+ {
+  "channel": "CPAC",
+  "handle": "CPAC",
+  "about": "Nonpartisan parliamentary broadcaster",
+  "videoId": "gvIfRTUZWA8",
+  "title": "Canadians May Need to Sacrifice Social Benefits for Defence — Retired Gen. Wayne Eyre",
+  "date": "2026-10-09T16:26:31+00:00",
+  "thumbnail": "https://i4.ytimg.com/vi/gvIfRTUZWA8/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "1-5JVpa71v4",
+  "title": "Bonnie Crombie's election promise has a Doug Ford problem",
+  "date": "2026-10-09T14:30:33+00:00",
+  "thumbnail": "https://i2.ytimg.com/vi/1-5JVpa71v4/hqdefault.jpg"
+ },
+ {
+  "channel": "Real Talk with Ryan Jespersen",
+  "handle": "RealTalkRJ",
+  "about": "Independent centrist talk show",
+  "videoId": "F7eyZiXgnQs",
+  "title": "Danielle Smith // Andrew Knack // Jeromy Farkas",
+  "date": "2026-10-09T14:24:51+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/F7eyZiXgnQs/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "FaSe0o1CzEM",
+  "title": "Are Ontario's private career colleges misusing OSAP? | #onpoli",
+  "date": "2026-10-09T13:00:22+00:00",
+  "thumbnail": "https://i3.ytimg.com/vi/FaSe0o1CzEM/hqdefault.jpg"
+ },
+ {
+  "channel": "TVO Today",
+  "handle": "tvotoday",
+  "about": "The Agenda with Steve Paikin and TVO current affairs",
+  "videoId": "lup1i21yKHE",
+  "title": "Why does gun violence happen in Canada? | Unravelled",
+  "date": "2026-10-09T13:00:09+00:00",
+  "thumbnail": "https://i1.ytimg.com/vi/lup1i21yKHE/hqdefault.jpg"
+ },
+ {
   "channel": "TVO Today",
   "handle": "tvotoday",
   "about": "The Agenda with Steve Paikin and TVO current affairs",
@@ -7,33 +88,6 @@
   "title": "What Can a Meal Reveal About Sudan's Crisis? | The Rundown",
   "date": "2026-10-09T01:00:33+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/a_DyPFgDOcs/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "Nj7axhsZ4Fw",
-  "title": "What Does Sudan's Crisis Look Like Up Close?",
-  "date": "2026-10-09T01:00:01+00:00",
-  "thumbnail": "https://i3.ytimg.com/vi/Nj7axhsZ4Fw/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "EKcPZfKBadM",
-  "title": "Is a Path to Peace Possible For Sudan?",
-  "date": "2026-10-09T00:30:37+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/EKcPZfKBadM/hqdefault.jpg"
- },
- {
-  "channel": "TVO Today",
-  "handle": "tvotoday",
-  "about": "The Agenda with Steve Paikin and TVO current affairs",
-  "videoId": "qCBYmlvKtJo",
-  "title": "What Should Canadians Know About Sudan? | The Rundown",
-  "date": "2026-10-09T00:00:37+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/qCBYmlvKtJo/hqdefault.jpg"
  },
  {
   "channel": "Real Talk with Ryan Jespersen",
@@ -54,24 +108,6 @@
   "thumbnail": "https://i3.ytimg.com/vi/vrwItdzy3zY/hqdefault.jpg"
  },
  {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "1Zx55oyDfxE",
-  "title": "MPs comment on PBO report on gas tax holiday, support for steel industry – October 8, 2026",
-  "date": "2026-10-08T20:30:23+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/1Zx55oyDfxE/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "TkF0rUQYH5s",
-  "title": "Pierre Poilievre discusses Conservative Party motion on affordability – October 8, 2026",
-  "date": "2026-10-08T19:45:53+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/TkF0rUQYH5s/hqdefault.jpg"
- },
- {
   "channel": "Real Talk with Ryan Jespersen",
   "handle": "RealTalkRJ",
   "about": "Independent centrist talk show",
@@ -79,24 +115,6 @@
   "title": "UCP \"Big Dogs\" Edmonton Council",
   "date": "2026-10-08T19:37:10+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/1f4XsqUxOGI/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "IUJ9eDoap8g",
-  "title": "Période des questions – 8 octobre 2026",
-  "date": "2026-10-08T19:27:20+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/IUJ9eDoap8g/hqdefault.jpg"
- },
- {
-  "channel": "CPAC",
-  "handle": "CPAC",
-  "about": "Nonpartisan parliamentary broadcaster",
-  "videoId": "GOxBthlaZ0Q",
-  "title": "Question Period – October 8, 2026",
-  "date": "2026-10-08T19:23:53+00:00",
-  "thumbnail": "https://i4.ytimg.com/vi/GOxBthlaZ0Q/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
@@ -124,15 +142,6 @@
   "title": "Jesse Brown is fired! Who's going to replace him?",
   "date": "2026-10-08T13:03:30+00:00",
   "thumbnail": "https://i3.ytimg.com/vi/28xmRWkTwSA/hqdefault.jpg"
- },
- {
-  "channel": "Real Talk with Ryan Jespersen",
-  "handle": "RealTalkRJ",
-  "about": "Independent centrist talk show",
-  "videoId": "xosWxnRLnpk",
-  "title": "Carol Off: What Does It Mean to Love Canada?",
-  "date": "2026-10-08T04:38:20+00:00",
-  "thumbnail": "https://i1.ytimg.com/vi/xosWxnRLnpk/hqdefault.jpg"
  },
  {
   "channel": "The Hub",
@@ -223,15 +232,6 @@
   "title": "How Quebec’s new separatist government could break Canada’s “cozy consensus”",
   "date": "2026-10-06T20:50:32+00:00",
   "thumbnail": "https://i2.ytimg.com/vi/UZEJ3ahZr94/hqdefault.jpg"
- },
- {
-  "channel": "Juno News",
-  "handle": "junonews",
-  "about": "Independent conservative outlet (formerly True North)",
-  "videoId": "1Q4oUppLDfg",
-  "title": "‘Complete fiction’: Alberta separatist denies report of oil, water offer for U.S. support",
-  "date": "2026-10-05T21:44:11+00:00",
-  "thumbnail": "https://i2.ytimg.com/vi/1Q4oUppLDfg/hqdefault.jpg"
  },
  {
   "channel": "Canadaland",
