@@ -37,18 +37,18 @@
     "date": "2026-10-09T21:00:33+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/Ad3F1Xma9N0/hqdefault.jpg",
     "channel": "CBC News"
-   },
-   {
-    "videoId": "hBHHkXxc8kI",
-    "title": "After Elon Musk called on Quebec to separate, Carney and Poilievre dismiss ex-Trump advisor",
-    "date": "2026-10-09T18:15:20+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/hBHHkXxc8kI/hqdefault.jpg",
-    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "0-kiaWUW2Gs",
+    "title": "Let’s move from talk to action",
+    "date": "2026-10-10T17:27:46+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/0-kiaWUW2Gs/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "RqHwz-QcDdw",
     "title": "Fighting for steelworkers. Fighting for Canada. Fighting for you.",
@@ -69,23 +69,9 @@
     "date": "2026-10-09T18:44:03+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/mNIj4B4_yXI/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "_LsAZW_t7y0",
-    "title": "LIVE from Hamilton: Save 🇨🇦 Jobs",
-    "date": "2026-10-09T16:26:03+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/_LsAZW_t7y0/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
-   {
-    "videoId": "hBHHkXxc8kI",
-    "title": "After Elon Musk called on Quebec to separate, Carney and Poilievre dismiss ex-Trump advisor",
-    "date": "2026-10-09T18:15:20+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/hBHHkXxc8kI/hqdefault.jpg",
-    "channel": "Global News"
-   },
    {
     "videoId": "y5_UUNfOsHk",
     "title": "Pierre Poilievre unveils plan to save steel industry jobs – October 9, 2026",
