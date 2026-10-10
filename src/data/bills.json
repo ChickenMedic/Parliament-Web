@@ -4101,7 +4101,7 @@
   "id": "C-37",
   "title": "First Nations Clean Water Act",
   "longTitle": "An Act respecting water, source water, drinking water, wastewater and related infrastructure on First Nation lands",
-  "status": "At second reading in the House of Commons",
+  "status": "At consideration in committee in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -4111,10 +4111,15 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Indigenous Services",
   "sponsorRiding": "Abitibi—Baie-James—Nunavik—Eeyou",
-  "latestActivity": "Introduction and first reading",
-  "latestActivityDate": "2026-06-16",
+  "latestActivity": "Second reading and referral to committee",
+  "latestActivityDate": "2026-10-09",
   "latestActivityChamber": "House of Commons",
-  "committee": null,
+  "committee": {
+   "acronym": "INAN",
+   "name": "Standing Committee on Indigenous and Northern Affairs",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/INAN"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -4124,7 +4129,7 @@
    {
     "key": "houseSecondReading",
     "label": "Second reading (House)",
-    "date": null
+    "date": "2026-10-09"
    },
    {
     "key": "houseThirdReading",
@@ -4386,22 +4391,22 @@
     "date": "Fri, 09 Oct 2026 06:55:53 GMT"
    },
    {
-    "title": "Bill C-39 could create more labour unrest, union leaders warn",
-    "source": "Canadian Labour Congress",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV3BEaHh4MmdHdFhtM3hVbHVkNTNoZTJsLTJfeFJzWXFfeHk5SWFGZEdRVFprTFlBRzkzMDItNUhOZzE5SDZWNDh3SFh6b1V3czM1MTQ0TldSZ2Z2YlNtOXJOcHh4dXY5cGRRTlUtVDdVRTZYSjBwczhQYmk4RHVXV0hMRENUZ3NMUmZIWEVNbjI?oc=5",
-    "date": "Thu, 08 Oct 2026 15:40:30 GMT"
+    "title": "Special committee to steer Carney’s controversial bill C-39 plans to move fast",
+    "source": "Canada's National Observer",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdERPdjZNaWN3TTd1LUtwWkdhOFpIQ1MtVldmMTdURHFDVkFJOXpYVlRKbjVGcDlaeXlkOXNPYWhDdWFHc3RzTE1lQkd3ejZXQUU1M1NFa2JiQzVidnN5a1hManJuRGpZSThrOU1BNUh6U2xmX09NeE5rMmVldGVyc0ZMZjZhQU12THlfQ05qU3NwSWt0ZnEwQ3pOekdFWHFob1QyeGdoYWJHYjNsUlpocWNuNTNuSjhaMGxyeg?oc=5",
+    "date": "Fri, 09 Oct 2026 19:54:22 GMT"
    },
    {
-    "title": "NDP Leader Avi Lewis Discusses Bill C-39 - Headline Politics",
+    "title": "NDP MP Don Davies Raises Concerns About Bill C-39",
     "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNHZSb1hMVkFPTThJMjF6S29tbHprdTZOM2xFZUk5OGlpeFZoWHI2S0NjMVlhZ19jMkdXMW43cXR4MHpQYnlMV2xZMTh5bldaQVdVVFplSVg1cUwyLXlSU3k4M2lJZjVDN1ZRRExBQmF0RUtsUFYyQ3c0YTNyTFJJLXgtaGZDS3B6UHhHZnIycHB1cUdPa05nVjVpaVZuRUJDWS1ZS2FDOWxkV1g3WkdyanFSX1VLZEZySWJlcnF1a3lsTVlq?oc=5",
-    "date": "Thu, 08 Oct 2026 16:33:37 GMT"
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMjh2QUI1ZHZsc0lwV2tZV3dqdENPdk16X0x4NmJrMllYNnNsRFk3U3hhdkJIZnpUMHFJUndrOXVyVmpLbEFhY0xMX0toeWZMMnVnS3VZNXJpckVFel85N29SM2hmcGdLVDk1b3U3RzBnXzRoV3BDaTN5WXQ2OXBjN01fV3Vxd2JETEg1MW5MdlRYMUllQzRZaGFwRlcxRjJWTjBvek01cFZ2N2lablN3UzRuWGt6VG00OFplV3NfLXJrMUdyX2VocjBhYWt1NkpH?oc=5",
+    "date": "Fri, 09 Oct 2026 16:19:34 GMT"
    },
    {
-    "title": "MPs to hold first vote on federal government’s key economic bill C-39",
-    "source": "The Spec",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOem9FU3oyb3RPajl1MlZGMWlTVElXV1JpS3gyVUFYOFdqMEJLMkc2OGZJZmNVZUtpWlBESE02QXVIUWtLWExMZG5TU2hxWG1xcWtrVklJNzJhdk96ZVZfZlFwd3JVdFpEQkdXWkJhV3NWekE5VG1ENld5QW1MY1pLSnptVVk4V2V6bmdCSzQwcm0xYklFZUo3TjdmVXVyQXA4QUhydFZQSVI5c044X1FXa3pTTl9HMWExeXp3ai1fUXJjb1dnejFxeE5Xam9yWS1EMTBqdTM2b2RnVWJEaUhwMkpUY00zdERoN0dn?oc=5",
-    "date": "Thu, 08 Oct 2026 15:26:41 GMT"
+    "title": "Poilievre says Conservatives to push amendments on Bill C-39",
+    "source": "Yahoo News Canada",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVzJUZTE2SVdHME81Q2pMeDFYT1ctcmRzVVFfVTdhdk9yaldVclhLSEMtRG5nanJjb1A2ZHhhV1pxVXJXUkxaM1E2cGFmZGxQNFh5c2RFcFNDSjBTd0dEVGh1aEdTWlg5RU1lejEyYXVEbGlXYzdtcmduSHluWXhxQ1dXOVJpbEk0NGpWTUN3?oc=5",
+    "date": "Fri, 09 Oct 2026 20:46:40 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -5716,7 +5721,7 @@
  },
  {
   "id": "C-214",
-  "title": "National Renewable Energy Stategy Act",
+  "title": "National Renewable Energy Strategy Act",
   "longTitle": "An Act respecting the development of a national renewable energy strategy",
   "status": "Outside the Order of Precedence",
   "receivedRoyalAssent": false,
@@ -7930,7 +7935,7 @@
   "id": "C-241",
   "title": "National Strategy on Flood and Drought Forecasting Act",
   "longTitle": "An Act to establish a national strategy respecting flood and drought forecasting",
-  "status": "At report stage in the House of Commons",
+  "status": "At third reading in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -7940,15 +7945,10 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Terrebonne",
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-06-17",
+  "latestActivity": "Debate at third reading",
+  "latestActivityDate": "2026-10-09",
   "latestActivityChamber": "House of Commons",
-  "committee": {
-   "acronym": "ENVI",
-   "name": "Standing Committee on Environment and Sustainable Development",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/ENVI"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "houseFirstReading",
