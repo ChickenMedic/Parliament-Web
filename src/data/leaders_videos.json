@@ -1,76 +1,10 @@
 {
  "pm": {
-  "own": [
-   {
-    "videoId": "2VyqXjobOlk",
-    "title": "Protecting Canada’s oceans",
-    "date": "2026-10-09T16:55:24+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2VyqXjobOlk/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "uYwbsSuM7RI",
-    "title": "Prime Minister Carney announces an investment to retrofit one million homes",
-    "date": "2026-10-09T16:41:12+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/uYwbsSuM7RI/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "NQCCNcLkXAg",
-    "title": "Canada's firefighting efforts",
-    "date": "2026-10-08T16:28:54+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/NQCCNcLkXAg/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "ideFFDC6eYw",
-    "title": "Canada is charting a new course",
-    "date": "2026-10-05T14:01:06+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/ideFFDC6eYw/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
-   }
-  ],
-  "coverage": [
-   {
-    "videoId": "Ad3F1Xma9N0",
-    "title": "Will Carney's plan to 'Build Canada Strong' hurt the environment?",
-    "date": "2026-10-09T21:00:33+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/Ad3F1Xma9N0/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "own": [],
+  "coverage": []
  },
  "opposition": {
-  "own": [
-   {
-    "videoId": "0-kiaWUW2Gs",
-    "title": "Let’s move from talk to action",
-    "date": "2026-10-10T17:27:46+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/0-kiaWUW2Gs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "RqHwz-QcDdw",
-    "title": "Fighting for steelworkers. Fighting for Canada. Fighting for you.",
-    "date": "2026-10-09T23:47:25+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/RqHwz-QcDdw/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "rmRZOVPaHfw",
-    "title": "Fighting for steel jobs.",
-    "date": "2026-10-09T19:42:30+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/rmRZOVPaHfw/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "mNIj4B4_yXI",
-    "title": "Les conservateurs continuent de se battre pour protéger vos emplois.",
-    "date": "2026-10-09T18:44:03+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/mNIj4B4_yXI/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   }
-  ],
+  "own": [],
   "coverage": [
    {
     "videoId": "y5_UUNfOsHk",
