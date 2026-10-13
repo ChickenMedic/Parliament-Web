@@ -30,60 +30,59 @@
     "channel": "Prime Minister of Canada"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "cg4PFd9pDQw",
-    "title": "Sunday Scrum | Carney faces criticism over C-39, Stelco layoffs continue as planned",
-    "date": "2026-10-11T18:13:05+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/cg4PFd9pDQw/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "coverage": []
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "y-6v48oAFbc",
+    "title": "Protect Canadian jobs and save you money",
+    "date": "2026-10-13T18:30:17+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/y-6v48oAFbc/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "d5CFoWqqpSQ",
+    "title": "Vous faire économiser et protéger vos emplois.",
+    "date": "2026-10-13T13:34:56+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/d5CFoWqqpSQ/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "FaNvtrUIF28",
+    "title": "LIVE from Windsor: Save Money & Jobs",
+    "date": "2026-10-13T13:15:59+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/FaNvtrUIF28/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "hWuSsd3f9QI",
     "title": "Liberals promised to stabilize grocery prices by Thanksgiving… back in 2023.",
     "date": "2026-10-11T22:31:56+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/hWuSsd3f9QI/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "0-kiaWUW2Gs",
-    "title": "Let’s move from talk to action",
-    "date": "2026-10-10T17:27:46+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/0-kiaWUW2Gs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "RqHwz-QcDdw",
-    "title": "Fighting for steelworkers. Fighting for Canada. Fighting for you.",
-    "date": "2026-10-09T23:47:25+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/RqHwz-QcDdw/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "rmRZOVPaHfw",
-    "title": "Fighting for steel jobs.",
-    "date": "2026-10-09T19:42:30+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/rmRZOVPaHfw/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
+   {
+    "videoId": "F_Q18oNajLg",
+    "title": "Poilievre holds press conference in Windsor",
+    "date": "2026-10-13T13:16:33+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/F_Q18oNajLg/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "vlnwFLNtCl0",
+    "title": "Pierre Poilievre proposes tariff-free auto pact ahead of trip to U.S. – October 13, 2026",
+    "date": "2026-10-13T13:13:54+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/vlnwFLNtCl0/hqdefault.jpg",
+    "channel": "CPAC"
+   },
    {
     "videoId": "y5_UUNfOsHk",
     "title": "Pierre Poilievre unveils plan to save steel industry jobs – October 9, 2026",
     "date": "2026-10-09T16:19:27+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/y5_UUNfOsHk/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "TkF0rUQYH5s",
-    "title": "Pierre Poilievre discusses Conservative Party motion on affordability – October 8, 2026",
-    "date": "2026-10-08T19:45:53+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/TkF0rUQYH5s/hqdefault.jpg",
     "channel": "CPAC"
    }
   ]
