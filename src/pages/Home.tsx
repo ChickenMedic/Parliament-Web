@@ -56,13 +56,6 @@ const SECTIONS = [
   { to: '/history', icon: History, title: 'History', text: 'Every prime minister since Confederation, and the milestones of Canadian democracy.' },
 ];
 
-const WORK: { status: 'live' | 'progress' | 'paused'; label: string; title: string; text: string }[] = [
-  { status: 'live', label: 'Live', title: 'Daily data refresh', text: 'Bills, committees, senators, the MP roster and the seating plan are rebuilt from official sources every morning.' },
-  { status: 'progress', label: 'In progress', title: 'History section', text: 'The prime ministers timeline is the first piece. General elections, governors general and the Speakers are next.' },
-  { status: 'progress', label: 'In progress', title: 'Scandal tracker', text: 'Each story is checked for new developments on a schedule; the aim is a reliable, sourced record rather than a rumour mill.' },
-  { status: 'paused', label: 'Paused', title: 'Posts from X', text: "The latest posts from the parties and the two leaders are paused while the X API account is out of credits. Every MP's X profile is still linked from Find Your MP." },
-];
-
 export const Home = () => {
   const pm = leadersData.pm;
   const opp = leadersData.opposition;
@@ -134,7 +127,7 @@ export const Home = () => {
 
       <section className="home-section">
         <h2>Explore</h2>
-        <p>Each section draws on the same official data and keeps to the facts.</p>
+        <p>Everything here comes from the official record.</p>
         <div className="explore-grid">
           {SECTIONS.map(({ to, icon: Icon, title, text }) => (
             <NavLink key={to} to={to} className="explore-card">
@@ -146,25 +139,8 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="home-section">
-        <h2>What we're working on</h2>
-        <p>ParliaWeb is a work in progress. This is where things stand.</p>
-        <ul className="work-list">
-          {WORK.map(w => (
-            <li key={w.title}>
-              <span className={`work-status ${w.status}`}>{w.label}</span>
-              <div>
-                <strong>{w.title}</strong>
-                <span>{w.text}</span>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
-
       <p className="home-sources">
-        Sources: House of Commons (members, constituencies, seating plan), openparliament.ca (member profiles and votes),
-        LEGISinfo (bills), Senate of Canada (senators), Google News and YouTube (coverage of the leaders), Wikipedia (historical portraits).
+        Data from the House of Commons, openparliament.ca, LEGISinfo and the Senate of Canada.
         ParliaWeb is independent and not affiliated with any party or with Parliament.
       </p>
     </div>
