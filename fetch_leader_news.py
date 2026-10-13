@@ -2,6 +2,11 @@
 Minister and the Leader of the Official Opposition via Google News RSS
 (aggregates CBC, CTV, Global News, the Globe and Mail, National Post, ...).
 
+Google News sometimes answers a GitHub runner with a 429/503 or just hangs,
+so each query is retried with a growing pause, and a query that still fails
+keeps the headlines already on disk rather than blanking them. The run only
+fails if every query failed, which is what a genuinely broken feed looks like.
+
 Run: python fetch_leader_news.py
 """
 
@@ -26,12 +31,29 @@ QUERIES = {
 }
 
 
+RETRY_PAUSES = (5, 15, 30)
+
+
+def get(url):
+    last = None
+    for attempt, pause in enumerate(RETRY_PAUSES + (None,)):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, context=ctx, timeout=45) as r:
+                return r.read()
+        except Exception as e:  # HTTP error, timeout, reset: all worth a retry
+            last = e
+            if pause is None:
+                break
+            print(f'  attempt {attempt + 1} failed ({e}); retrying in {pause}s')
+            time.sleep(pause)
+    raise last
+
+
 def fetch_news(query, limit=6):
     url = ('https://news.google.com/rss/search?q=' + urllib.parse.quote(query)
            + '&hl=en-CA&gl=CA&ceid=CA:en')
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, context=ctx, timeout=45) as r:
-        root = ET.fromstring(r.read())
+    root = ET.fromstring(get(url))
     items = []
     for item in root.iter('item'):
         title = item.findtext('title') or ''
@@ -50,11 +72,26 @@ def fetch_news(query, limit=6):
 
 
 def main():
-    out = {}
+    try:
+        with open(OUT, encoding='utf-8') as f:
+            previous = json.load(f)
+    except (FileNotFoundError, ValueError):
+        previous = {}
+
+    out, failed = {}, []
     for key, query in QUERIES.items():
-        out[key] = fetch_news(query)
-        print(f'{key}: {len(out[key])} headlines')
+        try:
+            out[key] = fetch_news(query)
+            print(f'{key}: {len(out[key])} headlines')
+        except Exception as e:
+            failed.append(key)
+            out[key] = previous.get(key, [])
+            print(f'{key}: fetch failed ({e}); keeping {len(out[key])} previous headlines')
         time.sleep(0.5)
+
+    if len(failed) == len(QUERIES):
+        raise SystemExit('Every query failed; leaving the committed data untouched.')
+
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
     print(f'Saved {OUT}')
