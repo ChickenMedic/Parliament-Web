@@ -5,11 +5,10 @@ import { Navigation } from './components/Navigation';
 import { Home } from './pages/Home';
 
 // Every page is its own chunk so the home page doesn't ship the riding
-// boundaries, the feeds and the bill texts along with it.
+// boundaries and the bill texts along with it.
 const lazyPage = <T extends Record<string, unknown>>(load: () => Promise<T>, name: keyof T) =>
   lazy(() => load().then(m => ({ default: m[name] as React.ComponentType })));
 
-const Feed = lazyPage(() => import('./pages/Feed'), 'Feed');
 const Dashboard = lazyPage(() => import('./pages/Dashboard'), 'Dashboard');
 const House = lazyPage(() => import('./pages/House'), 'House');
 const Bills = lazyPage(() => import('./pages/Bills'), 'Bills');
@@ -34,7 +33,6 @@ function App() {
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/feed" element={<Feed />} />
             <Route path="/map" element={<Dashboard />} />
             <Route path="/house" element={<House />} />
             <Route path="/parties" element={<Parties />} />

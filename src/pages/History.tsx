@@ -75,6 +75,13 @@ export const History = () => {
   const [filter, setFilter] = useState<Filter>('All');
   const [order, setOrder] = useState<'newest' | 'oldest'>('newest');
   const [hovered, setHovered] = useState<PrimeMinister | null>(null);
+  const [flashed, setFlashed] = useState<number | null>(null);
+
+  const jumpTo = (pm: PrimeMinister) => {
+    document.getElementById(`pm-${pm.number}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    setFlashed(pm.number);
+    window.setTimeout(() => setFlashed(f => (f === pm.number ? null : f)), 4000);
+  };
 
   // One segment per term, in date order, so the bar reads left to right.
   const segments = useMemo(() => pms
@@ -125,7 +132,7 @@ export const History = () => {
                   aria-label={pm.name}
                   onMouseEnter={() => setHovered(pm)}
                   onFocus={() => setHovered(pm)}
-                  onClick={() => document.getElementById(`pm-${pm.number}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                  onClick={() => jumpTo(pm)}
                 />
               );
             })}
@@ -171,7 +178,7 @@ export const History = () => {
               <article
                 key={pm.number}
                 id={`pm-${pm.number}`}
-                className={`pm-card ${current ? 'current' : ''}`}
+                className={`pm-card ${current ? 'current' : ''} ${flashed === pm.number ? 'flash' : ''}`}
                 style={{ '--pm-color': colorOf(pm) } as React.CSSProperties}
               >
                 <img

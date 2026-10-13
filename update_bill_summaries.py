@@ -72,6 +72,11 @@ SCHEMA = {
     "additionalProperties": False,
 }
 
+def no_dashes(text):
+    """Replace em/en dashes used as punctuation with a comma."""
+    return text.replace(' — ', ', ').replace('—', ', ').replace(' – ', ', ')
+
+
 PROMPT = """You write plain-language bill explainers for a factual, \
 non-partisan Canadian politics website. Summarize this bill for an ordinary \
 reader with no legal background.
@@ -90,8 +95,9 @@ it matters, in plain language.
 - "deepDive": 3-5 sections, each with a short "heading" and a "body" of 1-2 \
 paragraphs, forming an executive summary. Good headings: "What the bill \
 does", "Key provisions", "Who it affects", "Context". Base everything \
-strictly on the material above — never invent provisions. Stay neutral: \
-describe, don't advocate.
+strictly on the material above; never invent provisions. Stay neutral: \
+describe, don't advocate. House style: never use em dashes or en dashes; \
+use a comma, a colon, parentheses or a new sentence instead.
 
 If the FULL TEXT is available, base the summary on it and treat headlines \
 only as context. If the text has NOT been published, write instead about \
@@ -130,6 +136,11 @@ def summarize(client, bill):
     if response.stop_reason != "end_turn":
         raise RuntimeError(f"stop_reason={response.stop_reason}")
     result = json.loads(next(b.text for b in response.content if b.type == "text"))
+    # Belt and braces for the house style: the model still slips the odd dash in.
+    result['overview'] = no_dashes(result['overview'])
+    for section in result['deepDive']:
+        section['heading'] = no_dashes(section['heading'])
+        section['body'] = no_dashes(section['body'])
     result['hadFullText'] = bool(text)
     result['generated'] = date.today().isoformat()
     return result

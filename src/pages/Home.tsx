@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { Newspaper, Users, FileText, AlertTriangle, Landmark, Map, History, ArrowRight, ChevronRight } from 'lucide-react';
+import { Users, FileText, AlertTriangle, Landmark, Map, History, ArrowRight, ChevronRight } from 'lucide-react';
 import leadersData from '../data/leaders.json';
 import politiciansData from '../data/politicians.json';
 import './PageStyles.css';
@@ -47,7 +47,6 @@ const portraitFor = (name: string) => {
 };
 
 const SECTIONS = [
-  { to: '/feed', icon: Newspaper, title: 'The Feed', text: 'Headlines, video coverage and posts from the parties, leaders and MPs, in one stream.' },
   { to: '/bills', icon: FileText, title: 'Bills', text: 'Every bill before Parliament, where it is in the process, and a plain-language summary.' },
   { to: '/parties', icon: Users, title: 'Parties', text: 'Caucus rosters, the Cabinet and the Shadow Cabinet, with contact details for each member.' },
   { to: '/house', icon: Landmark, title: 'House & Senate', text: 'The seating plan of the Commons and the make-up of the Senate, seat by seat.' },
@@ -58,10 +57,10 @@ const SECTIONS = [
 ];
 
 const WORK: { status: 'live' | 'progress' | 'paused'; label: string; title: string; text: string }[] = [
-  { status: 'live', label: 'Live', title: 'Daily data refresh', text: 'Bills, committees, senators, the MP roster and the seating plan are rebuilt from official sources every morning. News and video coverage refresh every four hours.' },
+  { status: 'live', label: 'Live', title: 'Daily data refresh', text: 'Bills, committees, senators, the MP roster and the seating plan are rebuilt from official sources every morning.' },
   { status: 'progress', label: 'In progress', title: 'History section', text: 'The prime ministers timeline is the first piece. General elections, governors general and the Speakers are next.' },
   { status: 'progress', label: 'In progress', title: 'Scandal tracker', text: 'Each story is checked for new developments on a schedule; the aim is a reliable, sourced record rather than a rumour mill.' },
-  { status: 'paused', label: 'Paused', title: 'Posts from X', text: 'The X feed is paused while the API account is out of credits. Existing posts remain visible; news and YouTube coverage are unaffected.' },
+  { status: 'paused', label: 'Paused', title: 'Posts from X', text: "The latest posts from the parties and the two leaders are paused while the X API account is out of credits. Every MP's X profile is still linked from Find Your MP." },
 ];
 
 export const Home = () => {
@@ -77,13 +76,14 @@ export const Home = () => {
           <div className="home-eyebrow">Canada's Parliament, in one place</div>
           <h1>Follow Parliament without the noise.</h1>
           <p className="home-lede">
-            ParliaWeb gathers the official record of the House of Commons, who sits in it, what it is
-            voting on, and what is being said about it, into one independent, plain-language site.
+            ParliaWeb gathers the official record of the House of Commons, who sits in it and what it is
+            voting on, into one independent, plain-language site. Start with the map: find your riding,
+            see who represents you, and reach them directly.
             No account, no ads, no party line.
           </p>
           <div className="home-actions">
             <NavLink to="/map" className="home-btn primary">Find your MP <ArrowRight size={16} /></NavLink>
-            <NavLink to="/feed" className="home-btn secondary">Today's feed</NavLink>
+            <NavLink to="/bills" className="home-btn secondary">What's before Parliament</NavLink>
           </div>
         </div>
 
@@ -163,8 +163,8 @@ export const Home = () => {
       </section>
 
       <p className="home-sources">
-        Sources: House of Commons (members, constituencies, seating plan), openparliament.ca (member profiles),
-        LEGISinfo (bills), Senate of Canada (senators), Google News and YouTube (coverage), Wikipedia (historical portraits).
+        Sources: House of Commons (members, constituencies, seating plan), openparliament.ca (member profiles and votes),
+        LEGISinfo (bills), Senate of Canada (senators), Google News and YouTube (coverage of the leaders), Wikipedia (historical portraits).
         ParliaWeb is independent and not affiliated with any party or with Parliament.
       </p>
     </div>

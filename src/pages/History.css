@@ -145,14 +145,22 @@
 
 .pm-card.current { box-shadow: 0 0 0 1px var(--pm-color), 0 8px 24px rgba(0, 0, 0, 0.35); }
 
+/* Jumped to from the era bar: held highlighted for a few seconds. */
+.pm-card.flash {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 3px var(--pm-color), 0 10px 32px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px) scale(1.015);
+}
+
 .pm-portrait {
-  width: 84px;
-  aspect-ratio: 8 / 11;
+  width: 96px;
+  height: 132px;
+  flex: 0 0 96px;
+  align-self: flex-start;
   object-fit: cover;
   object-position: center 15%;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.08);
-  flex-shrink: 0;
   filter: saturate(0.85);
 }
 
@@ -252,5 +260,5 @@
   .history { padding: 20px 16px 40px 16px; gap: 28px; }
   .history-header h1 { font-size: 28px; }
   .pm-grid { grid-template-columns: 1fr; }
-  .pm-portrait { width: 72px; }
+  .pm-portrait { width: 80px; height: 110px; flex-basis: 80px; }
 }

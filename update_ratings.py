@@ -60,6 +60,8 @@ publication date; "tone" reflects whether the number is good, mixed, or bad \
 for that leader.
 - If you find nothing newer than the current data for a pollster, keep the \
 current entry for it unchanged.
+- House style: never use em dashes or en dashes in any text field; use a \
+comma, a colon or a new sentence instead.
 
 CURRENT DATA:
 {data}

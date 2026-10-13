@@ -6,19 +6,5 @@
   "CanadianGreens": { "name": "Green Party of Canada", "kind": "party", "party": "Green Party", "avatar": "/GreenParty.jpg" },
   "OurCommons": { "name": "House of Commons", "kind": "institution", "avatar": "/HouseOfCommons.jpg" },
   "MarkJCarney": { "name": "Mark Carney", "kind": "leader", "party": "Liberal", "role": "Prime Minister" },
-  "PierrePoilievre": { "name": "Pierre Poilievre", "kind": "leader", "party": "Conservative", "role": "Leader of the Official Opposition" },
-  "avilewis": { "name": "Avi Lewis", "kind": "leader", "party": "NDP", "role": "NDP Leader" },
-  "yfblanchet": { "name": "Yves-François Blanchet", "kind": "leader", "party": "Bloc Québécois", "role": "Bloc Québécois Leader" },
-  "ElizabethMay": { "name": "Elizabeth May", "kind": "leader", "party": "Green Party", "role": "Green Party Leader" },
-  "CBCPolitics": { "name": "CBC Politics", "kind": "news" },
-  "CTVNews": { "name": "CTV News", "kind": "news", "curate": true },
-  "globalnews": { "name": "Global News", "kind": "news", "curate": true },
-  "nationalpost": { "name": "National Post", "kind": "news", "curate": true },
-  "acoyne": { "name": "Andrew Coyne", "kind": "commentator", "role": "Globe and Mail columnist" },
-  "ChantalHbert": { "name": "Chantal Hébert", "kind": "commentator", "role": "Political columnist" },
-  "AlthiaRaj": { "name": "Althia Raj", "kind": "commentator", "role": "Toronto Star national columnist" },
-  "InklessPW": { "name": "Paul Wells", "kind": "commentator", "role": "Political journalist" },
-  "brianlilley": { "name": "Brian Lilley", "kind": "commentator", "role": "Toronto Sun columnist" },
-  "DavidColetto": { "name": "David Coletto", "kind": "commentator", "role": "CEO, Abacus Data" },
-  "338Canada": { "name": "Philippe J. Fournier", "kind": "commentator", "role": "338Canada election model" }
+  "PierrePoilievre": { "name": "Pierre Poilievre", "kind": "leader", "party": "Conservative", "role": "Leader of the Official Opposition" }
 }

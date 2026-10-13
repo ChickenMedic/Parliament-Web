@@ -1,11 +1,6 @@
-"""Refresh src/data/youtube_videos.json with recent uploads from the channels
-in src/data/youtube_channels.json, via YouTube's public per-channel RSS feeds
-(free, no API key) — plus src/data/leaders_videos.json with the PM's and
-Opposition Leader's own uploads and recent TV coverage mentioning them.
-
-Registry entries only need "handle" (the @name without the @), "name", and
-"about"; this script resolves and caches each channel's id back into the
-registry on first sight.
+"""Refresh src/data/leaders_videos.json with the PM's and Opposition Leader's
+own YouTube uploads and recent TV coverage mentioning them, via YouTube's
+public per-channel RSS feeds (free, no API key). Shown on the leader pages.
 
 Run: python fetch_youtube.py
 """
@@ -17,8 +12,6 @@ import time
 import urllib.request
 import xml.etree.ElementTree as ET
 
-REGISTRY = 'src/data/youtube_channels.json'
-OUT = 'src/data/youtube_videos.json'
 LEADERS_OUT = 'src/data/leaders_videos.json'
 MAX_AGE_DAYS = 21
 PER_CHANNEL = 4
@@ -58,19 +51,6 @@ def get(url):
         return r.read()
 
 
-def resolve_channel_id(handle):
-    html = get(f'https://www.youtube.com/@{handle}').decode('utf-8', 'replace')
-    # externalId is the page's own channel; "channelId" often matches a
-    # recommended channel first, so try it last.
-    for pat in (r'"externalId":"(UC[0-9A-Za-z_-]{22})"',
-                r'channel_id=(UC[0-9A-Za-z_-]{22})',
-                r'"channelId":"(UC[0-9A-Za-z_-]{22})"'):
-        m = re.search(pat, html)
-        if m:
-            return m.group(1)
-    raise ValueError(f'no channel id found on @{handle} page')
-
-
 def fetch_videos(channel_id, max_age_days=MAX_AGE_DAYS, limit=PER_CHANNEL, title_pattern=None):
     root = ET.fromstring(get(
         f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'))
@@ -101,47 +81,6 @@ def fetch_videos(channel_id, max_age_days=MAX_AGE_DAYS, limit=PER_CHANNEL, title
 
 
 def main():
-    with open(REGISTRY, encoding='utf-8') as f:
-        channels = json.load(f)
-
-    out = []
-    registry_changed = False
-    for ch in channels:
-        if not ch.get('channelId'):
-            try:
-                ch['channelId'] = resolve_channel_id(ch['handle'])
-                registry_changed = True
-                print(f"resolved @{ch['handle']} -> {ch['channelId']}")
-            except Exception as e:
-                print(f"warning: could not resolve @{ch['handle']}: {e}")
-                continue
-        try:
-            videos = fetch_videos(ch['channelId'])
-        except Exception as e:
-            print(f"warning: feed failed for @{ch['handle']}: {e}")
-            continue
-        for v in videos:
-            out.append({
-                'channel': ch['name'],
-                'handle': ch['handle'],
-                'about': ch.get('about', ''),
-                **v,
-            })
-        print(f"@{ch['handle']}: {len(videos)} recent videos")
-        time.sleep(0.5)
-
-    if registry_changed:
-        with open(REGISTRY, 'w', encoding='utf-8') as f:
-            json.dump(channels, f, indent=1, ensure_ascii=False)
-
-    if out:
-        out.sort(key=lambda v: v['date'], reverse=True)
-        with open(OUT, 'w', encoding='utf-8') as f:
-            json.dump(out, f, indent=1, ensure_ascii=False)
-        print(f'Saved {len(out)} videos to {OUT}')
-    else:
-        print('warning: no channel videos fetched; keeping previous data')
-
     # Broadcaster feeds are shared between both leaders; fetch each once.
     coverage_feeds = []
     for name, cid in COVERAGE_CHANNELS:

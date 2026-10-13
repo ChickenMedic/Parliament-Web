@@ -83,20 +83,25 @@ jobs:
         run: python fetch_ridings.py
 
       # Each fetch continues on error so one flaky upstream doesn't block the rest.
-      # --mps sweeps front-bench MPs daily and backbenchers on a 7-day rotation;
-      # while X API credits are unavailable this fails harmlessly and resumes on
-      # its own once credits are topped up.
-      - name: Fetch X feeds (incl. MP sweep)
+      # X is eight handles (parties, the House, the two leaders), once a day,
+      # newest posts only: a few dozen reads. While the X account has no credits
+      # this fails harmlessly and resumes on its own once topped up.
+      - name: Fetch X feeds
         id: x_feeds
         continue-on-error: true
         env:
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
-        run: node fetch-tweets.js --mps
+        run: node fetch-tweets.js
 
       - name: Fetch leader news
         id: leader_news
         continue-on-error: true
         run: python fetch_leader_news.py
+
+      - name: Fetch leader videos
+        id: leader_videos
+        continue-on-error: true
+        run: python fetch_youtube.py
 
       - name: Fetch bills
         id: bills
@@ -141,7 +146,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
           for entry in \
             "X feeds (not counted):${{ steps.x_feeds.outcome }}" \
-            "Leader news:${{ steps.leader_news.outcome }}" \
+            "Leader news:${{ steps.leader_news.outcome }}"             "Leader videos:${{ steps.leader_videos.outcome }}" \
             "Bills:${{ steps.bills.outcome }}" \
             "Committees:${{ steps.committees.outcome }}" \
             "Senators:${{ steps.senators.outcome }}" \

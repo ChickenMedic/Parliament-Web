@@ -118,6 +118,8 @@ say the story has gone quiet and give the last known state. Set \
 "developmentsAsOf" to {today}.
 - Apart from latestDevelopments/developmentsAsOf, if nothing warrants a \
 change, return the data exactly as given.
+- House style: never use em dashes or en dashes in any text field; use a \r
+comma, a colon or a new sentence instead.
 
 CURRENT DATA:
 {data}

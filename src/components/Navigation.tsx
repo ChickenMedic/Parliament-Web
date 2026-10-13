@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Home, Newspaper, Map, Landmark, FileText, Users, AlertTriangle, History, Menu, X } from 'lucide-react';
+import { Home, Map, Landmark, FileText, Users, AlertTriangle, History, Menu, X } from 'lucide-react';
 import './Navigation.css';
 
 const LINKS: { to: string; label: string; icon: React.ComponentType<{ size?: number }>; end?: boolean }[] = [
   { to: '/', label: 'Home', icon: Home, end: true },
-  { to: '/feed', label: 'The Feed', icon: Newspaper },
   { to: '/pm', label: 'Prime Minister', icon: Users },
   { to: '/opposition-leader', label: 'Opposition Leader', icon: Users },
   { to: '/parties', label: 'Parties', icon: Users },

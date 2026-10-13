@@ -1,5 +1,6 @@
 import './PageStyles.css';
 import { useState, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import billsData from '../data/bills.json';
 import billSummariesData from '../data/bill_summaries.json';
@@ -168,7 +169,7 @@ const StageTracker = ({ bill, compact }: { bill: Bill; compact?: boolean }) => {
             <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
               <div style={{ flex: 1, height: '3px', background: segColor(i) }} />
               <div
-                title={`${s.label}${s.date ? ` — ${fmtDate(s.date)}` : ''}`}
+                title={`${s.label}${s.date ? `: ${fmtDate(s.date)}` : ''}`}
                 style={{
                   width: `${dotSize}px`,
                   height: `${dotSize}px`,
@@ -211,12 +212,20 @@ const TextNotReleasedBanner = () => (
 );
 
 export const Bills = () => {
-  const [selectedBill, setSelectedBill] = useState<Bill | null>(null);
+  // The open bill lives in the URL (/bills?bill=C-2) so the Bills link in the
+  // navigation, the back button and a shared link all return to the list.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const selectedId = searchParams.get('bill');
+  const selectedBill = selectedId ? BILLS_DATA.find(b => b.id === selectedId) || null : null;
   const [search, setSearch] = useState('');
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('All');
   const [typeFilter, setTypeFilter] = useState<'All' | 'Government' | 'Private / Senate'>('Government');
   const [categoryFilter, setCategoryFilter] = useState('All');
   const [showDeepDive, setShowDeepDive] = useState(false);
+  const openBill = (bill: Bill | null) => {
+    setSearchParams(bill ? { bill: bill.id } : {});
+    setShowDeepDive(false);
+  };
 
   // Subject areas actually present in the docket, so the list never offers a
   // filter that returns nothing.
@@ -262,7 +271,7 @@ export const Bills = () => {
     return (
       <div className="page-container glass-panel" style={{ overflowY: 'auto' }}>
         <button
-          onClick={() => setSelectedBill(null)}
+          onClick={() => openBill(null)}
           style={{ background: 'transparent', color: 'var(--accent-color)', border: 'none', cursor: 'pointer', marginBottom: '24px', textAlign: 'left', fontWeight: 'bold', fontSize: '15px', display: 'flex', alignItems: 'center', gap: '6px' }}
         >
           &larr; Back to all Bills
@@ -337,17 +346,17 @@ export const Bills = () => {
           }}>
             {speculative ? (
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap', marginBottom: '12px' }}>
-                <h3 style={{ margin: 0, color: '#fbbf24', fontSize: '18px' }}>What This Bill Might Do</h3>
+                <h3 style={{ margin: 0, color: '#fbbf24', fontSize: '18px' }}>Bill Overview</h3>
                 <span style={{ background: 'rgba(245,158,11,0.2)', border: '1px solid rgba(245,158,11,0.5)', color: '#fbbf24', fontSize: '11px', fontWeight: 'bold', padding: '3px 10px', borderRadius: '10px', letterSpacing: '0.5px' }}>
-                  ⚠ SPECULATIVE — TEXT NOT PUBLISHED
+                  ⚠ UNCONFIRMED: TEXT NOT PUBLISHED
                 </span>
               </div>
             ) : (
-              <h3 style={{ margin: '0 0 12px 0', color: 'white', fontSize: '18px' }}>What This Bill Does</h3>
+              <h3 style={{ margin: '0 0 12px 0', color: 'white', fontSize: '18px' }}>Bill Overview</h3>
             )}
             {speculative && (
               <p style={{ margin: '0 0 12px 0', fontSize: '13px', color: 'rgba(255,255,255,0.55)', lineHeight: 1.5 }}>
-                This description is based on news reporting, statements, and the bill's title — not on official
+                This description is based on news reporting, statements, and the bill's title, not on official
                 text, which Parliament has not released. Treat it as informed speculation that may change.
               </p>
             )}
@@ -371,7 +380,7 @@ export const Bills = () => {
                       </div>
                     ))}
                     <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.4)' }}>
-                      AI-generated plain-language summary based on {summary.hadFullText ? 'the published bill text' : 'reporting and the bill title (full text not yet published)'} — verify against the official text.
+                      AI-generated plain-language summary based on {summary.hadFullText ? 'the published bill text' : 'reporting and the bill title (full text not yet published)'}. Verify against the official text.
                     </div>
                   </div>
                 )}
@@ -392,7 +401,7 @@ export const Bills = () => {
             <p style={{ margin: '0 0 20px 0', fontSize: '14px', color: 'rgba(255,255,255,0.6)' }}>
               Latest activity: {selectedBill.latestActivity}
               {selectedBill.latestActivityChamber ? ` in the ${selectedBill.latestActivityChamber}` : ''}
-              {selectedBill.latestActivityDate ? ` — ${fmtDate(selectedBill.latestActivityDate)}` : ''}
+              {selectedBill.latestActivityDate ? `, ${fmtDate(selectedBill.latestActivityDate)}` : ''}
             </p>
           )}
           {/* Committee study is where a bill is actually amended, and where
@@ -445,8 +454,21 @@ export const Bills = () => {
               </>
             ) : (
               <div style={{ background: 'rgba(255,255,255,0.03)', padding: '18px', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.06)', fontSize: '14.5px', color: 'rgba(255,255,255,0.6)', lineHeight: 1.6 }}>
-                No recorded division on this bill yet, so official party positions aren’t available.
-                Positions appear here automatically once the House holds a standing vote.
+                {bucket === 'Passed' ? (
+                  <>
+                    <strong style={{ color: 'rgba(255,255,255,0.85)' }}>Passed without a recorded vote.</strong>{' '}
+                    Every stage of this bill was agreed to by voice vote or unanimous consent, so there is no
+                    party-by-party tally. In practice that means no party asked to put its opposition on the record.
+                    Many money bills, treaty bills and uncontroversial measures pass this way.
+                  </>
+                ) : bucket === 'Defeated' ? (
+                  'This bill was dropped or defeated without a recorded division, so there is no party-by-party tally.'
+                ) : (
+                  <>
+                    No recorded division on this bill so far. Bills often move through early stages by voice vote;
+                    party positions appear here automatically once the House holds a standing vote.
+                  </>
+                )}
               </div>
             )}
 
@@ -458,7 +480,7 @@ export const Bills = () => {
                     <div key={v.number} style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', padding: '10px 14px', borderRadius: '8px', fontSize: '13.5px' }}>
                       <div style={{ color: 'rgba(255,255,255,0.85)', marginBottom: '4px', lineHeight: 1.4 }}>{v.description}</div>
                       <div style={{ color: 'rgba(255,255,255,0.5)' }}>
-                        {fmtDate(v.date)} • <span style={{ color: v.result === 'Passed' ? '#10b981' : '#ef4444', fontWeight: 'bold' }}>{v.result}</span> — {v.yea} yea / {v.nay} nay
+                        {fmtDate(v.date)} • <span style={{ color: v.result === 'Passed' ? '#10b981' : '#ef4444', fontWeight: 'bold' }}>{v.result}</span> • {v.yea} yea / {v.nay} nay
                       </div>
                     </div>
                   ))}
@@ -502,7 +524,7 @@ export const Bills = () => {
     <div className="page-container glass-panel" style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       <div className="page-header" style={{ marginBottom: '24px' }}>
         <h1>Legislative Bills Tracker</h1>
-        <p>The current docket of the 45th Parliament, ordered by how close each bill is to becoming law — the furthest-along active bills are the ones your MP can still influence. Data from LEGISinfo and openparliament.ca.</p>
+        <p>The current docket of the 45th Parliament, ordered by how close each bill is to becoming law. The furthest-along active bills are the ones your MP can still influence. Data from LEGISinfo and openparliament.ca.</p>
 
         <div style={{ display: 'flex', gap: '12px', marginTop: '20px', alignItems: 'center', flexWrap: 'wrap' }}>
           <div className="search-box" style={{ flex: 1, minWidth: '240px' }}>
@@ -598,7 +620,7 @@ export const Bills = () => {
                     <span style={{ background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.6)', padding: '3px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>{bill.category.toUpperCase()}</span>
                   </div>
                 </div>
-                <button className="vote-btn" onClick={() => { setSelectedBill(bill); setShowDeepDive(false); }} style={{ width: '100%', marginTop: '16px', padding: '11px', fontSize: '14px', background: 'var(--accent-color)' }}>
+                <button className="vote-btn" onClick={() => openBill(bill)} style={{ width: '100%', marginTop: '16px', padding: '11px', fontSize: '14px', background: 'var(--accent-color)' }}>
                   View Progress, Votes &amp; Coverage
                 </button>
               </div>
