@@ -1,6 +1,45 @@
 {
   "liberal_party": [
     {
+      "id": "2110422450643116538",
+      "content": "Cutting red tape, accelerating approvals, and getting shovels in the ground to build the strongest economy in the G7. https://t.co/kZlnG4VIQi",
+      "date": "2026-10-14T17:28:16.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 460,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2110095645801648323",
+      "content": "RT @MarkJCarney: A united Canada is a stronger Canada. 🇨🇦 https://t.co/YkiV4nMjti",
+      "date": "2026-10-13T19:49:40.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 287,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1065
+      }
+    },
+    {
+      "id": "2110095638050509165",
+      "content": "RT @MSidhuLiberal: Our new Team Canada Strong initiative will help recruit, train and hire up to 100,000 new Red Seal trades workers over five years. Paid placements, apprenticeship support and a $5,000 completion bonus will help more Canadians get started, complete their training and get to work. https://t.co/nOwOsaGB7V",
+      "date": "2026-10-13T19:49:38.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 462,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 22
+      }
+    },
+    {
       "id": "2110076703468896522",
       "content": "The Canadian Dental Care Plan is helping millions of Canadians get the care they need — and giving some an opportunity to see a dentist for the first time in years.\n\nWe’re building a stronger Canada — one that works for everyone.",
       "date": "2026-10-13T18:34:24.000Z",
@@ -90,48 +129,35 @@
         "reply_count": 559,
         "retweet_count": 84
       }
-    },
-    {
-      "id": "2108246059583701087",
-      "content": "RT @DavidMcGuinty: Alberta has always answered the call — and today, we’re investing in the next chapter of that proud defence legacy. 🇨🇦\n\nAt CFB Edmonton, we highlighted nearly $8 billion in ongoing defence investments across Alberta — strengthening the bases and infrastructure our people rely on, https://t.co/xYAp6PgHdy",
-      "date": "2026-10-08T17:20:04.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 530,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 10
-      }
-    },
-    {
-      "id": "2108246012729114900",
-      "content": "RT @MarkJCarney: Greener homes and lower bills for Canadians. \n \nToday in Sherbrooke, we announced a new plan to help more Canadians install heat pumps and make other home retrofits — lowering costs, reducing emissions, and building a stronger and more sustainable economy for all. https://t.co/jORFMxQE8k",
-      "date": "2026-10-08T17:19:53.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 269,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 183
-      }
-    },
-    {
-      "id": "2107927912691462484",
-      "content": "Real results for Canadians. https://t.co/w6rKLlSr0p",
-      "date": "2026-10-07T20:15:52.000Z",
-      "metrics": {
-        "bookmark_count": 10,
-        "impression_count": 17666,
-        "like_count": 332,
-        "quote_count": 21,
-        "reply_count": 667,
-        "retweet_count": 78
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2110162307108000104",
+      "content": "RT @PierrePoilievre: A Tariff-Free Auto Pact will strengthen North American supply chains, protect jobs, and save families money on both sides of the border.\n\nAll while helping us build a stronger, more affordable Canada for our people: https://t.co/ZeqDjPMicI https://t.co/U36BuKp6yI",
+      "date": "2026-10-14T00:14:33.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 186,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 119
+      }
+    },
+    {
+      "id": "2110160583890768359",
+      "content": "RT @PierrePoilievre: On CNN today with Jake Tapper to fight for a Tariff-Free 🇨🇦🇺🇸 Auto Pact. https://t.co/xVqIzjLWKq",
+      "date": "2026-10-14T00:07:42.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 178,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 749
+      }
+    },
     {
       "id": "2110043748646154414",
       "content": "RT @PierrePoilievre: Saving money and jobs.\n\nPutting Canada First.\n\nI'm heading to Detroit to fight for tariff-free trade.\n\nI'll meet with American business leaders and share this message directly with the American people: A Tariff-Free Auto Pact can protect jobs, cut consumer prices, and grow",
@@ -235,35 +261,87 @@
         "reply_count": 0,
         "retweet_count": 739
       }
-    },
-    {
-      "id": "2108380199108641071",
-      "content": "RT @PierrePoilievre: 1/3 food banks are forced to turn Canadians away because they have run out of food after a year and a half of Mark Carney.\n\nHe is out of touch and Canadians are out of food.\n\nSAVE ON FOOD: Support our Conservative Emergency Fuel Relief Plan to take all Liberal taxes off fuel and https://t.co/iMgxhaEwhd",
-      "date": "2026-10-09T02:13:05.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 215,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 163
-      }
-    },
-    {
-      "id": "2108309128322183316",
-      "content": "RT @PierrePoilievre: 7 months ago, Mark Carney told Canadians that “affordability is the best it’s been in over a decade.”\n\nNow, after 18 months as Prime Minister, he’s blaming everyone but himself for the affordability crisis.\n\nHis excuse? “I just got here.”\n\nCanadians deserve a Prime Minister who",
-      "date": "2026-10-08T21:30:41.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 211,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 315
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2110169451853500801",
+      "content": "So, Conservatives think public ownership is good when it’s gifting the highly profitable oil industry another pipeline, but not when it means saving Canadian jobs and our domestic steel industry?\n\nInteresting.\n\nAnyway. Nationalize Stelco. https://t.co/cMh5D6kEX2",
+      "date": "2026-10-14T00:42:57.000Z",
+      "metrics": {
+        "bookmark_count": 13,
+        "impression_count": 9770,
+        "like_count": 410,
+        "quote_count": 10,
+        "reply_count": 75,
+        "retweet_count": 105
+      }
+    },
+    {
+      "id": "2110169277131288978",
+      "content": "RT @avilewis: I’m deeply saddened to learn of the incredible Irene Mathyssen’s passing. Irene was a force who fought relentlessly for our movement, and for a Canada that upholds the dignity of every person. In calling for a housing bill of rights, the expansion of EI for workers, and fighting https://t.co/xMbgKSjH0b",
+      "date": "2026-10-14T00:42:15.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 94,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 23
+      }
+    },
+    {
+      "id": "2110169267966713866",
+      "content": "RT @avilewis: Je suis profondément attristé d’apprendre le décès de l’incroyable Irene Mathyssen. Irene était une force incroyable qui s’est battue sans relâche pour notre mouvement et pour un Canada qui respecte la dignité de chaque personne. En réclamant une charte des droits au logement, de https://t.co/mHrUKsGp5t",
+      "date": "2026-10-14T00:42:13.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 93,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 10
+      }
+    },
+    {
+      "id": "2110154456797241551",
+      "content": "RT @LeahGazan: Last week, the Liberals and Conservatives joined forces to send Bill C-39 to committee for further study. I, along with my @NDP colleagues, voted no on Bill C-39 because of its violations of Indigenous, workers', and environmental rights. All Carney’s Liberals are doing is",
+      "date": "2026-10-13T23:43:21.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 124,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 14
+      }
+    },
+    {
+      "id": "2110116958591238191",
+      "content": "Mark Carney sature l'espace public avec un projet de loi qui s'en prend aux travailleuses et travailleurs, aux droits des Autochtones et à notre environnement. Nous unissons nos forces avec des organisateurs partout au Canada pour bloquer le projet de loi C-39.\n\nConfirmez votre https://t.co/JRfSZBfi52",
+      "date": "2026-10-13T21:14:21.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 810,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2110116735341019453",
+      "content": "Mark Carney is flooding the zone with a bill that attacks workers, Indigenous rights and our environment. We're uniting with organizers across Canada to stop Bill C-39.\n\nRSVP today to join our mass organizing call. We'll lay out what the bill is about, what's at stake, and what https://t.co/7LFVrREPqH",
+      "date": "2026-10-13T21:13:28.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 887,
+        "like_count": 31,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 11
+      }
+    },
     {
       "id": "2110070513582436519",
       "content": "RT @avilewis: Canada cannot afford to lose its steel industry. It's time to nationalize Stelco.\n\nStelco’s American owners have broken their commitments. Their CEO supports Trump’s tariffs, which are designed to deindustrialize our economy and destroy our manufacturing base.\n\nMore than 500",
@@ -314,84 +392,6 @@
         "quote_count": 1,
         "reply_count": 1,
         "retweet_count": 3
-      }
-    },
-    {
-      "id": "2109362371961688304",
-      "content": "RT @avilewis: We need projects that create the maximum number of good-paying jobs for Canadian families, not just the maximum profits for already profitable corporations. https://t.co/vOzztN8eF6",
-      "date": "2026-10-11T19:15:54.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 116,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 106
-      }
-    },
-    {
-      "id": "2109362360649646404",
-      "content": "RT @avilewis: Nous avons besoin de projets qui créent le plus grand nombre possible d’emplois décents pour les familles canadiennes, et non pas seulement le maximum de profits pour des sociétés déjà rentables. https://t.co/7Xf3uRaAzY",
-      "date": "2026-10-11T19:15:51.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 103,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 46
-      }
-    },
-    {
-      "id": "2109016643636715986",
-      "content": "Minister Diab needs to go. https://t.co/PZQux6hjZX",
-      "date": "2026-10-10T20:22:06.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 3992,
-        "like_count": 79,
-        "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 11
-      }
-    },
-    {
-      "id": "2109016106090533289",
-      "content": "RT @JennyKwanBC: Minister Diab’s total lack of leadership and basic knowledge of Canada’s refugee framework is hurting families, exacerbating processing delays, and undermining our immigration system. Prime Minister Carney must fire Minister Diab immediately—our immigration system needs a reset. https://t.co/Fs0qK5diDa",
-      "date": "2026-10-10T20:19:57.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 105,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 35
-      }
-    },
-    {
-      "id": "2109016062566228463",
-      "content": "RT @avilewis: Friends in Montreal! I can't wait to be back in the city with our NDP candidates: Pierre Céré and Nimâ Machouf.\n\nThis is a critical moment for folks in Montreal and for our movement across the province. Pierre, Nimâ, and hundreds of organizers have been out knocking on doors https://t.co/GjOS6r7toO",
-      "date": "2026-10-10T20:19:47.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 89,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 24
-      }
-    },
-    {
-      "id": "2109016038583210375",
-      "content": "RT @avilewis: Salut Montréal ! J'ai bien hâte de revenir en ville en compagnie de nos candidats du NPD : Pierre Céré et Nimâ Machouf.\n\nIl s'agit d'un moment crucial pour Montréal, ainsi que pour notre mouvement partout au Québec. Pierre, Nimâ et des centaines de militant·es parcourent les https://t.co/D38GbsfSdd",
-      "date": "2026-10-10T20:19:41.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 97,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 9
       }
     }
   ],
@@ -529,6 +529,32 @@
   ],
   "CanadianGreens": [
     {
+      "id": "2110414463472144784",
+      "content": "You have until 11:59 p.m. PT tonight to become a member and be eligible to vote in the 2026 Green Party of Canada #LeadershipRace. Sign up here: https://t.co/BFwyIcCW2g 🟢 https://t.co/Kj3Yry1tTo",
+      "date": "2026-10-14T16:56:32.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 147,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2110128448463159392",
+      "content": "Don't miss the chance to hear directly from Green Party Leadership Candidate Mike Morrice tonight LIVE at 7PM ET (4PM PT) on our Youtube Channel: Green Party of Canada https://t.co/QG2GDWSlma",
+      "date": "2026-10-13T22:00:01.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 709,
+        "like_count": 4,
+        "quote_count": 1,
+        "reply_count": 1,
+        "retweet_count": 2
+      }
+    },
+    {
       "id": "2108625063121486234",
       "content": "When it comes to the future, there's a lot to talk about.\n\nOn October 13 at 7 p.m. ET, join Mike Morrice for a national town hall in Toronto or online via Zoom and YouTube.\n\nHave something you'd like to ask?\n\nRegister here: https://t.co/73s7TklaHf 🟢 https://t.co/o3FRKZLOEr",
       "date": "2026-10-09T18:26:06.000Z",
@@ -631,35 +657,35 @@
         "reply_count": 2,
         "retweet_count": 9
       }
-    },
-    {
-      "id": "2105296606866407461",
-      "content": "Reconciliation is a responsibility we all share. Greens are committed to turning that responsibility into action through accountability, justice and meaningful change, today and every day. https://t.co/2EDdklcAWw",
-      "date": "2026-09-30T14:00:00.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 1797,
-        "like_count": 32,
-        "quote_count": 1,
-        "reply_count": 35,
-        "retweet_count": 10
-      }
-    },
-    {
-      "id": "2104991735185346605",
-      "content": "RT @ElizabethMay: What happened at Tk’emlúps te Secwépemc is beyond disturbing. A masked group arrived on the Nation’s land displaying hateful signs targeting the children who never came home from residential schools.\n\nThere must be a full investigation to hold those responsible accountable.",
-      "date": "2026-09-29T17:48:33.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 58,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 140
-      }
     }
   ],
   "OurCommons": [
+    {
+      "id": "2110363488627437822",
+      "content": "2/2 📅 View the 2026 Sitting Calendar: https://t.co/JHlY1ZJu4R",
+      "date": "2026-10-14T13:33:59.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 188,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2110363484772782458",
+      "content": "1/2 👀 I spy with my little eye… historic symbols on the calendar on the Clerk’s Table! 🔎\n\nCan you spot the 🍇grapevines, 🍁maple leaves, and 🛡️shields representing England, Ireland, Scotland and France? https://t.co/vQ7iRBFgUd",
+      "date": "2026-10-14T13:33:58.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 643,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 5
+      }
+    },
     {
       "id": "2110069065364517289",
       "content": "The #HoC is hiring. \n\n• Cabinetmaker\n\nFind out more: \nhttps://t.co/JqgmrPr8Px #Ottawa #Gatineau https://t.co/5o72vAKWx2",
@@ -763,35 +789,113 @@
         "reply_count": 2,
         "retweet_count": 9
       }
-    },
-    {
-      "id": "2107490183528476959",
-      "content": "2/2 Do you want a flexible schedule that supports your studies while you gain valuable professional experience to support your academic and career goals?\n\nApply by November 8.\n\nhttps://t.co/6UoAiVEK1X https://t.co/jRjIWOLvOh",
-      "date": "2026-10-06T15:16:29.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 193,
-        "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2107490181679071619",
-      "content": "1/2 Being a page at the House of Commons is a unique chance to:\n\n✨ Experience Parliament from inside the #HoC Chamber\n✨ Participate in ceremonial and special events on Parliament Hill\n✨ Form lasting friendships with students from across Canada",
-      "date": "2026-10-06T15:16:29.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 618,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 3
-      }
     }
   ],
   "MarkJCarney": [
+    {
+      "id": "2110394804790342001",
+      "content": "This is a Canada that works. https://t.co/B8NqQC0XOx",
+      "date": "2026-10-14T15:38:25.000Z",
+      "metrics": {
+        "bookmark_count": 22,
+        "impression_count": 26263,
+        "like_count": 757,
+        "quote_count": 20,
+        "reply_count": 466,
+        "retweet_count": 120
+      }
+    },
+    {
+      "id": "2110393817023365266",
+      "content": "C’est ça, un Canada qui fonctionne. https://t.co/QDCXSZTKdd",
+      "date": "2026-10-14T15:34:29.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 13488,
+        "like_count": 200,
+        "quote_count": 9,
+        "reply_count": 110,
+        "retweet_count": 38
+      }
+    },
+    {
+      "id": "2110366659399864531",
+      "content": "Clean, affordable, reliable power.\n \nA stronger New Brunswick — and a stronger Canada. https://t.co/jDNI7TQ7js",
+      "date": "2026-10-14T13:46:34.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 21158,
+        "like_count": 522,
+        "quote_count": 9,
+        "reply_count": 175,
+        "retweet_count": 83
+      }
+    },
+    {
+      "id": "2110366553904714030",
+      "content": "Une énergie propre, abordable et fiable.\n\nUn Nouveau-Brunswick plus fort – et un Canada plus fort. https://t.co/WNIQJQXHt3",
+      "date": "2026-10-14T13:46:09.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 15255,
+        "like_count": 220,
+        "quote_count": 0,
+        "reply_count": 58,
+        "retweet_count": 42
+      }
+    },
+    {
+      "id": "2110183667855155269",
+      "content": "On behalf of Canadians, I wish Pope Leo XIV a full and swift recovery following his successful surgery.\n \nHis Holiness is a source of hope and inspiration for billions around the world. His message of unity and compassion reminds us of the strength we can offer one another in",
+      "date": "2026-10-14T01:39:26.000Z",
+      "metrics": {
+        "bookmark_count": 119,
+        "impression_count": 115920,
+        "like_count": 10800,
+        "quote_count": 26,
+        "reply_count": 240,
+        "retweet_count": 991
+      }
+    },
+    {
+      "id": "2110183416050110734",
+      "content": "Au nom des Canadiennes et des Canadiens, je souhaite au pape Léon XIV un prompt rétablissement à la suite de l’intervention chirurgicale qu’il a subie et qui a été un succès.\n \nSa Sainteté est une source d’espoir et d’inspiration pour des milliards de personnes partout dans le",
+      "date": "2026-10-14T01:38:26.000Z",
+      "metrics": {
+        "bookmark_count": 65,
+        "impression_count": 67247,
+        "like_count": 6904,
+        "quote_count": 18,
+        "reply_count": 92,
+        "retweet_count": 689
+      }
+    },
+    {
+      "id": "2110162451761439076",
+      "content": "Today, I spoke with President @ZelenskyyUa and expressed my condolences for the victims of Russia’s latest attacks on civilians and energy infrastructure.\n \nCanada’s support for Ukraine remains unwavering.\n \nRead more on our call: https://t.co/ImoJtDXZku",
+      "date": "2026-10-14T00:15:08.000Z",
+      "metrics": {
+        "bookmark_count": 21,
+        "impression_count": 53106,
+        "like_count": 3170,
+        "quote_count": 21,
+        "reply_count": 450,
+        "retweet_count": 509
+      }
+    },
+    {
+      "id": "2110161418532306997",
+      "content": "Aujourd’hui, je me suis entretenu avec le président @ZelenskyyUa et je lui ai offert mes condoléances pour les victimes des dernières attaques de la Russie contre les civils et les infrastructures énergétiques.\n \nLe soutien du Canada à l’Ukraine demeure indéfectible.\n \nPour en",
+      "date": "2026-10-14T00:11:01.000Z",
+      "metrics": {
+        "bookmark_count": 30,
+        "impression_count": 61332,
+        "like_count": 3343,
+        "quote_count": 23,
+        "reply_count": 574,
+        "retweet_count": 526
+      }
+    },
     {
       "id": "2110073598883086779",
       "content": "On this day in 1812. https://t.co/pMVkgmE0O8",
@@ -817,113 +921,74 @@
         "reply_count": 80,
         "retweet_count": 58
       }
-    },
-    {
-      "id": "2110063309848470006",
-      "content": "This morning, I spoke with Prime Minister Modi to build on the renewed momentum of the Canada-India relationship — across trade, energy, defence and security, finance, and people-to-people ties.\n \nRead more on our call:\nhttps://t.co/hF6p1IEKnQ",
-      "date": "2026-10-13T17:41:10.000Z",
-      "metrics": {
-        "bookmark_count": 28,
-        "impression_count": 29223,
-        "like_count": 795,
-        "quote_count": 17,
-        "reply_count": 252,
-        "retweet_count": 123
-      }
-    },
-    {
-      "id": "2110062517632266739",
-      "content": "Ce matin, je me suis entretenu avec le premier ministre Modi afin de tirer parti de la dynamique renouvelée entre le Canada et l’Inde, notamment dans les domaines du commerce, de l’énergie, de la défense et de la sécurité, des finances et des liens entre nos populations.\n \nPour",
-      "date": "2026-10-13T17:38:01.000Z",
-      "metrics": {
-        "bookmark_count": 17,
-        "impression_count": 26641,
-        "like_count": 615,
-        "quote_count": 16,
-        "reply_count": 130,
-        "retweet_count": 72
-      }
-    },
-    {
-      "id": "2110028242400784506",
-      "content": "A united Canada is a stronger Canada. 🇨🇦 https://t.co/YkiV4nMjti",
-      "date": "2026-10-13T15:21:50.000Z",
-      "metrics": {
-        "bookmark_count": 111,
-        "impression_count": 65324,
-        "like_count": 3678,
-        "quote_count": 51,
-        "reply_count": 815,
-        "retweet_count": 539
-      }
-    },
-    {
-      "id": "2110028071848022450",
-      "content": "Un Canada uni est un Canada fort. 🇨🇦 https://t.co/YtvPWBrPTw",
-      "date": "2026-10-13T15:21:09.000Z",
-      "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 19883,
-        "like_count": 471,
-        "quote_count": 4,
-        "reply_count": 73,
-        "retweet_count": 72
-      }
-    },
-    {
-      "id": "2110010009777995835",
-      "content": "Electricity demand in Canada is expected to double by 2050.\n \nThrough our new National Electricity Strategy, we’re doubling the capacity of our grid to meet that demand — and deliver more clean, reliable, affordable power across the country.",
-      "date": "2026-10-13T14:09:23.000Z",
-      "metrics": {
-        "bookmark_count": 33,
-        "impression_count": 69553,
-        "like_count": 1906,
-        "quote_count": 30,
-        "reply_count": 400,
-        "retweet_count": 217
-      }
-    },
-    {
-      "id": "2110009640444457060",
-      "content": "La demande en électricité au Canada devrait doubler d’ici 2050.\n \nGrâce à notre nouvelle Stratégie nationale d’électrification, nous allons doubler la capacité de notre réseau afin de répondre à cette demande et de fournir une énergie plus propre, plus fiable et plus abordable",
-      "date": "2026-10-13T14:07:55.000Z",
-      "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 25935,
-        "like_count": 429,
-        "quote_count": 10,
-        "reply_count": 123,
-        "retweet_count": 70
-      }
-    },
-    {
-      "id": "2109779417106948394",
-      "content": "Durant plus de cinquante ans, Jean-Luc Mongrain a été une personnalité incontournable de l’univers médiatique québécois. \n \nAvec franchise, passion et un talent rare pour expliquer clairement des enjeux complexes, il a aidé des générations de Québécoises et de Québécois à donner",
-      "date": "2026-10-12T22:53:05.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 21348,
-        "like_count": 281,
-        "quote_count": 0,
-        "reply_count": 41,
-        "retweet_count": 30
-      }
-    },
-    {
-      "id": "2109779152937058446",
-      "content": "For more than five decades, Jean-Luc Mongrain was an unmistakable voice in Québec media.\n \nWith candour, passion, and a rare gift for finding clarity in complexity, he helped generations of Québecers make sense of the world around them. He informed, challenged, and left a lasting",
-      "date": "2026-10-12T22:52:02.000Z",
-      "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 26406,
-        "like_count": 485,
-        "quote_count": 0,
-        "reply_count": 39,
-        "retweet_count": 47
-      }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2110398768340210131",
+      "content": "Higher tariffs on Canadian aluminum mean higher prices for Ford F-150s, the best selling truck in both Canada and the United States.\n\nOur Conservative team met with @Ford in Dearborn to fight for tariff-free trade and a renewed Auto Pact that protects North American auto jobs and https://t.co/dwz40Qkpzl",
+      "date": "2026-10-14T15:54:10.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 10434,
+        "like_count": 298,
+        "quote_count": 2,
+        "reply_count": 73,
+        "retweet_count": 65
+      }
+    },
+    {
+      "id": "2110367506586353697",
+      "content": "Food bank demand in Toronto is up 300% since Carney became the economic advisor to the Liberal government.\n\nIt is worse still since he became Prime Minister. He says affordability is the best it has been in over a decade. He is out of touch. Canadians are out of food. https://t.co/1AxHMrCgFE",
+      "date": "2026-10-14T13:49:56.000Z",
+      "metrics": {
+        "bookmark_count": 52,
+        "impression_count": 31080,
+        "like_count": 2210,
+        "quote_count": 34,
+        "reply_count": 314,
+        "retweet_count": 454
+      }
+    },
+    {
+      "id": "2110129021052981534",
+      "content": "On CNN today with Jake Tapper to fight for a Tariff-Free 🇨🇦🇺🇸 Auto Pact. https://t.co/xVqIzjLWKq",
+      "date": "2026-10-13T22:02:17.000Z",
+      "metrics": {
+        "bookmark_count": 381,
+        "impression_count": 387945,
+        "like_count": 4279,
+        "quote_count": 68,
+        "reply_count": 436,
+        "retweet_count": 749
+      }
+    },
+    {
+      "id": "2110110648529219835",
+      "content": "Great talks with Detroit @GM management about free trade.\n\nThe 1965 Canada-U.S. Auto Pact helped make Windsor and Detroit the auto centre of the world.\n\nWith MPs Kathy Borrelli, @HarbGill, and @daveeppckl, talking about a new Pact that brings production back to both countries and https://t.co/9xNvVEknsI",
+      "date": "2026-10-13T20:49:17.000Z",
+      "metrics": {
+        "bookmark_count": 9,
+        "impression_count": 34613,
+        "like_count": 1080,
+        "quote_count": 18,
+        "reply_count": 163,
+        "retweet_count": 172
+      }
+    },
+    {
+      "id": "2110092482981826780",
+      "content": "Canadian and American workers are stronger when we build things together.\n\nIn Detroit with our Windsor Conservative team, meeting with @IBEW to fight for tariff-free trade and a renewed Auto Pact that protects jobs, boosts production, and lowers costs on both sides of the border. https://t.co/HbvVrv0bmi",
+      "date": "2026-10-13T19:37:06.000Z",
+      "metrics": {
+        "bookmark_count": 16,
+        "impression_count": 29283,
+        "like_count": 1559,
+        "quote_count": 3,
+        "reply_count": 109,
+        "retweet_count": 293
+      }
+    },
     {
       "id": "2110075566066212951",
       "content": "A Tariff-Free Auto Pact between 🇨🇦 🇺🇸 will boost production on both sides of the border, lower prices, and defend against foreign threats.\n\nJoin Conservatives to protect Canadian jobs and save you money: https://t.co/ZeqDjPMQ2g https://t.co/f02U4luIhU",
@@ -987,71 +1052,6 @@
         "quote_count": 6,
         "reply_count": 59,
         "retweet_count": 67
-      }
-    },
-    {
-      "id": "2109979123007316115",
-      "content": "Saving money and jobs.\n\nPutting Canada First.\n\nI'm heading to Detroit to fight for tariff-free trade.\n\nI'll meet with American business leaders and share this message directly with the American people: A Tariff-Free Auto Pact can protect jobs, cut consumer prices, and grow",
-      "date": "2026-10-13T12:06:39.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 24120,
-        "like_count": 1422,
-        "quote_count": 9,
-        "reply_count": 181,
-        "retweet_count": 242
-      }
-    },
-    {
-      "id": "2109979076714733800",
-      "content": "Vous faire économiser et protéger vos emplois.\n\nIl faut mettre le Canada d'abord.\n\nJe me rends à Détroit pour défendre le libre-échange sans tarifs.\n\nJe vais rencontrer des dirigeants d'entreprises américaines et vais m'adresser directement aux Américains : un Pacte automobile",
-      "date": "2026-10-13T12:06:28.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 19534,
-        "like_count": 747,
-        "quote_count": 4,
-        "reply_count": 111,
-        "retweet_count": 111
-      }
-    },
-    {
-      "id": "2109786651979350083",
-      "content": "Yesterday, we picked the pumpkins. Today, the kids put them to work!\n\nSome messy Thanksgiving family fun, with plenty to be thankful for.\n\nHappy Thanksgiving, Canada! https://t.co/vHAa1dGSin",
-      "date": "2026-10-12T23:21:50.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 20953,
-        "like_count": 994,
-        "quote_count": 3,
-        "reply_count": 49,
-        "retweet_count": 66
-      }
-    },
-    {
-      "id": "2109743977280999664",
-      "content": "Jean-Luc Mongrain a été une figure marquante pour des millions de Québécois. Son style franc et direct était apprécié. \n\nToutes mes sympathies à sa famille et à ses nombreux amis. https://t.co/00zgXlKfuH",
-      "date": "2026-10-12T20:32:15.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 21595,
-        "like_count": 269,
-        "quote_count": 2,
-        "reply_count": 102,
-        "retweet_count": 29
-      }
-    },
-    {
-      "id": "2109447630510277007",
-      "content": "Serge Veilleux nous le rappelait déjà à la Soirée canadienne en 1981 : une chose est certaine, les Québécois et les francophones de partout au pays savent faire la fête !\n\nSoyons fiers de nos traditions, de notre musique et de notre héritage culturel canadien-français. ⚜️ https://t.co/yngVZltvdH",
-      "date": "2026-10-12T00:54:41.000Z",
-      "metrics": {
-        "bookmark_count": 160,
-        "impression_count": 148138,
-        "like_count": 1760,
-        "quote_count": 13,
-        "reply_count": 259,
-        "retweet_count": 95
       }
     }
   ]
