@@ -32,14 +32,6 @@
   "appointedDate": "2009"
  },
  {
-  "name": "Pamela Wallin",
-  "group": "Canadian Senators Group",
-  "color": "#6f42c1",
-  "province": "SK",
-  "appointedBy": "Stephen Harper",
-  "appointedDate": "2009"
- },
- {
   "name": "Patrick Brazeau",
   "group": "Non-affiliated",
   "color": "#808080",
@@ -742,6 +734,14 @@
   "province": "QC (De la Durantaye)",
   "appointedBy": "Mark Carney",
   "appointedDate": "2026"
+ },
+ {
+  "name": "Vacant Seat",
+  "group": "Vacant",
+  "color": "#c0c0c0",
+  "province": "",
+  "appointedBy": "",
+  "appointedDate": ""
  },
  {
   "name": "Vacant Seat",
