@@ -1,6 +1,58 @@
 {
   "liberal_party": [
     {
+      "id": "2112925612386250965",
+      "content": "✍️ November 5\n\nBudget 2026 is our Liberal government’s plan to build a stronger, more independent, and more prosperous Canada for all. https://t.co/Vq1PRtMIJr",
+      "date": "2026-10-21T15:14:56.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1943,
+        "like_count": 34,
+        "quote_count": 6,
+        "reply_count": 102,
+        "retweet_count": 6
+      }
+    },
+    {
+      "id": "2112644831981998114",
+      "content": "Today’s Canada Child Benefit payment is putting more money in the pockets of millions of families across the country – and helping give every kid the best possible start in life. https://t.co/vv0L9OOeyq",
+      "date": "2026-10-20T20:39:13.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 5215,
+        "like_count": 133,
+        "quote_count": 7,
+        "reply_count": 233,
+        "retweet_count": 32
+      }
+    },
+    {
+      "id": "2112627702230667680",
+      "content": "RT @MarkJCarney: It’s our country. It’s our future. Let’s keep building Canada strong, together. https://t.co/sdHey9aKbr",
+      "date": "2026-10-20T19:31:09.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 269,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 387
+      }
+    },
+    {
+      "id": "2112604971573153881",
+      "content": "🇨🇦 https://t.co/fQY9k28tco",
+      "date": "2026-10-20T18:00:50.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 10275,
+        "like_count": 453,
+        "quote_count": 13,
+        "reply_count": 427,
+        "retweet_count": 87
+      }
+    },
+    {
       "id": "2112180620361429013",
       "content": "RT @MarkJCarney: CFB Wainwright is where the women and men of our Armed Forces train to defend Canada. To serve Canada.\n\nNow Canada serves them. https://t.co/ObtY9T0Y7M",
       "date": "2026-10-19T13:54:36.000Z",
@@ -77,61 +129,74 @@
         "reply_count": 7,
         "retweet_count": 1
       }
-    },
-    {
-      "id": "2110095645801648323",
-      "content": "RT @MarkJCarney: A united Canada is a stronger Canada. 🇨🇦 https://t.co/YkiV4nMjti",
-      "date": "2026-10-13T19:49:40.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 287,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 1065
-      }
-    },
-    {
-      "id": "2110095638050509165",
-      "content": "RT @MSidhuLiberal: Our new Team Canada Strong initiative will help recruit, train and hire up to 100,000 new Red Seal trades workers over five years. Paid placements, apprenticeship support and a $5,000 completion bonus will help more Canadians get started, complete their training and get to work. https://t.co/nOwOsaGB7V",
-      "date": "2026-10-13T19:49:38.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 462,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 22
-      }
-    },
-    {
-      "id": "2110076703468896522",
-      "content": "The Canadian Dental Care Plan is helping millions of Canadians get the care they need — and giving some an opportunity to see a dentist for the first time in years.\n\nWe’re building a stronger Canada — one that works for everyone.",
-      "date": "2026-10-13T18:34:24.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1930,
-        "like_count": 49,
-        "quote_count": 3,
-        "reply_count": 49,
-        "retweet_count": 9
-      }
-    },
-    {
-      "id": "2109626331067490609",
-      "content": "Happy Thanksgiving, Canada 🦃 https://t.co/orCP14Cyjx",
-      "date": "2026-10-12T12:44:46.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 10842,
-        "like_count": 512,
-        "quote_count": 17,
-        "reply_count": 294,
-        "retweet_count": 93
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2112941931390992428",
+      "content": "RT @PierrePoilievre: Mark Carney's Liberal housing crisis has become an opportunity crisis.\n\nHe promised he would make it better, but 18 months after becoming Prime Minister, things have only gotten worse.\n\nNo more excuses. Sign to help Conservatives restore the 🇨🇦 promise of homeownership: https://t.co/V5GewOHY9z",
+      "date": "2026-10-21T16:19:47.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 129,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 68
+      }
+    },
+    {
+      "id": "2112933948552786406",
+      "content": "RT @PierrePoilievre: Medical staff at CFB Wainwright Health Services Centre shared stories of bravery I will never forget.  \n\nWe will make sure they have all the help they need to serve the troops and their families. https://t.co/u50LC9jNPB",
+      "date": "2026-10-21T15:48:04.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 130,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 91
+      }
+    },
+    {
+      "id": "2112933922078114141",
+      "content": "RT @PierrePoilievre: BREAKING: Food Banks Canada reports food bank visits have hit another record high under Mark Carney.\n\nUp 9% in one year.\n\nAfter 11 years of Liberals, Canadians can't afford to put food on the table.\n\nLet’s take all taxes off food to save you money and make groceries affordable: https://t.co/8xuo6uYxIF",
+      "date": "2026-10-21T15:47:58.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 103,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 270
+      }
+    },
+    {
+      "id": "2112933893188071451",
+      "content": "RT @PierrePoilievre: Conservatives will always fight for you and put Canada First. https://t.co/mYyG85jPIy",
+      "date": "2026-10-21T15:47:51.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 106,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 43
+      }
+    },
+    {
+      "id": "2112653343726412056",
+      "content": "RT @PierrePoilievre: Thank you to CFB Wainwright Base Commander Lieutenant-Colonel Dustin MacLeod for the briefing on the horrendous fire.\n\nKeep our fallen soldiers, the wounded, their families, and all those serving at CFB Wainwright in your prayers. https://t.co/Cf92Zvwfzj",
+      "date": "2026-10-20T21:13:03.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 183,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 78
+      }
+    },
     {
       "id": "2112570090616987939",
       "content": "Diesel prices soar. Liberals offer no relief.\n\nConservatives proposed cutting all diesel taxes, but Liberals shut it down.\n\nWe'll keep fighting for relief at the pump. Canadian industries depend on it: https://t.co/JFfOjRHFtw https://t.co/9W3mFmPgdU",
@@ -196,206 +261,180 @@
         "reply_count": 0,
         "retweet_count": 38
       }
-    },
-    {
-      "id": "2112266850394402954",
-      "content": "RT @PierrePoilievre: The Base Firefighters at CFB Wainwright are unmatched in courage.\n\nThey ran toward the flames. They saved countless lives. They earned Canada’s eternal gratitude. https://t.co/XsqngtSxee",
-      "date": "2026-10-19T19:37:15.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 208,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 224
-      }
-    },
-    {
-      "id": "2112242553693389036",
-      "content": "RT @PierrePoilievre: .@dckurek and I met with Wainwright Fire Chief Aime Smyl for an update on the heroic work of local firefighters responding to the tragedy at CFB Wainwright.\n\nThese brave men and women put themselves in harm’s way to protect others. To every firefighter and first responder who https://t.co/lnwz6A7WjS",
-      "date": "2026-10-19T18:00:43.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 106,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 16
-      }
-    },
-    {
-      "id": "2112224077049950272",
-      "content": "RT @PierrePoilievre: Four Canadian soldiers tragically lost their lives while serving our country at CFB Wainwright.\n\nPte. Shaun Farrell, Pte. Aidan Goulding, Sgt. Morgan Wong and Pte. Hayden Lykkemark answered the call to serve Canada. Canada mourns their loss.\n\nMy deepest condolences to their https://t.co/mXpMQ5KPz8",
-      "date": "2026-10-19T16:47:17.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 132,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 216
-      }
-    },
-    {
-      "id": "2112223008634913145",
-      "content": "Canada mourns the four soldiers who lost their lives in the tragic fire at CFB Wainwright.\n\nOur thoughts and prayers are with their families, their fellow service members, and those injured.\n\nWe honour the courage and dedication of these brave Canadians who served our country. https://t.co/TLoORIG708",
-      "date": "2026-10-19T16:43:03.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 1649,
-        "like_count": 71,
-        "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 10
-      }
-    },
-    {
-      "id": "2112201718364873007",
-      "content": "RT @PierrePoilievre: LIVE: Address to Parliament on the tragedy at CFB Wainwright https://t.co/oqr9s4aN7X",
-      "date": "2026-10-19T15:18:27.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 144,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 89
-      }
     }
   ],
   "NDP": [
     {
-      "id": "2112347801976009072",
-      "content": "RT @avilewis: Great meeting with you today! Supply management is crucial for Canadian farmers who feed Canadians. New Democrats are committed to making sure it stays protected. https://t.co/BgDOxfLmhN",
-      "date": "2026-10-20T00:58:56.000Z",
+      "id": "2112687577375678551",
+      "content": "RT @avilewis: D’après ce que me disent des ami·es d’Alberta, cette journée est en réalité assez difficile à vivre pour beaucoup. Pas le vote en faveur de demeurer au Canada, qui a été un soulagement, mais les neuf autres questions.\n\nIl apparaît de plus en plus clairement que le sentiment",
+      "date": "2026-10-20T23:29:04.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 103,
+        "impression_count": 112,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 27
+        "retweet_count": 21
       }
     },
     {
-      "id": "2112300357464572081",
-      "content": "Samedi dernier, les Canadiens et Canadiennes ont subi une grande perte. Aujourd’hui, notre député Gord Johns s’est levé à la Chambre pour exprimer notre douleur face à la perte de quatre soldats et pour témoigner notre solidarité envers les personnes blessé·es.\n\nLes https://t.co/6gyQFVRpBI",
-      "date": "2026-10-19T21:50:24.000Z",
+      "id": "2112687552088117539",
+      "content": "RT @avilewis: I’m hearing from friends in Alberta that today is actually hitting folks pretty hard. Not the vote to remain, which was a relief, but the other 9 questions.\n\nIt’s becoming clear that the feeling of unity suggested by the referendum result is undercut by majority support for",
+      "date": "2026-10-20T23:28:58.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 1007,
-        "like_count": 5,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2112298662441390535",
-      "content": "On Saturday, Canadians suffered a great loss. MP Gord Johns stood in the House today to share our grief over the soldiers who lost their lives and solidarity with those who were injured.\n\nNew Democrats are sending strength to everyone hurt by this tragedy and we are committed to https://t.co/OGF4LtP5k7",
-      "date": "2026-10-19T21:43:40.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1299,
-        "like_count": 32,
-        "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 5
-      }
-    },
-    {
-      "id": "2112262520140705867",
-      "content": "RT @HMcPhersonNDP: Election Day!\nGet out and vote Remain and No to the Nine divisive questions from Danielle Smith.\nIf you have questions, go to the Elections Alberta website: https://t.co/QSs66M89Tx\nOr call my office. We're happy to help! https://t.co/qwT684vpTQ",
-      "date": "2026-10-19T19:20:03.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 107,
+        "impression_count": 97,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 28
+        "retweet_count": 484
       }
     },
     {
-      "id": "2111648964055564308",
-      "content": "RT @avilewis: Ce soir, nos pensées accompagnent les membres des Forces canadiennes de la BFC Wainwright, leurs familles, ainsi que toutes les autres personnes touchées par ce terrible incident.\n\nMerci aux premiers et premières intervenant·es qui sont sur place et qui travaillent sans relâche",
-      "date": "2026-10-18T02:42:00.000Z",
+      "id": "2112678999898087573",
+      "content": "Tommy Douglas savait déjà à l'époque ce que les néo-démocrates savent encore aujourd'hui,\n\nSi nous avons été capables de mobiliser les ressources de ce pays pour vaincre la tyrannie nazie, il n'y a aucune raison de ne pas faire la même chose pour s'assurer que chaque personne ait https://t.co/Oce2Nh3YKn",
+      "date": "2026-10-20T22:54:59.000Z",
       "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 110,
-        "like_count": 0,
+        "bookmark_count": 3,
+        "impression_count": 1565,
+        "like_count": 44,
         "quote_count": 0,
-        "reply_count": 0,
+        "reply_count": 8,
+        "retweet_count": 15
+      }
+    },
+    {
+      "id": "2112678785623691446",
+      "content": "Tommy Douglas knew then what New Democrats still know today.\n\nIf we could mobilize the resources of this country to defeat Nazi tyranny, there is no reason we cannot do the same to make sure that each and every person has what they need to live a dignified life.\n\nHappy Birthday, https://t.co/6s5GNAhotR",
+      "date": "2026-10-20T22:54:08.000Z",
+      "metrics": {
+        "bookmark_count": 22,
+        "impression_count": 7381,
+        "like_count": 298,
+        "quote_count": 11,
+        "reply_count": 33,
+        "retweet_count": 119
+      }
+    },
+    {
+      "id": "2112640151763783757",
+      "content": "TONIGHT!\n\n@avilewis is joining world-renowned economist Isabella Weber to talk about how Canada can build an economy that serves the many, not the money.\n\nWatch the livestream at: https://t.co/wgIMGr9MJq https://t.co/ZbrFPI1yFA",
+      "date": "2026-10-20T20:20:37.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1693,
+        "like_count": 52,
+        "quote_count": 4,
+        "reply_count": 11,
         "retweet_count": 14
       }
     },
     {
-      "id": "2111645803622322493",
-      "content": "RT @avilewis: Our thoughts tonight are with the Canadian Forces members at CFB Wainwright, their families, and everyone else affected by this terrible incident. \n\nThank you to the first responders who are on the scene working hard to save lives and provide support at this tragic time.",
-      "date": "2026-10-18T02:29:26.000Z",
+      "id": "2112635652324135066",
+      "content": "BC! Advanced polls for the provincial elections close tomorrow. Don't miss your chance to vote to protect our public services and build a stronger province for everyone. Bring your ID, bring a friend and get out to vote for your BC NDP candidate.\n\nFind out when and where you can https://t.co/OLTV8q26bE",
+      "date": "2026-10-20T20:02:45.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 102,
-        "like_count": 0,
+        "impression_count": 790,
+        "like_count": 12,
         "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 31
+        "reply_count": 6,
+        "retweet_count": 2
       }
     },
     {
-      "id": "2111524069762073079",
-      "content": "RT @LeahGazan: We are in trouble. The Liberals and Conservatives are working hand in hand to fast track Bill C-39 and fulfil their corporate buddies wish lists at record speed. This is the greatest attack I have seen on the Constitution in my lifetime.\n\nThe @NDP is fighting against this https://t.co/xDNM98i72C",
-      "date": "2026-10-17T18:25:43.000Z",
+      "id": "2112627989322277164",
+      "content": "RT @avilewis: It should be illegal for Israel’s top arms producer to purchase a Canadian company. \n\nElbit Systems is complicit in the genocide of Palestinians.\n\nCancel the Canada-Israel Free Trade Agreement, enact sanctions and a two-way arms embargo now. https://t.co/NDWNCiR0cj",
+      "date": "2026-10-20T19:32:18.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 121,
+        "impression_count": 99,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 45
+        "retweet_count": 960
       }
     },
     {
-      "id": "2111221178602062227",
-      "content": "VENUE CHANGE: With so many people looking to get tickets, this event has moved to a bigger space. If you weren't able to get tickets before, now is your chance!\n\nhttps://t.co/dJGQfyGa7O https://t.co/czn26oXaQj",
-      "date": "2026-10-16T22:22:08.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 2243,
-        "like_count": 37,
-        "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 9
-      }
-    },
-    {
-      "id": "2111176966967869834",
-      "content": "RT @LeahGazan: NDP Leader @avilewis and I joined the @BCAFN Annual General Meeting to discuss how Bill C-39 violates the right to free, prior and informed consent, and Section 35 of the Canadian Constitution.\n\nThe @NDP  stands in solidarity with First Nations leaders, who are sending a clear https://t.co/5Kgy6Aisy4",
-      "date": "2026-10-16T19:26:27.000Z",
+      "id": "2112621786416455868",
+      "content": "RT @avilewis: Ce fut un plaisir de vous rencontrer aujourd'hui! La gestion de l'offre est essentielle pour les agriculteurs·trices Canadiens et Canadiennes qui nourrissent notre pays. Les néo-démocrates s'engagent fermement à ce qu'elle demeure protégée. https://t.co/TOxeyPqN4z",
+      "date": "2026-10-20T19:07:39.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 126,
+        "impression_count": 100,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 11
+        "retweet_count": 6
       }
     },
     {
-      "id": "2111142418074792197",
-      "content": "RT @avilewis: Alberta, it’s time to vote.\n\nWhile American operators and cynical leaders are doing everything they can to sow division, nothing in their toolbox is more powerful than your vote.\n\nHead to the polls today, tomorrow or Monday. Vote to remain in Canada, and no to the nine. https://t.co/IomiVUj5jq",
-      "date": "2026-10-16T17:09:10.000Z",
+      "id": "2112621691004453259",
+      "content": "RT @DonDavies: The Liberal government is rushing Bill C-39 through Parliament without proper scrutiny. On their special committee, they’ve limited testimonies from dissenting voices to just eight hours. It’s clear that this government doesn’t care what Canadians have to say. https://t.co/vrZbTO1t4Y",
+      "date": "2026-10-20T19:07:16.000Z",
       "metrics": {
         "bookmark_count": 0,
-        "impression_count": 95,
+        "impression_count": 93,
         "like_count": 0,
         "quote_count": 0,
         "reply_count": 0,
-        "retweet_count": 18
+        "retweet_count": 53
+      }
+    },
+    {
+      "id": "2112607995549093989",
+      "content": "RT @avilewis: At a time when our country is under threat, it’s heartening to see well over a million Albertans come together to reject separation and choose Canada.\n\nThis result was something that many people worked exceptionally hard for, and I am grateful for their efforts. I want to give",
+      "date": "2026-10-20T18:12:51.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 99,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 43
       }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2112876556775288887",
+      "content": "Les avis scientifiques ne doivent pas être une option : c’est irresponsable! https://t.co/Wg7ts28w1d",
+      "date": "2026-10-21T12:00:01.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 374,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 4
+      }
+    },
+    {
+      "id": "2112637138424524915",
+      "content": "Les abus de pouvoir que C-39 donnera au gouvernement continuent de se multiplier. Sur le dos de l'environnement, le gouvernement de Mark Carney pourrait désigner le Québec en entier comme région d'intérêt national sans même consulter le Québec. https://t.co/4XljC2BNth",
+      "date": "2026-10-20T20:08:39.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 782,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 10
+      }
+    },
+    {
+      "id": "2112614427258405044",
+      "content": "Après avoir réautoriser des pesticides qui représentaient des risques environnementaux inacceptables en juin dernier, les libéraux de Mark Carney poursuivent leur dérèglementation. Le gouvernement libéral met fin à la réévaluation obligatoire des pesticides aux 15 ans.  La santé https://t.co/qcAFGB5THs",
+      "date": "2026-10-20T18:38:24.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 906,
+        "like_count": 14,
+        "quote_count": 2,
+        "reply_count": 2,
+        "retweet_count": 17
+      }
+    },
     {
       "id": "2112151274107928838",
       "content": "L’argent des Québécois devrait servir les Québécois et contribuer à bâtir un avenir qui nous ressemble, pas à financer le pétrole de l’Ouest.\n\nPour Mark Carney, bâtir l’économie au nom de l’intérêt national c’est :\n- servir les intérêts des pétrolières pour enrichir les https://t.co/UTMj7DBuQH",
@@ -486,48 +525,48 @@
         "reply_count": 19,
         "retweet_count": 36
       }
-    },
-    {
-      "id": "2108277695767327181",
-      "content": "Le premier ministre Carney va trop loin avec C-39 en écourtant les consultations. C’est le député libéral de Vancouver-Ouest qui le dit lui-même. Qui sont les autres députés libéraux qui le suivront? https://t.co/ZWV7u2QFAA",
-      "date": "2026-10-08T19:25:47.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 1141,
-        "like_count": 30,
-        "quote_count": 0,
-        "reply_count": 2,
-        "retweet_count": 16
-      }
-    },
-    {
-      "id": "2107954118631301282",
-      "content": "L’argent des Québécois n’est pas pour les amis des cercles financiers du premier ministre! https://t.co/4rL0pZkjL4",
-      "date": "2026-10-07T22:00:00.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 1335,
-        "like_count": 37,
-        "quote_count": 1,
-        "reply_count": 19,
-        "retweet_count": 26
-      }
-    },
-    {
-      "id": "2107809024875888973",
-      "content": "De manière permanente, les libéraux de Mark Carney se donnent le droit de détruire notre environnement notamment en mettant en danger des espèces menacées et en rasant leur habitat. C-39 c’est de l’irresponsabilité pure et dure!   \n\nQuand est-ce que les libéraux vont arrêter de https://t.co/P44fZMNyyC",
-      "date": "2026-10-07T12:23:27.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 1177,
-        "like_count": 26,
-        "quote_count": 0,
-        "reply_count": 12,
-        "retweet_count": 16
-      }
     }
   ],
   "CanadianGreens": [
+    {
+      "id": "2112897664794997105",
+      "content": "In Quebec, coming together and taking action are part of our history. ✊\n\nTonight, October 21, at 7 p.m. (Eastern Time), we’ll be gathering in Montreal! Join Mike Morrice for a Leadership Town Hall in French. RSVP here: https://t.co/eSSWGTrtHI https://t.co/29N4levJ4v",
+      "date": "2026-10-21T13:23:53.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 278,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
+      "id": "2112644669301760015",
+      "content": "WATCH: “It’s not too late for Canadians to rise up and ask this government, what the hell is going on here?”\n\nAt a joint press conference, Elizabeth May demanded answers over the sweeping rollback of pesticide protections in Bill C-31. https://t.co/EfcLvvgUCm",
+      "date": "2026-10-20T20:38:34.000Z",
+      "metrics": {
+        "bookmark_count": 15,
+        "impression_count": 5938,
+        "like_count": 96,
+        "quote_count": 11,
+        "reply_count": 14,
+        "retweet_count": 42
+      }
+    },
+    {
+      "id": "2112628837364429158",
+      "content": "Never in the history of Canada's Pest Control Products Act have changes to pesticide protections come from the Department of Finance. Until now. Today, Elizabeth May asked why these changes weren't coming from the Minister of Health.\n\nThe answer? \"We're cutting red tape.\" https://t.co/Z4I659w74r",
+      "date": "2026-10-20T19:35:40.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 3143,
+        "like_count": 85,
+        "quote_count": 6,
+        "reply_count": 6,
+        "retweet_count": 39
+      }
+    },
     {
       "id": "2112535150445928733",
       "content": "GREENS HAVE SWEPT VANCOUVER! 💚🌊\n\nThis weekend, Greens made history! Pete Fry was elected Vancouver's first-ever Green mayor, alongside FOUR newly elected Green city councillors: Annette Reilly, Stephanie Smith, Camil Dumont and Bridget Burns.\n\nThis is just the beginning. https://t.co/Py7bTsjFAo",
@@ -618,48 +657,35 @@
         "reply_count": 0,
         "retweet_count": 0
       }
-    },
-    {
-      "id": "2110128448463159392",
-      "content": "Don't miss the chance to hear directly from Green Party Leadership Candidate Mike Morrice tonight LIVE at 7PM ET (4PM PT) on our Youtube Channel: Green Party of Canada https://t.co/QG2GDWSlma",
-      "date": "2026-10-13T22:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 709,
-        "like_count": 4,
-        "quote_count": 1,
-        "reply_count": 1,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2108625063121486234",
-      "content": "When it comes to the future, there's a lot to talk about.\n\nOn October 13 at 7 p.m. ET, join Mike Morrice for a national town hall in Toronto or online via Zoom and YouTube.\n\nHave something you'd like to ask?\n\nRegister here: https://t.co/73s7TklaHf 🟢 https://t.co/o3FRKZLOEr",
-      "date": "2026-10-09T18:26:06.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 932,
-        "like_count": 7,
-        "quote_count": 1,
-        "reply_count": 3,
-        "retweet_count": 4
-      }
-    },
-    {
-      "id": "2108558099523199143",
-      "content": "Toronto, this one’s for you. Come with your questions, hear directly from Mike, and be part of the conversation about what comes next. Tuesday, October 13 at 7 p.m. ET\n\nRegister here: https://t.co/73s7TklIwN 🟢 https://t.co/DvkOHXFeX0",
-      "date": "2026-10-09T14:00:00.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 683,
-        "like_count": 5,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 3
-      }
     }
   ],
   "OurCommons": [
+    {
+      "id": "2112906923100315796",
+      "content": "2/2 The story began in the #HoC with the Naval Service Bill, which received Royal Assent on May 4, 1910.\n\nJust months later, HMCS Niobe arrived in Halifax as one of the first warships, turning Parliament’s decision into reality.\n#OnThisDay https://t.co/uRVUbILJHu",
+      "date": "2026-10-21T14:00:41.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 135,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2112906918788505697",
+      "content": "1/2⚓ On October 21, 1910, HMCS Niobe arrived in Halifax, marking an important milestone in the creation of the Naval Service of Canada.\n\nToday, October 21, is commemorated as Niobe Day. https://t.co/JXcW0EfLAF",
+      "date": "2026-10-21T14:00:40.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 488,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 4
+      }
+    },
     {
       "id": "2112529509131903312",
       "content": "Do you check all the boxes? This is your chance to have a part-time job with a front-row seat to history in the making, while you complete your first year of post-secondary studies.\n\nApply here by November 8: https://t.co/jLQBeSYqkM https://t.co/OfVuF2M5qt",
@@ -763,35 +789,113 @@
         "reply_count": 1,
         "retweet_count": 1
       }
-    },
-    {
-      "id": "2110014605032607878",
-      "content": "2/2 Legislative committees are different from special committees, which are not usually charged with studying a bill.\n\nLegislative committees are rarely established. The most recent examples date from 2012.\n\nFind out more:\n\nhttps://t.co/3mmY7E0WAc",
-      "date": "2026-10-13T14:27:38.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 121,
-        "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 1
-      }
-    },
-    {
-      "id": "2110014600062353719",
-      "content": "1/2 What is a legislative committee?\n\nLegislative committees are created by a motion passed in the House of Commons to study a specific bill.\n\nOnce the report is tabled the committee is dissolved.\n\n#ParliamentBasics https://t.co/jnrCU6u0MR https://t.co/PGcKw9aQ6s",
-      "date": "2026-10-13T14:27:37.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 519,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 3
-      }
     }
   ],
   "MarkJCarney": [
+    {
+      "id": "2112926481647042680",
+      "content": "RT @FP_Champagne: On November 5, we will table Budget 2026 — continuing our work to make life more affordable, build a stronger and more resilient economy, and bring Canadians together to build Canada Strong. https://t.co/VTFIFLg24m",
+      "date": "2026-10-21T15:18:24.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3337,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 21
+      }
+    },
+    {
+      "id": "2112926471601963106",
+      "content": "RT @FP_Champagne: Le 5 novembre, nous déposerons le Budget de 2026 — poursuivant ainsi nos efforts pour rendre la vie plus abordable, bâtir une économie plus forte et plus résiliente et unir les Canadiens et Canadiennes pour bâtir un Canada fort. https://t.co/IMbnpf7WOU",
+      "date": "2026-10-21T15:18:21.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3029,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 10
+      }
+    },
+    {
+      "id": "2112919489939427827",
+      "content": "Lowering your heating costs and reducing emissions.\n \nWe’re helping one million Canadian households — from apartment buildings to houses — make energy-saving retrofits. https://t.co/ZLZMgSktbd",
+      "date": "2026-10-21T14:50:37.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 21087,
+        "like_count": 400,
+        "quote_count": 16,
+        "reply_count": 366,
+        "retweet_count": 69
+      }
+    },
+    {
+      "id": "2112918204104561107",
+      "content": "Nous réduisons vos frais de chauffage et diminuons les émissions.\n \nNous aidons un million de ménages canadiens, qu’ils habitent des immeubles à logements ou des maisons, à réaliser des rénovations écoénergétiques. https://t.co/Hgrqy6i9PM",
+      "date": "2026-10-21T14:45:30.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 15263,
+        "like_count": 167,
+        "quote_count": 6,
+        "reply_count": 189,
+        "retweet_count": 35
+      }
+    },
+    {
+      "id": "2112698455403475077",
+      "content": "We are masters in our own home.\n\nOn November 5, your government will table Budget 2026 — our plan to build a stronger, more competitive, more independent Canada for all. https://t.co/AlpqOWJ090",
+      "date": "2026-10-21T00:12:18.000Z",
+      "metrics": {
+        "bookmark_count": 28,
+        "impression_count": 61595,
+        "like_count": 1286,
+        "quote_count": 65,
+        "reply_count": 986,
+        "retweet_count": 218
+      }
+    },
+    {
+      "id": "2112698349421822043",
+      "content": "Nous sommes maîtres chez nous.\n\nLe 5 novembre, votre gouvernement va déposer le Budget 2026 : notre plan pour bâtir un pays plus fort, plus compétitif et plus indépendant pour tous. https://t.co/c40Iz1sDaf",
+      "date": "2026-10-21T00:11:53.000Z",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 28514,
+        "like_count": 478,
+        "quote_count": 10,
+        "reply_count": 317,
+        "retweet_count": 86
+      }
+    },
+    {
+      "id": "2112610034236678282",
+      "content": "It’s our country. It’s our future. Let’s keep building Canada strong, together. https://t.co/sdHey9aKbr",
+      "date": "2026-10-20T18:20:57.000Z",
+      "metrics": {
+        "bookmark_count": 37,
+        "impression_count": 53396,
+        "like_count": 2507,
+        "quote_count": 60,
+        "reply_count": 844,
+        "retweet_count": 387
+      }
+    },
+    {
+      "id": "2112609867714514998",
+      "content": "C’est notre pays. C’est notre avenir. Continuons de bâtir ensemble un Canada fort. https://t.co/ZyrCJrzscd",
+      "date": "2026-10-20T18:20:17.000Z",
+      "metrics": {
+        "bookmark_count": 25,
+        "impression_count": 32768,
+        "like_count": 1593,
+        "quote_count": 15,
+        "reply_count": 240,
+        "retweet_count": 240
+      }
+    },
     {
       "id": "2112553369004876250",
       "content": "This morning, I spoke with Premier @ABDanielleSmith about the results of yesterday’s vote.\n\nOver the past 18 months, our governments have worked together to deliver on what matters most to Albertans. Now, we have an opportunity to build on that progress.\n\nAlbertans have chosen",
@@ -817,241 +921,137 @@
         "reply_count": 145,
         "retweet_count": 83
       }
-    },
-    {
-      "id": "2112426829919162855",
-      "content": "My statement on Albertans choosing to build a stronger Canada, together: https://t.co/pNXb427wXI",
-      "date": "2026-10-20T06:12:57.000Z",
-      "metrics": {
-        "bookmark_count": 485,
-        "impression_count": 353437,
-        "like_count": 17842,
-        "quote_count": 259,
-        "reply_count": 1107,
-        "retweet_count": 2564
-      }
-    },
-    {
-      "id": "2112426684196782158",
-      "content": "Ma déclaration sur le choix des Albertaines et des Albertains de bâtir un Canada plus fort, ensemble : https://t.co/kjbHi6OGye",
-      "date": "2026-10-20T06:12:23.000Z",
-      "metrics": {
-        "bookmark_count": 26,
-        "impression_count": 55717,
-        "like_count": 2564,
-        "quote_count": 21,
-        "reply_count": 174,
-        "retweet_count": 379
-      }
-    },
-    {
-      "id": "2112348164363780226",
-      "content": "Thank you, President @ZelenskyyUa. \n \nThe service members at CFB Wainwright were training to defend the values of freedom, democracy, and sovereignty. Values our nations share.\n \nOn behalf of Canadians, I am grateful for your thoughtful words and recognition of their service. https://t.co/x3fuDZXz9d",
-      "date": "2026-10-20T01:00:22.000Z",
-      "metrics": {
-        "bookmark_count": 106,
-        "impression_count": 136495,
-        "like_count": 10908,
-        "quote_count": 27,
-        "reply_count": 562,
-        "retweet_count": 1215
-      }
-    },
-    {
-      "id": "2112347936734527671",
-      "content": "Merci, Monsieur le Président @ZelenskyyUa.\n \nLes militaires de la base des Forces canadiennes de Wainwright s'entraînaient à défendre des valeurs que nos nations partagent : la liberté, la démocratie et la souveraineté.\n \nAu nom des Canadiens, je vous remercie de vos bons mots et https://t.co/x3fuDZX1jF",
-      "date": "2026-10-20T00:59:28.000Z",
-      "metrics": {
-        "bookmark_count": 31,
-        "impression_count": 68335,
-        "like_count": 4092,
-        "quote_count": 11,
-        "reply_count": 173,
-        "retweet_count": 442
-      }
-    },
-    {
-      "id": "2112300250065215717",
-      "content": "Canada is building big, and Alberta is at the heart of it. \n \nIn Red Deer, I joined @vancan19 on The Everything Red Deer Podcast to talk about what we’re building together in Alberta — and what is at stake in this referendum.\n \nThanks for having me on the show.",
-      "date": "2026-10-19T21:49:58.000Z",
-      "metrics": {
-        "bookmark_count": 20,
-        "impression_count": 67102,
-        "like_count": 1009,
-        "quote_count": 20,
-        "reply_count": 431,
-        "retweet_count": 145
-      }
-    },
-    {
-      "id": "2112295521864065430",
-      "content": "Le Canada bâtit en grand, et l’Alberta est au cœur de cette dynamique.\n \nÀ Red Deer, j’ai participé à l’émission The Everything Red Deer Podcast animée par @vancan19 pour parler de ce que nous bâtissons ensemble en Alberta – et des enjeux de ce référendum.\n \nMerci de m’avoir",
-      "date": "2026-10-19T21:31:11.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 36933,
-        "like_count": 308,
-        "quote_count": 4,
-        "reply_count": 90,
-        "retweet_count": 45
-      }
-    },
-    {
-      "id": "2112266470730399805",
-      "content": "Canada is a promise that we are stronger together. https://t.co/kDHoPMTdCU",
-      "date": "2026-10-19T19:35:45.000Z",
-      "metrics": {
-        "bookmark_count": 28,
-        "impression_count": 45953,
-        "like_count": 1780,
-        "quote_count": 24,
-        "reply_count": 543,
-        "retweet_count": 215
-      }
-    },
-    {
-      "id": "2112265991413456985",
-      "content": "Le Canada est la promesse d’un pays où l’union fait la force. https://t.co/p1yuzpD1MP",
-      "date": "2026-10-19T19:33:51.000Z",
-      "metrics": {
-        "bookmark_count": 12,
-        "impression_count": 34015,
-        "like_count": 1018,
-        "quote_count": 24,
-        "reply_count": 539,
-        "retweet_count": 140
-      }
     }
   ],
   "PierrePoilievre": [
     {
-      "id": "2112593764669960286",
-      "content": "LIVE from Calgary: A Stronger Alberta within a United Canada. https://t.co/A1XGvJMcm8",
-      "date": "2026-10-20T17:16:18.000Z",
+      "id": "2112947351317045606",
+      "content": "Across Canada's steel industry, workers are losing their jobs as Mark Carney breaks his promise to get a “good deal” with the U.S.\n\nGet a deal. Scrap the industrial carbon tax. Stop Chinese steel dumping. Save money and jobs for Canadians.\n\nRead the plan: https://t.co/xGfGWJ5hLR https://t.co/Nu10HHiYjC",
+      "date": "2026-10-21T16:41:19.000Z",
       "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 5785,
-        "like_count": 88,
+        "bookmark_count": 1,
+        "impression_count": 7764,
+        "like_count": 169,
         "quote_count": 1,
-        "reply_count": 40,
-        "retweet_count": 15
-      }
-    },
-    {
-      "id": "2112516532957769936",
-      "content": "Les Albertains ont voté massivement en faveur d’une Alberta plus forte au sein d’un Canada uni.\n\nLa promesse du Canada mérite qu’on se batte pour elle.\n\nNous devons maintenant nous concentrer sur les résultats concrets dans la vie des Canadiens : des paniers d’épicerie et des",
-      "date": "2026-10-20T12:09:24.000Z",
-      "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 31833,
-        "like_count": 488,
-        "quote_count": 9,
-        "reply_count": 265,
-        "retweet_count": 49
-      }
-    },
-    {
-      "id": "2112510711091851640",
-      "content": "Albertans have decisively voted for a stronger Alberta within a united Canada.\n\nThe promise of Canada is worth fighting for.\n\nNow our focus must be on results in people’s lives: affordable food and homes, safe streets, strong borders, and less immigration. \n\nAnd may God keep our",
-      "date": "2026-10-20T11:46:16.000Z",
-      "metrics": {
-        "bookmark_count": 29,
-        "impression_count": 76530,
-        "like_count": 1935,
-        "quote_count": 51,
-        "reply_count": 667,
-        "retweet_count": 192
-      }
-    },
-    {
-      "id": "2112351898170695763",
-      "content": "Laid flowers at the Wainwright cenotaph to honour the four Canadian soldiers who lost their lives in the tragedy at CFB Wainwright.\n\nWe mourn their loss, pray for the wounded, and stand with the families whose lives have been forever changed.\n\nLest we forget. https://t.co/OrscWRonL2",
-      "date": "2026-10-20T01:15:12.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 35471,
-        "like_count": 1746,
-        "quote_count": 5,
-        "reply_count": 139,
-        "retweet_count": 158
-      }
-    },
-    {
-      "id": "2112346942252401147",
-      "content": "In the face of unimaginable tragedy, the people of Wainwright continue to show the best of Canada. Quiet strength, courage, and an unwavering commitment to one another.\n\nI joined @dckurek at the Worthington Legion to spend time with local veterans as we mourn the fallen and pray https://t.co/u0D0DIi5Mt",
-      "date": "2026-10-20T00:55:31.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 24136,
-        "like_count": 580,
-        "quote_count": 3,
-        "reply_count": 26,
-        "retweet_count": 72
-      }
-    },
-    {
-      "id": "2112296872325087663",
-      "content": "Ce que l'Alberta représente pour le Canada. https://t.co/HDwjumx6CO",
-      "date": "2026-10-19T21:36:33.000Z",
-      "metrics": {
-        "bookmark_count": 14,
-        "impression_count": 39493,
-        "like_count": 391,
-        "quote_count": 1,
-        "reply_count": 131,
+        "reply_count": 24,
         "retweet_count": 32
       }
     },
     {
-      "id": "2112287623641481410",
-      "content": "LIVE from Wainwright: What Alberta Means to Canada https://t.co/1XaVCjDWza",
-      "date": "2026-10-19T20:59:48.000Z",
+      "id": "2112947277383741644",
+      "content": "Partout dans l'industrie canadienne de l'acier, des travailleurs perdent leur emploi alors que Mark Carney  brise sa promesse d'obtenir un « bon accord » avec les États-Unis.\n\nObtenez un accord. Annulez la taxe carbone industrielle. Mettez fin au dumping de l'acier chinois. https://t.co/aDjvpcx7Wc",
+      "date": "2026-10-21T16:41:02.000Z",
       "metrics": {
-        "bookmark_count": 11,
-        "impression_count": 26699,
-        "like_count": 315,
+        "bookmark_count": 0,
+        "impression_count": 6212,
+        "like_count": 48,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 5
+      }
+    },
+    {
+      "id": "2112940109364441303",
+      "content": "Mark Carney's Liberal housing crisis has become an opportunity crisis.\n\nHe promised he would make it better, but 18 months after becoming Prime Minister, things have only gotten worse.\n\nNo more excuses. Sign to help Conservatives restore the 🇨🇦 promise of homeownership: https://t.co/V5GewOHY9z",
+      "date": "2026-10-21T16:12:33.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 9758,
+        "like_count": 291,
         "quote_count": 3,
-        "reply_count": 64,
-        "retweet_count": 38
+        "reply_count": 54,
+        "retweet_count": 68
       }
     },
     {
-      "id": "2112263575473619005",
-      "content": "Our home. https://t.co/tWkRI7plle",
-      "date": "2026-10-19T19:24:15.000Z",
+      "id": "2112940057829031999",
+      "content": "La crise du logement causée par les libéraux de Mark Carney est devenue une crise des chances de réussir.\n\nIl avait promis d'améliorer la situation, mais après 18 mois en tant que premier ministre, les choses n'ont fait qu'empirer.\n\nAssez d'excuses. Signez pour aider les https://t.co/VEtRQNfDvW",
+      "date": "2026-10-21T16:12:20.000Z",
       "metrics": {
-        "bookmark_count": 249,
-        "impression_count": 196191,
-        "like_count": 2839,
-        "quote_count": 50,
-        "reply_count": 562,
-        "retweet_count": 263
+        "bookmark_count": 0,
+        "impression_count": 6693,
+        "like_count": 71,
+        "quote_count": 0,
+        "reply_count": 14,
+        "retweet_count": 9
       }
     },
     {
-      "id": "2112262719705592071",
-      "content": "The Base Firefighters at CFB Wainwright are unmatched in courage.\n\nThey ran toward the flames. They saved countless lives. They earned Canada’s eternal gratitude. https://t.co/XsqngtSxee",
-      "date": "2026-10-19T19:20:50.000Z",
+      "id": "2112931420100505943",
+      "content": "Conservatives will always fight for you and put Canada First. https://t.co/mYyG85jPIy",
+      "date": "2026-10-21T15:38:01.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 10967,
+        "like_count": 286,
+        "quote_count": 5,
+        "reply_count": 98,
+        "retweet_count": 43
+      }
+    },
+    {
+      "id": "2112903248856207803",
+      "content": "BREAKING: Food Banks Canada reports food bank visits have hit another record high under Mark Carney.\n\nUp 9% in one year.\n\nAfter 11 years of Liberals, Canadians can't afford to put food on the table.\n\nLet’s take all taxes off food to save you money and make groceries affordable: https://t.co/8xuo6uYxIF",
+      "date": "2026-10-21T13:46:05.000Z",
+      "metrics": {
+        "bookmark_count": 17,
+        "impression_count": 22986,
+        "like_count": 981,
+        "quote_count": 21,
+        "reply_count": 225,
+        "retweet_count": 270
+      }
+    },
+    {
+      "id": "2112903230250172441",
+      "content": "DERNIÈRE HEURE : Banques alimentaires Canada indique que les visites des banques alimentaires a atteint un nouveau record sous Mark Carney.\n\nUne hausse de 9% en un an.\n\nAprès 11 ans des libéraux, les Canadiens n’ont plus les moyens de mettre de la nourriture sur leur table.\n\nIl https://t.co/JOSMODtzp7",
+      "date": "2026-10-21T13:46:00.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 16344,
+        "like_count": 296,
+        "quote_count": 8,
+        "reply_count": 58,
+        "retweet_count": 67
+      }
+    },
+    {
+      "id": "2112683612042662166",
+      "content": "Medical staff at CFB Wainwright Health Services Centre shared stories of bravery I will never forget.  \n\nWe will make sure they have all the help they need to serve the troops and their families. https://t.co/u50LC9jNPB",
+      "date": "2026-10-20T23:13:19.000Z",
       "metrics": {
         "bookmark_count": 9,
-        "impression_count": 43667,
-        "like_count": 2181,
-        "quote_count": 12,
-        "reply_count": 76,
-        "retweet_count": 224
+        "impression_count": 30710,
+        "like_count": 988,
+        "quote_count": 4,
+        "reply_count": 99,
+        "retweet_count": 91
       }
     },
     {
-      "id": "2112241379652895029",
-      "content": ".@dckurek and I met with Wainwright Fire Chief Aime Smyl for an update on the heroic work of local firefighters responding to the tragedy at CFB Wainwright.\n\nThese brave men and women put themselves in harm’s way to protect others. To every firefighter and first responder who https://t.co/lnwz6A7WjS",
-      "date": "2026-10-19T17:56:03.000Z",
+      "id": "2112645641738612967",
+      "content": "Met with Premier @ABDanielleSmith following last night’s vote for a stronger Alberta within a united Canada.\n\nWe talked about saving you money, saving your job, keeping you safe, capping immigration and putting Canada first. https://t.co/L7gn6zZaRi",
+      "date": "2026-10-20T20:42:26.000Z",
       "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 9825,
-        "like_count": 159,
-        "quote_count": 3,
-        "reply_count": 25,
-        "retweet_count": 16
+        "bookmark_count": 21,
+        "impression_count": 43132,
+        "like_count": 1595,
+        "quote_count": 32,
+        "reply_count": 466,
+        "retweet_count": 178
+      }
+    },
+    {
+      "id": "2112645494119813491",
+      "content": "J'ai rencontré la première ministre de l'Alberta, @ABDanielleSmith, à la suite du vote d'hier soir en faveur d'une Alberta plus forte au sein d'un Canada uni.\n\nNous avons discuté des moyens de vous faire économiser de l'argent, de protéger vos emplois, d'assurer votre sécurité, https://t.co/3ox6VZmY9Z",
+      "date": "2026-10-20T20:41:51.000Z",
+      "metrics": {
+        "bookmark_count": 9,
+        "impression_count": 36616,
+        "like_count": 762,
+        "quote_count": 16,
+        "reply_count": 322,
+        "retweet_count": 64
       }
     }
   ]
