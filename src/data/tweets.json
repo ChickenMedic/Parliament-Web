@@ -1,6 +1,19 @@
 {
   "liberal_party": [
     {
+      "id": "2114388075493441953",
+      "content": "With Build Canada Homes, we’re building the housing Canada needs by leveraging federal lands, accelerating approvals, and training the next generation of builders.",
+      "date": "2026-10-25T16:06:15.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1564,
+        "like_count": 15,
+        "quote_count": 3,
+        "reply_count": 48,
+        "retweet_count": 4
+      }
+    },
+    {
       "id": "2114015076307157313",
       "content": "We’re investing to support our industries and develop our natural resources.\n\nIt’s time to be our own best customer. https://t.co/ycuoGVfxvk",
       "date": "2026-10-24T15:24:05.000Z",
@@ -116,22 +129,48 @@
         "reply_count": 102,
         "retweet_count": 6
       }
-    },
-    {
-      "id": "2112644831981998114",
-      "content": "Today’s Canada Child Benefit payment is putting more money in the pockets of millions of families across the country – and helping give every kid the best possible start in life. https://t.co/vv0L9OOeyq",
-      "date": "2026-10-20T20:39:13.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 5215,
-        "like_count": 133,
-        "quote_count": 7,
-        "reply_count": 233,
-        "retweet_count": 32
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2114379801133985875",
+      "content": "RT @PierrePoilievre: Congratulations to @LDoerkson and the @Conservative_BC on a strong majority mandate to bring common sense Conservative principles to British Columbia.\n\nI look forward to working together to save Canadians money and jobs, lock up criminals, reduce immigration, and put Canada",
+      "date": "2026-10-25T15:33:22.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 135,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 758
+      }
+    },
+    {
+      "id": "2114087600277303348",
+      "content": "RT @PierrePoilievre: In Brantford, fighting to save you money and restore safe streets with Conservative candidate Kevin Davis. https://t.co/8pNMQIEI47",
+      "date": "2026-10-24T20:12:16.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 202,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 97
+      }
+    },
+    {
+      "id": "2114048343286378644",
+      "content": "Mark Carney says affordability is the best it’s been in over a decade.\n\nYet millions of Canadians still struggle to put food on the table or keep a roof over their heads.\n\nSupport our Conservative plan to scrap all taxes on food, cut red tape, and build more homes: https://t.co/v0GClrgZyl",
+      "date": "2026-10-24T17:36:16.000Z",
+      "metrics": {
+        "bookmark_count": 9,
+        "impression_count": 9490,
+        "like_count": 657,
+        "quote_count": 11,
+        "reply_count": 64,
+        "retweet_count": 144
+      }
+    },
     {
       "id": "2113783848433557950",
       "content": "RT @PierrePoilievre: Conservatives will protect victims and lock up human traffickers.\n\nThank you to Conservative MP Anna Roberts, for bringing forward this important legislation to protect Canadians and hold these criminals accountable. https://t.co/A4B8UCmhcc",
@@ -221,45 +260,6 @@
         "quote_count": 2,
         "reply_count": 36,
         "retweet_count": 68
-      }
-    },
-    {
-      "id": "2113339234694365512",
-      "content": "RT @MichelleRempel: BioWare, the Edmonton studio that gave us Mass Effect, is being shuttered. Canadian jobs, gone.\n\nAt the same time, the Liberals are making it easier for corporations to skip Canadians and hire from abroad.\n\nWe need immigration policy that puts Canadian workers first. https://t.co/wm6AgIsdwE",
-      "date": "2026-10-22T18:38:32.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 430,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 247
-      }
-    },
-    {
-      "id": "2113337532637159462",
-      "content": "RT @PierrePoilievre: Mark Carney said Canadians would judge his Liberals by the prices at the grocery store.\n\nNow, Canadians can't afford to go to the grocery store. Food bank visits are up 9%. Food banks are running out of food.\n\nThe verdict is in: Mark Carney is costing Canadians.\n\nSign to stop https://t.co/BqBqsOYMpw",
-      "date": "2026-10-22T18:31:46.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 189,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 314
-      }
-    },
-    {
-      "id": "2113337479281672541",
-      "content": "RT @PierrePoilievre: Mark Carney’s Liberals got it wrong on immigration. \n\nEnd mass Liberal immigration and fix it with a Canada First immigration policy: https://t.co/gdOrOQRTjo https://t.co/5hFbKtTjYc",
-      "date": "2026-10-22T18:31:33.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 167,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 465
       }
     }
   ],
@@ -397,6 +397,19 @@
   ],
   "BlocQuebecois": [
     {
+      "id": "2114102312541266150",
+      "content": "Pendant que le Québec agissait pour interdire les salles de prière dans ses bureaux, Ottawa ouvrait plus de 1200 salles de prière et de « recueillement » dans ses bâtiments. \n\nÇa démontre encore une fois qu’il existe un fossé entre les valeurs canadiennes et les valeurs https://t.co/dDNFNryUnt",
+      "date": "2026-10-24T21:10:44.000Z",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 3882,
+        "like_count": 185,
+        "quote_count": 4,
+        "reply_count": 30,
+        "retweet_count": 67
+      }
+    },
+    {
       "id": "2113971268999348656",
       "content": "Moment historique de la semaine : Les 127 élus à l'Assemblée nationale du Québec ont prêté serment au peuple du Québec et non à la Couronne britannique! 📷 https://t.co/Vvq3O9ryLp",
       "date": "2026-10-24T12:30:00.000Z",
@@ -511,19 +524,6 @@
         "quote_count": 3,
         "reply_count": 50,
         "retweet_count": 26
-      }
-    },
-    {
-      "id": "2111117543423271198",
-      "content": "Nous le répétons : ce n’est pas le moment de couper, mais bien d’investir dans nos installations carcérales. \n\nPour protéger la population, soutenir les agentes et agents correctionnels, et mettre fin au trafic par drones, donnons-leur les moyens d’agir ! https://t.co/QeXiHhqSww",
-      "date": "2026-10-16T15:30:19.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 202,
-        "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0
       }
     }
   ],
@@ -793,6 +793,84 @@
   ],
   "MarkJCarney": [
     {
+      "id": "2114208452750749864",
+      "content": "Congratulations, @LDoerkson, on your election victory.\n\nI look forward to working with you as Premier to get more homes built, unleash our full potential as an energy superpower, and build a stronger British Columbia and a stronger Canada for all.\n\nThank you, Premier @Dave_Eby,",
+      "date": "2026-10-25T04:12:29.000Z",
+      "metrics": {
+        "bookmark_count": 112,
+        "impression_count": 195021,
+        "like_count": 3172,
+        "quote_count": 82,
+        "reply_count": 549,
+        "retweet_count": 268
+      }
+    },
+    {
+      "id": "2114207801283141831",
+      "content": "Félicitations, @LDoerkson, pour votre victoire électorale.\n\nJ’ai hâte de travailler avec vous, en tant que premier ministre, pour faire construire davantage de logements, libérer tout notre potentiel en tant que superpuissance énergétique et bâtir une Colombie-Britannique plus",
+      "date": "2026-10-25T04:09:54.000Z",
+      "metrics": {
+        "bookmark_count": 26,
+        "impression_count": 96335,
+        "like_count": 1289,
+        "quote_count": 21,
+        "reply_count": 240,
+        "retweet_count": 101
+      }
+    },
+    {
+      "id": "2114115908742308334",
+      "content": "This is Canada’s path. https://t.co/p7ol8bWtZv",
+      "date": "2026-10-24T22:04:45.000Z",
+      "metrics": {
+        "bookmark_count": 56,
+        "impression_count": 70417,
+        "like_count": 1553,
+        "quote_count": 63,
+        "reply_count": 1132,
+        "retweet_count": 255
+      }
+    },
+    {
+      "id": "2114115558560174555",
+      "content": "C'est la voie que le Canada a choisie. https://t.co/xKU1oDGVjv",
+      "date": "2026-10-24T22:03:22.000Z",
+      "metrics": {
+        "bookmark_count": 35,
+        "impression_count": 51813,
+        "like_count": 572,
+        "quote_count": 61,
+        "reply_count": 1199,
+        "retweet_count": 99
+      }
+    },
+    {
+      "id": "2114061736127140085",
+      "content": "Our new Strategic Partnership with Türkiye will unlock better access to a market of more than 85 million people. That means major new opportunities for our workers and businesses. https://t.co/MYp0uO4khi",
+      "date": "2026-10-24T18:29:29.000Z",
+      "metrics": {
+        "bookmark_count": 32,
+        "impression_count": 51954,
+        "like_count": 1660,
+        "quote_count": 33,
+        "reply_count": 598,
+        "retweet_count": 260
+      }
+    },
+    {
+      "id": "2114060235744968734",
+      "content": "Notre nouveau partenariat stratégique avec la Türkiye offrira un meilleur accès à un marché de plus de 85 millions de personnes. Cela représente de nouvelles possibilités importantes pour nos travailleurs et nos entreprises. https://t.co/TyG4G4b7iZ",
+      "date": "2026-10-24T18:23:32.000Z",
+      "metrics": {
+        "bookmark_count": 19,
+        "impression_count": 39018,
+        "like_count": 1201,
+        "quote_count": 16,
+        "reply_count": 338,
+        "retweet_count": 177
+      }
+    },
+    {
       "id": "2113997168592015500",
       "content": "In a fragmented world, cooperation is not an ideal. It is a necessity.\n\nMy statement on United Nations Day:\nhttps://t.co/R9ZTiNZ7UM",
       "date": "2026-10-24T14:12:55.000Z",
@@ -843,87 +921,74 @@
         "reply_count": 280,
         "retweet_count": 318
       }
-    },
-    {
-      "id": "2113699402212651126",
-      "content": "Today, mourners attending a funeral at a Greek Orthodox church in Karak, Jordan, were targeted in a despicable act of terror.  This attack violated the sanctity of a place of worship and struck families at a moment of profound sorrow. Canada condemns this violence in the",
-      "date": "2026-10-23T18:29:42.000Z",
-      "metrics": {
-        "bookmark_count": 31,
-        "impression_count": 82277,
-        "like_count": 1890,
-        "quote_count": 27,
-        "reply_count": 457,
-        "retweet_count": 245
-      }
-    },
-    {
-      "id": "2113699230619406518",
-      "content": "Aujourd’hui, des personnes venues assister à des funérailles dans une église grecque orthodoxe à Karak, en Jordanie, ont été la cible d’un acte terroriste odieux.\n \nCette attaque a bafoué le caractère sacré d’un lieu de culte et a frappé des familles à un moment où elles vivaient",
-      "date": "2026-10-23T18:29:01.000Z",
-      "metrics": {
-        "bookmark_count": 19,
-        "impression_count": 53490,
-        "like_count": 944,
-        "quote_count": 7,
-        "reply_count": 145,
-        "retweet_count": 116
-      }
-    },
-    {
-      "id": "2113654522165768326",
-      "content": "The world has changed. Our strengths have not. \n\nWe have the resources, the ambition, and the best workforce in the world. https://t.co/oG0ODdZU7p",
-      "date": "2026-10-23T15:31:22.000Z",
-      "metrics": {
-        "bookmark_count": 10,
-        "impression_count": 22473,
-        "like_count": 724,
-        "quote_count": 19,
-        "reply_count": 430,
-        "retweet_count": 91
-      }
-    },
-    {
-      "id": "2113651325204419068",
-      "content": "Le monde a changé. Nos atouts sont restés les mêmes.\n \nNous avons les ressources et l'ambition nécessaires et la meilleure main-d'œuvre au monde. https://t.co/mTkmrOHFNa",
-      "date": "2026-10-23T15:18:40.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 13400,
-        "like_count": 103,
-        "quote_count": 6,
-        "reply_count": 78,
-        "retweet_count": 18
-      }
-    },
-    {
-      "id": "2113629618100129893",
-      "content": "Canada and Türkiye are planting the seeds of something new. https://t.co/EifFRIRKnj",
-      "date": "2026-10-23T13:52:24.000Z",
-      "metrics": {
-        "bookmark_count": 34,
-        "impression_count": 41629,
-        "like_count": 1553,
-        "quote_count": 51,
-        "reply_count": 478,
-        "retweet_count": 154
-      }
-    },
-    {
-      "id": "2113629511908802833",
-      "content": "Le Canada et la Türkiye sèment les graines d’une nouvelle dynamique. https://t.co/oTlu52fWoj",
-      "date": "2026-10-23T13:51:59.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 14609,
-        "like_count": 184,
-        "quote_count": 3,
-        "reply_count": 54,
-        "retweet_count": 28
-      }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2114213819027214342",
+      "content": "Félicitations à @LDoerkson et au @Conservative_BC pour ce fort mandat majoritaire pour ramener les principes conservateurs de gros bon sens en Colombie-Britannique.\n\nJ'ai hâte qu'on travaille ensemble pour faire économiser de l'argent aux Canadiens et protéger leurs emplois,",
+      "date": "2026-10-25T04:33:49.000Z",
+      "metrics": {
+        "bookmark_count": 33,
+        "impression_count": 57483,
+        "like_count": 4191,
+        "quote_count": 11,
+        "reply_count": 131,
+        "retweet_count": 394
+      }
+    },
+    {
+      "id": "2114208779839459741",
+      "content": "Congratulations to @LDoerkson and the @Conservative_BC on a strong majority mandate to bring common sense Conservative principles to British Columbia.\n\nI look forward to working together to save Canadians money and jobs, lock up criminals, reduce immigration, and put Canada",
+      "date": "2026-10-25T04:13:47.000Z",
+      "metrics": {
+        "bookmark_count": 121,
+        "impression_count": 119859,
+        "like_count": 7785,
+        "quote_count": 41,
+        "reply_count": 264,
+        "retweet_count": 758
+      }
+    },
+    {
+      "id": "2114077101821235597",
+      "content": "In Brantford, fighting to save you money and restore safe streets with Conservative candidate Kevin Davis. https://t.co/8pNMQIEI47",
+      "date": "2026-10-24T19:30:33.000Z",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 34106,
+        "like_count": 718,
+        "quote_count": 3,
+        "reply_count": 131,
+        "retweet_count": 97
+      }
+    },
+    {
+      "id": "2114029127959269550",
+      "content": "Thanks to @MikeLakeMP for highlighting the need to make the disability savings accounts simpler and better known for families who need them.\n\nToo much paperwork and confusion now. It took us multiple trips to the branch and a massive pile of forms to set ours up.\n\nMost never get",
+      "date": "2026-10-24T16:19:55.000Z",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 28806,
+        "like_count": 398,
+        "quote_count": 4,
+        "reply_count": 45,
+        "retweet_count": 71
+      }
+    },
+    {
+      "id": "2114029055607464162",
+      "content": "Merci au député @MikeLakeMP de souligner la nécessité de rendre les comptes d’épargne-invalidité plus simples et mieux connus des familles qui en ont besoin.\n\nIl y a trop de paperasse et de confusion actuellement. Il nous a fallu plusieurs visites à la succursale et une montagne",
+      "date": "2026-10-24T16:19:38.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 22804,
+        "like_count": 235,
+        "quote_count": 1,
+        "reply_count": 12,
+        "retweet_count": 41
+      }
+    },
     {
       "id": "2113972116643066329",
       "content": "I condemn the horrific terrorist attack on the Greek Orthodox Church of Saint George in Karak, Jordan.\n\nOpening fire on families mourning a loved one is an act of profound evil.\n\nWe stand with Jordan’s Christian community and pray for the victims and their relatives.\n\nNo one https://t.co/XjQjetE0WU",
@@ -987,71 +1052,6 @@
         "quote_count": 1,
         "reply_count": 87,
         "retweet_count": 58
-      }
-    },
-    {
-      "id": "2113651521833300445",
-      "content": "Liberal housing agency is blaming Liberal immigration for housing shortage.\n\nThe Liberals added five new people for every new home and then wondered why we had a housing shortage.\n\nNow Carney wants to increase immigration even more, while homebuilding falls 4%. So out of touch. https://t.co/PtxUUTUcIs",
-      "date": "2026-10-23T15:19:27.000Z",
-      "metrics": {
-        "bookmark_count": 30,
-        "impression_count": 18997,
-        "like_count": 1161,
-        "quote_count": 10,
-        "reply_count": 101,
-        "retweet_count": 204
-      }
-    },
-    {
-      "id": "2113651476828475844",
-      "content": "L'agence libérale du logement accuse la politique d'immigration libérale d'être à l'origine de la pénurie de logements.\n\nLes libéraux ont accueilli cinq nouvelles personnes pour chaque nouveau logement construit pour ensuite se demander pourquoi nous étions en crise du logement. https://t.co/xFpYNitUxv",
-      "date": "2026-10-23T15:19:16.000Z",
-      "metrics": {
-        "bookmark_count": 10,
-        "impression_count": 12526,
-        "like_count": 402,
-        "quote_count": 4,
-        "reply_count": 29,
-        "retweet_count": 77
-      }
-    },
-    {
-      "id": "2113447154400342096",
-      "content": "RT @shuvmajumdar: “We are in the greatest crisis since the Second World War.”\n“President Trump is a transformational president.”\n“Integration is subordination.”\n“We want more integration…to Make America Great Again.”\n“Decry a world of fortresses.”\n“Let’s build Fortress North America.”\n“Our https://t.co/escoPSUAPk",
-      "date": "2026-10-23T01:47:22.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 4742,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 82
-      }
-    },
-    {
-      "id": "2113441617189232660",
-      "content": "RT @KatlynHarrison: \"I'm going to get a new deal.\"\n\"We already have the best deal.\"\n\"No deal is better than a bad deal.\"\nNow: \"A bad deal is better than no deal at all.\" #cdnpoli https://t.co/g9LfR0cEXB",
-      "date": "2026-10-23T01:25:22.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 4497,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 661
-      }
-    },
-    {
-      "id": "2113419644166103141",
-      "content": "RT @PierrePaulHus: Mark Carney dit : « achetez canadien ». Son gouvernement fait le contraire!\n\nL’affaire des Commissionnaires, c’est l’hypocrisie libérale au grand jour. #polcan https://t.co/PHYfVsKk6o",
-      "date": "2026-10-22T23:58:03.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 4552,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 49
       }
     }
   ]
