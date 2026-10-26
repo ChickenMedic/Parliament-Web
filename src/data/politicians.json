@@ -942,7 +942,7 @@
       "current_riding": {
         "province": "BC",
         "name": {
-          "en": "Cariboo—Prince George"
+          "en": "Cariboo—Prince George—Omineca"
         }
       },
       "image": "/media/polpics/todd-doherty_SIVOXVc.jpg",
@@ -1968,7 +1968,7 @@
       "current_riding": {
         "province": "NB",
         "name": {
-          "en": "Saint John—St. Croix"
+          "en": "New Brunswick Southwest"
         }
       },
       "image": "/media/polpics/john-williamson.jpg",
@@ -2044,7 +2044,7 @@
       "current_riding": {
         "province": "NL",
         "name": {
-          "en": "Cape Spear"
+          "en": "Cape Spear—Mount Pearl—Paradise"
         }
       },
       "image": "/media/polpics/tom-osborne.jpg",
@@ -2063,7 +2063,7 @@
       "current_riding": {
         "province": "NL",
         "name": {
-          "en": "Terra Nova—The Peninsulas"
+          "en": "The Eastern Peninsulas"
         }
       },
       "image": "/media/polpics/jonathan-rowe.jpg",
@@ -2082,7 +2082,7 @@
       "current_riding": {
         "province": "NL",
         "name": {
-          "en": "Central Newfoundland"
+          "en": "Coast of Bays—Central—Notre Dame"
         }
       },
       "image": "/media/polpics/clifford-small_qGLrt0B.jpg",
@@ -2196,7 +2196,7 @@
       "current_riding": {
         "province": "NS",
         "name": {
-          "en": "Halifax West"
+          "en": "Halifax West—Peggy’s Cove"
         }
       },
       "image": "/media/polpics/lena-metlege-diab_A6jeIMF.jpg",
@@ -2500,7 +2500,7 @@
       "current_riding": {
         "province": "ON",
         "name": {
-          "en": "York Centre"
+          "en": "North York"
         }
       },
       "image": "/media/polpics/roman-baber.jpg",
@@ -2899,7 +2899,7 @@
       "current_riding": {
         "province": "ON",
         "name": {
-          "en": "New Tecumseth—Gwillimbury"
+          "en": "York—South Simcoe"
         }
       },
       "image": "/media/polpics/scot-davidson_bfdpnEM.jpg",
@@ -4837,7 +4837,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Rimouski—La Matapédia"
+          "en": "Rimouski-Neigette—Mitis—Matapédia—Les Basques"
         }
       },
       "image": "/media/polpics/maxime-blanchette-joncas_Z1cfHHs.jpg",
@@ -5008,7 +5008,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Beauharnois—Salaberry—Soulanges—Huntingdon"
+          "en": "Vallée-du-Haut-Saint-Laurent"
         }
       },
       "image": "/media/polpics/claude-debellefeuille.jpg",
@@ -5293,7 +5293,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Portneuf—Jacques-Cartier"
+          "en": "Saint-Augustin—Portneuf—Jacques-Cartier"
         }
       },
       "image": "/media/polpics/joel-godin.jpg",
@@ -5578,7 +5578,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Argenteuil—La Petite-Nation"
+          "en": "Argenteuil—Papineau—Des Collines"
         }
       },
       "image": "/media/polpics/stephane-lauzon_JxFLydo.jpg",
@@ -5616,7 +5616,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Richmond—Arthabaska"
+          "en": "Richmond—Arthabaska—des-Sources"
         }
       },
       "image": "/media/polpics/eric-lefebvre.jpg",
@@ -5920,7 +5920,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Longueuil—Charles-LeMoyne"
+          "en": "Longueuil—Charles-LeMoyne—Greenfield Park"
         }
       },
       "image": "/media/polpics/sherry-romanado_fNX6LGd.jpg",
@@ -5996,7 +5996,7 @@
       "current_riding": {
         "province": "QC",
         "name": {
-          "en": "Jonquière"
+          "en": "Jonquière—Hébertville—Pays-des-Bleuets"
         }
       },
       "image": "/media/polpics/mario-simard_IQUFZYU.jpg",
@@ -6338,7 +6338,7 @@
       "current_riding": {
         "province": "SK",
         "name": {
-          "en": "Saskatoon—University"
+          "en": "Saskatoon East"
         }
       },
       "image": "/media/polpics/corey-tochor_zkLRs6D.jpg",
