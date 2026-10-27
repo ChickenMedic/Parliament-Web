@@ -544,7 +544,10 @@
   "url": "https://www.ourcommons.ca/committees/en/TRAN",
   "workUrl": "https://www.ourcommons.ca/committees/en/TRAN/Work",
   "chairName": "Peter Schiefke",
-  "viceChairs": [],
+  "viceChairs": [
+   "Dan Albas",
+   "Sébastien Lemire"
+  ],
   "members": [
    "Fred Davies",
    "Jessica Fancy",
@@ -552,27 +555,27 @@
    "Angelo Iacono",
    "Mike Kelloway",
    "Stéphane Lauzon",
-   "Sébastien Lemire",
    "Dan Muys",
    "Chi Nguyen",
    "Dominique O'Rourke"
   ],
   "parties": {
    "Peter Schiefke": "Liberal",
+   "Dan Albas": "Conservative",
+   "Sébastien Lemire": "Bloc Québécois",
    "Fred Davies": "Conservative",
    "Jessica Fancy": "Liberal",
    "Kurt Holman": "Conservative",
    "Angelo Iacono": "Liberal",
    "Mike Kelloway": "Liberal",
    "Stéphane Lauzon": "Liberal",
-   "Sébastien Lemire": "Bloc Québécois",
    "Dan Muys": "Conservative",
    "Chi Nguyen": "Liberal",
    "Dominique O'Rourke": "Liberal"
   },
   "partySeats": {
    "Liberal": 7,
-   "Conservative": 3,
+   "Conservative": 4,
    "Bloc": 1
   }
  },

@@ -1,6 +1,19 @@
 {
   "liberal_party": [
     {
+      "id": "2115111165739094085",
+      "content": "This is what building Canada strong looks like. https://t.co/oSboSvRtRV",
+      "date": "2026-10-27T15:59:33.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 5724,
+        "like_count": 80,
+        "quote_count": 13,
+        "reply_count": 340,
+        "retweet_count": 18
+      }
+    },
+    {
       "id": "2114748286326227063",
       "content": "“More jobs, more opportunity, more prosperity, more sovereignty, so we can live our lives as we choose.” https://t.co/gPtTi7ewd1",
       "date": "2026-10-26T15:57:36.000Z",
@@ -116,22 +129,74 @@
         "reply_count": 24,
         "retweet_count": 28
       }
-    },
-    {
-      "id": "2113019609221845303",
-      "content": "Protecting good jobs, attracting investment, and ensuring our industries remain competitive. https://t.co/74oo40psnh",
-      "date": "2026-10-21T21:28:27.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 5893,
-        "like_count": 127,
-        "quote_count": 10,
-        "reply_count": 379,
-        "retweet_count": 27
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2115141620433633519",
+      "content": "Over 20,000 Canadians’ cars have been stolen this year alone.\n\nJoin Conservatives in backing a justice system that keeps repeat car thieves behind bars: https://t.co/aocGxpw5fh https://t.co/AzWiccuKCj",
+      "date": "2026-10-27T18:00:34.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1028,
+        "like_count": 31,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 5
+      }
+    },
+    {
+      "id": "2115100720194023505",
+      "content": "Canadians are paying the price for Liberal debt. Federal debt interest costs a family of four $6,000 a year in taxes.\n\nConservatives identified over $150 billion in spending cuts to reduce debt, lower taxes and invest in services Canadians need: https://t.co/8IZP8WMwJ6 https://t.co/Ls06uDx3zj",
+      "date": "2026-10-27T15:18:03.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 2790,
+        "like_count": 150,
+        "quote_count": 3,
+        "reply_count": 28,
+        "retweet_count": 57
+      }
+    },
+    {
+      "id": "2115099746042024081",
+      "content": "RT @SandraCobena_: Not healthcare. Not infrastructure. Not defence. 🚨INTEREST🚨\n\nThe fastest-growing expense under this Liberal government is the cost of its own debt, leaving our generation and our future generations to pay the price. \n\n#cdnpoli https://t.co/UldtpT5fX2",
+      "date": "2026-10-27T15:14:10.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 320,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 267
+      }
+    },
+    {
+      "id": "2115066511551607163",
+      "content": "RT @PierrePoilievre: Do you have an extra $8,000 a year to hand over to bankers and bondholders? https://t.co/QQSCOB6cnp",
+      "date": "2026-10-27T13:02:07.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 166,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 179
+      }
+    },
+    {
+      "id": "2114796822543626487",
+      "content": "RT @PierrePoilievre: Repeal the Liberal tanker ban. Let’s get shipping oil by rail to Prince Rupert in the next two years. It will boost our paycheques, our dollar, and our economic independence. https://t.co/YgMhBPoqes",
+      "date": "2026-10-26T19:10:28.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 207,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 384
+      }
+    },
     {
       "id": "2114753858882732497",
       "content": "RT @PierrePoilievre: Sex offenders, men who beat up women, and other serious violent criminals getting reduced sentences because of race.\n\nThis is wrong. There is no excuse. PERIOD.\n\nEveryone should follow the same laws &amp; do the same time for the same crime, regardless of race. https://t.co/TZbIZGa0I3",
@@ -196,74 +261,22 @@
         "reply_count": 0,
         "retweet_count": 758
       }
-    },
-    {
-      "id": "2114087600277303348",
-      "content": "RT @PierrePoilievre: In Brantford, fighting to save you money and restore safe streets with Conservative candidate Kevin Davis. https://t.co/8pNMQIEI47",
-      "date": "2026-10-24T20:12:16.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 202,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 97
-      }
-    },
-    {
-      "id": "2114048343286378644",
-      "content": "Mark Carney says affordability is the best it’s been in over a decade.\n\nYet millions of Canadians still struggle to put food on the table or keep a roof over their heads.\n\nSupport our Conservative plan to scrap all taxes on food, cut red tape, and build more homes: https://t.co/v0GClrgZyl",
-      "date": "2026-10-24T17:36:16.000Z",
-      "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 9490,
-        "like_count": 657,
-        "quote_count": 11,
-        "reply_count": 64,
-        "retweet_count": 144
-      }
-    },
-    {
-      "id": "2113783848433557950",
-      "content": "RT @PierrePoilievre: Conservatives will protect victims and lock up human traffickers.\n\nThank you to Conservative MP Anna Roberts, for bringing forward this important legislation to protect Canadians and hold these criminals accountable. https://t.co/A4B8UCmhcc",
-      "date": "2026-10-24T00:05:16.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 183,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 164
-      }
-    },
-    {
-      "id": "2113698536801878467",
-      "content": "Conservatives will always fight to put Canada first: https://t.co/56wgPzYACo https://t.co/texduqJC2Z",
-      "date": "2026-10-23T18:26:16.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 5885,
-        "like_count": 304,
-        "quote_count": 4,
-        "reply_count": 118,
-        "retweet_count": 55
-      }
-    },
-    {
-      "id": "2113678764500729881",
-      "content": "RT @PierrePoilievre: 1/3 of Canadians are dipping into savings or borrowing money just to put food on the table.\n\nFood banks are running out of food as visits hit another record high.\n\nThis is an affordability crisis.\n\nWe must cap government spending, cut foreign aid, and take all taxes off groceries https://t.co/QX23bcSuVf",
-      "date": "2026-10-23T17:07:42.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 95,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 58
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2114806783638380791",
+      "content": "RT @HMcPhersonNDP: Congratulations to President Lula and the people of Brazil! \n\nBrazilians have chosen democracy, social justice and a future that rejects the far right.\n\nThis is a powerful reminder that progressives can win when we fight for working people and stand up for our values.",
+      "date": "2026-10-26T19:50:03.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 117,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 14
+      }
+    },
     {
       "id": "2113997823993885163",
       "content": "BC, today is the day. In this pivotal election, every single vote counts. Vote for your BCNDP candidate from 8am to 8pm today. Find out where you can vote at https://t.co/Qz8zyiizG8 https://t.co/vXSl0qQz6n",
@@ -380,22 +393,35 @@
         "reply_count": 0,
         "retweet_count": 859
       }
-    },
-    {
-      "id": "2113080254915019227",
-      "content": "RT @LeahGazan: The Prime Minister called Bill C-39 the most consequential legislation in decades. This is True.\n\nIt tramples on environmental protections and Indigenous and workers’ rights, while handing ministers king powers to override constitutional safeguards in the name of the “national https://t.co/ghdPlnU8PT",
-      "date": "2026-10-22T01:29:26.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 109,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 56
-      }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2115106395330691243",
+      "content": "Notre projet de loi C-261 sera voté cet automne. Le gouvernement de Mark Carney aura le choix : mettre fin aux deux classes d’aînés ou assumer de les maintenir.  \n\nAppuyez notre projet de loi.   https://t.co/2lyejY3ocs https://t.co/1ffhhm2nzY",
+      "date": "2026-10-27T15:40:36.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 585,
+        "like_count": 15,
+        "quote_count": 2,
+        "reply_count": 1,
+        "retweet_count": 4
+      }
+    },
+    {
+      "id": "2115058589983277441",
+      "content": "Persécutions, emprisonnements de journalistes et massacres de minorités, ce ne sont pas des valeurs communes M. Carney. https://t.co/xsk9zOZvCR",
+      "date": "2026-10-27T12:30:38.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 760,
+        "like_count": 18,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 12
+      }
+    },
     {
       "id": "2114786641436885350",
       "content": "Les gens de Laurier—Sainte-Marie, ceux de Rosemont—La Petite-Patrie et tout le milieu culturel sont à l’écoute. Le gouvernement va-t-il corriger son erreur ou continuer de mettre à mal la culture québécoise et canadienne? https://t.co/7rjIGvKVzB",
@@ -499,35 +525,22 @@
         "reply_count": 1,
         "retweet_count": 10
       }
-    },
-    {
-      "id": "2113314448727257585",
-      "content": "Mark Carney et son ministre Marc Miller ont tout simplement abandonné le milieu culturel depuis leur élection en avril 2025. Le milieu est à bout de souffle et à bout de ressources. Les redevances aux diffuseurs en ligne doivent être rétablies. https://t.co/CDAAj87tbm",
-      "date": "2026-10-22T17:00:02.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 131,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 1
-      }
-    },
-    {
-      "id": "2113254044982706499",
-      "content": "C’est clair : les 600 millions de dollars promis au milieu culturel par les libéraux, c’était seulement des paroles en l’air. Il est grand temps de redonner au milieu culturel ce qui leur a été promis et de remettre les redevances aux diffuseurs en ligne qu’on attend depuis le https://t.co/rDHBfyGOYw",
-      "date": "2026-10-22T13:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 304,
-        "like_count": 8,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 5
-      }
     }
   ],
   "CanadianGreens": [
+    {
+      "id": "2114807770176524405",
+      "content": "Congratulations to the @BCGreens on an incredible campaign, and to Emily Lowan and Jeremy Valeriote on their victories! https://t.co/kCwsCzKP3k",
+      "date": "2026-10-26T19:53:58.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 4458,
+        "like_count": 80,
+        "quote_count": 4,
+        "reply_count": 85,
+        "retweet_count": 13
+      }
+    },
     {
       "id": "2113733376892895502",
       "content": "Tomorrow, BC heads to the polls, but the Green Wave is already sweeping the province! 🌊💚\n\nMore than 30 Greens have already been elected to municipal office across BC.\n\nThe momentum is building, and tomorrow, YOU can make the Green Wave even bigger.\n\nGet out and #VoteGreen! https://t.co/P2eWdwYv7Q",
@@ -643,19 +656,6 @@
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 14
-      }
-    },
-    {
-      "id": "2111482636455792667",
-      "content": "From addressing wealth inequality to defending democracy and human rights, Green Party leadership candidate Mike Morrice believes Greens can put forward solutions rooted in our shared values and deliver real results for communities. https://t.co/qCRuaVTFUC",
-      "date": "2026-10-17T15:41:04.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 94,
-        "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2
       }
     }
   ],
@@ -793,137 +793,228 @@
   ],
   "MarkJCarney": [
     {
-      "id": "2114742436014538906",
-      "content": "For the first time in two decades, Canada’s First Ministers and First Nations leadership are meeting. Our focus is clear: what we can build and deliver together.\n \nMajor infrastructure. More homes. Better health care. Safer communities. Better preparation for emergencies. https://t.co/WmUWD1V3IZ",
-      "date": "2026-10-26T15:34:21.000Z",
+      "id": "2115125423453470730",
+      "content": "Trust and success are built by what we accomplish together.\n\nCanada is building a stronger, more just, more prosperous future in partnership with First Nations. https://t.co/2OD2jDXGvZ",
+      "date": "2026-10-27T16:56:12.000Z",
       "metrics": {
-        "bookmark_count": 26,
-        "impression_count": 35017,
-        "like_count": 763,
-        "quote_count": 26,
-        "reply_count": 333,
-        "retweet_count": 138
+        "bookmark_count": 6,
+        "impression_count": 15246,
+        "like_count": 326,
+        "quote_count": 4,
+        "reply_count": 173,
+        "retweet_count": 59
       }
     },
     {
-      "id": "2114741670562373702",
-      "content": "Pour la première fois en deux décennies, les premiers ministres du Canada et les dirigeants des Premières Nations se réunissent. Notre objectif est clair : déterminer ce que nous pouvons bâtir et réaliser ensemble.\n \nDe grandes infrastructures. Plus de logements. De meilleurs https://t.co/5SMgHW24zF",
-      "date": "2026-10-26T15:31:18.000Z",
+      "id": "2115125300040454291",
+      "content": "La confiance et la réussite viennent de nos réalisations communes.\n\nLe Canada bâtit un avenir plus fort, plus juste et plus prospère en partenariat avec les Premières Nations. https://t.co/LLarmbwS2w",
+      "date": "2026-10-27T16:55:43.000Z",
       "metrics": {
-        "bookmark_count": 29,
-        "impression_count": 45287,
-        "like_count": 1723,
-        "quote_count": 9,
-        "reply_count": 141,
-        "retweet_count": 266
+        "bookmark_count": 1,
+        "impression_count": 13419,
+        "like_count": 155,
+        "quote_count": 0,
+        "reply_count": 64,
+        "retweet_count": 32
       }
     },
     {
-      "id": "2114701372759363613",
-      "content": "LIVE: Meeting with First Ministers and First Nations leaders • EN DIRECT : Rencontre avec les PM et les dirigeants des Premières Nations https://t.co/yfzYn7wnZs",
-      "date": "2026-10-26T12:51:11.000Z",
+      "id": "2115089787296292892",
+      "content": "Canada has the critical minerals the world needs.\n\nWe’re matching Ontario’s $1 billion investment to build road infrastructure to reach the Ring of Fire. To unlock our critical minerals supply chain. To create up to 70,000 jobs. https://t.co/15Bk6rNL4k",
+      "date": "2026-10-27T14:34:36.000Z",
       "metrics": {
-        "bookmark_count": 39,
-        "impression_count": 36869,
-        "like_count": 573,
-        "quote_count": 12,
-        "reply_count": 151,
-        "retweet_count": 132
+        "bookmark_count": 34,
+        "impression_count": 53645,
+        "like_count": 1580,
+        "quote_count": 22,
+        "reply_count": 253,
+        "retweet_count": 239
       }
     },
     {
-      "id": "2114544917208825931",
-      "content": "Congratulations, President @LulaOficial, on your re-election in Brazil.\n \nThe relationship between Canada and Brazil has flourished under our partnership. Let’s seize this opportunity to make it even stronger, together — to create major new trade opportunities, protect the",
-      "date": "2026-10-26T02:29:29.000Z",
+      "id": "2115089688478240790",
+      "content": "Le Canada a les minéraux critiques dont le monde a besoin.\n\nNous égalons l’investissement d’un milliard de dollars de l’Ontario pour la construction de routes vers le Cercle de feu. Afin d’établir notre chaîne d’approvisionnement en minéraux critiques. Et de créer jusqu’à 70 000 https://t.co/JxyrvE9Ncv",
+      "date": "2026-10-27T14:34:12.000Z",
       "metrics": {
-        "bookmark_count": 708,
-        "impression_count": 651771,
-        "like_count": 48658,
-        "quote_count": 311,
-        "reply_count": 1827,
-        "retweet_count": 6950
+        "bookmark_count": 3,
+        "impression_count": 22129,
+        "like_count": 432,
+        "quote_count": 4,
+        "reply_count": 84,
+        "retweet_count": 84
       }
     },
     {
-      "id": "2114544802515616195",
-      "content": "Félicitations, Président @LulaOficial, pour votre réélection au Brésil.\n \nLes relations entre le Canada et le Brésil ont progressé grâce à notre partenariat. Saisissons cette occasion pour les renforcer davantage, ensemble – afin de créer de nouvelles perspectives commerciales",
-      "date": "2026-10-26T02:29:01.000Z",
+      "id": "2114901679053173060",
+      "content": "Congratulations, @_MarkSutcliffe, on your re-election as Mayor of Ottawa.\n\nWe’ve accomplished a lot together and now we have the opportunity to build on it. \n\nThat means getting more affordable homes built across the city. Making our communities safer for families. Giving the",
+      "date": "2026-10-27T02:07:07.000Z",
       "metrics": {
-        "bookmark_count": 340,
-        "impression_count": 291335,
-        "like_count": 26055,
-        "quote_count": 103,
-        "reply_count": 727,
-        "retweet_count": 4226
+        "bookmark_count": 9,
+        "impression_count": 47083,
+        "like_count": 642,
+        "quote_count": 2,
+        "reply_count": 99,
+        "retweet_count": 65
       }
     },
     {
-      "id": "2114497834561196489",
-      "content": "Près de 200 millions de dollars seront consacrés à moderniser la production, à préserver 6 000 emplois de qualité et à renforcer la vigueur du Canada sur son territoire.\n\nNous soutenons l’industrie de l’aluminium du Québec et les travailleuses et travailleurs qui en sont le https://t.co/ORaT6dnJFD",
-      "date": "2026-10-25T23:22:23.000Z",
+      "id": "2114901601374650413",
+      "content": "Félicitations, @_MarkSutcliffe, pour votre réélection à la mairie d’Ottawa.\n\nNous avons réalisé beaucoup de choses ensemble et nous avons maintenant l’occasion de poursuivre sur cette lancée.\n\nNous pourrons assurer la construction de plus de logements abordables dans toute la",
+      "date": "2026-10-27T02:06:49.000Z",
       "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 33782,
-        "like_count": 549,
-        "quote_count": 14,
-        "reply_count": 190,
-        "retweet_count": 97
+        "bookmark_count": 7,
+        "impression_count": 31589,
+        "like_count": 276,
+        "quote_count": 1,
+        "reply_count": 33,
+        "retweet_count": 28
       }
     },
     {
-      "id": "2114497450631118966",
-      "content": "Nearly $200 million to modernise production, protect 6,000 good jobs, and build Canada’s strength at home.\n\nWe’re backing Québec’s aluminum industry and the workers who power it. https://t.co/9Stzk9g663",
-      "date": "2026-10-25T23:20:52.000Z",
+      "id": "2114884050888556554",
+      "content": "Massive new clean energy projects. Stronger infrastructure. Supporting rural and northern communities.\n \nGood to meet with Premier @TonyWakehamNL today in Ottawa. Together we’re building Newfoundland and Labrador strong, and Canada strong for all. https://t.co/Ps6p1CAqGh",
+      "date": "2026-10-27T00:57:05.000Z",
       "metrics": {
-        "bookmark_count": 16,
-        "impression_count": 33275,
-        "like_count": 896,
-        "quote_count": 18,
-        "reply_count": 367,
-        "retweet_count": 181
+        "bookmark_count": 10,
+        "impression_count": 28163,
+        "like_count": 402,
+        "quote_count": 4,
+        "reply_count": 149,
+        "retweet_count": 76
       }
     },
     {
-      "id": "2114405202229170208",
-      "content": "From the playground to the podium, we’re giving more kids the chance to get involved in sport — and making sure Team Canada athletes have what they need to compete and win. https://t.co/nL2zXSv7Rv",
-      "date": "2026-10-25T17:14:18.000Z",
+      "id": "2114883606032044305",
+      "content": "Massive new clean energy projects.\nDe nouveaux projets de taille en matière d’énergie propre. De meilleures infrastructures. Du soutien aux communautés rurales et du Nord.\n \nBonne rencontre avec le PM @TonyWakehamNL aujourd’hui à Ottawa. Ensemble, nous bâtissons une province de https://t.co/svvxbVnMba",
+      "date": "2026-10-27T00:55:18.000Z",
       "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 31773,
-        "like_count": 579,
-        "quote_count": 12,
-        "reply_count": 221,
-        "retweet_count": 95
+        "bookmark_count": 6,
+        "impression_count": 25837,
+        "like_count": 445,
+        "quote_count": 7,
+        "reply_count": 106,
+        "retweet_count": 76
       }
     },
     {
-      "id": "2114404187064713696",
-      "content": "Depuis le terrain de jeux jusqu’au podium, nous donnons à plus d’enfants la chance de faire du sport et nous nous assurons que les athlètes d’Équipe Canada disposent de ce dont ils ont besoin pour participer aux compétitions et les remporter. https://t.co/7gltmaLH4u",
-      "date": "2026-10-25T17:10:16.000Z",
+      "id": "2114849587118625152",
+      "content": "Polls are still open in municipalities across Ontario.\n\nI voted. Make sure you do, too. https://t.co/kGK74X2XLq",
+      "date": "2026-10-26T22:40:08.000Z",
       "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 24762,
-        "like_count": 256,
-        "quote_count": 6,
-        "reply_count": 92,
-        "retweet_count": 41
+        "bookmark_count": 18,
+        "impression_count": 78747,
+        "like_count": 2157,
+        "quote_count": 11,
+        "reply_count": 168,
+        "retweet_count": 163
       }
     },
     {
-      "id": "2114208452750749864",
-      "content": "Congratulations, @LDoerkson, on your election victory.\n\nI look forward to working with you as Premier to get more homes built, unleash our full potential as an energy superpower, and build a stronger British Columbia and a stronger Canada for all.\n\nThank you, Premier @Dave_Eby,",
-      "date": "2026-10-25T04:12:29.000Z",
+      "id": "2114849528180625467",
+      "content": "Les bureaux de vote sont encore ouverts dans toutes les municipalités de l’Ontario.\n\nJ’ai voté. Prenez le temps d’y aller aussi. https://t.co/gAtusCynXv",
+      "date": "2026-10-26T22:39:54.000Z",
       "metrics": {
-        "bookmark_count": 112,
-        "impression_count": 195021,
-        "like_count": 3172,
-        "quote_count": 82,
-        "reply_count": 549,
-        "retweet_count": 268
+        "bookmark_count": 1,
+        "impression_count": 22346,
+        "like_count": 270,
+        "quote_count": 0,
+        "reply_count": 24,
+        "retweet_count": 35
       }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2115089373633069267",
+      "content": "You work hard every day to build this country.\n\nLet's produce more Canadian diesel, cut fuel taxes, and make everything delivered by truck more affordable.\n\nThat's our Conservative plan to save you money: https://t.co/yAT7yk7lZX https://t.co/VsOgj9QINe",
+      "date": "2026-10-27T14:32:57.000Z",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 14920,
+        "like_count": 725,
+        "quote_count": 6,
+        "reply_count": 97,
+        "retweet_count": 104
+      }
+    },
+    {
+      "id": "2114923221371732195",
+      "content": "RT @Lianne_Rood: All Canadians were outraged that President Trump used tariffs to protect American jobs.  \n\nMeanwhile, the Carney Liberals removed the requirement for employers to consider Canadian applicants first before hiring foreign workers and...  crickets!  \n\nPutting foreign workers ahead https://t.co/glBdsORIyf",
+      "date": "2026-10-27T03:32:44.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4900,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 742
+      }
+    },
+    {
+      "id": "2114872352488259828",
+      "content": "Do you have an extra $8,000 a year to hand over to bankers and bondholders? https://t.co/QQSCOB6cnp",
+      "date": "2026-10-27T00:10:35.000Z",
+      "metrics": {
+        "bookmark_count": 18,
+        "impression_count": 30161,
+        "like_count": 1009,
+        "quote_count": 3,
+        "reply_count": 96,
+        "retweet_count": 179
+      }
+    },
+    {
+      "id": "2114823730773831742",
+      "content": "RT @DanAlbas: The PBO is right to flag that the Carney Liberals are not disciplined or transparent on their deficit spending.\n\nWe’ve seen what happens in 🇨🇦 when Government borrows &amp; spends too much indiscriminately. Large debt payments puts pressure on programs &amp; services \n\nAre you concerned? https://t.co/kpo8zcFUsO",
+      "date": "2026-10-26T20:57:23.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4738,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 243
+      }
+    },
+    {
+      "id": "2114823717091938581",
+      "content": "RT @dckurek: Some good news, long road to recovery but this soldier is on his way. 🇨🇦 https://t.co/sbKXm49DXH",
+      "date": "2026-10-26T20:57:20.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4065,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 50
+      }
+    },
+    {
+      "id": "2114823700805570704",
+      "content": "RT @shuvmajumdar: This is yet another epic fail by Prime Minister @MarkJCarney, this time with the United Kingdom. \n\nIt comes as the same time as BOTH France and Germany don’t want Carney’s “Associate Membership” with the EU. \n\nWhich is especially embarrassing for Mr. Carney going into his EU https://t.co/jYB1ieTkf5",
+      "date": "2026-10-26T20:57:16.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4193,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 243
+      }
+    },
+    {
+      "id": "2114794544151597215",
+      "content": "Repeal the Liberal tanker ban. Let’s get shipping oil by rail to Prince Rupert in the next two years. It will boost our paycheques, our dollar, and our economic independence. https://t.co/YgMhBPoqes",
+      "date": "2026-10-26T19:01:24.000Z",
+      "metrics": {
+        "bookmark_count": 23,
+        "impression_count": 41790,
+        "like_count": 2385,
+        "quote_count": 8,
+        "reply_count": 140,
+        "retweet_count": 384
+      }
+    },
     {
       "id": "2114751980614955230",
       "content": "Sex offenders, men who beat up women, and other serious violent criminals getting reduced sentences because of race.\n\nThis is wrong. There is no excuse. PERIOD.\n\nEveryone should follow the same laws &amp; do the same time for the same crime, regardless of race. https://t.co/TZbIZGa0I3",
@@ -961,97 +1052,6 @@
         "quote_count": 25,
         "reply_count": 106,
         "retweet_count": 336
-      }
-    },
-    {
-      "id": "2114718980850020829",
-      "content": "Strathcona Resources propose de transporter par chemin de fer jusqu'à 250 000 barils de pétrole canadien par jour vers Prince Rupert, pour ensuite les exporter vers les marchés étrangers.\n\nUn seul obstacle empêche la réalisation de ce projet : l'interdiction des pétroliers https://t.co/Jr7fU0yQFe",
-      "date": "2026-10-26T14:01:09.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 17479,
-        "like_count": 576,
-        "quote_count": 4,
-        "reply_count": 22,
-        "retweet_count": 121
-      }
-    },
-    {
-      "id": "2114405448367358190",
-      "content": "Mark Carney promised to spend less.\n\nInstead, he doubled Trudeau's deficits. Now, interest on Liberal debt will cost a family of 4 about $6,000. \n\nOn Tuesday, Conservatives will move to call the Prime Minister before the Finance Committee to ask him how he plans to cut deficits, https://t.co/0WjpBPPOkg",
-      "date": "2026-10-25T17:15:17.000Z",
-      "metrics": {
-        "bookmark_count": 52,
-        "impression_count": 66145,
-        "like_count": 3280,
-        "quote_count": 32,
-        "reply_count": 298,
-        "retweet_count": 728
-      }
-    },
-    {
-      "id": "2114404553097433588",
-      "content": "Mark Carney avait promis de dépenser moins.\n\nÀ la place, il a doublé les déficits de Trudeau. Les intérêts sur la dette libérale vont maintenant coûter environ 6 000 dollars à une famille de quatre personnes.\n\nMardi, les conservateurs vont proposer de convoquer le premier https://t.co/f8155ygMXa",
-      "date": "2026-10-25T17:11:43.000Z",
-      "metrics": {
-        "bookmark_count": 22,
-        "impression_count": 44527,
-        "like_count": 2325,
-        "quote_count": 7,
-        "reply_count": 145,
-        "retweet_count": 524
-      }
-    },
-    {
-      "id": "2114213819027214342",
-      "content": "Félicitations à @LDoerkson et au @Conservative_BC pour ce fort mandat majoritaire pour ramener les principes conservateurs de gros bon sens en Colombie-Britannique.\n\nJ'ai hâte qu'on travaille ensemble pour faire économiser de l'argent aux Canadiens et protéger leurs emplois,",
-      "date": "2026-10-25T04:33:49.000Z",
-      "metrics": {
-        "bookmark_count": 33,
-        "impression_count": 57483,
-        "like_count": 4191,
-        "quote_count": 11,
-        "reply_count": 131,
-        "retweet_count": 394
-      }
-    },
-    {
-      "id": "2114208779839459741",
-      "content": "Congratulations to @LDoerkson and the @Conservative_BC on a strong majority mandate to bring common sense Conservative principles to British Columbia.\n\nI look forward to working together to save Canadians money and jobs, lock up criminals, reduce immigration, and put Canada",
-      "date": "2026-10-25T04:13:47.000Z",
-      "metrics": {
-        "bookmark_count": 121,
-        "impression_count": 119859,
-        "like_count": 7785,
-        "quote_count": 41,
-        "reply_count": 264,
-        "retweet_count": 758
-      }
-    },
-    {
-      "id": "2114077101821235597",
-      "content": "In Brantford, fighting to save you money and restore safe streets with Conservative candidate Kevin Davis. https://t.co/8pNMQIEI47",
-      "date": "2026-10-24T19:30:33.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 34106,
-        "like_count": 718,
-        "quote_count": 3,
-        "reply_count": 131,
-        "retweet_count": 97
-      }
-    },
-    {
-      "id": "2114029127959269550",
-      "content": "Thanks to @MikeLakeMP for highlighting the need to make the disability savings accounts simpler and better known for families who need them.\n\nToo much paperwork and confusion now. It took us multiple trips to the branch and a massive pile of forms to set ours up.\n\nMost never get",
-      "date": "2026-10-24T16:19:55.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 28806,
-        "like_count": 398,
-        "quote_count": 4,
-        "reply_count": 45,
-        "retweet_count": 71
       }
     }
   ]
