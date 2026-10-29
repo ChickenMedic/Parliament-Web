@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "mdmKugFaal8",
+    "title": "Working Together: First Nations Leadership and First Ministers Meet",
+    "date": "2026-10-29T13:42:48+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/mdmKugFaal8/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "ZoYl_8yKGmc",
     "title": "Protecting Canadian jobs and making bold investments",
     "date": "2026-10-28T18:09:13+00:00",
@@ -21,34 +28,62 @@
     "date": "2026-10-23T13:47:56+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/zIF_cJj4rh8/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "X_I2NyQCnuM",
-    "title": "Prime Minister Carney launches a plan to protect workers and strengthen Ontario industries",
-    "date": "2026-10-23T00:08:05+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/X_I2NyQCnuM/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "HAXVUd1HTI8",
-    "title": "Canada not near trade deal with US before midterms, Carney said",
-    "date": "2026-10-28T16:01:55+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/HAXVUd1HTI8/hqdefault.jpg",
+    "videoId": "tYB8LWvcC7w",
+    "title": "PM Carney hosts business roundtable with European Union leaders – October 29, 2026",
+    "date": "2026-10-29T17:50:50+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/tYB8LWvcC7w/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "68pYoCM3N2I",
+    "title": "PM Carney announces $1.6B investment in Canadian AI firm Cohere",
+    "date": "2026-10-29T17:33:21+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/68pYoCM3N2I/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "VP8BXABFvTM",
+    "title": "Carney announces $1.6B investment in Cohere to strengthen Canada’s AI sovereignty | FULL",
+    "date": "2026-10-29T13:32:00+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/VP8BXABFvTM/hqdefault.jpg",
     "channel": "Global News"
    },
    {
-    "videoId": "VRIpeHnQY0Q",
-    "title": "Trump takes dig at Carney in congratulating Quebec, B.C. election winners | Power & Politics",
-    "date": "2026-10-27T23:51:28+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/VRIpeHnQY0Q/hqdefault.jpg",
+    "videoId": "6ZyVwicoivM",
+    "title": "Carney makes announcement about AI and digital sovereignty",
+    "date": "2026-10-29T13:29:40+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/6ZyVwicoivM/hqdefault.jpg",
     "channel": "CBC News"
+   },
+   {
+    "videoId": "fz6ihybU-yI",
+    "title": "Carney prepares for crucial Canada-EU summit",
+    "date": "2026-10-29T02:15:34+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/fz6ihybU-yI/hqdefault.jpg",
+    "channel": "Global News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "JTJwaGyp9DE",
+    "title": "Les dépenses inflationnistes de Mark Carney causent la hausse des taux d'intérêt.",
+    "date": "2026-10-29T15:38:51+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/JTJwaGyp9DE/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "dXeV-DGN-ac",
+    "title": "He spends. You pay.",
+    "date": "2026-10-28T20:57:17+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/dXeV-DGN-ac/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "XZdCh84bAp4",
     "title": "Mark Carney can't balance the books, even when he's cooked them.",
@@ -61,20 +96,6 @@
     "title": "Mark Carney est incapable d'équilibrer le budget même en jouant à la comptabilité créative.",
     "date": "2026-10-28T00:05:22+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/duG3i3kB7bk/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "Ep-HR_wBPKQ",
-    "title": "Worried about immigration & housing? YOU HAVE BEEN REPRIMANDED!",
-    "date": "2026-10-27T23:02:40+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/Ep-HR_wBPKQ/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "JaQDOakjTRA",
-    "title": "Produce more Canadian diesel to save you money",
-    "date": "2026-10-27T14:34:42+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/JaQDOakjTRA/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
