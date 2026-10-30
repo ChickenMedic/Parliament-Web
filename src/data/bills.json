@@ -234,6 +234,12 @@
     "date": "Wed, 28 Oct 2026 19:43:33 GMT"
    },
    {
+    "title": "IRCC Sees Surge in Urgent Proof of Citizenship Applications Following Bill C-3 Changes",
+    "source": "SSBCrack",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYWxTQUZKN1d4Sm1rNHdkc202anB6cTdneGU2ZDBtTGdIcnlWYklTVmphVXdlSnlGUG1MNTAtYlRYcFZCZTNaWnVhMWI0YXIza2Z2a1NuU1dLZ3NiVS1DZExsTEE1bGxjeFhDbzJZNlN2ckl3VGlKeklSd1gzMy1KS2ZzS0tCSDVlc1JiNW1Xd2cxUVVCeXpyRV9uSVVONkREMFV0TG1pOThqTHMxNlJVTHg1WQ?oc=5",
+    "date": "Sat, 24 Oct 2026 00:18:30 GMT"
+   },
+   {
     "title": "New data shows how IRCC handled urgent proof of citizenship requests in Bill C-3’s first eight months",
     "source": "CIC News",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWl9OYl90VXhYWmJWRHpPZGV0ajhaeGU1ZDF0WXVTZjVzNTA4UDd2NjRPNTY4QXVMYXQ1elZ5a0ZmSFVkWFNpeWpQaWQ0dUs1dEphcWFrdHVKVzZ0WFFNeUQ5NEZEanRnaThGeEp5TEx4YkNHVFhYRGRHaWVndmUxTUItbkdwZ1dlQURZcXFWd0RyTVpMREVybFg4WUxZSTlsU05YbW83eURsQ1k3cEhLUUlRLXBVUVhfM3dkVlVSeDNFWmFJeXhHMzB1ZWhRdThpV2JBdGFSLUpCWmgwTHfSAeMBQVVfeXFMTnh0VURNTlRadnhSTzc5ZFh1UkNmRnA4QnlnbGpjUldLRDhjY0FYemFvcmF2YzJ2c3FVdzVqNTFqUGxmR2VabHVNd3lBdHlNek10a0ZoQXJiRHk4ZWhSUUdLRjQxSHFrbEw5Y1ZvOUhFUXhRdmo3R3k1aWthTzhjTGVWODFMWXlIN2NZcVZGS1l4T185Y2FNcndxWFFWV2Q2NGk4VTZsWjAwMmJfVENhdFZ2eTdlM3lReDhwdTRDNTdFa1pLT0tsbk1XRVRSc0ktVk5ER09ZNHBHa1R1U1JIalNwcUk?oc=5",
@@ -244,12 +250,6 @@
     "source": "https://ircc.com/",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1tcEpJLXA0c1hCQjM1SXJPWjE3aWFCRmNoXy1NOUZmdEMxQkxHa2E1Nm9hYnNmQkhZTDlmdXdoZWl1c2JVbjhDbXRWZElHVU1xbzU4NWljR05oWk1VeU5Zam1sdGR5QUQ2Znp1WWs1U09ZNnBSOGVKQ1VUMHUzZw?oc=5",
     "date": "Tue, 06 Oct 2026 12:18:50 GMT"
-   },
-   {
-    "title": "Can Bill C-3 be reversed? Here’s what an immigration lawyer has to say",
-    "source": "CIC News",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV0YwLWNWU1VPakRIWUlTS2o2NXZhSDVPSm45bks1UDVFR1d3UzJQcGFyeHRLVlByZ19NdlZWeGs2d0NWdjBlbV9XYjVsRG0zVXg5Ylg3TkhIVUIyc3B2UmdSME1nQXByaUt2RGo1OTAyMnFPcUIwV2JWekZ3dFBaQkF5Y2IweEdOQjVpRzd4c0VwcWNJSDhoQ2F1eE9sSjktMjBPUzAxVXE3RWI4Vlk3dGExRdIBuAFBVV95cUxOaW5JS0dYOWUzMFJBSVdYd0E2TVZZcGRWdzAyRDhLT0FVemNzUThUeG9RSFVQMWVnaWhRM3JBSDV4dV9CemdGakl2b1Jwa2dZalE1cjBUOXVDQzZjREdEaUNYZFRoRW13NkNBVkMwelVsXzlKREhQVTF1dUtVNWtRY3l0QzNVTE54YmhjVHV4dlJwWk93R0JwWXlFbXdVX09uNGpXek1TUnU4dGxfX2FUZFRnR0pQRk9J?oc=5",
-    "date": "Sun, 20 Sep 2026 11:07:49 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-3",
@@ -3652,7 +3652,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-31",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-31/first-reading"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-31/as-amended-by-committee"
  },
  {
   "id": "C-32",
@@ -3835,7 +3835,7 @@
   "sponsorTitle": "Minister of Canadian Identity and Culture and Minister responsible for Official Languages",
   "sponsorRiding": "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs",
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-10-28",
+  "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -3847,7 +3847,7 @@
    {
     "key": "houseSecondReading",
     "label": "Second reading (House)",
-    "date": null
+    "date": "2026-10-29"
    },
    {
     "key": "houseThirdReading",
@@ -3879,6 +3879,12 @@
   "votes": [],
   "media": [
    {
+    "title": "Ofcom Did the Work Canada Plans to Skip: What the UK’s Age Verification Report Reveals About the Bill C-34 Social Media Ban",
+    "source": "Michael Geist -",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ2xMMDJTbXZJRDEzclRhQzY4Wkp2dHJwYzJsU1BSdy1qX3JjeUVnaWtkRDFDdWFmSFdYQWM5eFdUcGRKV09hZ0hWZkpaZHVTdlpIQ19Hdkx2NjB6UXk3YnE0OHRwbVh0ZHBLQ0N3dFdYSzE3UVlEU2NzbFZjU0RlM2p3YW9sUC1TdE1CdDBENldXZGdLZzF6d2ZyUER3VzdPVE5FNm1Jc1JGNU9vWThYUF9IVkZOOUdveHc2YXNwQ29HcHQ3T1pTSmhVQ29uQWFRSUlLT3NkazFCOUVUY1NwSUV0c2w1QTlpcFh0eWhCWQ?oc=5",
+    "date": "Fri, 30 Oct 2026 13:26:45 GMT"
+   },
+   {
     "title": "The Age Verification Bill That Won’t Die: How Bill S-209 Complicates the Government’s Bill C-34 Online Safety Plan",
     "source": "Michael Geist -",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYTJ6NzE1LTRqcE1iVzJ5Q2VjU3N6dVBpT0xmVHZIWWhVcUZzNzkxWVJ1cUI2NTZWUDl6WlVsT2lVN09sX0dTbW8ya2JGVkJSa296Q3RaUXFzQnk0MUllSEJ0N1VlTlRzU19wSFc4N2U5OWIwME9PXy00N2dhZHJQZFBkWGlpX3E2YVVjSmJieGRENEpZSXdiVVhfOXZVakRhUVVvNmR1VVJnM2dKMzBzRUJ6OS11dlZkdzNoRVA1bnk2Q2dSZXdRMGZNLUc3SE5FYzNFYm1KUU9QMEpfalYtLWNR?oc=5",
@@ -3907,12 +3913,6 @@
     "source": "iPhone in Canada",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0c0RVRELVF6dWY3MlJ0TUdHM1hFS0dHd01hNElPVHB2cVNKMTByVTluMzhjMmVFc3VXOTRMZVpZMDBkN2VMMkdqXzJ4OF9yNVdYYlA3R19qN0ZuYnMycmMxYW5FR0FFU0pQbTZzYlJHdlBUV09DMWozZXZWRTJMcE83TG9yNHZMM3FMUlJMOVRuOTRR?oc=5",
     "date": "Tue, 27 Oct 2026 11:31:37 GMT"
-   },
-   {
-    "title": "‘Waiting too long’: Calls to strengthen Safe Social Media Act ahead of second reading debate",
-    "source": "CTV News",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV1dJRU1DZVE0RnBmUlFBbXAwWi1Oam5aVjZrdTZiaW9BY3I0MnA2QjM2Q05GUzNBbXd1ZklDM1dweF9HZmVBRmZKRzROdC1pVlFIX09UTzZBSkJvRFhYY0d1elBGbmt3Y3VsRlZCS2NucnlKSXdQcnVmbEoyUTd3aXdkM0dUVzRFVTU0czJXQkNXYVBDa18yNlNqeTE4SzVXUWxPUFNQN2FDa190UXFCVHFHTnVKTVg2YjVBSkVwblNIRzNDUGZKeS1hWkxET0JOekdZ?oc=5",
-    "date": "Fri, 23 Oct 2026 23:12:23 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
@@ -4215,8 +4215,8 @@
   "id": "C-38",
   "title": "Canadian Fuel Affordability Act",
   "longTitle": "An Act to amend the Excise Tax Act (extension of the federal fuel excise tax relief)",
-  "status": "Awaiting royal assent",
-  "receivedRoyalAssent": false,
+  "status": "Royal assent received",
+  "receivedRoyalAssent": true,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
   "category": "Finance",
@@ -4225,8 +4225,8 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Finance and National Revenue",
   "sponsorRiding": "Saint-Maurice—Champlain",
-  "latestActivity": "Third reading",
-  "latestActivityDate": "2026-10-28",
+  "latestActivity": "Royal assent",
+  "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
@@ -4263,12 +4263,18 @@
    {
     "key": "royalAssent",
     "label": "Royal Assent",
-    "date": null
+    "date": "2026-10-29"
    }
   ],
   "partyPositions": null,
   "votes": [],
   "media": [
+   {
+    "title": "Federal fuel excise tax relief extended to Jan. 31 after Bill C-38 receives royal assent",
+    "source": "The Sydenham Current",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNODhiYjBHV1Y0MXBaWWZ6a2lGQ0dFN3BQMldJb1pseU9RQ3NiMXdZZlQ1dXhVeDExajhBbDRoUmJDXzRBNC1qRlR1VENxcFdzNy15WFFVMkhRa2RIek8xT09IekZ0N0Jzb05xZ1ppMUEwU1EzdW9rRklMRld5dUlSQ3pLQ0RBTVd2WXdWRmx2RnJWYlVvcTZPUk01SnA2Z0dUNjN2NGRFNU9jUkFCejN0bzk2SHZmT0lmdUQtbmVmSWdmY04t?oc=5",
+    "date": "Thu, 29 Oct 2026 23:01:00 GMT"
+   },
    {
     "title": "Speech on bill C-38",
     "source": "YouTube",
@@ -4283,7 +4289,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-38",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-38/as-passed-by-the-house-of-commons"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-38/royal-assent"
  },
  {
   "id": "C-39",
@@ -4403,22 +4409,22 @@
     "date": "Thu, 29 Oct 2026 14:44:22 GMT"
    },
    {
+    "title": "Labour unions set up \"war room\" to fight Carney's Bill C-39",
+    "source": "National Post",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZlp4UTRwUU01YmNxREdtWDhFQ1JMejVudzBEQ3VSUzFpQmcxV3Y2RVY5U3RVX1FJZlBacldSbDVKa1AtZURyaHYwWDlhelpVS2d3SEk4VjVJUENkMi1xQ2lXNHJyQkMxSzNhV0U5NDZqR1RlRmJiNmJac3RxSFdZMWdleDd2SkxFdXRQazB4OA?oc=5",
+    "date": "Thu, 29 Oct 2026 19:13:06 GMT"
+   },
+   {
+    "title": "Labour unions set up 'war room' to fight Carney's Bill C-39",
+    "source": "Yahoo News Canada",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80MW1oLXdBZi1oTFlVYnVSMEdpdnVUWFRMRjQ0WmVzVnE0UDdWVFVXSUZhaVFiQVdmaTR0UXdiM1RFNzl0bGVaV0NlallnQU9aOVMtS3hsdzdYdVBmdTJ0UWlUM0JaSVBQOHEtckFKWmlTcVh2dVE?oc=5",
+    "date": "Thu, 29 Oct 2026 19:10:28 GMT"
+   },
+   {
     "title": "Rally and sacred fire planned at Aamjiwnaang over Bill C-39 concerns",
     "source": "Sarnia News Today",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1Brd3huTElZQzJiRVlLN3dkMUJ4XzR1LUlQWHVoRkdwZmNvQUQyVUxJeGVyTDdBWDBRNEVDYnRKZjJibF9RX3FpV2NmM2lvQTBvU1FJWURzRXZLUHYxQTlhVDhDcTY2ZlZHTWdZMGtsWm1ZQmtXYkFISHBvbUV3UC1RS0J3YmRnbjBNOGZDUVhINnBnSXBMeGlMTVU1d0UwVXhlbEh4Z3EwUldBX0g4ZlNBUWt6YVZJcFE?oc=5",
     "date": "Wed, 28 Oct 2026 15:51:36 GMT"
-   },
-   {
-    "title": "CTA backs Bill C-39, urges stronger Driver Inc. enforcement, trade corridor investments",
-    "source": "Truck News",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdlQxdldBdnVGSnNCNTAyQkJWaEMtc1c0Vk5GZDVyYU9DVmo2enRweEE4SjBEVDNDV0FNeGNhcWQzT2lwMTNfZTEtNVVhM3pKZXM1MHV6bG1ZR3FaVW5qZDJBM3dfYnNpa0NzN2ZfZFJSMG45aktSVHJwckQxMVlkazNBLWo3TVpKMF9LdkdsX3pPVlFVR3N1OE9nVW5zUExHbkZ0NmxhWHh1NmhKYS1pSU12djNiaFd2QldxWkJEZ2J5Y1V3Yzc1akZDclBsRzBoWmpZRmVoa0VhUQ?oc=5",
-    "date": "Wed, 28 Oct 2026 12:08:00 GMT"
-   },
-   {
-    "title": "AME: Bill C-39 Can Turn Ambition Into Action for Canada's Mineral Sector",
-    "source": "Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUzA3c18wUzVrcENaVHFJbHB2NWFuU3VSZnVHdVh3dVNFalpQUE5NUlBCbDhsd3ljbERGZmpQVGhyWXpjQ2FieUs2VmZlekNISE1mM3BmbzVxcF9hNC1MdTBrQnlGMExTOXYybVBOdUhZS25pUndQYmtyWFhER1Y2WHA1Wk41Nnh5SDBV?oc=5",
-    "date": "Wed, 28 Oct 2026 13:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -6232,8 +6238,8 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Selkirk—Interlake—Eastman",
-  "latestActivity": "First reading",
-  "latestActivityDate": "2026-10-20",
+  "latestActivity": "Debate at second reading",
+  "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
@@ -6453,7 +6459,7 @@
   "id": "C-222",
   "title": "Relieving Grieving Parents of an Administrative Burden Act (Evan's Law)",
   "longTitle": "An Act to amend the Employment Insurance Act and the Canada Labour Code (death of a child)",
-  "status": "House of Commons bill awaiting first reading in the Senate",
+  "status": "At second reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -6463,9 +6469,9 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Burnaby North—Seymour",
-  "latestActivity": "Third reading",
-  "latestActivityDate": "2026-10-28",
-  "latestActivityChamber": "House of Commons",
+  "latestActivity": "First reading",
+  "latestActivityDate": "2026-10-29",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -6486,7 +6492,7 @@
    {
     "key": "senateFirstReading",
     "label": "First reading (Senate)",
-    "date": null
+    "date": "2026-10-29"
    },
    {
     "key": "senateSecondReading",
@@ -8064,7 +8070,7 @@
   "id": "C-241",
   "title": "National Strategy on Flood and Drought Forecasting Act",
   "longTitle": "An Act to establish a national strategy respecting flood and drought forecasting",
-  "status": "House of Commons bill awaiting first reading in the Senate",
+  "status": "At second reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -8074,9 +8080,9 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Terrebonne",
-  "latestActivity": "Third reading",
-  "latestActivityDate": "2026-10-28",
-  "latestActivityChamber": "House of Commons",
+  "latestActivity": "First reading",
+  "latestActivityDate": "2026-10-29",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -8097,7 +8103,7 @@
    {
     "key": "senateFirstReading",
     "label": "First reading (Senate)",
-    "date": null
+    "date": "2026-10-29"
    },
    {
     "key": "senateSecondReading",
@@ -12385,8 +12391,8 @@
   "id": "S-210",
   "title": "Ukrainian Heritage Month Act",
   "longTitle": "An Act respecting Ukrainian Heritage Month",
-  "status": "Awaiting royal assent",
-  "receivedRoyalAssent": false,
+  "status": "Royal assent received",
+  "receivedRoyalAssent": true,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
   "category": "Commemoration",
@@ -12395,9 +12401,9 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Third reading",
-  "latestActivityDate": "2026-10-21",
-  "latestActivityChamber": "House of Commons",
+  "latestActivity": "Royal assent",
+  "latestActivityDate": "2026-10-29",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -12433,7 +12439,7 @@
    {
     "key": "royalAssent",
     "label": "Royal Assent",
-    "date": null
+    "date": "2026-10-29"
    }
   ],
   "partyPositions": {
@@ -12491,7 +12497,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-210",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-210/as-passed-by-the-senate"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-210/royal-assent"
  },
  {
   "id": "S-211",
@@ -12593,6 +12599,12 @@
   ],
   "media": [
    {
+    "title": "Bill S-211: Sponsors Testify, Clause-by-Clause Set for Nov. 3",
+    "source": "RG.org",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWU9HMHZzS1dkMFA1Wl9mT3c3UzRYcnhnVXVDNVNQNU1GbXQyWWMxZkVlLVRmaHJMdUlBYUZfQVhuME5venRSNzVtSmRQRE1yemtSYzV1VEhJbUhWTms0M3ZsLXFrVC1wWlBYM2FwNVRoSFlqSWpwVlJORjJwYlVrTGhHMWE1YVdNalVOdXZ1UkNRSEdLQTY4RTVPc1Q3eGtMNmZnN2ltTl9NX0VPNlN5b3BXWQ?oc=5",
+    "date": "Fri, 30 Oct 2026 10:40:11 GMT"
+   },
+   {
     "title": "Bill S-211 Hearing: CRTC, Health Canada, Broadcasters to Testify",
     "source": "RG.org",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUy1faGxKUS1RWHpFMU5zdTBZLWlmaDhUbU9wdndmMVpkbFUtcHNlMkdoTEhBQkZxQmk3NUdZckh5V19uOXBRYWczdXh4SHU5U0R5ci1sbU56c3BTUVQ1X0JhNVR5alNqWFV1Sml4YXdHRmdZNEVOT0IwcEdITE81c0RzZE5oRVl4d2tmRXpJZkZrXzJWenJCMmtGZFhHOUk3UUx6bG9B?oc=5",
@@ -12621,12 +12633,6 @@
     "source": "Legal Sports Betting",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ3R6bGs2aFQtWEMyeV9qS3U3TVJGNDNZbkNtenVKci1OQkRHTzU2b2kxSkM4NXJRalZvbS1ENGxXRGJXaWJOVGN4OEJhN1FSYW1uRi1JOXZkUUs4M3g3N2FUX01EczJ0UHdvaFFORUtYNW1yU2JQTEp1d2lNOEZWelFxTXQ0cFBqWGZFQ2lPa2FMalp0MXJqWFNyZFRkLTV2VU5BR0sxSl8?oc=5",
     "date": "Thu, 22 Oct 2026 21:08:36 GMT"
-   },
-   {
-    "title": "Alberta Opposes Canada’s Sports Betting Ad Bill S-211",
-    "source": "Betting News",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeWlYN21QN0Ixa1hrN1ZOb2ttTjgwYi14SXFfOFBidHNvMk4xSXRvc0RIWjJKbl93QkJxaHA2R3hzaE14cUlBVWJoLU5BSjRxV2F1R2I3NVRJVjlSUUxPU05iSlBmWjB5ZWNNRDJIYnBTSlBMU1ZxTEgtUm4xQV95TkJaMWhldjZLdDVGb0s1QWRWdXNYZERsdE92dHhrWF9I?oc=5",
-    "date": "Tue, 20 Oct 2026 11:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-211",
@@ -13134,7 +13140,7 @@
   "id": "S-220",
   "title": "Hellenic Heritage Month Act",
   "longTitle": "An Act to designate the month of March as Hellenic Heritage Month",
-  "status": "At consideration in committee in the Senate",
+  "status": "At third reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -13144,8 +13150,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Referral to committee",
-  "latestActivityDate": "2025-11-26",
+  "latestActivity": "Committee report presented",
+  "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "Senate",
   "committee": {
    "acronym": "SOCI",
@@ -13779,8 +13785,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Placed in the Order of Precedence",
-  "latestActivityDate": "2026-04-22",
+  "latestActivity": "Debate at second reading",
+  "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -14254,7 +14260,7 @@
   "id": "S-237",
   "title": "Cities and Municipalities Day Act",
   "longTitle": "An Act respecting a Cities and Municipalities Day",
-  "status": "At third reading in the Senate",
+  "status": "Senate bill awaiting first reading in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -14264,15 +14270,10 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-10-22",
+  "latestActivity": "Third reading",
+  "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "Senate",
-  "committee": {
-   "acronym": "LCJC",
-   "name": "Standing Senate Committee on Legal and Constitutional Affairs",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/LCJC"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "senateFirstReading",
@@ -14287,7 +14288,7 @@
    {
     "key": "senateThirdReading",
     "label": "Third reading (Senate)",
-    "date": null
+    "date": "2026-10-29"
    },
    {
     "key": "houseFirstReading",
@@ -14314,7 +14315,7 @@
   "votes": [],
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-237",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-237/first-reading"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-237/as-passed-by-the-senate"
  },
  {
   "id": "S-238",
@@ -14381,7 +14382,7 @@
   "id": "S-239",
   "title": "Canadian Prosperity Act",
   "longTitle": "An Act to amend the Competition Act",
-  "status": "At report stage in the Senate",
+  "status": "At third reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -14391,8 +14392,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Debate at consideration of committee report",
-  "latestActivityDate": "2026-10-28",
+  "latestActivity": "Committee report adopted",
+  "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "Senate",
   "committee": {
    "acronym": "BANC",
@@ -15278,7 +15279,7 @@
    {
     "key": "senateFirstReading",
     "label": "First reading (Senate)",
-    "date": "2026-10-28"
+    "date": "2026-10-29"
    },
    {
     "key": "senateSecondReading",
