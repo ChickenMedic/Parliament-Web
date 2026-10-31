@@ -216,6 +216,12 @@
   ],
   "media": [
    {
+    "title": "Catholic archives overwhelmed by Bill C3",
+    "source": "The B.C. Catholic",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40T0h3ZkhPbTZvX2d5SnZNbDQ0THlCNTQyaFhwUFNJekNLYWw3LXZaRmxzMEFJdXU1d1h5emFlWktfNFlON3pLSFJxd0dxN0RXWE50U21EZnJpQVQ5M1pxSWdobmFZSGpmVGZKNjg5bTU?oc=5",
+    "date": "Sat, 31 Oct 2026 01:22:45 GMT"
+   },
+   {
     "title": "Why was Bill C-3 really passed? The long fight behind the law that made millions of Americans dual citizens",
     "source": "CIC News",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUWktcjVmNTNmTjEtYkR5bHhQTlQzbldRRVBDcG5qU0RiSW42ajN5OWtMT2dwWWFyZXdYT25RRXVPSS0xa2JKbmh4MFhjTW40bEVFbG80NmgzSGRJTjVzTFFQWGYzdHpYd2h5Z2R4c0Y5eVZmZmJxYnhKYmd5NjlCS0lQa1p1RHF5ZlNCV3FLUy1HenF0QlFMRmRybUcwS1dzM01ocGN3ckZGTWQwck8zZWxpZnNVN2NPY2k2dFhtaU9XZnFSa1lPYWUxXy1wUFcwdS13cUtGVlVwaG5Zclc3cnREQTliZ9IB6wFBVV95cUxPYzNneldVbDQ3ZjNuWURwMDBFZmw5OHVXQTdYaDk3VzVUeHU1dkpZN3hiOWdWSUhvSzkwY2FWamtXNWl0WnFuX0lwRThHcHNjbXdPR09lWlg3Sm5TcTRwSmp5Q2pLNXprZl8wVjMzbnRSX2drVGllV2lQYklVZnI3V09IbE5SZHpJRllwQnBMV05XUW5aYjZ5cDU0WHN4SFpkWENucmItZ2RCRW8wSVZKUDRibnR1R2FzcWZGNnBjOGtwV3hjVWw2Nlcxd1Z4OTgyTUR2VEpIOE5TaWpYY2NZbXRnTTQ3VGVjMmpV?oc=5",
@@ -244,12 +250,6 @@
     "source": "CIC News",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWl9OYl90VXhYWmJWRHpPZGV0ajhaeGU1ZDF0WXVTZjVzNTA4UDd2NjRPNTY4QXVMYXQ1elZ5a0ZmSFVkWFNpeWpQaWQ0dUs1dEphcWFrdHVKVzZ0WFFNeUQ5NEZEanRnaThGeEp5TEx4YkNHVFhYRGRHaWVndmUxTUItbkdwZ1dlQURZcXFWd0RyTVpMREVybFg4WUxZSTlsU05YbW83eURsQ1k3cEhLUUlRLXBVUVhfM3dkVlVSeDNFWmFJeXhHMzB1ZWhRdThpV2JBdGFSLUpCWmgwTHfSAeMBQVVfeXFMTnh0VURNTlRadnhSTzc5ZFh1UkNmRnA4QnlnbGpjUldLRDhjY0FYemFvcmF2YzJ2c3FVdzVqNTFqUGxmR2VabHVNd3lBdHlNek10a0ZoQXJiRHk4ZWhSUUdLRjQxSHFrbEw5Y1ZvOUhFUXhRdmo3R3k1aWthTzhjTGVWODFMWXlIN2NZcVZGS1l4T185Y2FNcndxWFFWV2Q2NGk4VTZsWjAwMmJfVENhdFZ2eTdlM3lReDhwdTRDNTdFa1pLT0tsbk1XRVRSc0ktVk5ER09ZNHBHa1R1U1JIalNwcUk?oc=5",
     "date": "Fri, 23 Oct 2026 11:07:38 GMT"
-   },
-   {
-    "title": "Canadians born abroad face long waits for citizenship proof after Bill C-3",
-    "source": "https://ircc.com/",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1tcEpJLXA0c1hCQjM1SXJPWjE3aWFCRmNoXy1NOUZmdEMxQkxHa2E1Nm9hYnNmQkhZTDlmdXdoZWl1c2JVbjhDbXRWZElHVU1xbzU4NWljR05oWk1VeU5Zam1sdGR5QUQ2Znp1WWs1U09ZNnBSOGVKQ1VUMHUzZw?oc=5",
-    "date": "Tue, 06 Oct 2026 12:18:50 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-3",
@@ -610,10 +610,10 @@
     "date": "Thu, 18 Jun 2026 07:00:00 GMT"
    },
    {
-    "title": "‘Threat’ of Bill C-5 is making bill work as intended, Dawn Farrell says",
-    "source": "CityNews Halifax",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTWh4c01LSVFnM0J2R1NEcnMxQng3Xy02dzZ1T1p4ZWNzUmlhWTlvNXY0ZzJGSlZYT0N1WGM3SzRsc2xtUVJrTGxUUEtyMC1wa1lIdkFabldSWWdua0VmVTY1eUlyMnJkdGt5T3IyRlJRSTZUZGd2TnI4RGZpMExPMEV4aV9RQmRXdVhNVDgxR19pYWpXQlBmbFl2RHIzbHpkdFByOHEwS0hzQ2Yt?oc=5",
-    "date": "Thu, 07 May 2026 07:00:00 GMT"
+    "title": "First Nations Leadership United in Opposition to Liberal Government’s Unprecedented Bill C-5",
+    "source": "Chiefs of Ontario",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZVREel9YS3hwWllDRmIzNEx0R0pVWXIwUnlBMWNBSGcxYTk2a0MtODlCaURWR3dHcVQwM3czTUlvejBGR1JNZHNSdWpvZkhTUGY5ckZxYWtJMkRUaHNfcTBLVDdjV1l0UUpBcERnMkVPYXVlZ3RfOWkwS21NZW45ZGtSWnhqckQ0TUcwcWxkaUxaYWdKX0RIMGk4X3BocTc3S0lYcnVPX2h4bUVERGIwS0hUSmRYdUN6UnFoaGZsRQ?oc=5",
+    "date": "Thu, 18 Jun 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-5",
@@ -3495,7 +3495,7 @@
   "id": "C-31",
   "title": "Budget 2025 Implementation Act, No. 2",
   "longTitle": "A second Act to implement certain provisions of the budget tabled in Parliament on November 4, 2025",
-  "status": "At consideration in committee in the House of Commons",
+  "status": "At report stage in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -3505,14 +3505,14 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Finance and National Revenue",
   "sponsorRiding": "Saint-Maurice—Champlain",
-  "latestActivity": "Pre-study of House bill",
-  "latestActivityDate": "2026-06-10",
-  "latestActivityChamber": "Senate",
+  "latestActivity": "Committee report presented",
+  "latestActivityDate": "2026-10-30",
+  "latestActivityChamber": "House of Commons",
   "committee": {
-   "acronym": "NFFN",
-   "name": "Standing Senate Committee on National Finance",
+   "acronym": "FINA",
+   "name": "Standing Committee on Finance",
    "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/NFFN"
+   "url": "https://www.ourcommons.ca/committees/en/FINA"
   },
   "stages": [
    {
@@ -3824,7 +3824,7 @@
   "id": "C-34",
   "title": "Safe Social Media Act",
   "longTitle": "An Act to enact the Digital Safety Act and the Digital Safety Commission of Canada Act and to make consequential amendments to other Acts",
-  "status": "At second reading in the House of Commons",
+  "status": "At consideration in committee in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -3834,10 +3834,15 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Canadian Identity and Culture and Minister responsible for Official Languages",
   "sponsorRiding": "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs",
-  "latestActivity": "Debate at second reading",
+  "latestActivity": "Second reading and referral to committee",
   "latestActivityDate": "2026-10-29",
   "latestActivityChamber": "House of Commons",
-  "committee": null,
+  "committee": {
+   "acronym": "CHPC",
+   "name": "Standing Committee on Canadian Heritage",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/CHPC"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -4391,6 +4396,18 @@
   ],
   "media": [
    {
+    "title": "‘Broken, but not beyond repair’: Bill C-39 gives collective bargaining a real chance",
+    "source": "iPolitics",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdkZKaDB1eTdGbGk1M3d4bEJSR0dHeVRXYTYzbUdLQllXTDQ1TDdqLWNHa1EzYWUwOF9FbDhZN1AxTzNTTGkzRFd2b3FESkNySEx6RGFmbXpvel9VcTRMZklhdzdxNmN6bklpWkYwc2dMS2llQ2pMSmpFcmUtel84V1BLZXYzbmlDMnM4OGY2RnJaNGs0aXdyNTZLLUlUQmtRSjlPSC1QN1VQeDMxRmlmcjRNRHZCUzM5?oc=5",
+    "date": "Fri, 30 Oct 2026 20:52:04 GMT"
+   },
+   {
+    "title": "Onion Lake opposes Bill C-39, Indian Act reform",
+    "source": "Meridian Source",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNVZhRDNzUWVsVnVxVWxFRGhncjg2ZkY1M2Q2d2hELUY3YlVDMVFDakZEd1BUWUN4VVhMR0tQUndneU9hMGxFSkZFd2VHc3VBbzZCNGotdC1QSnQzelowcXZmTWtaMGtWZXoySFdDckZ5WWdRemQzUGhPQ2ZtY3JQaEtHRkJPaElMTEVTLQ?oc=5",
+    "date": "Fri, 30 Oct 2026 14:04:23 GMT"
+   },
+   {
     "title": "Bill C-39: The Ordre des CRHA and CPHR Canada Call for Stronger Safeguards on the Use of Section 107",
     "source": "PR Newswire Canada",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMmRjQWJQR1ZZUzVOdVZqb2FaTUdyV0xlanp5RTdiYXRpejBhSkRkQkVrWEdYODYyby1YMmFJNkhSX01DNmN5N1hXVVdXM0dVYXAtSURzMURyNHNPVndRaTZwd3JGdDhwMjVCckFkZmdJS0VaRGpNdmZ2OUxYcVA1SXZFOFZveHFleTczZVB4SHVqODhlaWZBcE5xakhsekcxM2pxUkhFUm16OHhYQUlreFZ3SUFrSFh1TTJMdjBLNEtGVjk2MzdFc2FCS0tCM1p3WEZaODVNZDlwZGxwcndySTJMWC1wSFk?oc=5",
@@ -4413,18 +4430,6 @@
     "source": "National Post",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZlp4UTRwUU01YmNxREdtWDhFQ1JMejVudzBEQ3VSUzFpQmcxV3Y2RVY5U3RVX1FJZlBacldSbDVKa1AtZURyaHYwWDlhelpVS2d3SEk4VjVJUENkMi1xQ2lXNHJyQkMxSzNhV0U5NDZqR1RlRmJiNmJac3RxSFdZMWdleDd2SkxFdXRQazB4OA?oc=5",
     "date": "Thu, 29 Oct 2026 19:13:06 GMT"
-   },
-   {
-    "title": "Labour unions set up 'war room' to fight Carney's Bill C-39",
-    "source": "Yahoo News Canada",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80MW1oLXdBZi1oTFlVYnVSMEdpdnVUWFRMRjQ0WmVzVnE0UDdWVFVXSUZhaVFiQVdmaTR0UXdiM1RFNzl0bGVaV0NlallnQU9aOVMtS3hsdzdYdVBmdTJ0UWlUM0JaSVBQOHEtckFKWmlTcVh2dVE?oc=5",
-    "date": "Thu, 29 Oct 2026 19:10:28 GMT"
-   },
-   {
-    "title": "Rally and sacred fire planned at Aamjiwnaang over Bill C-39 concerns",
-    "source": "Sarnia News Today",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS1Brd3huTElZQzJiRVlLN3dkMUJ4XzR1LUlQWHVoRkdwZmNvQUQyVUxJeGVyTDdBWDBRNEVDYnRKZjJibF9RX3FpV2NmM2lvQTBvU1FJWURzRXZLUHYxQTlhVDhDcTY2ZlZHTWdZMGtsWm1ZQmtXYkFISHBvbUV3UC1RS0J3YmRnbjBNOGZDUVhINnBnSXBMeGlMTVU1d0UwVXhlbEh4Z3EwUldBX0g4ZlNBUWt6YVZJcFE?oc=5",
-    "date": "Wed, 28 Oct 2026 15:51:36 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -4535,8 +4540,8 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Justice",
   "sponsorRiding": "Central Nova",
-  "latestActivity": "Introduction and first reading",
-  "latestActivityDate": "2026-10-27",
+  "latestActivity": "Debate at second reading",
+  "latestActivityDate": "2026-10-30",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -12642,7 +12647,7 @@
   "id": "S-212",
   "title": "National Strategy for Children and Youth Act",
   "longTitle": "An Act respecting a national strategy for children and youth in Canada",
-  "status": "At second reading in the House of Commons",
+  "status": "Bill not proceeded with",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -12652,8 +12657,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Placed in the Order of Precedence",
-  "latestActivityDate": "2026-03-12",
+  "latestActivity": "Bill not proceeded with",
+  "latestActivityDate": "2026-10-30",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
