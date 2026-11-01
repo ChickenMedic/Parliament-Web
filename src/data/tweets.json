@@ -1,6 +1,32 @@
 {
   "liberal_party": [
     {
+      "id": "2116885094203789505",
+      "content": "Learn more: https://t.co/2GLbxQGtx8",
+      "date": "2026-11-01T13:28:30.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3697,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 2
+      }
+    },
+    {
+      "id": "2116885090055922041",
+      "content": "As former President and CEO of Desjardins, Guy Cormier brings exceptional economic and social leadership. \n\nHe’s ready to build a stronger future for Laurier—Sainte-Marie, Québec, and Canada, with Mark Carney and our Liberal team. https://t.co/f0JqG9VbnT",
+      "date": "2026-11-01T13:28:29.000Z",
+      "metrics": {
+        "bookmark_count": 13,
+        "impression_count": 64263,
+        "like_count": 439,
+        "quote_count": 31,
+        "reply_count": 109,
+        "retweet_count": 62
+      }
+    },
+    {
       "id": "2116542202839265752",
       "content": "Happy Halloween, Canadians! https://t.co/AuvuGToxrg",
       "date": "2026-10-31T14:45:59.000Z",
@@ -103,35 +129,22 @@
         "reply_count": 0,
         "retweet_count": 465
       }
-    },
-    {
-      "id": "2115833983766516145",
-      "content": "Learn more:\nhttps://t.co/Y6u7alCvAm",
-      "date": "2026-10-29T15:51:46.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 861,
-        "like_count": 4,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2115833979328729116",
-      "content": "With a strong record of leadership in the private sector and in public service, James Li has the experience needed to deliver real results for the people of Scarborough North.\n\nWe're excited to announce him as our Liberal candidate for the upcoming by-election! https://t.co/AndNoR1qwB",
-      "date": "2026-10-29T15:51:45.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 4193,
-        "like_count": 59,
-        "quote_count": 5,
-        "reply_count": 35,
-        "retweet_count": 14
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2116912289576001639",
+      "content": "RT @PierrePoilievre: In the upcoming by-elections, Canadians face a clear choice.\n\nMore of the same from the Carney Liberals: higher costs, more crime, and out-of-control immigration.\n\nOr the Conservative plan to save you money, save Canadian jobs, keep you safe, fix immigration, and restore the",
+      "date": "2026-11-01T15:16:34.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 160,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 281
+      }
+    },
     {
       "id": "2116324615748567198",
       "content": "RT @PierrePoilievre: You can’t pay your mortgage, rent, gas or groceries with another summit speech from Mark Carney.\n\nLet’s get real. https://t.co/hjHAWtbzAH",
@@ -248,22 +261,22 @@
         "reply_count": 0,
         "retweet_count": 115
       }
-    },
-    {
-      "id": "2115845104699355543",
-      "content": "RT @PierrePoilievre: Two people are fighting for their lives after a horrific shooting inside a Toronto home.\n\nNo one should ever go to sleep fearing for their life in their own home.\n\nThese criminals must be apprehended and face the full force of the law.\n\nMy prayers are with the victims and their",
-      "date": "2026-10-29T16:35:58.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 4,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 110
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2116607687224123886",
+      "content": "RT @avilewis: The same guy who was caught fixing the price of bread for years now claims that the big grocers have no control over prices.\n\nGive me a break.\n\nCanadians aren’t stupid. We see Galen getting richer and richer as grocery costs skyrocket. We know we’re being ripped off.\n\nIt’s time https://t.co/VG3z1k7i5T",
+      "date": "2026-10-31T19:06:11.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 97,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 694
+      }
+    },
     {
       "id": "2116296455866704383",
       "content": "RT @avilewis: Hamilton's steelworkers are at the heart of our economy, and we won’t stand by while a Trump-aligned CEO tries to wipe them out.\n\nYesterday, I rallied with Stelco workers to protest Cleveland-Cliffs' layoffs and their overt sabotage of our steel industry. Stelco’s owner has https://t.co/BYCLAv57Dj",
@@ -380,22 +393,22 @@
         "reply_count": 11,
         "retweet_count": 27
       }
-    },
-    {
-      "id": "2115918254766182736",
-      "content": "RT @sarobertson_: Avi Lewis on Stelco: \"The CEO has admitted on CBC that he bought this company in order to take out the competition for his U.S. steel mills. And now he's violating the law by by laying off hundreds of workers potentially right before Christmas. This is obscene.\" https://t.co/R9dec5sPZb",
-      "date": "2026-10-29T21:26:38.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 111,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 387
-      }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2116952711937638424",
+      "content": "Ce matin, c’est avec joie et détermination que nous avons donné le coup d’envoi aux trois campagnes électorales partielles en plein cœur de Rosemont—La Petite-Patrie. Nos trois candidats sont prêts et déjà sur le terrain depuis plusieurs semaines.   \n\nAvec Caroline Émond dans https://t.co/06YIqsvLTM",
+      "date": "2026-11-01T17:57:12.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 166,
+        "like_count": 5,
+        "quote_count": 1,
+        "reply_count": 1,
+        "retweet_count": 4
+      }
+    },
     {
       "id": "2116229220628414630",
       "content": "Couper des postes à Parcs Canada après avoir exproprié plus de 225 familles en Gaspésie, c’est insultant. Le gouvernement libéral doit revenir sur sa décision! https://t.co/oilKNWyI8I",
@@ -511,19 +524,6 @@
         "quote_count": 2,
         "reply_count": 1,
         "retweet_count": 4
-      }
-    },
-    {
-      "id": "2115058589983277441",
-      "content": "Persécutions, emprisonnements de journalistes et massacres de minorités, ce ne sont pas des valeurs communes M. Carney. https://t.co/xsk9zOZvCR",
-      "date": "2026-10-27T12:30:38.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 760,
-        "like_count": 18,
-        "quote_count": 0,
-        "reply_count": 4,
-        "retweet_count": 12
       }
     }
   ],
@@ -661,6 +661,19 @@
   ],
   "OurCommons": [
     {
+      "id": "2116893152673927358",
+      "content": "Today, we recognize Hindu Heritage Month in Canada.\n\nIt’s a time to recognize the rich heritage, history and traditions of Hindu communities across the country, and their many contributions to Canadian society. https://t.co/y2oQMdzWVd",
+      "date": "2026-11-01T14:00:32.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 270,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
       "id": "2116216289207226626",
       "content": "The legal fees reimbursed under the Legal Fees Policy of the Board of Internal Economy for the second quarter of  2026–2027 have been published: \n\nhttps://t.co/saADU2Fy8f https://t.co/GIA1GoSEct",
       "date": "2026-10-30T17:10:55.000Z",
@@ -776,22 +789,113 @@
         "reply_count": 0,
         "retweet_count": 18
       }
-    },
-    {
-      "id": "2113662029269446668",
-      "content": "Today, the Hon. Francis Scarpaleggia, Speaker of the HoC, received his poppy from Deputy Sergeant-at-Arms Paul Mellon.\n\nWearing a poppy is a meaningful way to pay tribute to those who gave their lives in service to our country.\n\n#CanadaRemembers https://t.co/ohK9ovYhvh",
-      "date": "2026-10-23T16:01:12.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 433,
-        "like_count": 10,
-        "quote_count": 1,
-        "reply_count": 0,
-        "retweet_count": 3
-      }
     }
   ],
   "MarkJCarney": [
+    {
+      "id": "2116944219956793756",
+      "content": "Guy Cormier a été président et chef de la direction de l’une des plus grandes institutions financières au Canada pendant près de 10 ans. Au cours de ses 30 années de carrière, il a défendu la finance responsable, travaillé à la lutte contre les changements climatiques et donné https://t.co/slbE94wuE8",
+      "date": "2026-11-01T17:23:27.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 15710,
+        "like_count": 151,
+        "quote_count": 6,
+        "reply_count": 49,
+        "retweet_count": 24
+      }
+    },
+    {
+      "id": "2116944132220584287",
+      "content": "Guy Cormier spent nearly a decade as President and CEO of one of Canada's largest financial institutions. Over his 30-year career, he’s championed responsible finance, worked to fight climate change, and empowered young people.\n\nNow, he’s ready to put his experience to work for https://t.co/6lipabNOcQ",
+      "date": "2026-11-01T17:23:06.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 19697,
+        "like_count": 293,
+        "quote_count": 6,
+        "reply_count": 69,
+        "retweet_count": 45
+      }
+    },
+    {
+      "id": "2116928968771211487",
+      "content": "Good conversation with President @realDonaldTrump on the future of Canada-U.S. trade.\n \nThis builds on our recent constructive discussions on the outlines of a mutually beneficial trade deal that would create jobs for our workers, boost affordability for families, and fully",
+      "date": "2026-11-01T16:22:51.000Z",
+      "metrics": {
+        "bookmark_count": 120,
+        "impression_count": 194671,
+        "like_count": 2587,
+        "quote_count": 129,
+        "reply_count": 783,
+        "retweet_count": 318
+      }
+    },
+    {
+      "id": "2116928852509491325",
+      "content": "J’ai eu une bonne conversation avec le président @realDonaldTrump sur l’avenir des échanges commerciaux entre le Canada et les États-Unis.\n\nCelle-ci s’appuie sur nos récentes discussions constructives sur les grandes lignes d’un accord commercial mutuellement avantageux, qui",
+      "date": "2026-11-01T16:22:23.000Z",
+      "metrics": {
+        "bookmark_count": 36,
+        "impression_count": 79852,
+        "like_count": 949,
+        "quote_count": 29,
+        "reply_count": 275,
+        "retweet_count": 136
+      }
+    },
+    {
+      "id": "2116631730043899911",
+      "content": "At the Canada-EU summit we forged a new Alliance for the Future built on shared history and common values. \n \nFor students who want to live and study abroad. For researchers seeking to push the boundaries of discovery. For entrepreneurs and businesses looking to reach new https://t.co/0Vo31zncbC",
+      "date": "2026-10-31T20:41:44.000Z",
+      "metrics": {
+        "bookmark_count": 68,
+        "impression_count": 95854,
+        "like_count": 2687,
+        "quote_count": 62,
+        "reply_count": 1148,
+        "retweet_count": 429
+      }
+    },
+    {
+      "id": "2116631346227638781",
+      "content": "Lors du Sommet Canada-UE, nous avons forgé la nouvelle Alliance pour l’avenir, qui repose sur l’histoire que nous partageons et nos valeurs communes.  \n \nPour les étudiants qui souhaitent vivre et étudier à l’étranger. Pour les chercheurs qui veulent repousser les frontières des https://t.co/fMDKjCAHQh",
+      "date": "2026-10-31T20:40:12.000Z",
+      "metrics": {
+        "bookmark_count": 27,
+        "impression_count": 47900,
+        "like_count": 1329,
+        "quote_count": 31,
+        "reply_count": 516,
+        "retweet_count": 235
+      }
+    },
+    {
+      "id": "2116589034277425405",
+      "content": "As a community leader, volunteer, and President of the Chamber of Commerce Brantford-Brant, Joy O’Donnell knows what matters to the people of Brantford—Brant South.\n\nShe’s ready to be a strong voice for her community in Ottawa.\n\nWelcome to the team, Joy. https://t.co/yT0P6kXlNB",
+      "date": "2026-10-31T17:52:04.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 33234,
+        "like_count": 515,
+        "quote_count": 11,
+        "reply_count": 182,
+        "retweet_count": 93
+      }
+    },
+    {
+      "id": "2116588465726837056",
+      "content": "Leader communautaire, bénévole et présidente de la Chambre de commerce de Brantford–Brant, Joy O’Donnell sait ce qui compte vraiment pour les gens de Brantford–Brant-Sud.\n\nElle est prête à défendre vigoureusement les intérêts de sa communauté à Ottawa.\n\nBienvenue dans l’équipe, https://t.co/WK5qmriFa1",
+      "date": "2026-10-31T17:49:49.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 23618,
+        "like_count": 191,
+        "quote_count": 3,
+        "reply_count": 66,
+        "retweet_count": 36
+      }
+    },
     {
       "id": "2116555862726816077",
       "content": "More opportunity, lower costs, and greater sovereignty on both sides of the Atlantic. https://t.co/8IoGi8uRW5",
@@ -817,113 +921,113 @@
         "reply_count": 129,
         "retweet_count": 23
       }
-    },
-    {
-      "id": "2116298798934704473",
-      "content": "Grâce à une alliance plus étroite entre le Canada et l’UE, les familles auront plus de choix et paieront moins cher. Les entreprises auront accès à de nouveaux marchés d’exportation. Les jeunes auront plus de possibilités de vivre, de travailler et d’étudier où ils le souhaitent. https://t.co/IPQcRP8cQ4",
-      "date": "2026-10-30T22:38:47.000Z",
-      "metrics": {
-        "bookmark_count": 30,
-        "impression_count": 63311,
-        "like_count": 2011,
-        "quote_count": 56,
-        "reply_count": 1197,
-        "retweet_count": 410
-      }
-    },
-    {
-      "id": "2116298488753643995",
-      "content": "A stronger Canada-EU alliance will deliver more choice and lower costs for families. New export markets for businesses. Greater opportunities for young people to live, work, and study where they want. https://t.co/iHuljA5OjZ",
-      "date": "2026-10-30T22:37:33.000Z",
-      "metrics": {
-        "bookmark_count": 31,
-        "impression_count": 64405,
-        "like_count": 1316,
-        "quote_count": 82,
-        "reply_count": 1473,
-        "retweet_count": 271
-      }
-    },
-    {
-      "id": "2116233559396720869",
-      "content": "Nous lançons une nouvelle Alliance pour l’avenir : un partenariat qui réunira le Canada, l’UE et d’autres pays qui partagent nos vues pour aborder des enjeux communs et consolider notre force collective. https://t.co/VTpiGJ7cYR",
-      "date": "2026-10-30T18:19:32.000Z",
-      "metrics": {
-        "bookmark_count": 35,
-        "impression_count": 52774,
-        "like_count": 1492,
-        "quote_count": 53,
-        "reply_count": 674,
-        "retweet_count": 249
-      }
-    },
-    {
-      "id": "2116233418954727730",
-      "content": "We are launching a new Alliance for the Future — a partnership that will bring together Canada, the EU, and other like-minded nations to address common issues and build our collective strength. https://t.co/uj5WtPCeZQ",
-      "date": "2026-10-30T18:18:59.000Z",
-      "metrics": {
-        "bookmark_count": 123,
-        "impression_count": 162177,
-        "like_count": 6740,
-        "quote_count": 156,
-        "reply_count": 1742,
-        "retweet_count": 1150
-      }
-    },
-    {
-      "id": "2116226402768867565",
-      "content": "Le Canada et l’UE s’efforcent d’établir le partenariat le plus étroit possible, qui sera loin d’une adhésion à part entière, mais qui fera du Canada le premier membre associé de l’Union européenne.\n\nAujourd’hui à Montréal, nous avons fait un grand pas en avant en établissant plus",
-      "date": "2026-10-30T17:51:06.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 9059,
-        "like_count": 126,
-        "quote_count": 5,
-        "reply_count": 46,
-        "retweet_count": 39
-      }
-    },
-    {
-      "id": "2116226328311849093",
-      "content": "Canada and the EU are working towards the deepest possible partnership — short of full membership — with Canada becoming the European Union’s first Associate Member.\n\nToday in Montréal, we took a major step forward with more than twenty new measures that will create greater",
-      "date": "2026-10-30T17:50:48.000Z",
-      "metrics": {
-        "bookmark_count": 29,
-        "impression_count": 20109,
-        "like_count": 515,
-        "quote_count": 25,
-        "reply_count": 208,
-        "retweet_count": 111
-      }
-    },
-    {
-      "id": "2116207044214833474",
-      "content": "EN DIRECT : du Sommet Canada-UE • LIVE: from the Canada-EU Summit https://t.co/GgGonWcL4Y",
-      "date": "2026-10-30T16:34:11.000Z",
-      "metrics": {
-        "bookmark_count": 19,
-        "impression_count": 22404,
-        "like_count": 275,
-        "quote_count": 7,
-        "reply_count": 120,
-        "retweet_count": 55
-      }
-    },
-    {
-      "id": "2116183132520976402",
-      "content": "Le Sommet Canada-UE est en cours.\n\nNous sommes ici pour tirer parti de nos atouts respectifs et mettre en place une nouvelle alliance ambitieuse.\n\nBienvenue à Montréal, Madame la Présidente von der Leyen et Monsieur le Président Costa. https://t.co/5WwwgxiXFh",
-      "date": "2026-10-30T14:59:10.000Z",
-      "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 30133,
-        "like_count": 780,
-        "quote_count": 18,
-        "reply_count": 385,
-        "retweet_count": 128
-      }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2116943796156174737",
+      "content": "Notre plan pour un budget qui vous fait économiser. https://t.co/dccJtgMskl",
+      "date": "2026-11-01T17:21:46.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 8821,
+        "like_count": 152,
+        "quote_count": 3,
+        "reply_count": 30,
+        "retweet_count": 22
+      }
+    },
+    {
+      "id": "2116927564446867658",
+      "content": "LIVE: Our Plan for a Budget that Saves You Money https://t.co/yQRL4JuTtJ",
+      "date": "2026-11-01T16:17:16.000Z",
+      "metrics": {
+        "bookmark_count": 11,
+        "impression_count": 21224,
+        "like_count": 422,
+        "quote_count": 16,
+        "reply_count": 94,
+        "retweet_count": 107
+      }
+    },
+    {
+      "id": "2116914081760248256",
+      "content": "Les Canadiens auront un choix clair à faire lors des prochaines élections partielles.\n\nSoit continuer sur la même voie avec les libéraux de Mark Carney : des coûts plus élevés, une hausse de la criminalité et une immigration hors de contrôle.\n\nSoit choisir le plan des",
+      "date": "2026-11-01T15:23:42.000Z",
+      "metrics": {
+        "bookmark_count": 14,
+        "impression_count": 31177,
+        "like_count": 1374,
+        "quote_count": 6,
+        "reply_count": 156,
+        "retweet_count": 226
+      }
+    },
+    {
+      "id": "2116909519431180363",
+      "content": "In the upcoming by-elections, Canadians face a clear choice.\n\nMore of the same from the Carney Liberals: higher costs, more crime, and out-of-control immigration.\n\nOr the Conservative plan to save you money, save Canadian jobs, keep you safe, fix immigration, and restore the",
+      "date": "2026-11-01T15:05:34.000Z",
+      "metrics": {
+        "bookmark_count": 21,
+        "impression_count": 41556,
+        "like_count": 1800,
+        "quote_count": 16,
+        "reply_count": 247,
+        "retweet_count": 281
+      }
+    },
+    {
+      "id": "2116896301170188633",
+      "content": "We need a budget that saves you money. My letter to the Prime Minister was on how to:\n\n1. Cut wasteful, inflationary spending.\n2. Keep his promises to reduce debt and deficits.\n3. Scrap fuel taxes to lower the cost of gas, groceries, and everything else.\n\nLower costs for Canada https://t.co/HnnxNVtF0z",
+      "date": "2026-11-01T14:13:02.000Z",
+      "metrics": {
+        "bookmark_count": 12,
+        "impression_count": 22809,
+        "like_count": 914,
+        "quote_count": 7,
+        "reply_count": 182,
+        "retweet_count": 162
+      }
+    },
+    {
+      "id": "2116896238125580770",
+      "content": "Nous avons besoin d’un budget qui vous permet d'économiser. Dans ma lettre au premier ministre, j’ai expliqué comment on peut y arriver :\n\n1. Réduire les dépenses inutiles et inflationnistes.\n2. Tenir ses promesses de réduction de la dette et des déficits.\n3. Supprimer les taxes https://t.co/sMn4tjSgpW",
+      "date": "2026-11-01T14:12:47.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 15767,
+        "like_count": 355,
+        "quote_count": 5,
+        "reply_count": 73,
+        "retweet_count": 66
+      }
+    },
+    {
+      "id": "2116682308082368985",
+      "content": "Batman forever🦇\n\nJoyeuse Halloween!🎃 https://t.co/KkZu9lo0mU",
+      "date": "2026-11-01T00:02:42.000Z",
+      "metrics": {
+        "bookmark_count": 67,
+        "impression_count": 140921,
+        "like_count": 6553,
+        "quote_count": 30,
+        "reply_count": 226,
+        "retweet_count": 325
+      }
+    },
+    {
+      "id": "2116605381040308529",
+      "content": "It should go without saying, Canadian jobs should go to Canadians first.\n\nBut Mark Carney’s Liberals are letting corporate powerbrokers use the foreign workers program instead of hiring Canadians.\n\nLiberals broke our immigration system. Sign to fix it and put Canadian workers https://t.co/anX0M8JyGH",
+      "date": "2026-10-31T18:57:02.000Z",
+      "metrics": {
+        "bookmark_count": 126,
+        "impression_count": 102164,
+        "like_count": 4584,
+        "quote_count": 32,
+        "reply_count": 320,
+        "retweet_count": 863
+      }
+    },
     {
       "id": "2116301734997876940",
       "content": "You can’t pay your mortgage, rent, gas or groceries with another summit speech from Mark Carney.\n\nLet’s get real. https://t.co/hjHAWtbzAH",
@@ -948,110 +1052,6 @@
         "quote_count": 12,
         "reply_count": 210,
         "retweet_count": 515
-      }
-    },
-    {
-      "id": "2116261660625404367",
-      "content": "In the real world, Canadians can’t afford anything. Food, fuel, rent, mortgages.\n\nMark Carney promised to make it better. Everything is worse.\n\nToday, he and the Liberals are distracting Canadians again with yet another grand summit about Europe. Big talk. What’s the result?\n\nNot",
-      "date": "2026-10-30T20:11:12.000Z",
-      "metrics": {
-        "bookmark_count": 128,
-        "impression_count": 129822,
-        "like_count": 6268,
-        "quote_count": 39,
-        "reply_count": 582,
-        "retweet_count": 1142
-      }
-    },
-    {
-      "id": "2116235011108257898",
-      "content": "RT @TolmieFraser: For Mark Carney, every day is Halloween. 🎃 \n\nBecause they’re handing out treats as fast as they can, and you’re the one paying for it. \n\nHere’s a question: if we took just some of their waste and measured it out in Mars Bars, how many bars would it be? \n\nWe took a look. https://t.co/8QKQqRqpjD",
-      "date": "2026-10-30T18:25:19.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 4722,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 59
-      }
-    },
-    {
-      "id": "2116213536343179435",
-      "content": "RT @Roman_Baber: Listen to Ursula:\n\n-close alignment on POLICIES \n-close alignment on GOVERNANCE \n-close alignment on PROGRAMS\n\nBut EU Policies, Governance &amp; Programs are a disaster! https://t.co/myjmV3niK8",
-      "date": "2026-10-30T16:59:59.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 2512,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 248
-      }
-    },
-    {
-      "id": "2116208402464375153",
-      "content": "The Seinfeld Summit: Distractions. Illusions. Meetings about nothing.\n\nWhen will he finally get real? https://t.co/W7QEL8MUP7",
-      "date": "2026-10-30T16:39:35.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 10853,
-        "like_count": 354,
-        "quote_count": 1,
-        "reply_count": 99,
-        "retweet_count": 75
-      }
-    },
-    {
-      "id": "2116188938951950417",
-      "content": "Iran's terrorist regime is suspected of financing gun-for-hire shootings on Canadian soil.\n\nSynagogues, a school, businesses, and the U.S. Consulate targeted.\n\nJewish Canadians and Iranian dissidents are being terrorized.\n\nWe must identify and deport every IRGC operative https://t.co/gE464s07Ii",
-      "date": "2026-10-30T15:22:14.000Z",
-      "metrics": {
-        "bookmark_count": 27,
-        "impression_count": 25294,
-        "like_count": 1190,
-        "quote_count": 21,
-        "reply_count": 264,
-        "retweet_count": 295
-      }
-    },
-    {
-      "id": "2116165760297148625",
-      "content": "Mark Carney's fuel standard tax is charging Canadians, and giving it to American corporations.\n\nConservatives will scrap this stupid tax to save you money and put Canada First: https://t.co/n5sYnbgurb https://t.co/TZdhgeUKif",
-      "date": "2026-10-30T13:50:08.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 14513,
-        "like_count": 427,
-        "quote_count": 9,
-        "reply_count": 52,
-        "retweet_count": 84
-      }
-    },
-    {
-      "id": "2116131609418043484",
-      "content": "More temporary foreign workers. \n\nLower wages and lost jobs for Canadians.\n\nMark Carney is only interested in profiting corporate powerbrokers at the expense of our working class. https://t.co/doE5d6THRT",
-      "date": "2026-10-30T11:34:26.000Z",
-      "metrics": {
-        "bookmark_count": 33,
-        "impression_count": 32833,
-        "like_count": 1858,
-        "quote_count": 16,
-        "reply_count": 159,
-        "retweet_count": 308
-      }
-    },
-    {
-      "id": "2115970316937601369",
-      "content": "A moving and fitting tribute to Private Aidan Goulding.\n\nPray for Wainwright. Pray for his family, his fellow soldiers, and all those mourning his loss. https://t.co/8nKEBJ1jvc",
-      "date": "2026-10-30T00:53:31.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 37584,
-        "like_count": 1140,
-        "quote_count": 0,
-        "reply_count": 24,
-        "retweet_count": 93
       }
     }
   ]
