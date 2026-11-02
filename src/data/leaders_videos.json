@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "CT4Yrcgl04M",
+    "title": "Prime Minister Carney delivers remarks at the Canada-European Union Summit",
+    "date": "2026-11-02T16:02:33+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/CT4Yrcgl04M/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "HbLbBIU6Ey4",
     "title": "Canada announces landmark investment in Cohere to scale secure, sovereign AI",
     "date": "2026-10-30T22:59:04+00:00",
@@ -21,53 +28,61 @@
     "date": "2026-10-28T18:09:13+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/ZoYl_8yKGmc/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "UV9Utb6L3n4",
-    "title": "Building Canada strong in true partnership with First Nations",
-    "date": "2026-10-26T13:30:06+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/UV9Utb6L3n4/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "EB1eQ2lxUz8",
+    "title": "Carney leaves for Commonwealth summit in Caribbean",
+    "date": "2026-11-02T21:33:02+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/EB1eQ2lxUz8/hqdefault.jpg",
+    "channel": "CBC News"
+   }
+  ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "2lzR6Ub3kCI",
+    "title": "Brantford! Vote to put Canada First.",
+    "date": "2026-11-02T01:38:14+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/2lzR6Ub3kCI/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "Iv9Qp_HzJGs",
+    "title": "When a vulnerable child goes missing, every second counts.",
+    "date": "2026-11-01T20:24:20+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/Iv9Qp_HzJGs/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "rUHkwopWkSM",
+    "title": "Lorsqu’un enfant vulnérable disparaît, chaque seconde compte.",
+    "date": "2026-11-01T20:22:42+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/rUHkwopWkSM/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "5gd_Z9GWonM",
     "title": "Notre plan pour un budget qui vous fait économiser.",
     "date": "2026-11-01T17:22:47+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/5gd_Z9GWonM/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "2cd5pPr3nmc",
-    "title": "LIVE: Our Plan for a Budget that Saves You Money",
-    "date": "2026-11-01T16:40:48+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2cd5pPr3nmc/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "eqISvykp0_o",
-    "title": "Let’s get real.",
-    "date": "2026-10-30T22:54:41+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/eqISvykp0_o/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "MimnJ4lz3wU",
-    "title": "When will he finally get real?",
-    "date": "2026-10-30T16:40:48+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/MimnJ4lz3wU/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
    {
+    "videoId": "xsVhhDEoXow",
+    "title": "Poilievre challenges Liberals to axe taxes on fuel ahead of federal budget",
+    "date": "2026-11-02T21:35:48+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/xsVhhDEoXow/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
     "videoId": "rZoyDM5-rw4",
     "title": "Conservative Leader Pierre Poilievre criticizes government spending ahead of 2026 federal budget",
-    "date": "2026-11-01T13:04:25+00:00",
+    "date": "2026-11-01T19:34:47+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/rZoyDM5-rw4/hqdefault.jpg",
     "channel": "CPAC"
    }
