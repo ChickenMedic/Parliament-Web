@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "aHxVS0oc1ds",
+    "title": "Canada’s new Strategic Partnership with the UAE",
+    "date": "2026-11-02T22:55:57+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/aHxVS0oc1ds/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "CT4Yrcgl04M",
     "title": "Prime Minister Carney delivers remarks at the Canada-European Union Summit",
     "date": "2026-11-02T16:02:33+00:00",
@@ -21,53 +28,60 @@
     "date": "2026-10-29T13:42:48+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/mdmKugFaal8/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "ZoYl_8yKGmc",
-    "title": "Protecting Canadian jobs and making bold investments",
-    "date": "2026-10-28T18:09:13+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/ZoYl_8yKGmc/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "EB1eQ2lxUz8",
-    "title": "Carney leaves for Commonwealth summit in Caribbean",
-    "date": "2026-11-02T21:33:02+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/EB1eQ2lxUz8/hqdefault.jpg",
+    "videoId": "TPJshfjACzA",
+    "title": "Carney holds news conference at Commonwealth meeting",
+    "date": "2026-11-03T18:23:42+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/TPJshfjACzA/hqdefault.jpg",
     "channel": "CBC News"
+   },
+   {
+    "videoId": "ut7GMYTMk0A",
+    "title": "PM Carney attends working breakfast with Caribbean leaders in St. John's, Antigua and Barbuda",
+    "date": "2026-11-03T14:30:07+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/ut7GMYTMk0A/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "QoWZlfA25fQ",
+    "title": "PM Carney meets with Antigua and Barbuda PM Browne in St. John's, Antigua and Barbuda",
+    "date": "2026-11-03T14:28:25+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/QoWZlfA25fQ/hqdefault.jpg",
+    "channel": "CPAC"
    }
   ]
  },
  "opposition": {
   "own": [
    {
+    "videoId": "n_T9PSLEL5o",
+    "title": "Tick tock goes the Liberal debt clock.",
+    "date": "2026-11-03T00:17:54+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/n_T9PSLEL5o/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "EsuCOsxdeYw",
+    "title": "Le compteur de la dette des libéraux tourne.",
+    "date": "2026-11-03T00:17:51+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/EsuCOsxdeYw/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "8OfwI7xczs8",
+    "title": "Putting Canada first means putting Canada's veterans first.",
+    "date": "2026-11-02T22:22:35+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/8OfwI7xczs8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
     "videoId": "2lzR6Ub3kCI",
     "title": "Brantford! Vote to put Canada First.",
     "date": "2026-11-02T01:38:14+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/2lzR6Ub3kCI/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "Iv9Qp_HzJGs",
-    "title": "When a vulnerable child goes missing, every second counts.",
-    "date": "2026-11-01T20:24:20+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/Iv9Qp_HzJGs/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "rUHkwopWkSM",
-    "title": "Lorsqu’un enfant vulnérable disparaît, chaque seconde compte.",
-    "date": "2026-11-01T20:22:42+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/rUHkwopWkSM/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "5gd_Z9GWonM",
-    "title": "Notre plan pour un budget qui vous fait économiser.",
-    "date": "2026-11-01T17:22:47+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/5gd_Z9GWonM/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
@@ -78,13 +92,6 @@
     "date": "2026-11-02T21:35:48+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/xsVhhDEoXow/hqdefault.jpg",
     "channel": "Global News"
-   },
-   {
-    "videoId": "rZoyDM5-rw4",
-    "title": "Conservative Leader Pierre Poilievre criticizes government spending ahead of 2026 federal budget",
-    "date": "2026-11-01T19:34:47+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/rZoyDM5-rw4/hqdefault.jpg",
-    "channel": "CPAC"
    }
   ]
  }

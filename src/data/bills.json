@@ -234,6 +234,12 @@
     "date": "Thu, 29 Oct 2026 17:01:55 GMT"
    },
    {
+    "title": "Canada expands the right to citizenship by descent after the implementation of Bill C-3",
+    "source": "arabcanadanews.ca",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZC0wVHpROGdqUHg2S0VPZlBGQUVDU2ZuTk1RM2xjcmU5ZzNVSW00azJfY2dJLVhtTkN1ZzZLcmdBUjFfcUh6TW5pdThLS3lET0dUZEF6Nk5LTkRXOXVlSWNhTTBOMXEwN0wyUHZyc2RKQ0dLNDhSVENvMDB2dXh3ekRRbHFwQlBzbFpXXzhSZ3l2SjBIU2xGWENXSVVnRE03Y0l0RXdtWkJQa2xPZHRMZF90MWJvcTFsYTd4dklDUXhqQQ?oc=5",
+    "date": "Thu, 29 Oct 2026 19:37:27 GMT"
+   },
+   {
     "title": "Bill C-3: 280,000 Lost Canadians Could Move to Canada",
     "source": "Immigration.ca",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSGFIOEk5MlRySDVMNXNTZzVrMGdWMU1iNUJCQ0xHclpxdGhHM2VJYXNicGRldmplc29PMXZ2eDcwY3NqWmFXMlgteWdDLTR2dUdpQkJCdUFOVTloRlZCRC11TWhGaWNLbGtMeUlsSlBEenBSV3FFSGxkbS14RkprRA?oc=5",
@@ -244,12 +250,6 @@
     "source": "SSBCrack",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYWxTQUZKN1d4Sm1rNHdkc202anB6cTdneGU2ZDBtTGdIcnlWYklTVmphVXdlSnlGUG1MNTAtYlRYcFZCZTNaWnVhMWI0YXIza2Z2a1NuU1dLZ3NiVS1DZExsTEE1bGxjeFhDbzJZNlN2ckl3VGlKeklSd1gzMy1KS2ZzS0tCSDVlc1JiNW1Xd2cxUVVCeXpyRV9uSVVONkREMFV0TG1pOThqTHMxNlJVTHg1WQ?oc=5",
     "date": "Sat, 24 Oct 2026 00:18:30 GMT"
-   },
-   {
-    "title": "New data shows how IRCC handled urgent proof of citizenship requests in Bill C-3’s first eight months",
-    "source": "CIC News",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWl9OYl90VXhYWmJWRHpPZGV0ajhaeGU1ZDF0WXVTZjVzNTA4UDd2NjRPNTY4QXVMYXQ1elZ5a0ZmSFVkWFNpeWpQaWQ0dUs1dEphcWFrdHVKVzZ0WFFNeUQ5NEZEanRnaThGeEp5TEx4YkNHVFhYRGRHaWVndmUxTUItbkdwZ1dlQURZcXFWd0RyTVpMREVybFg4WUxZSTlsU05YbW83eURsQ1k3cEhLUUlRLXBVUVhfM3dkVlVSeDNFWmFJeXhHMzB1ZWhRdThpV2JBdGFSLUpCWmgwTHfSAeMBQVVfeXFMTnh0VURNTlRadnhSTzc5ZFh1UkNmRnA4QnlnbGpjUldLRDhjY0FYemFvcmF2YzJ2c3FVdzVqNTFqUGxmR2VabHVNd3lBdHlNek10a0ZoQXJiRHk4ZWhSUUdLRjQxSHFrbEw5Y1ZvOUhFUXhRdmo3R3k1aWthTzhjTGVWODFMWXlIN2NZcVZGS1l4T185Y2FNcndxWFFWV2Q2NGk4VTZsWjAwMmJfVENhdFZ2eTdlM3lReDhwdTRDNTdFa1pLT0tsbk1XRVRSc0ktVk5ER09ZNHBHa1R1U1JIalNwcUk?oc=5",
-    "date": "Fri, 23 Oct 2026 11:07:38 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-3",
@@ -952,14 +952,14 @@
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
   "category": "Justice",
-  "sponsor": "Hon. Sean Fraser",
+  "sponsor": null,
   "sponsorParty": "Liberal",
-  "sponsorRole": "Minister",
-  "sponsorTitle": "Minister of Justice",
-  "sponsorRiding": "Central Nova",
-  "latestActivity": "Royal assent",
-  "latestActivityDate": "2026-06-18",
-  "latestActivityChamber": "Senate",
+  "sponsorRole": null,
+  "sponsorTitle": null,
+  "sponsorRiding": null,
+  "latestActivity": null,
+  "latestActivityDate": null,
+  "latestActivityChamber": null,
   "committee": null,
   "stages": [
    {
@@ -1115,7 +1115,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-9",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-9/royal-assent"
+  "text_link": null
  },
  {
   "id": "C-10",
@@ -1650,14 +1650,14 @@
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
   "category": "Defence",
-  "sponsor": "Hon. Sean Fraser",
+  "sponsor": null,
   "sponsorParty": "Liberal",
-  "sponsorRole": "Minister",
-  "sponsorTitle": "Minister of Justice",
-  "sponsorRiding": "Central Nova",
-  "latestActivity": "The Senate does not insist on its amendment(s)",
-  "latestActivityDate": "2026-06-15",
-  "latestActivityChamber": "Senate",
+  "sponsorRole": null,
+  "sponsorTitle": null,
+  "sponsorRiding": null,
+  "latestActivity": null,
+  "latestActivityDate": null,
+  "latestActivityChamber": null,
   "committee": null,
   "stages": [
    {
@@ -1773,7 +1773,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-14",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-14/royal-assent"
+  "text_link": null
  },
  {
   "id": "C-15",
@@ -2669,6 +2669,18 @@
   "votes": [],
   "media": [
    {
+    "title": "Eyes Wide Open: Bill C-22, Surveillance, and Democratic Trust – NAOC",
+    "source": "NATO Association",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONGY3NVFxaXhxbzMySUlwdzgybzdfdlNQZkxKVEFzYTNQdGYwdm42RngzcjVrLVdvaWF3MWFNUUdaamE1amR6WnB0T1pwQ3dkaDlnOUpZX1BTWHRoXzk3VlVfSmVDUlFYTjdzVUszTTRJQ1BoMkZmWDRnWmZYc3Awa2tuWVlZS293b1hlczdfSQ?oc=5",
+    "date": "Tue, 03 Nov 2026 14:30:00 GMT"
+   },
+   {
+    "title": "Privacy commissioner says Bill C-22 must change to protect Canadians",
+    "source": "BetaKit",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOck9mWXp4dEotd0xscHduSVFkc2tyaEdtQlNnVDRrX1ZJc2VQOHdzY0hvd3BtTmw3UEpHLUhkSDZ2X2F5ZDdSWVluTWtIVHdHcUgzZHd4LVdRZzdWQWlqajhyNHpnaGJjWWpYcjNVRmttdmwwdXBOVk1yVEZRbHhwLUNKSGtyOXVjd0ZOQjNibUg2TkI2Z2VZSWk5eWpTQQ?oc=5",
+    "date": "Tue, 03 Nov 2026 19:00:16 GMT"
+   },
+   {
     "title": "Bill C-22 threatens Canadians’ online privacy, constitutional lawyer warns Senate",
     "source": "Justice Centre for Constitutional Freedoms",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaFNoWmNOS1JGYXdpV05yaXB0Y1FuM2VuaU1oS1d0RlBmdmdRUzNXS0VxYWxFbzFYdkp4ejBMU3Q0Q0pFcTJjTTFmWEtzalk1ZF9WS0J4ci1QUGs0bVBCbld6cFo2YTcyYjQxcFpXc1JpdGRkYkNCOHBSVkFzZVZSNC1mOFdqQVRMZ3k2N2hKQkhSUGpKcFFYMmFzQjhRYlJ6M3c?oc=5",
@@ -2691,18 +2703,6 @@
     "source": "Todayville",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFQxSFBHN01hU1E2UlNLemVfYWttOTFBUVgxTGN3ZWRsSzJVcUU1RERJeWxPSGdWS3lhWFlrbUVGQnRDN25WUUliNnctV1pCeEFrb0toTnNTUmJrUW9zQ0NjR1RUbzdpMVF1TURBYjBDWERocng0dFRqYUk1V1NhYWdB?oc=5",
     "date": "Sat, 24 Oct 2026 22:31:21 GMT"
-   },
-   {
-    "title": "Canadians Are Running Out Of Time To Oppose The Dangerous C-22 Surveillance Bill",
-    "source": "Electronic Frontier Foundation",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS1dKUUR1SUNkUHhiTVVBaGQ4blJOazUzR1RMN21pRUFiQ3k4dlhJWGZKWE1LZkhfU2x0S3ZfNE1IUEFwZ3JkVDlqU3dXQXYtSmpVZ1psVGFYMmd0cy1PQ0Q4aVpYRmZqMGhtcm1USVMzYUtBeVkwSmtkZG9maHJqRUs5WGJvTTlTV0xTWERJbk9TLUw2NEVvVHltS3FnSzhPSkRfcGdWNjl1OExt?oc=5",
-    "date": "Thu, 22 Oct 2026 22:10:21 GMT"
-   },
-   {
-    "title": "Business Brief: Proton’s negative reaction to Bill C-22",
-    "source": "The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMmxfTzhDLUVFVHJ5MWxuekJZc0lxYkNnNWdQT25lUEpHekowbFBFYXBRam5BVWZ4aFdKSXo3RkZoUFpCX1lGRmRPUGM2VTZ5Y0JlbEdpM0FjY3lYaU54dE5aQXAyZS1ZWWhYd0ZBSkxJUTRVZjA3dkJfQ3VoQU1FVndtS0t0UUFweXdPeVhNUnlHbmc1YTdpejlUZTJVX1U1VTJOdWZB?oc=5",
-    "date": "Thu, 22 Oct 2026 10:29:32 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22",
@@ -3311,6 +3311,12 @@
   "partyPositions": null,
   "votes": [],
   "media": [
+   {
+    "title": "Remarks to the Standing House of Commons Committee on Justice and Human Rights re Bill C-29 - An Act to establish the Financial Crimes Agency",
+    "source": "Canadian Bankers Association",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeVlaOTA1b2xIbWpRcVBrblpOTUlfd2dVYUxEcVBZZmEtSkF3eHJSdm5LekpQaWtnWUtOalk4UmhISU50bTFoejhSQ2pLRmpLQUJUMnlJTDFtazJuMHpxeEdmUjh3ZFJ2TTNOR28tWVo2R3pxdEtoR3c2Y2s5bU8xUVg0RWVQa3NBMjdwMjlTWjY?oc=5",
+    "date": "Mon, 02 Nov 2026 08:00:00 GMT"
+   },
    {
     "title": "Financial Crimes Agency in Bill C-29: a Small Start in Modernizing Federal Policing",
     "source": "Centre for International Governance Innovation",
@@ -4396,6 +4402,24 @@
   ],
   "media": [
    {
+    "title": "Quebec unions warn labour disputes could skyrocket if federal reform Bill C-39 passes",
+    "source": "CityNews Montreal",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbXVJcVpFRFd0ZURjMHFyRjFuMGFBRG1venAzeXRNQU5mVmhLZmNGd3lNd00yaGdnRk9VeFpDbnJEX193U19kM3JPdW0zSUtHV2tTa1ZmeWJLN3Y2ZlJ6d3pXZ1c5X0RjcVBqV2dxSWRBVzVZd2lHNndDT2xHeVVoclhDaVJuaVItSlkxSmlHbjU?oc=5",
+    "date": "Tue, 03 Nov 2026 18:05:52 GMT"
+   },
+   {
+    "title": "Bill C-39 represents 'mass dilution' of First Nations rights, nature protections: AFN national chief",
+    "source": "CBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52Sm92a2pla2g3b1d3dDU0dGJCMHFUVVhsSVgyQUg1UDN6b0M0RFJFT1d6NkNhWlA3LVlzLUtPNkllOHFucEkwSzdkMjFKWmVqMDQ0VW9HcW1Xdw?oc=5",
+    "date": "Tue, 03 Nov 2026 17:08:55 GMT"
+   },
+   {
+    "title": "Scholars call on Ottawa to amend bill C-39",
+    "source": "The Ubyssey",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nZlpEODg5R3pDSDl5cjlpUW1JVDVPRXlhQXU1VnFySmt1NTF4YVZBdFZQaHBzZGxLRmNydkUyM3BoYjR6SnFVRl9OUHFtSHExNFBUV2ktMlViQ2tmVFE?oc=5",
+    "date": "Tue, 03 Nov 2026 07:00:22 GMT"
+   },
+   {
     "title": "Bill C-39 risks undermining the economy it is meant to build",
     "source": "The Hub | More Signal. Less Noise.",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0d2clNOVk9QMkxGdnRsdHliYUNFd0tEcFlEZDRISlpsTXJJMWdiWmdVTVlXSkZMZHBFZzNPd3d0TF9VUWNWc3F0ZHBCbnVVa0wzdW1UeTZuQmdsLVdwM1pMb3h3bkF5dVhQd0N5VXkxcjBiSXQtVDZjaHEyYjQ3bU1JcURSVkNOcWZiVlpicVpzOWU2?oc=5",
@@ -4412,24 +4436,6 @@
     "source": "Canadian HR Reporter",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTU5HZnpyaDdYcEwxSGFPekNhXzE0XzJzNlNDTEhkYUgwM0thMXJZMFFSVUhVenJxemR4RmVVOVdzSDJZeGI3X3FvdXNwczlKM0VoZXZRVWZMdm1WZ0YtbHctbGpSMVB0OXF1UllYZy1nOVJvaWtDRjB4TV9wZmJrYzA1V0t3TkI4bjI1REY2MmR1YTRqc25raHNaM0dySUU2QVlfRTF2dmpLUzBqUUdrejZKdDZwOWtEMm51U2NGSDNSaU5SNXdBdGk3ZExXSHc?oc=5",
     "date": "Mon, 02 Nov 2026 15:11:02 GMT"
-   },
-   {
-    "title": "Legislative Committee on Bill C-39 – November 3, 2026",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSlNzanBOalBnc09IRk9US0ZwMTlVWGVxZGxVN19vakpGQmR3QngzOV83NTdzMFlSUkt2OXgxNmZwU2Y2STlVTkpzRmREZUFMbTF4NkdGVFZlaDVPT0pvd1FIY3ZFVUZzVU9MRTlpckRycXhIQW1oZkl3bGlTdUJFdkZISExnVFJ2TUFZREtsVWpDQTFoVFBWakJpNnFRT2lnU2dCdFFMakZwOWc4TlNYUm1XZkpsN0EwbDktQ2lMcVZTRV90WjhxLWdRTUxiLU5UaGtUSEhheDIxMTZNTmtXLTc0WDkwcm9TTmY1czZZSQ?oc=5",
-    "date": "Mon, 02 Nov 2026 21:08:45 GMT"
-   },
-   {
-    "title": "Legislative Committee on Bill C-39 – November 2, 2026 - In Committee from the House of Commons",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMlNkSXQ1MVFELWgyMFlkbS1YeUwyZ0xmbm5kTy1jT2pHRnR4Z21HNDdZLWdkRzQwb3hTUjltaGo4U2FtME1ZSHhQNElLTnhTRUhfZjNoMUlwek5DUjVJV1I1S2lqT3J1MkRnbWFvS0FVeW5HUGo2ZE9GdWY3YjlmS3pOTnFqVzNLdDB2ZU9weU8tUFhNU1ZXMWtGRW9DbFB1Q2dlNjMyaHpuOTE2MWdkbG42OEVIVXpzdHh2NzJnYng3a3NkLWJIWDBjYVNoNG43cVBrTFdOb2VMTDNzci05Z1NDQW1vZnpoTlFVaEJXUQ?oc=5",
-    "date": "Mon, 02 Nov 2026 02:34:30 GMT"
-   },
-   {
-    "title": "Special Senate Committee on the Building Canada Strong Act – November 2, 2026",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPT1NUX0FkSWRNd0VTYk5xMVFIZnQ1UzkyenRjVkh4Z3gyOC0yZGZZZjZKVlpRbDlOSHJFYmNQWTN2OHd4NXJWM18xcGcxRGNEaUEtc0Rsb0x2dUgyVTFxVFFGVUhVMGo1WkdaV3hxa2RtSHp6NTRtMW5NT1g0X0YxSGszUU1rTnZVQUtxVVpCNjUwZm5nTWJVY1plYlN6YTE0bmJKVENDaWxCVlpoRTIzb19seXZfaDdVa0o2QTJpRDhWOG1FdEkyRE9yTlBTbExWS3lUX0xjWTYtWFlfX0E0NFlId3VETzlnblItVjZ1MDlmWWtTUWs4U0pGUHRwVF9Fa3lFSGhOZnNCR0dtSjM4?oc=5",
-    "date": "Sun, 01 Nov 2026 23:04:30 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -10252,7 +10258,7 @@
   "sponsorTitle": null,
   "sponsorRiding": "Calgary Centre",
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-06-15",
+  "latestActivityDate": "2026-11-02",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -12779,7 +12785,7 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "First reading",
+  "latestActivity": "Placed in the Order of Precedence",
   "latestActivityDate": "2026-11-02",
   "latestActivityChamber": "House of Commons",
   "committee": null,
