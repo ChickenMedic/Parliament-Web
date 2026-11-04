@@ -952,14 +952,14 @@
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
   "category": "Justice",
-  "sponsor": null,
+  "sponsor": "Hon. Sean Fraser",
   "sponsorParty": "Liberal",
-  "sponsorRole": null,
-  "sponsorTitle": null,
-  "sponsorRiding": null,
-  "latestActivity": null,
-  "latestActivityDate": null,
-  "latestActivityChamber": null,
+  "sponsorRole": "Minister",
+  "sponsorTitle": "Minister of Justice",
+  "sponsorRiding": "Central Nova",
+  "latestActivity": "Royal assent",
+  "latestActivityDate": "2026-06-18",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -1115,7 +1115,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-9",
-  "text_link": null
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-9/royal-assent"
  },
  {
   "id": "C-10",
@@ -1650,14 +1650,14 @@
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
   "category": "Defence",
-  "sponsor": null,
+  "sponsor": "Hon. Sean Fraser",
   "sponsorParty": "Liberal",
-  "sponsorRole": null,
-  "sponsorTitle": null,
-  "sponsorRiding": null,
-  "latestActivity": null,
-  "latestActivityDate": null,
-  "latestActivityChamber": null,
+  "sponsorRole": "Minister",
+  "sponsorTitle": "Minister of Justice",
+  "sponsorRiding": "Central Nova",
+  "latestActivity": "The Senate does not insist on its amendment(s)",
+  "latestActivityDate": "2026-06-15",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -1773,7 +1773,7 @@
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-14",
-  "text_link": null
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-14/royal-assent"
  },
  {
   "id": "C-15",
@@ -3511,15 +3511,10 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Finance and National Revenue",
   "sponsorRiding": "Saint-Maurice—Champlain",
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-10-30",
+  "latestActivity": "Debate at report stage",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "House of Commons",
-  "committee": {
-   "acronym": "FINA",
-   "name": "Standing Committee on Finance",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/FINA"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "houseFirstReading",
@@ -4402,6 +4397,18 @@
   ],
   "media": [
    {
+    "title": "Will Bill C-39 strike curbs really stop work disruptions?",
+    "source": "Human Resources Director",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcjVMZmdTM08wUDJkendwRzNaQnhhWVBPV2RjTi1pbDg4NjdxWE16OEJRbDN2RFdEMGpNSWVaajhibjVCbjZObWFfWUpVdDdDLU0zaUpLRndOQUxGSEdEeGtuaVdqSm84eU1ib2ZSbHY5d2U5aGNCb1dFWUpPZkE5aGJBbzJ5NG41X2NjRGUyQUJpb0RDam9iU0g4c2lzMGY0NzNxc2VvR19IRzdlV01MYU9lY3RsSnhLR3hN?oc=5",
+    "date": "Wed, 04 Nov 2026 14:57:09 GMT"
+   },
+   {
+    "title": "Liberals Vote Down More C-39 Hearings After Unions Line Up Against Strike Powers",
+    "source": "Todayville",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkJzMndxdGxnUGVFNjloVUViR0dvak9LRUdMeGVrSm9tak5GUmJLZExETjdja0kzM1RtdjdBYU1ZdWtlQ2pTWGg0NVRha3hUYy1IcUlrMW01a3VLTl9xMlo5WGJGcnNBN2pVczhjdWpLVUlURXB4VXF3cUk2aTJkM3d0R01JLS1fQlJSR3p6U1o1MDVWd1B6WndmeDlDNU1DZER2Ul9wS2d1MkFreDdleEs0bUFrYlVI?oc=5",
+    "date": "Wed, 04 Nov 2026 15:42:41 GMT"
+   },
+   {
     "title": "Quebec unions warn labour disputes could skyrocket if federal reform Bill C-39 passes",
     "source": "CityNews Montreal",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbXVJcVpFRFd0ZURjMHFyRjFuMGFBRG1venAzeXRNQU5mVmhLZmNGd3lNd00yaGdnRk9VeFpDbnJEX193U19kM3JPdW0zSUtHV2tTa1ZmeWJLN3Y2ZlJ6d3pXZ1c5X0RjcVBqV2dxSWRBVzVZd2lHNndDT2xHeVVoclhDaVJuaVItSlkxSmlHbjU?oc=5",
@@ -4420,22 +4427,10 @@
     "date": "Tue, 03 Nov 2026 07:00:22 GMT"
    },
    {
-    "title": "Bill C-39 risks undermining the economy it is meant to build",
-    "source": "The Hub | More Signal. Less Noise.",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0d2clNOVk9QMkxGdnRsdHliYUNFd0tEcFlEZDRISlpsTXJJMWdiWmdVTVlXSkZMZHBFZzNPd3d0TF9VUWNWc3F0ZHBCbnVVa0wzdW1UeTZuQmdsLVdwM1pMb3h3bkF5dVhQd0N5VXkxcjBiSXQtVDZjaHEyYjQ3bU1JcURSVkNOcWZiVlpicVpzOWU2?oc=5",
-    "date": "Mon, 02 Nov 2026 08:00:12 GMT"
-   },
-   {
-    "title": "COMMENTARY: Ottawa’s Bill C-39 Gives Cabinet Permanent Power Over Project Approval - Fraser Institute",
-    "source": "EnergyNow",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEdsNnBDTTloNWpUSmxHaElxdVVrYjBVZmFQOEJDNzFsXzRMNmE4c1FCQVZzSXZuRkhBSTdqOGFGWjA3b3JhR1NhX2V6TW5yRHJ6N3cyc01GSUR3b3FLTjRlT0UyVkZGTUI2TjBCNDJoaWhESzlYTU1vVmNlT29hR2VTZFU4cjdJYWx0V21DZTZMeS11b3JzSUJ0VGRjX3lYY1h2RXYzbHNXT2pFQnZPR3ZOYld0Zm40eHVWM1hnQm8xamFLQkE?oc=5",
-    "date": "Mon, 02 Nov 2026 12:07:17 GMT"
-   },
-   {
-    "title": "HR groups urge Ottawa to rein in minister's power to end federal strikes under Bill C-39",
-    "source": "Canadian HR Reporter",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTU5HZnpyaDdYcEwxSGFPekNhXzE0XzJzNlNDTEhkYUgwM0thMXJZMFFSVUhVenJxemR4RmVVOVdzSDJZeGI3X3FvdXNwczlKM0VoZXZRVWZMdm1WZ0YtbHctbGpSMVB0OXF1UllYZy1nOVJvaWtDRjB4TV9wZmJrYzA1V0t3TkI4bjI1REY2MmR1YTRqc25raHNaM0dySUU2QVlfRTF2dmpLUzBqUUdrejZKdDZwOWtEMm51U2NGSDNSaU5SNXdBdGk3ZExXSHc?oc=5",
-    "date": "Mon, 02 Nov 2026 15:11:02 GMT"
+    "title": "AFN says Bill C-39 ‘fundamentally flawed,’ calls for its withdrawal",
+    "source": "APTN News",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU1ZHRmxyZ1VuanJocThjR1Q5TnFCVERfQzhMQ3ctZ0J4cFdDZnpJV2hNVkVPeGFHclBSdGpFcTVVNFE3bW5meDBiT0lmMVNXT2lGR0ExUDdTY2dLelg5OUlSRHR0WG5RNnczR2pacmtMWjlLSU9kVndnZWo3eEhaTTFsOEI4dkZ6dTA0RndRcXdtVVEtZHgxaUNpV1ZQcWF0VUJDMWNR?oc=5",
+    "date": "Tue, 03 Nov 2026 23:02:12 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -4591,6 +4586,12 @@
   "votes": [],
   "media": [
    {
+    "title": "Quick debate on C-41, opposition mounts",
+    "source": "The B.C. Catholic",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50Z0VpRzZXY0xIR1hHSnNldEFnUERwTzBMRmh1YnF5MWd5bWd3eDFuTnNIRXBjSDVPNEVMdEpVYUV4YmlmaXYtN1hFX2ZBN19NRXNEWF93N2E3X0RyeHRuX3FXWUZqdGpCdzR6RFpB?oc=5",
+    "date": "Tue, 03 Nov 2026 21:42:09 GMT"
+   },
+   {
     "title": "Proposed changes to medical assistance in dying laws under Bill C-41",
     "source": "Borden Ladner Gervais LLP (BLG)",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVUNJSlo0TDNQQURydnNFeVdsSjN1OGJoWTJIWGRTdW5iVW9WWkVtZmgxNDdCWUtySlFha2Vtc3NXQXNPdTNxV1ZndFhlQ3p5ZU96cldHZjBoQ1pQTk5nTDBCckpLRDkzMEVOTlc2SXJXN3FqdWJ2WmdoaHpDdGhGVlFWZ1VjNi0xNm1paWREVGs3R2hfS3pBdjc4OWNlTnZSVDNF?oc=5",
@@ -4682,6 +4683,12 @@
   "votes": [],
   "media": [
    {
+    "title": "AFN urges government to pass S-2 in current form as government starts consultations on 'new legislative approach'",
+    "source": "iPolitics",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQjBkZGk4czlIdDJaSWROTFB4RnFPaXI5SUNRcXNtam12N215am9EYzdNekNiMVNJVUlrTDVlYWJVZ3h2U216YVNaNHVDeVpWZk5ocEozZEF0MGFYWG5LMmxyVnd2V1pFQ1V1YXJfRTg2MUp3TUQ4LUJlTzJ1Z0tvRmFpUGw3MzNQQmt1UnJENHdHMGQtR2RScWRnNDNaWlVkUi1GQlRwdm9MbHN4al9YQlRadWlrUDJ0bnhBOEpmeGNVQWF6YVZ2bTNaUUtpc2ExS0FublJQWndFWWYtMnRWNk9n?oc=5",
+    "date": "Tue, 03 Nov 2026 21:08:31 GMT"
+   },
+   {
     "title": "First Nations Advocates Call for Passage of Bill S-2 - Headline Politics",
     "source": "CPAC",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTExhN0hCbTkwMlNrWks0NUNkbHVrMXdtSHVUaS1tUVc2LWtyRWJ3ekVQVTAybHBoRnBHc0pGTmNUZG4yXzBOQ2tleWhsOElpVXpJOXEyMExWampZaU40cUxXS0pwalhmS2pXbDU1dzlrYzBPR2NJek5kSzFrbEJuVEJsVVhjcXc0Vzh5eXdDSGRzeFY1dmhkVmFHeHU2N2JjTmlCXzhPYlhudllWa3BlaXV4YzkxcHNqckVlNjFYcFBHWExoUkROdTRKa2pIcTBUd0tveA?oc=5",
@@ -4710,12 +4717,6 @@
     "source": "Troy Media",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY2U0VjRzbFladk53em96alJ1ckFQOEVQMy1JYy1FV0Fna0xza3ZrbUNULWh0T1A2NDdpRVpRbFA1eEs1cVBnWHZBMVY2TjVDYWZTSXdWQjVPWDlCeXNrTHU0ZC0wXzAxZ2VIVU9vZWlTQmN6U1NtejZSZjRvZTllUG9jZVhWY0NwNldvdUIxbVFCdm9RSzl2clJ6aUVSaWNL?oc=5",
     "date": "Mon, 13 Jul 2026 07:00:00 GMT"
-   },
-   {
-    "title": "Council appeals to United Nations on S-2",
-    "source": "The Eastern Door",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kRUhydEwyV3lVNVlhTnFYZWZlalkwWTFlZTQ2cXVxMVd5emItempxWjg5anA0QWRIWExxejFkVnd6M0VzWTNMZG5FeF9WMk5qX0wtcjhTNGxEZDBVVHNjYVpNTFRtUGwtQV9hQnBPWEI0S3pQWXF4a1JudFI?oc=5",
-    "date": "Fri, 26 Jun 2026 07:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-2",
@@ -5011,7 +5012,7 @@
   "sponsorTitle": null,
   "sponsorRiding": null,
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-10-27",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
@@ -5063,6 +5064,67 @@
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-7",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-7/first-reading"
+ },
+ {
+  "id": "S-8",
+  "title": "Combatting Financial Crimes and Drug Trafficking Act",
+  "longTitle": "An Act respecting certain measures relating to proceeds of crime, terrorist financing, sanctions evasion and the detection of non-mailable matter transmitted by post",
+  "status": "At second reading in the Senate",
+  "receivedRoyalAssent": false,
+  "type": "Government Bill",
+  "originatingChamber": "Senate",
+  "category": "Justice",
+  "sponsor": "Hon. Pierre Moreau",
+  "sponsorParty": "Non-affiliated",
+  "sponsorRole": "Senator",
+  "sponsorTitle": null,
+  "sponsorRiding": null,
+  "latestActivity": "Introduction and first reading",
+  "latestActivityDate": "2026-11-03",
+  "latestActivityChamber": "Senate",
+  "committee": null,
+  "stages": [
+   {
+    "key": "senateFirstReading",
+    "label": "First reading (Senate)",
+    "date": "2026-11-02"
+   },
+   {
+    "key": "senateSecondReading",
+    "label": "Second reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateThirdReading",
+    "label": "Third reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "houseFirstReading",
+    "label": "First reading (House)",
+    "date": null
+   },
+   {
+    "key": "houseSecondReading",
+    "label": "Second reading (House)",
+    "date": null
+   },
+   {
+    "key": "houseThirdReading",
+    "label": "Third reading (House)",
+    "date": null
+   },
+   {
+    "key": "royalAssent",
+    "label": "Royal Assent",
+    "date": null
+   }
+  ],
+  "partyPositions": null,
+  "votes": [],
+  "media": [],
+  "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-8",
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-8/first-reading"
  },
  {
   "id": "C-201",
@@ -6239,7 +6301,7 @@
   "id": "C-219",
   "title": "International Anti-Corruption and Human Rights Act (Sergei Magnitsky Law No. 3)",
   "longTitle": "An Act to amend the Department of Foreign Affairs, Trade and Development Act, the Justice for Victims of Corrupt Foreign Officials Act (Sergei Magnitsky Law) and the Special Economic Measures Act",
-  "status": "At second reading in the Senate",
+  "status": "At consideration in committee in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -6249,10 +6311,15 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Selkirk—Interlake—Eastman",
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-10-29",
+  "latestActivity": "Referral to committee",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "Senate",
-  "committee": null,
+  "committee": {
+   "acronym": "AEFA",
+   "name": "Standing Senate Committee on Foreign Affairs and International Trade",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/AEFA"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -6277,7 +6344,7 @@
    {
     "key": "senateSecondReading",
     "label": "Second reading (Senate)",
-    "date": null
+    "date": "2026-11-03"
    },
    {
     "key": "senateThirdReading",
@@ -7557,7 +7624,7 @@
   "id": "C-234",
   "title": "Living Donor Recognition Medal Act",
   "longTitle": "An Act respecting the establishment and award of a Living Donor Recognition Medal",
-  "status": "At third reading in the Senate",
+  "status": "Awaiting royal assent",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -7567,15 +7634,10 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Edmonton Manning",
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-10-21",
+  "latestActivity": "Third reading",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "Senate",
-  "committee": {
-   "acronym": "RIDR",
-   "name": "Standing Senate Committee on Human Rights",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/RIDR"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "houseFirstReading",
@@ -7605,7 +7667,7 @@
    {
     "key": "senateThirdReading",
     "label": "Third reading (Senate)",
-    "date": null
+    "date": "2026-11-03"
    },
    {
     "key": "royalAssent",
@@ -7623,7 +7685,7 @@
   "id": "C-235",
   "title": "Respecting Families of Murdered and Brutalized Persons Act",
   "longTitle": "An Act to amend the Criminal Code (increasing parole ineligibility)",
-  "status": "At report stage in the House of Commons",
+  "status": "House of Commons bill awaiting first reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -7633,15 +7695,10 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Cowichan—Malahat—Langford",
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-06-08",
+  "latestActivity": "Third reading",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "House of Commons",
-  "committee": {
-   "acronym": "JUST",
-   "name": "Standing Committee on Justice and Human Rights",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/JUST"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "houseFirstReading",
@@ -7656,7 +7713,7 @@
    {
     "key": "houseThirdReading",
     "label": "Third reading (House)",
-    "date": null
+    "date": "2026-11-03"
    },
    {
     "key": "senateFirstReading",
@@ -7683,7 +7740,7 @@
   "votes": [],
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-235",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-235/as-amended-by-committee"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-235/as-passed-by-the-house-of-commons"
  },
  {
   "id": "C-236",
@@ -12610,6 +12667,12 @@
   ],
   "media": [
    {
+    "title": "MPs Study Bill S-211 to Curb Sports Betting Ads in Canada",
+    "source": "Casino.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWC1KaUtZWmZnWlJ4RnlRTHZERDVMSThRRDBnc2ZtUF9MSnFBenpsaEVFcmJLa3p5S0MxUFRUVHZSSWlvWThfREZtYkxZeG9mVTBWZGFHU1B2RTZaYVhXcEFvVW0wOGVCWGNVY1RUR1B5YnNoNWhISlVEbHAtZEc4Y0IwcDVjazd3UnA2OUVDaGk2VzZRZC1CbzlzNA?oc=5",
+    "date": "Wed, 04 Nov 2026 08:37:01 GMT"
+   },
+   {
     "title": "Bill S-211: Sponsors Testify, Clause-by-Clause Set for Nov. 3",
     "source": "RG.org",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWU9HMHZzS1dkMFA1Wl9mT3c3UzRYcnhnVXVDNVNQNU1GbXQyWWMxZkVlLVRmaHJMdUlBYUZfQVhuME5venRSNzVtSmRQRE1yemtSYzV1VEhJbUhWTms0M3ZsLXFrVC1wWlBYM2FwNVRoSFlqSWpwVlJORjJwYlVrTGhHMWE1YVdNalVOdXZ1UkNRSEdLQTY4RTVPc1Q3eGtMNmZnN2ltTl9NX0VPNlN5b3BXWQ?oc=5",
@@ -12638,12 +12701,6 @@
     "source": "Tribuna.com",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaERfQUZJemxGRHhxTnpub1FtM1Z0N0V5d3ljOFhMOFVPV2twWTlwQjZHUG5JWVBUVVI3MTNLM2p0TjRFTDE0anJ0WW41c3F5X05JcmYtOXVHNUJiazVTTmpBMGs4WVdtYzV2aFpiQkVDazY1TWZiUDlKb19zNHRzYnlrTExuVll4dm9TVV9memZzWFVmNTBYQ0FJNWNXUWoxSmYzajBjem1LV1o1N09FNHQ0aW0tSVFwSFRPVlNEa9IBxAFBVV95cUxQdFhtcXExRVg4ZE9hU3N3dVFwaUNfVXEzODhkeWxaRkNXV2RmcXczLUthVnVFWXFwSGpGbTljWmR1emJCWFVJMGo5SE5Wd3pqbVdzMjBqUmpBaDQ3SEdEdUNqSjN1Z0lUVVJhdk9qS1NlOVdwM2FDWFpNSkxFNlY5aEpYNVpsTEVZaGhYVVZjMHYyUk5KbWJzSTd3b3RROXVoZnBpZVlSakNrMklPa2hJcmt4NXRuQU9CZmNDWExONlZtNWx5?oc=5",
     "date": "Mon, 26 Oct 2026 15:39:00 GMT"
-   },
-   {
-    "title": "Canada MPs Vote On Sports Betting Ad Bill S-211",
-    "source": "Gambling.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSWhOYmVzUmV1dzU0N3NiZk96LWVtSXJPNUY1dXJycGI4UFdXRkpXOGdmdFdvMHBVQ0VXdlBmcjhqNnpIbzNfczRrNUlLNHpjSGtlQVZKUHRRWVdoN05mQjVpTGQyRnJjeUNXeWkxaWM1TDNOWnBZU0YxazFvOGdkWTJtVEp3UkE?oc=5",
-    "date": "Thu, 22 Oct 2026 12:30:01 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-211",
@@ -13151,7 +13208,7 @@
   "id": "S-220",
   "title": "Hellenic Heritage Month Act",
   "longTitle": "An Act to designate the month of March as Hellenic Heritage Month",
-  "status": "At third reading in the Senate",
+  "status": "Senate bill awaiting first reading in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -13161,15 +13218,10 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-10-29",
+  "latestActivity": "Third reading",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "Senate",
-  "committee": {
-   "acronym": "SOCI",
-   "name": "Standing Senate Committee on Social Affairs, Science and Technology",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/SOCI"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "senateFirstReading",
@@ -13184,7 +13236,7 @@
    {
     "key": "senateThirdReading",
     "label": "Third reading (Senate)",
-    "date": null
+    "date": "2026-11-03"
    },
    {
     "key": "houseFirstReading",
@@ -13211,7 +13263,7 @@
   "votes": [],
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-220",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-220/first-reading"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-220/as-passed-by-the-senate"
  },
  {
   "id": "S-221",
@@ -13339,7 +13391,7 @@
   "id": "S-223",
   "title": "An Act to amend the Royal Canadian Mounted Police Act",
   "longTitle": "An Act to amend the Royal Canadian Mounted Police Act",
-  "status": "At consideration in committee in the Senate",
+  "status": "At third reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -13349,8 +13401,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Referral to committee",
-  "latestActivityDate": "2026-06-11",
+  "latestActivity": "Committee report presented",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "Senate",
   "committee": {
    "acronym": "SECD",
@@ -14078,7 +14130,7 @@
   "id": "S-234",
   "title": "National Framework on Fetal Alcohol Spectrum Disorder Act",
   "longTitle": "An Act respecting a national framework for fetal alcohol spectrum disorder",
-  "status": "At consideration in committee in the Senate",
+  "status": "At report stage in the Senate",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -14088,8 +14140,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Referral to committee",
-  "latestActivityDate": "2025-11-25",
+  "latestActivity": "Committee report presented",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "Senate",
   "committee": {
    "acronym": "SOCI",
@@ -14403,15 +14455,10 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Committee report adopted",
-  "latestActivityDate": "2026-10-29",
+  "latestActivity": "Debate at third reading",
+  "latestActivityDate": "2026-11-03",
   "latestActivityChamber": "Senate",
-  "committee": {
-   "acronym": "BANC",
-   "name": "Standing Senate Committee on Banking, Commerce and the Economy",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/BANC"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "senateFirstReading",
