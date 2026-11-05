@@ -1,6 +1,32 @@
 {
   "liberal_party": [
     {
+      "id": "2118388739978211400",
+      "content": "RT @MarkJCarney: Affordability. Opportunity. Sovereignty. https://t.co/e8qBjCvPx6",
+      "date": "2026-11-05T17:03:28.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 171,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 122
+      }
+    },
+    {
+      "id": "2118078061359043052",
+      "content": "Budget 2026. Tomorrow. https://t.co/sBsHRr1cxW",
+      "date": "2026-11-04T20:28:56.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 5914,
+        "like_count": 115,
+        "quote_count": 10,
+        "reply_count": 213,
+        "retweet_count": 35
+      }
+    },
+    {
       "id": "2117640886603620424",
       "content": "When it comes to supporting Canadians, Conservatives are missing in action. https://t.co/4LijVRWTwU",
       "date": "2026-11-03T15:31:45.000Z",
@@ -103,35 +129,87 @@
         "reply_count": 0,
         "retweet_count": 20
       }
-    },
-    {
-      "id": "2116206508329369620",
-      "content": "Let’s talk about affordability 👇 https://t.co/MfahotNbEU",
-      "date": "2026-10-30T16:32:03.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 2559,
-        "like_count": 36,
-        "quote_count": 3,
-        "reply_count": 148,
-        "retweet_count": 15
-      }
-    },
-    {
-      "id": "2115921564910993409",
-      "content": "A new National Security Strategy to bolster our sovereignty, build our economic strength, and shape our own future. https://t.co/sgWbplxXGc",
-      "date": "2026-10-29T21:39:47.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 5170,
-        "like_count": 123,
-        "quote_count": 5,
-        "reply_count": 229,
-        "retweet_count": 30
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2118431667278757972",
+      "content": "Today’s federal budget must have one clear priority: Save You Money.\n\nConservatives are calling for:\n⛽ Removing all federal taxes on gas &amp; diesel\n✂️ Cutting wasteful inflationary spending\n🍎 Scrapping all federal taxes on food\n\nAre you with us? https://t.co/NTEWSw6mSB https://t.co/EbzvhTOIVx",
+      "date": "2026-11-05T19:54:02.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 823,
+        "like_count": 29,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 7
+      }
+    },
+    {
+      "id": "2118417826075554150",
+      "content": "Canadians deserve the freedom and access to the natural health products they rely on.\n\nConservative’s stand with MP Blaine Calkins to put an end to Liberal bureaucracy and regulations that drive up costs for consumers and threaten Canadian jobs.\n\nRestore freedom and choice for https://t.co/XA1QDBw5E9",
+      "date": "2026-11-05T18:59:02.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1101,
+        "like_count": 29,
+        "quote_count": 1,
+        "reply_count": 5,
+        "retweet_count": 8
+      }
+    },
+    {
+      "id": "2118385048005058865",
+      "content": "RT @PierrePoilievre: Imagine if you could reduce your debt by dividing it onto three credit cards!\n\nWell Mark Carney says today you can. https://t.co/0UXozKrYUt",
+      "date": "2026-11-05T16:48:47.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 144,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 929
+      }
+    },
+    {
+      "id": "2118349072600035593",
+      "content": "RT @PierrePoilievre: There's only one budget.\n\nAnd you pay for it. https://t.co/eop6TkN63H",
+      "date": "2026-11-05T14:25:50.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 181,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 269
+      }
+    },
+    {
+      "id": "2118337991974211981",
+      "content": "RT @PierrePoilievre: Praying for everyone involved in this morning’s bus crash on Highway 39 near Mackenzie, B.C., and for their families.\n\nThank you to the first responders and to the hospital teams in Mackenzie and Prince George who are working to help all the injured. https://t.co/51m3sOMBoc",
+      "date": "2026-11-05T13:41:48.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 160,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 49
+      }
+    },
+    {
+      "id": "2118076582837252127",
+      "content": "Mark Carney and the Liberals are pushing for membership with the EU while Canadians struggle to afford everyday life.\n\nConservatives say no to EU membership. No EU taxes. No EU regulations. No EU immigration rules. No EU digital ID requirements for Canadians: https://t.co/vA6aXLWGos",
+      "date": "2026-11-04T20:23:03.000Z",
+      "metrics": {
+        "bookmark_count": 26,
+        "impression_count": 27019,
+        "like_count": 1492,
+        "quote_count": 48,
+        "reply_count": 276,
+        "retweet_count": 469
+      }
+    },
     {
       "id": "2118028031834923341",
       "content": "RT @PierrePoilievre: The PM has questions to answer.\n\nTomorrow he will hike immigration levels and announce another massive inflationary deficit. Yet he hasn't been in question period for a week to answer how will he finally save Canadians money? Or get tariffs removed? Or get immigration under",
@@ -183,87 +261,87 @@
         "reply_count": 13,
         "retweet_count": 51
       }
-    },
-    {
-      "id": "2117721403726164395",
-      "content": "RT @MelissaLantsman: A yes-or-no question got neither. \n\nCanadians asked if their tax dollars stay in Canada and the EU laws and regulations stay in the EU.\n\nThis was the answer. 🤔 https://t.co/8iu33pcocy",
-      "date": "2026-11-03T20:51:42.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 437,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 489
-      }
-    },
-    {
-      "id": "2117716105871401420",
-      "content": "RT @PierrePoilievre: Food bank visits in Toronto have more than quadrupled since 2019.\n\n1 in 8 Toronto children now rely on a food bank. That's nearly double the rate just four years ago.\n\nThursday's budget has one job: save Canadians money so they can afford to put food on the table.\n\nDemand an https://t.co/iQi5dUc43v",
-      "date": "2026-11-03T20:30:39.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 197,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 135
-      }
-    },
-    {
-      "id": "2117679471373250645",
-      "content": "MP Mike Lake's petition will help protect vulnerable children.\n\nWhen a child is in danger, communities need fast alerts even if abduction isn’t suspected.\n\nSign to help give families and police the tools to act quickly: https://t.co/eipSgiOd2U https://t.co/L20LZGZykB",
-      "date": "2026-11-03T18:05:05.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1135,
-        "like_count": 13,
-        "quote_count": 0,
-        "reply_count": 6,
-        "retweet_count": 5
-      }
-    },
-    {
-      "id": "2117623247177146853",
-      "content": "RT @PierrePoilievre: Thank you to Conservative MP @TerryDowdall for presenting Erin Small’s petition to strengthen protections for victims of intimate partner violence and sexual assault.\n\nConservatives will keep fighting to give victims a voice, deliver justice, and keep violent criminals behind",
-      "date": "2026-11-03T14:21:40.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 159,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 63
-      }
-    },
-    {
-      "id": "2117623229594603642",
-      "content": "RT @PierrePoilievre: When Canadians cannot afford groceries, why is Carney using their tax dollars to buy shares in corporations?\n\nWho decides which lucky company gets the money and which others have to pay?\n\nAnswer: the politically powerful get the money.\n\nTop-down crony capitalism favours the https://t.co/DCDPzCfCPE",
-      "date": "2026-11-03T14:21:36.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 131,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 533
-      }
-    },
-    {
-      "id": "2117433648689668549",
-      "content": "RT @PierrePoilievre: The Liberals awarded a nearly $12 million security contract to an American-owned company instead of the Commissionaires, Canada's largest non-governmental employer of veterans, over a price difference of just $80,000.\n\nPutting Canada first means putting Canada's veterans first. https://t.co/aCpMwyfo3Q",
-      "date": "2026-11-03T01:48:16.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 202,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 523
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2118153144723234869",
+      "content": "Le moment est venu de replacer les travailleurs et travailleuses au cœur des décisions qui façonneront l’avenir du Canada. https://t.co/DGG4KDEVUf",
+      "date": "2026-11-05T01:27:17.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 899,
+        "like_count": 27,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2118129206764912651",
+      "content": "RT @HMcPhersonNDP: Unity and hope wins over fear and division!\nA more inclusive, progressive future is possible. Let's build it! https://t.co/YGuGXWo43A",
+      "date": "2026-11-04T23:52:10.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 113,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 20
+      }
+    },
+    {
+      "id": "2118129149638521216",
+      "content": "RT @avilewis: Aujourd’hui, je me souviens des milliers de Sikhs qui ont été assassiné·es et déplacé·es par l’État indien lors du génocide des Sikhs de novembre 1984.\n\nL’impact de cette violence continue de se faire sentir, des décennies plus tard, auprès des survivant·es et des familles qui",
+      "date": "2026-11-04T23:51:56.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 85,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 15
+      }
+    },
+    {
+      "id": "2118129063852429759",
+      "content": "RT @avilewis: Today I’m remembering the thousands of Sikhs who were murdered and displaced by the Indian state during the November 1984 Sikh Genocide.\n\nThe impact of that violence continues to be felt decades later by survivors and families still waiting for justice. Today, this is exacerbated",
+      "date": "2026-11-04T23:51:36.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 87,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 187
+      }
+    },
+    {
+      "id": "2118122338923483640",
+      "content": "Les Canadiens et Canadiennes examinent le budget de cette année et se demandent : « Est-ce que cela va vraiment améliorer la vie des gens comme moi ? »\n\nLe NPD propose trois mesures concrètes pour s’assurer que ce soit le cas.\n\nIl est temps de replacer le peuple au cœur des https://t.co/A0grjmkPtG",
+      "date": "2026-11-04T23:24:53.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1354,
+        "like_count": 20,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 3
+      }
+    },
+    {
+      "id": "2118122080210391232",
+      "content": "Canadians are looking to this year's budget and wondering, is it going to make life better for people like me?\n\nThe NDP has put forward three measures to make sure that it does.\n\nIt's time to put the working class back at the centre of economic decisions that will shape this https://t.co/obfwtkmFh1",
+      "date": "2026-11-04T23:23:51.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 4078,
+        "like_count": 266,
+        "quote_count": 0,
+        "reply_count": 18,
+        "retweet_count": 49
+      }
+    },
     {
       "id": "2118034306312630766",
       "content": "On picket lines in union halls and rallies for workers' rights, communities across Ontario and the country are working together to call for better.\n\n@avilewis and our NDP team are with you every step of the way. https://t.co/jDsAIZAuaE",
@@ -315,87 +393,35 @@
         "reply_count": 0,
         "retweet_count": 58
       }
-    },
-    {
-      "id": "2117424113593757718",
-      "content": "RT @DonDavies: Taxpayer-funded infrastructure should create good jobs for Canadians. Unionized building trades deliver high-quality results — with productivity 17% higher than open-shop contractors. Why won't the Liberals require Project Labour Agreements on all public infrastructure projects? https://t.co/sMh5mceq1A",
-      "date": "2026-11-03T01:10:23.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 92,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 31
-      }
-    },
-    {
-      "id": "2117424097932218870",
-      "content": "RT @avilewis: Time is running out to save our steel industry.\n\nIt’s time to nationalize Stelco. https://t.co/tLOZM6KWm4",
-      "date": "2026-11-03T01:10:19.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 74,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 105
-      }
-    },
-    {
-      "id": "2117424086393704659",
-      "content": "RT @avilewis: Le temps presse de sauver notre industrie de l'acier.\n\nIl est temps de nationaliser Stelco. https://t.co/6EPCLfRLCJ",
-      "date": "2026-11-03T01:10:16.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 76,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 30
-      }
-    },
-    {
-      "id": "2117395035784462390",
-      "content": "RT @LeahGazan: As the @NDP critic for Women and Gender Equality, I was proud to join our leader @avilewis and the NDP caucus urging the Liberal government to recommit support for the Federal 2SLGBTQI+ Action Fund.\n\n2SLGBTQI+ organizations are critical for championing freedom, equality and pride https://t.co/CQRa58vBag",
-      "date": "2026-11-02T23:14:50.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 103,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 14
-      }
-    },
-    {
-      "id": "2117353772829843737",
-      "content": "RT @cultmtl: “It’s time to break up the Big Grocery Cartel and drive down costs with a national network of public grocery stores that Canadians can actually afford to shop at.”\n\nNDP leader Avi Lewis calls for public grocery stores and an end to grocery monopolies. https://t.co/pnKPVIkWxU",
-      "date": "2026-11-02T20:30:52.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 71,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 47
-      }
-    },
-    {
-      "id": "2116984327984795750",
-      "content": "RT @avilewis: Le même type qui s’est fait prendre à fixer le prix du pain pendant des années prétend maintenant que les grandes chaînes n’ont aucun contrôle sur les prix.\n\nVoyons donc!\n\nLes Canadiens et Canadiennes ne sont pas dupes. On voit bien que Galen s’en met plein les poches pendant que https://t.co/3nXJrfpbJR",
-      "date": "2026-11-01T20:02:50.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 104,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 80
-      }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2118327481409401060",
+      "content": "Nos attentes budgétaires sont claires. Les libéraux ne peuvent pas utiliser un titre Québécois en ignorant les demandes du Québec. https://t.co/mzBNgS9KCI",
+      "date": "2026-11-05T13:00:02.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 567,
+        "like_count": 12,
+        "quote_count": 0,
+        "reply_count": 6,
+        "retweet_count": 7
+      }
+    },
+    {
+      "id": "2118099100088369231",
+      "content": "Alors qu'il porte un titre purement Québécois, le budget fédéral doit intégrer les vrais besoins des Québécois. https://t.co/TLRt8FQWLN",
+      "date": "2026-11-04T21:52:32.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 820,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 11
+      }
+    },
     {
       "id": "2118044249010602405",
       "content": "Ce n'est pas nous qui le disons, mais on le savait déjà depuis bien longtemps : Alexandre Curzi est À DÉCOUVRIR!   \n\nRassembleur, négociateur habile et amoureux de notre culture québécoise, il est la voix qui représentera avec force Rosemont–La Petite-Patrie. C'est une fierté de https://t.co/Cwaj4dIx2R",
@@ -498,32 +524,6 @@
         "quote_count": 0,
         "reply_count": 0,
         "retweet_count": 3
-      }
-    },
-    {
-      "id": "2115889648006304049",
-      "content": "Un autre bel exemple de la déconnexion d’Ottawa envers le Québec. En 60 ans, Ottawa n’a jamais entendu parler de la politique officielle en matière de relations internationales du Québec. https://t.co/IsHFJnqLVQ",
-      "date": "2026-10-29T19:32:58.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 2849,
-        "like_count": 83,
-        "quote_count": 2,
-        "reply_count": 33,
-        "retweet_count": 34
-      }
-    },
-    {
-      "id": "2115836061159129171",
-      "content": "La sécurité routière ne devrait jamais être compromise! Notre député @XBarsalouDuval lance une minisérie documentaire de dix capsules sur les « Chauffeurs Inc. » Le gouvernement libéral doit mettre fin à cette situation hautement inquiétante.  \n\nDécouvrez sa première capsule sur https://t.co/3n6keSUuMC",
-      "date": "2026-10-29T16:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 350,
-        "like_count": 7,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 6
       }
     }
   ],
@@ -661,6 +661,32 @@
   ],
   "OurCommons": [
     {
+      "id": "2118337458253582803",
+      "content": "2/2  ✅ What comes next? https://t.co/lePI8zIf2X",
+      "date": "2026-11-05T13:39:41.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 159,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2118337454172508570",
+      "content": "1/2 It’s budget day. What does that mean? https://t.co/sT59d267Rg",
+      "date": "2026-11-05T13:39:40.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 568,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 0
+      }
+    },
+    {
       "id": "2117292900862025734",
       "content": "Each page carries names. Each name tells a story.\n\nThe Books of Remembrance contain the names of more than 118,000 Canadians who died in military service.\n\n#CanadaRemembers #LestWeForget https://t.co/MRfGPl2XI2",
       "date": "2026-11-02T16:28:59.000Z",
@@ -763,167 +789,232 @@
         "reply_count": 1,
         "retweet_count": 0
       }
-    },
-    {
-      "id": "2114733984525537293",
-      "content": "If you come to watch Question Period in person, you may be asked whether you would prefer to sit on the Government side or the Opposition side.\n\nFind your favourite spot with the help of this virtual tour: https://t.co/bRk17iiZRO https://t.co/w0vQMZ4KPx",
-      "date": "2026-10-26T15:00:46.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 403,
-        "like_count": 3,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2114688734595559694",
-      "content": "The #HoC is hiring. \n\n•Senior Corporate Compensation and Total Rewards Analyst\n•Director, Talent Management and Engagement \n\nFind out more: \nhttps://t.co/JqgmrPr8Px #Ottawa #Gatineau https://t.co/OF9T0xhFHS",
-      "date": "2026-10-26T12:00:58.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 496,
-        "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0
-      }
     }
   ],
   "MarkJCarney": [
     {
-      "id": "2118064152618873199",
-      "content": "The new Canada-EU Alliance is built for people. https://t.co/nIK0nqd0vA",
-      "date": "2026-11-04T19:33:40.000Z",
+      "id": "2118384591819993567",
+      "content": "Affordability. Opportunity. Sovereignty. https://t.co/e8qBjCvPx6",
+      "date": "2026-11-05T16:46:59.000Z",
       "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 11390,
-        "like_count": 259,
-        "quote_count": 6,
-        "reply_count": 112,
-        "retweet_count": 50
+        "bookmark_count": 17,
+        "impression_count": 29170,
+        "like_count": 593,
+        "quote_count": 22,
+        "reply_count": 616,
+        "retweet_count": 122
       }
     },
     {
-      "id": "2118061371367776449",
-      "content": "La nouvelle Alliance Canada-Union européenne est au service des personnes. https://t.co/79XjvIreM0",
-      "date": "2026-11-04T19:22:37.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 11923,
-        "like_count": 171,
-        "quote_count": 6,
-        "reply_count": 65,
-        "retweet_count": 30
-      }
-    },
-    {
-      "id": "2118007291572314497",
-      "content": "Securing Canada's Arctic — with Canadian workers and Canadian steel. https://t.co/neQub8QKf4",
-      "date": "2026-11-04T15:47:43.000Z",
-      "metrics": {
-        "bookmark_count": 13,
-        "impression_count": 33711,
-        "like_count": 1697,
-        "quote_count": 10,
-        "reply_count": 188,
-        "retweet_count": 267
-      }
-    },
-    {
-      "id": "2118005352403026213",
-      "content": "Assurer la sécurité de l’Arctique canadien — avec des travailleurs canadiens et de l’acier canadien. https://t.co/EBHAbuugiB",
-      "date": "2026-11-04T15:40:01.000Z",
+      "id": "2118383370300477648",
+      "content": "Abordabilité. Possibilités. Souveraineté. https://t.co/2X78fmM52i",
+      "date": "2026-11-05T16:42:07.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 17399,
-        "like_count": 215,
+        "impression_count": 17508,
+        "like_count": 175,
+        "quote_count": 3,
+        "reply_count": 155,
+        "retweet_count": 40
+      }
+    },
+    {
+      "id": "2118377082795295203",
+      "content": "Since Confederation, more than two million Canadians from every province and territory, including many Indigenous communities, have served at home and abroad in times of war and peace.\n \nThey served Canada. Now Canada serves them. Throughout Veterans' Week, Canadians will wear",
+      "date": "2026-11-05T16:17:08.000Z",
+      "metrics": {
+        "bookmark_count": 10,
+        "impression_count": 22063,
+        "like_count": 555,
+        "quote_count": 7,
+        "reply_count": 163,
+        "retweet_count": 109
+      }
+    },
+    {
+      "id": "2118376706377384090",
+      "content": "Depuis la Confédération, plus de 2 millions de Canadiennes et de Canadiens de toutes les provinces et de tous les territoires, entre autres de nombreuses communautés autochtones, ont servi au pays et à l’étranger, en temps de guerre comme de paix\n \nIls ont été au service du",
+      "date": "2026-11-05T16:15:38.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 14608,
+        "like_count": 151,
         "quote_count": 2,
-        "reply_count": 54,
-        "retweet_count": 45
+        "reply_count": 55,
+        "retweet_count": 37
       }
     },
     {
-      "id": "2117715927534018993",
-      "content": "In a more divided world, the Commonwealth brings together 56 nations spanning every corner of the globe.\n\nUnited by our people, our principles, and our conviction that we are stronger together. https://t.co/GASninIQGZ",
-      "date": "2026-11-03T20:29:57.000Z",
+      "id": "2118349724537192492",
+      "content": "We are masters of our destiny. https://t.co/gHU61Nfeys",
+      "date": "2026-11-05T14:28:26.000Z",
       "metrics": {
-        "bookmark_count": 49,
-        "impression_count": 93452,
-        "like_count": 3102,
-        "quote_count": 88,
-        "reply_count": 1691,
-        "retweet_count": 421
+        "bookmark_count": 46,
+        "impression_count": 37163,
+        "like_count": 987,
+        "quote_count": 31,
+        "reply_count": 557,
+        "retweet_count": 169
       }
     },
     {
-      "id": "2117715849129963526",
-      "content": "Dans un monde de plus en plus divisé, le Commonwealth rassemble 56 nations réparties dans tous les coins du globe.\n\nDes nations liées par leurs peuples, par leurs principes et par la conviction que l’union les rend plus fortes. https://t.co/5YAXJYGpYD",
-      "date": "2026-11-03T20:29:38.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 35853,
-        "like_count": 748,
-        "quote_count": 26,
-        "reply_count": 451,
-        "retweet_count": 124
-      }
-    },
-    {
-      "id": "2117691374594347385",
-      "content": "The Commonwealth unites 2.7 billion people with shared histories and ambitions for the future.\n\nAn honour to speak with His Majesty King Charles III, the Head of the Commonwealth, today in St. John’s, Antigua and Barbuda. https://t.co/FqbwcJyljJ",
-      "date": "2026-11-03T18:52:23.000Z",
-      "metrics": {
-        "bookmark_count": 13,
-        "impression_count": 20303,
-        "like_count": 693,
-        "quote_count": 12,
-        "reply_count": 200,
-        "retweet_count": 115
-      }
-    },
-    {
-      "id": "2117691182654644333",
-      "content": "Le Commonwealth rassemble 2,7 milliards de personnes ayant en commun des histoires et des ambitions pour l’avenir.\n\nCe fut un honneur de m’entretenir aujourd'hui avec Sa Majesté le roi Charles III, chef du Commonwealth, à Saint John's, à Antigua-et-Barbuda. https://t.co/mwQZRSMmqV",
-      "date": "2026-11-03T18:51:37.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 14632,
-        "like_count": 343,
-        "quote_count": 2,
-        "reply_count": 82,
-        "retweet_count": 66
-      }
-    },
-    {
-      "id": "2117641676604780586",
-      "content": "Canada and the Caribbean nations have a partnership that stretches back decades — rooted in common values and strong people-to-people ties.\n\nThat is the strong foundation on which we’re expanding our trade and deepening climate cooperation to build a safer, more prosperous future https://t.co/CrPKn60bqr",
-      "date": "2026-11-03T15:34:54.000Z",
+      "id": "2118347116955258895",
+      "content": "Nous sommes maîtres chez nous. https://t.co/dQjRqAaJAW",
+      "date": "2026-11-05T14:18:04.000Z",
       "metrics": {
         "bookmark_count": 12,
-        "impression_count": 25856,
-        "like_count": 775,
-        "quote_count": 7,
-        "reply_count": 177,
-        "retweet_count": 132
+        "impression_count": 23618,
+        "like_count": 495,
+        "quote_count": 14,
+        "reply_count": 372,
+        "retweet_count": 96
       }
     },
     {
-      "id": "2117641451622351036",
-      "content": "Le Canada et les nations des Caraïbes entretiennent un partenariat qui remonte à plusieurs décennies et qui repose sur des valeurs communes et des liens étroits entre nos peuples.\n\nC'est sur cette base solide que nous élargissons nos échanges commerciaux et que nous renforçons https://t.co/EDRhkFjBui",
-      "date": "2026-11-03T15:34:00.000Z",
+      "id": "2118141679429451897",
+      "content": "Tomorrow. https://t.co/Ec6naXs9MN",
+      "date": "2026-11-05T00:41:44.000Z",
       "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 18651,
-        "like_count": 373,
-        "quote_count": 3,
-        "reply_count": 79,
-        "retweet_count": 70
+        "bookmark_count": 89,
+        "impression_count": 125132,
+        "like_count": 2392,
+        "quote_count": 84,
+        "reply_count": 761,
+        "retweet_count": 266
+      }
+    },
+    {
+      "id": "2118141590564741201",
+      "content": "Demain. https://t.co/dXuOpPtLbd",
+      "date": "2026-11-05T00:41:23.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 25658,
+        "like_count": 323,
+        "quote_count": 8,
+        "reply_count": 88,
+        "retweet_count": 41
+      }
+    },
+    {
+      "id": "2118111792215838754",
+      "content": "Across continents and under different skies, the Commonwealth is united in our ambition — to build greater security, opportunity, and prosperity for our peoples. https://t.co/3sN459yNlO",
+      "date": "2026-11-04T22:42:58.000Z",
+      "metrics": {
+        "bookmark_count": 14,
+        "impression_count": 32047,
+        "like_count": 898,
+        "quote_count": 8,
+        "reply_count": 274,
+        "retweet_count": 162
+      }
+    },
+    {
+      "id": "2118111625651585048",
+      "content": "D’un continent à l’autre et malgré leurs situations qui diffèrent, les pays du Commonwealth sont unis par leur ambition commune, à savoir accroître la sécurité et la prospérité de leurs populations ainsi que les possibilités qui leur sont offertes. https://t.co/khMN6BzlGX",
+      "date": "2026-11-04T22:42:18.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 22102,
+        "like_count": 249,
+        "quote_count": 1,
+        "reply_count": 54,
+        "retweet_count": 40
       }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2118403825728164274",
+      "content": "Imaginez si vous pouviez réduire votre dette en la répartissant sur trois cartes de crédit!\n\nEh bien c'est maintenant possible selon Mark Carney. https://t.co/oLM3dvpw7J",
+      "date": "2026-11-05T18:03:24.000Z",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 11859,
+        "like_count": 219,
+        "quote_count": 2,
+        "reply_count": 41,
+        "retweet_count": 36
+      }
+    },
+    {
+      "id": "2118375467405267261",
+      "content": "Imagine if you could reduce your debt by dividing it onto three credit cards!\n\nWell Mark Carney says today you can. https://t.co/0UXozKrYUt",
+      "date": "2026-11-05T16:10:43.000Z",
+      "metrics": {
+        "bookmark_count": 407,
+        "impression_count": 154956,
+        "like_count": 4012,
+        "quote_count": 89,
+        "reply_count": 329,
+        "retweet_count": 930
+      }
+    },
+    {
+      "id": "2118365164437221828",
+      "content": "The fastest-growing federal expense isn't health care, defence, or seniors' benefits.\n\nIt's interest on the national debt, costing a family of four nearly $6,000 this year alone and chewing through every cent Ottawa collects in GST.\n\nCanadians cannot afford the cost of Mark https://t.co/1faz4KxOg9",
+      "date": "2026-11-05T15:29:47.000Z",
+      "metrics": {
+        "bookmark_count": 10,
+        "impression_count": 17646,
+        "like_count": 995,
+        "quote_count": 11,
+        "reply_count": 87,
+        "retweet_count": 297
+      }
+    },
+    {
+      "id": "2118365083646534044",
+      "content": "La dépense fédérale qui augmente le plus n'est pas en santé, défense, ou pour les prestations aux aînés.\n\nC'est en fait les intérêts sur la dette nationale qui coûtent à une famille de quatre personnes près de 6000$ cette année seulement. Toute l'argent récolté par la TPS que https://t.co/RqZrcx5UZJ",
+      "date": "2026-11-05T15:29:27.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 10588,
+        "like_count": 120,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 16
+      }
+    },
+    {
+      "id": "2118341843469598881",
+      "content": "There's only one budget.\n\nAnd you pay for it. https://t.co/eop6TkN63H",
+      "date": "2026-11-05T13:57:07.000Z",
+      "metrics": {
+        "bookmark_count": 24,
+        "impression_count": 25848,
+        "like_count": 1017,
+        "quote_count": 15,
+        "reply_count": 129,
+        "retweet_count": 269
+      }
+    },
+    {
+      "id": "2118134963467891197",
+      "content": "Praying for everyone involved in this morning’s bus crash on Highway 39 near Mackenzie, B.C., and for their families.\n\nThank you to the first responders and to the hospital teams in Mackenzie and Prince George who are working to help all the injured. https://t.co/51m3sOMBoc",
+      "date": "2026-11-05T00:15:02.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 35818,
+        "like_count": 503,
+        "quote_count": 0,
+        "reply_count": 32,
+        "retweet_count": 49
+      }
+    },
+    {
+      "id": "2118134873441333702",
+      "content": "Mes pensées vont à toutes les personnes impliquées dans l'accident d’autobus survenu ce matin sur l'autoroute 39 près de Mackenzie en Colombie-Britannique, ainsi qu'à leurs familles.\n\nMerci aux premiers répondants et aux équipes hospitalières de Mackenzie et de Prince George qui",
+      "date": "2026-11-05T00:14:41.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 42380,
+        "like_count": 462,
+        "quote_count": 1,
+        "reply_count": 13,
+        "retweet_count": 34
+      }
+    },
     {
       "id": "2118012342856278379",
       "content": "The PM has questions to answer.\n\nTomorrow he will hike immigration levels and announce another massive inflationary deficit. Yet he hasn't been in question period for a week to answer how will he finally save Canadians money? Or get tariffs removed? Or get immigration under",
@@ -961,97 +1052,6 @@
         "quote_count": 8,
         "reply_count": 78,
         "retweet_count": 83
-      }
-    },
-    {
-      "id": "2117971240858087878",
-      "content": "There's two economies under Mark Carney’s government: those who follow the rules… and those who make them.\n\nWhich are you? https://t.co/IZIYjdweaf https://t.co/53FsbDUGte",
-      "date": "2026-11-04T13:24:28.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 22066,
-        "like_count": 522,
-        "quote_count": 9,
-        "reply_count": 117,
-        "retweet_count": 92
-      }
-    },
-    {
-      "id": "2117721945336631624",
-      "content": "I am disgusted by the brutal attack on a Canadian Armed Forces member supervising young cadets selling poppies in Hamilton.\n\nHe stepped in after the cadets were assaulted. He was left with injuries police describe as life-altering.\n\nHe was helping young Canadians honour those who",
-      "date": "2026-11-03T20:53:51.000Z",
-      "metrics": {
-        "bookmark_count": 257,
-        "impression_count": 364320,
-        "like_count": 10547,
-        "quote_count": 64,
-        "reply_count": 527,
-        "retweet_count": 1507
-      }
-    },
-    {
-      "id": "2117721874029535682",
-      "content": "Je suis profondément choqué par l’agression brutale dont a été victime un membre des Forces armées canadiennes qui supervisait de jeunes cadets vendant des coquelicots à Hamilton.\n\nIl a pris leur défense après que les cadets ont été agressés. Il a subi des blessures graves que la",
-      "date": "2026-11-03T20:53:34.000Z",
-      "metrics": {
-        "bookmark_count": 93,
-        "impression_count": 158010,
-        "like_count": 5232,
-        "quote_count": 29,
-        "reply_count": 242,
-        "retweet_count": 809
-      }
-    },
-    {
-      "id": "2117710055885725968",
-      "content": "Food bank visits in Toronto have more than quadrupled since 2019.\n\n1 in 8 Toronto children now rely on a food bank. That's nearly double the rate just four years ago.\n\nThursday's budget has one job: save Canadians money so they can afford to put food on the table.\n\nDemand an https://t.co/iQi5dUc43v",
-      "date": "2026-11-03T20:06:37.000Z",
-      "metrics": {
-        "bookmark_count": 8,
-        "impression_count": 22601,
-        "like_count": 519,
-        "quote_count": 7,
-        "reply_count": 113,
-        "retweet_count": 135
-      }
-    },
-    {
-      "id": "2117709743439372350",
-      "content": "Le nombre de visites dans les banques alimentaires de Toronto a plus que quadruplé depuis 2019.\n\nUn enfant sur huit à Toronto dépend maintenant des banques alimentaires. C’est près du double d'il y a seulement quatre ans.\n\nLe budget présenté jeudi devrait faire une chose : faire https://t.co/fkrwtSBYmW",
-      "date": "2026-11-03T20:05:22.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 16492,
-        "like_count": 166,
-        "quote_count": 1,
-        "reply_count": 13,
-        "retweet_count": 26
-      }
-    },
-    {
-      "id": "2117617941818622021",
-      "content": "Thank you to Conservative MP @TerryDowdall for presenting Erin Small’s petition to strengthen protections for victims of intimate partner violence and sexual assault.\n\nConservatives will keep fighting to give victims a voice, deliver justice, and keep violent criminals behind",
-      "date": "2026-11-03T14:00:35.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 17702,
-        "like_count": 366,
-        "quote_count": 4,
-        "reply_count": 68,
-        "retweet_count": 63
-      }
-    },
-    {
-      "id": "2117615018195718207",
-      "content": "RT @jamiljivani: Telesat got a $2.3B government contract. Its CEO is a personal friend of the Prime Minister. He's not on the PM's conflict screen.\n\nLast week, the Ethics Commissioner asked me to send him the details. Here they are. https://t.co/CZb1fOW091",
-      "date": "2026-11-03T13:48:58.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 3713,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 983
       }
     }
   ]
