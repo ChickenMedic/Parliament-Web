@@ -32,6 +32,20 @@
   ],
   "coverage": [
    {
+    "videoId": "UI4Waq5RJwM",
+    "title": "Carney's budget: A recipe for growth or debt? | The House",
+    "date": "2026-11-09T21:00:55+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/UI4Waq5RJwM/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "WK1wPyBwraM",
+    "title": "Carney among long line of prominent Canadians to lace up for Oxford University's hockey team",
+    "date": "2026-11-09T01:30:33+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/WK1wPyBwraM/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
     "videoId": "AKWbm9Ue1jg",
     "title": "PM Carney visits Winnipeg to highlight budget measures for reducing homelessness – November 6, 2026",
     "date": "2026-11-06T20:12:14+00:00",
@@ -49,6 +63,13 @@
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "8iO-mI27YvE",
+    "title": "Carney has sold out our steel workers to favour Chinese dumping.",
+    "date": "2026-11-09T01:29:12+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/8iO-mI27YvE/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "MrynRmbho-Y",
     "title": "Even more immigration?",
@@ -69,23 +90,8 @@
     "date": "2026-11-07T19:42:19+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/e1l0---5rxo/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "6v_BBizbL5w",
-    "title": "Did Carney discuss the $2.3 billion contract given to his friend?",
-    "date": "2026-11-07T15:45:59+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/6v_BBizbL5w/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "I4G8bqatnsg",
-    "title": "Conservative Leader Pierre Poilievre reacts to budget, rise in unemployment rate – November 6, 2026",
-    "date": "2026-11-06T17:41:03+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/I4G8bqatnsg/hqdefault.jpg",
-    "channel": "CPAC"
-   }
-  ]
+  "coverage": []
  }
 }
