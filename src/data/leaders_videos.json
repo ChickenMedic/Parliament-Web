@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "oKqsMOLSTmQ",
+    "title": "Prime Minister Carney's message on Remembrance Day",
+    "date": "2026-11-11T14:00:24+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/oKqsMOLSTmQ/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "pp9lAH2RZRM",
     "title": "Prime Minister Carney launches plan to end homelessness within 10 years in Budget 2026",
     "date": "2026-11-10T12:24:43+00:00",
@@ -21,22 +28,22 @@
     "date": "2026-11-02T22:55:57+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/aHxVS0oc1ds/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "CT4Yrcgl04M",
-    "title": "Prime Minister Carney delivers remarks at the Canada-European Union Summit",
-    "date": "2026-11-02T16:02:33+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/CT4Yrcgl04M/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "un7nuQTOEPc",
-    "title": "Carney calls Stellantis plant sale 'unacceptable,' Poilievre demands Joly's firing",
-    "date": "2026-11-10T18:43:30+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/un7nuQTOEPc/hqdefault.jpg",
-    "channel": "CBC News"
+    "videoId": "eeoIKWhzYYU",
+    "title": "Carney ‘has a lot of questions to answer’: Reid on Stellantis-Roshel deal",
+    "date": "2026-11-11T19:14:41+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/eeoIKWhzYYU/hqdefault.jpg",
+    "channel": "CTV News"
+   },
+   {
+    "videoId": "LBl2L1JG_R8",
+    "title": "Canada remembers: Carney, Governor General honour Canada's veterans in Ottawa | FULL",
+    "date": "2026-11-11T17:06:08+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/LBl2L1JG_R8/hqdefault.jpg",
+    "channel": "Global News"
    },
    {
     "videoId": "FhYSl48Y5K0",
@@ -46,37 +53,30 @@
     "channel": "CPAC"
    },
    {
-    "videoId": "dWsLDkjZxKU",
-    "title": "Carney calls Stellantis sale a ‘betrayal’ to Canada",
-    "date": "2026-11-10T18:04:29+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/dWsLDkjZxKU/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "-DH6XTYAUtA",
-    "title": "\"Betrayal of the workers\": Carney calls Stellantis decision to sell Brampton plant \"unacceptable\"",
-    "date": "2026-11-10T17:14:19+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/-DH6XTYAUtA/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
     "videoId": "TZokCDCT-EE",
     "title": "Le PM Mark Carney souligne les investissements en culture du Budget 2026",
     "date": "2026-11-10T16:46:43+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/TZokCDCT-EE/hqdefault.jpg",
     "channel": "CPAC"
-   },
-   {
-    "videoId": "7x4IWxXMy7Q",
-    "title": "Carney holds news conference in Montreal",
-    "date": "2026-11-10T16:45:57+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/7x4IWxXMy7Q/hqdefault.jpg",
-    "channel": "CBC News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "iBtrMCXJ0Ik",
+    "title": "Lest we forget.",
+    "date": "2026-11-11T12:47:12+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/iBtrMCXJ0Ik/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "FA_rJRQ2N44",
+    "title": "N’oublions jamais.",
+    "date": "2026-11-11T12:47:03+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/FA_rJRQ2N44/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "earFWO11a9A",
     "title": "Mark Carney must fire his costly, job-killing Industry Minister",
@@ -90,30 +90,9 @@
     "date": "2026-11-10T15:07:45+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/tCjZRXvX5LQ/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "8iO-mI27YvE",
-    "title": "Carney has sold out our steel workers to favour Chinese dumping.",
-    "date": "2026-11-09T01:29:12+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/8iO-mI27YvE/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "MrynRmbho-Y",
-    "title": "Even more immigration?",
-    "date": "2026-11-08T13:32:22+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/MrynRmbho-Y/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
-   {
-    "videoId": "un7nuQTOEPc",
-    "title": "Carney calls Stellantis plant sale 'unacceptable,' Poilievre demands Joly's firing",
-    "date": "2026-11-10T18:43:30+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/un7nuQTOEPc/hqdefault.jpg",
-    "channel": "CBC News"
-   },
    {
     "videoId": "pfEieVxaOGo",
     "title": "Poilievre calls for Minister Joly’s resignation following Stellantis’ move to sell Brampton Plant",
@@ -122,32 +101,11 @@
     "channel": "CPAC"
    },
    {
-    "videoId": "uqpren-esh8",
-    "title": "Poilievre calls for Joly to be fired: 'She's done nothing'",
-    "date": "2026-11-10T15:43:54+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/uqpren-esh8/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
     "videoId": "6cEr1-F_2ak",
     "title": "Pierre Poilievre comments on Stellantis selling Brampton plant – November 10, 2026",
     "date": "2026-11-10T15:31:26+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/6cEr1-F_2ak/hqdefault.jpg",
     "channel": "CPAC"
-   },
-   {
-    "videoId": "ZL1zSUHtjJo",
-    "title": "Poilievre demands Joly resign after Stellantis agrees to sell idled Brampton assembly plant | FULL",
-    "date": "2026-11-10T15:31:07+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/ZL1zSUHtjJo/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "vwYGM54X5f8",
-    "title": "Poilievre calls for Joly to be fired after Stellantis plant sale",
-    "date": "2026-11-10T15:09:44+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/vwYGM54X5f8/hqdefault.jpg",
-    "channel": "CBC News"
    }
   ]
  }
