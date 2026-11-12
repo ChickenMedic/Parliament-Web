@@ -1,6 +1,32 @@
 {
   "liberal_party": [
     {
+      "id": "2120930793006702732",
+      "content": "RT @CornwallHeath: From greenhouses and community kitchens to storage and transportation equipment, local food infrastructure makes a real difference. Through a $124 million investment as part of Budget 2026, we're renewing the Local Food Infrastructure Fund for another three years to strengthen https://t.co/WoyTx4ud20",
+      "date": "2026-11-12T17:24:40.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 355,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 5
+      }
+    },
+    {
+      "id": "2120930755719336227",
+      "content": "RT @MarkJCarney: The people of Laurier–Sainte-Marie, Rosemont–La Petite-Patrie, and Saint-Hyacinthe-Bagot–Acton know what it takes to build a stronger Canada.\n\nOur Liberal candidates are ready to get to work. For their communities. For Québec. For Canada. https://t.co/8XibyxuytW",
+      "date": "2026-11-12T17:24:31.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 171,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 86
+      }
+    },
+    {
       "id": "2120528978553561134",
       "content": "RT @MarkJCarney: Today, we remember those who spent years away from their loved ones, those who returned forever changed, and those who never came home. https://t.co/tMjoDm9yhV",
       "date": "2026-11-11T14:48:00.000Z",
@@ -103,35 +129,113 @@
         "reply_count": 84,
         "retweet_count": 8
       }
-    },
-    {
-      "id": "2118823108513587554",
-      "content": "With Budget 2026, we’re delivering the most comprehensive revamp of business incentives in generations — helping businesses of all sizes invest and grow. https://t.co/k7y7Iq8ic3",
-      "date": "2026-11-06T21:49:29.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 2128,
-        "like_count": 36,
-        "quote_count": 0,
-        "reply_count": 80,
-        "retweet_count": 12
-      }
-    },
-    {
-      "id": "2118814360332386677",
-      "content": "RT @FP_Champagne: Being Masters of our own destiny also means protecting our country, strengthening our sovereignty, and celebrating who we are. From coast to coast to coast, Canada is home to thousands of communities, traditions, and stories that make us stronger. That is the third pillar of https://t.co/Ci7HX2eYsi",
-      "date": "2026-11-06T21:14:43.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 472,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 25
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2120971705984172109",
+      "content": "RT @PierrePoilievre: Mark Carney's Liberals handed Stellantis billions of your tax dollars.\n\nNow thousands of Canadian jobs are moving to the United States.\n\nEvery cent of Canadian tax dollars must be returned.\n\nAnd Mark Carney's costly, job-killing Industry Minister must be fired: https://t.co/87sNDCvQif",
+      "date": "2026-11-12T20:07:15.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 97,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 125
+      }
+    },
+    {
+      "id": "2120927983514878332",
+      "content": "RT @PierrePoilievre: Mark Carney called the Stellantis sale a “betrayal.”\n\nThe next day he called it a “partial solution.” \n\nHe is talking out of both sides of his mouth again.\n\nSo who really betrayed Canadian workers? https://t.co/Ov1OMvEsVn",
+      "date": "2026-11-12T17:13:30.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 146,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 261
+      }
+    },
+    {
+      "id": "2120879627392401919",
+      "content": "RT @PierrePoilievre: A special evening with @BrettKissel, @WBrettWilson, and @dckurek in support of our veterans, Canada’s Armed Forces, and the people of Wainwright.\n\nThank you to everyone who came out and especially to those who donated in support of the brave men and women who answered the call to https://t.co/4wfGBKTWzc",
+      "date": "2026-11-12T14:01:21.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 181,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 69
+      }
+    },
+    {
+      "id": "2120879612217479266",
+      "content": "RT @PierrePoilievre: When Conservatives were in power a minister was forced to resign for spending $17 on orange juice. https://t.co/rgj4Ztrwqu",
+      "date": "2026-11-12T14:01:18.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 145,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1433
+      }
+    },
+    {
+      "id": "2120690155447001501",
+      "content": "RT @PierrePoilievre: Today in Wainwright, I joined veterans and members of our Armed Forces to lay a wreath and honour those who gave their lives for our freedom.\n\nThis Remembrance Day, we also mourn the four brave Canadian soldiers who tragically lost their lives at CFB Wainwright just weeks ago. https://t.co/6zP4j6GIiT",
+      "date": "2026-11-12T01:28:28.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 209,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 96
+      }
+    },
+    {
+      "id": "2120689947078238329",
+      "content": "RT @PierrePoilievre: I am deeply saddened by the tragic plane crash during today's Remembrance Day commemorations in Saint-Georges, Beauce.\n\nMy heartfelt condolences go to the family and loved ones of the pilot who lost his life. My thoughts and prayers are with all those affected, and I thank the",
+      "date": "2026-11-12T01:27:38.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 197,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 133
+      }
+    },
+    {
+      "id": "2120652846420947084",
+      "content": "Meet your team of Conservative candidates in the upcoming by-elections.\n\nConservatives are fighting for:\n⬇️Lower taxes\n⚖️Tougher laws to keep repeat criminals behind bars\n📉 Lower immigration levels that put Canadians first for 🇨🇦  jobs, homes, and health care. https://t.co/cglRPjqw2k",
+      "date": "2026-11-11T23:00:13.000Z",
+      "metrics": {
+        "bookmark_count": 17,
+        "impression_count": 10130,
+        "like_count": 340,
+        "quote_count": 8,
+        "reply_count": 49,
+        "retweet_count": 79
+      }
+    },
+    {
+      "id": "2120649012047208496",
+      "content": "RT @PierrePoilievre: We remember.\n\nLest we forget. https://t.co/PInRk1Ywzb",
+      "date": "2026-11-11T22:44:58.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 198,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 178
+      }
+    },
     {
       "id": "2120569486449242463",
       "content": "RT @PierrePoilievre: Yesterday Mark Carney said the Stellantis sale was a “betrayal.\"\n\nToday, we find out his government was in on it every step of the way. \n\nSo is he the one that betrayed the workers &amp; taxpayers? https://t.co/6Gk7X7cRo9",
@@ -157,113 +261,35 @@
         "reply_count": 3,
         "retweet_count": 25
       }
-    },
-    {
-      "id": "2120498891439181950",
-      "content": "RT @PierrePoilievre: At 11 a.m., Canadians across our country will fall silent for two minutes.\n\nTo remember those who never came home, honour those who did, and thank those who continue to serve.\n\nLest we forget. https://t.co/5zOOGYYsoT",
-      "date": "2026-11-11T12:48:27.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 159,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 431
-      }
-    },
-    {
-      "id": "2120320654259913038",
-      "content": "Canadian steel and auto workers are losing their jobs while the Liberals hand your tax dollars to corporations that ship jobs south.\n\nLetters and photo ops won’t save those jobs.\n\nMark Carney must fire his costly, job-killing minister, Mélanie Joly: https://t.co/dzGqucxaVB https://t.co/DF5n8g3Ces",
-      "date": "2026-11-11T01:00:12.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 9221,
-        "like_count": 898,
-        "quote_count": 10,
-        "reply_count": 85,
-        "retweet_count": 240
-      }
-    },
-    {
-      "id": "2120238061208445277",
-      "content": "RT @PierrePoilievre: Mark Carney promised to cut waste on external consultants.\n\nThen he spent nearly $20 billion annually of your money on high-priced consultants. That's $1,200 per family per year for consultants.\n\nAnother broken Liberal promise.\n\nHe spends, you pay.\n\nConservative are fighting to https://t.co/00xw7hDWR5",
-      "date": "2026-11-10T19:32:00.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 104,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 50
-      }
-    },
-    {
-      "id": "2120205614915723364",
-      "content": "RT @PierrePoilievre: What an outrage:\n\nThe Carney Liberal government says it can’t afford to let all reservists attend Remembrance services. \n\nWhere are all the billions going? To defence lobbyists and corporate powerbrokers, not the troops.\n\nAll the brave men and women in uniform deserve to be front https://t.co/uqzKlYMmXi",
-      "date": "2026-11-10T17:23:04.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 144,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 397
-      }
-    },
-    {
-      "id": "2120170946724303216",
-      "content": "RT @PierrePoilievre: LIVE: Mark Carney must fire his job-killing Industry Minister https://t.co/kDnYcYuYOR",
-      "date": "2026-11-10T15:05:19.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 156,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 300
-      }
-    },
-    {
-      "id": "2120152726709694522",
-      "content": "RT @PierrePoilievre: Over 40 years ago, Berger Precision chose Brampton for its first expansion outside Germany. MP @AmarjeetGill and I toured their North American headquarters there, with their talented workers manufacturing precision parts for cars, aircraft, and more.\n\nThe next generation of https://t.co/9QYnKlvxur",
-      "date": "2026-11-10T13:52:55.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 168,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 54
-      }
-    },
-    {
-      "id": "2120152717436031483",
-      "content": "RT @PierrePoilievre: Thinking of Stellantis workers tonight as they worry about how they will keep a roof over head and food in the fridge, with the company selling its Brampton Assembly.\n\nToday, Canada lost yet another auto plant as the Carney Liberals’ strategy of giving out billions of tax dollars",
-      "date": "2026-11-10T13:52:53.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 147,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 715
-      }
-    },
-    {
-      "id": "2119845458424082686",
-      "content": "RT @PierrePoilievre: My thoughts are with everyone affected by the severe storms and flooding across British Columbia, especially the family and loved ones of the person who tragically lost their life.\n\nThank you to the first responders and crews working to keep communities safe and restore power.",
-      "date": "2026-11-09T17:31:56.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 153,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 46
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2120962524049002843",
+      "content": "Montreal! We're keeping up the momentum with a rally for Pierre and Nimâ. Come out to hear from Avi, Pierre and Nimâ, with performances from Safia Nolin and Paul Cargnello.\n\nDoors at 6 PM\nShow starts at 7 PM\n\nSave your spot now: https://t.co/kbF9oTGZZr https://t.co/6OLQGN4yWZ",
+      "date": "2026-11-12T19:30:45.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 555,
+        "like_count": 15,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 6
+      }
+    },
+    {
+      "id": "2120961362071597180",
+      "content": "Montréal! Venez passer une soirée inspirante en compagnie de notre chef, Avi Lewis, nos formidables candidat-es aux élections partielles, Nimâ Machouf et Pierre Céré.\n\nEt ce n'est pas tout !\n\nSafia Nolin et Paul Cargnello seront là pour jouer quelques chansons et énergiser https://t.co/ju6ZSpgygW",
+      "date": "2026-11-12T19:26:08.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 450,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 2
+      }
+    },
     {
       "id": "2120602156428628167",
       "content": "RT @avilewis: Stellantis a tourné le dos aux travailleurs et travailleuses et le gouvernement Carney ne fait pas mieux.\n\nEncore une fois, les libéraux laissent notre secteur manufacturier encaisser les coups alors qu'ils ont promis de nous protéger des menaces des États-Unis.  \n\nIls auraient https://t.co/G4rXL168uj",
@@ -367,35 +393,22 @@
         "reply_count": 0,
         "retweet_count": 70
       }
-    },
-    {
-      "id": "2120264329501323708",
-      "content": "RT @avilewis: This is a budget for rich men.\n\nDon’t take my word for it — the government’s own gender analysis admits it.\n\nHow out of touch with the needs of ordinary Canadians can this government get? https://t.co/Pclcg5TNcA",
-      "date": "2026-11-10T21:16:23.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 72,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 282
-      }
-    },
-    {
-      "id": "2119936146792996957",
-      "content": "RT @avilewis: I was just in Brampton last week, co-hosting a rowdy town hall at @UniforLocal1285 HQ for these embattled Stellantis workers. I heard heartbreaking stories of how much the community has already lost in a prolonged shutdown. And I saw the fire of their resolve: they are not giving",
-      "date": "2026-11-09T23:32:18.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 100,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 61
-      }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2120864188213944436",
+      "content": "Avec l’augmentation du coût de la vie, les aînés ont de plus en plus de difficulté à joindre les deux bouts avec leur revenu de la Sécurité de la vieillesse. Malgré cela, les libéraux de Carney maintiennent la discrimination envers les aînés de 65 à 74 ans. https://t.co/XLjoD0Hfaa",
+      "date": "2026-11-12T13:00:00.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 516,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 8,
+        "retweet_count": 4
+      }
+    },
     {
       "id": "2120501812297871419",
       "content": "Aujourd’hui, rendons hommage au courage de ces hommes et ces femmes qui se sont battus pour notre liberté. https://t.co/eV8uKueraF",
@@ -512,22 +525,22 @@
         "reply_count": 4,
         "retweet_count": 11
       }
-    },
-    {
-      "id": "2118044249010602405",
-      "content": "Ce n'est pas nous qui le disons, mais on le savait déjà depuis bien longtemps : Alexandre Curzi est À DÉCOUVRIR!   \n\nRassembleur, négociateur habile et amoureux de notre culture québécoise, il est la voix qui représentera avec force Rosemont–La Petite-Patrie. C'est une fierté de https://t.co/Cwaj4dIx2R",
-      "date": "2026-11-04T18:14:34.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 345,
-        "like_count": 10,
-        "quote_count": 0,
-        "reply_count": 3,
-        "retweet_count": 7
-      }
     }
   ],
   "CanadianGreens": [
+    {
+      "id": "2120945446726328619",
+      "content": "Read Elizabeth May’s message to Canadians as she reflects on her time as Leader of the Green Party of Canada, the work she's accomplished, and what comes next. https://t.co/JerDmUnNdV",
+      "date": "2026-11-12T18:22:54.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 2647,
+        "like_count": 25,
+        "quote_count": 2,
+        "reply_count": 2,
+        "retweet_count": 7
+      }
+    },
     {
       "id": "2120532004525477943",
       "content": "Read our statement on Remembrance Day 🌺 https://t.co/2QpsRxryoS",
@@ -643,19 +656,6 @@
         "quote_count": 2,
         "reply_count": 7,
         "retweet_count": 7
-      }
-    },
-    {
-      "id": "2113679084035400037",
-      "content": "WATCH: The government claims to be working collaboratively, but when confronted today in Question Period with bill after bill granting unprecedented powers to the Prime Minister, they had little to say. https://t.co/FOcIBE8o7B",
-      "date": "2026-10-23T17:08:58.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 136,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 1
       }
     }
   ],
@@ -793,6 +793,110 @@
   ],
   "MarkJCarney": [
     {
+      "id": "2120960072171884863",
+      "content": "Canada is one of the largest per-capita contributors to Ukraine’s defence and reconstruction. The Canadian Armed Forces train thousands of Ukrainian troops in Latvia. Our support is unwavering.\n\nTogether, with our European Allies, we will secure a just and lasting peace in https://t.co/0CrpaFL1SH",
+      "date": "2026-11-12T19:21:01.000Z",
+      "metrics": {
+        "bookmark_count": 11,
+        "impression_count": 18834,
+        "like_count": 339,
+        "quote_count": 14,
+        "reply_count": 228,
+        "retweet_count": 71
+      }
+    },
+    {
+      "id": "2120959843401937249",
+      "content": "Le Canada compte parmi les pays qui contribuent le plus à la défense et à la reconstruction de l’Ukraine, par habitant. Les Forces armées canadiennes forment des milliers de militaires ukrainiens en Lettonie. Notre soutien est indéfectible.\n\nEnsemble, avec nos alliés européens, https://t.co/RPeTQ9WUr3",
+      "date": "2026-11-12T19:20:06.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 13483,
+        "like_count": 171,
+        "quote_count": 3,
+        "reply_count": 153,
+        "retweet_count": 41
+      }
+    },
+    {
+      "id": "2120914965825478661",
+      "content": "The relationship between Canada and Europe is rooted in common values and ambition — and we’re building on it.\n\nTo give our citizens more choice, more opportunity, and a more affordable future. The freedom to live our lives as we choose, on our own terms. https://t.co/u6xGiZZC5P",
+      "date": "2026-11-12T16:21:47.000Z",
+      "metrics": {
+        "bookmark_count": 18,
+        "impression_count": 40834,
+        "like_count": 1079,
+        "quote_count": 30,
+        "reply_count": 772,
+        "retweet_count": 216
+      }
+    },
+    {
+      "id": "2120913164170559534",
+      "content": "La relation entre le Canada et l’Europe repose sur leurs valeurs et leur ambition communes, et c’est sur quoi nous misons.\n\nAfin d’offrir à nos citoyens davantage de choix, davantage de possibilités et un avenir plus abordable. La liberté de mener notre vie comme nous https://t.co/q6HmXNuNhw",
+      "date": "2026-11-12T16:14:37.000Z",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 21356,
+        "like_count": 518,
+        "quote_count": 9,
+        "reply_count": 207,
+        "retweet_count": 84
+      }
+    },
+    {
+      "id": "2120885260305281121",
+      "content": "Canada is the EU’s closest partner outside Europe.\n\nThat's why we're at the European Political Community Summit in Dublin. To build our collective security, create new economic opportunities, and reinforce our sovereignty. https://t.co/yQv1QLZmug",
+      "date": "2026-11-12T14:23:44.000Z",
+      "metrics": {
+        "bookmark_count": 13,
+        "impression_count": 33784,
+        "like_count": 1115,
+        "quote_count": 22,
+        "reply_count": 515,
+        "retweet_count": 196
+      }
+    },
+    {
+      "id": "2120884453094388122",
+      "content": "Le Canada est le partenaire le plus proche de l’UE à l’extérieur de l’Europe.\n \nC’est pourquoi nous participons au Sommet de la Communauté politique européenne à Dublin. Afin de bâtir notre sécurité collective, de créer des possibilités économiques et de renforcer notre https://t.co/Y9MHPHDMgd",
+      "date": "2026-11-12T14:20:32.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 17292,
+        "like_count": 350,
+        "quote_count": 2,
+        "reply_count": 114,
+        "retweet_count": 48
+      }
+    },
+    {
+      "id": "2120715229818712469",
+      "content": "Arrived in Dublin for the European Political Community Summit.\n\nCanada is forging a deeper alliance with Europe — rooted in shared history and common values — to build more prosperity and security on both sides of the Atlantic. https://t.co/SfxrEK2yjW",
+      "date": "2026-11-12T03:08:06.000Z",
+      "metrics": {
+        "bookmark_count": 49,
+        "impression_count": 101407,
+        "like_count": 2998,
+        "quote_count": 82,
+        "reply_count": 1340,
+        "retweet_count": 431
+      }
+    },
+    {
+      "id": "2120715074944073816",
+      "content": "Je suis arrivé à Dublin pour le Sommet de la Communauté politique européenne.\n\nLe Canada forge une alliance plus étroite avec l’Europe – fondée sur une histoire commune et des valeurs partagées – afin de renforcer la prospérité et la sécurité des deux côtés de l’Atlantique. https://t.co/emO5p7RrFD",
+      "date": "2026-11-12T03:07:29.000Z",
+      "metrics": {
+        "bookmark_count": 12,
+        "impression_count": 39547,
+        "like_count": 1585,
+        "quote_count": 15,
+        "reply_count": 404,
+        "retweet_count": 237
+      }
+    },
+    {
       "id": "2120595021938491509",
       "content": "Remembrance is a promise: that what our brave women and men in uniform defended, we will defend. That what they won, we will keep, forever cherish, and pass on.\n\nLest we forget. https://t.co/HySz2nUIhA",
       "date": "2026-11-11T19:10:26.000Z",
@@ -817,113 +921,100 @@
         "reply_count": 22,
         "retweet_count": 23
       }
-    },
-    {
-      "id": "2120522020563865733",
-      "content": "My statement on Remembrance Day: https://t.co/olWieawVrw",
-      "date": "2026-11-11T14:20:21.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 12824,
-        "like_count": 118,
-        "quote_count": 2,
-        "reply_count": 68,
-        "retweet_count": 22
-      }
-    },
-    {
-      "id": "2120522015962808448",
-      "content": "Today, we remember those who spent years away from their loved ones, those who returned forever changed, and those who never came home. https://t.co/tMjoDm9yhV",
-      "date": "2026-11-11T14:20:20.000Z",
-      "metrics": {
-        "bookmark_count": 100,
-        "impression_count": 83846,
-        "like_count": 5000,
-        "quote_count": 50,
-        "reply_count": 673,
-        "retweet_count": 843
-      }
-    },
-    {
-      "id": "2120521322115592393",
-      "content": "Ma déclaration à l’occasion du jour du Souvenir : https://t.co/fmrL7cJ1C0",
-      "date": "2026-11-11T14:17:35.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 8644,
-        "like_count": 47,
-        "quote_count": 0,
-        "reply_count": 27,
-        "retweet_count": 8
-      }
-    },
-    {
-      "id": "2120521318424510491",
-      "content": "Aujourd’hui, nous rendons hommage à tous ceux qui ont passé des années de leur vie loin de leurs proches, à ceux qui sont revenus changés à jamais et à ceux qui ne sont jamais rentrés. https://t.co/lyg3aBg51d",
-      "date": "2026-11-11T14:17:34.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 24115,
-        "like_count": 810,
-        "quote_count": 4,
-        "reply_count": 152,
-        "retweet_count": 112
-      }
-    },
-    {
-      "id": "2120346609921745368",
-      "content": "Un pays qui valorise l’art donne aux artistes les moyens de s’épanouir. https://t.co/UxZZKZPP80",
-      "date": "2026-11-11T02:43:20.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 24096,
-        "like_count": 281,
-        "quote_count": 8,
-        "reply_count": 200,
-        "retweet_count": 49
-      }
-    },
-    {
-      "id": "2120346456095617172",
-      "content": "A country that values art empowers its artists. https://t.co/nKL9VCx02u",
-      "date": "2026-11-11T02:42:43.000Z",
-      "metrics": {
-        "bookmark_count": 53,
-        "impression_count": 47786,
-        "like_count": 987,
-        "quote_count": 48,
-        "reply_count": 659,
-        "retweet_count": 184
-      }
-    },
-    {
-      "id": "2120326249348321688",
-      "content": "Les gens de Laurier–Sainte-Marie, de Rosemont–La Petite-Patrie et de Saint-Hyacinthe–Bagot–Acton savent ce qu’il faut faire pour bâtir un Canada plus fort.\n\nNos candidats libéraux sont prêts à se retrousser les manches. Pour leurs circonscriptions. Pour le Québec. Pour le Canada. https://t.co/GLejJxGA7t",
-      "date": "2026-11-11T01:22:26.000Z",
-      "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 37129,
-        "like_count": 607,
-        "quote_count": 12,
-        "reply_count": 176,
-        "retweet_count": 100
-      }
-    },
-    {
-      "id": "2120326218486792293",
-      "content": "The people of Laurier–Sainte-Marie, Rosemont–La Petite-Patrie, and Saint-Hyacinthe-Bagot–Acton know what it takes to build a stronger Canada.\n\nOur Liberal candidates are ready to get to work. For their communities. For Québec. For Canada. https://t.co/8XibyxuytW",
-      "date": "2026-11-11T01:22:18.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 28517,
-        "like_count": 411,
-        "quote_count": 0,
-        "reply_count": 139,
-        "retweet_count": 71
-      }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2120953206595375560",
+      "content": "Mark Carney's Liberals handed Stellantis billions of your tax dollars.\n\nNow thousands of Canadian jobs are moving to the United States.\n\nEvery cent of Canadian tax dollars must be returned.\n\nAnd Mark Carney's costly, job-killing Industry Minister must be fired: https://t.co/87sNDCvQif",
+      "date": "2026-11-12T18:53:44.000Z",
+      "metrics": {
+        "bookmark_count": 12,
+        "impression_count": 15142,
+        "like_count": 609,
+        "quote_count": 4,
+        "reply_count": 71,
+        "retweet_count": 125
+      }
+    },
+    {
+      "id": "2120946125607678446",
+      "content": "LIVE: Who really betrayed Canadian autoworkers and taxpayers? https://t.co/En6SKhmg3K",
+      "date": "2026-11-12T18:25:36.000Z",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 12792,
+        "like_count": 347,
+        "quote_count": 1,
+        "reply_count": 50,
+        "retweet_count": 60
+      }
+    },
+    {
+      "id": "2120916098975506590",
+      "content": "Mark Carney called the Stellantis sale a “betrayal.”\n\nThe next day he called it a “partial solution.” \n\nHe is talking out of both sides of his mouth again.\n\nSo who really betrayed Canadian workers? https://t.co/Ov1OMvEsVn",
+      "date": "2026-11-12T16:26:17.000Z",
+      "metrics": {
+        "bookmark_count": 13,
+        "impression_count": 27141,
+        "like_count": 1263,
+        "quote_count": 13,
+        "reply_count": 128,
+        "retweet_count": 261
+      }
+    },
+    {
+      "id": "2120866379305742410",
+      "content": "When Conservatives were in power a minister was forced to resign for spending $17 on orange juice. https://t.co/rgj4Ztrwqu",
+      "date": "2026-11-12T13:08:43.000Z",
+      "metrics": {
+        "bookmark_count": 239,
+        "impression_count": 181523,
+        "like_count": 8675,
+        "quote_count": 68,
+        "reply_count": 407,
+        "retweet_count": 1433
+      }
+    },
+    {
+      "id": "2120862759847870472",
+      "content": "A special evening with @BrettKissel, @WBrettWilson, and @dckurek in support of our veterans, Canada’s Armed Forces, and the people of Wainwright.\n\nThank you to everyone who came out and especially to those who donated in support of the brave men and women who answered the call to https://t.co/4wfGBKTWzc",
+      "date": "2026-11-12T12:54:20.000Z",
+      "metrics": {
+        "bookmark_count": 8,
+        "impression_count": 19365,
+        "like_count": 480,
+        "quote_count": 3,
+        "reply_count": 16,
+        "retweet_count": 69
+      }
+    },
+    {
+      "id": "2120681232916787382",
+      "content": "Today in Wainwright, I joined veterans and members of our Armed Forces to lay a wreath and honour those who gave their lives for our freedom.\n\nThis Remembrance Day, we also mourn the four brave Canadian soldiers who tragically lost their lives at CFB Wainwright just weeks ago. https://t.co/6zP4j6GIiT",
+      "date": "2026-11-12T00:53:00.000Z",
+      "metrics": {
+        "bookmark_count": 5,
+        "impression_count": 26128,
+        "like_count": 735,
+        "quote_count": 3,
+        "reply_count": 45,
+        "retweet_count": 96
+      }
+    },
+    {
+      "id": "2120646405731824101",
+      "content": "We remember.\n\nLest we forget. https://t.co/PInRk1Ywzb",
+      "date": "2026-11-11T22:34:37.000Z",
+      "metrics": {
+        "bookmark_count": 24,
+        "impression_count": 41450,
+        "like_count": 1960,
+        "quote_count": 5,
+        "reply_count": 81,
+        "retweet_count": 178
+      }
+    },
     {
       "id": "2120594723635093592",
       "content": "Je viens d’apprendre avec tristesse l’écrasement d’un avion lors de la cérémonie du jour du Souvenir à Saint-Georges, en Beauce.\n\nMes pensées accompagnent la famille et les proches du pilote décédé, ainsi que toutes les personnes touchées par cette tragédie. Merci aux courageuses",
@@ -961,97 +1052,6 @@
         "quote_count": 14,
         "reply_count": 126,
         "retweet_count": 359
-      }
-    },
-    {
-      "id": "2120509549463720316",
-      "content": "Yesterday Mark Carney said the Stellantis sale was a “betrayal.\"\n\nToday, we find out his government was in on it every step of the way. \n\nSo is he the one that betrayed the workers &amp; taxpayers? https://t.co/6Gk7X7cRo9",
-      "date": "2026-11-11T13:30:48.000Z",
-      "metrics": {
-        "bookmark_count": 149,
-        "impression_count": 72922,
-        "like_count": 5018,
-        "quote_count": 36,
-        "reply_count": 260,
-        "retweet_count": 1103
-      }
-    },
-    {
-      "id": "2120497536351834302",
-      "content": "At 11 a.m., Canadians across our country will fall silent for two minutes.\n\nTo remember those who never came home, honour those who did, and thank those who continue to serve.\n\nLest we forget. https://t.co/5zOOGYYsoT",
-      "date": "2026-11-11T12:43:04.000Z",
-      "metrics": {
-        "bookmark_count": 31,
-        "impression_count": 31295,
-        "like_count": 2395,
-        "quote_count": 11,
-        "reply_count": 108,
-        "retweet_count": 431
-      }
-    },
-    {
-      "id": "2120497514294149347",
-      "content": "À 11 heures, les Canadiens de tout le pays observeront deux minutes de silence.\n\nPour se souvenir de ceux qui ne sont jamais rentrés à la maison, rendre hommage à ceux qui sont revenus et remercier ceux qui continuent de servir.\n\nN’oublions jamais. https://t.co/XPaOjEiho3",
-      "date": "2026-11-11T12:42:59.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 15580,
-        "like_count": 617,
-        "quote_count": 2,
-        "reply_count": 18,
-        "retweet_count": 87
-      }
-    },
-    {
-      "id": "2120296321080807664",
-      "content": "Our Conservative team just got a little bigger!\n\nWonderful meeting little Sofia. Congratulations again Sandra and Matthijs on your beautiful growing family! https://t.co/sDnbLfiiXq",
-      "date": "2026-11-10T23:23:30.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 40731,
-        "like_count": 1612,
-        "quote_count": 2,
-        "reply_count": 86,
-        "retweet_count": 91
-      }
-    },
-    {
-      "id": "2120245001783484468",
-      "content": "Big taxpayer-funded corporate handouts for lost jobs. And more Liberal theatre, while Canadian workers &amp; taxpayers pay the price.\n\nMark Carney must fire his costly, job-killing Industry Minister: https://t.co/xpDH277Xz4 https://t.co/VNfEI4sZ0p",
-      "date": "2026-11-10T19:59:35.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 2850,
-        "like_count": 44,
-        "quote_count": 0,
-        "reply_count": 3,
-        "retweet_count": 11
-      }
-    },
-    {
-      "id": "2120233897204310385",
-      "content": "Mark Carney promised to cut waste on external consultants.\n\nThen he spent nearly $20 billion annually of your money on high-priced consultants. That's $1,200 per family per year for consultants.\n\nAnother broken Liberal promise.\n\nHe spends, you pay.\n\nConservative are fighting to https://t.co/00xw7hDWR5",
-      "date": "2026-11-10T19:15:27.000Z",
-      "metrics": {
-        "bookmark_count": 10,
-        "impression_count": 10584,
-        "like_count": 334,
-        "quote_count": 4,
-        "reply_count": 29,
-        "retweet_count": 50
-      }
-    },
-    {
-      "id": "2120221442927398922",
-      "content": "2000 Canadian jobs got elbowed south after Liberals offered the company billions of tax dollars in handouts.\n\nMark Carney must fire his costly, job-killing Industry Minister: https://t.co/xpDH277Xz4 https://t.co/fQBsTB8JQG",
-      "date": "2026-11-10T18:25:58.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 13353,
-        "like_count": 651,
-        "quote_count": 11,
-        "reply_count": 99,
-        "retweet_count": 152
       }
     }
   ]
