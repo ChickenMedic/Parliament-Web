@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "7ZKsmnVi_bE",
+    "title": "Prime Minister Carney highlights largest culture investment in Canadian history",
+    "date": "2026-11-14T00:52:17+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/7ZKsmnVi_bE/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "oKqsMOLSTmQ",
     "title": "Prime Minister Carney's message on Remembrance Day",
     "date": "2026-11-11T14:00:24+00:00",
@@ -21,34 +28,62 @@
     "date": "2026-11-06T15:34:56+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/QBzhUpIoQsg/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "aHxVS0oc1ds",
-    "title": "Canada’s new Strategic Partnership with the UAE",
-    "date": "2026-11-02T22:55:57+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/aHxVS0oc1ds/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
+   {
+    "videoId": "DyNo5DE-BVo",
+    "title": "Carney government concludes negotiations for free-trade deals with Philippines, ASEAN",
+    "date": "2026-11-14T18:10:30+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/DyNo5DE-BVo/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "uziTBtelvh0",
+    "title": "Carney says Canada, US “making progress” toward new trade deal",
+    "date": "2026-11-14T14:41:39+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/uziTBtelvh0/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "fKbDrP01Xus",
+    "title": "PM Mark Carney discusses Canada-Philippines free trade agreement in Manila – November 14, 2026",
+    "date": "2026-11-14T05:57:57+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/fKbDrP01Xus/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "bmeqWVQgZwY",
+    "title": "PM Mark Carney meets with Philippine President Ferdinand Marcos Jr. in Manila – November 14, 2026",
+    "date": "2026-11-14T03:29:45+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/bmeqWVQgZwY/hqdefault.jpg",
+    "channel": "CPAC"
+   },
    {
     "videoId": "MNAmYdeljfM",
     "title": "PM Mark Carney meets with the President of Cyprus, PM of Greece in Dublin – November 12, 2026",
     "date": "2026-11-12T20:32:02+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/MNAmYdeljfM/hqdefault.jpg",
     "channel": "CPAC"
-   },
-   {
-    "videoId": "eP336XJIMD8",
-    "title": "PM Carney comments on Canada-EU ties, Stellantis plant sale– November 12, 2026",
-    "date": "2026-11-12T11:25:37+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/eP336XJIMD8/hqdefault.jpg",
-    "channel": "CPAC"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "llNs06Bj-X8",
+    "title": "Prime Minister Carney called it a betrayal. But whose betrayal was it?",
+    "date": "2026-11-14T16:18:50+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/llNs06Bj-X8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "LYvUkKpzHEw",
+    "title": "Young Canadians are priced out of homeownership",
+    "date": "2026-11-14T13:34:45+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/LYvUkKpzHEw/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "gvqFKJoissg",
     "title": "Carney Liberals betrayed Canadian workers",
@@ -61,20 +96,6 @@
     "title": "LIVE: Who really betrayed Canadian autoworkers and taxpayers?",
     "date": "2026-11-12T18:44:44+00:00",
     "thumbnail": "https://i2.ytimg.com/vi/Q9j8Dz4eeEk/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "wYpI4cDf68A",
-    "title": "We remember. Lest we forget.",
-    "date": "2026-11-11T22:40:02+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/wYpI4cDf68A/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "iBtrMCXJ0Ik",
-    "title": "Lest we forget.",
-    "date": "2026-11-11T12:47:12+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/iBtrMCXJ0Ik/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
