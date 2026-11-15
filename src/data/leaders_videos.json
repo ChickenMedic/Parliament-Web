@@ -32,18 +32,32 @@
   ],
   "coverage": [
    {
-    "videoId": "DyNo5DE-BVo",
-    "title": "Carney government concludes negotiations for free-trade deals with Philippines, ASEAN",
-    "date": "2026-11-14T18:10:30+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/DyNo5DE-BVo/hqdefault.jpg",
-    "channel": "Global News"
+    "videoId": "hHEtLCjM6oo",
+    "title": "CTV News in Cambodia: The latest on PM Carney’s visit abroad",
+    "date": "2026-11-15T16:14:06+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/hHEtLCjM6oo/hqdefault.jpg",
+    "channel": "CTV News"
    },
    {
-    "videoId": "uziTBtelvh0",
-    "title": "Carney says Canada, US “making progress” toward new trade deal",
-    "date": "2026-11-14T14:41:39+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/uziTBtelvh0/hqdefault.jpg",
-    "channel": "Global News"
+    "videoId": "qazHFoJM-LY",
+    "title": "Quebec premier comments after meeting with PM Carney in Phnom Penh – November 15, 2026",
+    "date": "2026-11-15T14:55:25+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/qazHFoJM-LY/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "WkNnt9ZMg_k",
+    "title": "PM Carney and Quebec Premier St-Pierre Plamondon meet in Phnom Penh – November 15, 2026",
+    "date": "2026-11-15T14:52:47+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/WkNnt9ZMg_k/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "nCKgNoviYLU",
+    "title": "PM Carney meets with Brazilian President Lula da Silva in Manila – November 15, 2026",
+    "date": "2026-11-15T14:48:28+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/nCKgNoviYLU/hqdefault.jpg",
+    "channel": "CPAC"
    },
    {
     "videoId": "fKbDrP01Xus",
@@ -58,18 +72,18 @@
     "date": "2026-11-14T03:29:45+00:00",
     "thumbnail": "https://i3.ytimg.com/vi/bmeqWVQgZwY/hqdefault.jpg",
     "channel": "CPAC"
-   },
-   {
-    "videoId": "MNAmYdeljfM",
-    "title": "PM Mark Carney meets with the President of Cyprus, PM of Greece in Dublin – November 12, 2026",
-    "date": "2026-11-12T20:32:02+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/MNAmYdeljfM/hqdefault.jpg",
-    "channel": "CPAC"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "QpNE_jfrcHw",
+    "title": "How to deliver affordable superfood to hardworking Canadians 🇨🇦",
+    "date": "2026-11-14T20:54:53+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/QpNE_jfrcHw/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "llNs06Bj-X8",
     "title": "Prime Minister Carney called it a betrayal. But whose betrayal was it?",
@@ -90,30 +104,8 @@
     "date": "2026-11-12T18:54:34+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/gvqFKJoissg/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "Q9j8Dz4eeEk",
-    "title": "LIVE: Who really betrayed Canadian autoworkers and taxpayers?",
-    "date": "2026-11-12T18:44:44+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/Q9j8Dz4eeEk/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "a6vT9khK7Fw",
-    "title": "Poilievre comments on Stellantis’ decision to sell its Brampton assembly plant – November 12, 2026",
-    "date": "2026-11-12T20:52:39+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/a6vT9khK7Fw/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "rXRTI0MOtog",
-    "title": "Conservative Leader Pierre Poilievre on Stellantis' plans to sell Brampton plant – November 12, 2026",
-    "date": "2026-11-12T18:47:59+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/rXRTI0MOtog/hqdefault.jpg",
-    "channel": "CPAC"
-   }
-  ]
+  "coverage": []
  }
 }
