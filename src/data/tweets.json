@@ -1,6 +1,45 @@
 {
   "liberal_party": [
     {
+      "id": "2122739491395756392",
+      "content": "Our new Liberal government is taking action to make our communities safer.\n\nWith six new laws and more than 80 changes to the Criminal Code, we’re cracking down on repeat offending, making bail stricter, and investing to prevent crime.",
+      "date": "2026-11-17T17:11:47.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 5563,
+        "like_count": 61,
+        "quote_count": 9,
+        "reply_count": 269,
+        "retweet_count": 14
+      }
+    },
+    {
+      "id": "2122730323368644993",
+      "content": "RT @stevenmackinnon: With #Budget2026, we’re proposing a $1.5 billion investment to build and modernize ice rinks and recreational facilities across the country.\n\nPlaces where young people grow, families come together, and communities thrive, like at the Patinoire à Ticoun in Gatineau. 🏒 https://t.co/iUpnnl4Cu4",
+      "date": "2026-11-17T16:35:22.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 378,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 9
+      }
+    },
+    {
+      "id": "2122730054916682102",
+      "content": "RT @MarkJCarney: Let us protect French, promote it, and give it new voices everywhere. https://t.co/fLA76r7aLe",
+      "date": "2026-11-17T16:34:18.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 186,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 187
+      }
+    },
+    {
       "id": "2122415454081765519",
       "content": "In ridings across Canada, our Liberal by-election candidates are ready to deliver for their communities and build a stronger Canada for all. https://t.co/xjy3rVskaA",
       "date": "2026-11-16T19:44:11.000Z",
@@ -90,48 +129,87 @@
         "reply_count": 0,
         "retweet_count": 5
       }
-    },
-    {
-      "id": "2120930755719336227",
-      "content": "RT @MarkJCarney: The people of Laurier–Sainte-Marie, Rosemont–La Petite-Patrie, and Saint-Hyacinthe-Bagot–Acton know what it takes to build a stronger Canada.\n\nOur Liberal candidates are ready to get to work. For their communities. For Québec. For Canada. https://t.co/8XibyxuytW",
-      "date": "2026-11-12T17:24:31.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 171,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 86
-      }
-    },
-    {
-      "id": "2120528978553561134",
-      "content": "RT @MarkJCarney: Today, we remember those who spent years away from their loved ones, those who returned forever changed, and those who never came home. https://t.co/tMjoDm9yhV",
-      "date": "2026-11-11T14:48:00.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 244,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 843
-      }
-    },
-    {
-      "id": "2120527161711075553",
-      "content": "Today, we remember the brave Canadians who sacrificed for our freedom, and we honour those who continue to serve today.\n\n#LestWeForget https://t.co/Jkcq2Afm29",
-      "date": "2026-11-11T14:40:47.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 2418,
-        "like_count": 103,
-        "quote_count": 5,
-        "reply_count": 82,
-        "retweet_count": 27
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2122759086886486356",
+      "content": "RT @PierrePoilievre: Parliament’s Budget Watchdog reports spending is up a staggering $331.6 BILLION under Mark Carney.\n\nMore and more of your money is going to the bloated Liberal bureaucracy. \n\nCarney spends. You pay.\n\nSign to stop Liberal waste, cut your taxes, lower inflation, and save you money: https://t.co/7oXKb8Rk5h",
+      "date": "2026-11-17T18:29:39.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 125,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 195
+      }
+    },
+    {
+      "id": "2122748968228528267",
+      "content": "RT @PierrePoilievre: Liberals are shutting down debate on a matter of life and death.\n\nInstead of looking for more ways to end life, we should be looking for ways to help people live their fullest lives.\n\nThe government must split Bill C-41. Stop the expansion of MAID for mental illness and prevent https://t.co/Yoe5fdrAQ8",
+      "date": "2026-11-17T17:49:27.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 134,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 142
+      }
+    },
+    {
+      "id": "2122748953292853300",
+      "content": "RT @PierrePoilievre: BREAKING: CMHC reports Canada's housing starts are down year-to-date.\n\nHomebuilding remains at less than half of what Mark Carney promised.\n\nLiberals stand in the way of new housing supply, while increasing demand with record immigration, all while young Canadians stay priced out",
+      "date": "2026-11-17T17:49:23.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 121,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 97
+      }
+    },
+    {
+      "id": "2122748171201744926",
+      "content": "RT @StephanieKusie: This week, Mark Carney will be in China promoting his Liberal \"strategic partnership\" with Beijing.\n\nA deal that allows 50,000 Chinese EVs onto Canadian roads, putting Canadian auto jobs and national security at risk.\n\nOnce again, Mark Carney is cozying up to countries whose",
+      "date": "2026-11-17T17:46:17.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 302,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 23
+      }
+    },
+    {
+      "id": "2122692173623607307",
+      "content": "RT @PierrePoilievre: While our people struggle, he sends billions abroad. https://t.co/k3AsKoiuGH",
+      "date": "2026-11-17T14:03:46.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 179,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1539
+      }
+    },
+    {
+      "id": "2122691429726372148",
+      "content": "RT @PierrePoilievre: Mark Carney is setting records for out-of-control immigration.\n\nNot fair to newcomers or people already here. https://t.co/EId8biktES",
+      "date": "2026-11-17T14:00:49.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 164,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 269
+      }
+    },
     {
       "id": "2122447379047629057",
       "content": "Internship applications are open today!\n\nStart your journey on Parliament Hill.\n\nApply for the the internship today to become the future of the Conservative Party! https://t.co/ovn4RNFuW2 https://t.co/BVr425e8cA",
@@ -183,87 +261,61 @@
         "reply_count": 0,
         "retweet_count": 442
       }
-    },
-    {
-      "id": "2122321690059252176",
-      "content": "RT @PierrePoilievre: This is who we’re fighting for. https://t.co/bQgvbhCKTc",
-      "date": "2026-11-16T13:31:36.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 153,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 370
-      }
-    },
-    {
-      "id": "2122052779359223912",
-      "content": "RT @PierrePoilievre: You should get paid for your work, and our Conservative team will fight to ensure you keep more of every dollar you earn.\n\nSign to back our Conservative bill to help flight attendants like Anna get paid fairly: https://t.co/npfq1CRCJQ https://t.co/V4pCLk3twl",
-      "date": "2026-11-15T19:43:03.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 213,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 156
-      }
-    },
-    {
-      "id": "2121716906134495235",
-      "content": "RT @PierrePoilievre: How to deliver affordable superfood to hardworking Canadians 🇨🇦 https://t.co/vmc4HLtuvb",
-      "date": "2026-11-14T21:28:24.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 211,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 75
-      }
-    },
-    {
-      "id": "2121716888950468937",
-      "content": "RT @PierrePoilievre: Prime Minister Carney called it a betrayal.\n\nBut whose betrayal was it? https://t.co/Qepd7xQf46",
-      "date": "2026-11-14T21:28:20.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 180,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 232
-      }
-    },
-    {
-      "id": "2121716790283866318",
-      "content": "RT @PierrePoilievre: Heartbroken to learn that Private William Dal Bianco of the 3rd Battalion, Princess Patricia’s Canadian Light Infantry has died from injuries suffered in the CFB Wainwright fire.\n\nHe was the fifth soldier lost to this tragedy. He put on the uniform to serve Canada, and Canada",
-      "date": "2026-11-14T21:27:57.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 186,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 194
-      }
-    },
-    {
-      "id": "2121346454140682752",
-      "content": "RT @PierrePoilievre: Mark Carney admits he is in a conflict dealing with his friend’s company, but only AFTER his government awarded Telesat a $2.3 billion contract. \n\nHe still won’t say if he ever discussed the company with his staff, officials, or ministers. \n\nThe Liberal Club of corporate https://t.co/b5TuROc0Mz https://t.co/UaTiPmYDSd",
-      "date": "2026-11-13T20:56:22.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 209,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 814
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2122799241831854091",
+      "content": "Refuser d’accepter le statu quo : voilà ce qui nous rassemble en tant que néo-démocrates.\n\nAu fédéral comme au provincial, vous pouvez compter sur le NPD pour vous défendre face à une économie truquée contre vous. https://t.co/JtVR29xMkl",
+      "date": "2026-11-17T21:09:13.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 221,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2122798980908335394",
+      "content": "What unites New Democrats is our refusal to accept the status quo.\n\nWhether provincially or federally, we’re the party you can trust to take on our rigged economy and fight for you. https://t.co/WkcsTD0xCS",
+      "date": "2026-11-17T21:08:11.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 256,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 2
+      }
+    },
+    {
+      "id": "2122784002734178738",
+      "content": "RT @HMcPhersonNDP: This morning, I tabled a motion to require consultation with Canadians on Bill C-39 before a vote is taken in the House. \nBill C-39 endangers labour rights, Indigenous rights, &amp; environmental protections. The Liberal government is pushing it through without proper consultation. https://t.co/2HCEVnlAIb",
+      "date": "2026-11-17T20:08:40.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 64,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 11
+      }
+    },
+    {
+      "id": "2122780104225100200",
+      "content": "RT @LeahGazan: Dr. Duff Conacher, co-founder of Democracy Watch, said, \"We have a prime minister who has as many financial conflicts of interest as Trump and can profit as much from his decisions as Trump, and the only difference is he doesn't have family businesses.\"\n\nWe know what side",
+      "date": "2026-11-17T19:53:10.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 81,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 15
+      }
+    },
     {
       "id": "2122451074963689676",
       "content": "DERNIÈRE HEURE : Les libéraux ont rejeté notre demande de débat d’urgence sur la vente de l’usine Stellantis de Brampton.\n\nLes libéraux ont trahi les travailleuses et les travailleurs canadiens en participant, à huis clos, aux négociations entre Stellantis et Roshel qui ont mené https://t.co/SEEpUCBNhj",
@@ -341,61 +393,61 @@
         "reply_count": 0,
         "retweet_count": 20
       }
-    },
-    {
-      "id": "2122368796535235039",
-      "content": "RT @avilewis: The movement against AI data centres has scored its first major victory in Canada!  \n\nCongrats and thanks to so many great organizers and communities, in Vancouver and beyond, who are coming together to fight for a safer future. \n\nWe need real regulation and public control: it’s https://t.co/3sE0vSV0OI",
-      "date": "2026-11-16T16:38:47.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 68,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 334
-      }
-    },
-    {
-      "id": "2121761877235794129",
-      "content": "RT @DonDavies: Canada just received its second consecutive Fossil award, outing our poor climate record. PM Carney now ID’d as a top 3 international climate danger. No wonder he’s skipping COP31. \nWorst part? He knows better, but is clearly captured by the oil and gas lobby. https://t.co/EvFdLxn7Ip",
-      "date": "2026-11-15T00:27:06.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 101,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 142
-      }
-    },
-    {
-      "id": "2121761775821766886",
-      "content": "RT @avilewis: A historic victory for working people everywhere against one of the world’s most powerful corporations.\n\nCongratulations to the workers at YVR2. You’ve proved that when working people organize and dare to demand better, we *can* win. https://t.co/HcGZazJD8X",
-      "date": "2026-11-15T00:26:42.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 74,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 214
-      }
-    },
-    {
-      "id": "2121357570111910296",
-      "content": "RT @avilewis: It’s a relief to hear that laid off Stelco workers will be returning to their jobs: this is a win for worker organizing and public pressure on the government. \n\nBut let’s not pretend it's a long term solution. \n\nThe Cleveland-Cliffs CEO has made his strategy clear: drive Canadian https://t.co/50RQqTlK7Z",
-      "date": "2026-11-13T21:40:32.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 102,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 120
-      }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2122796874352726246",
+      "content": "C-39 est l’équivalent législatif d’un bulldozer. Droit de grève, droits autochtones et environnement : le gouvernement Carney est prêt à tout piétiner. https://t.co/zarvz34z8P",
+      "date": "2026-11-17T20:59:49.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 135,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 2
+      }
+    },
+    {
+      "id": "2122724125735280680",
+      "content": "Le gouvernement fédéral a dépensé 3,45 millions de dollars pour contester la Loi sur la laïcité de l’État devant la Cour suprême. Avec notre argent, Ottawa travaille à défaire ce que fait le Québec. https://t.co/eYnhk7wQpu",
+      "date": "2026-11-17T16:10:44.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 948,
+        "like_count": 47,
+        "quote_count": 3,
+        "reply_count": 11,
+        "retweet_count": 30
+      }
+    },
+    {
+      "id": "2122676124912103792",
+      "content": "Bilan de la COP31 : Mark Carney reçoit le prix « fossile du jour », tandis que sa ministre de l’Environnement profite de sa tribune pour… essayer de vendre du gaz à l’Europe. https://t.co/W07QV648zy",
+      "date": "2026-11-17T13:00:00.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 588,
+        "like_count": 20,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 14
+      }
+    },
+    {
+      "id": "2122464736457773314",
+      "content": "Le gouvernement Carney planifie un taux d’immigration record au cours des prochaines années, tout en refusant de communiquer les détails de sa politique. Pourquoi les libéraux donnent pas l’heure juste aux Québécois? https://t.co/Cd0vMwDHOY",
+      "date": "2026-11-16T23:00:01.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1064,
+        "like_count": 43,
+        "quote_count": 1,
+        "reply_count": 8,
+        "retweet_count": 29
+      }
+    },
     {
       "id": "2122366571024949275",
       "content": "Le Syndicat canadien de la fonction publique est d’accord avec nous ; le projet de loi C-39 du gouvernement Carney menace nos acquis sociaux et environnementaux. Le 7 décembre, le Québec mérite trois voix de plus pour défendre ses intérêts. https://t.co/FLvVrIBVh4",
@@ -472,58 +524,6 @@
         "quote_count": 0,
         "reply_count": 2,
         "retweet_count": 8
-      }
-    },
-    {
-      "id": "2120156943125746053",
-      "content": "Avec C-39 Mark Carney se donne le droit de passer par-dessus la démocratie et de suspendre plusieurs lois. Gouverner par décret, c’est inacceptable. https://t.co/o8cGxDRUF4",
-      "date": "2026-11-10T14:09:40.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 723,
-        "like_count": 19,
-        "quote_count": 1,
-        "reply_count": 6,
-        "retweet_count": 10
-      }
-    },
-    {
-      "id": "2119590759540101315",
-      "content": "Cette fin de semaine, tous nos locaux électoraux ont été inaugurés et nous avons fini le tout à notre local de Montréal, franchement bien entourés. \n\nMerci à toutes les personnes présentes! ⚜ https://t.co/46cwyqBhGf",
-      "date": "2026-11-09T00:39:51.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1344,
-        "like_count": 41,
-        "quote_count": 0,
-        "reply_count": 12,
-        "retweet_count": 18
-      }
-    },
-    {
-      "id": "2119067349818958273",
-      "content": "L’argent des Québécois devrait servir à soutenir les entreprises québécoises et non les compagnies pétrolières de l’Ouest qui enrichissent les Américains. https://t.co/gpFatr4Fvj",
-      "date": "2026-11-07T14:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 560,
-        "like_count": 19,
-        "quote_count": 1,
-        "reply_count": 15,
-        "retweet_count": 13
-      }
-    },
-    {
-      "id": "2118780461791011286",
-      "content": "Mark Carney et son ministre des Finances ont pris leur décision : pas d'argent pour les services donnés aux Québécois. Notre constat est donc clair : le budget fédéral affaiblit le Québec. https://t.co/UH5SDAG6z1",
-      "date": "2026-11-06T19:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 165,
-        "like_count": 2,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 3
       }
     }
   ],
@@ -793,6 +793,110 @@
   ],
   "MarkJCarney": [
     {
+      "id": "2122740631424667903",
+      "content": "Through Budget 2026, we’re working with all levels of government to build more affordable homes in communities across the country.\n\nBecause a home is more than four walls and a roof. It's a foundation. https://t.co/TpBQTXLkHN",
+      "date": "2026-11-17T17:16:19.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 24842,
+        "like_count": 211,
+        "quote_count": 10,
+        "reply_count": 259,
+        "retweet_count": 49
+      }
+    },
+    {
+      "id": "2122740518727958932",
+      "content": "Dans le cadre du budget de 2026, nous travaillons avec tous les ordres de gouvernement pour construire des logements abordables dans les communautés partout au pays.\n\nParce qu’un logement, c’est bien plus que quatre murs et un toit; c’est la fondation d’un chez-soi. https://t.co/oxf3iPpQpe",
+      "date": "2026-11-17T17:15:52.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 20679,
+        "like_count": 105,
+        "quote_count": 4,
+        "reply_count": 114,
+        "retweet_count": 26
+      }
+    },
+    {
+      "id": "2122712578745065958",
+      "content": "More trade. More investment. More predictability.\n\nUnlocking new opportunities for Canadians. https://t.co/FJEU5CbgoN",
+      "date": "2026-11-17T15:24:51.000Z",
+      "metrics": {
+        "bookmark_count": 47,
+        "impression_count": 80079,
+        "like_count": 2301,
+        "quote_count": 65,
+        "reply_count": 926,
+        "retweet_count": 268
+      }
+    },
+    {
+      "id": "2122712494682595565",
+      "content": "Plus d’échanges commerciaux. Plus d’investissements. Plus de prévisibilité.\n\nNous ouvrons la voie à de nouvelles possibilités pour les Canadiennes et les Canadiens. https://t.co/BkqNBwTO0y",
+      "date": "2026-11-17T15:24:31.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 20616,
+        "like_count": 395,
+        "quote_count": 7,
+        "reply_count": 178,
+        "retweet_count": 51
+      }
+    },
+    {
+      "id": "2122562200132792678",
+      "content": "Immediately after forming government, we made a clear decision to recalibrate Canada’s relationship with China. To date, we have restored market access for more than 90% of trade previously subject to tariffs — nearly $7.5 billion worth of Canadian exports. There is more",
+      "date": "2026-11-17T05:27:18.000Z",
+      "metrics": {
+        "bookmark_count": 146,
+        "impression_count": 234335,
+        "like_count": 2920,
+        "quote_count": 137,
+        "reply_count": 1193,
+        "retweet_count": 381
+      }
+    },
+    {
+      "id": "2122562119652479206",
+      "content": "Immédiatement après notre arrivée au pouvoir, nous avons pris la décision claire de redéfinir les relations entre le Canada et la Chine. À ce jour, nous avons rétabli l'accès aux marchés pour plus de 90 % des échanges commerciaux qui étaient précédemment soumis à des mesures",
+      "date": "2026-11-17T05:26:59.000Z",
+      "metrics": {
+        "bookmark_count": 21,
+        "impression_count": 83013,
+        "like_count": 1015,
+        "quote_count": 24,
+        "reply_count": 328,
+        "retweet_count": 104
+      }
+    },
+    {
+      "id": "2122558576694558856",
+      "content": "Canada and China have recalibrated our relationship — pragmatically and decisively.\n\nToday in Shenzhen, I was honoured to meet with President Xi to take stock of the progress we’ve made in trade, energy, tourism, and culture. We looked to the future and focused on what more our https://t.co/L5l4GL12dD",
+      "date": "2026-11-17T05:12:54.000Z",
+      "metrics": {
+        "bookmark_count": 304,
+        "impression_count": 475220,
+        "like_count": 9407,
+        "quote_count": 180,
+        "reply_count": 1315,
+        "retweet_count": 820
+      }
+    },
+    {
+      "id": "2122558455995121730",
+      "content": "Le Canada et la Chine ont redéfini leurs relations, de manière pragmatique et résolue.\n\nAujourd’hui, à Shenzhen, j’ai eu l’honneur de rencontrer le président Xi afin de faire le point sur les progrès que nous avons réalisés dans les domaines du commerce, de l’énergie, du tourisme https://t.co/lbcHA8c4pK",
+      "date": "2026-11-17T05:12:25.000Z",
+      "metrics": {
+        "bookmark_count": 49,
+        "impression_count": 94658,
+        "like_count": 2685,
+        "quote_count": 21,
+        "reply_count": 249,
+        "retweet_count": 260
+      }
+    },
+    {
       "id": "2122450136504615068",
       "content": "Protégeons le français, faisons-en la promotion et donnons-lui partout de nouvelles voix. https://t.co/9gcpQJ8gKY",
       "date": "2026-11-16T22:02:00.000Z",
@@ -817,113 +921,113 @@
         "reply_count": 72,
         "retweet_count": 49
       }
-    },
-    {
-      "id": "2122393349881799074",
-      "content": "Landed in Shenzhen to meet with President Xi and participate in the APEC Summit.\n\nCanada is strengthening our relationship with China and expanding our partnerships across Asia. We're here to build on that work — to unlock new opportunities on both sides of the Pacific. https://t.co/qT5ZggHuCx",
-      "date": "2026-11-16T18:16:21.000Z",
-      "metrics": {
-        "bookmark_count": 199,
-        "impression_count": 174695,
-        "like_count": 5036,
-        "quote_count": 80,
-        "reply_count": 583,
-        "retweet_count": 667
-      }
-    },
-    {
-      "id": "2122392489470640335",
-      "content": "Atterrissage à Shenzhen pour rencontrer le président Xi et participer au Sommet de l’APEC.\n\nLe Canada renforce sa relation avec la Chine et étend ses partenariats dans toute l’Asie. Nous sommes ici pour poursuivre sur cette lancée – et créer de nouvelles possibilités des deux https://t.co/AumoBpQThO",
-      "date": "2026-11-16T18:12:56.000Z",
-      "metrics": {
-        "bookmark_count": 35,
-        "impression_count": 63261,
-        "like_count": 1744,
-        "quote_count": 26,
-        "reply_count": 279,
-        "retweet_count": 224
-      }
-    },
-    {
-      "id": "2122380935102652459",
-      "content": "Pour en savoir plus : https://t.co/MmbfdWsfSw",
-      "date": "2026-11-16T17:27:01.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 8709,
-        "like_count": 26,
-        "quote_count": 0,
-        "reply_count": 6,
-        "retweet_count": 5
-      }
-    },
-    {
-      "id": "2122380931260350732",
-      "content": "Le nouvel accord de libre-échange ANASE-Canada créera de nouvelles possibilités économiques au Canada et en Asie du Sud-Est.\n\nÀ Phnom Penh, le premier ministre Manet et moi nous sommes penchés sur ce que nous pouvons encore bâtir ensemble pour renforcer la sécurité et la https://t.co/sbmKi6SinP",
-      "date": "2026-11-16T17:27:00.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 20657,
-        "like_count": 314,
-        "quote_count": 4,
-        "reply_count": 62,
-        "retweet_count": 51
-      }
-    },
-    {
-      "id": "2122380524618391766",
-      "content": "Read more: https://t.co/MeFgOkPe8h",
-      "date": "2026-11-16T17:25:23.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 8204,
-        "like_count": 29,
-        "quote_count": 0,
-        "reply_count": 6,
-        "retweet_count": 3
-      }
-    },
-    {
-      "id": "2122380520495644851",
-      "content": "The new ASEAN-Canada free trade agreement will create more economic opportunity in Canada and Southeast Asia.\n\nIn Phnom Penh, Prime Minister Manet and I looked ahead to what more Canada and Cambodia can build together to create more security and stability. https://t.co/0nqjDwGk9K",
-      "date": "2026-11-16T17:25:22.000Z",
-      "metrics": {
-        "bookmark_count": 9,
-        "impression_count": 24308,
-        "like_count": 673,
-        "quote_count": 4,
-        "reply_count": 117,
-        "retweet_count": 132
-      }
-    },
-    {
-      "id": "2122339814561226964",
-      "content": "Louis Riel était un leader courageux et visionnaire qui s’est battu pour les droits des Métis.\n\nIl croyait que des peuples différents pouvaient bâtir un avenir commun sans renoncer à leur identité.\n\nMa déclaration à l’occasion de la Journée Louis Riel : https://t.co/uBN7dUIacZ",
-      "date": "2026-11-16T14:43:37.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 17801,
-        "like_count": 158,
-        "quote_count": 2,
-        "reply_count": 76,
-        "retweet_count": 33
-      }
-    },
-    {
-      "id": "2122339752242286893",
-      "content": "Louis Riel was a courageous and visionary leader who fought for the rights of the Métis people.\n\nHe believed different peoples could build a common future without surrendering who they are.\n\nMy statement on Louis Riel Day: https://t.co/X6UBIW2yjm",
-      "date": "2026-11-16T14:43:22.000Z",
-      "metrics": {
-        "bookmark_count": 22,
-        "impression_count": 39407,
-        "like_count": 659,
-        "quote_count": 37,
-        "reply_count": 207,
-        "retweet_count": 147
-      }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2122750738983989615",
+      "content": "Parliament’s Budget Watchdog reports spending is up a staggering $331.6 BILLION under Mark Carney.\n\nMore and more of your money is going to the bloated Liberal bureaucracy. \n\nCarney spends. You pay.\n\nSign to stop Liberal waste, cut your taxes, lower inflation, and save you money: https://t.co/7oXKb8Rk5h",
+      "date": "2026-11-17T17:56:29.000Z",
+      "metrics": {
+        "bookmark_count": 12,
+        "impression_count": 19671,
+        "like_count": 892,
+        "quote_count": 3,
+        "reply_count": 78,
+        "retweet_count": 195
+      }
+    },
+    {
+      "id": "2122750670482579830",
+      "content": "La directrice parlementaire du budget fait état d'une hausse vertigineuse des dépenses de 331,6 MILLIARDS de dollars sous Mark Carney.\n\nUne part de plus en plus importante de votre argent est consacrée à la bureaucratie libérale obèse.\n\nMark Carney dépense et c'est vous qui https://t.co/2sUHQkBJ65",
+      "date": "2026-11-17T17:56:13.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 11624,
+        "like_count": 357,
+        "quote_count": 0,
+        "reply_count": 24,
+        "retweet_count": 81
+      }
+    },
+    {
+      "id": "2122737169047453753",
+      "content": "BREAKING: CMHC reports Canada's housing starts are down year-to-date.\n\nHomebuilding remains at less than half of what Mark Carney promised.\n\nLiberals stand in the way of new housing supply, while increasing demand with record immigration, all while young Canadians stay priced out",
+      "date": "2026-11-17T17:02:34.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 14284,
+        "like_count": 410,
+        "quote_count": 7,
+        "reply_count": 39,
+        "retweet_count": 97
+      }
+    },
+    {
+      "id": "2122737099996610950",
+      "content": "DERNIÈRE HEURE : La SCHL indique que les mises en chantier au Canada sont en baisse depuis le début de l'année.\n\nLa construction de logements est de moins de la moitié de ce que Mark Carney avait promis.\n\nLes libéraux nuisent à l'offre de nouveaux logements et augmentent la",
+      "date": "2026-11-17T17:02:17.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 13699,
+        "like_count": 190,
+        "quote_count": 3,
+        "reply_count": 7,
+        "retweet_count": 36
+      }
+    },
+    {
+      "id": "2122729920816124230",
+      "content": "Liberals are shutting down debate on a matter of life and death.\n\nInstead of looking for more ways to end life, we should be looking for ways to help people live their fullest lives.\n\nThe government must split Bill C-41. Stop the expansion of MAID for mental illness and prevent https://t.co/Yoe5fdrAQ8",
+      "date": "2026-11-17T16:33:46.000Z",
+      "metrics": {
+        "bookmark_count": 9,
+        "impression_count": 15622,
+        "like_count": 609,
+        "quote_count": 10,
+        "reply_count": 82,
+        "retweet_count": 142
+      }
+    },
+    {
+      "id": "2122709668200104295",
+      "content": "Throwing away more money on other countries when our people can’t afford food?\n\nCarney gave $500m to Brazil for forests. \n\nHe’s out of touch and our money is out of Canada. https://t.co/xiXAMTTnUL",
+      "date": "2026-11-17T15:13:17.000Z",
+      "metrics": {
+        "bookmark_count": 60,
+        "impression_count": 50129,
+        "like_count": 3338,
+        "quote_count": 40,
+        "reply_count": 259,
+        "retweet_count": 619
+      }
+    },
+    {
+      "id": "2122675938760466713",
+      "content": "While our people struggle, he sends billions abroad. https://t.co/k3AsKoiuGH",
+      "date": "2026-11-17T12:59:15.000Z",
+      "metrics": {
+        "bookmark_count": 200,
+        "impression_count": 144911,
+        "like_count": 8850,
+        "quote_count": 72,
+        "reply_count": 611,
+        "retweet_count": 1539
+      }
+    },
+    {
+      "id": "2122670727623262277",
+      "content": "Mark Carney is setting records for out-of-control immigration.\n\nNot fair to newcomers or people already here. https://t.co/EId8biktES",
+      "date": "2026-11-17T12:38:33.000Z",
+      "metrics": {
+        "bookmark_count": 29,
+        "impression_count": 29572,
+        "like_count": 1382,
+        "quote_count": 15,
+        "reply_count": 213,
+        "retweet_count": 269
+      }
+    },
     {
       "id": "2122423828521668749",
       "content": "In the first 3 quarters of 2026, Canada recorded its 3 highest quarterly consumer insolvencies since the 2009 financial crisis.\n\nCanadians can't pay their bills, while Mark Carney piles on massive deficits, and our Canadian dollar is devalued even further.\n\nThat means prices keep https://t.co/6dyfgp0ILs",
@@ -948,110 +1052,6 @@
         "quote_count": 2,
         "reply_count": 9,
         "retweet_count": 45
-      }
-    },
-    {
-      "id": "2122338486409625700",
-      "content": "DERNIÈRE HEURE : Statistique Canada annonce que l'inflation a dépassé de 50 % la cible fixée par la Banque du Canada.\n\nL'inflation à la pompe et à l’épicerie augmente, et le dollar canadien est passé sous la barre des 70 cents américains plus tôt aujourd’hui. \n\nLes déficits de",
-      "date": "2026-11-16T14:38:20.000Z",
-      "metrics": {
-        "bookmark_count": 11,
-        "impression_count": 27870,
-        "like_count": 1444,
-        "quote_count": 14,
-        "reply_count": 114,
-        "retweet_count": 347
-      }
-    },
-    {
-      "id": "2122337007535882580",
-      "content": "BREAKING: Stats Canada reports inflation came in at 50% above the Bank of Canada's target.\n\nGas &amp; grocery inflation are going up, and the Canadian Dollar fell below 70¢ U.S. earlier today. \n\nMark Carney's deficits are costing you.\n\nLet’s instead cut taxes, lower inflation, and",
-      "date": "2026-11-16T14:32:28.000Z",
-      "metrics": {
-        "bookmark_count": 27,
-        "impression_count": 46968,
-        "like_count": 1776,
-        "quote_count": 26,
-        "reply_count": 157,
-        "retweet_count": 448
-      }
-    },
-    {
-      "id": "2122171184250835434",
-      "content": "Les @GoElks d'Edmonton sont champions de la Coupe Grey!\n\nFélicitations pour cette victoire à la 113e édition de la Coupe Grey. Quel exploit pour les joueurs, les entraîneurs et les partisans!\n\nBravo aux @MTLAlouettes pour cette superbe saison et pour leur détermination jusqu’à la",
-      "date": "2026-11-16T03:33:33.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 33974,
-        "like_count": 453,
-        "quote_count": 0,
-        "reply_count": 13,
-        "retweet_count": 25
-      }
-    },
-    {
-      "id": "2122169488099467659",
-      "content": "The Edmonton @GoElks are Grey Cup champions!\n\nCongratulations on capturing the 113th Grey Cup. What an accomplishment for the players, coaches, and fans!\n\nHats off to the @MTLAlouettes on a great season and a gritty performance tonight.",
-      "date": "2026-11-16T03:26:48.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 41502,
-        "like_count": 861,
-        "quote_count": 3,
-        "reply_count": 28,
-        "retweet_count": 49
-      }
-    },
-    {
-      "id": "2122120561547727156",
-      "content": "This is who we’re fighting for. https://t.co/bQgvbhCKTc",
-      "date": "2026-11-16T00:12:23.000Z",
-      "metrics": {
-        "bookmark_count": 74,
-        "impression_count": 87355,
-        "like_count": 1668,
-        "quote_count": 51,
-        "reply_count": 215,
-        "retweet_count": 370
-      }
-    },
-    {
-      "id": "2122092314806071692",
-      "content": "Canadians should not have to tolerate disorder, violence, and chaos in our communities. \n\nLet’s repeal Liberal catch-and-release laws, keep violent repeat offenders behind bars, and bring back safe streets: https://t.co/GOLxNR505Q https://t.co/htDAHB7mCc",
-      "date": "2026-11-15T22:20:09.000Z",
-      "metrics": {
-        "bookmark_count": 28,
-        "impression_count": 48014,
-        "like_count": 2484,
-        "quote_count": 20,
-        "reply_count": 210,
-        "retweet_count": 442
-      }
-    },
-    {
-      "id": "2121990894857617622",
-      "content": "You should get paid for your work, and our Conservative team will fight to ensure you keep more of every dollar you earn.\n\nSign to back our Conservative bill to help flight attendants like Anna get paid fairly: https://t.co/npfq1CRCJQ https://t.co/V4pCLk3twl",
-      "date": "2026-11-15T15:37:08.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 18766,
-        "like_count": 382,
-        "quote_count": 9,
-        "reply_count": 92,
-        "retweet_count": 66
-      }
-    },
-    {
-      "id": "2121719847398649923",
-      "content": "C’est avec une profonde tristesse que j’ai appris le décès du soldat William Dal Bianco, du 3e Bataillon, Princess Patricia’s Canadian Light Infantry, des suites des blessures subies lors de l’incendie survenu à la BFC Wainwright.\n\nIl est le cinquième soldat à avoir perdu la vie",
-      "date": "2026-11-14T21:40:05.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 43345,
-        "like_count": 1015,
-        "quote_count": 3,
-        "reply_count": 31,
-        "retweet_count": 99
       }
     }
   ]
