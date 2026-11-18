@@ -58,6 +58,12 @@
   "votes": [],
   "media": [
    {
+    "title": "Parliament Today: Strong Borders Act back before the House",
+    "source": "The Hub | More Signal. Less Noise.",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOUNhaW1kYlp6Tkt4Um5nWTRWZVFWR3NBeDVqNEwxaEVnaEZ2MloxWThEVVpXM3V4YjZCWmc2UGMyM2N5N2Jaa1Bza1kyeVFMRllMb3Jkc0FmZVJLVTZfT0JkcFNaNnpLOXdHWXFYMHEycTI0QWlZREZ6X1duZXcxWW9neFVsMEJCYVJYNy14dkY?oc=5",
+    "date": "Wed, 18 Nov 2026 11:02:44 GMT"
+   },
+   {
     "title": "Parliament Today: Strong Borders Act waits behind Conservative affordability motion",
     "source": "The Hub | More Signal. Less Noise.",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGxsUVlyLTVNU2swcHlVOXlYdy1tMlBmb1IzcmtFUmJ0Xy11TnFIci1HTnpyUHU3RzJwOGxCOGp1bWh1RFpfaERqMHJDRF9IRWswTUxqaWdmN0pfUy1MNmRyVmZLc0Q5UUJCWWUwTnhIQjVfOUwybkV5ZmFfQ3pCcXhSNDR2cFJmbU8xdXg0a1pDLUk4RXFpTmdSd1o5NFZySUgzOTZZYXFsQVJwVzdZR2hB?oc=5",
@@ -86,12 +92,6 @@
     "source": "National Post",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3dSaUFOaUdYYTMyT3BwTndxQWJ6VWotcXlucVExdml2bkFlSDJhUGwwdDZ5eDd1NUVzT2N2aElReTBveWF0X2c1UmJaQU1BUVpNSTJYUTgxRzhrNXN1aXAwSjdwTUJEdl9UTkZQTURVckZLN2RUVkFmclU4V3BZUXVmZnN1NU5rT281NldzeFNNRGdwemRlellRbHh0Q2dMZWx2eFFYblJpYkJ0MjVwdGEtaG5RbU8yTFE?oc=5",
     "date": "Thu, 12 Feb 2026 08:00:00 GMT"
-   },
-   {
-    "title": "Federal Ministers Discuss Strong Borders Act – November 19, 2025 - Headline Politics",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNnBSV3dHc0tIcWxLSTdGTVliRWpyNTdUR0F1NjYtbmdLQzZGZkVhb2IzeUV6Nm9vTXg2ZjhxeVc2RV9Zb3F1MGx6dmhPVjRUNGlTd2xCZWlBRnVjV2k2V29DMllvWWVyb2E0VFRxel9KOGZNYkZDWUFUN2w2cU5kOGZXbmE3bVFuWk53WE1TaXhjUTdrTndNU2ZYcVp6eGsxT3RoVF95UW1WZnVOOHk2RllzTndNeTg0R1FrT3pzMWpuSHF3Ym9uSDRDMWhmaEFWa0ZLbll5UjFrUk1pNGhST3NB?oc=5",
-    "date": "Wed, 19 Nov 2025 08:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-2",
@@ -1131,15 +1131,10 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Crown-Indigenous Relations",
   "sponsorRiding": "Northwest Territories",
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-11-05",
+  "latestActivity": "Debate at third reading",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "Senate",
-  "committee": {
-   "acronym": "APPA",
-   "name": "Standing Senate Committee on Indigenous Peoples",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/APPA"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "houseFirstReading",
@@ -4397,40 +4392,40 @@
   ],
   "media": [
    {
+    "title": "Groups unite to tell Carney: withdraw Bill C-39",
+    "source": "Ecojustice",
+    "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNY1hnY0gwaWtJNE04SGRDN0dFRi1paTRGQUd5eFdzZXJ0cVBUOGRnOUV2QVB4MktacktnaWp6THRQdUZWQW9VTHlOUWphV2JyUEdvZkhfYnNNam9zTG56MFBKekpSamtTbE9HLVZ3a2ZLSnlvV3Z2QkJTdTFRZGJfNE1uY3ZicFVndFZrcFc5cjRRcWFwZFQwa0VZQzNTQlRobkI5dWVJSWJOT3pxak5lNGNhSTAtakJIcTg0Y09wWTNEaU15RUwxX1JBeFJaclVqQlRWVVo3Z0VvS3lOdlpLYUNEVzVkemJyeVZRLUxENzVtTU5nTDBwYkZnZk95LXBlVXVqWF9DbWU3SmVIZC1ZTFVHWk91akt3VENMWWVtUk5oLXdwNUo5ZngtS2dhYWZHX21pUkZWR1JLdw?oc=5",
+    "date": "Wed, 18 Nov 2026 16:16:36 GMT"
+   },
+   {
+    "title": "NDP MP Jenny Kwan Discusses Bill C-39 Committee Proceedings",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeXBESGhFZFFnNER2SGk3Q2k4c3ZHQWwwNi1GeVpaZHh3c09yRlZqbVFXdjZVYUtxZ0lQUDkyVnZhNGtJSUd1MnoxOWJVT1lKWGxsQ25HdEhCdUVucVV5aWVPYXM3S3poVS1sMmdaQnVxbk91dHRmWWMtQkZ0QmIxM3VJSzZUQUZLdmZ6bnQ1RFZYVXd4WW10Qlg5R2RXdVI2QXYyTTVWT2JtZEVhTWM5RmU3VElHOXZETmJCQzRGVWlHaV9KUEpjbmxLMnRNb3dJZG9WX3hudGdZVW9sTXc?oc=5",
+    "date": "Wed, 18 Nov 2026 19:07:52 GMT"
+   },
+   {
+    "title": "UPDATE: MP Strahl responds to Bill C-39 protestors at Chilliwack office",
+    "source": "Chilliwack Progress",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWTd2RDlXTy01aWRSNHl1cWlUZmczMTlLb3AwVWRFdVluOXI2Mk16VjRPX0dBT3lCdzJQbUZsRnd1YjBaeDJKaloyRVlxLV9YaXBCdGNkN0JJNTZMa1ZmaUlfdEdxRmRyN0FZLWc2S3pVbDFXcF8yVk9iblktNjNlRklxblcyZEd2Zl8wTzlUOFFjbXJVSVdWbE5pbDExN2hYLUFPNUt3ZWxhWEQ5Wnc?oc=5",
+    "date": "Wed, 18 Nov 2026 18:50:48 GMT"
+   },
+   {
+    "title": "'Kill Bill C-39' heard in Thunder Bay and across Canada",
+    "source": "Kenora Miner & News",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbktWMm1ONmhwMGdVTmhPT1gtZDFlX3pKVFdXdzZHT3hrTWQ5MWlzcFQ4VjJOYUFBZkl0emVjQURjdTMzUTNaS2x0Wmh5Z2pFWFdDYmJmTlFiM2FkZjcwTzlmbzBzN25nejRWRmszU3lxZWYxaEo1V0FZLURVdkNLTmdMYmhLbng1dWVydzI1clV2UVR0eGl0YmxQQTZTakNrZ2dpRHc1eHJub2lDaGgyYTVLRmU2QlBNaWljOTREQzYzcl9xZGxTUS1xMmZlM1BvakV2TEVLNk5ISWRERmVEVUNoLVFMei12V2c?oc=5",
+    "date": "Wed, 18 Nov 2026 16:35:39 GMT"
+   },
+   {
+    "title": "Legislative Committee on Bill C-39 – November 18, 2026 - In Committee from the House of Commons",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeEJObHRINUZWNkZac0ZfODE2TDZubTVvX0d5TFFCM3BfTy1NeTViaHdDWEpNZ2FzZjJzQk1CXzh2QkpyNzgtRnplbV9WSnhiVTlVTXJOWlNGYmhiMHhUdndfRzIwak1ZWU1zdkV3QXNKSW1GRGVBbHRjQndTRlNiUV8xT0ZScTdpcHQ5OTl5Q1UxTDBETTBVeTdhRFAxMXlRWmM2T2FQa1ZfX3FxMHdBdkxQSmxKeEhBaE5CWFFBUTl5UTVsWm4wV2NrbE03a2FjZmxJdnVBQ1ZmWk8wX1duZk9NMnRORzV1MS1POEVpWjg?oc=5",
+    "date": "Wed, 18 Nov 2026 03:38:59 GMT"
+   },
+   {
     "title": "Labour Movement Mobilizes on Parliament Hill After Late-Night Bill C-39 Committee Session",
     "source": "PR Newswire Canada",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWnZSV1V6U1V5d19mbG83SlZVQ21UUmRQTHEzUmlGZkNUS2hGUVdhWmdzbjI4OU5WU3lGWmU0LVJyQmxrckRfYndmcTQ2NDlBZXNnT2tHbzdQYUlJWlNYNFJZSmVZS3JtRER3MUhQSVJfRk1leXp4eHhkUlBnYVdodDJuemU1WGItTWR5QklPUkYxV1RjTDRLM2p5bVlWYXQtT2tEdy1iX1REaFpPcU1tZFhBaVV5dW90VmJDLVNtMDRiMjRkNjhhN0NXNi15Vzk4eWIzdGlLNTA0UQ?oc=5",
     "date": "Tue, 17 Nov 2026 14:53:00 GMT"
-   },
-   {
-    "title": "Results of a new report question whether Bill C-39 will address the real barriers to large-scale projects",
-    "source": "Climate Action Network Canada",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMOWlhVHVKZnZrYXhDOFptWUxPbWJuY0YtS09tcGk1RGJPeTdPUGt3RmhaLXNCbkVkMXA4eEpBbWFGRDFQbVBobkc0eDhteDQtT2xsU0dKRXVQUUdOUGk5NlBpV19lN1NRQjZETlBsdVpzZV9k?oc=5",
-    "date": "Tue, 17 Nov 2026 15:02:41 GMT"
-   },
-   {
-    "title": "Peterborough labour leaders express concerns over Building Canada Strong Act",
-    "source": "The Peterborough Examiner",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQalBPX0lqLU0tWTd3Z1F4ODdVWkFqWTNmck9PYzFPSk5OaXctb19LNWVvZGViUExvRWdkLU9xYVpFbHdiM29ydnZIM3ZVZExxLUwyZGFtbDZIeFhkUUE2a05sV3JIcFhfZU9VT0tpS3oyUlhYbUlYQ2RzZm9nRXlSM0VRM0xtbFg2bWFjRW5FbmUtSGRvS0xpMTlsYW5rRGlpTXd1S1U2THVfVkFqNG9LMVUweHFMRGRCM2dNcXR2XzIzamx1VHUyLXprRUNSeVFUalBYamxYcFN1cHhwWHpkdU1COUVrQjFqQ1E?oc=5",
-    "date": "Tue, 17 Nov 2026 10:00:00 GMT"
-   },
-   {
-    "title": "Kamloops MP Caputo calling for fair deal for striking Highland Valley Copper workers; undecided on Bill C-39 vote",
-    "source": "CFJC Today Kamloops",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcS1OWUhJUy1JYWxOUG9hMmtIbkNtUHd4MHRtMGxLQll6R0pyR2hMSjZPV1VxY0picHZLU2g4WEdYYWhXOVp1eTlSXzFQczAzYVNzZ1llRTg4LWl2ejZfMFY2a2xZNVkwWUUwalBrN0l4QklDMXA3TW9iem9BSzYydms3VXFaTlB4TEtrQ0MxaVVEVFh1MktTTHozaVpmMDU4UnlqUHNPRmRXbWh2RzdZQ0h3Z2E1UmxNMl9ZZnJncDRna1lTb0pJa0RTOEFkWlliNzctTHVkSFFyd241TUtn?oc=5",
-    "date": "Tue, 17 Nov 2026 03:42:31 GMT"
-   },
-   {
-    "title": "New changes on track: What Bill C-39 means for Canada’s railway sector",
-    "source": "McCarthy Tétrault",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa2J5V2VnLVY5RUFfVXp0MWdGbDdOT0FweWNxdW5oOFFHTDR3b3NkZk9mYWpqTldpRkRtaUpReWhXZGd0NDlPVXp4cnlsWm1mVmNYc2kzTnNubTZQOExXTVJwTDdBVU5IWVY4Uk5nYU1sWUlSWHRYMVVUdkE4Q1VQdVVZZDFHd04xc0ZJenRiVDZDYWRWSHFuNDZpVFl5MDN0QUZQMW5HaWFKRDJJdFpZLU9CZ2xfam5SVUd2ZjhaZEhGSmRNVEZxSEhNdDRkaE1f?oc=5",
-    "date": "Mon, 16 Nov 2026 18:54:07 GMT"
-   },
-   {
-    "title": "Montrealers protest Bill C-39",
-    "source": "The Link",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tclYwTkhiSjdsMXJuSUNJT0RETm8tZGEyNnlLVWxCRXl3ekQ3RV9VckFYWjFRYXA1MXE3QzZZYnI3OHduaGV6czBQbGp3UmdkSXJCc0FBX19RNXNMOWJIUU9QcjlhbGNHYl91dmE0TllkajA?oc=5",
-    "date": "Mon, 16 Nov 2026 22:15:03 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -4500,6 +4495,12 @@
   "votes": [],
   "media": [
    {
+    "title": "Bill C-40 must enforce real Indigenous procurement accountability",
+    "source": "The Hill Times",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTlFmbFlWcXVQaE1PWk5IeXZEVV8yTkotb0dCdUZVSTk1dU9ScUI3TTk5TUtmc1dKbXZzYk84aUdQdlNXMWFXRG02Y01nRFBxaWo0M2c4Q2FzMzBTclBHdWxmY1g3WHppdHVCOXJmc3Ixbk80a3F2UHl6RjVFZndNeExNVm56ZXowMlFVaDl6ZkxneUYyWW5seFJJX1lJdjFDREtMakVKNlN0QWE1aWNB?oc=5",
+    "date": "Wed, 18 Nov 2026 06:03:40 GMT"
+   },
+   {
     "title": "Bill C-40: The Defence Investment Agency may become a Crown corporation – Why does it matter?",
     "source": "Dentons",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GcVo1RURxSGQ5V0l3cl9HOWY1MldTOW9ramJ3UjFuLWJqTEJieGo2cmhDUF9YZTA4enVLdXFaMWdEMXU0OVhwaV9URGwya09MQTlHUVBmQ2l6VXY0SFVRWVh2X2pHZmc0MUxxNC1VamMzQUJLWmRJ?oc=5",
@@ -4531,7 +4532,7 @@
   "id": "C-41",
   "title": "Medical Assistance in Dying Safeguards Act",
   "longTitle": "An Act to amend the Criminal Code and An Act to amend the Criminal Code (medical assistance in dying) and to make related amendments to other Acts",
-  "status": "At second reading in the House of Commons",
+  "status": "At consideration in committee in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -4541,10 +4542,15 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Justice",
   "sponsorRiding": "Central Nova",
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-11-16",
+  "latestActivity": "Second reading and referral to committee",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "House of Commons",
-  "committee": null,
+  "committee": {
+   "acronym": "JUST",
+   "name": "Standing Committee on Justice and Human Rights",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/JUST"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -4554,7 +4560,7 @@
    {
     "key": "houseSecondReading",
     "label": "Second reading (House)",
-    "date": null
+    "date": "2026-11-17"
    },
    {
     "key": "houseThirdReading",
@@ -4585,30 +4591,30 @@
   "partyPositions": {
    "parties": {
     "Conservative": {
-     "vote": "No",
+     "vote": "Free vote",
+     "disagreement": 0.29365079365079366
+    },
+    "NDP": {
+     "vote": "Yes",
      "disagreement": 0.0
     },
     "Liberal": {
      "vote": "Yes",
      "disagreement": 0.0
     },
-    "NDP": {
-     "vote": "No",
-     "disagreement": 0.0
-    },
     "Bloc": {
-     "vote": "No",
+     "vote": "Yes",
      "disagreement": 0.0
     },
     "Green": {
-     "vote": "No",
+     "vote": "Yes",
      "disagreement": 0.0
     }
    },
-   "basedOn": "Time allocation for Bill C-41, An Act to amend the Criminal Code and An Act to amend the Criminal Code (medical assistance in dying) and to make related amendments to other Acts",
-   "voteDate": "2026-11-16",
+   "basedOn": "2nd reading of Bill C-41, An Act to amend the Criminal Code and An Act to amend the Criminal Code (medical assistance in dying) and to make related amendments to other Acts",
+   "voteDate": "2026-11-17",
    "voteResult": "Passed",
-   "voteUrl": "https://openparliament.ca/votes/45-1/191/"
+   "voteUrl": "https://openparliament.ca/votes/45-1/193/"
   },
   "votes": [
    {
@@ -4618,6 +4624,14 @@
     "result": "Passed",
     "yea": 163,
     "nay": 149
+   },
+   {
+    "number": 193,
+    "date": "2026-11-17",
+    "description": "2nd reading of Bill C-41, An Act to amend the Criminal Code and An Act to amend the Criminal Code (medical assistance in dying) and to make related amendments to other Acts",
+    "result": "Passed",
+    "yea": 225,
+    "nay": 89
    }
   ],
   "media": [
@@ -4660,6 +4674,67 @@
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-41",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-41/first-reading"
+ },
+ {
+  "id": "C-42",
+  "title": "Grocery and Housing Affordability Act",
+  "longTitle": "An Act respecting certain measures related to affordability and housing",
+  "status": "At second reading in the House of Commons",
+  "receivedRoyalAssent": false,
+  "type": "Government Bill",
+  "originatingChamber": "House of Commons",
+  "category": "Housing",
+  "sponsor": "Hon. Gregor Robertson",
+  "sponsorParty": "Liberal",
+  "sponsorRole": "Minister",
+  "sponsorTitle": "Minister of Housing and Infrastructure and Minister responsible for Pacific Economic Development Canada",
+  "sponsorRiding": "Vancouver Fraserview—South Burnaby",
+  "latestActivity": "Introduction and first reading",
+  "latestActivityDate": "2026-11-18",
+  "latestActivityChamber": "House of Commons",
+  "committee": null,
+  "stages": [
+   {
+    "key": "houseFirstReading",
+    "label": "First reading (House)",
+    "date": "2026-11-18"
+   },
+   {
+    "key": "houseSecondReading",
+    "label": "Second reading (House)",
+    "date": null
+   },
+   {
+    "key": "houseThirdReading",
+    "label": "Third reading (House)",
+    "date": null
+   },
+   {
+    "key": "senateFirstReading",
+    "label": "First reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateSecondReading",
+    "label": "Second reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateThirdReading",
+    "label": "Third reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "royalAssent",
+    "label": "Royal Assent",
+    "date": null
+   }
+  ],
+  "partyPositions": null,
+  "votes": [],
+  "media": [],
+  "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-42",
+  "text_link": null
  },
  {
   "id": "S-2",
@@ -5043,7 +5118,7 @@
   "id": "S-7",
   "title": "Cutting Red Tape for All Canadians Act",
   "longTitle": "An Act to modernize certain regulatory and administrative processes",
-  "status": "At second reading in the Senate",
+  "status": "At consideration in committee in the Senate",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "Senate",
@@ -5053,10 +5128,15 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-11-05",
+  "latestActivity": "Referral to committee",
+  "latestActivityDate": "2026-11-18",
   "latestActivityChamber": "Senate",
-  "committee": null,
+  "committee": {
+   "acronym": "BANC",
+   "name": "Standing Senate Committee on Banking, Commerce and the Economy",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/BANC"
+  },
   "stages": [
    {
     "key": "senateFirstReading",
@@ -5066,7 +5146,7 @@
    {
     "key": "senateSecondReading",
     "label": "Second reading (Senate)",
-    "date": null
+    "date": "2026-11-18"
    },
    {
     "key": "senateThirdReading",
@@ -5121,8 +5201,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Introduction and first reading",
-  "latestActivityDate": "2026-11-03",
+  "latestActivity": "Debate at second reading",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
@@ -6592,7 +6672,7 @@
   "id": "C-222",
   "title": "Relieving Grieving Parents of an Administrative Burden Act (Evan's Law)",
   "longTitle": "An Act to amend the Employment Insurance Act and the Canada Labour Code (death of a child)",
-  "status": "At second reading in the Senate",
+  "status": "At consideration in committee in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -6602,10 +6682,15 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Burnaby North—Seymour",
-  "latestActivity": "First reading",
-  "latestActivityDate": "2026-10-29",
+  "latestActivity": "Referral to committee",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "Senate",
-  "committee": null,
+  "committee": {
+   "acronym": "SOCI",
+   "name": "Standing Senate Committee on Social Affairs, Science and Technology",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/SOCI"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -6630,7 +6715,7 @@
    {
     "key": "senateSecondReading",
     "label": "Second reading (Senate)",
-    "date": null
+    "date": "2026-11-17"
    },
    {
     "key": "senateThirdReading",
@@ -7369,7 +7454,7 @@
   "id": "C-231",
   "title": "For the Friends of David Law",
   "longTitle": "An Act to amend the Youth Criminal Justice Act",
-  "status": "House of Commons bill awaiting first reading in the Senate",
+  "status": "At second reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -7379,9 +7464,9 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Mégantic—L'Érable—Lotbinière",
-  "latestActivity": "Third reading",
-  "latestActivityDate": "2026-11-16",
-  "latestActivityChamber": "House of Commons",
+  "latestActivity": "First reading",
+  "latestActivityDate": "2026-11-17",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -7402,7 +7487,7 @@
    {
     "key": "senateFirstReading",
     "label": "First reading (Senate)",
-    "date": null
+    "date": "2026-11-17"
    },
    {
     "key": "senateSecondReading",
@@ -9595,7 +9680,7 @@
   "id": "C-259",
   "title": "Fair Representation Act",
   "longTitle": "An Act to amend the Canada Labour Code (fair representation)",
-  "status": "At second reading in the House of Commons",
+  "status": "At consideration in committee in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -9605,10 +9690,15 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Edmonton Strathcona",
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-06-04",
+  "latestActivity": "Second reading and referral to committee",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "House of Commons",
-  "committee": null,
+  "committee": {
+   "acronym": "HUMA",
+   "name": "Standing Committee on Human Resources, Skills and Social Development and the Status of Persons with Disabilities",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/HUMA"
+  },
   "stages": [
    {
     "key": "houseFirstReading",
@@ -9618,7 +9708,7 @@
    {
     "key": "houseSecondReading",
     "label": "Second reading (House)",
-    "date": null
+    "date": "2026-11-17"
    },
    {
     "key": "houseThirdReading",
@@ -13107,7 +13197,7 @@
   "id": "S-216",
   "title": "Chignecto Isthmus Dykeland System Act",
   "longTitle": "An Act to declare the Chignecto Isthmus Dykeland System and related works to be for the general advantage of Canada",
-  "status": "At report stage in the Senate",
+  "status": "At third reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -13117,8 +13207,8 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Committee report presented",
-  "latestActivityDate": "2026-11-05",
+  "latestActivity": "Committee report adopted",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "Senate",
   "committee": {
    "acronym": "TRCM",
@@ -13239,7 +13329,7 @@
   "id": "S-218",
   "title": "An Act to amend the Constitution Act, 1982 (notwithstanding clause)",
   "longTitle": "An Act to amend the Constitution Act, 1982 (notwithstanding clause)",
-  "status": "At second reading in the Senate",
+  "status": "At consideration in committee in the Senate",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -13249,10 +13339,15 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-06-04",
+  "latestActivity": "Referral to committee",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "Senate",
-  "committee": null,
+  "committee": {
+   "acronym": "LCJC",
+   "name": "Standing Senate Committee on Legal and Constitutional Affairs",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/LCJC"
+  },
   "stages": [
    {
     "key": "senateFirstReading",
@@ -13262,7 +13357,7 @@
    {
     "key": "senateSecondReading",
     "label": "Second reading (Senate)",
-    "date": null
+    "date": "2026-11-17"
    },
    {
     "key": "senateThirdReading",
@@ -13371,7 +13466,7 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "First reading",
+  "latestActivity": "Placed in the Order of Precedence",
   "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "House of Commons",
   "committee": null,
@@ -14283,7 +14378,7 @@
   "id": "S-234",
   "title": "National Framework on Fetal Alcohol Spectrum Disorder Act",
   "longTitle": "An Act respecting a national framework for fetal alcohol spectrum disorder",
-  "status": "At third reading in the Senate",
+  "status": "Senate bill awaiting first reading in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Senate Public Bill",
   "originatingChamber": "Senate",
@@ -14293,15 +14388,10 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Committee report adopted",
-  "latestActivityDate": "2026-11-04",
+  "latestActivity": "Third reading",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "Senate",
-  "committee": {
-   "acronym": "SOCI",
-   "name": "Standing Senate Committee on Social Affairs, Science and Technology",
-   "chamber": "House of Commons",
-   "url": "https://www.ourcommons.ca/committees/en/SOCI"
-  },
+  "committee": null,
   "stages": [
    {
     "key": "senateFirstReading",
@@ -14316,7 +14406,7 @@
    {
     "key": "senateThirdReading",
     "label": "Third reading (Senate)",
-    "date": null
+    "date": "2026-11-17"
    },
    {
     "key": "houseFirstReading",
@@ -14343,7 +14433,7 @@
   "votes": [],
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/s-234",
-  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-234/first-reading"
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/s-234/as-passed-by-the-senate"
  },
  {
   "id": "S-235",
@@ -15248,15 +15338,15 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Introduction and first reading",
-  "latestActivityDate": "2026-06-09",
+  "latestActivity": "Debate at second reading",
+  "latestActivityDate": "2026-11-17",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
     "key": "senateFirstReading",
     "label": "First reading (Senate)",
-    "date": "2026-06-09"
+    "date": "2026-06-08"
    },
    {
     "key": "senateSecondReading",
