@@ -1,6 +1,45 @@
 {
   "liberal_party": [
     {
+      "id": "2123845932684898488",
+      "content": "Our Liberal government’s National Electricity Strategy will deliver clean, affordable, and reliable energy systems built by Canadians, for Canadians:\n\n💡Doubling Canada’s electricity grid by 2050\n💡Lowering energy costs for 7 in 10 households\n💡Creating good jobs for Canadians",
+      "date": "2026-11-20T18:28:24.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 2363,
+        "like_count": 25,
+        "quote_count": 1,
+        "reply_count": 92,
+        "retweet_count": 10
+      }
+    },
+    {
+      "id": "2123818046196416734",
+      "content": "RT @timhodgsonmt: What happens when we connect our grids and build one, connected electricity system?\n \n⚡ Your bills are lower. Utilities don’t have to overbuild backup capacity, and Northern communities can plug into major generation instead of relying on diesel.\n⚡ You get access to more https://t.co/yk639a5hsW",
+      "date": "2026-11-20T16:37:35.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 385,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 23
+      }
+    },
+    {
+      "id": "2123818009752109534",
+      "content": "RT @MarkJCarney: Today, the Canada Child Benefit goes out to families across the country.\n \nWe raised it so parents can now receive more than $8,000 per year to help with groceries, clothes, and the costs of raising a family. https://t.co/IXnke0zBx4",
+      "date": "2026-11-20T16:37:26.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 176,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 124
+      }
+    },
+    {
       "id": "2123490334361403484",
       "content": "RT @MarkJCarney: A dynamic market of 1.4 billion people that was all but closed to Canadian farmers, fish harvesters, and businesses is open again. https://t.co/zNVyY7cyJJ",
       "date": "2026-11-19T18:55:22.000Z",
@@ -90,48 +129,100 @@
         "reply_count": 0,
         "retweet_count": 9
       }
-    },
-    {
-      "id": "2122730054916682102",
-      "content": "RT @MarkJCarney: Let us protect French, promote it, and give it new voices everywhere. https://t.co/fLA76r7aLe",
-      "date": "2026-11-17T16:34:18.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 186,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 187
-      }
-    },
-    {
-      "id": "2122415454081765519",
-      "content": "In ridings across Canada, our Liberal by-election candidates are ready to deliver for their communities and build a stronger Canada for all. https://t.co/xjy3rVskaA",
-      "date": "2026-11-16T19:44:11.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 3210,
-        "like_count": 57,
-        "quote_count": 6,
-        "reply_count": 119,
-        "retweet_count": 20
-      }
-    },
-    {
-      "id": "2122335334570864695",
-      "content": "RT @MarkJCarney: In Canada, we take care of each other. \n\nWe’re making the Canada Caregiver Credit fully refundable. That means Canadian caregivers will receive that money whether they earned enough to pay income tax or not.\n\nThat’s more than $1,000 for over half a million Canadian caregivers. https://t.co/I1jMnbzU6k",
-      "date": "2026-11-16T14:25:49.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 257,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 208
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2123838161537389047",
+      "content": "RT @PierrePoilievre: Liberals pour billions into housing bureaucracy and corporate bailouts, only for homebuilding to drop.\n\nInstead of fixing it, they break their promise.\n\nSign to get government out of the way and Canadians into homes they can afford: https://t.co/9sMFiGetDt https://t.co/3sVkDzzoHa",
+      "date": "2026-11-20T17:57:31.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 135,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 80
+      }
+    },
+    {
+      "id": "2123838144756019202",
+      "content": "RT @PierrePoilievre: Today’s Cadets are tomorrow’s soldiers, sailors, and aviators.\n\nThey are young patriotic Canadians eager to learn more and serve their country.\n\nNow Mark Carney is cutting their program, one of the most popular and successful youth programs Canada has ever seen.\n\nDespite this,",
+      "date": "2026-11-20T17:57:27.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 118,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 88
+      }
+    },
+    {
+      "id": "2123838134278570257",
+      "content": "RT @PierrePoilievre: LIVE: Where is the money going? https://t.co/akw34xX0UN",
+      "date": "2026-11-20T17:57:24.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 124,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 74
+      }
+    },
+    {
+      "id": "2123786880005128242",
+      "content": "RT @PierrePoilievre: Man, could you be more out of touch?\n\nYou make single moms, seniors &amp; small businesses send their money to your socialist friend in Brazil. \n\nHow about putting CANADIANS first for a change. https://t.co/H8RxB6pJn1",
+      "date": "2026-11-20T14:33:44.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 165,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1477
+      }
+    },
+    {
+      "id": "2123786855800070641",
+      "content": "RT @PierrePoilievre: What happened to elbows up, Mr. Carney? https://t.co/v2JlpMyZbb",
+      "date": "2026-11-20T14:33:39.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 133,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 215
+      }
+    },
+    {
+      "id": "2123562525434507381",
+      "content": "RT @PierrePoilievre: LIVE: Castle Law—Stand on Guard for Your Home. https://t.co/w11ZiLRIQF",
+      "date": "2026-11-19T23:42:14.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 197,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 222
+      }
+    },
+    {
+      "id": "2123540356956336155",
+      "content": "RT @PierrePoilievre: Yet another consequence of mass, uncontrolled Liberal immigration. https://t.co/OZsDuoaRfJ",
+      "date": "2026-11-19T22:14:09.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 195,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 525
+      }
+    },
     {
       "id": "2123453737599402255",
       "content": "RT @PierrePoilievre: Mass Liberal immigration is overwhelming our jobs, housing, and healthcare.\n\nMark Carney's record-setting numbers for next year will only make it worse.\n\nThat’s not fair to Canadians or to newcomers.\n\nSign to fix immigration: https://t.co/gdOrOQRltQ https://t.co/DnlOLo3qU3",
@@ -170,100 +261,48 @@
         "reply_count": 0,
         "retweet_count": 235
       }
-    },
-    {
-      "id": "2123256733673922959",
-      "content": "RT @PierrePoilievre: “FIRST READING: Free health care to refugee claimants now costing $2 million per day.”\n\nhttps://t.co/dy1B5J1yRF",
-      "date": "2026-11-19T03:27:08.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 181,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 529
-      }
-    },
-    {
-      "id": "2123177923255677378",
-      "content": "RT @PierrePoilievre: Canadians are dying on hospital wait lists.\n\nAnd Carney wants record immigration next year with no way to care for newcomers.\n\nWhat is he thinking? https://t.co/WQNaFjJPm3",
-      "date": "2026-11-18T22:13:58.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 210,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 628
-      }
-    },
-    {
-      "id": "2123169969617928327",
-      "content": "RT @PierrePoilievre: While Mark Carney gives $500 million to Brazil, he cuts the Cadet program, where young Canadians learn patriotism, discipline, hard work, and service to country.\n\nCould he be more out of touch?\nhttps://t.co/a8ndu7Oe3r https://t.co/1zincT1T6y",
-      "date": "2026-11-18T21:42:22.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 196,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 900
-      }
-    },
-    {
-      "id": "2123133146262610237",
-      "content": "Mark Carney pledged up to $560 million for tropical forests in Brazil while Canadians struggle to feed their families and keep the lights on.\n\nIt’s time for Carney to cut foreign aid and put Canadians first: https://t.co/ErT85amR7z https://t.co/QqFzFm5HaW",
-      "date": "2026-11-18T19:16:02.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1585,
-        "like_count": 46,
-        "quote_count": 0,
-        "reply_count": 15,
-        "retweet_count": 9
-      }
-    },
-    {
-      "id": "2123081746807923180",
-      "content": "RT @PierrePoilievre: As young Canadians facing historically long bouts of unemployment, Mark Carney's Liberals are set to unleash new record-high immigration to make it even worse.\n\nOut. Of. Touch: https://t.co/gdOrOQRltQ https://t.co/EOJdnGyKfO",
-      "date": "2026-11-18T15:51:48.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 160,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 247
-      }
-    },
-    {
-      "id": "2123054142453129590",
-      "content": "RT @PierrePoilievre: 55 years of Canadian excellence. \n\nWe must not let this proud 🇨🇦 tradition disappear from our skies: https://t.co/ujs0X9DNTe https://t.co/NP95R26jQw",
-      "date": "2026-11-18T14:02:06.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 170,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 158
-      }
-    },
-    {
-      "id": "2123054071577808975",
-      "content": "RT @PierrePoilievre: The Carney Liberals are blocking homebuilding, setting record immigration levels, and piling on $331 billion in new spending.\n\nCanadians can't afford the cost of Carney.\n\nSign to fix immigration and put Canadians First for homes and jobs: https://t.co/gdOrOQRltQ https://t.co/jSLd6bUERe",
-      "date": "2026-11-18T14:01:49.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 149,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 271
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2123859880155222491",
+      "content": "On Trans Day of Remembrance, we honour and mourn the lives taken by anti-trans violence and hate.\n\nEvery person has the right to dignity in life and in death. The NDP stands in solidarity with trans communities and will always fight to protect hard-won rights, access to gender https://t.co/bJPaGh5pBN",
+      "date": "2026-11-20T19:23:49.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 780,
+        "like_count": 22,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 5
+      }
+    },
+    {
+      "id": "2123549323820695799",
+      "content": "Les Canadiennes et Canadiens paient déjà parmi les factures de téléphone les plus chères au monde, et voilà que Québecor veut racheter Telus et concentrer encore davantage le marché.\n\nLa députée du NPD @JennyKwanBC a interrogé les Libéraux sur leur intention de bloquer la vente, https://t.co/HbOU7l1uPq",
+      "date": "2026-11-19T22:49:47.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1355,
+        "like_count": 32,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 11
+      }
+    },
+    {
+      "id": "2123549146795876508",
+      "content": "Canadians already have some of the most expensive phone bills in the world, and now Québecor wants to buy Telus and concentrate the market even further.\n\nMP @JennyKwanBC pressed the Liberals on whether they’ll block the sale, but they refused to answer. Is being pro-oligopoly now https://t.co/4FRXsUum1M",
+      "date": "2026-11-19T22:49:04.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1393,
+        "like_count": 65,
+        "quote_count": 2,
+        "reply_count": 4,
+        "retweet_count": 28
+      }
+    },
     {
       "id": "2123183008161415382",
       "content": "Scarborough! On Friday November 20th, join NDP candidate Kingsley Kwok, @avilewis and special guests for a rally and mass canvass in Scarborough North.   \n\nAfter knocking on doors, join us for a social to get to know Kingsley and your fellow organizers. RSVP today! https://t.co/ebFpkTrMu0",
@@ -354,48 +393,48 @@
         "reply_count": 23,
         "retweet_count": 85
       }
-    },
-    {
-      "id": "2122799241831854091",
-      "content": "Refuser d’accepter le statu quo : voilà ce qui nous rassemble en tant que néo-démocrates.\n\nAu fédéral comme au provincial, vous pouvez compter sur le NPD pour vous défendre face à une économie truquée contre vous. https://t.co/JtVR29xMkl",
-      "date": "2026-11-17T21:09:13.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 221,
-        "like_count": 1,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 0
-      }
-    },
-    {
-      "id": "2122798980908335394",
-      "content": "What unites New Democrats is our refusal to accept the status quo.\n\nWhether provincially or federally, we’re the party you can trust to take on our rigged economy and fight for you. https://t.co/WkcsTD0xCS",
-      "date": "2026-11-17T21:08:11.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 256,
-        "like_count": 6,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 2
-      }
-    },
-    {
-      "id": "2122784002734178738",
-      "content": "RT @HMcPhersonNDP: This morning, I tabled a motion to require consultation with Canadians on Bill C-39 before a vote is taken in the House. \nBill C-39 endangers labour rights, Indigenous rights, &amp; environmental protections. The Liberal government is pushing it through without proper consultation. https://t.co/2HCEVnlAIb",
-      "date": "2026-11-17T20:08:40.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 64,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 11
-      }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2123849679527870542",
+      "content": "La démocratie, ce n’est pas juste une élection à chaque quatre ans ; c’est aussi la critique, l’écoute et la délibération avec la société civile. Il est temps que les libéraux se comportent en démocrates avec C-39. https://t.co/rK3QfrN8Z9",
+      "date": "2026-11-20T18:43:17.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 280,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 4
+      }
+    },
+    {
+      "id": "2123763295593152890",
+      "content": "Les libéraux ne s’octroient pas de nouveaux pouvoirs pour faire face à la crise tarifaire ; ils exploitent plutôt la crise tarifaire AFIN de s’octroyer de nouveaux pouvoirs! https://t.co/3eRrD495aW",
+      "date": "2026-11-20T13:00:01.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 600,
+        "like_count": 27,
+        "quote_count": 2,
+        "reply_count": 7,
+        "retweet_count": 19
+      }
+    },
+    {
+      "id": "2123544346591158516",
+      "content": "Mettons fin à des décennies d’hypocrisie. Le projet de loi C-296 du Bloc Québécois obligerait le gouvernement à être transparent lorsque ses actions ont un impact sur le climat. https://t.co/oDTZloQfZN",
+      "date": "2026-11-19T22:30:00.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 662,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 17
+      }
+    },
     {
       "id": "2123516568294551889",
       "content": "Nous avons appris aujourd’hui le décès de Michel Carpentier, directeur de cabinet adjoint sous René Lévesque, puis secrétaire général du Québec sous Jacques Parizeau et Lucien Bouchard. Un mouvement politique comprend toujours une multitude de travailleurs de l’ombre ; le Québec",
@@ -486,48 +525,22 @@
         "reply_count": 0,
         "retweet_count": 2
       }
-    },
-    {
-      "id": "2122724125735280680",
-      "content": "Le gouvernement fédéral a dépensé 3,45 millions de dollars pour contester la Loi sur la laïcité de l’État devant la Cour suprême. Avec notre argent, Ottawa travaille à défaire ce que fait le Québec. https://t.co/eYnhk7wQpu",
-      "date": "2026-11-17T16:10:44.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 948,
-        "like_count": 47,
-        "quote_count": 3,
-        "reply_count": 11,
-        "retweet_count": 30
-      }
-    },
-    {
-      "id": "2122676124912103792",
-      "content": "Bilan de la COP31 : Mark Carney reçoit le prix « fossile du jour », tandis que sa ministre de l’Environnement profite de sa tribune pour… essayer de vendre du gaz à l’Europe. https://t.co/W07QV648zy",
-      "date": "2026-11-17T13:00:00.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 588,
-        "like_count": 20,
-        "quote_count": 0,
-        "reply_count": 5,
-        "retweet_count": 14
-      }
-    },
-    {
-      "id": "2122464736457773314",
-      "content": "Le gouvernement Carney planifie un taux d’immigration record au cours des prochaines années, tout en refusant de communiquer les détails de sa politique. Pourquoi les libéraux donnent pas l’heure juste aux Québécois? https://t.co/Cd0vMwDHOY",
-      "date": "2026-11-16T23:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 1064,
-        "like_count": 43,
-        "quote_count": 1,
-        "reply_count": 8,
-        "retweet_count": 29
-      }
     }
   ],
   "CanadianGreens": [
+    {
+      "id": "2123833747472576626",
+      "content": "WATCH: In Question Period today, Elizabeth May asked whether the government will attend the first Review Conference of states parties to the Treaty on the Prohibition of Nuclear Weapons. The government refused to confirm whether it would attend. https://t.co/D9HKCAbubM",
+      "date": "2026-11-20T17:39:58.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 476,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 3
+      }
+    },
     {
       "id": "2123172338740904203",
       "content": "A tax on oil and gas profits above $1 billion could raise at least $9 billion in its first year alone to make life more affordable.\n\nWith over 76% of Canadians supporting a windfall profits tax, it's time to make it happen. https://t.co/i2DNkTTMFC",
@@ -643,19 +656,6 @@
         "quote_count": 0,
         "reply_count": 5,
         "retweet_count": 8
-      }
-    },
-    {
-      "id": "2120945446726328619",
-      "content": "Read Elizabeth May’s message to Canadians as she reflects on her time as Leader of the Green Party of Canada, the work she's accomplished, and what comes next. https://t.co/JerDmUnNdV",
-      "date": "2026-11-12T18:22:54.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 2647,
-        "like_count": 25,
-        "quote_count": 2,
-        "reply_count": 2,
-        "retweet_count": 7
       }
     }
   ],
@@ -793,6 +793,84 @@
   ],
   "MarkJCarney": [
     {
+      "id": "2123856436551667746",
+      "content": "Sovereignty is built on strength at home and diverse partnerships abroad.\n\nThis week at APEC, Canada strengthened our partnerships across the Asia-Pacific. For more trade, more investment, and more opportunities for our workers and businesses.\n\nRead more: https://t.co/jMqCvHiWsl https://t.co/epB6aCI41l",
+      "date": "2026-11-20T19:10:08.000Z",
+      "metrics": {
+        "bookmark_count": 18,
+        "impression_count": 22235,
+        "like_count": 763,
+        "quote_count": 13,
+        "reply_count": 230,
+        "retweet_count": 126
+      }
+    },
+    {
+      "id": "2123856090861649938",
+      "content": "La souveraineté est fondée sur notre force au pays et sur nos partenariats diversifiés à l’étranger. \n\nCette semaine, à l’APEC, le Canada a renforcé nos partenariats dans la région Asie-Pacifique. Des partenariats qui donneront lieu à plus d’échanges commerciaux, à plus https://t.co/KPp1hKzUM1",
+      "date": "2026-11-20T19:08:46.000Z",
+      "metrics": {
+        "bookmark_count": 10,
+        "impression_count": 13577,
+        "like_count": 315,
+        "quote_count": 2,
+        "reply_count": 80,
+        "retweet_count": 46
+      }
+    },
+    {
+      "id": "2123815917096185987",
+      "content": "Today, the Canada Child Benefit goes out to families across the country.\n \nWe raised it so parents can now receive more than $8,000 per year to help with groceries, clothes, and the costs of raising a family. https://t.co/IXnke0zBx4",
+      "date": "2026-11-20T16:29:07.000Z",
+      "metrics": {
+        "bookmark_count": 25,
+        "impression_count": 53203,
+        "like_count": 748,
+        "quote_count": 61,
+        "reply_count": 652,
+        "retweet_count": 124
+      }
+    },
+    {
+      "id": "2123815678272557521",
+      "content": "Aujourd’hui, l’Allocation canadienne pour enfants sera versée aux familles partout au pays.\n \nNous avons augmenté le montant de l’Allocation afin que les parents puissent recevoir plus de 8 000 $ par année, qui les aideront à couvrir les dépenses liées à l’épicerie, aux vêtements https://t.co/gUayxXYxZn",
+      "date": "2026-11-20T16:28:10.000Z",
+      "metrics": {
+        "bookmark_count": 12,
+        "impression_count": 22526,
+        "like_count": 374,
+        "quote_count": 12,
+        "reply_count": 161,
+        "retweet_count": 69
+      }
+    },
+    {
+      "id": "2123523728847843374",
+      "content": "Our new free trade agreement with the Philippines puts us on track to triple our exports by 2035.\n\nFor Canadian businesses, big and small, that means more customers, new orders, and a competitive advantage in one of the fastest-growing economies in Asia. https://t.co/WK9So9lPHw",
+      "date": "2026-11-19T21:08:04.000Z",
+      "metrics": {
+        "bookmark_count": 51,
+        "impression_count": 70963,
+        "like_count": 2182,
+        "quote_count": 33,
+        "reply_count": 595,
+        "retweet_count": 429
+      }
+    },
+    {
+      "id": "2123523664851132779",
+      "content": "Notre nouvel accord de libre-échange avec les Philippines nous met sur la bonne voie pour tripler nos exportations d’ici 2035.\n\nPour les entreprises canadiennes, petites et grandes, cet accord se traduira par un nombre accru de clients, de nouvelles commandes et un avantage https://t.co/WK9So9lPHw",
+      "date": "2026-11-19T21:07:49.000Z",
+      "metrics": {
+        "bookmark_count": 6,
+        "impression_count": 28065,
+        "like_count": 675,
+        "quote_count": 5,
+        "reply_count": 173,
+        "retweet_count": 135
+      }
+    },
+    {
       "id": "2123475561519403139",
       "content": "We have a responsibility to protect nature — both in our own backyard and around the world. https://t.co/JDbP3vHaji",
       "date": "2026-11-19T17:56:40.000Z",
@@ -843,215 +921,137 @@
         "reply_count": 216,
         "retweet_count": 152
       }
-    },
-    {
-      "id": "2123165718673768731",
-      "content": "A dynamic market of 1.4 billion people that was all but closed to Canadian farmers, fish harvesters, and businesses is open again. https://t.co/zNVyY7cyJJ",
-      "date": "2026-11-18T21:25:28.000Z",
-      "metrics": {
-        "bookmark_count": 63,
-        "impression_count": 90546,
-        "like_count": 2641,
-        "quote_count": 33,
-        "reply_count": 640,
-        "retweet_count": 474
-      }
-    },
-    {
-      "id": "2123165515745034703",
-      "content": "Un marché dynamique de 1,4 milliard de personnes, qui était pratiquement fermé aux agriculteurs, aux pêcheurs et aux entreprises du Canada, est de nouveau ouvert. https://t.co/ELCSD7o0uM",
-      "date": "2026-11-18T21:24:40.000Z",
-      "metrics": {
-        "bookmark_count": 30,
-        "impression_count": 55541,
-        "like_count": 1487,
-        "quote_count": 11,
-        "reply_count": 268,
-        "retweet_count": 189
-      }
-    },
-    {
-      "id": "2123134079667261609",
-      "content": "Canada is building bigger than ever before.\n\nLast year at the APEC Summit, I invited business leaders to build with us. This year, the invitation remains. What’s changed is the pace.\n\nCanada is thinking bigger, moving faster, building stronger.\n\nAnd we are just getting started. https://t.co/eSWlk3T4rF",
-      "date": "2026-11-18T19:19:45.000Z",
-      "metrics": {
-        "bookmark_count": 12,
-        "impression_count": 20079,
-        "like_count": 543,
-        "quote_count": 13,
-        "reply_count": 267,
-        "retweet_count": 91
-      }
-    },
-    {
-      "id": "2123133799840293095",
-      "content": "Le Canada bâtit plus grand que jamais auparavant.\n\nL’année dernière, au Sommet de l’APEC, j’ai invité les chefs d'entreprise à bâtir l’avenir avec nous. Cette année, cette invitation tient toujours. Ce qui a changé, c'est le rythme de nos actions.\n\nLe Canada voit plus grand, https://t.co/gn7CI4U6Ck",
-      "date": "2026-11-18T19:18:38.000Z",
-      "metrics": {
-        "bookmark_count": 7,
-        "impression_count": 15014,
-        "like_count": 234,
-        "quote_count": 4,
-        "reply_count": 97,
-        "retweet_count": 44
-      }
-    },
-    {
-      "id": "2123097502740037831",
-      "content": "Canada is expanding our trade arrangement with China.\n\nWe’ve now restored market access for more than 90 per cent of the Canadian trade previously hit by tariffs. For Canadian farmers, ranchers, and fish harvesters that means new orders and better prices for their product.\n\nIt",
-      "date": "2026-11-18T16:54:24.000Z",
-      "metrics": {
-        "bookmark_count": 65,
-        "impression_count": 131077,
-        "like_count": 2293,
-        "quote_count": 31,
-        "reply_count": 506,
-        "retweet_count": 257
-      }
-    },
-    {
-      "id": "2123097431982137573",
-      "content": "Le Canada élargit son arrangement commercial avec la Chine.\n\nNous avons maintenant rétabli l’accès aux marchés pour plus de 90 % des échanges commerciaux qui étaient précédemment soumis à des mesures tarifaires. Pour les agriculteurs, les éleveurs et les pêcheurs canadiens, cela",
-      "date": "2026-11-18T16:54:07.000Z",
-      "metrics": {
-        "bookmark_count": 14,
-        "impression_count": 31750,
-        "like_count": 667,
-        "quote_count": 4,
-        "reply_count": 183,
-        "retweet_count": 92
-      }
     }
   ],
   "PierrePoilievre": [
     {
-      "id": "2123508270769856917",
-      "content": "Le Canada d’abord.\n\nPendant que Mark Carney multiplie les entrevues avec les médias américains, il évite les questions difficiles des journalistes québécois.\n\nSes dépenses incontrôlées et ses déficits alimentent l’inflation. C’est de l’argent qu’il emprunte aujourd’hui et qu’il https://t.co/7xq1rGEndZ",
-      "date": "2026-11-19T20:06:39.000Z",
+      "id": "2123864091462885829",
+      "content": "RT @KerryDiotte: PREDICTABLE!\n\nEvery time he gets in hot water, Carney plays the Trump card to avoid being accountable for his failures. https://t.co/QGs4vBYciv",
+      "date": "2026-11-20T19:40:33.000Z",
       "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 8668,
-        "like_count": 200,
-        "quote_count": 2,
-        "reply_count": 23,
-        "retweet_count": 35
+        "bookmark_count": 0,
+        "impression_count": 2733,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 12
       }
     },
     {
-      "id": "2123434333830578317",
-      "content": "Mass Liberal immigration is overwhelming our jobs, housing, and healthcare.\n\nMark Carney's record-setting numbers for next year will only make it worse.\n\nThat’s not fair to Canadians or to newcomers.\n\nSign to fix immigration: https://t.co/gdOrOQRltQ https://t.co/DnlOLo3qU3",
-      "date": "2026-11-19T15:12:51.000Z",
+      "id": "2123854994533388637",
+      "content": "RT @shuvmajumdar: Let’s see:\n\nDisastrous budget. Ripped apart by PBO. \n\nHousing crisis, where he’s cooking the books. \n\nTelesat scandal. Billions for a buddy.\n\nImmigration chaos, out of control. \n\nWhat can we expect he would now do? \n\nPlay the Trump card. All this talk about “new” negotiations.",
+      "date": "2026-11-20T19:04:24.000Z",
       "metrics": {
-        "bookmark_count": 11,
-        "impression_count": 21094,
-        "like_count": 1002,
-        "quote_count": 15,
-        "reply_count": 214,
-        "retweet_count": 202
+        "bookmark_count": 0,
+        "impression_count": 2896,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 65
       }
     },
     {
-      "id": "2123434274783105222",
-      "content": "L'immigration libérale massive teste notre capacité d'intégration pour le marché du travail, les logements et notre système de santé.\n\nLes chiffres records annoncés par Mark Carney pour l'année prochaine vont aggraver la situation.\n\nCe n'est pas juste, ni pour les Canadiens, ni https://t.co/q0oG9RU9v2",
-      "date": "2026-11-19T15:12:37.000Z",
+      "id": "2123852163457929470",
+      "content": "Où va l’argent? https://t.co/vObUaErQ28",
+      "date": "2026-11-20T18:53:09.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 11123,
+        "like_count": 299,
+        "quote_count": 6,
+        "reply_count": 27,
+        "retweet_count": 54
+      }
+    },
+    {
+      "id": "2123838014157652354",
+      "content": "LIVE: Where is the money going? https://t.co/akw34xX0UN",
+      "date": "2026-11-20T17:56:56.000Z",
       "metrics": {
         "bookmark_count": 3,
-        "impression_count": 10272,
-        "like_count": 158,
-        "quote_count": 0,
-        "reply_count": 9,
-        "retweet_count": 24
+        "impression_count": 11248,
+        "like_count": 281,
+        "quote_count": 4,
+        "reply_count": 46,
+        "retweet_count": 74
       }
     },
     {
-      "id": "2123397778013344167",
-      "content": "Mark Carney will borrow more in 6 years than Justin Trudeau did in 10.\n\nNo amount of Liberal spin changes it: Mark Carney is the most expensive Prime Minister in Canadian history.\n\nCarney spends. You pay.\n\nSign to lower taxes, cut waste, and fix the budget: https://t.co/fykXspp31u",
-      "date": "2026-11-19T12:47:35.000Z",
+      "id": "2123833757824065803",
+      "content": "Today’s Cadets are tomorrow’s soldiers, sailors, and aviators.\n\nThey are young patriotic Canadians eager to learn more and serve their country.\n\nNow Mark Carney is cutting their program, one of the most popular and successful youth programs Canada has ever seen.\n\nDespite this,",
+      "date": "2026-11-20T17:40:01.000Z",
       "metrics": {
-        "bookmark_count": 70,
-        "impression_count": 43878,
-        "like_count": 2512,
-        "quote_count": 24,
-        "reply_count": 192,
-        "retweet_count": 543
+        "bookmark_count": 6,
+        "impression_count": 15448,
+        "like_count": 563,
+        "quote_count": 3,
+        "reply_count": 41,
+        "retweet_count": 88
       }
     },
     {
-      "id": "2123397724779278557",
-      "content": "Mark Carney va emprunter plus en 6 ans que Justin Trudeau ne l’a fait en 10 ans.\n\nAucune manipulation libérale ne peut changer ça  : Mark Carney est le premier ministre le plus coûteux de l’histoire du Canada.\n\nMark Carney dépense et c’est vous qui payez.\n\nSignez pour faire https://t.co/zvPHnimzFh",
-      "date": "2026-11-19T12:47:23.000Z",
+      "id": "2123833748160651598",
+      "content": "Les cadets d’aujourd’hui sont les soldats, marins et aviateurs de demain.\n\nCe sont de jeunes Canadiens patriotes, prêts à apprendre et à servir leur pays.\n\nMark Carney est en train d’abolir leur programme, l’un des programmes pour la jeunesse les plus populaires et les plus",
+      "date": "2026-11-20T17:39:59.000Z",
       "metrics": {
         "bookmark_count": 9,
-        "impression_count": 22821,
-        "like_count": 920,
-        "quote_count": 6,
-        "reply_count": 65,
-        "retweet_count": 218
+        "impression_count": 12049,
+        "like_count": 483,
+        "quote_count": 3,
+        "reply_count": 38,
+        "retweet_count": 93
       }
     },
     {
-      "id": "2123238814780887190",
-      "content": "“FIRST READING: Free health care to refugee claimants now costing $2 million per day.”\n\nhttps://t.co/dy1B5J1yRF",
-      "date": "2026-11-19T02:15:55.000Z",
+      "id": "2123795351388016905",
+      "content": "Liberals pour billions into housing bureaucracy and corporate bailouts, only for homebuilding to drop.\n\nInstead of fixing it, they break their promise.\n\nSign to get government out of the way and Canadians into homes they can afford: https://t.co/9sMFiGetDt https://t.co/3sVkDzzoHa",
+      "date": "2026-11-20T15:07:24.000Z",
       "metrics": {
-        "bookmark_count": 62,
-        "impression_count": 40516,
-        "like_count": 1946,
-        "quote_count": 29,
-        "reply_count": 177,
-        "retweet_count": 529
+        "bookmark_count": 4,
+        "impression_count": 19248,
+        "like_count": 473,
+        "quote_count": 4,
+        "reply_count": 64,
+        "retweet_count": 80
       }
     },
     {
-      "id": "2123198538926456897",
-      "content": "Corporate powerbrokers controlling tax dollars.\n\nDominic Barton chairs global mining giant Rio Tinto AND Mark Carney's Invest in Canada agency.\n\nHe admits there's no reporting requirement for his ethics screen because he's only \"part-time.\"\n\nAnd he hasn't had to use that screen https://t.co/Ch1zqUdzp9",
-      "date": "2026-11-18T23:35:53.000Z",
+      "id": "2123780409582625142",
+      "content": "What happened to elbows up, Mr. Carney? https://t.co/v2JlpMyZbb",
+      "date": "2026-11-20T14:08:02.000Z",
       "metrics": {
-        "bookmark_count": 23,
-        "impression_count": 26382,
-        "like_count": 741,
+        "bookmark_count": 14,
+        "impression_count": 20188,
+        "like_count": 994,
         "quote_count": 9,
-        "reply_count": 50,
-        "retweet_count": 235
+        "reply_count": 92,
+        "retweet_count": 215
       }
     },
     {
-      "id": "2123169861530456471",
-      "content": "While Mark Carney gives $500 million to Brazil, he cuts the Cadet program, where young Canadians learn patriotism, discipline, hard work, and service to country.\n\nCould he be more out of touch?\nhttps://t.co/a8ndu7Oe3r https://t.co/1zincT1T6y",
-      "date": "2026-11-18T21:41:56.000Z",
+      "id": "2123752304914698402",
+      "content": "Man, could you be more out of touch?\n\nYou make single moms, seniors &amp; small businesses send their money to your socialist friend in Brazil. \n\nHow about putting CANADIANS first for a change. https://t.co/H8RxB6pJn1",
+      "date": "2026-11-20T12:16:21.000Z",
       "metrics": {
-        "bookmark_count": 54,
-        "impression_count": 60964,
-        "like_count": 4379,
-        "quote_count": 32,
-        "reply_count": 250,
-        "retweet_count": 900
+        "bookmark_count": 112,
+        "impression_count": 116463,
+        "like_count": 9033,
+        "quote_count": 74,
+        "reply_count": 695,
+        "retweet_count": 1477
       }
     },
     {
-      "id": "2123165498909372436",
-      "content": "Canadians are dying on hospital wait lists.\n\nAnd Carney wants record immigration next year with no way to care for newcomers.\n\nWhat is he thinking? https://t.co/WQNaFjJPm3",
-      "date": "2026-11-18T21:24:36.000Z",
+      "id": "2123596182014525590",
+      "content": "Le gouvernement Carney doit arrêter de gaspiller des milliards à l’étranger et de battre des records en matière de seuils d’immigration.\n\nIl doit commencer à s’occuper des Canadiens. S’il passait plus de temps au pays, il saurait que des Canadiens n’arrivent plus à acheter une",
+      "date": "2026-11-20T01:55:58.000Z",
       "metrics": {
-        "bookmark_count": 41,
-        "impression_count": 40796,
-        "like_count": 2735,
-        "quote_count": 29,
-        "reply_count": 276,
-        "retweet_count": 628
-      }
-    },
-    {
-      "id": "2123055779779420246",
-      "content": "As young Canadians facing historically long bouts of unemployment, Mark Carney's Liberals are set to unleash new record-high immigration to make it even worse.\n\nOut. Of. Touch: https://t.co/gdOrOQRltQ https://t.co/EOJdnGyKfO",
-      "date": "2026-11-18T14:08:37.000Z",
-      "metrics": {
-        "bookmark_count": 11,
-        "impression_count": 21372,
-        "like_count": 903,
-        "quote_count": 8,
-        "reply_count": 174,
-        "retweet_count": 247
+        "bookmark_count": 13,
+        "impression_count": 48871,
+        "like_count": 1827,
+        "quote_count": 2,
+        "reply_count": 122,
+        "retweet_count": 288
       }
     }
   ]

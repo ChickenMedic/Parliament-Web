@@ -2,6 +2,13 @@
  "pm": {
   "own": [
    {
+    "videoId": "H5yh9oxgmYI",
+    "title": "Prime Minister Carney delivers remarks to media at the APEC CEO Summit",
+    "date": "2026-11-20T12:14:59+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/H5yh9oxgmYI/hqdefault.jpg",
+    "channel": "Prime Minister of Canada"
+   },
+   {
     "videoId": "7ZKsmnVi_bE",
     "title": "Prime Minister Carney highlights largest culture investment in Canadian history",
     "date": "2026-11-14T00:52:17+00:00",
@@ -21,69 +28,55 @@
     "date": "2026-11-10T12:24:43+00:00",
     "thumbnail": "https://i1.ytimg.com/vi/pp9lAH2RZRM/hqdefault.jpg",
     "channel": "Prime Minister of Canada"
-   },
-   {
-    "videoId": "QBzhUpIoQsg",
-    "title": "Tabling of Budget 2026",
-    "date": "2026-11-06T15:34:56+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/QBzhUpIoQsg/hqdefault.jpg",
-    "channel": "Prime Minister of Canada"
    }
   ],
   "coverage": [
    {
-    "videoId": "mb094UQx3qY",
-    "title": "The priest with Carney’s ear on homelessness | Front Burner",
-    "date": "2026-11-19T15:01:01+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/mb094UQx3qY/hqdefault.jpg",
-    "channel": "CBC News"
+    "videoId": "Aba6RyYgJ2E",
+    "title": "Carney's China Reset: Is Canada Getting Too Close to Beijing? | Open Question",
+    "date": "2026-11-20T11:45:06+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/Aba6RyYgJ2E/hqdefault.jpg",
+    "channel": "CPAC"
    }
   ]
  },
  "opposition": {
   "own": [
    {
-    "videoId": "vH76Sgarjjc",
-    "title": "Le Canada d’abord : moins de déficits, moins d’immigration, plus de logements et d’emplois.",
-    "date": "2026-11-19T20:07:30+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/vH76Sgarjjc/hqdefault.jpg",
+    "videoId": "a8znIrp75cg",
+    "title": "Où va l’argent?",
+    "date": "2026-11-20T18:54:39+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/a8znIrp75cg/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    },
    {
-    "videoId": "1BqdTla2lnw",
-    "title": "Carney wants record immigration while Canadians are dying on healthcare waitlists.",
-    "date": "2026-11-18T21:26:19+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/1BqdTla2lnw/hqdefault.jpg",
+    "videoId": "ZfgjFh9NIqY",
+    "title": "LIVE: Where is the money going?",
+    "date": "2026-11-20T18:23:56+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/ZfgjFh9NIqY/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    },
    {
-    "videoId": "326KHsTJsuI",
-    "title": "Canadians can't afford the cost of Carney.",
-    "date": "2026-11-18T00:03:21+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/326KHsTJsuI/hqdefault.jpg",
+    "videoId": "Srn95IV71x4",
+    "title": "You should get paid for your work. ",
+    "date": "2026-11-20T16:08:07+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/Srn95IV71x4/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    },
    {
-    "videoId": "BDMPW3ZjYUE",
-    "title": "Liberals are shutting down debate on a matter of life and death.",
-    "date": "2026-11-17T17:57:24+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/BDMPW3ZjYUE/hqdefault.jpg",
+    "videoId": "r6xbJ4Ky26U",
+    "title": "What happened to elbows up, Mr. Carney?",
+    "date": "2026-11-20T14:11:04+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/r6xbJ4Ky26U/hqdefault.jpg",
     "channel": "Pierre Poilievre"
    }
   ],
   "coverage": [
    {
-    "videoId": "SvmhhxHL660",
-    "title": "Poilievre taking questions in riding with upcoming byelection",
-    "date": "2026-11-19T18:20:53+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/SvmhhxHL660/hqdefault.jpg",
-    "channel": "CBC News"
-   },
-   {
-    "videoId": "2GkqLvFhnqs",
-    "title": "Le chef du PCC Pierre Poilievre présente son candidat dans St-Hyacinthe – 19 novembre 2026",
-    "date": "2026-11-19T16:20:25+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/2GkqLvFhnqs/hqdefault.jpg",
+    "videoId": "Ly2vWB53iA0",
+    "title": "Pierre Poilievre reacts to PBO report on govt spending – November 20, 2026",
+    "date": "2026-11-20T18:25:42+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/Ly2vWB53iA0/hqdefault.jpg",
     "channel": "CPAC"
    }
   ]
