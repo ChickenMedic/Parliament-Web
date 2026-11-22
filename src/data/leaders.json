@@ -12,9 +12,18 @@
         "pollster": "Abacus Data",
         "value": "53%",
         "metric": "Positive impression of the Prime Minister",
-        "detail": "28% negative, net +25, up from +20 in the previous wave; Carney is the only major federal leader with a net-positive impression",
-        "date": "Wave dated August 26, 2026 (published early September 2026)",
-        "url": "https://abacusdata.ca/canadians-give-the-carney-government-strong-overall-marks-but-its-approval-rests-heavily-on-the-canada-u-s-file/",
+        "detail": "31% negative, for a net rating of +22, down 3 points from +25 on November 4; the first Abacus read after Budget 2026",
+        "date": "Fielded November 13 to 18, 2026, published November 22, 2026",
+        "url": "https://abacusdata.ca/liberals-maintain-strong-lead-following-federal-budget-as-political-landscape-remains-remarkably-stable/",
+        "tone": "positive"
+      },
+      {
+        "pollster": "Angus Reid Institute",
+        "value": "58%",
+        "metric": "Approve of Prime Minister Carney's performance",
+        "detail": "Down from the September reading of 61%; Canadians rate him best on trade and Canada's international standing, weaker on core domestic concerns",
+        "date": "Published November 16, 2026",
+        "url": "https://angusreid.org/the-carney-checkup-pms-government-is-assessed-well-on-international-affairs-but-less-so-on-canadians-core-concerns/",
         "tone": "positive"
       },
       {
@@ -24,15 +33,6 @@
         "detail": "Four-week rolling average; Poilievre at 19.6% and NDP's Avi Lewis at 4.9%",
         "date": "Published late August 2026",
         "url": "https://niknanos.substack.com/p/pocketbooks-first-politics-second",
-        "tone": "positive"
-      },
-      {
-        "pollster": "Léger",
-        "value": "57%",
-        "metric": "Satisfied with the federal government",
-        "detail": "Up 3 points from June 1; 36% dissatisfied. Note: Léger's August 2026 release reports satisfaction down 3 points and Carney approval down 2 points since June, but no headline figure was confirmed in search results",
-        "date": "June 22, 2026",
-        "url": "https://leger360.com/in-the-news-federal-polling-june-2026/",
         "tone": "positive"
       }
     ]
@@ -48,12 +48,12 @@
     "ratings": [
       {
         "pollster": "Abacus Data",
-        "value": "35%",
-        "metric": "Positive impression",
-        "detail": "46% negative, net −11, down from 37%/43% (net −6) two weeks earlier",
-        "date": "August 2026 wave",
-        "url": "https://www.hashtaginvesting.com/blog/carney-liberals-lead-poilievre-42-35-as-80-of-canadians-say-u-s-is-on-wrong-track-abacus",
-        "tone": "negative"
+        "value": "net -4",
+        "metric": "Net impression (positive minus negative)",
+        "detail": "An improvement of 7 points from net -11 on November 4, but still negative; Carney's net impression is +22 in the same wave",
+        "date": "Fielded November 13 to 18, 2026, published November 22, 2026",
+        "url": "https://abacusdata.ca/liberals-maintain-strong-lead-following-federal-budget-as-political-landscape-remains-remarkably-stable/",
+        "tone": "neutral"
       },
       {
         "pollster": "Nanos Research",
