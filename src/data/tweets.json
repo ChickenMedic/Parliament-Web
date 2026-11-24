@@ -1,6 +1,45 @@
 {
   "liberal_party": [
     {
+      "id": "2125270682321948818",
+      "content": "RT @MarkJCarney: Canada is building big — and we need more skilled trades workers to get it done.\n\nThrough Team Canada Strong, apprentices who get their certification in a Red Seal trade can now get a $5,000 completion bonus.\n\nIf you recently got your Red Seal, you can apply for your bonus today:",
+      "date": "2026-11-24T16:49:50.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 214,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 427
+      }
+    },
+    {
+      "id": "2125270672280518851",
+      "content": "RT @MSidhuLiberal: We’re making Canada the most attractive destination for investment in the world.\n\n➡️ 100% of eligible new investment costs deductible immediately through the Productivity Mega Deduction.\n➡️ Up to $15M in gains on qualifying Canadian company shares eligible for a Canada Growth https://t.co/oOHLHfEyOs",
+      "date": "2026-11-24T16:49:48.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 342,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 25
+      }
+    },
+    {
+      "id": "2125270659768913973",
+      "content": "RT @stevenmackinnon: A major investment in the Port of Sault Ste. Marie! 🇨🇦\n\nOur government, working with Ontario, is investing $250 million to triple the port’s capacity by 2031, strengthen our supply chains and help move more goods faster through our transportation infrastructure. https://t.co/LUHjuROhcC",
+      "date": "2026-11-24T16:49:45.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 341,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 15
+      }
+    },
+    {
       "id": "2124934703614693460",
       "content": "RT @MarkJCarney: More opportunities for our businesses, more jobs for our workers, more choices for Canadians. https://t.co/YGQeYaw1Yt",
       "date": "2026-11-23T18:34:47.000Z",
@@ -90,48 +129,113 @@
         "reply_count": 0,
         "retweet_count": 23
       }
-    },
-    {
-      "id": "2123818009752109534",
-      "content": "RT @MarkJCarney: Today, the Canada Child Benefit goes out to families across the country.\n \nWe raised it so parents can now receive more than $8,000 per year to help with groceries, clothes, and the costs of raising a family. https://t.co/IXnke0zBx4",
-      "date": "2026-11-20T16:37:26.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 176,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 124
-      }
-    },
-    {
-      "id": "2123490334361403484",
-      "content": "RT @MarkJCarney: A dynamic market of 1.4 billion people that was all but closed to Canadian farmers, fish harvesters, and businesses is open again. https://t.co/zNVyY7cyJJ",
-      "date": "2026-11-19T18:55:22.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 156,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 474
-      }
-    },
-    {
-      "id": "2123490306683556274",
-      "content": "RT @juliedabrusin: Our commitment towards the Tropical Forest Forever Facility is an essential part of our ambitious action plan to conserve and protect ecosystems in Canada and around the world.🌳 https://t.co/gKBUm5ASh1",
-      "date": "2026-11-19T18:55:16.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 304,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 9
-      }
     }
   ],
   "CPC_HQ": [
+    {
+      "id": "2125346235737391423",
+      "content": "Mark Carney wants the power to seize private land and for Canadians to pay for a train most will never ride.\n\nStand with Conservatives to stop the land grab and scrap the Alto rail boondoggle: https://t.co/qM9IQtP5Wu https://t.co/QHPgcuesHA",
+      "date": "2026-11-24T21:50:04.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1657,
+        "like_count": 104,
+        "quote_count": 4,
+        "reply_count": 10,
+        "retweet_count": 29
+      }
+    },
+    {
+      "id": "2125310097278525441",
+      "content": "RT @PierrePoilievre: Mark Carney's answer to farmers and families whose land he wants to seize for a $150 billion rail boondoggle: https://t.co/YbyawpiYpL",
+      "date": "2026-11-24T19:26:28.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 144,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 265
+      }
+    },
+    {
+      "id": "2125301476830347668",
+      "content": "RT @PierrePoilievre: Mark Carney wants to increase permanent immigration to record levels.\n\nConservatives say numbers must come down. \n\nGet immigration under control so Canadians can get jobs, homes, and healthcare: https://t.co/4B7OKq6SIm https://t.co/VWJ7HCQDa7",
+      "date": "2026-11-24T18:52:12.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 147,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 144
+      }
+    },
+    {
+      "id": "2125281458310856969",
+      "content": "RT @PierrePoilievre: Liberals are setting record-high immigration levels and budgeting more than $2 million a day for refugee health care.\n\nSign to fix the system and put Canadians First: https://t.co/gdOrOQRTjo https://t.co/AwGQv3nngV",
+      "date": "2026-11-24T17:32:40.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 159,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 112
+      }
+    },
+    {
+      "id": "2125258444269617468",
+      "content": "RT @PierrePoilievre: It's not an accident. This is their plan.\n\nAnd it is not to serve you.\n\nSign to reject Carney's record immigration increase: https://t.co/4B7OKq6kSO https://t.co/fZtTNrc0nM",
+      "date": "2026-11-24T16:01:13.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 171,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 461
+      }
+    },
+    {
+      "id": "2125247558096126312",
+      "content": "RT @PierrePoilievre: Mark Carney is ramming through a law allowing him to seize your land and give it to corporations for costly taxpayer-funded projects.\n\nFirst up: the $150 billion Alto boondoggle that will cost every Canadian family $10k even though 90% will never use it. \n\nCarney thinks your",
+      "date": "2026-11-24T15:17:57.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 180,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 543
+      }
+    },
+    {
+      "id": "2125230236866335230",
+      "content": "RT @PierrePoilievre: Carney Liberals give $2.2 million to the company of the Liberal Minister’s brother for “carbon credits.”\n\nWhat an absolute scam. Your money. Their friends. https://t.co/CVma25NGEx",
+      "date": "2026-11-24T14:09:07.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 190,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1362
+      }
+    },
+    {
+      "id": "2125230171599016059",
+      "content": "RT @PierrePoilievre: Carney’s record-breaking increase in immigration serves one purpose: profit corporate powerbrokers at the expense of the working class. \n\nEnough. Support our motion to get immigration under control: https://t.co/4B7OKq6kSO https://t.co/tyQ5IHeV4j",
+      "date": "2026-11-24T14:08:52.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 167,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 222
+      }
+    },
     {
       "id": "2125012019594047895",
       "content": "RT @PierrePoilievre: Having Conservatives in the House of Commons gets results for Canadians.\n\nThe Carney Liberals tried to gut one of Canada's most successful youth programs.\n\nConservatives called them out. Canadian families spoke out and fought back. Now the Liberals have backed down and restored https://t.co/C2DMEFY3sQ",
@@ -157,113 +261,48 @@
         "reply_count": 12,
         "retweet_count": 67
       }
-    },
-    {
-      "id": "2124931748693721480",
-      "content": "RT @PierrePoilievre: Tell your MP to vote to get immigration under control, so Canadians can get homes, jobs, and health care: https://t.co/4B7OKq6kSO https://t.co/9VA5ejdq7c",
-      "date": "2026-11-23T18:23:02.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 170,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 212
-      }
-    },
-    {
-      "id": "2124921305908818144",
-      "content": "RT @MichelleRempel: Contact your MP and tell them to vote in favour https://t.co/ihQkpE4WEq",
-      "date": "2026-11-23T17:41:33.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 369,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 219
-      }
-    },
-    {
-      "id": "2124906333740658961",
-      "content": "Carney’s Liberals are planning a record-smashing immigration surge.\n\nCanadians and newcomers alike are paying the price as housing, health care, and jobs struggle to keep up.\n\nConservatives are calling on the Liberals to dramatically reduce immigration levels and set targets https://t.co/QZ6enpRHg6",
-      "date": "2026-11-23T16:42:03.000Z",
-      "metrics": {
-        "bookmark_count": 4,
-        "impression_count": 3819,
-        "like_count": 243,
-        "quote_count": 6,
-        "reply_count": 38,
-        "retweet_count": 87
-      }
-    },
-    {
-      "id": "2124881850716020982",
-      "content": "RT @PierrePoilievre: Conservative motion to protect jobs, healthcare, and housing for Canadians by stopping Carney's record breaking immigration increases.\n \nSign here if you agree: https://t.co/gdOrOQRltQ https://t.co/aA93rqARvc",
-      "date": "2026-11-23T15:04:46.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 179,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 157
-      }
-    },
-    {
-      "id": "2124692636858466366",
-      "content": "RT @PierrePoilievre: Mr. Carney has been wrong about a lot of things. \n\nBut this has to be the most ridiculous one yet. https://t.co/SrmatR5mTC",
-      "date": "2026-11-23T02:32:54.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 216,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 655
-      }
-    },
-    {
-      "id": "2124692627379442078",
-      "content": "RT @PierrePoilievre: Do you agree with Mark Carney’s plan to increase permanent immigration to record highs next year, or do you agree with Conservatives that it is time to bring numbers down? \n\nMPs will decide when voting on this motion.\n\nSign here if you agree with it: https://t.co/4B7OKq6SIm https://t.co/N56JM2wis3",
-      "date": "2026-11-23T02:32:51.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 175,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 228
-      }
-    },
-    {
-      "id": "2124584163336724868",
-      "content": "RT @MichelleRempel: Conservatives move critical motion to reject record immigration levels https://t.co/KKjDHrK5Y6",
-      "date": "2026-11-22T19:21:52.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 217,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 76
-      }
-    },
-    {
-      "id": "2124262911543546193",
-      "content": "RT @PierrePoilievre: Liberals gave Stellantis hundreds of millions of your tax dollars, supposedly to protect Canadian jobs.\n\nNow they want MORE money to do what they were already paid to do?\n\nBlackmail on top of bribery. https://t.co/HS7Qg16Dde",
-      "date": "2026-11-21T22:05:19.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 209,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 447
-      }
     }
   ],
   "NDP": [
+    {
+      "id": "2125350110284648932",
+      "content": "Ce printemps, les Libéraux ont rejeté notre motion visant à interdire la tarification de surveillance, une pratique inquiétante où des entreprises utilisent vos données personnelles pour vous facturer des prix plus élevés.\n\nNous refusons d’abandonner ce combat. C’est pourquoi le https://t.co/kgdWgWQYHt",
+      "date": "2026-11-24T22:05:28.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 285,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "id": "2125349387480203587",
+      "content": "This spring, the Liberals defeated our motion to ban surveillance pricing — a creepy practice where corporations use your personal data to charge you even more.\n\nBut we refused to give up the fight. That’s why the NDP just introduced a bill to ban surveillance pricing once and https://t.co/Ll8PyQeT7t",
+      "date": "2026-11-24T22:02:35.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 452,
+        "like_count": 25,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 6
+      }
+    },
+    {
+      "id": "2125026423035588690",
+      "content": "RT @avilewis: The Stellantis assembly plant in Brampton is ground zero in the fight for thousands of unionized jobs and the future of the Canadian auto industry.\n \nOur message to Prime Minister Carney is simple: Reverse the sale and save the plant.\n \nWe can’t build a strong Canada while https://t.co/oQPA9LGwkX",
+      "date": "2026-11-24T00:39:14.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 96,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 94
+      }
+    },
     {
       "id": "2124997250728513559",
       "content": "« Je suis profondément préoccupée de voir que, même en ce moment, le gouvernement s'acharne à priver les travailleuses et les travailleurs de leurs droits.\n\nLe projet de loi C-39 vise à retirer aux travailleuses et aux travailleurs leur droit de choisir leurs représentants et https://t.co/9jyPG8kiYK",
@@ -354,48 +393,35 @@
         "reply_count": 0,
         "retweet_count": 5
       }
-    },
-    {
-      "id": "2123549323820695799",
-      "content": "Les Canadiennes et Canadiens paient déjà parmi les factures de téléphone les plus chères au monde, et voilà que Québecor veut racheter Telus et concentrer encore davantage le marché.\n\nLa députée du NPD @JennyKwanBC a interrogé les Libéraux sur leur intention de bloquer la vente, https://t.co/HbOU7l1uPq",
-      "date": "2026-11-19T22:49:47.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 1355,
-        "like_count": 32,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 11
-      }
-    },
-    {
-      "id": "2123549146795876508",
-      "content": "Canadians already have some of the most expensive phone bills in the world, and now Québecor wants to buy Telus and concentrate the market even further.\n\nMP @JennyKwanBC pressed the Liberals on whether they’ll block the sale, but they refused to answer. Is being pro-oligopoly now https://t.co/4FRXsUum1M",
-      "date": "2026-11-19T22:49:04.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 1393,
-        "like_count": 65,
-        "quote_count": 2,
-        "reply_count": 4,
-        "retweet_count": 28
-      }
-    },
-    {
-      "id": "2123183008161415382",
-      "content": "Scarborough! On Friday November 20th, join NDP candidate Kingsley Kwok, @avilewis and special guests for a rally and mass canvass in Scarborough North.   \n\nAfter knocking on doors, join us for a social to get to know Kingsley and your fellow organizers. RSVP today! https://t.co/ebFpkTrMu0",
-      "date": "2026-11-18T22:34:10.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 1072,
-        "like_count": 22,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 3
-      }
     }
   ],
   "BlocQuebecois": [
+    {
+      "id": "2125322338384453854",
+      "content": "Le gouvernement fédéral s’ingère dans les champs de compétence du Québec depuis des décennies. Or, ce sont maintenant les terres mêmes de l’État québécois qu’il pourra s’approprier. Ce délire autoritaire doit cesser! https://t.co/mGmnrGAhj4",
+      "date": "2026-11-24T20:15:06.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 702,
+        "like_count": 31,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 16
+      }
+    },
+    {
+      "id": "2125212840420331825",
+      "content": "« Bâtir le Canada » est le slogan derrière lequel le gouvernement Carney cache tous ses reculs environnementaux : construction de pipelines, évaluations d’impact facultatives, et transfert de pouvoir aux lobbyistes du pétrole et du gaz. https://t.co/1aZpqT3XJD",
+      "date": "2026-11-24T13:00:00.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 833,
+        "like_count": 31,
+        "quote_count": 1,
+        "reply_count": 10,
+        "retweet_count": 18
+      }
+    },
     {
       "id": "2125001454364524958",
       "content": "La société civile fait front commun en faveur de notre projet de loi pour l’équité entre les aînés. Les libéraux doivent les écouter. https://t.co/wBwlL20ehV",
@@ -499,35 +525,35 @@
         "reply_count": 9,
         "retweet_count": 4
       }
-    },
-    {
-      "id": "2123400900785873017",
-      "content": "Avec le projet de loi C-39, le gouvernement Carney se donne le droit de bâtir dans nos parcs nationaux sans respecter les lois environnementales. C'est une dérive centralisatrice et dangereuse pour l’environnement des Québécois. https://t.co/gSUSdJ7EN7",
-      "date": "2026-11-19T13:00:00.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 707,
-        "like_count": 40,
-        "quote_count": 0,
-        "reply_count": 8,
-        "retweet_count": 23
-      }
-    },
-    {
-      "id": "2123151116762259878",
-      "content": "M. Carney a le pouvoir de prendre des décisions politiques qui l’enrichiront par l’entremise de ses actions dans Brookfield. Depuis son arrivée au pouvoir, il a déclenché l’alarme anti-conflits d’intérêts 29 fois. Qu’attend-il donc pour vendre ses actions? https://t.co/j2TXkREMRY",
-      "date": "2026-11-18T20:27:27.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 276,
-        "like_count": 13,
-        "quote_count": 0,
-        "reply_count": 1,
-        "retweet_count": 7
-      }
     }
   ],
   "CanadianGreens": [
+    {
+      "id": "2125260733801812140",
+      "content": "WATCH: “I'm now the leader of a federal political party after not having won my own riding in 2025 - but I’ve heard that’s not a problem, right Pierre? Avi?”\n\nOn Saturday night, Green Party Leader Mike Morrice made his Parliamentary Press Gallery Dinner debut. https://t.co/DN8usdI83A",
+      "date": "2026-11-24T16:10:19.000Z",
+      "metrics": {
+        "bookmark_count": 4,
+        "impression_count": 1996,
+        "like_count": 47,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 11
+      }
+    },
+    {
+      "id": "2125233010312347978",
+      "content": "It's time to meet your Green candidates in the upcoming by-elections!\n\nOur Green candidates are ready to fight for real change: making life more affordable, building a clean, thriving economy, and creating a just Canada for everyone.\n\nIf you want change, #VoteForIt! https://t.co/rmtDjS0xIq",
+      "date": "2026-11-24T14:20:09.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 427,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 4
+      }
+    },
     {
       "id": "2125008999296675841",
       "content": "It's time to meet your Green candidates in the upcoming by-elections!\n\nOur Green candidates are ready to fight for real change: making life more affordable, building a clean, thriving economy, and creating a just Canada for everyone.\n\nIf you want change, #VoteForIt! https://t.co/4x6QbQHfQb",
@@ -631,35 +657,22 @@
         "reply_count": 7,
         "retweet_count": 4
       }
-    },
-    {
-      "id": "2121771235638214774",
-      "content": "Thank you, Avi, from Mike and all of us in the Green Party! We’re excited for the work ahead on our shared priorities to build a better future for all Canadians. https://t.co/CvAxT0lpPk",
-      "date": "2026-11-15T01:04:17.000Z",
-      "metrics": {
-        "bookmark_count": 1,
-        "impression_count": 4781,
-        "like_count": 179,
-        "quote_count": 2,
-        "reply_count": 4,
-        "retweet_count": 26
-      }
-    },
-    {
-      "id": "2121760698707345762",
-      "content": "Tonight is just the beginning! Leader of the Green Party of Canada @morricemike shares his vision for the work ahead. https://t.co/knSSuppP20",
-      "date": "2026-11-15T00:22:25.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 4747,
-        "like_count": 50,
-        "quote_count": 7,
-        "reply_count": 7,
-        "retweet_count": 16
-      }
     }
   ],
   "OurCommons": [
+    {
+      "id": "2125228244219617495",
+      "content": "The #HoC is hiring. \n\n•Communications Advisor\n\nFind out more: https://t.co/Tk1bTJm7FL\n\n#Ottawa #Gatineau https://t.co/vuRV06VSpl",
+      "date": "2026-11-24T14:01:12.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 476,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
     {
       "id": "2124865816772411787",
       "content": "Who gets to speak in the House?\n\nMembers must be recognized by the Speaker before speaking. In practice, party Whips provide lists of Members who wish to speak, but the Speaker makes the final decision on who gets the floor.\n\n#ParliamentBasics https://t.co/kBNf7r7bt1",
@@ -776,22 +789,87 @@
         "reply_count": 5,
         "retweet_count": 39
       }
-    },
-    {
-      "id": "2119807226265133350",
-      "content": "The Dominion Carillonneur Andrea McCrady offers “The Last Post,” a traditional bugle call that remembers and honours the fallen, played on the Peace Tower Carillon. https://t.co/wT58Ui0FqU",
-      "date": "2026-11-09T15:00:01.000Z",
-      "metrics": {
-        "bookmark_count": 17,
-        "impression_count": 4844,
-        "like_count": 146,
-        "quote_count": 5,
-        "reply_count": 2,
-        "retweet_count": 52
-      }
     }
   ],
   "MarkJCarney": [
+    {
+      "id": "2125348287397933328",
+      "content": "Over the last year, we’ve deepened our relationship with Qatar. Today, we built on that momentum with the new Canada-Qatar Foreign Investment Promotion and Protection Agreement.\n\nThis means more investment in Canada, more opportunities for our businesses, and more good jobs here https://t.co/TZcjAfnH6p",
+      "date": "2026-11-24T21:58:13.000Z",
+      "metrics": {
+        "bookmark_count": 3,
+        "impression_count": 12336,
+        "like_count": 231,
+        "quote_count": 4,
+        "reply_count": 69,
+        "retweet_count": 42
+      }
+    },
+    {
+      "id": "2125347088196116711",
+      "content": "Au cours de l’année écoulée, nous avons renforcé nos relations avec le Qatar. Aujourd’hui, nous avons poursuivi sur cette lancée en concluant le nouvel Accord sur la promotion et la protection des investissements étrangers entre le Canada et le Qatar.\n\nCela se traduira par une https://t.co/8dMt3sukVl",
+      "date": "2026-11-24T21:53:27.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 11528,
+        "like_count": 147,
+        "quote_count": 3,
+        "reply_count": 40,
+        "retweet_count": 28
+      }
+    },
+    {
+      "id": "2125303201419411557",
+      "content": "Canada’s strength should be put to work for those who need it most.\n\nSo we’re bringing help, housing, and health care together to end homelessness in Canada within the next decade. https://t.co/gm9X3ppWQN",
+      "date": "2026-11-24T18:59:04.000Z",
+      "metrics": {
+        "bookmark_count": 19,
+        "impression_count": 27387,
+        "like_count": 767,
+        "quote_count": 16,
+        "reply_count": 489,
+        "retweet_count": 155
+      }
+    },
+    {
+      "id": "2125302382867128575",
+      "content": "Il faut mettre la force du Canada au service des gens dans le besoin.\n\nNous regroupons donc les mesures d’aide, le logement et les soins de santé pour mettre fin à l’itinérance au Canada au cours des dix prochaines années. https://t.co/VOsSAj5mv8",
+      "date": "2026-11-24T18:55:48.000Z",
+      "metrics": {
+        "bookmark_count": 2,
+        "impression_count": 14222,
+        "like_count": 211,
+        "quote_count": 3,
+        "reply_count": 67,
+        "retweet_count": 51
+      }
+    },
+    {
+      "id": "2125246938409046432",
+      "content": "Today, Sikhs in Canada and around the world mark the anniversary of the birth of Sri Guru Nanak, the founder of the Sikh faith.\n \nSri Guru Nanak’s teachings of equality, humility, and generosity continue to inspire millions. \n \nMy statement: https://t.co/ZeutfyrLXG",
+      "date": "2026-11-24T15:15:29.000Z",
+      "metrics": {
+        "bookmark_count": 37,
+        "impression_count": 81727,
+        "like_count": 1666,
+        "quote_count": 34,
+        "reply_count": 592,
+        "retweet_count": 183
+      }
+    },
+    {
+      "id": "2125245945042423892",
+      "content": "Aujourd’hui, les sikhs au Canada et dans le monde entier célèbrent l’anniversaire de naissance de Sri Guru Nanak, le fondateur du sikhisme.\n \nLes enseignements de Sri Guru Nanak sur l’égalité, l’humilité et la générosité continuent d’inspirer des millions de personnes.  \n \nMa",
+      "date": "2026-11-24T15:11:33.000Z",
+      "metrics": {
+        "bookmark_count": 7,
+        "impression_count": 22514,
+        "like_count": 575,
+        "quote_count": 4,
+        "reply_count": 132,
+        "retweet_count": 80
+      }
+    },
     {
       "id": "2124998758567927982",
       "content": "Stronger supply chains. Increased cargo capacity. A more reliable trade route.\n\nWe’re upgrading the Port of Sault Ste. Marie — creating good jobs and long-term economic growth throughout Northern Ontario. https://t.co/umMMH16XwQ",
@@ -843,87 +921,113 @@
         "reply_count": 64,
         "retweet_count": 47
       }
-    },
-    {
-      "id": "2124930709039231253",
-      "content": "More opportunities for our businesses, more jobs for our workers, more choices for Canadians. https://t.co/YGQeYaw1Yt",
-      "date": "2026-11-23T18:18:54.000Z",
-      "metrics": {
-        "bookmark_count": 11,
-        "impression_count": 27465,
-        "like_count": 706,
-        "quote_count": 12,
-        "reply_count": 530,
-        "retweet_count": 155
-      }
-    },
-    {
-      "id": "2124929955091939332",
-      "content": "Plus de débouchés pour nos entreprises, plus d’emplois pour nos travailleurs, plus de choix pour les Canadiennes et les Canadiens. https://t.co/4Ucm0ZaFPP",
-      "date": "2026-11-23T18:15:55.000Z",
-      "metrics": {
-        "bookmark_count": 2,
-        "impression_count": 18178,
-        "like_count": 316,
-        "quote_count": 4,
-        "reply_count": 170,
-        "retweet_count": 66
-      }
-    },
-    {
-      "id": "2124891236825788451",
-      "content": "Canada is building big — and we need more skilled trades workers to get it done.\n\nThrough Team Canada Strong, apprentices who get their certification in a Red Seal trade can now get a $5,000 completion bonus.\n\nIf you recently got your Red Seal, you can apply for your bonus today:",
-      "date": "2026-11-23T15:42:04.000Z",
-      "metrics": {
-        "bookmark_count": 312,
-        "impression_count": 187861,
-        "like_count": 1810,
-        "quote_count": 26,
-        "reply_count": 504,
-        "retweet_count": 286
-      }
-    },
-    {
-      "id": "2124891167938470317",
-      "content": "Le Canada bâtit en grand, et il nous faut davantage de travailleurs des métiers spécialisés pour accomplir la tâche.\n\nGrâce à l’initiative Équipe Canada fort, les apprentis qui obtiennent leur certification dans un métier Sceau rouge peuvent maintenant recevoir une prime à la",
-      "date": "2026-11-23T15:41:47.000Z",
-      "metrics": {
-        "bookmark_count": 68,
-        "impression_count": 59490,
-        "like_count": 860,
-        "quote_count": 7,
-        "reply_count": 156,
-        "retweet_count": 135
-      }
-    },
-    {
-      "id": "2124621663077532088",
-      "content": "Nos artistes racontent nos histoires, selon nos propres perspectives, à notre manière.\n\nAu musée d’art He Xiangning, à Shenzhen, j’ai eu la chance de contempler les œuvres créées pour le Marché de nuit asiatique de l'artiste canadien Le Lin. À l'origine exposées dans le quartier https://t.co/wuiAF9yD3r",
-      "date": "2026-11-22T21:50:52.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 32351,
-        "like_count": 499,
-        "quote_count": 6,
-        "reply_count": 138,
-        "retweet_count": 70
-      }
-    },
-    {
-      "id": "2124621270083916084",
-      "content": "Our artists tell our stories, in our own voices, in our own ways.\n\nAt the He Xiangning Art Museum in Shenzhen, I had the chance to see Canadian artist Le Lin’s Asian Night Market prints. Originally shown in Montréal’s Chinatown, Lin’s work is a reminder that our stories resonate https://t.co/tWtdnZrQXr",
-      "date": "2026-11-22T21:49:18.000Z",
-      "metrics": {
-        "bookmark_count": 36,
-        "impression_count": 69525,
-        "like_count": 1076,
-        "quote_count": 12,
-        "reply_count": 161,
-        "retweet_count": 136
-      }
     }
   ],
   "PierrePoilievre": [
+    {
+      "id": "2125304179237552290",
+      "content": "Mark Carney's answer to farmers and families whose land he wants to seize for a $150 billion rail boondoggle: https://t.co/YbyawpiYpL",
+      "date": "2026-11-24T19:02:57.000Z",
+      "metrics": {
+        "bookmark_count": 63,
+        "impression_count": 39454,
+        "like_count": 1010,
+        "quote_count": 18,
+        "reply_count": 140,
+        "retweet_count": 265
+      }
+    },
+    {
+      "id": "2125298327055126979",
+      "content": "Mark Carney wants to increase permanent immigration to record levels.\n\nConservatives say numbers must come down. \n\nGet immigration under control so Canadians can get jobs, homes, and healthcare: https://t.co/4B7OKq6SIm https://t.co/VWJ7HCQDa7",
+      "date": "2026-11-24T18:39:41.000Z",
+      "metrics": {
+        "bookmark_count": 1,
+        "impression_count": 18438,
+        "like_count": 683,
+        "quote_count": 8,
+        "reply_count": 98,
+        "retweet_count": 144
+      }
+    },
+    {
+      "id": "2125296551706718626",
+      "content": "Mark Carney veut augmenter l’immigration permanente pour atteindre des seuils records.\n\nLes conservateurs pensent qu’on doit réduire le nombre d’immigrants.\n\nIl faut reprendre le contrôle de l’immigration pour que les Canadiens puissent trouver un emploi, se loger et avoir accès https://t.co/NzhS4nZbIU",
+      "date": "2026-11-24T18:32:38.000Z",
+      "metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12619,
+        "like_count": 350,
+        "quote_count": 0,
+        "reply_count": 19,
+        "retweet_count": 62
+      }
+    },
+    {
+      "id": "2125273576576278715",
+      "content": "Liberals are setting record-high immigration levels and budgeting more than $2 million a day for refugee health care.\n\nSign to fix the system and put Canadians First: https://t.co/gdOrOQRTjo https://t.co/AwGQv3nngV",
+      "date": "2026-11-24T17:01:20.000Z",
+      "metrics": {
+        "bookmark_count": 13,
+        "impression_count": 20419,
+        "like_count": 701,
+        "quote_count": 4,
+        "reply_count": 71,
+        "retweet_count": 112
+      }
+    },
+    {
+      "id": "2125258119060111408",
+      "content": "It's not an accident. This is their plan.\n\nAnd it is not to serve you.\n\nSign to reject Carney's record immigration increase: https://t.co/4B7OKq6kSO https://t.co/fZtTNrc0nM",
+      "date": "2026-11-24T15:59:55.000Z",
+      "metrics": {
+        "bookmark_count": 48,
+        "impression_count": 29387,
+        "like_count": 2044,
+        "quote_count": 15,
+        "reply_count": 159,
+        "retweet_count": 461
+      }
+    },
+    {
+      "id": "2125246273624191048",
+      "content": "Mark Carney is ramming through a law allowing him to seize your land and give it to corporations for costly taxpayer-funded projects.\n\nFirst up: the $150 billion Alto boondoggle that will cost every Canadian family $10k even though 90% will never use it. \n\nCarney thinks your",
+      "date": "2026-11-24T15:12:51.000Z",
+      "metrics": {
+        "bookmark_count": 59,
+        "impression_count": 31306,
+        "like_count": 1790,
+        "quote_count": 22,
+        "reply_count": 112,
+        "retweet_count": 543
+      }
+    },
+    {
+      "id": "2125246106556571913",
+      "content": "Mark Carney est en train de faire adopter à toute vitesse une loi qui va lui permettre de prendre possession de vos terres et de les céder à des entreprises pour des projets coûteux financés à même vos poches.\n\nSon premier projet : le projet inutile Alto d’une valeur de 150",
+      "date": "2026-11-24T15:12:11.000Z",
+      "metrics": {
+        "bookmark_count": 28,
+        "impression_count": 24162,
+        "like_count": 1231,
+        "quote_count": 13,
+        "reply_count": 67,
+        "retweet_count": 428
+      }
+    },
+    {
+      "id": "2125211348854251781",
+      "content": "Carney’s record-breaking increase in immigration serves one purpose: profit corporate powerbrokers at the expense of the working class. \n\nEnough. Support our motion to get immigration under control: https://t.co/4B7OKq6kSO https://t.co/tyQ5IHeV4j",
+      "date": "2026-11-24T12:54:04.000Z",
+      "metrics": {
+        "bookmark_count": 15,
+        "impression_count": 24194,
+        "like_count": 1107,
+        "quote_count": 13,
+        "reply_count": 135,
+        "retweet_count": 222
+      }
+    },
     {
       "id": "2125017693191332247",
       "content": "Carney Liberals give $2.2 million to the company of the Liberal Minister’s brother for “carbon credits.”\n\nWhat an absolute scam. Your money. Their friends. https://t.co/CVma25NGEx",
@@ -948,110 +1052,6 @@
         "quote_count": 5,
         "reply_count": 56,
         "retweet_count": 133
-      }
-    },
-    {
-      "id": "2124991804537704760",
-      "content": "Avoir des conservateurs à la Chambre des communes donne des résultats pour les Canadiens.\n\nLes libéraux de Mark Carney ont tenté de démanteler l'un des programmes pour les jeunes les plus réussis au Canada.\n\nLes conservateurs les ont dénoncés. Les familles canadiennes se sont https://t.co/Uv3GBI60L9",
-      "date": "2026-11-23T22:21:41.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 10143,
-        "like_count": 242,
-        "quote_count": 0,
-        "reply_count": 8,
-        "retweet_count": 50
-      }
-    },
-    {
-      "id": "2124931661565444159",
-      "content": "Tell your MP to vote to get immigration under control, so Canadians can get homes, jobs, and health care: https://t.co/4B7OKq6kSO https://t.co/9VA5ejdq7c",
-      "date": "2026-11-23T18:22:42.000Z",
-      "metrics": {
-        "bookmark_count": 21,
-        "impression_count": 34823,
-        "like_count": 1685,
-        "quote_count": 5,
-        "reply_count": 123,
-        "retweet_count": 212
-      }
-    },
-    {
-      "id": "2124931568796135502",
-      "content": "Demandez à votre député(e) de voter pour reprendre le contrôle de l’immigration, afin que les Canadiens puissent avoir accès à un logement, à un emploi et aux soins de santé : https://t.co/aUkW7umLCJ https://t.co/MsXtfxW0Rp",
-      "date": "2026-11-23T18:22:19.000Z",
-      "metrics": {
-        "bookmark_count": 5,
-        "impression_count": 19831,
-        "like_count": 506,
-        "quote_count": 5,
-        "reply_count": 22,
-        "retweet_count": 76
-      }
-    },
-    {
-      "id": "2124881668699746665",
-      "content": "Conservative motion to protect jobs, healthcare, and housing for Canadians by stopping Carney's record breaking immigration increases.\n \nSign here if you agree: https://t.co/gdOrOQRltQ https://t.co/aA93rqARvc",
-      "date": "2026-11-23T15:04:02.000Z",
-      "metrics": {
-        "bookmark_count": 20,
-        "impression_count": 36604,
-        "like_count": 871,
-        "quote_count": 15,
-        "reply_count": 108,
-        "retweet_count": 157
-      }
-    },
-    {
-      "id": "2124881617756041488",
-      "content": "Motion conservatrice visant à protéger les emplois, les soins de santé et le logement des Canadiens en mettant fin aux hausses records de l’immigration de Mark Carney.\n\nSignez si vous êtes d’accord : https://t.co/AmLRLrfpIS https://t.co/4cO4CFBbq2",
-      "date": "2026-11-23T15:03:50.000Z",
-      "metrics": {
-        "bookmark_count": 6,
-        "impression_count": 21121,
-        "like_count": 627,
-        "quote_count": 3,
-        "reply_count": 33,
-        "retweet_count": 98
-      }
-    },
-    {
-      "id": "2124716199787274665",
-      "content": "Êtes-vous d’accord avec le plan de Mark Carney visant à porter l’immigration permanente à des niveaux records l’an prochain, ou êtes-vous d’accord avec les conservateurs pour qui il est temps de réduire les seuils d’immigration?\n\nLes députés vont se prononcer sur cette motion https://t.co/ebFKbncQdA",
-      "date": "2026-11-23T04:06:32.000Z",
-      "metrics": {
-        "bookmark_count": 3,
-        "impression_count": 27846,
-        "like_count": 561,
-        "quote_count": 5,
-        "reply_count": 167,
-        "retweet_count": 67
-      }
-    },
-    {
-      "id": "2124682313544167928",
-      "content": "Do you agree with Mark Carney’s plan to increase permanent immigration to record highs next year, or do you agree with Conservatives that it is time to bring numbers down? \n\nMPs will decide when voting on this motion.\n\nSign here if you agree with it: https://t.co/4B7OKq6SIm https://t.co/N56JM2wis3",
-      "date": "2026-11-23T01:51:52.000Z",
-      "metrics": {
-        "bookmark_count": 26,
-        "impression_count": 47091,
-        "like_count": 1536,
-        "quote_count": 24,
-        "reply_count": 319,
-        "retweet_count": 228
-      }
-    },
-    {
-      "id": "2124677530896810440",
-      "content": "RT @strauss_matt: This is the best press conference I’ve ever seen! Bravo, brava. @PierrePoilievre, @MichelleRempel \n\nhttps://t.co/6BT3tfflDa",
-      "date": "2026-11-23T01:32:52.000Z",
-      "metrics": {
-        "bookmark_count": 0,
-        "impression_count": 4797,
-        "like_count": 0,
-        "quote_count": 0,
-        "reply_count": 0,
-        "retweet_count": 232
       }
     }
   ]
