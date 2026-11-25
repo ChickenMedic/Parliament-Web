@@ -30,10 +30,46 @@
     "channel": "Prime Minister of Canada"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "_R7vQEs3IYo",
+    "title": "Carney shuts down Poilievre, says he “did not” discuss $2.3B Telesat deal with “buddy” CEO as PM",
+    "date": "2026-11-25T21:55:22+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/_R7vQEs3IYo/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "JvKSjL0rdIM",
+    "title": "Canada taking responsibility for own defence, Carney says after Pentagon criticism",
+    "date": "2026-11-25T19:38:42+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/JvKSjL0rdIM/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "utO4OVzGXkA",
+    "title": "PM Carney on defence spending, committee review of Bill C-39 – November 25, 2026",
+    "date": "2026-11-25T18:25:25+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/utO4OVzGXkA/hqdefault.jpg",
+    "channel": "CPAC"
+   },
+   {
+    "videoId": "HXxlhubL2qs",
+    "title": "PM Carney responds to Pentagon rebuke of Canada’s defence spending – November 25, 2026",
+    "date": "2026-11-25T17:13:01+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/HXxlhubL2qs/hqdefault.jpg",
+    "channel": "CPAC"
+   }
+  ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "22tpWrcWAes",
+    "title": "LIVE: Liberals vote for record smashing permanent immigration",
+    "date": "2026-11-25T20:54:16+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/22tpWrcWAes/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "JXjQJUUsIJI",
     "title": "Mark Carney wants to expropriate your property for a Liberal boondoggle",
@@ -54,15 +90,23 @@
     "date": "2026-11-24T18:36:00+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/wMsM33Vpvzs/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "QNnqCNsXR2Y",
-    "title": "It's not an accident. This is their plan.",
-    "date": "2026-11-24T16:00:47+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/QNnqCNsXR2Y/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": []
+  "coverage": [
+   {
+    "videoId": "_R7vQEs3IYo",
+    "title": "Carney shuts down Poilievre, says he “did not” discuss $2.3B Telesat deal with “buddy” CEO as PM",
+    "date": "2026-11-25T21:55:22+00:00",
+    "thumbnail": "https://i4.ytimg.com/vi/_R7vQEs3IYo/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "bIvbf8zjJbM",
+    "title": "Poilievre slams “arrogant, authoritarian” land seizure power proposal tied to Alto high-speed rail",
+    "date": "2026-11-25T21:09:26+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/bIvbf8zjJbM/hqdefault.jpg",
+    "channel": "Global News"
+   }
+  ]
  }
 }
