@@ -2626,8 +2626,8 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Public Safety",
   "sponsorRiding": "Scarborough—Guildwood—Rouge Park",
-  "latestActivity": "Referral to committee",
-  "latestActivityDate": "2026-10-22",
+  "latestActivity": "Committee report presented",
+  "latestActivityDate": "2026-11-26",
   "latestActivityChamber": "Senate",
   "committee": {
    "acronym": "SECD",
@@ -2676,6 +2676,18 @@
   "votes": [],
   "media": [
    {
+    "title": "Bill C-22: Senate Keeps Metadata Retention Powers",
+    "source": "iPhone in Canada",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWlAyWUR4OUJiVjBfN1ktT2VCenRlV0NfTU94VE15ZDNCU21sd05OYW1Nd1cwTDl1UkZtazl3T0xNdXNmMHZhMjRpUk9yUVE3aDVZOTFEVzFMUDAwZ3NvN1Myc0dUcTdrOFhoU0dlM2NCTWhjRUtKTklxcG8xSE9WUHNrdjVuR2VnNjNJTFlEWXE?oc=5",
+    "date": "Thu, 26 Nov 2026 18:14:27 GMT"
+   },
+   {
+    "title": "Doubling Down on Metadata: Senate Committee Completes Bill C-22 Review With Limited Changes to Lawful Access",
+    "source": "Michael Geist -",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcFJFZUFfNUNLX3B6QlJnQ0hkU3RUS3JvbUljLWlVRko0M1B4N2ZBb1ZfTHRoSVVpNnJsTThLb2ctVUVCNTFkV2h0TnJNQnNDYmRFVnBCNGk3SldIQ3pZR252SnFwSmpkdlZTbHdKcU40bkU5TGNYNmw0eDljRHZuYlN3X29obnZPODVNdDJ5S2RSaGJDV0NDUHZVYW9XbmhaSzZmd0JWMy1uU1JDYjJfLVFPazVfaFpLTTJHWEtIaEZNQU5ERGtSTDNhaWJLSjY5ZTVJOExkNzBOTGFp?oc=5",
+    "date": "Thu, 26 Nov 2026 14:59:00 GMT"
+   },
+   {
     "title": "The Bill C-22 Surveillance Map: Public Safety Wants Providers to Keep Location Data They Don’t Collect or Retain Today",
     "source": "Michael Geist -",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMVpzbUxDcmR5ZDBxdVR1YTB3ZW9RVGNiZ0lPLXBJSXdndlZNWUt1NlBYNmNiaWI2TVFxbXdSYlJaZGIwUWNLOE9COGdzbGN4Mmt4SG81bWFkOF9OMndkaGRlLTR3RjhYM0g1Z0dhWWFqdkNTQVFjejNkZERCWG01VThUSTdRODlRMFVVZWVuRDNWRzVYd1ZfZTVQLTVpTS0xYWlwejJuSXFCZTdvQ25tSGpPQVU3aE95LUtaencyVzJHWkU1UDhmZDFuS214Zm9PWDJReTgyc3RuclRaM2JxdDRKbVdIV04y?oc=5",
@@ -2698,18 +2710,6 @@
     "source": "Michael Geist -",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWHh6OGVWRkFsVEFTWnp2VV9OTm5VeGJMMjEtV1gzT3MtV216NG9BenJOTnpnaUJ6WVVtTGROSlRGWHFmeDB0cmd2S2xHZjB2cXNvZVBBNXNNeG10WGNUU0x0V0xUTFBVM3oxRkw1ZXdLYmQ5SGJ2VnUyc3hHUDJhOWV1UXltM0MwOXF3SDlBdUNiXzNCSTE1d1VOdkw1a1RTM0U2RHdYaU9ObmhKeGxsU3ZwZFB1R0dGX1I3UG9MU3JBZjE4eHVXeGtfYTR1R0JWYWhFbmRlMTZPV3E4UkFmUW1LNWJLNkNnQnFN?oc=5",
     "date": "Tue, 24 Nov 2026 18:07:21 GMT"
-   },
-   {
-    "title": "Submission to Senate Committee calls for urgent fixes as clock runs out on surveillance proposal, Bill C-22",
-    "source": "Canadian Civil Liberties Association",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUF93M1dtOXowMEpWNktaRVFWa3NzU3djWXB5VGRyQlRMS29OdXJZQUVETXBNS0tZSU5uVFBXNDNocDNDNnVmcWwyQnFtcmtyelBfU1V6TEtkVDRsLTJFOTg5VE8tSVVGd18zOUEyUko0MUQ1NjJwUkpHLXJTSVJud0FCWU4tWVlMVlRqMmtzQ3FhQU9JZ25rLVhZcko5aVFLeWV2OE16REswT2tuWDBzeFlXcFZxZEhvRDEtMG9jb2ZudkxEc1hOcTlhb2E?oc=5",
-    "date": "Tue, 24 Nov 2026 15:57:31 GMT"
-   },
-   {
-    "title": "Windscribe CEO says he would move VPN company out of Canada unless Bill C-22 changes",
-    "source": "Mezha.net",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMjRUa3MwWGlScWZzSkstczRjRHFjZUpERWZPSnNPdm5iRXlaQjRRcW8tRW9HX3EtWlpGeEhNRlNaeGVmNktSakw3RVVCazVTd1RhNkcwLXlpUGRUNVBYa0FKOXE2UXJDdXlwbF9od1AtSm0yZUo0VUFyV0NHalJIUUdmaGU?oc=5",
-    "date": "Tue, 24 Nov 2026 17:13:41 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22",
@@ -3196,7 +3196,7 @@
   "sponsorTitle": "Minister of Transport and Leader of the Government in the House of Commons",
   "sponsorRiding": "Gatineau",
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-10-23",
+  "latestActivityDate": "2026-11-25",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -3561,7 +3561,7 @@
    {
     "key": "houseSecondReading",
     "label": "Second reading (House)",
-    "date": "2026-06-03"
+    "date": null
    },
    {
     "key": "houseThirdReading",
@@ -3978,6 +3978,18 @@
   "votes": [],
   "media": [
    {
+    "title": "Australia passes strict digital safety law.. and comparison with Canadian Bill C-34",
+    "source": "arabcanadanews.ca",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQXZkbkI4WXlUSGRkVHN3OXUtQnV2TWgtYXhmOEY5alNLTlZuZWFJaGRnU2Z6WkVKemtHcGdpeUUyR28xeS0yU2hKejA1cmpxM1Rjc2dGUVBnSTgyWm9tam5kYmYxMV8zZ0RKemQyNFhPeEgyV21rd1ZHeUhMZXF1aEU0aVBNSXhlYmNKbXNDZHpZSlRGdFVzbEsya0djQmRURllVV0l3ZExvMkRQM3RRMDFGelBBYk5HQWc?oc=5",
+    "date": "Thu, 26 Nov 2026 03:09:22 GMT"
+   },
+   {
+    "title": "Conservatives Raise Concerns with Safe Social Media Act - Headline Politics",
+    "source": "CPAC",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZnZoZFpCS05pcExacjVnTnF1WS16b21BekxOdEhjNlE5R2dEaG1XTW9HeHNmcDBFSnZFVGFCUEZYc2tWZEVQV2x6QUhfYnBBZGJoOUEwYVJtWm5hUkpyOEdfZkk1Z3lWUVNmRGlkZndiWjhUUGFqRGNTWkd2eG5WMWMxdlBaZldTWnZpd085cjlTUTl2WDlPY0ZoQW0xbld0aUtoMnpPbFRjVEduakVJQUY1Z3oxSlFneTE5NkRtX29xbldIUV9QVGJwdXJnbzBDYUZEdzV6MU0?oc=5",
+    "date": "Thu, 26 Nov 2026 14:27:22 GMT"
+   },
+   {
     "title": "Civil Liberties Group Warns on Bill C-34 Censorship",
     "source": "Wisevoter",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkxGTm5qSUtFcnRMNG1vejQwZ0M1MV9xdFZRbXpsQkFVelR6bE5qMDUtb0lwRS1TOTZWX0RqZjVaSkx6SXdpRXY5SldOaE53cS1MOTZmZEhFQjN1SjNsX19BSlVuUC1NTUVaTjc1TWd3RTJKNktQbjdlU1Jrb05ERkx2TDZQZlRkbDdSS3ppZmRMcmg0?oc=5",
@@ -4000,18 +4012,6 @@
     "source": "Reclaim The Net",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOUx5b09DVFhhR29ZbVRrd2xjVGF2dkFSVTRlRU1mdVBKRTYtMm4tNTBuRGI1dW5BcjBoR2Nxa0JPRkF0R21qOVQyMzctMGdYSzBJMENjQ2o4R3otemFHS3NYT09kLVA2S2F1Q1ZKaWhYaUlja1h1UWtFNTdPYjJaamRzRQ?oc=5",
     "date": "Mon, 23 Nov 2026 17:14:34 GMT"
-   },
-   {
-    "title": "ALERT: Lawyer warns Bills C-22 and C-34 will erode Canadians’ privacy online",
-    "source": "Juno News",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE54SVpLVkJpbkFhMEhBempjYVBwQnVhcVJrZGxPbVFqckNvc095dXU1RVZOaURocUpFSzVFM0FuX0ZsTi1hdXNLd2IteEsxdWM4OFROUG9nbjNwSHRHSFFQYVhYczRYSExDWWxTRlZxdDUxNFpsTGl0UA?oc=5",
-    "date": "Mon, 23 Nov 2026 16:42:12 GMT"
-   },
-   {
-    "title": "“Addicted to Censoring the Speech of Canadians Like It’s a Cheap Narcotic”: C-34 Critics Unload",
-    "source": "Todayville",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSV9Zekd1cFJJWGZrVWlfWDhmdGJjWFlLTWI1QmlrcURiQy11SkN3bTZFeDBDdUhmS1VCSXJDekpFTXJRX1hDSVl0OERLc1VEcWNXX3R5NVhPbWlnTEVUdzFDR1VMemNMaW5VdDdXMG5jSlJVOElRZy1OekJzODVSVGJnWVI0MFZpQXY1UXNXLXFZMk1FN2JwRExOVWg4d0dDdTBYRnA4VmtZS3NLaXkybjMwMXF6UWt3ZnZud2k2ZFhydExkeXF3?oc=5",
-    "date": "Thu, 19 Nov 2026 08:00:00 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
@@ -4406,7 +4406,7 @@
   "id": "C-39",
   "title": "Building Canada Strong Act",
   "longTitle": "An Act respecting certain measures to strengthen the economy",
-  "status": "At consideration in committee in the House of Commons",
+  "status": "At report stage in the House of Commons",
   "receivedRoyalAssent": false,
   "type": "Government Bill",
   "originatingChamber": "House of Commons",
@@ -4416,8 +4416,8 @@
   "sponsorRole": "Minister",
   "sponsorTitle": "Minister of Transport and Leader of the Government in the House of Commons",
   "sponsorRiding": "Gatineau",
-  "latestActivity": "Second reading and referral to committee",
-  "latestActivityDate": "2026-10-08",
+  "latestActivity": "Committee report presented",
+  "latestActivityDate": "2026-11-25",
   "latestActivityChamber": "House of Commons",
   "committee": {
    "acronym": "CC39",
@@ -4502,40 +4502,40 @@
   ],
   "media": [
    {
-    "title": "Conservatives on Bill C-39, Federal Immigration Policies",
+    "title": "Conservatives to oppose C-39 after Liberals refuse to accept major changes, Poilievre says",
+    "source": "The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU01oYks5N2pQeTZoR3d6MEJxMkFaLTVpa0N0SWpCTmJjUVRGYWpfRHhMVTlGQTRkM2I5YldfQ2VGYTRHdTAteXRWTlc1anlpSVVqbXVaMzVRdFpsZWFUWFJYOEZHTm5JYVBQMmwyd184TEJnUDRqcTVOTXU0TTlFcEhJeTVEQjRzR2FkOGt5NUdqZi1aWnZIellvNHVUcHdtU3hyU3paT1RRVDJLRUE?oc=5",
+    "date": "Thu, 26 Nov 2026 16:47:53 GMT"
+   },
+   {
+    "title": "Call for Diana Fox Carney to Appear at Committee, Bill C-39",
     "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYmViOE9QcllHOGVOTHBEMXNRUnBlU0xXTzMyaFVQemcybHB4clJ1X3ZVSl8yanhoekFONEMyY3VLN2JvRE5Cck1WVGRDVi1pdzEwc0Z6dzgxNGEzcWlKaWF2Y1Q1NzRoUjJudzJxSVN5UVFyeEYtNmdtV0VtRVFHaS1sTjhKQmdON2ZONkhjMW1lUjVsdlA2emVzSVltVnVuNjY2cTcxNnphTGJGa1B6ZFZlRHNxeF85bHZhOHZ0YjUwSTQ0U3ptdS13?oc=5",
-    "date": "Wed, 25 Nov 2026 19:08:59 GMT"
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1pKYjFocU45NEY4QWNVallkZkpBcXFKTHBqSGVYaXN5b1hkWUgtaF8xWHd0QVVlcEVRcjlsNFYxQ1Z1TllYZ0JhQTBUU2xHY291TzJCR0tpVjc3U1ZHODVyRHRHQ1k3UWlvcHcxUlNHX0p4YnhiR3dGeDM3YmRCZ0pWRjhrLTV0ajFleXZWWmx4MmJ3dG40enVWajRxZjJ0RXhUNlFDN2pkN0pkMWtaRktWOWlPbm56NDJmdVFjYWtVS1pCSEhXMDNaQlVCdw?oc=5",
+    "date": "Thu, 26 Nov 2026 21:40:31 GMT"
    },
    {
-    "title": "Push(ing) Back Against Bill C-5 and Bill C-39",
-    "source": "- The McGill Daily",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTllvM1J0TTdySm8tMDM5R1MwR2lWV0JhQXloNW41RW8zZ2lTbTV2SDJFSHc5Wm03WHlac2dfTWZTbGxNeWFTZEVSdkd6VTQ5a3pvU1FfNEZRNE5Ud2NjUDh6QmhrRk1nV3Vya3F2OHBmaGs1N01TbjUyQXdGeWdLaHgyYTRING8?oc=5",
-    "date": "Wed, 25 Nov 2026 13:03:59 GMT"
+    "title": "Committee changes to Bill C-39 leave unions, HR groups unconvinced",
+    "source": "Canadian HR Reporter",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY3ZRTmVFbDBRcWdNcl9YeWRJSTlnbWVYU2ZSbHJIbVFzaEdJel84UEotXzR1bXBGeW1wby1DdURVQ3V2Ui0zNUhSTnY2VzhITm9wcF92cWxlMXpWcERXUExlM1p6b1hUTmdocmhOS2dIcVBPT0N5MVlyVzBQb3ZXRDk5dU9IblRkay1pMS1JTlhRMklnUDBmZEd1LXdpTDZ2bFRTbjhEVHRZenBEUHpscm13?oc=5",
+    "date": "Thu, 26 Nov 2026 13:55:00 GMT"
    },
    {
-    "title": "PM Carney on Defence Spending, Committee Review of Bill C-39",
-    "source": "CPAC",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN3JRVmNwU1cxNlZTR0JUSWdpcWpCelBoMUtHRmRFUmxMT3oyS2thd21DamF5SkJRWk9POWk2dHZHMEpCZkVMejhidmMzdlQ2ay04aDRQSEJaUE1Id3U2WFdJY1kzX1BVTldCelQzYXNKa25xUVNCXzdaZWZzUHRNc21DaTBmcFBtMllSb0drTmNfdFQxb0JYbUUxaXVOUm9MamtWZ01vOGV2TlpRTXRkY2JrOXNwTDlmcElTVzNCNW1CeWJZZjZaYmtBMVJMalE?oc=5",
-    "date": "Wed, 25 Nov 2026 17:40:14 GMT"
+    "title": "Labour group says Bill C-39 changes fail to protect workers' right to strike",
+    "source": "CTV News",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeEJDOWhJaFJMdEY2SHNzd3NZOFpYekJwSEh2N0lnWkRqS1piSFUtcmI2TEQ1RkdYYnE0T3pYRENmaW1odG8wejFHR0pvZjhTUlducHVOZkFSLXk1NXNsY2FQLUZzb2M5UTVzbVJ3NUZzZ3piSDdvUEFXSmxOLXJKWmVZLVo2QmpoaHFfUmliTk9kd0VJOE5UcHpuUVR6bllXdVdPZHpUTUROMzdqcXJQcm5LQ0Y0d0E?oc=5",
+    "date": "Thu, 26 Nov 2026 19:14:48 GMT"
    },
    {
-    "title": "Indigenous witnesses speak before senate committee studying Bill C-39",
-    "source": "APTN News",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUlFibTEtSllZZWY1YjlJdWNTSDZlb1FzMlpsZ2I0Mkg5VGFCTm1Od2EyTWVQNWwyREcxbXN6QVQ5TnNOY3FuNmR4UHpTc2NPMzJRaFRIUE10VHp4MFFXWjlaRlpJc0NxNFhLemFWU3NJazNRcFRwRm0yUzNuUmNKVU5oanNrLXFNdHMwMUpsdHU0OGt2ck04bmpBbU15QWdaTjNF?oc=5",
-    "date": "Wed, 25 Nov 2026 01:04:30 GMT"
+    "title": "Labour group says Bill C-39 changes fail to protect workers’ right to strike",
+    "source": "Toronto Star",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQWk83WkpRbnN5SDQtNzJKLVJQYjNTbUkwSlE1UGkxSnJrYWJQZFZlbldzRlhMX21xTW0tR1BSZkJ3anBhWnNSZXRCMTY5R1BSakZ3ODZiYkszXzNQbDFON3FKTE8xbDA2dHBuY0JYWXV4NGJpdFhMcjJtS3ZWU3V5M1U5UFY0ZTZlbVhxM3U0Qml0SGxqczVxblJ0d3hjVUpGZ1p1bDdJMTZGV0tuM3NQeGE1a1dURFIxS2hWUEx3Rjd3VmNkUzczOWVCdUxoOUdyMG9yMmQtREZ5TExFcmo5NDREaDhDcjhpbFAyVkkzWFlmZS1GMWxsUXJB?oc=5",
+    "date": "Thu, 26 Nov 2026 18:43:37 GMT"
    },
    {
-    "title": "Kingston climate activists challenge Liberal support for controversial Bill C-39",
-    "source": "YGK News",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcWJFTEFHMThHc1ZZdGR5NnlJREQ4dVlfSm1Jb1IxaWdxUkpLdURXWURiRkZ6aW5CVWlhZG1ZV0g3dGpKVWdjOGx6cktyMVRwYzFDZ3pHUU5xZXo5WkluXzFETHBibFRxVUNWUVpMa0NNb2Nfc2M1ZDFHYWFYVWdzR2RBcmlOUERoTmFJR1ptcGpyQl9rUDFOQm05c0VwQ3ZmQWhKT19TbjZrREljc3l1Z9IBtgFBVV95cUxPTngyYW9HdTNiaXNyV19YdzBLN1U0SXBBYkRVWVo0cDhXeDUxWU5ZVzdpRVd1X3c0YkFvdWFKdmVHeXA3bXRFOTNYc3hSUGxwekRLMFh2R0RrV3Z1TTZ1Yl9vRS1nTC0wTTVhb29YaGNaRjF2ZkF4aGI2UE9LSy0teHl4bGk0RlRkN1pfUi11REcwRTZlMHoxTlBxdjl0RlpwR2hWcnFad3hLZ0VQZzM0ZW5rbDFEdw?oc=5",
-    "date": "Wed, 25 Nov 2026 04:52:34 GMT"
-   },
-   {
-    "title": "Environmental review and C-39",
-    "source": "The Review Newspaper",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85a29vdEpTUnZUdE1rR21PZXBBbl90TG9meVhMVG5SUi1KZzM5M2Zsai1OUUFlRzJ5eUdoZkJCV0pGdjdHZVMyT0F5R1hFMEc0Y0VUbTU0ekZZbE5rdE1fcEliQjZpNWlnZE1jTTNnUQ?oc=5",
-    "date": "Wed, 25 Nov 2026 09:57:50 GMT"
+    "title": "Wet’suwet’en and Gitxsan hereditary leaders speak against Bill C-39 and “regions of national interest” at Senate hearing in Ottawa",
+    "source": "Peace Brigades International-Canada",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeHd5RzRPSkIzSm9XbXV5OUZSbVlnRXU4cHlSZ3cxSWV0NFhIV1hDb3A5NjhFeVVneDVLejJaN3RQMVJqUlZncnZQQkJlS0tzQUtUWjFYZGZLQmQxcmdTRHQ2VEVtOXd6LVctVWxqTU9sT0FhRWxIZGlGclRRTk5EeFRLRVljVWF0TWUxSEQ1YlJfWnJta0VrZFNZRHN1QlR2N1RfMzEwQVNaOTNnY0t4UndQaXFWWFpEMk14cGR1UjJXWDJXZFNUR0dQOGVQaUFzQTRabHl4Q1pvZmsyZXVEYWExSnQxRzZZRTJJ?oc=5",
+    "date": "Thu, 26 Nov 2026 12:07:47 GMT"
    }
   ],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
@@ -4851,6 +4851,67 @@
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-42",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-42/as-passed-by-the-house-of-commons"
+ },
+ {
+  "id": "C-43",
+  "title": "Budget 2026 Implementation Act, No. 1",
+  "longTitle": "An Act to implement certain provisions of the budget tabled in Parliament on November 5, 2026",
+  "status": "At second reading in the House of Commons",
+  "receivedRoyalAssent": false,
+  "type": "Government Bill",
+  "originatingChamber": "House of Commons",
+  "category": "Finance",
+  "sponsor": "Hon. François-Philippe Champagne",
+  "sponsorParty": "Liberal",
+  "sponsorRole": "Minister",
+  "sponsorTitle": "Minister of Finance and National Revenue",
+  "sponsorRiding": "Saint-Maurice—Champlain",
+  "latestActivity": "Introduction and first reading",
+  "latestActivityDate": "2026-11-26",
+  "latestActivityChamber": "House of Commons",
+  "committee": null,
+  "stages": [
+   {
+    "key": "houseFirstReading",
+    "label": "First reading (House)",
+    "date": "2026-11-26"
+   },
+   {
+    "key": "houseSecondReading",
+    "label": "Second reading (House)",
+    "date": null
+   },
+   {
+    "key": "houseThirdReading",
+    "label": "Third reading (House)",
+    "date": null
+   },
+   {
+    "key": "senateFirstReading",
+    "label": "First reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateSecondReading",
+    "label": "Second reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "senateThirdReading",
+    "label": "Third reading (Senate)",
+    "date": null
+   },
+   {
+    "key": "royalAssent",
+    "label": "Royal Assent",
+    "date": null
+   }
+  ],
+  "partyPositions": null,
+  "votes": [],
+  "media": [],
+  "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-43",
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-43/first-reading"
  },
  {
   "id": "S-2",
@@ -5323,10 +5384,15 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-11-17",
+  "latestActivity": "Referral to committee",
+  "latestActivityDate": "2026-11-26",
   "latestActivityChamber": "Senate",
-  "committee": null,
+  "committee": {
+   "acronym": "BANC",
+   "name": "Standing Senate Committee on Banking, Commerce and the Economy",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/BANC"
+  },
   "stages": [
    {
     "key": "senateFirstReading",
@@ -6729,7 +6795,7 @@
   "id": "C-221",
   "title": "An Act to amend the Corrections and Conditional Release Act (disclosure of information to victims)",
   "longTitle": "An Act to amend the Corrections and Conditional Release Act (disclosure of information to victims)",
-  "status": "At third reading in the House of Commons",
+  "status": "House of Commons bill awaiting first reading in the Senate",
   "receivedRoyalAssent": false,
   "type": "Private Member’s Bill",
   "originatingChamber": "House of Commons",
@@ -6739,9 +6805,9 @@
   "sponsorRole": "Member of Parliament",
   "sponsorTitle": null,
   "sponsorRiding": "Kamloops—Shuswap—Central Rockies",
-  "latestActivity": "Debate at third reading",
-  "latestActivityDate": "2026-11-24",
-  "latestActivityChamber": "House of Commons",
+  "latestActivity": "First reading",
+  "latestActivityDate": "2026-11-26",
+  "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
    {
@@ -6757,7 +6823,7 @@
    {
     "key": "houseThirdReading",
     "label": "Third reading (House)",
-    "date": null
+    "date": "2026-11-25"
    },
    {
     "key": "senateFirstReading",
@@ -6780,8 +6846,44 @@
     "date": null
    }
   ],
-  "partyPositions": null,
-  "votes": [],
+  "partyPositions": {
+   "parties": {
+    "Conservative": {
+     "vote": "Yes",
+     "disagreement": 0.0
+    },
+    "Liberal": {
+     "vote": "Yes",
+     "disagreement": 0.0
+    },
+    "Bloc": {
+     "vote": "Yes",
+     "disagreement": 0.0
+    },
+    "NDP": {
+     "vote": "Yes",
+     "disagreement": 0.0
+    },
+    "Green": {
+     "vote": "Yes",
+     "disagreement": 0.0
+    }
+   },
+   "basedOn": "3rd reading and adoption of Bill C-221, An Act to amend the Corrections and Conditional Release Act (disclosure of information to victims)",
+   "voteDate": "2026-11-25",
+   "voteResult": "Passed",
+   "voteUrl": "https://openparliament.ca/votes/45-1/206/"
+  },
+  "votes": [
+   {
+    "number": 206,
+    "date": "2026-11-25",
+    "description": "3rd reading and adoption of Bill C-221, An Act to amend the Corrections and Conditional Release Act (disclosure of information to victims)",
+    "result": "Passed",
+    "yea": 329,
+    "nay": 0
+   }
+  ],
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-221",
   "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-221/as-passed-by-the-house-of-commons"
@@ -9933,7 +10035,7 @@
   "sponsorTitle": null,
   "sponsorRiding": "Vallée-du-Haut-Saint-Laurent",
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-06-03",
+  "latestActivityDate": "2026-11-25",
   "latestActivityChamber": "House of Commons",
   "committee": null,
   "stages": [
@@ -12425,7 +12527,7 @@
   "votes": [],
   "media": [],
   "link": "https://www.parl.ca/legisinfo/en/bill/45-1/c-298",
-  "text_link": null
+  "text_link": "https://www.parl.ca/DocumentViewer/en/45-1/bill/c-298/first-reading"
  },
  {
   "id": "S-201",
@@ -12569,7 +12671,7 @@
   "sponsorTitle": null,
   "sponsorRiding": null,
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-02-05",
+  "latestActivityDate": "2026-11-26",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
@@ -12884,7 +12986,7 @@
   "sponsorTitle": null,
   "sponsorRiding": null,
   "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-02-05",
+  "latestActivityDate": "2026-11-26",
   "latestActivityChamber": "Senate",
   "committee": null,
   "stages": [
@@ -15631,10 +15733,15 @@
   "sponsorRole": "Senator",
   "sponsorTitle": null,
   "sponsorRiding": null,
-  "latestActivity": "Debate at second reading",
-  "latestActivityDate": "2026-11-24",
+  "latestActivity": "Referral to committee",
+  "latestActivityDate": "2026-11-26",
   "latestActivityChamber": "Senate",
-  "committee": null,
+  "committee": {
+   "acronym": "RIDR",
+   "name": "Standing Senate Committee on Human Rights",
+   "chamber": "House of Commons",
+   "url": "https://www.ourcommons.ca/committees/en/RIDR"
+  },
   "stages": [
    {
     "key": "senateFirstReading",
