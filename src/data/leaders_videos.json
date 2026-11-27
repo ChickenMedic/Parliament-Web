@@ -32,23 +32,51 @@
   ],
   "coverage": [
    {
-    "videoId": "y42ryW_G6ZI",
-    "title": "MPs comment on call for Diana Fox Carney to appear at committee, Bill C-39 – November 26, 2026",
-    "date": "2026-11-26T21:28:08+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/y42ryW_G6ZI/hqdefault.jpg",
+    "videoId": "1qUqMHnCllA",
+    "title": "Carney announces Mackenzie Valley Highway designated as project of national interest",
+    "date": "2026-11-27T21:30:26+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/1qUqMHnCllA/hqdefault.jpg",
+    "channel": "Global News"
+   },
+   {
+    "videoId": "NLqsW9kixdI",
+    "title": "PM Carney deems Mackenzie Valley Highway as a project of national interest – November 27, 2026",
+    "date": "2026-11-27T19:27:43+00:00",
+    "thumbnail": "https://i3.ytimg.com/vi/NLqsW9kixdI/hqdefault.jpg",
     "channel": "CPAC"
    },
    {
-    "videoId": "bq-xEWEbOK4",
-    "title": "PM Mark Carney on agricultural trade and upcoming Yorkton–Melville byelection – Nov. 26, 2026",
-    "date": "2026-11-26T21:15:42+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/bq-xEWEbOK4/hqdefault.jpg",
-    "channel": "CPAC"
+    "videoId": "0rJFLYJF2Ds",
+    "title": "Carney holds news conference in Yellowknife",
+    "date": "2026-11-27T19:20:53+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/0rJFLYJF2Ds/hqdefault.jpg",
+    "channel": "CBC News"
+   },
+   {
+    "videoId": "-inR8sTRPV8",
+    "title": "Carney responds after top court upholds most of Quebec's secularism law",
+    "date": "2026-11-27T16:40:15+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/-inR8sTRPV8/hqdefault.jpg",
+    "channel": "CBC News"
    }
   ]
  },
  "opposition": {
   "own": [
+   {
+    "videoId": "lkzkCmKn1K8",
+    "title": "Turn paper into projects",
+    "date": "2026-11-27T04:53:30+00:00",
+    "thumbnail": "https://i1.ytimg.com/vi/lkzkCmKn1K8/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
+   {
+    "videoId": "qsgHlUP-5JM",
+    "title": "Il faut convertir les papiers en projets.",
+    "date": "2026-11-27T02:32:41+00:00",
+    "thumbnail": "https://i2.ytimg.com/vi/qsgHlUP-5JM/hqdefault.jpg",
+    "channel": "Pierre Poilievre"
+   },
    {
     "videoId": "qkvB-eV2t-A",
     "title": "Les conservateurs se battent pour assurer votre sécurité.",
@@ -62,44 +90,8 @@
     "date": "2026-11-26T18:39:16+00:00",
     "thumbnail": "https://i4.ytimg.com/vi/7uJSSxXKZlo/hqdefault.jpg",
     "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "eqZIA0upHCk",
-    "title": "Il faut tasser le gouvernement du chemin et protéger les emplois canadiens.",
-    "date": "2026-11-26T14:26:03+00:00",
-    "thumbnail": "https://i2.ytimg.com/vi/eqZIA0upHCk/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
-   },
-   {
-    "videoId": "G4swGWvU40M",
-    "title": "LIVE: Get government out of the way, save Canadian jobs",
-    "date": "2026-11-26T13:47:49+00:00",
-    "thumbnail": "https://i4.ytimg.com/vi/G4swGWvU40M/hqdefault.jpg",
-    "channel": "Pierre Poilievre"
    }
   ],
-  "coverage": [
-   {
-    "videoId": "23Z4WZfo2wc",
-    "title": "Alberta nurse who treated CFB Wainwright victims may lose job over a photo with Poilievre",
-    "date": "2026-11-26T16:47:54+00:00",
-    "thumbnail": "https://i3.ytimg.com/vi/23Z4WZfo2wc/hqdefault.jpg",
-    "channel": "Global News"
-   },
-   {
-    "videoId": "t2CxbPoyjaw",
-    "title": "Pierre Poilievre: Conservatives will vote “no” on Bill C-39 – November 26, 2026",
-    "date": "2026-11-26T15:46:23+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/t2CxbPoyjaw/hqdefault.jpg",
-    "channel": "CPAC"
-   },
-   {
-    "videoId": "8VHTNQC_Yxk",
-    "title": "Poilievre takes questions from journalists",
-    "date": "2026-11-26T13:53:09+00:00",
-    "thumbnail": "https://i1.ytimg.com/vi/8VHTNQC_Yxk/hqdefault.jpg",
-    "channel": "CBC News"
-   }
-  ]
+  "coverage": []
  }
 }
